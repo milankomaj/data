@@ -10,8 +10,9 @@ jobs:
  steps:  
     - uses: actions/checkout@v1
     - name: Get
-    uses: actions/checkout@v1
-    - name: Run
+    shell: bash
+    with:
+    password: ${{ secrets.ACCESS_TOKEN }}
     run: |
     bash ${GITHUB_WORKSPACE}/.github/test.sh
 
