@@ -1,15 +1,1 @@
-name: TEST
-on:
 
-  workflow_dispatch:
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    defaults:
-    run:
-    shell: bash
-    working-directory: scripts
-    - name: tt
-      run: bash test.sh
-      
