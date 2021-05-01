@@ -12,9 +12,9 @@ jobs:
     - name: Get
       shell: bash
 
-  run: |
-      chmod +x "${GITHUB_WORKSPACE}/.github/test.sh"
-      ${GITHUB_WORKSPACE}/.github/test.sh
+  run: ${GITHUB_WORKSPACE}/.github/test.sh
+      
+      
 
 
    
