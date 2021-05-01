@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:  
     - name: tt
-      run: "${GITHUB_WORKSPACE}/test.sh"
+      run: "test.sh"
       
       
 
