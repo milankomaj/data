@@ -7,9 +7,11 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
- steps:   
-    - name: Get
+ steps:  
     - uses: actions/checkout@v1
+    - name: Get
+    uses: actions/checkout@v1
+    - name: Run
     run: |
     bash ${GITHUB_WORKSPACE}/.github/test.sh
 
