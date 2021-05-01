@@ -5,7 +5,11 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:  
+    steps:
+    defaults:
+    run:
+    shell: bash
+    working-directory: scripts
     - name: tt
-      run: ./test.sh
+      run: bash test.sh
       
