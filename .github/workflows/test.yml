@@ -9,10 +9,9 @@ jobs:
     runs-on: ubuntu-latest
 
 
-
+- name: Get
 - uses: actions/checkout@v1
+  run: bash ./test.sh
 
 
-  run: |
-    ./test.sh
    
