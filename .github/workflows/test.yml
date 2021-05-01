@@ -7,12 +7,12 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
- steps:  
+    steps:  
     - uses: actions/checkout@v1
     - name: Get
-    shell: bash
+      shell: bash
 
-    run: |
+  run: |
       chmod +x "${GITHUB_WORKSPACE}/.github/test.sh"
       ${GITHUB_WORKSPACE}/.github/test.sh
 
