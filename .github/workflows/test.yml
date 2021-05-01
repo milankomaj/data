@@ -1,15 +1,16 @@
-name: run-script
-on: push
-workflow_dispatch:
+name: TEST
+on:
+  workflow_dispatch:
 jobs:
-run:
-runs-on: ubuntu-latest
-steps:
-- uses: actions/checkout@v1
-- name: script
-run:|
-    
-    chmod +x "${GITHUB_WORKSPACE}/.github/test.sh"
+  build:
+    runs-on: ubuntu-latest
 
-    
-    "${GITHUB_WORKSPACE}/.github/test.sh"
+
+steps:
+- name: Set
+- uses: actions/checkout@v1
+
+- name: Run a multi-line script
+  run: |
+    ./test.sh
+   
