@@ -7,7 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:  
     - name: tt
-      run: ${github.workspace}/test.sh
+      git config --global user.email "milankomaj+Github@gmail.com"
+      git config --global user.name " milankomaj"
+      run: ./test.sh
       
       
 
