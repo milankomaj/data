@@ -11,7 +11,8 @@ jobs:
 
 - name: Get
 - uses: actions/checkout@v1
-  run:  bash ${GITHUB_WORKSPACE}/.github/test.sh
+  run: |
+  bash ${GITHUB_WORKSPACE}/.github/test.sh
 
 
    
