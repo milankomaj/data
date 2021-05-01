@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:  
     - name: tt
-      run: "test.sh"
+      run: .test.sh
       
       
 
