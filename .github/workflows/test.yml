@@ -8,8 +8,8 @@ steps:
 - uses: actions/checkout@v1
 - name: script
 run:|
-    # make file runnable, might not be necessary
+    
     chmod +x "${GITHUB_WORKSPACE}/.github/test.sh"
 
-    # run script
+    
     "${GITHUB_WORKSPACE}/.github/test.sh"
