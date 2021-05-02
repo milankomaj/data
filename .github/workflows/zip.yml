@@ -1,8 +1,9 @@
 name: MasterDeployCI
 on:
+  workflow_dispatch:
   push:
     branches:
-      - master
+      - out
 jobs:
   build:
     runs-on: ubuntu-latest
