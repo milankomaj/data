@@ -9,6 +9,8 @@ jobs:
       fail-fast: false
       max-parallel: 2
     steps:
+      - name: Display the path
+        run: echo ${env:PATH}
       - name: Checkout
         uses: actions/checkout@v2
       - name: Install Dependencies
