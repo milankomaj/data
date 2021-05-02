@@ -17,4 +17,5 @@ jobs:
         run: cd script
       - name: Run Npm gh
         run: npm run gh       
-
+      - name: git
+        run: git add -A  
