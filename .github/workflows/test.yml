@@ -2,15 +2,23 @@ name: process
 on:
   workflow_dispatch:
 jobs:
-  build:
-    runs-on: windows-latest
-    name: Node sample
+  grab:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    strategy:
+      fail-fast: false
+      max-parallel: 2
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install Dependencies
+        run: npm install
+      - name: Run Npm gh
+        run: npm run gh       
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
-          node-version: '14'
-          architecture: 'x64' # optional, x64 or x86. If not specified, x64 will be used by default
-      - run: npm install
-      - run: npm gh
+          branch: out
+          folder: "./script"
+          clean: false
 
