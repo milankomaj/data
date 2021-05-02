@@ -1,4 +1,4 @@
-name: auto-update
+name: process
 on:
   workflow_dispatch:
 jobs:
@@ -19,5 +19,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           branch: main
-          folder: script/
+          folder: .script/
           clean: false
