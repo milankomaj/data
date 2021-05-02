@@ -13,12 +13,13 @@ jobs:
         uses: actions/checkout@v2
       - name: Install Dependencies
         run: npm install
-
+      - name: CD
+        run: cd script
       - name: Run Npm gh
         run: npm run gh       
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           branch: main
-          folder: '/test/script'
+          folder: script
           clean: false
