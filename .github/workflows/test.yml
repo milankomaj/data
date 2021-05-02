@@ -1,8 +1,6 @@
 name: process
 on:
   workflow_dispatch:
-paths:
- - 'script'
 jobs:
   grab:
     runs-on: ubuntu-latest
