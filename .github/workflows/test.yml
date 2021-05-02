@@ -17,9 +17,4 @@ jobs:
         run: cd script
       - name: Run Npm gh
         run: npm run gh       
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.1
-        with:
-          branch: main
-          folder: "./script"
-          clean: false
+
