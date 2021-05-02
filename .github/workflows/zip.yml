@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: cd
-      run: cd script
+      run: ls
     - uses: actions/checkout@v1
     - name: Zip Folder
       run: zip -r release.zip . -x ".git/*" ".github/*"
