@@ -1,5 +1,4 @@
-on: [repository_dispatch]
-   
+on: [repository_dispatch] 
 jobs:      
   hello-world-script:  
     runs-on: windows-latest
@@ -8,7 +7,3 @@ jobs:
     - name: Run PowerShell Hello World script
       if: github.event.action == 'script'  
       run: pwsh -command ".\$GITHUB_WORKSPACE\script\Hello-World.ps1"
-      
-        
-
-        
