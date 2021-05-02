@@ -1,17 +1,20 @@
-name: MasterDeployCI
+name: cd
+
 on:
-  workflow_dispatch:
-  push:
-    branches:
-      - out
+ workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-    - name: cd
-      run: ls
-    - uses: actions/checkout@v1
-    - name: Zip Folder
-      run: zip -r release.zip . -x ".git/*" ".github/*"
-    - name: Release to Github
-      run: echo "Release"
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Experiment
+      run: |
+        pwd             # /home/runner/work/try/try
+        mkdir hello
+        cd hello
+        pwd             # /home/runner/work/try/try/hello
+
