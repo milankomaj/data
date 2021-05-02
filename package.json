@@ -13,7 +13,7 @@
     "asnTest": "merge-convert --pattern ./test.csv --keyBy asn --outputTo ./asn.json",
     "merge": "merge-convert --pattern ./vystup/Clear.csv --outputTo ./vystup/Clear.json",
     "asn": "merge-convert --pattern ./vystup/Clear.csv --keyBy asn --outputTo ./vystup/ClearAsn.json",
-    "gh": "merge-convert --pattern script/test.csv --keyBy asn --outputTo script/asn.json"
+    "gh": "merge-convert --pattern test.csv --keyBy asn --outputTo asn.json"
   },
   "dependencies": {
     "merge-convert-csv-to-json": "^1.1.0"
