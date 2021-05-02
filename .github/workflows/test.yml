@@ -13,8 +13,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Install Dependencies
         run: npm install
-      - name: Run Npx merge
-        run: npx merge-convert --pattern script/test.csv --keyBy asn --outputTo script/asn.json
+
       - name: Run Npm gh
         run: npm run gh       
       - name: Deploy to GitHub Pages
