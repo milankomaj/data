@@ -18,11 +18,7 @@ jobs:
       - name: Run Npm gh-asn
         run: npm run gh-asn
       - name: Run Npm gh-od-do
-        run: npm run gh-od-do
-      - name: comand mkdir
-        run: mkdir data
-      - name: comand cd      
-        run: cd data        
+        run: npm run gh-od-do     
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
