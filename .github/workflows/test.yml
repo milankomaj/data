@@ -11,6 +11,7 @@ jobs:
     steps:
       - name: Display the path
         run: echo ${env:PATH}
+        shell: bash
       - name: Checkout
         uses: actions/checkout@v2
       - name: Install Dependencies
