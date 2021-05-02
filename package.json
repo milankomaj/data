@@ -5,15 +5,9 @@
   "license": "MIT",
   "author": "milankomaj",
   "scripts": {
-    "NpmInstall": "npm install --save",
-    "fileTest": "node test.js",
-    "run": "node run.js > output.json",
-    "qvery": "node qvery.js",
-    "mergeTest": "merge-convert --pattern ./test.csv --outputTo ./rs.json",
-    "asnTest": "merge-convert --pattern ./test.csv --keyBy asn --outputTo ./asn.json",
-    "merge": "merge-convert --pattern ./vystup/Clear.csv --outputTo ./vystup/Clear.json",
-    "asn": "merge-convert --pattern ./vystup/Clear.csv --keyBy asn --outputTo ./vystup/ClearAsn.json",
-    "gh": "merge-convert --pattern ./script/test.csv --keyBy asn --outputTo ./script/asn.json"
+    "gh-merge": "merge-convert --pattern ./data/Clear.csv --outputTo ./data/Clear.json",
+    "gh-asn": "merge-convert --pattern ./data/AsnIsp.csv --keyBy asn --outputTo ./data/ClearAsn.json",
+    "gh-od-do": "merge-convert --pattern ./data/Clear.csv --keyBy od-do --outputTo ./data/ClearIpRange.json"
   },
   "dependencies": {
     "merge-convert-csv-to-json": "^1.1.0"

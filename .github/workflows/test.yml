@@ -13,12 +13,16 @@ jobs:
         uses: actions/checkout@v2
       - name: Install Dependencies
         run: npm install
-      - name: Run Npm gh
-        run: npm run gh       
+      - name: Run Npm gh-merge
+        run: npm run gh-merge
+      - name: Run Npm gh-asn
+        run: npm run gh-asn
+      - name: Run Npm gh-od-do
+        run: npm run gh-od-do                          
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           branch: out
-          folder: "./script"
+          folder: ./data/
           clean: false
 
