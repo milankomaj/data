@@ -15,9 +15,11 @@ jobs:
         run: npm install
       - name: Run Npx merge
         run: npx merge-convert --pattern script/test.csv --keyBy asn --outputTo script/asn.json
+      - name: Run Npm gh
+        run: npm run gh       
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           branch: main
-          folder: .script
+          folder: 'script'
           clean: false
