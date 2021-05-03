@@ -1,18 +1,18 @@
 name: artifact
 on:
   workflow_dispatch:
-job1:
+jobs:
+ jobs1:
   runs-on: ubuntu-latest
   steps:
   - uses: actions/checkout@v1
   - run: mkdir -p artifactU
   - run: echo hello > artifactU/world.txt
-  - uses: actionsU/upload-artifact@v2
+  - uses: actions/upload-artifact@v2
     with:
       name: hello-world-artifact
       path: artifactU/world.txt
-
-job2:
+ jobs2:
   runs-on: ubuntu-latest
   steps:
   - run: mkdir -p artifactD
@@ -21,3 +21,4 @@ job2:
       name: hello-world-artifact
       path: artifactD/world.txt
   - run: cat artifactD/world.txt
+
