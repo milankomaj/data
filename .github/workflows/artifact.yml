@@ -6,19 +6,12 @@ jobs:
   runs-on: ubuntu-latest
   steps:
   - uses: actions/checkout@v1
-  - run: mkdir -p artifactU
-  - run: echo hello > artifactU/world.txt
+  - run: |	
+      mkdir -p ~/new/artifact
+      echo hello > ~/new/artifact/world.txt
   - uses: actions/upload-artifact@v2
-    with:
-      name: hello-world-artifact
-      path: artifactU/world.txt
- jobs2:
-  runs-on: ubuntu-latest
-  steps:
-  - run: mkdir -p artifactD
-  - uses: actions/download-artifact@v2
-    with:
-      name: hello-world-artifact
-      path: artifactD/world.txt
-  - run: cat artifactD/world.txt
+    with:	
+      name: 'Artifacts-V2'	
+      path: '~/new/**/*'
+
 
