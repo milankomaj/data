@@ -15,7 +15,7 @@ jobs:
         run: chmod +x ./asn.sh
         shell: bash
       - name: install
-        run: sudo apt-get update && apt-get install -y sed && apt-get install -y awk && apt-get install -y sort
+        run: sudo apt-get update && sudo apt-get install -y sed && sudo apt-get install -y awk && sudo apt-get install -y sort
         shell: bash
       - name: run sh
         run: bash ./asn.sh 
