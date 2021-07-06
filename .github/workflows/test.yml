@@ -19,7 +19,7 @@ jobs:
         shell: bash
       - name: run sh
         run: bash ./asn.sh 
-         shell: bash
+        shell: bash
       - name: Install Dependencies
         run: npm install       
       - name: Run Npm gh-merge
