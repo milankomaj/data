@@ -11,6 +11,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - name: install
+        run: apt-get update && apt-get install -y sed && apt-get install -y awk && apt-get install -y sort
+      - name: run sh
+        run: bash ./asn.sh  
       - name: Install Dependencies
         run: npm install       
       - name: Run Npm gh-merge
