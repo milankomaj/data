@@ -14,6 +14,9 @@ jobs:
       - name: chmod
         run: chmod +x ./asn.sh
         shell: bash
+      - name: echo timestamp
+        run: date >> ./data/timestamp
+        shell: bash        
       - name: install
         run: sudo apt-get update && sudo apt-get install -y sed && sudo apt-get install -y gawk && sudo apt-get install -y curl
         shell: bash
