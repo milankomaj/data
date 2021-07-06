@@ -3,12 +3,6 @@ on:
   workflow_dispatch:
   schedule:
   - cron: '0 6 3 * *'
-  push:
-   branches:
-    - out
-  pull_request: 
-   branches:
-    - main  
 jobs:
   grab:
     runs-on: ubuntu-latest
