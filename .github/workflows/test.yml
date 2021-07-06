@@ -2,7 +2,10 @@ name: process
 on:
   workflow_dispatch:
   schedule:
-  - cron: '0 6 3 * *'  
+  - cron: '0 6 3 * *'
+  push:
+   branches:
+    - main  
 jobs:
   grab:
     runs-on: ubuntu-latest
