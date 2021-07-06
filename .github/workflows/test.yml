@@ -12,11 +12,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: chmod
-        run: chmod +x ./asn.sh 
+        run: chmod +x ./asn.sh
+        shell: bash
       - name: install
         run: apt-get update && apt-get install -y sed && apt-get install -y awk && apt-get install -y sort
+        shell: bash
       - name: run sh
-        run: bash ./asn.sh  
+        run: bash ./asn.sh 
+         shell: bash
       - name: Install Dependencies
         run: npm install       
       - name: Run Npm gh-merge
