@@ -5,10 +5,10 @@ on:
   - cron: '0 6 3 * *'
   push:
    branches:
-    - main
+    - out
   pull_request: 
    branches:
-    - out  
+    - main  
 jobs:
   grab:
     runs-on: ubuntu-latest
