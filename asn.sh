@@ -1,8 +1,8 @@
 #!/bin/bash
 version=$(date +'%Y-%m');
 echo $version
-#curl -o $version.csv.gz https://download.db-ip.com/free/dbip-asn-lite-$version.csv.gz
 curl -s https://download.db-ip.com/free/dbip-asn-lite-$version.csv.gz | gunzip >> data/test.csv
+echo $?
 sed '/::/d' data/test.csv >> data/f.csv # (vymaže riadky ::)
 #awk -F ',' '{print $1","$2","$3","$4$5}' f.csv >> 1.csv # (skráti 4 stĺpec)
 gawk -F ',' '{print $3","$1"-"$2","$4$5}' data/f.csv >> data/1.csv # (+ prehodí stĺpec)
