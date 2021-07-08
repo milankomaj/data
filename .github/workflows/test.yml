@@ -44,13 +44,10 @@ jobs:
       - name: Diff
         uses: actions/checkout@v2
         with:
-         ref: out
+         ref: main
          repository: milankomaj/test
          path: data/timestamp
-      - run: |
-         git add .
-         git commit -m "timestamp"
-         git push
+
          
           
         
