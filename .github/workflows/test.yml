@@ -41,4 +41,17 @@ jobs:
           folder: data
           target-folder: data
           clean: false
-
+      - name: Diff
+        uses: actions/checkout@v2
+        with:
+         ref: out
+         repository: milankomaj/test
+         path: data/timestamp
+      - run: |
+         git add .
+         git commit -m "timestamp"
+         git push
+         
+          
+        
+        
