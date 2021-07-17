@@ -8,7 +8,7 @@ jobs:
   readme-test:
     runs-on: ubuntu-latest
     steps:
-		  - name: embedding readme
+      - name: embedding readme
         uses: tokusumi/markdown-embed-code@v1.0.0
         with:
           markdown: "README.md"
