@@ -42,7 +42,8 @@ jobs:
           target-folder: data
           clean: false
 
-
+      - name: Markdown autodocs
+        uses: dineshsonachalam/markdown-autodocs@v1.0.2
          
           
         
