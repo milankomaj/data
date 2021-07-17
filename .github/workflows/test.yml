@@ -33,7 +33,9 @@ jobs:
       - name: Run Npm gh-asn
         run: npm run gh-asn
       - name: Run Npm gh-od-do
-        run: npm run gh-od-do     
+        run: npm run gh-od-do
+      - name: json tree
+        run: ls | jq -R -s -c 'split("\n")[:-1]' >> ./data/tree.json
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
@@ -41,8 +43,6 @@ jobs:
           folder: data
           target-folder: data
           clean: false     
-      - name: json tree
-        run: ls | jq -R -s -c 'split("\n")[:-1]' >> ./data/tree.json
       - name: Markdown autodocs
         uses: dineshsonachalam/markdown-autodocs@v1.0.2
          
