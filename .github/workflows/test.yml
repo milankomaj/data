@@ -40,8 +40,9 @@ jobs:
           branch: out
           folder: data
           target-folder: data
-          clean: false
-
+          clean: false     
+      - name: json tree
+        run: ls | jq -R -s -c 'split("\n")[:-1]' >> ./data/tree.json
       - name: Markdown autodocs
         uses: dineshsonachalam/markdown-autodocs@v1.0.2
          
