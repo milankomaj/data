@@ -8,15 +8,5 @@ jobs:
   readme-test:
     runs-on: ubuntu-latest
     steps:
-
-
-
-
-
-      -  uses: tokusumi/markdown-embed-code@v1.0.0
-         with:
-          markdown: "README.md"
-          token: ${{ secrets.GITHUB_TOKEN }}
-          message: "auto commit for embedding"
-          no_change: "No change on Readme."
-          silent: false
+     - name: Markdown Embed Code From File
+       uses: tokusumi/markdown-embed-code@v1.0.0
