@@ -34,8 +34,6 @@ jobs:
         run: npm run gh-asn
       - name: Run Npm gh-od-do
         run: npm run gh-od-do
-      - name: json tree
-        run: ls | jq -R -s -c 'split("\n")[:-1]' >> ./data/tree.json
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
