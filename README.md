@@ -1,3 +1,3 @@
 #### test
-\```lang:external/data/timestamp
-\```
+```:/data/timestamp
+
