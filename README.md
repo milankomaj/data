@@ -1,2 +1,3 @@
 test
-"```lang:external/data/timestamp```"
+\```lang:external/data/timestamp
+\```
