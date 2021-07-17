@@ -7,9 +7,9 @@ jobs:
   auto-update-readme:
       runs-on: ubuntu-latest
       steps:
+        - uses: actions/checkout@v2
         - name: json tree
           run: ls | jq -R -s -c 'split("\n")[:-1]' >> ./data/tree.json
-        - uses: actions/checkout@v2
         - name: Markdown autodocs
           uses: dineshsonachalam/markdown-autodocs@v1.0.2
 
