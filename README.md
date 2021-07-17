@@ -1,5 +1,5 @@
 ### test
-#### timestamp
+##### Code block
 <!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./data/timestamp) -->
 ```timestamp
 ```
