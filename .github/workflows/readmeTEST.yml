@@ -15,8 +15,7 @@ jobs:
        uses: actions/setup-python@v2
        with:
           python-version: 3.7
-     - name: Install dependencies
-       run: pip install pytest
+
 
      - name: Markdown Embed Code From File
        uses: tokusumi/markdown-embed-code@v1.0.0
