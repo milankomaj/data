@@ -8,5 +8,7 @@ jobs:
   readme-test:
     runs-on: ubuntu-latest
     steps:
+     - name: Checkout
+       uses: actions/checkout@v2
      - name: Markdown Embed Code From File
        uses: tokusumi/markdown-embed-code@v1.0.0
