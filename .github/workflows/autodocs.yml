@@ -13,7 +13,7 @@ jobs:
 
         - name: timestamp
           run: |
-           stamp=$(date -r ./data/timestamp);
+           stamp=$(date -r ./data/timestamp)
            sed -i '2s/.*/$stamp/' ./README.md
       
         
