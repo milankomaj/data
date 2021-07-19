@@ -45,7 +45,8 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           branch: out
-
+          folder: ./
+          target-folder: ./
           clean: false     
         
 
