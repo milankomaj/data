@@ -16,7 +16,17 @@ jobs:
           run: |
            ls
            echo date -r ./README.md
-           stamp=$(date -r ./README.md)
+           stamp=$(date -r ./README.md
            sed -i '2s/.*/$stamp/' ./README.md
+ 
+
+      
+        - name: Deploy to GitHub Pages
+          uses: JamesIves/github-pages-deploy-action@4.1.1
+          with:
+            branch: out
+            folder: ./
+            target-folder: ./
+            clean: false 
       
         
