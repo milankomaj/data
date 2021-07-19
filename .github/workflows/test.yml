@@ -14,12 +14,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        
-      - name: timestamp
-        run: |
-         stamp=$(date -r./data/timestamp)
-         sed -i '2s/.*/$stamp/' ./README.md
-    
       - name: chmod
         run: chmod +x ./asn.sh
         shell: bash
@@ -47,6 +41,13 @@ jobs:
           folder: data
           target-folder: data
           clean: false     
+        
+      - name: timestamp
+        run: |
+         stamp=$(date -r./data/timestamp)
+         sed -i '2s/.*/$stamp/' ./README.md
+
+    
 
 
          
