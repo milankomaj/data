@@ -19,7 +19,14 @@ jobs:
         shell: bash
       - name: echo timestamp
         run: date >> ./data/timestamp
-        shell: bash        
+        shell: bash   
+      - name: timestamp
+        run: |
+           ls
+           echo date -r ./data/timestamp
+           stamp=$(date -r ./data/timestamp)
+           echo $stamp
+           sed -i "2s/.*/$stamp/" ./README.md    
       - name: install
         run: sudo apt-get update && sudo apt-get install -y sed && sudo apt-get install -y gawk && sudo apt-get install -y curl
         shell: bash
@@ -42,10 +49,8 @@ jobs:
           target-folder: data
           clean: false     
         
-      - name: timestamp
-        run: |
-         stamp=$(date -r ./data/timestamp)
-         sed -i '2s/.*/$stamp/' ./README.md
+
+   
 
     
 
