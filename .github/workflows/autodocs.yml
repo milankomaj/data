@@ -7,13 +7,13 @@ jobs:
   auto-update-readme:
       runs-on: ubuntu-latest
       steps:
-        - uses: actions/checkout@v2
-        - name: Markdown autodocs
-          uses: dineshsonachalam/markdown-autodocs@v1.0.2
+       # - uses: actions/checkout@v2
+       # - name: Markdown autodocs
+       #   uses: dineshsonachalam/markdown-autodocs@v1.0.2
 
         - name: timestamp
           run: |
-           stamp = $(date -r ./data/timestamp)
+           stamp=$(date -r ./data/timestamp);
            sed -i '2s/.*/$stamp/' ./README.md
       
         
