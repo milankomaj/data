@@ -16,8 +16,9 @@ jobs:
           run: |
            ls
            echo date -r ./README.md
-           stamp=$(date -r ./README.md)
-           sed -i '2s/.*/$stamp/' ./README.md
+           stamp=$(date -r ./README.md);
+           echo $stamp
+           sed -i "2s/.*/$stamp/" ./README.md
  
 
       
