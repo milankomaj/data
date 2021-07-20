@@ -5,7 +5,7 @@
 !data/timestamp
 !data/ClearAsn.json         
 !data/ClearIpRange.json
-
+!data/AsnIsp.csv
 
 
 ### Node ###
