@@ -1,9 +1,6 @@
 name: process
 on:
   workflow_dispatch:
-  push:
-   branches:
-      - out
   schedule:
   - cron: '0 6 3 * *'
 jobs:
