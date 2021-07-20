@@ -22,11 +22,12 @@ jobs:
         shell: bash   
       - name: timestamp
         run: |
-           ls
-           echo date -r ./data/timestamp
            stamp=$(date -r ./data/timestamp)
            echo $stamp
-           sed -i "2s/.*/$stamp/" ./README.md    
+           sed -i "2s/.*/$stamp/" ./README.md 
+           zone=$(TZ='Europe/Bratislava' date -r ./data/timestamp)
+           echo $zone
+           sed -i "3s/.*/$zone/" ./README.md
       - name: install
         run: sudo apt-get update && sudo apt-get install -y sed && sudo apt-get install -y gawk && sudo apt-get install -y curl
         shell: bash
