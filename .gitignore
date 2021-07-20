@@ -1,5 +1,12 @@
 # Created by https://www.toptal.com/developers/gitignore/api/node
 # Edit at https://www.toptal.com/developers/gitignore?templates=node
+/data
+!data/timestamp
+!data/ClearAsn.json         
+!data/ClearIpRange.json
+
+
+
 
 ### Node ###
 # Logs
