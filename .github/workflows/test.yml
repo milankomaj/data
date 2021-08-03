@@ -28,6 +28,11 @@ jobs:
            zone=$(TZ='Europe/Bratislava' date -r ./data/timestamp)
            echo $zone
            sed -i "3s/.*/$zone/" ./README.md
+           sed -i "19s/.*/$stamp/" ./README.md 
+           git add ./README.md 
+           git commit --amend -am "timestamp" ./README.md 
+           git push main         
+           
       - name: install
         run: sudo apt-get update && sudo apt-get install -y sed && sudo apt-get install -y gawk && sudo apt-get install -y curl
         shell: bash
