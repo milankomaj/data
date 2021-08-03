@@ -28,7 +28,6 @@ jobs:
            zone=$(TZ='Europe/Bratislava' date -r ./data/timestamp)
            echo $zone
            sed -i "3s/.*/$zone/" ./README.md
-           sed -i "19s/.*/$stamp/" ./README.md 
            git config --global user.email ${{ secrets.EMAIL }}
            git config --global user.name ${{ secrets.NAME }}        
            git add ./README.md 
