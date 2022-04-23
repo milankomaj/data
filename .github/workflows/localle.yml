@@ -1,0 +1,17 @@
+name: locale
+on:
+  workflow_dispatch:
+  
+env:
+  LANG: "sk_SK.utf8"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: sk_SK.utf8
+      run: |
+          sudo locale-gen sk_SK.utf8
+          sudo update-locale LANG=sk_SK.utf8
+    - name: date
+      run: |
+          date
