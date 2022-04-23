@@ -16,7 +16,7 @@ jobs:
       run: |
           date
           TZ='Europe/Bratislava' date
-          dd=("2022-01-01")
+          dd=$(date)
           echo "${dd}"
           yy=$(date -d "${dd}" +%Y)
           mm=$(date -d "${dd}" +%B | sed -r 's/[á]+/a/g' | sed -r 's/[ú]+/u/g' | sed -r 's/[í]+/i/g' | sed -r 's/[ó]+/o/g')
