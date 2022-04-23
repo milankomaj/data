@@ -15,6 +15,7 @@ jobs:
     - name: date
       run: |
           date
+          TZ='Europe/Bratislava' date
           dd=("2022-01-01")
           echo "${dd}"
           yy=$(date -d "${dd}" +%Y)
