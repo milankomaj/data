@@ -36,7 +36,14 @@ jobs:
       - name: gh-od-do
         run: npm run gh-od-do
 
-
+      - name: timestamp
+        run: |
+          date >> ./data/timestamp
+          stamp=$(date -r ./data/timestamp)
+          echo $stamp
+          cd ${{ github.workspace }} 
+          sed -i "9s/.*/$stamp | db-ip/" ./README.md       
+          shell: bash 
 
       - name: tree 
         run: |
@@ -47,7 +54,8 @@ jobs:
         run: |
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}
-          git pull            
+          git pull
+          git add ${{ github.workspace }}/README.md             
           git add ./data/*.json    
           git add ./data/{Clear.csv,AsnIsp.csv} 
           git commit -m "db-ip"
