@@ -9,7 +9,7 @@ jobs:
     timeout-minutes: 10
     continue-on-error: true
     strategy:
-      fail-fast: false
+      fail-fast: true
       max-parallel: 2
     defaults:
       run:
@@ -38,8 +38,9 @@ jobs:
 
       - name: timestamp
         run: |
-          date >> ${{ github.workspace }}/db-ip/data/timestamp
-          stamp=$(date -r .${{ github.workspace }}/db-ip/data/timestamp)
+          echo ${{ github.workspace }}
+          date >> /data/timestamp
+          stamp=$(date -r ./data/timestamp)
           echo $stamp
           sed -i "9s/.*/$stamp | db-ip/" ${{ github.workspace }}/README.md       
           shell: bash 
