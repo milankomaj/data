@@ -2,6 +2,8 @@
 name: namedays
 on:
   workflow_dispatch:
+  schedule:
+  - cron: '0 5 7 1 *'  
 jobs:
   grab:
     runs-on: ubuntu-latest
@@ -23,9 +25,7 @@ jobs:
          chmod +x ./cal.sh
          chmod +x ./reduce.sh
         shell: bash
-            
-
-      
+              
       - name: timestamp
         run: |
           date >> ./timestamp
@@ -40,7 +40,6 @@ jobs:
          echo ***./***
          tree -h ./
          
-
       - uses: actions/upload-artifact@v2
         with:
          name: bak
@@ -49,7 +48,11 @@ jobs:
 
       - uses: actions/download-artifact@v2
         with:
-         path: ./artifacts/
+         path: ./
+
+      - name: run sh
+        run: bash ./cal.sh 
+        shell: bash
 
       - name: deploy
         run: |
