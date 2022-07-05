@@ -53,6 +53,5 @@ jobs:
           git add ${{ github.workspace }}/README.md               
           git add ./{names_days_min.json,names_days.json} 
           git commit -m "namedays"
-          git branch --set-upstream-to=origin/<branch> namedays.v2
           git pull <remote> <branch>
           git push origin "namedays.v2"
