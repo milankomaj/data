@@ -1,0 +1,73 @@
+name: db-ip
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: '0 6 3 * *'
+jobs:
+  grab:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    continue-on-error: true
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+    defaults:
+      run:
+        working-directory: ./db-ip     
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: chmod
+        run: chmod +x ./asn.sh
+        shell: bash
+            
+      - name: install apt
+        run: sudo apt-get update && sudo apt-get install -y sed && sudo apt-get install -y gawk && sudo apt-get install -y curl
+        shell: bash
+      - name: run sh
+        run: bash ./asn.sh 
+        shell: bash
+      - name: install npm packages
+        run: npm install       
+      - name: gh-merge
+        run: npm run gh-merge
+      - name: gh-asn
+        run: npm run gh-asn
+      - name: gh-od-do
+        run: npm run gh-od-do
+
+      - name: timestamp
+        run: |
+        date >> ./data/timestamp
+        stamp=$(date -r ./data/timestamp)
+        echo $stamp
+        sed -i "2s/.*/$stamp/" ./README.md 
+        zone=$(TZ='Europe/Bratislava' date -r ./data/timestamp)
+        echo $zone
+        sed -i "3s/.*/$zone/" ./README.md        
+        shell: bash 
+
+      - name: deploy
+        run: |
+           git config --global user.email ${{ secrets.EMAIL }}
+           git config --global user.name ${{ secrets.NAME }}        
+           git add ./README.md 
+           git commit -m "timestamp" ./README.md 
+           git add ${{ github.workspace }}/db-ip/data/*.json         
+           git add ${{ github.workspace }}/db-ip/data/{Clear.csv,AsnIsp.csv} 
+           git push
+
+        
+          
+        
+          
+
+   
+
+    
+
+
+         
+          
+        
+        
