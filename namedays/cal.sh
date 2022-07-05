@@ -10,11 +10,10 @@ echo "${yy}"
 echo "${mm,,}"
 echo "${mm^^}"
 echo "${mm^}"
-SCRAPER=$(System.getenv("SCRAPER"))
 cal -d "${dd}" | awk -v yy="$yy" -v mm="${mm,,}" '
 NR>2 {
     for (i=1; i<=NF; i++) {
-        printf("prefix " "#https:// SCRAPER /?url=https://www.teraz.sk/historicky-kalendar/" $i "-" mm "&selector=h3,p&scrape=attr&spaced=true&attr=&pretty=true#" " | jq >> " mm "/" $i"-"mm"-1test.json" "\n")
+        printf("prefix " "#https:// ${{ secrets.SCRAPER }} /?url=https://www.teraz.sk/historicky-kalendar/" $i "-" mm "&selector=h3,p&scrape=attr&spaced=true&attr=&pretty=true#" " | jq >> " mm "/" $i"-"mm"-1test.json" "\n")
         printf("jq €. + {£" $i "-" mm "£: .result} | del(.result)€ " mm "/" $i "-" mm "-1test.json >> " mm "/"  $i "-" mm "-2test.json" "\n")
         printf("jq €{" mm ": .}€ <" mm "/"  $i "-" mm "-2test.json >> " mm "/"  $i "-" mm "-3test.json" "\n")
         printf("jq €{month: .}€ <" mm "/"  $i "-" mm "-3test.json >> " mm "/" mm ".json" "\n")
