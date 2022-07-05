@@ -54,4 +54,4 @@ jobs:
           git commit -m "namedays"
           git status
           git pull --rebase --autostash
-          git push origin "namedays.v2"
+          git push --force
