@@ -52,4 +52,5 @@ jobs:
           git add ${{ github.workspace }}/README.md               
           git add ./{names_days_min.json,names_days.json} 
           git commit -m "namedays"
+          git pull origin "namedays.v2"
           git push origin "namedays.v2"
