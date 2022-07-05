@@ -40,16 +40,16 @@ jobs:
 
       - name: tree 
         run: |
-         echo ***./***
-         tree -h ./
+         cd ${{ github.workspace }}  
+         echo ***${{ github.workspace }} ***
+         tree -h ${{ github.workspace }} 
          echo ***./db-ip/data***
          tree -h ./db-ip/data        
 
       - name: deploy
         run: |
           git config --global user.email ${{ secrets.EMAIL }}
-          git config --global user.name ${{ secrets.NAME }}
-          cd ${{ github.workspace }}        
+          git config --global user.name ${{ secrets.NAME }}            
           git add ./README.md 
           git commit -m "db-ip" ./README.md 
           git add ./db-ip/data/*.json         
