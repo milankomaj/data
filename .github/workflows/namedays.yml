@@ -39,13 +39,13 @@ jobs:
         run: |
          echo ***./***
          tree -h ./
-         cp ${{ github.workspace }}/names_days.json{,.bak}
+         cp /names_days.json{,.bak}
 
       - uses: actions/upload-artifact@v2
         with:
          name: bak
          path: |
-          ${{ github.workspace }}/*.bak
+          /*.bak
 
       - uses: actions/download-artifact@v2
         with:
