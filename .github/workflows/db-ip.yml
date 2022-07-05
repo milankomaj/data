@@ -41,7 +41,7 @@ jobs:
           date >> ${{ github.workspace }}/db-ip/data/timestamp
           stamp=$(date -r .${{ github.workspace }}/db-ip/data/timestamp)
           echo $stamp
-          sed -i "9s/.*/$stamp | db-ip/" ${{ github.workspace }}//README.md       
+          sed -i "9s/.*/$stamp | db-ip/" ${{ github.workspace }}/README.md       
           shell: bash 
 
       - name: tree 
