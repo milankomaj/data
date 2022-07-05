@@ -25,10 +25,6 @@ jobs:
          chmod +x ./cal.sh
          chmod +x ./reduce.sh
         shell: bash
-
-      - name: install apt
-        run: sudo apt-get update && sudo apt-get install -y sed && sudo apt-get install -y gawk && sudo apt-get install -y curl
-        shell: bash       
             
       - name: run sh
         run: bash ./cal.sh 
@@ -53,16 +49,10 @@ jobs:
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}
           git pull
-          git checkout -b namedays.v2
+          git checkout -b "namedays.v2"
           git add ${{ github.workspace }}/README.md               
           git add ./{names_days_min.json,names_days.json} 
           git commit -m "namedays"
-          git pull
-          git fetch origin
-          git checkout -b namedays.v2 origin/namedays.v2
-          git checkout --track origin/namedays.v2
-          git checkout namedays.v2
-          git checkout -b sf origin/namedays.v2
-          git branch -u origin/namedays.v2
-          git fetch --all
-          git push origin namedays.v2
+          git branch --set-upstream-to=origin/<branch> namedays.v2
+          git pull <remote> <branch>
+          git push origin "namedays.v2"
