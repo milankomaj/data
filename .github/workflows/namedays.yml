@@ -4,7 +4,6 @@ on:
   workflow_dispatch:
   schedule:
   - cron: '0 6 4 * *'
-  branches: 'namedays.v2'
 jobs:
   grab:
     runs-on: ubuntu-latest
