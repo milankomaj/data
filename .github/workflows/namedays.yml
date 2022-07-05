@@ -1,0 +1,55 @@
+
+name: imdb
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: '0 6 4 * *'
+jobs:
+  grab:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    continue-on-error: false
+    strategy:
+      fail-fast: true
+      max-parallel: 2
+    defaults:
+      run:
+        working-directory: ./namedays
+    env:
+      SCRAPER: ${{ secrets.SCRAPER }}           
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: chmod
+        run: |
+         chmod +x ./cal.sh
+         chmod +x ./reduce.sh
+        shell: bash
+            
+      - name: run sh
+        run: bash ./cal.sh 
+        shell: bash
+      
+      - name: timestamp
+        run: |
+          date >> ./timestamp
+          stamp=$(date -r ./timestamp)
+          echo $stamp
+          cd ${{ github.workspace }} 
+          sed -i "10s/.*/$stamp | namedays/" ./README.md       
+        shell: bash 
+
+      - name: tree 
+        run: |
+         echo ***./***
+         tree -h ./        
+
+      - name: deploy
+        run: |
+          git config --global user.email ${{ secrets.EMAIL }}
+          git config --global user.name ${{ secrets.NAME }}
+          git pull
+          git add ${{ github.workspace }}/README.md               
+          git add ./{names_days_min.json,names_days.json} 
+          git commit -m "namedays"
+          git push
