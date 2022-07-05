@@ -25,6 +25,10 @@ jobs:
          chmod +x ./cal.sh
          chmod +x ./reduce.sh
         shell: bash
+
+      - name: install apt
+        run: sudo apt-get update && sudo apt-get install -y sed && sudo apt-get install -y gawk && sudo apt-get install -y curl
+        shell: bash       
             
       - name: run sh
         run: bash ./cal.sh 
