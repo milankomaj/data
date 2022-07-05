@@ -30,7 +30,7 @@ jobs:
           echo $stamp
           cd ${{ github.workspace }} 
           sed -i '9s/.*/$stamp "| db-ip"/' ./README.md       
-          shell: bash 
+
 
       - name: tree 
         run: |
