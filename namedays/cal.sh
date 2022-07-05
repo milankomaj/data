@@ -10,7 +10,7 @@ echo "${yy}"
 echo "${mm,,}"
 echo "${mm^^}"
 echo "${mm^}"
-SCRAPER=(System.getenv("SCRAPER"))
+SCRAPER=$(System.getenv("SCRAPER"))
 echo "${SCRAPER}"
 cal -d "${dd}" | awk -v yy="$yy" -v mm="${mm,,}" '
 NR>2 {
