@@ -52,8 +52,8 @@ jobs:
           cd ${{ github.workspace }}        
           git add ./README.md 
           git commit -m "db-ip" ./README.md 
-          git add ${{ github.workspace }}/db-ip/data/*.json         
-          git add ${{ github.workspace }}/db-ip/data/{Clear.csv,AsnIsp.csv} 
+          git add ./db-ip/data/*.json         
+          git add ./db-ip/data/{Clear.csv,AsnIsp.csv} 
           git push
 
         
