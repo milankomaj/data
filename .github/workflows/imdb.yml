@@ -50,6 +50,6 @@ jobs:
           git config --global user.name ${{ secrets.NAME }}
           git pull
           git add ${{ github.workspace }}/README.md               
-          git add ./imdb.csv 
+          git add ./{numVotes_6+.tsv,numVotes_6+averageRating_9+.tsv,imdb.tsv} 
           git commit -m "imdb"
           git push
