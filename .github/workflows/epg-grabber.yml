@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: NpmInstall
-        run: npm 
+        run: npm install  
 
       - name: grab
         run: npm run grab
