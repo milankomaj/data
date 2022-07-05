@@ -2,7 +2,7 @@ name: epg-grabber
 on:
   workflow_dispatch:
   schedule:
-  - cron: '0 6 3 * *'
+  - cron: '30 16 */4 * *'
 jobs:
   grab:
     runs-on: ubuntu-latest
