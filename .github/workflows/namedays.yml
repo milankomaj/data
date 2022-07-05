@@ -24,9 +24,7 @@ jobs:
          chmod +x ./reduce.sh
         shell: bash
             
-      - name: run sh
-        run: bash ./cal.sh 
-        shell: bash
+
       
       - name: timestamp
         run: |
@@ -45,6 +43,7 @@ jobs:
 
       - uses: actions/upload-artifact@v2
         with:
+         name: bak
          path: |
           ./*.bak
 
