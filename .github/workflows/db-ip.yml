@@ -41,8 +41,6 @@ jobs:
       - name: tree 
         run: |
          cd ${{ github.workspace }}  
-         echo ***${{ github.workspace }} ***
-         tree -h ${{ github.workspace }} 
          echo ***./db-ip/data***
          tree -h ./db-ip/data        
 
@@ -51,10 +49,9 @@ jobs:
           cd ${{ github.workspace }}
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}            
-          git add ./README.md 
-          git commit -m "db-ip" ./README.md 
-          git add ./db-ip/data/*.json         
-          git add ./db-ip/data/{Clear.csv,AsnIsp.csv} 
+
+          git add db-ip/data/*.json         
+          git add db-ip/data/{Clear.csv,AsnIsp.csv} 
           git push
 
         
