@@ -40,16 +40,15 @@ jobs:
 
       - name: tree 
         run: |
-         cd ${{ github.workspace }}  
-         echo ***./db-ip/data***
-         tree -h ./db-ip/data        
+         echo ***/data***
+         tree -h /data        
 
       - name: deploy
         run: |
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}            
-          git add ./data/*.json    
-          git add ./data/{Clear.csv,AsnIsp.csv} 
+          git add /data/*.json    
+          git add /data/{Clear.csv,AsnIsp.csv} 
           git push
 
         
