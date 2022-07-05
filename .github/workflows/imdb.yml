@@ -36,7 +36,7 @@ jobs:
           stamp=$(date -r ./timestamp)
           echo $stamp
           cd ${{ github.workspace }} 
-          sed -i "9s/.*/$stamp | imdb/" ./README.md       
+          sed -i "11s/.*/$stamp | imdb/" ./README.md       
         shell: bash 
 
       - name: tree 
