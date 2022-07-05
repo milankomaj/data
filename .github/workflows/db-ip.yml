@@ -13,9 +13,7 @@ jobs:
       max-parallel: 2
     defaults:
       run:
-        working-directory: ./db-ip
-    permissions:
-        actions: write         
+        working-directory: ./db-ip    
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -50,7 +48,8 @@ jobs:
       - name: deploy
         run: |
           git config --global user.email ${{ secrets.EMAIL }}
-          git config --global user.name ${{ secrets.NAME }}        
+          git config --global user.name ${{ secrets.NAME }}
+          cd ${{ github.workspace }}        
           git add ./README.md 
           git commit -m "db-ip" ./README.md 
           git add ${{ github.workspace }}/db-ip/data/*.json         
