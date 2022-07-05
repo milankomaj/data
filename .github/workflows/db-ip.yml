@@ -48,6 +48,7 @@ jobs:
 
       - name: deploy
         run: |
+          cd ${{ github.workspace }}
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}            
           git add ./README.md 
