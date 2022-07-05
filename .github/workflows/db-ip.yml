@@ -7,13 +7,15 @@ jobs:
   grab:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    continue-on-error: true
+    continue-on-error: false
     strategy:
-      fail-fast: true
+      fail-fast: false
       max-parallel: 2
     defaults:
       run:
-        working-directory: ./db-ip     
+        working-directory: ./db-ip
+    permissions:
+        actions: write         
     steps:
       - name: Checkout
         uses: actions/checkout@v2
