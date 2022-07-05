@@ -1,13 +1,14 @@
 
-name: imdb
+name: namedays
 on:
   workflow_dispatch:
   schedule:
   - cron: '0 6 4 * *'
+  branches: 'namedays.v2'
 jobs:
   grab:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     continue-on-error: false
     strategy:
       fail-fast: true
