@@ -21,20 +21,7 @@ jobs:
         run: chmod +x ./asn.sh
         shell: bash
             
-      - name: install apt
-        run: sudo apt-get update && sudo apt-get install -y sed && sudo apt-get install -y gawk && sudo apt-get install -y curl
-        shell: bash
-      - name: run sh
-        run: bash ./asn.sh 
-        shell: bash
-      - name: install npm packages
-        run: npm install       
-      - name: gh-merge
-        run: npm run gh-merge
-      - name: gh-asn
-        run: npm run gh-asn
-      - name: gh-od-do
-        run: npm run gh-od-do
+
 
       - name: timestamp
         run: |
@@ -42,7 +29,7 @@ jobs:
           stamp=$(date -r ./data/timestamp)
           echo $stamp
           cd ${{ github.workspace }} 
-          sed -i "9s/.*/$stamp | db-ip/" ./README.md       
+          sed -i '9s/.*/$stamp "| db-ip"/' ./README.md       
           shell: bash 
 
       - name: tree 
