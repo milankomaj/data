@@ -38,15 +38,7 @@ jobs:
       - name: gh-od-do
         run: npm run gh-od-do
 
-      - name: timestamp
-        run: |
-          echo ${{ github.workspace }}
-          cd ${{ github.workspace }}/db-ip
-          date >> /data/timestamp
-          stamp=$(date -r /data/timestamp)
-          echo $stamp
-          sed -i "9s/.*/$stamp | db-ip/" ./README.md       
-          shell: bash 
+
 
       - name: tree 
         run: |
