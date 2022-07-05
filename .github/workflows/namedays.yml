@@ -40,7 +40,17 @@ jobs:
       - name: tree 
         run: |
          echo ***./***
-         tree -h ./        
+         tree -h ./
+         cp ./names_days.json{,.bak}
+
+      - uses: actions/upload-artifact@v2
+        with:
+         path: |
+          ./*.bak
+
+      - uses: actions/download-artifact@v2
+        with:
+         path: ./
 
       - name: deploy
         run: |
