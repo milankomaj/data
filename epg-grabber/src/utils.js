@@ -108,13 +108,15 @@ utils.escapeString = function (string, defaultValue = '') {
     .trim()
 }
 
-const Y = new Date().toLocaleDateString('en', {  year: 'numeric'})
-const M = new Date().toLocaleDateString('en', {  month: '2-digit'})
-const D = new Date().toLocaleDateString('en', {  day: '2-digit'})
 
-const TD = Y+M+D
 utils.convertToXMLTV = function ({ config, channels, programs }) {
-  let output = `<?xml version="1.0" encoding="UTF-8" ?><tv date="${TD}">\r\n`
+  const Y = new Date().toLocaleDateString('en', {  year: 'numeric'})
+  const M = new Date().toLocaleDateString('en', {  month: '2-digit'})
+  const D = new Date().toLocaleDateString('en', {  day: '2-digit'})
+  
+  let TD = Y + M + D
+
+  let output = `<?xml version="1.0" encoding="UTF-8" ?><tv date=${TD}>\r\n`
 
   for (let channel of channels) {
     const id = this.escapeString(channel['xmltv_id'])
