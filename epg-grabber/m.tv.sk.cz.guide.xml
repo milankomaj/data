@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?><tv>
+<?xml version="1.0" encoding="UTF-8" ?><tv date="20220706">
 <channel id="TVWAU.sk"><display-name>Wau TV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/TV_WAU_Logo_%282021%29.svg/512px-TV_WAU_Logo_%282021%29.svg.png"/><url>https://m.tv.sms.cz</url></channel>
 <programme start="20220706055000 +0000" stop="20220706090000 +0000" channel="TVWAU.sk"><title lang="cz">Panelák</title><desc lang="cz">Charita, Dedinská svadba Prvý slovenský denný seriál (2013)</desc></programme>
 <programme start="20220706090000 +0000" stop="20220706100500 +0000" channel="TVWAU.sk"><title lang="cz">Záchranári</title><desc lang="cz">Slovenský seriál (2018)</desc></programme>
