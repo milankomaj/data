@@ -12,7 +12,7 @@ dayjs.extend(timezone)
 
 module.exports = {
   lang: 'cz',
-  days: 5,
+  days: 1,
   site: 'm.tv.sms.cz',
   channels: 'm.tv.sk.cz.channels.xml',
   output: 'm.tv.sk.cz.guide.xml',
