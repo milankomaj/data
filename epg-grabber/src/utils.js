@@ -116,7 +116,7 @@ utils.convertToXMLTV = function ({ config, channels, programs }) {
   
   let TD = Y + M + D
 
-  let output = `<?xml version="1.0" encoding="UTF-8" ?><tv date=${TD}>\r\n`
+  let output = `<?xml version="1.0" encoding="UTF-8" ?><tv date="${TD}">\r\n`
 
   for (let channel of channels) {
     const id = this.escapeString(channel['xmltv_id'])
