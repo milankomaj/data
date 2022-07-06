@@ -2,7 +2,7 @@
 
 const { Command } = require('commander')
 const program = new Command()
-const utils = require('./utils')
+const utils = require('./utils.js')
 const { name, version, description } = require('../package.json')
 
 program
