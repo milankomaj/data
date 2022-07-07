@@ -9,15 +9,12 @@
   "author": "Arhey",
   "license": "MIT",
   "dependencies": {
-    "dayjs": "^1.10.4",
+    "dayjs": "^1.11.3",
     "epg-grabber": "^0.29.1",
     "epg-parser": "^0.1.6",
-    "glob": "^7.1.6",
-    "html-to-text": "^7.0.0",
-    "iconv-lite": "^0.4.24",
-    "jsdom": "^16.5.0",
-    "parse-duration": "^1.0.0",
-    "cheerio": "^1.0.0-rc.10",
+    "glob": "^8.0.3",
+    "iconv-lite": "^0.6.3",
+    "cheerio": "^1.0.0-rc.12",
     "xml-js": "^1.6.11"
   }
 }
