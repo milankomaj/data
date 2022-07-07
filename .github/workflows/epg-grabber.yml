@@ -1,8 +1,11 @@
 name: epg-grabber 
 on:
   workflow_dispatch:
+  pull_request_target:
+    branches: '**'
+    types: [closed]
   schedule:
-  - cron: '30 16 */4 * *'
+  - cron: '30 3 * * *'
 jobs:
   grab:
     runs-on: ubuntu-latest

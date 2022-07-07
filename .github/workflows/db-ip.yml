@@ -1,6 +1,9 @@
 name: db-ip
 on:
   workflow_dispatch:
+  pull_request_target:
+    branches: '**'
+    types: [closed]  
   schedule:
   - cron: '0 6 3 * *'
 jobs:

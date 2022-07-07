@@ -14,7 +14,7 @@ module.exports = {
   channels: 'm.tv.sk.cz.channels.xml',
   output: 'm.tv.sk.cz.guide.xml',
   lang: 'cz',
-  days: 5,
+  days: 2,
   url: function ({ date, channel }) {
     return `https://m.tv.sms.cz/index.php?stanice=${channel.site_id}&cas=0&den=${date.format(
       'YYYY-MM-DD'
