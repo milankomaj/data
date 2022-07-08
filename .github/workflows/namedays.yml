@@ -20,10 +20,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+
+      - name: sk_SK.utf8
+        run: |
+          sudo locale-gen sk_SK.utf8
+          sudo update-locale LANG=sk_SK.utf8
+
       - name: chmod
         run: |
-         chmod +x ./cal.sh
-         chmod +x ./reduce.sh
+          chmod +x ./cal.sh
+          chmod +x ./reduce.sh
         shell: bash
               
       - name: timestamp
@@ -37,18 +43,18 @@ jobs:
 
       - name: tree 
         run: |
-         echo ***./***
-         tree -h ./
+          echo ***./***
+          tree -h ./
          
       - uses: actions/upload-artifact@v2
         with:
-         name: bak
-         path: |
-          ./namedays/*.*
+          name: bak
+          path: |
+            ./namedays/*.*
 
       - uses: actions/download-artifact@v2
         with:
-         path: ./
+          path: ./
 
       - name: run sh
         run: bash ./cal.sh 
