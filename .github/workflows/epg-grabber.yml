@@ -24,7 +24,7 @@ jobs:
       - name: NpmInstall
         run: npm install
 
-      - name: grab
+      - name: Grab
         run: npm run grab
 
 
@@ -37,12 +37,12 @@ jobs:
           sed -i "12s/.*/$stamp | epg-grabber/" ./README.md
         shell: bash
 
-      - name: tree
+      - name: Tree
         run: |
          echo ***./***
          tree -h -L 2 ./
 
-      - name: deploy
+      - name: Deploy
         run: |
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}
