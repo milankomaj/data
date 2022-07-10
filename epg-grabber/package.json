@@ -4,7 +4,7 @@
   "scripts": {
     "update-codes": "node scripts/update-codes.js",
     "NpmInstall": "npm install --save",
-    "grab": "epg-grabber --config=./sites/m.tv.sms.cz.config.js"
+    "grab": "epg-grabber --days=5 --config=./sites/m.tv.sms.cz.config.js"
   },
   "author": "Arhey",
   "license": "MIT",

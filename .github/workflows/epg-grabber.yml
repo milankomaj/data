@@ -5,7 +5,7 @@ on:
     branches: '**'
     types: [closed]
   schedule:
-  - cron: '30 3 * * *'
+  - cron: '30 3 */5 * *'
 jobs:
   grab:
     runs-on: ubuntu-latest
