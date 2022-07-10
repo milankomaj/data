@@ -1,4 +1,4 @@
-name: epg-grabber 
+name: epg-grabber
 on:
   workflow_dispatch:
   pull_request_target:
@@ -16,13 +16,13 @@ jobs:
       max-parallel: 2
     defaults:
       run:
-        working-directory: ./epg-grabber   
+        working-directory: ./epg-grabber
     steps:
       - name: Checkout
         uses: actions/checkout@v2
 
       - name: NpmInstall
-        run: npm install  
+        run: npm install
 
       - name: grab
         run: npm run grab
@@ -33,37 +33,37 @@ jobs:
           date >> ./timestamp
           stamp=$(date -r ./timestamp)
           echo $stamp
-          cd ${{ github.workspace }} 
-          sed -i "12s/.*/$stamp | epg-grabber/" ./README.md       
-        shell: bash 
+          cd ${{ github.workspace }}
+          sed -i "12s/.*/$stamp | epg-grabber/" ./README.md
+        shell: bash
 
-      - name: tree 
+      - name: tree
         run: |
          echo ***./***
-         tree -h -L 2 ./        
+         tree -h -L 2 ./
 
       - name: deploy
         run: |
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}
           git pull
-          git add ${{ github.workspace }}/README.md             
-          git add ./*.csv    
-          git add ./*.xml 
+          git add ${{ github.workspace }}/README.md
+          git add ./*.csv
+          git add ./*.xml
           git commit -m "epg-grabber"
           git push
 
-        
-          
-        
-          
-
-   
-
-    
 
 
-         
-          
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
