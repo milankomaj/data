@@ -8,7 +8,7 @@ on:
   - cron: '30 3 */5 * *'
 jobs:
   grab:
-    runs-on: ubuntu-latest 
+    runs-on: ubuntu-latest
     timeout-minutes: 180
     continue-on-error: false
     strategy:
