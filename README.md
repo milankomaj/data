@@ -1,6 +1,6 @@
 #### data source:
 - db-ip:  [dbip-asn-lite](https://db-ip.com/) [![db-ip](https://github.com/milankomaj/data/actions/workflows/db-ip.yml/badge.svg?event=schedule)](https://github.com/milankomaj/data/actions/workflows/db-ip.yml)
-- namedays:  [teraz.sk](https://teraz.sk/)
+- namedays:  [teraz.sk](https://teraz.sk/) ![calendar](https://dev-badge.eleonora.workers.dev/calendar/today?icon=calendar)
 - imdb:  [title.ratings](https://datasets.imdbws.com/) [![imdb](https://github.com/milankomaj/data/actions/workflows/imdb.yml/badge.svg?event=schedule)](https://github.com/milankomaj/data/actions/workflows/imdb.yml)
 - epg-grabber :  [xmltv](https://tv.sms.cz) [![epg-grabber](https://github.com/milankomaj/data/actions/workflows/epg-grabber.yml/badge.svg?event=schedule)](https://github.com/milankomaj/data/actions/workflows/epg-grabber.yml)
 ---
