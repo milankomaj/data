@@ -21,8 +21,6 @@
     <channel lang="cz" xmltv_id="CSHistory.cz" site_id="CS+History">CS History</channel>
     <channel lang="cz" xmltv_id="CSHorror.cz" site_id="CS+Horror">CS Horror</channel>
     <channel lang="cz" xmltv_id="CSMystery.cz" site_id="CS+Mystery">CS Mystery</channel>
-    <channel lang="cz" xmltv_id="Cinemax2CzechRepublic.cz" site_id="Cinemax+2">Cinemax 2</channel>
-    <channel lang="cz" xmltv_id="CinemaxCzechRepublic.cz" site_id="Cinemax">Cinemax</channel>
     <channel lang="cz" xmltv_id="CrimePlusInvestigationCZ.us" site_id="Crime+and+Investigation">Crime + Investigation CZ</channel>
     <channel lang="cz" xmltv_id="AnimalPlanetCzechRepublic.cz" site_id="AnimalPlanet">Animal Planet</channel>
     <channel lang="cz" xmltv_id="DiscoveryChannelCzechRepublic.cz" site_id="Discovery">Discovery Channel</channel>
@@ -46,6 +44,8 @@
     <channel lang="cz" xmltv_id="HBO2CzechRepublic.cz" site_id="HBO2">HBO 2</channel>
     <channel lang="cz" xmltv_id="HBO3CzechRepublic.cz" site_id="HBO3">HBO 3</channel>
     <channel lang="cz" xmltv_id="HBOCzechRepublic.cz" site_id="HBO">HBO</channel>
+    <channel lang="cz" xmltv_id="Cinemax2CzechRepublic.cz" site_id="Cinemax+2">Cinemax 2</channel>
+    <channel lang="cz" xmltv_id="CinemaxCzechRepublic.cz" site_id="Cinemax">Cinemax</channel>
     <channel lang="cz" xmltv_id="TVJOJ.sk" site_id="JOJ">Joj</channel>
     <channel lang="cz" xmltv_id="JojPlus.sk" site_id="JOJ+Plus">Joj Plus</channel>
     <channel lang="cz" xmltv_id="JojCinema.sk" site_id="JOJ+Cinema">Joj Cinema</channel>
