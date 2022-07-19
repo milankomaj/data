@@ -21,7 +21,7 @@
     <channel lang="cz" xmltv_id="CSHistory.cz" site_id="CS+History">CS History</channel>
     <channel lang="cz" xmltv_id="CSHorror.cz" site_id="CS+Horror">CS Horror</channel>
     <channel lang="cz" xmltv_id="CSMystery.cz" site_id="CS+Mystery">CS Mystery</channel>
-    <channel lang="cz" xmltv_id="CrimePlusInvestigationCZ.us" site_id="Crime+and+Investigation">Crime + Investigation CZ</channel>
+    <channel lang="cz" xmltv_id="CrimePlusInvestigationCZ.us" site_id="Crime+and+Investigation">Crime and Investigation</channel>
     <channel lang="cz" xmltv_id="AnimalPlanetCzechRepublic.cz" site_id="AnimalPlanet">Animal Planet</channel>
     <channel lang="cz" xmltv_id="DiscoveryChannelCzechRepublic.cz" site_id="Discovery">Discovery Channel</channel>
     <channel lang="cz" xmltv_id="DiscoveryScience.us" site_id="Discovery+Science">Discovery Science</channel>
@@ -32,8 +32,9 @@
     <channel lang="cz" xmltv_id="ViasatExplore.se" site_id="Viasat+Explorer">Viasat Explore</channel>
     <channel lang="cz" xmltv_id="ViasatHistory.se" site_id="Viasat+History">Viasat History</channel>
     <channel lang="cz" xmltv_id="ViasatNature.se" site_id="Viasat+Nature">Viasat Nature</channel>
+    <channel lang="cz" xmltv_id="HistoryHDCzechRepublic.cz" site_id="History+Channel">History Channel</channel>    
     <channel lang="cz" xmltv_id="FilmBoxCentralEurope.us" site_id="Filmbox">FilmBox Central Europe</channel>
-    <channel lang="cz" xmltv_id="FilmBoxExtraHDCzechiaHungary.hu" site_id="Filmbox+Extra+HD">FilmBox Extra HD</channel>
+    <channel lang="cz" xmltv_id="FilmBoxExtraHDCzechiaHungary.hu" site_id="Filmbox+Extra+HD">FilmBox Extra</channel>
     <channel lang="cz" xmltv_id="FilmBoxFamily.us" site_id="Filmbox+Family">FilmBox Family</channel>
     <channel lang="cz" xmltv_id="FilmBoxPremiumCzechia.us" site_id="Filmbox+Premium">FilmBox Premium</channel>
     <channel lang="cz" xmltv_id="FilmBoxStarsCzechia.us" site_id="Filmbox+Stars">FilmBox Stars</channel>
@@ -99,17 +100,18 @@
     <channel lang="cz" xmltv_id="Sport1Czechia.hu" site_id="Sport1">Sport 1</channel>
     <channel lang="cz" xmltv_id="Sport2Czechia.hu" site_id="Sport2">Sport 2</channel>
     <channel lang="cz" xmltv_id="Sport5.cz" site_id="Sport+5">Sport 5</channel>
+    <channel lang="cz" xmltv_id="AutoMotorundSport.de" site_id="Auto+Motor+Sport">Auto Motor Sport</channel>    
     <channel lang="cz" xmltv_id="PremierSport1.sk" site_id="Premier+Sport+1">Premier Sport 1</channel>
     <channel lang="cz" xmltv_id="PremierSport2.sk" site_id="Premier+Sport+2">Premier Sport 2</channel>
-    <channel lang="cz" xmltv_id="FightBoxHD.us" site_id="FightBox">FightBox HD</channel>
-    <channel lang="cz" xmltv_id="DocuBoxHD.us" site_id="DocuBox+HD">DocuBox HD</channel>
+    <channel lang="cz" xmltv_id="FightBoxHD.us" site_id="FightBox">FightBox</channel>
+    <channel lang="cz" xmltv_id="DocuBoxHD.us" site_id="DocuBox+HD">DocuBox</channel>
     <channel lang="cz" xmltv_id="SpektrumCzech.hu" site_id="Spektrum">Spektrum</channel>
     <channel lang="cz" xmltv_id="SpektrumHomeCzech.hu" site_id="Spektrum+Home">Spektrum Home</channel>
     <channel lang="cz" xmltv_id="EEurope.us" site_id="E%21+Entertainment">E! Europe</channel>
-    <channel lang="cz" xmltv_id="FashionTVHDEurope.fr" site_id="FashionTV+HD">FashionTV HD Europe</channel>
+    <channel lang="cz" xmltv_id="FashionTVHDEurope.fr" site_id="FashionTV+HD">FashionTV Europe</channel>
     <channel lang="cz" xmltv_id="CanalPlusDomo.pl" site_id="Canal%2B+Domo">Canal + Domo</channel>
     <channel lang="cz" xmltv_id="TheFishingHuntingChannel.hu" site_id="The+Fishing+and+Hunting+%28v+UPC%29">The Fishing &amp; Hunting Channel</channel>
-    <channel lang="cz" xmltv_id="TravelxpHDEurope.in" site_id="Travelxp+HD">Travelxp HD Europe</channel>
+    <channel lang="cz" xmltv_id="TravelxpHDEurope.in" site_id="Travelxp+HD">Travelxp Europe</channel>
     <channel lang="cz" xmltv_id="GolfChannelCzechia.us" site_id="Golf+Channel">Golf Channel</channel>
     <channel lang="cz" xmltv_id="HobbyTV.cz" site_id="Hobby+TV">Hobby</channel>
     <channel lang="cz" xmltv_id="NauticalChannel.it" site_id="Nautical+Channel">Nautical Channel</channel>
@@ -131,7 +133,7 @@
     <channel lang="cz" xmltv_id="OckoBlack.cz" site_id="%D3%E8ko+Black">Ócko Black</channel>
     <channel lang="cz" xmltv_id="OckoExpres.cz" site_id="%D3%E8ko+Expres">Ócko Expres</channel>
     <channel lang="cz" xmltv_id="OckoStar.cz" site_id="%D3%E8ko+Star">Ócko Star</channel>
-    <channel lang="cz" xmltv_id="MezzoLiveHD.fr" site_id="Mezzo+Live+HD">Mezzo Live HD</channel>
+    <channel lang="cz" xmltv_id="MezzoLiveHD.fr" site_id="Mezzo+Live+HD">Mezzo Live</channel>
     <channel lang="cz" xmltv_id="RetroMusicTV.cz" site_id="Retro+Music">Retro Music</channel>
     <channel lang="cz" xmltv_id="Senzi.sk" site_id="SENZI">Senzi</channel>
     <channel lang="cz" xmltv_id="SlagerTV.hu" site_id="Sl%E1ger+TV">Sláger</channel>
