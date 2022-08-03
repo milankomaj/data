@@ -59,8 +59,8 @@ jobs:
           git config --global user.name ${{ secrets.NAME }}
           git pull
           git add ${{ github.workspace }}/README.md             
-          git add ./data/*.json    
-          git add ./data/{Clear.csv,AsnIsp.csv} 
+          git add ./data/{ClearAsn.json,ClearIpRange.json}    
+          git add ./data/{Clear.csv,AsnIsp.csv}  
           git commit -m "db-ip"
           git push
 
