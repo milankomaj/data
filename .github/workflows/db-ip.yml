@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
   pull_request_target:
     branches: '**'
-    types: [closed]  
+    types: [closed]
   schedule:
-  - cron: '0 6 3 * *'
+  - cron: '0 0 8 */3 *'
 jobs:
   grab:
     runs-on: ubuntu-latest
@@ -16,22 +16,22 @@ jobs:
       max-parallel: 2
     defaults:
       run:
-        working-directory: ./db-ip    
+        working-directory: ./db-ip
     steps:
       - name: Checkout
         uses: actions/checkout@v2
       - name: chmod
         run: chmod +x ./asn.sh
         shell: bash
-            
+
       - name: install apt
         run: sudo apt-get update && sudo apt-get install -y sed && sudo apt-get install -y gawk && sudo apt-get install -y curl
         shell: bash
       - name: run sh
-        run: bash ./asn.sh 
+        run: bash ./asn.sh
         shell: bash
       - name: install npm packages
-        run: npm install       
+        run: npm install
       - name: gh-merge
         run: npm run gh-merge
       - name: gh-asn
@@ -44,37 +44,22 @@ jobs:
           date >> ./data/timestamp
           stamp=$(date -r ./data/timestamp)
           echo $stamp
-          cd ${{ github.workspace }} 
-          sed -i "9s/.*/$stamp | db-ip/" ./README.md       
-        shell: bash 
+          cd ${{ github.workspace }}
+          sed -i "9s/.*/$stamp | db-ip/" ./README.md
+        shell: bash
 
-      - name: tree 
+      - name: tree
         run: |
          echo ***./data***
-         tree -h ./data        
+         tree -h ./data
 
       - name: deploy
         run: |
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}
           git pull
-          git add ${{ github.workspace }}/README.md             
-          git add ./data/{ClearAsn.json,ClearIpRange.json}    
-          git add ./data/{Clear.csv,AsnIsp.csv}  
+          git add ${{ github.workspace }}/README.md
+          git add ./data/{ClearAsn.json,ClearIpRange.json}
+          git add ./data/{Clear.csv,AsnIsp.csv}
           git commit -m "db-ip"
           git push
-
-        
-          
-        
-          
-
-   
-
-    
-
-
-         
-          
-        
-        
