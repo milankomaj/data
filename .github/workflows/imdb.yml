@@ -17,7 +17,7 @@ jobs:
         working-directory: ./imdb   
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: chmod
         run: chmod +x ./imdb.sh
         shell: bash
