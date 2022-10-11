@@ -46,7 +46,7 @@ jobs:
           echo ***./***
           tree -h ./
 
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: bak
           path: |
