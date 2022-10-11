@@ -2,8 +2,7 @@
 name: namedays
 on:
   workflow_dispatch:
-  schedule:
-  - cron: '0 5 7 1 *'
+
 jobs:
   grab:
     runs-on: ubuntu-latest
