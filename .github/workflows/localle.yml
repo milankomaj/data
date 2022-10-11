@@ -10,10 +10,12 @@ jobs:
     steps:
     - name: sk_SK.utf8
       run: |
+          timedatectl
           sudo locale-gen sk_SK.utf8
           sudo update-locale LANG=sk_SK.utf8
     - name: date
       run: |
+          timedatectl
           date
           TZ='Europe/Bratislava' date
           dd=("2022-01-01")
