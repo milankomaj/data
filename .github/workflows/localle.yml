@@ -10,7 +10,7 @@ jobs:
     steps:
     - name: sk_SK.utf8
       run: |
-          timedatectl list-timezones
+          sudo timedatectl set-timezone Europe/Bratislava
           timedatectl
           sudo locale-gen sk_SK.utf8
           sudo update-locale LANG=sk_SK.utf8
