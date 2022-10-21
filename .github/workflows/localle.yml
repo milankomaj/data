@@ -1,5 +1,5 @@
 name: locale
-run-name: ${{ inputs.deploy_target }} ${{ github.actor }}  
+run-name: ${{ github.workflow }} ${{ github.actor }}  
 on:
   workflow_dispatch:
   
