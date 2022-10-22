@@ -1,5 +1,5 @@
 name: locale
-run-name: ${{ github.workflow }} ✅ ${{ github.actor }} ✅ ${{ github.event_name }}  ✅ ${{ runner.os }}
+run-name: ${{ github.workflow }} ✅ ${{ github.actor }} ✅ ${{ github.event_name }}  ✅ ${{ github.triggering_actor }}
 on:
   workflow_dispatch:
   
