@@ -1,4 +1,5 @@
 name: locale
+run-name: ${{ github.workflow }} ✅ ${{ github.actor }} ✅ ${{ github.event_name }}  ✅ ${{ github.triggering_actor }}
 on:
   workflow_dispatch:
   
@@ -10,10 +11,14 @@ jobs:
     steps:
     - name: sk_SK.utf8
       run: |
+          timedatectl
           sudo locale-gen sk_SK.utf8
           sudo update-locale LANG=sk_SK.utf8
+          sudo timedatectl set-timezone Europe/Bratislava
+          date
     - name: date
       run: |
+          timedatectl
           date
           TZ='Europe/Bratislava' date
           dd=("2022-01-01")

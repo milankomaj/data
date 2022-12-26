@@ -6,8 +6,26 @@
 version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/db-ip" # Location of package manifests
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+      time: "11:10"
+      
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/epg-grabber" # Location of package manifests
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+      time: "11:10"
+
+  - package-ecosystem: "github-actions" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
       day: "saturday"
       time: "11:10"
+      
+
+
+

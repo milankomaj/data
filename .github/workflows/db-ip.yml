@@ -19,7 +19,7 @@ jobs:
         working-directory: ./db-ip
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: chmod
         run: chmod +x ./asn.sh
         shell: bash
