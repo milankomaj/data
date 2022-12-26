@@ -35,7 +35,7 @@ jobs:
           stamp=$(date -r ./timestamp)
           echo $stamp
           cd ${{ github.workspace }}
-          sed -i "12s/.*/$stamp | epg-grabber/" ./README.md
+          sed -i "13s/.*/$stamp | epg-grabber/" ./README.md
         shell: bash
 
       - name: Tree

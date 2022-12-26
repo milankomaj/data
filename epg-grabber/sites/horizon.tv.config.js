@@ -92,7 +92,7 @@ function parseItems(content, channel) {
   if (!data || !Array.isArray(data.entries)) return []
   const entity = data.entries.find(e => e.o === channelId)
   if (!entity) return []
-  //console.log("bbbbb",entity.o)
+  //console.log("channelId",entity.o)
   return entity ? entity.l : []
 }
 function parseDescription(detail) {

@@ -78,36 +78,35 @@
     <channel lang="sk" xmltv_id="TVRaj.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10038">TV Raj HD</channel>
     <channel lang="sk" xmltv_id="TVRomana.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10184">TV Romana</channel>
     <channel lang="sk" xmltv_id="TVRuzinov.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10039">TV Ruzinov HD</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10020">CT D HD / CT art HD</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10046">CS Film CS Horror HD</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10050">CBS Reality</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10051">Crime and Investigation</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10052">Discovery HD</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10053">Discovery Science HD</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10056">Food Network HD</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10057">History HD</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10058">National Geographic HD</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10059">Nat Geo Wild HD</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10062">TLC HD</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10063">TV Paprika</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10064">Travel Channel HD</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10065">Viasat Explore HD</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10066">Viasat History HD</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10067">Viasat Nature HD</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10068">Fishing and Hunting</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10072">Eurosport 1 HD</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10073">Eurosport 2 HD</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10078">Golf Channel HD</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10086">Disney Channel</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10087">JimJam</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10088">Nickelodeon</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10089">Nick Jr.</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10091">Cartoon Network HD</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10092">MTV Europe</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10105">Fashion TV HD</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10108">CNN</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10120">HBO HD</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10121">HBO 2 HD</channel>
-    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10122">HBO 3 HD</channel>
+    <channel lang="sk" xmltv_id="CTD.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10020">CT D HD / CT art HD</channel>
+    <channel lang="sk" xmltv_id="CSFilm.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10046">CS Film CS Horror HD</channel>
+    <channel lang="sk" xmltv_id="CBS.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10050">CBS Reality</channel>
+    <channel lang="sk" xmltv_id="CrimeandInvestigation.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10051">Crime and Investigation</channel>
+    <channel lang="sk" xmltv_id="Discovery.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10052">Discovery HD</channel>
+    <channel lang="sk" xmltv_id="DiscoveryScience.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10053">Discovery Science HD</channel>
+    <channel lang="sk" xmltv_id="History.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10057">History HD</channel>
+    <channel lang="sk" xmltv_id="NationalGeographic.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10058">National Geographic HD</channel>
+    <channel lang="sk" xmltv_id="NatGeoWild.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10059">Nat Geo Wild HD</channel>
+    <channel lang="sk" xmltv_id="TLC.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10062">TLC HD</channel>
+    <channel lang="sk" xmltv_id="Paprika.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10063">TV Paprika</channel>
+    <channel lang="sk" xmltv_id="TravelChannel.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10064">Travel Channel HD</channel>
+    <channel lang="sk" xmltv_id="ViasatExplore.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10065">Viasat Explore HD</channel>
+    <channel lang="sk" xmltv_id="ViasatHistory.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10066">Viasat History HD</channel>
+    <channel lang="sk" xmltv_id="ViasatNature.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10067">Viasat Nature HD</channel>
+    <channel lang="sk" xmltv_id="FishingandHunting.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10068">Fishing and Hunting</channel>
+    <channel lang="sk" xmltv_id="Eurosport1.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10072">Eurosport 1 HD</channel>
+    <channel lang="sk" xmltv_id="Eurosport2.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10073">Eurosport 2 HD</channel>
+    <channel lang="sk" xmltv_id="GolfChannel.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10078">Golf Channel HD</channel>
+    <channel lang="sk" xmltv_id="DisneyChannel.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10086">Disney Channel</channel>
+    <channel lang="sk" xmltv_id="JimJam.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10087">JimJam</channel>
+    <channel lang="sk" xmltv_id="Nickelodeon.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10088">Nickelodeon</channel>
+    <channel lang="sk" xmltv_id="NickJr.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10089">Nick Jr.</channel>
+    <channel lang="sk" xmltv_id="CartoonNetwork.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10091">Cartoon Network HD</channel>
+    <channel lang="sk" xmltv_id="MTVEurope.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10092">MTV Europe</channel>
+    <channel lang="sk" xmltv_id="FashionTV.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10105">Fashion TV HD</channel>
+    <channel lang="sk" xmltv_id="CNN.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10108">CNN</channel>
+    <channel lang="sk" xmltv_id="HBO.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10120">HBO HD</channel>
+    <channel lang="sk" xmltv_id="HBO2.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10121">HBO 2 HD</channel>
+    <channel lang="sk" xmltv_id="HBO3.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10122">HBO 3 HD</channel>
   </channels>
 </site>
