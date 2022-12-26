@@ -37,7 +37,11 @@ module.exports = {
         start: parseStart(item),
         stop: parseStop(item),
         category: parseCategory(detail),
-        icon: parseIcon(detail)
+        icon: parseIcon(detail),
+        sub_title: parseSub(detail) + parseYear(detail) + parseSeason(detail) + parseEpisode(detail),
+        //director: parseDirector(detail),
+        //season: parseSeason(detail),
+        //episode: parseEpisode(detail)
       })
     }
     return programs
@@ -59,12 +63,13 @@ module.exports = {
 }
 async function loadProgramDetails(item, channel) {
   if (!item.i) return {}
+  // console.log("item",item)
   const url = `${API_PROD_ENDPOINT}` + `${parseI(item)}`
   const data = await axios
     .get(url)
     .then(r => r.data)
     .catch(console.log)
-  //  console.log(url)
+   // console.log(url)
   // console.log(data)
   return data || {}
 }
@@ -84,6 +89,22 @@ function parsestartT(item) {
 function parsestopP(item) {
   return item.e
 }
+function parseSeason(detail) {
+  //console.log("seriesNumber",String(detail.program.seriesNumber).length)
+  if (!detail.program.seriesNumber) return null
+  if (String(detail.program.seriesNumber).length > 2) return null
+  return detail.program.seriesNumber
+}
+function parseEpisode(detail) {
+  //console.log("seriesEpisodeNumber",String(detail.program.seriesEpisodeNumber).length)
+  if (!detail.program.seriesEpisodeNumber) return null
+  if (String(detail.program.seriesEpisodeNumber).length > 3) return null
+  return detail.program.seriesEpisodeNumber
+}
+function parseDirector(detail) {
+  if (!detail.program.directors) return []
+  return detail.program.directors.map((director) => director).join(', ')
+}
 */
 function parseItems(content, channel) {
   if (!content) return []
@@ -97,18 +118,41 @@ function parseItems(content, channel) {
 }
 function parseDescription(detail) {
   //console.log(detail.listings[0].program.description)
-  if (!detail.program.longDescription) return null
+  if (!detail.program.longDescription) return []
   return detail.program.longDescription
 }
 function parseCategory(detail) {
   //console.log(detail.listings[0].program.categories)
-  let categories = []
-  detail.program.categories.forEach(category => {
-    categories.push(category.title)
-  });
-  return categories
+  if (!detail.program.categories) return []
+  return detail.program.categories.map((category) => category.title).join(', ')
 }
 function parseIcon(detail) {
-  if (!detail.program.images) return null
+  if (!detail.program.images) return []
   return detail.program.images[3].url
+}
+function parseSub(detail) {
+  if (!detail.program.secondaryTitle) return []
+  return detail.program.secondaryTitle
+}
+function parseYear(detail) {
+  if (!detail.program.year) return []
+  return [
+    " R:" + detail.program.year
+  ]
+}
+function parseEpisode(detail) {
+  //console.log("seriesEpisodeNumber",String(detail.program.seriesEpisodeNumber).length)
+  if (!detail.program.seriesEpisodeNumber) return []
+  if (String(detail.program.seriesEpisodeNumber).length > 3) return []
+  return [
+    " E:" + detail.program.seriesEpisodeNumber
+  ]
+}
+function parseSeason(detail) {
+  //console.log("seriesNumber",String(detail.program.seriesNumber).length)
+  if (!detail.program.seriesNumber) return []
+  if (String(detail.program.seriesNumber).length > 2) return []
+  return [
+    " S:" + detail.program.seriesNumber
+  ]
 }
