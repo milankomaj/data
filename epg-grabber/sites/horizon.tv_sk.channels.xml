@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site site="horizon.tv">
+  <channels>
+    <channel lang="sk" xmltv_id="24.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10193">RTVS 24 HD</channel>
+    <channel lang="sk" xmltv_id="AMCCzechRepublic.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10024">AMC HD</channel>
+    <channel lang="sk" xmltv_id="AutoMotorundSport.de" site_id="SK#slk#lgi-obolite-sk-prod-master:10077">Auto Motor Sport</channel>
+    <channel lang="sk" xmltv_id="BarrandovPlus.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10033">Barrandov Krimi HD</channel>
+    <channel lang="sk" xmltv_id="CNNPrimaNews.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10026">CNN Prima News HD</channel>
+    <channel lang="sk" xmltv_id="CSHistory.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10047">CS History</channel>
+    <channel lang="sk" xmltv_id="CSMystery.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10048">CS Mystery</channel>
+    <channel lang="sk" xmltv_id="CT1.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10018">CT 1 HD</channel>
+    <channel lang="sk" xmltv_id="CT2.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10019">CT 2 HD</channel>
+    <channel lang="sk" xmltv_id="CT24.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10021">CT 24 HD</channel>
+    <channel lang="sk" xmltv_id="CT3.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10017">CT 3 HD</channel>
+    <channel lang="sk" xmltv_id="CTSport.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10082">CT sport HD</channel>
+    <channel lang="sk" xmltv_id="DocuBox.nl" site_id="SK#slk#lgi-obolite-sk-prod-master:10129">Docubox HD</channel>
+    <channel lang="sk" xmltv_id="DuckTV.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10084">ducktv HD</channel>
+    <channel lang="sk" xmltv_id="Dvojka.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10002">Dvojka HD</channel>
+    <channel lang="sk" xmltv_id="FastFunBox.nl" site_id="SK#slk#lgi-obolite-sk-prod-master:10130">Fast &amp; FunBox HD</channel>
+    <channel lang="sk" xmltv_id="FightBox.nl" site_id="SK#slk#lgi-obolite-sk-prod-master:10128">Fightbox HD</channel>
+    <channel lang="sk" xmltv_id="FilmBox.nl" site_id="SK#slk#lgi-obolite-sk-prod-master:10044">FilmBox HD</channel>
+    <channel lang="sk" xmltv_id="FilmBoxExtraCzechRepublicSlovakia.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10125">FilmBox Extra HD</channel>
+    <channel lang="sk" xmltv_id="FilmBoxFamily.nl" site_id="SK#slk#lgi-obolite-sk-prod-master:10045">FilmBox Family</channel>
+    <channel lang="sk" xmltv_id="FilmBoxPremiumCzechRepublicSlovakia.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10126">FilmBox Premium HD</channel>
+    <channel lang="sk" xmltv_id="FilmBoxStarsCzechRepublicSlovakia.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10127">FilmBox Stars HD</channel>
+    <channel lang="sk" xmltv_id="FilmPlus.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10043">Film+ CZ HD</channel>
+    <channel lang="sk" xmltv_id="Folklorika.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10014">Folklorika HD</channel>
+    <channel lang="sk" xmltv_id="HobbyTV.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10069">Hobby TV HD</channel>
+    <channel lang="sk" xmltv_id="Jednotka.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10001">Jednotka HD</channel>
+    <channel lang="sk" xmltv_id="JOJ24.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10198">JOJ 24 HD</channel>
+    <channel lang="sk" xmltv_id="JOJCinema.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10007">JOJ Cinema HD</channel>
+    <channel lang="sk" xmltv_id="Jojko.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10011">Jojko HD</channel>
+    <channel lang="sk" xmltv_id="JOJPlus.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10006">JOJ Plus HD</channel>
+    <channel lang="sk" xmltv_id="JOJSport.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10185">JOJ Sport HD</channel>
+    <channel lang="sk" xmltv_id="JOJWAU.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10009">WAU HD</channel>
+    <channel lang="sk" xmltv_id="KinoBarrandov.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10034">Kino Barrandov HD</channel>
+    <channel lang="sk" xmltv_id="LeoTV.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10134">Leo TV HD</channel>
+    <channel lang="sk" xmltv_id="Markiza.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10003">Markiza HD</channel>
+    <channel lang="sk" xmltv_id="MarkizaDajto.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10008">Dajto HD</channel>
+    <channel lang="sk" xmltv_id="MarkizaDoma.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10004">Doma HD</channel>
+    <channel lang="sk" xmltv_id="Mezzo.fr" site_id="SK#slk#lgi-obolite-sk-prod-master:10104">Mezzo</channel>
+    <channel lang="sk" xmltv_id="MinimaxCEE.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10085">Minimax</channel>
+    <channel lang="sk" xmltv_id="MnamTV.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10036">Mnam TV HD</channel>
+    <channel lang="sk" xmltv_id="MnauTV.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10037">Mnau TV</channel>
+    <channel lang="sk" xmltv_id="NovaInternational.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10022">Nova International HD</channel>
+    <channel lang="sk" xmltv_id="NovaSport1.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10080">Nova Sport 1 HD</channel>
+    <channel lang="sk" xmltv_id="NovaSport2.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10081">Nova Sport 2 HD</channel>
+    <channel lang="sk" xmltv_id="PrimaCool.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10029">Prima COOL HD</channel>
+    <channel lang="sk" xmltv_id="PrimaKrimi.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10027">Prima KRIMI HD</channel>
+    <channel lang="sk" xmltv_id="PrimaLove.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10030">Prima love HD</channel>
+    <channel lang="sk" xmltv_id="PrimaMax.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10028">Prima MAX HD</channel>
+    <channel lang="sk" xmltv_id="PrimaPlus.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10023">Prima PLUS HD</channel>
+    <channel lang="sk" xmltv_id="PrimaZoom.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10031">Prima ZOOM HD</channel>
+    <channel lang="sk" xmltv_id="Relax.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10106">RELAX</channel>
+    <channel lang="sk" xmltv_id="RetroMusicTV.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10098">Retro Music TV</channel>
+    <channel lang="sk" xmltv_id="Senzi.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10016">SENZI HD</channel>
+    <channel lang="sk" xmltv_id="SlagerMuzika.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10102">Slager muzika</channel>
+    <channel lang="sk" xmltv_id="SlagerOriginal.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10101">Slager original</channel>
+    <channel lang="sk" xmltv_id="SlagerPremium.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10103">Slager Premium HD</channel>
+    <channel lang="sk" xmltv_id="SlagerTV.hu" site_id="SK#slk#lgi-obolite-sk-prod-master:10157">Slager TV</channel>
+    <channel lang="sk" xmltv_id="Spektrum.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10060">Spektrum HD</channel>
+    <channel lang="sk" xmltv_id="SpektrumHomeHungary.hu" site_id="SK#slk#lgi-obolite-sk-prod-master:10061">Spektrum home</channel>
+    <channel lang="sk" xmltv_id="Sport.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10186">RTVS Sport HD</channel>
+    <channel lang="sk" xmltv_id="Sport1.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10074">Sport 1 HD</channel>
+    <channel lang="sk" xmltv_id="Sport2.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10075">Sport 2 HD</channel>
+    <channel lang="sk" xmltv_id="Sport5.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10076">Sport 5</channel>
+    <channel lang="sk" xmltv_id="TA3.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10012">TA3 HD</channel>
+    <channel lang="sk" xmltv_id="Telecafe.ru" site_id="SK#slk#lgi-obolite-sk-prod-master:10177">Telecafe</channel>
+    <channel lang="sk" xmltv_id="TelevizeSeznam.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10025">Seznam.cz TV HD</channel>
+    <channel lang="sk" xmltv_id="Trojka.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10010">Trojka HD</channel>
+    <channel lang="sk" xmltv_id="TV8.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10015">TV8</channel>
+    <channel lang="sk" xmltv_id="TVBarrandov.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10032">Barrandov TV HD</channel>
+    <channel lang="sk" xmltv_id="TVJOJ.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10005">JOJ HD</channel>
+    <channel lang="sk" xmltv_id="TVLux.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10013">TV LUX HD</channel>
+    <channel lang="sk" xmltv_id="TVNoe.cz" site_id="SK#slk#lgi-obolite-sk-prod-master:10035">Noe TV HD</channel>
+    <channel lang="sk" xmltv_id="TVPaprikaHungary.hu" site_id="SK#slk#lgi-obolite-sk-prod-master:10151">TV Paprika HU</channel>
+    <channel lang="sk" xmltv_id="TVPPolonia.pl" site_id="SK#slk#lgi-obolite-sk-prod-master:10118">TVP Polonia</channel>
+    <channel lang="sk" xmltv_id="TVRaj.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10038">TV Raj HD</channel>
+    <channel lang="sk" xmltv_id="TVRomana.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10184">TV Romana</channel>
+    <channel lang="sk" xmltv_id="TVRuzinov.sk" site_id="SK#slk#lgi-obolite-sk-prod-master:10039">TV Ruzinov HD</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10020">CT D HD / CT art HD</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10046">CS Film CS Horror HD</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10050">CBS Reality</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10051">Crime and Investigation</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10052">Discovery HD</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10053">Discovery Science HD</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10056">Food Network HD</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10057">History HD</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10058">National Geographic HD</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10059">Nat Geo Wild HD</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10062">TLC HD</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10063">TV Paprika</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10064">Travel Channel HD</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10065">Viasat Explore HD</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10066">Viasat History HD</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10067">Viasat Nature HD</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10068">Fishing and Hunting</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10072">Eurosport 1 HD</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10073">Eurosport 2 HD</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10078">Golf Channel HD</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10086">Disney Channel</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10087">JimJam</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10088">Nickelodeon</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10089">Nick Jr.</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10091">Cartoon Network HD</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10092">MTV Europe</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10105">Fashion TV HD</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10108">CNN</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10120">HBO HD</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10121">HBO 2 HD</channel>
+    <channel lang="sk" xmltv_id="" site_id="SK#slk#lgi-obolite-sk-prod-master:10122">HBO 3 HD</channel>
+  </channels>
+</site>

@@ -14,6 +14,13 @@ jobs:
     strategy:
       fail-fast: true
       max-parallel: 2
+       matrix:
+        include:
+           - path: grab1
+             stamp: "12s/.*/$stamp | epg-grabber/"
+           - path: grab2
+             stamp: "13s/.*/$stamp | epg-grabber/"
+
     defaults:
       run:
         working-directory: ./epg-grabber
@@ -25,7 +32,7 @@ jobs:
         run: npm install
 
       - name: Grab
-        run: npm run grab
+        run: npm run ${{ matrix.path }}
 
 
       - name: timestamp
@@ -34,7 +41,7 @@ jobs:
           stamp=$(date -r ./timestamp)
           echo $stamp
           cd ${{ github.workspace }}
-          sed -i "12s/.*/$stamp | epg-grabber/" ./README.md
+          sed -i ${{ matrix.stamp }} ./README.md
         shell: bash
 
       - name: Tree
@@ -52,18 +59,3 @@ jobs:
           git add ./*.xml
           git commit -m "epg-grabber"
           git push
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
