@@ -5,7 +5,7 @@
     "update-codes": "node scripts/update-codes.js",
     "NpmInstall": "npm install --save",
     "grab1": "epg-grabber --days=5 --config=./sites/m.tv.sms.cz.config.js",
-    "grab2": "epg-grabber --days=5 --config=./sites/horizon.tv.config.js"
+    "grab2": "epg-grabber --config=./sites/horizon.tv.config.js --channels=./sites/horizon.tv_sk.channels.xml --output=./horizon.tv_sk.guide.xml --days=5"
   },
   "author": "Arhey",
   "license": "MIT",
