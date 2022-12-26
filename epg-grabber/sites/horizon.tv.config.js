@@ -4,8 +4,6 @@ const API_ENDPOINT = `https://legacy-static.oesp.horizon.tv/oesp/v4`
 const API_PROD_ENDPOINT = `https://legacy-dynamic.oesp.horizon.tv/oesp/v4/SK/slk/web/listings/`
 module.exports = {
   site: 'horizon.tv',
-  channels: 'horizon.tv_sk.channels.xml',
-  output: 'horizon.tv_sk.guide.xml',
   url: function ({ date, channel }) {
     const [country, lang] = channel.site_id.split('#')
     return `${API_ENDPOINT}/${country}/${lang}/web/programschedules/${date.format('YYYYMMDD')}/1`
@@ -60,8 +58,7 @@ module.exports = {
   }
 }
 async function loadProgramDetails(item, channel) {
-  //const nested = ['lgi-obolite-sk-prod-master:10003', 'lgi-obolite-sk-prod-master:10001'];
-  //console.log("item",item)
+  if (!item.i) return {}
   const url = `${API_PROD_ENDPOINT}` + `${parseI(item)}`
   const data = await axios
     .get(url)
@@ -89,10 +86,12 @@ function parsestopP(item) {
 }
 */
 function parseItems(content, channel) {
+  if (!content) return []
   const [_, __, channelId] = channel.site_id.split('#')
   const data = typeof content === 'string' ? JSON.parse(content) : content
   if (!data || !Array.isArray(data.entries)) return []
   const entity = data.entries.find(e => e.o === channelId)
+  if (!entity) return []
   //console.log("bbbbb",entity.o)
   return entity ? entity.l : []
 }

@@ -1,0 +1,54 @@
+name: epg-grabber-2
+run-name: ${{ github.workflow }} ✅ ${{ github.event_name}}
+on:
+  workflow_dispatch:
+  pull_request_target:
+    branches: '**'
+    types: [closed]
+  schedule:
+  - cron: '30 3 */5 * *'
+jobs:
+  grab:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    continue-on-error: false
+    strategy:
+      fail-fast: true
+      max-parallel: 2
+    defaults:
+      run:
+        working-directory: ./epg-grabber
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: NpmInstall
+        run: npm install
+
+      - name: Grab
+        run: npm run grab2
+
+
+      - name: timestamp
+        run: |
+          date >> ./timestamp
+          stamp=$(date -r ./timestamp)
+          echo $stamp
+          cd ${{ github.workspace }}
+          sed -i "12s/.*/$stamp | epg-grabber/" ./README.md
+        shell: bash
+
+      - name: Tree
+        run: |
+         echo ***./***
+         tree -h -L 2 ./
+      - name: Deploy
+        run: |
+          git config --global user.email ${{ secrets.EMAIL }}
+          git config --global user.name ${{ secrets.NAME }}
+          git pull
+          git add ${{ github.workspace }}/README.md
+          git add ./*.csv
+          git add ./*.xml
+          git commit -m "epg-grabber"
+          git push
