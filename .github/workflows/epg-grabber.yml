@@ -14,12 +14,12 @@ jobs:
     strategy:
       fail-fast: true
       max-parallel: 2
-       matrix:
-        include:
-           - path: grab1
-             stamp: "12s/.*/$stamp | epg-grabber/"
-           - path: grab2
-             stamp: "13s/.*/$stamp | epg-grabber/"
+      matrix:
+      include:
+          - path: grab1
+            stamp: "12s/.*/$stamp | epg-grabber/"
+          - path: grab2
+            stamp: "13s/.*/$stamp | epg-grabber/"
 
     defaults:
       run:
