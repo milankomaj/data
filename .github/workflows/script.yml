@@ -4,7 +4,7 @@ run-name: ${{ github.workflow }} ✅ ${{ github.event_name}}
 on:
   workflow_dispatch:
   schedule:
-  - cron: '0 6 4 * *'
+  - cron: '2 1 2 * *'
 jobs:
   grab_channels:
     runs-on: ubuntu-latest
