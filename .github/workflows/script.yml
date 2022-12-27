@@ -25,6 +25,11 @@ jobs:
          bash ./scripts/list_curl.sh
         shell: bash
 
+      - name: update-codes
+        run: |
+         npm install
+         npm run update-codes
+
       - name: tree
         run: |
          echo ***./***
