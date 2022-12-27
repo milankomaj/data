@@ -41,6 +41,7 @@ jobs:
           git config --global user.name ${{ secrets.NAME }}
           git pull
           git add ./sites/*.csv
+          git add ./*.csv
           git add ./sites/*.xml
           git commit -m "epg-grabber-update-codes"
           git push
