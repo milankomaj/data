@@ -16,9 +16,7 @@
     <channel lang="cz" xmltv_id="PrimaShow.cz" site_id="Prima+Show">Prima Show</channel>
     <channel lang="cz" xmltv_id="PrimaStar.cz" site_id="Prima+Star">Prima Star</channel>
     <channel lang="cz" xmltv_id="PrimaZoom.cz" site_id="Prima+ZOOM">Prima Zoom</channel>
-    <channel lang="cz" xmltv_id="CNNPrimaNews.cz" site_id="CNN+Prima+News">CNN Prima News</channel>
     <channel lang="cz" xmltv_id="ParamountNetworkCzechRepublic.cz" site_id="Paramount+Network">Paramount Network</channel>
-    <channel lang="cz" xmltv_id="KinoBarrandov.cz" site_id="Kino+Barrandov">Kino Barrandov</channel>
     <channel lang="cz" xmltv_id="TVNova.cz" site_id="Nova">Nova</channel>
     <channel lang="cz" xmltv_id="NovaAction.cz" site_id="Nova+Action">Nova Action</channel>
     <channel lang="cz" xmltv_id="NovaCinema.cz" site_id="Nova+Cinema">Nova Cinema</channel>
@@ -43,6 +41,7 @@
     <channel lang="cz" xmltv_id="PremierSport2.sk" site_id="Premier+Sport+2">Premier Sport 2</channel>
     <channel lang="cz" xmltv_id="EEurope.us" site_id="E%21+Entertainment">E! Europe</channel>
     <channel lang="cz" xmltv_id="CanalPlusDomo.pl" site_id="Canal%2B+Domo">Canal + Domo</channel>
+    <channel lang="cz" xmltv_id="CanalPlusSport.pl" site_id="Canal%2B+Sport">Canal + Sport</channel>
     <channel lang="cz" xmltv_id="NauticalChannel.it" site_id="Nautical+Channel">Nautical Channel</channel>
     <channel lang="cz" xmltv_id="OutdoorChannel.us" site_id="Outdoor+Channel">Outdoor Channel</channel>
     <channel lang="cz" xmltv_id="CartoonNetworkCzechRepublic.cz" site_id="Cartoon+Network">Cartoon Network</channel>
