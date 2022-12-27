@@ -10,10 +10,11 @@ function main() {
     files.forEach(filename => {
       const channels = parseChannels(filename)
       channels.forEach(channel => {
-        if (!codes[channel.xmltv_id + channel.name]) {
-          codes[channel.xmltv_id + channel.name] = {
+        if (!codes[channel.xmltv_id + channel.name + channel.site_id]) {
+          codes[channel.xmltv_id + channel.name + channel.site_id] = {
             name: channel.name,
-            code: channel.xmltv_id
+            code: channel.xmltv_id,
+            id: channel.site_id
           }
         }
       })
@@ -40,9 +41,9 @@ function writeToFile(filename, data) {
 }
 
 function convertToCSV(arr) {
-  let string = 'Channel Name,EPG Code (tvg-id)\n'
+  let string = 'Channel Name,EPG Code (tvg-id),ID\n'
   for (const item of arr) {
-    string += `${item.name},${item.code}\n`
+    string += `${item.name},${item.code},${item.id}\n`
   }
 
   return string
