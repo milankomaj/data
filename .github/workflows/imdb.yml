@@ -14,42 +14,42 @@ jobs:
       max-parallel: 2
     defaults:
       run:
-        working-directory: ./imdb   
+        working-directory: ./imdb
     steps:
       - name: Checkout
         uses: actions/checkout@v3
       - name: chmod
         run: chmod +x ./imdb.sh
         shell: bash
-            
+
       - name: install apt
         run: sudo apt-get update && sudo apt-get install -y sed && sudo apt-get install -y gawk && sudo apt-get install -y curl
         shell: bash
       - name: run sh
-        run: bash ./imdb.sh 
+        run: bash ./imdb.sh
         shell: bash
-      
+
 
       - name: timestamp
         run: |
           date >> ./timestamp
           stamp=$(date -r ./timestamp)
           echo $stamp
-          cd ${{ github.workspace }} 
-          sed -i "11s/.*/$stamp | imdb/" ./README.md       
-        shell: bash 
+          cd ${{ github.workspace }}
+          sed -i "11s/.*/$stamp | imdb/" ./README.md
+        shell: bash
 
-      - name: tree 
+      - name: tree
         run: |
          echo ***./***
-         tree -h ./        
+         tree -h ./
 
       - name: deploy
         run: |
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}
           git pull
-          git add ${{ github.workspace }}/README.md               
-          git add ./{numVotes_6+.tsv,numVotes_6+averageRating_9+.tsv,imdb.tsv} 
+          git add ${{ github.workspace }}/README.md
+          git add ./{numVotes_6+.tsv,numVotes_6+averageRating_9+.tsv,imdb.tsv}
           git commit -m "imdb"
           git push
