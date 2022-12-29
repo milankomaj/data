@@ -1,0 +1,17 @@
+name: call-epg-grabbers
+run-name: ${{ github.workflow }} ✅ ${{ github.event_name}}
+on:
+  workflow_call:
+  workflow_dispatch:
+  pull_request_target:
+    branches: '**'
+    types: [closed]
+  schedule:
+  - cron: '30 1 */5 * *'
+jobs:
+
+  ReuseableMatrixJobForDeployment:
+    strategy:
+      matrix:
+        target: [./.github/workflows/epg-grabber-1.yml, ./.github/workflows/epg-grabber-2.yml, ./.github/workflows/epg-grabber-3.yml]
+    uses: ${{ matrix.target }}

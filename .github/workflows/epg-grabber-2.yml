@@ -1,6 +1,7 @@
 name: epg-grabber-2
 run-name: ${{ github.workflow }} ✅ ${{ github.event_name}}
 on:
+  workflow_call:
   workflow_dispatch:
   pull_request_target:
     branches: '**'
