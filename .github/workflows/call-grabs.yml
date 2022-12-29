@@ -9,9 +9,17 @@ on:
   schedule:
   - cron: '30 1 */5 * *'
 jobs:
-
-  ReuseableMatrixJobForDeployment:
+  call-epg-grabbers:
     strategy:
+      max-parallel: 4
       matrix:
-        target: [./.github/workflows/epg-grabber-1.yml, ./.github/workflows/epg-grabber-2.yml, ./.github/workflows/epg-grabber-3.yml]
-    uses: ${{ matrix.target }}
+        include:
+           - path: /.github/workflows/epg-grabber-1.yml
+             script: m.tv.sms.cz.config.js
+           - path: ./.github/workflows/epg-grabber-2.yml
+             script: horizon.tv.config.js
+           - path: ./.github/workflows/epg-grabber-3.yml
+             script: o2tv.cz.config.js
+
+     steps:
+      - uses: ${{ matrix.path }}
