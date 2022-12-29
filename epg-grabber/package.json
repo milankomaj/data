@@ -6,7 +6,7 @@
     "NpmInstall": "npm install --save",
     "grab1": "epg-grabber --days=5 --config=./sites/m.tv.sms.cz.config.js",
     "grab2": "epg-grabber --config=./sites/horizon.tv.config.js --channels=./sites/horizon.tv_sk.channels.xml --output=./horizon.tv_sk.guide.xml --days=5",
-    "grab3": "epg-grabber --config=./sites/o2tv.cz.config.js --channels=./sites/o2tv.cz_cz.chanell.xml --output=./sites/o2tv.cz_cz.guide.xml --days=5"
+    "grab3": "epg-grabber --config=./sites/o2tv.cz.config.js --channels=./sites/o2_chanell_.xml --output=./sites/o2tv.cz_cz.guide.xml --days=5"
   },
   "author": "Arhey",
   "license": "MIT",
