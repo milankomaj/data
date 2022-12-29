@@ -9,16 +9,10 @@ on:
   schedule:
   - cron: '30 1 */5 * *'
 jobs:
+  ReuseableMatrixJobForDeployment:
     strategy:
-      max-parallel: 4
       matrix:
-        include:
-           - path: /.github/workflows/epg-grabber-1.yml
-             script: m.tv.sms.cz.config.js
-           - path: ./.github/workflows/epg-grabber-2.yml
-             script: horizon.tv.config.js
-           - path: ./.github/workflows/epg-grabber-3.yml
-             script: o2tv.cz.config.js
-
-     steps:
-      - uses: ${{ matrix.path }}
+        target: [dev, stage, prod]
+    uses: octocat/octo-repo/.github/workflows/deployment.yml@main
+    with:
+      target: ${{ matrix.target }}
