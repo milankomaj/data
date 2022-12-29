@@ -10,8 +10,8 @@ on:
   - cron: '30 1 */5 * *'
 jobs:
   grab1:
-    uses: ./.githconfigub/workflows/epg-grabber-2.yml
+    uses: ./.github/workflows/epg-grabber-1.yml
   grab2:
     uses: ./.github/workflows/epg-grabber-2.yml
   grab3:
-    uses: ./.github/workflows/epg-grabber-2.yml
+    uses: ./.github/workflows/epg-grabber-3.yml
