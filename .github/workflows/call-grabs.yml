@@ -9,9 +9,9 @@ on:
   schedule:
   - cron: '30 1 */5 * *'
 jobs:
-  m.tv.sms.cz.config.js:
+  grab1:
+    uses: ./.githconfigub/workflows/epg-grabber-2.yml
+  grab2:
     uses: ./.github/workflows/epg-grabber-2.yml
-  horizon.tv.config.js:
-    uses: ./.github/workflows/epg-grabber-2.yml
-  o2tv.cz.config.js:
+  grab3:
     uses: ./.github/workflows/epg-grabber-2.yml
