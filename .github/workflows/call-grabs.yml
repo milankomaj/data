@@ -19,6 +19,4 @@ jobs:
              script: horizon.tv.config.js
            - path: ./.github/workflows/epg-grabber-3.yml
              script: o2tv.cz.config.js
-    uses: octocat/octo-repo/.github/workflows/deployment.yml@main
-    with:
-      target: ${{ matrix.target }}
+    uses: ${{ matrix.path }}
