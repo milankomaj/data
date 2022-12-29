@@ -11,6 +11,8 @@ on:
 jobs:
   grab1:
     uses: ./.github/workflows/epg-grabber-1.yml
+    secrets: inherit
+    
     name: Deploy
      run:|
       git config --global user.email ${{ secrets.EMAIL }}
