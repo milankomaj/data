@@ -11,15 +11,13 @@ on:
 jobs:
   grab1:
     uses: ./.github/workflows/epg-grabber-1.yml
-
-
-- name: Deploy
-  run: |
-    git config --global user.email ${{ secrets.EMAIL }}
-    git config --global user.name ${{ secrets.NAME }}
-    git pull
-    git add ${{ github.workspace }}/README.md
-    git add ./*.csv
-    git add ./*.xml
-    git commit -m "epg-grabber"
-    git push
+    name: Deploy
+     run:|
+      git config --global user.email ${{ secrets.EMAIL }}
+      git config --global user.name ${{ secrets.NAME }}
+      git pull
+      git add ${{ github.workspace }}/README.md
+      git add ./*.csv
+      git add ./*.xml
+      git commit -m "epg-grabber"
+      git push
