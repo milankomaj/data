@@ -21,8 +21,11 @@ jobs:
         uses: actions/checkout@v3
       - name: chmod
         run: |
-         chmod +x ./scripts/list_curl.sh
-         bash ./scripts/list_curl.sh
+         echo -e "\033[31;1m Update chanells. \033[0m"
+         chmod +x ./scripts/horizon_tv_list_curl.sh
+         bash ./scripts/horizon_tv_list_curl.sh
+         chmod +x ./scripts/o2_tv_list_curl.sh
+         bash ./scripts/o2_tv_list_curl.sh
         shell: bash
 
       - name: update-codes
