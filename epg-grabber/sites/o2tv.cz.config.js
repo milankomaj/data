@@ -14,7 +14,7 @@ module.exports = {
   async parser({ content, channel, date }) {
     let programs = []
     let items = parseItems(content, channel)
-    if (!items.length) return programs
+    
     const f = date.valueOf()
     const g = dayjs(f).add(1, 'day').valueOf()
     const i = dayjs(g).add(1, 'day').valueOf()
