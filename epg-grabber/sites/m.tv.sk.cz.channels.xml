@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site site="m.tv.sms.cz">
   <channels>
-    <channel lang="cz" xmltv_id="AXNBlack.us" site_id="AXN+Black">AXN Black</channel>
+    <channel lang="cz" xmltv_id="NovaAction.cz" site_id="Nova+Action">Nova Action</channel>
   </channels>
 </site>
