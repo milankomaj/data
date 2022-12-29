@@ -6,8 +6,8 @@ on:
   pull_request_target:
     branches: '**'
     types: [closed]
-  schedule:
-  # - cron: '30 1 */5 * *'
+# schedule:
+#  - cron: '30 1 */5 * *'
 jobs:
   grab:
     runs-on: ubuntu-latest
