@@ -12,7 +12,13 @@ jobs:
   ReuseableMatrixJobForDeployment:
     strategy:
       matrix:
-        target: [dev, stage, prod]
+        include:
+           - path: /.github/workflows/epg-grabber-1.yml
+             script: m.tv.sms.cz.config.js
+           - path: ./.github/workflows/epg-grabber-2.yml
+             script: horizon.tv.config.js
+           - path: ./.github/workflows/epg-grabber-3.yml
+             script: o2tv.cz.config.js
     uses: octocat/octo-repo/.github/workflows/deployment.yml@main
     with:
       target: ${{ matrix.target }}
