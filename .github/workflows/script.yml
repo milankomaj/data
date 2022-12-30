@@ -27,6 +27,8 @@ jobs:
          bash ./scripts/horizon_tv_list_curl.sh
          chmod +x ./scripts/o2_tv_list_curl.sh
          bash ./scripts/o2_tv_list_curl.sh
+         chmod +x ./scripts/skylink.sh
+         bash ./scripts/skylink_balicky.sh
         shell: bash
 
       - name: update-codes
