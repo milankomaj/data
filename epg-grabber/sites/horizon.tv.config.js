@@ -118,8 +118,10 @@ function parseItems(content, channel) {
 }
 function parseDescription(detail) {
   //console.log(detail.listings[0].program.description)
-  if (!detail.program.longDescription) return []
-  return detail.program.longDescription
+  if (detail.program.longDescription) { return detail.program.longDescription }
+  else if (!detail.program.longDescription && detail.program.description) { return detail.program.description }
+  else { return [] }
+
 }
 function parseCategory(detail) {
   //console.log(detail.listings[0].program.categories)
