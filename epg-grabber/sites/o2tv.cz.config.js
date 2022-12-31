@@ -8,12 +8,12 @@ module.exports = {
     }
   },
   url: function ({ date, channel }) {
-    const id = channel.site_id
+    //const id = channel.site_id
     //console.log("id", id)
-    const f = date.valueOf()
-    const g = dayjs(date).add(1, 'day').valueOf()
-    //console.log("f,g", f, g)
-    return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&from=${f}&to=${g}`
+    const d = date.valueOf()
+    //const g = dayjs(date).add(1, 'day').valueOf()
+    //console.log("d,g", d, g)
+    return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&from=${d}`
     //return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${f}&to=${g}`
   },
   async parser({ content, channel, date }) {
@@ -21,6 +21,7 @@ module.exports = {
     let items = parseItems(content, channel)
     if (!items.length) return programs
     //console.log("items.length", items.length)
+    /*
     const f = date.valueOf()
     const g = dayjs(f).add(1, 'day').valueOf()
     const i = dayjs(g).add(1, 'day').valueOf()
@@ -43,6 +44,8 @@ module.exports = {
         })
       })
       .catch(console.error)
+
+      */
     // items.forEach(item => {
     for (let item of items) {
       // console.log("item",item)
