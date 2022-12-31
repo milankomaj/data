@@ -69,7 +69,7 @@ module.exports = {
   }
 }
 async function loadProgramDetails(item, channel) {
-  if (!item) return {}
+if (!item.epgId) return {}
   //console.log("item", item)
   const url = `https://api.o2tv.cz/unity/api/v1/programs/${parseI(item)}/`
   const data = await axios
