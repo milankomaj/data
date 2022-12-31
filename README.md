@@ -2,7 +2,7 @@
 - db-ip:  [dbip-asn-lite](https://db-ip.com/) [![db-ip](https://github.com/milankomaj/data/actions/workflows/db-ip.yml/badge.svg?event=schedule)](https://github.com/milankomaj/data/actions/workflows/db-ip.yml)
 - namedays:  [teraz.sk](https://teraz.sk/) ![calendar](https://dev-badge.eleonora.workers.dev/calendar/today?icon=calendar)
 - imdb:  [title.ratings](https://datasets.imdbws.com/) [![imdb](https://github.com/milankomaj/data/actions/workflows/imdb.yml/badge.svg?event=schedule)](https://github.com/milankomaj/data/actions/workflows/imdb.yml)
-- epg-grabber :  [xmltv](https://tv.sms.cz) [![epg-grabber-1](https://github.com/milankomaj/data/actions/workflows/epg-grabber-1.yml/badge.svg?event=schedule)](https://github.com/milankomaj/data/actions/workflows/epg-grabber-1.yml)
+- epg-grabbers :  [xmltv](epg-grabber/sites) [![call-epg-grabbers](https://github.com/milankomaj/data/actions/workflows/call-grabs.yml/badge.svg?event=schedule)](https://github.com/milankomaj/data/actions/workflows/call-grabs.yml)
 ---
 **date** | **source**
 :--- | :---
