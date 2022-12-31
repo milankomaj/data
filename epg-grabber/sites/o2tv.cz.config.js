@@ -2,6 +2,11 @@ const dayjs = require('dayjs')
 const axios = require('axios')
 module.exports = {
   site: 'o2tv.cz',
+  request: {
+    cache: {
+      ttl: 3 * 60 * 60 * 1000 // 3h
+    }
+  },
   url: function ({ date, channel }) {
     const id = channel.site_id
     //console.log("id", id)
@@ -14,7 +19,8 @@ module.exports = {
   async parser({ content, channel, date }) {
     let programs = []
     let items = parseItems(content, channel)
-    
+    if (!items.length) return programs
+    //console.log("items.length", items.length)
     const f = date.valueOf()
     const g = dayjs(f).add(1, 'day').valueOf()
     const i = dayjs(g).add(1, 'day').valueOf()
@@ -69,8 +75,8 @@ module.exports = {
   }
 }
 async function loadProgramDetails(item, channel) {
-  if (!item) return {}
-  //console.log("item", item)
+  if (!item.epgId) return {}
+  //console.log("item", String(item).length)
   const url = `https://api.o2tv.cz/unity/api/v1/programs/${parseI(item)}/`
   const data = await axios
     .get(url)
