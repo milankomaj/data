@@ -3,7 +3,7 @@ run-name: ${{ github.workflow }} ✅ ${{ github.event_name}}
 on:
   workflow_call:
       outputs:
-        firstword:
+       grab1_outcome:
         description: "jobs.grab.outputs.output_grab1"
         value: ${{ jobs.grab.outputs.output_grab1 }}
 
