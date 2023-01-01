@@ -43,13 +43,6 @@ jobs:
          echo ***./***
          tree -h -L 2 ./
 
-      - name: outputs_grabers
-        run: |
-         echo ${{ needs.grab1.outputs.grab1_outcome }}
-         echo ${{ needs.grab2.outputs.grab2_outcome }}
-         echo ${{ needs.grab3.outputs.grab3_outcome }}
-
-
       - name: Update
         id: update
         run: |
