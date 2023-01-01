@@ -44,7 +44,6 @@ jobs:
          tree -h -L 2 ./
 
       - name: outputs_grabers
-        needs: [grab1,grab2,grab3]
         run: |
          echo ${{ needs.grab1.outputs.grab1.outcome }}
          echo ${{ needs.grab2.outputs.grab2.outcome }}
