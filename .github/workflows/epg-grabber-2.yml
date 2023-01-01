@@ -2,6 +2,11 @@ name: epg-grabber-2
 run-name: ${{ github.workflow }} ✅ ${{ github.event_name}}
 on:
   workflow_call:
+   outputs:
+    output_grab2:
+     description: "grab.outputs.grab2_outcome"
+     value: ${{ jobs.grab.outputs.output_grab1 }}
+
   workflow_dispatch:
   pull_request_target:
     branches: 'main'

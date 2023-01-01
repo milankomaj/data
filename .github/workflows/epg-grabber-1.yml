@@ -2,6 +2,11 @@ name: epg-grabber-1
 run-name: ${{ github.workflow }} ✅ ${{ github.event_name}}
 on:
   workflow_call:
+   outputs:
+    output_grab1:
+     description: "grab.outputs.grab1_outcome"
+     value: ${{ jobs.grab.outputs.output_grab1 }}
+
   workflow_dispatch:
   pull_request_target:
     branches: 'main'
@@ -20,7 +25,7 @@ jobs:
       run:
         working-directory: ./epg-grabber
     outputs:
-      output_grab2: ${{ steps.grab2.outputs.grab2_outcome}}
+      output_grab1: ${{ steps.grab2.outputs.grab1_outcome}}
 
     steps:
       - name: Checkout
@@ -45,8 +50,8 @@ jobs:
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}
           git config pull.rebase false
-          echo ${{ steps.grab2.outcome }}
+          echo ${{ steps.grab1.outcome }}
           git add m.tv.sk.cz.guide.xml
-          git commit -m "epg-grabber - ${{ steps.grab2.outcome }}"
+          git commit -m "epg-grabber - ${{ steps.grab1.outcome }}"
           git pull
           git push

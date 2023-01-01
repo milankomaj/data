@@ -57,4 +57,5 @@ jobs:
           git config --global user.name ${{ secrets.NAME }}
           git add ./README.md
           git commit -m "epg-grabber"
+          git pull
           git push
