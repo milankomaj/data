@@ -3,8 +3,8 @@ run-name: ${{ github.workflow }} ✅ ${{ github.event_name}}
 on:
   workflow_call:
    outputs:
-    grab1_outcome:
-     description: "grab.outputs.grab1_outcome"
+    firstword:
+     description: "grab.outputs.output1"
      value: ${{ jobs.grab.outputs.output_grab1 }}
 
   workflow_dispatch:
@@ -25,7 +25,7 @@ jobs:
       run:
         working-directory: ./epg-grabber
     outputs:
-      output_grab1: ${{ steps.grab2.outputs.grab1_outcome}}
+      output1: ${{ steps.grab2.outputs.firstword}}
 
     steps:
       - name: Checkout
@@ -43,7 +43,7 @@ jobs:
         shell: bash
         run: |
          echo ${{ steps.grab1.outcome }}
-         echo "grab1_outcome=${{steps.grab1.outcome }}" >> $GITHUB_OUTPUT
+         echo "firstword=${{steps.grab1.outcome }}" >> $GITHUB_OUTPUT
 
       - name: Deploy
         run: |
