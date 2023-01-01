@@ -10,15 +10,12 @@ on:
   - cron: '30 1 */5 * *'
 jobs:
   grab1:
-    continue-on-error: true
     uses: ./.github/workflows/epg-grabber-1.yml
     secrets: inherit
   grab2:
-    continue-on-error: true
     uses: ./.github/workflows/epg-grabber-2.yml
     secrets: inherit
   grab3:
-    continue-on-error: true
     uses: ./.github/workflows/epg-grabber-3.yml
     secrets: inherit
 
