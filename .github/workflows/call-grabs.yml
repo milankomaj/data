@@ -4,7 +4,7 @@ on:
   workflow_call:
   workflow_dispatch:
   pull_request_target:
-    branches: '**'
+    branches: 'main'
     types: [closed]
   schedule:
   - cron: '30 1 */5 * *'
