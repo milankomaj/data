@@ -31,11 +31,6 @@ jobs:
 
 
 
-
-      - name: Tree
-        run: |
-         echo ***./***
-         tree -h -L 2 ./
       - name: Deploy
         run: |
           git config --global user.email ${{ secrets.EMAIL }}

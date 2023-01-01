@@ -32,6 +32,11 @@ jobs:
           cd ${{ github.workspace }}
           sed -i "12s/.*/$stamp | epg-grabber/" ./README.md
         shell: bash
+        
+      - name: Tree
+        run: |
+         echo ***./***
+         tree -h -L 2 ./
 
       - name: Update
         id: update
