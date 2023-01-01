@@ -30,14 +30,7 @@ jobs:
         run: npm run grab2
 
 
-      - name: timestamp
-        run: |
-          date >> ./timestamp
-          stamp=$(date -r ./timestamp)
-          echo $stamp
-          cd ${{ github.workspace }}
-          sed -i "13s/.*/$stamp | epg-grabber/" ./README.md
-        shell: bash
+
 
       - name: Tree
         run: |
