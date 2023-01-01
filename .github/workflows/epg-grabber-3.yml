@@ -53,5 +53,5 @@ jobs:
           git add ./*.xml
           git commit -m "epg-grabber"
           git checkout ${{ github.workspace }}/README.md
-          git pull
+          git merge ort
           git push
