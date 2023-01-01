@@ -20,7 +20,7 @@ jobs:
       run:
         working-directory: ./epg-grabber
     outputs:
-      output_grab2: ${{ steps.grab2.outputs.grab2_ outcome}}
+      output_grab2: ${{ steps.grab2.outputs.grab2_outcome}}
 
     steps:
       - name: Checkout
