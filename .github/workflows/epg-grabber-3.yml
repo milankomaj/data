@@ -20,7 +20,7 @@ jobs:
       run:
         working-directory: ./epg-grabber
     outputs:
-      output_grab3: ${{ steps.grab3.outputs.grab3_outcome}}
+      output_grab3: ${{ steps.grab3_outcome.outputs.grab3_outcome}}
 
     steps:
       - name: Checkout
@@ -38,7 +38,7 @@ jobs:
         shell: bash
         run: |
          echo ${{ steps.grab3.outcome }}
-         echo "grab3_outcome=${{steps.grab3.outcome }}" >> $GITHUB_OUTPUT
+         echo "grab3_outcome=${{ steps.grab3.outcome }}" >> $GITHUB_OUTPUT
 
 
       - name: Deploy
