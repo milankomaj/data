@@ -51,6 +51,6 @@ jobs:
           git add ./*.csv
           git add ./*.xml
           git commit -m "epg-grabber"
-          git config pull.rebase false
+          git stash
           git pull
           git push
