@@ -47,11 +47,9 @@ jobs:
         run: |
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}
-          git config pull.rebase false
+          git config --global pull.rebase true
           git add ${{ github.workspace }}/README.md
           git add ./*.csv
           git add ./*.xml
           git commit -m "epg-grabber"
-          git checkout ${{ github.workspace }}/README.md
-          git pull ort
           git push
