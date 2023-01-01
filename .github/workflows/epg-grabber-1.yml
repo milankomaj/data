@@ -34,7 +34,7 @@ jobs:
         run: |
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}
-          git config pull.rebase falsey
+          git config pull.rebase false
           git add ./*.csv
           git add ./*.xml
           git commit -m "epg-grabber"
