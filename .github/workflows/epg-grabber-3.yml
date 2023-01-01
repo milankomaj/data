@@ -55,4 +55,4 @@ jobs:
           git add o2tv.cz_cz.guide.xml
           git commit -m "epg-grabber - ${{ steps.grab3.outcome }}"
           git pull
-          git push
+          git push -f

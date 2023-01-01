@@ -54,4 +54,4 @@ jobs:
           git add horizon.tv_sk.guide.xml
           git commit -m "epg-grabber - ${{ steps.grab2.outcome }}"
           git pull
-          git push
+          git push -f
