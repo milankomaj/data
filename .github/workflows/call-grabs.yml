@@ -18,11 +18,7 @@ jobs:
   grab3:
     uses: ./.github/workflows/epg-grabber-3.yml
     secrets: inherit
-  outputs_grabers:
-    run: |
-     echo ${{ needs.grab1.outputs.output_grab1 }}
-     echo ${{ needs.grab2.outputs.output_grab2 }}
-     echo ${{ needs.grab3.outputs.output_grab3 }}
+
 
   push:
     runs-on: ubuntu-latest
@@ -42,6 +38,13 @@ jobs:
         run: |
          echo ***./***
          tree -h -L 2 ./
+
+      - name: outputs_grabers
+        run: |
+         echo ${{ needs.grab1.outputs.output_grab1 }}
+         echo ${{ needs.grab2.outputs.output_grab2 }}
+         echo ${{ needs.grab3.outputs.output_grab3 }}
+
 
       - name: Update
         id: update
