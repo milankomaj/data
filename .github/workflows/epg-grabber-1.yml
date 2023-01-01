@@ -5,7 +5,7 @@ on:
    outputs:
     firstword:
      description: "grab.outputs.output1"
-     value: ${{ jobs.grab.outputs.output_grab1 }}
+     value: ${{ jobs.grab.outputs.output1 }}
 
   workflow_dispatch:
   pull_request_target:
