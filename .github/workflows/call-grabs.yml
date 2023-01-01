@@ -46,9 +46,9 @@ jobs:
       - name: outputs_grabers
         needs: [grab1,grab2,grab3]
         run: |
-         echo ${{ needs.grab1.outputs.output_grab1 }}
-         echo ${{ needs.grab2.outputs.output_grab2 }}
-         echo ${{ needs.grab3.outputs.output_grab3 }}
+         echo ${{ needs.grab1.outputs.grab1.outcome }}
+         echo ${{ needs.grab2.outputs.grab2.outcome }}
+         echo ${{ needs.grab3.outputs.grab3.outcome }}
 
 
       - name: Update
