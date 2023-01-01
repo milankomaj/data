@@ -40,7 +40,6 @@ jobs:
         run: |
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}
-          git pull
           git add ./*.csv
           git add ./*.xml
           git commit -m "epg-grabber"
