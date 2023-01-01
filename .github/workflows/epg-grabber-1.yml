@@ -3,8 +3,8 @@ run-name: ${{ github.workflow }} ✅ ${{ github.event_name}}
 on:
   workflow_call:
    outputs:
-    firstword:
-     description: "grab.outputs.output1"
+    grab1outcome:
+     description: "output1"
      value: ${{ jobs.grab.outputs.output1 }}
 
   workflow_dispatch:
@@ -25,7 +25,7 @@ jobs:
       run:
         working-directory: ./epg-grabber
     outputs:
-      output1: ${{ steps.grab2.outputs.firstword}}
+      output1: ${{ steps.grab2.outputs.grab1outcome}}
 
     steps:
       - name: Checkout
@@ -39,17 +39,18 @@ jobs:
         run: npm run grab1
 
       - name: outcome
-        id: grab1_outcome
+        id: grab1outcome
         shell: bash
         run: |
          echo ${{ steps.grab1.outcome }}
-         echo "firstword=${{steps.grab1.outcome }}" >> $GITHUB_OUTPUT
+         echo "output1=${{ steps.grab1.outcome }}" >> $GITHUB_OUTPUT
 
       - name: Deploy
         run: |
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}
           git config pull.rebase true
+          echo ${{needs.grab.outputs.output1}}
           echo ${{ steps.grab1.outcome }}
           git add m.tv.sk.cz.guide.xml
           git commit -m "epg-grabber - ${{ steps.grab1.outcome }}"
