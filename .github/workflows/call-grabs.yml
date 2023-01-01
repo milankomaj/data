@@ -48,7 +48,9 @@ jobs:
          echo ${{ needs.grab1.outputs.grab1_outcome }}
          echo ${{ needs.grab2.outputs.grab2_outcome }}
          echo ${{ needs.grab3.outputs.grab3_outcome }}
-
+         echo "grab1 = $(echo ${{ needs.grab1.outputs.grab1_outcome }})" >> $GITHUB_STEP_SUMMARY
+         echo "grab2 = $(echo ${{ needs.grab2.outputs.grab2_outcome }})" >> $GITHUB_STEP_SUMMARY
+         echo "grab3 = $(echo ${{ needs.grab3.outputs.grab3_outcome }})" >> $GITHUB_STEP_SUMMARY
 
       - name: Update
         id: update
