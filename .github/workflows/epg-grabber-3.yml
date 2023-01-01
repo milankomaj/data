@@ -19,6 +19,9 @@ jobs:
     defaults:
       run:
         working-directory: ./epg-grabber
+    outputs:
+      output_grab3: ${{ steps.grab3.outputs.grab3_ outcome}}
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -27,7 +30,15 @@ jobs:
         run: npm install
 
       - name: Grab
-        run: npm run grab3
+        id: grab3
+        run: npm run
+
+      - name: outcome
+        id: grab3_outcome
+        shell: bash
+        run: |
+         echo ${{ steps.grab3.outcome }}
+         echo "grab3_outcome=${{steps.grab3.outcome }}" >> $GITHUB_OUTPUT
 
 
       - name: Deploy
@@ -35,8 +46,9 @@ jobs:
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}
           git config pull.rebase false
+          echo ${{ steps.grab3.outcome }}
           git add ./*.csv
           git add ./*.xml
-          git commit -m "epg-grabber"
+          git commit -m "epg-grabber - ${{ steps.grab3.outcome }}"
           git pull
           git push
