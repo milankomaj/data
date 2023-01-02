@@ -20,4 +20,4 @@ sed -i 's/ "//g' ${balicky}-${lang[@]::2}.tsv
 sed -i 's/"//g' ${balicky}-${lang[@]::2}.tsv
 done
 done
-paste -d '' *.tsv | awk -F, '{NF=4}1' OFS="," > ./sites/skylink.csv
+paste -d '' *.tsv | awk -F, '{NF=4}1' OFS="," > ./sites/skylink_balicky.csv
