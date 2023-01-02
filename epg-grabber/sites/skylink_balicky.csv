@@ -78,8 +78,8 @@ National Geographic Wild,Mezzo HD,MTV 80s,Šláger Originál
 Nautical HD,Mňam TV,MTV DE,Šlágr Premium HD
 Prima ZOOM HD,MTV 00s,MTV Europe CZ,Cartoon Network
 Spektrum HD,MTV 80s,ÓČKO,Disney Channel
-Travelxp HD,MTV DE,ÓČKO BLACK HD Pouze,ducktv
-UP NETWORK,MTV Europe CZ,ÓČKO EXPRES HD Pouze,JimJam
+Travelxp HD,MTV DE,ÓČKO BLACK HD,ducktv
+UP NETWORK,MTV Europe CZ,ÓČKO EXPRES HD,JimJam
 Viasat Explore,ÓČKO,ÓČKO STAR,Jojko
 Viasat History HD,ÓČKO BLACK HD,Rebel,LALA TV
 Viasat Nature HD,ÓČKO EXPRES HD,Retro,Minimax
@@ -92,15 +92,15 @@ MTV 80s,Stingray Classica HD,ČT :D HD,Penthouse Gold
 MTV DE,Stingray CMusic,Disney Channel,Playboy TV Europe
 MTV Europe CZ,Stingray iConcerts HD,ducktv,VIXEN HD
 ÓČKO,Šláger Muzika,JimJam,BBC World News HD
-ÓČKO BLACK HD Pouze,Šláger Originál,LALA TV,Bloomberg Europe
-ÓČKO EXPRES HD Pouze,Šlágr Premium HD,Minimax,CNN Prima NEWS HD
+ÓČKO BLACK HD,Šláger Originál,LALA TV,Bloomberg Europe
+ÓČKO EXPRES HD,Šlágr Premium HD,Minimax,CNN Prima NEWS HD
 ÓČKO STAR,TV Paprika,Nick Jr Czech,ČT24 HD
 Rebel,Boomerang,Nickelodeon,EuroNews
 Retro,Cartoon Network,Nickelodeon DE,France 24
 Senzi,Disney Channel,Nicktoons,JOJ 24 HD
 Spektrum Home,ducktv,LEO TV,Newsmax HD
 Stingray Classica HD,JimJam,Penthouse Gold,RTVS 24 HD
-Stingray CMusic,Jojko,Playboy TV Europe Pouze,Sky News International
+Stingray CMusic,Jojko,Playboy TV Europe,Sky News International
 Stingray iConcerts HD,LALA TV,VIXEN HD,TA3 HD
 Šláger Muzika,Minimax,BBC World News HD,
 Šláger Originál,Nick Jr Czech,Bloomberg Europe,
@@ -118,14 +118,14 @@ Nick Jr Czech,Playboy TV Europe,,
 Nickelodeon,Vivid TV Europe,,
 Nickelodeon DE,VIXEN HD,,
 Nicktoons,BBC World News HD,,
-Dorcel TV Pouze,Bloomberg Europe,,
-Dorcel XXX Pouze,CNN Prima NEWS HD,,
+Dorcel TV,Bloomberg Europe,,
+Dorcel XXX,CNN Prima NEWS HD,,
 Hustler,ČT24 HD,,
 LEO TV,EuroNews,,
 Man-X,France 24,,
 Penthouse Gold,JOJ 24 HD,,
 Penthouse Reality TV,Newsmax HD,,
-Playboy TV Europe Pouze,RTVS 24 HD,,
+Playboy TV Europe,RTVS 24 HD,,
 Vivid TV Europe,Sky News International,,
 VIXEN HD,TA3 HD,,
 BBC World News HD,,,
