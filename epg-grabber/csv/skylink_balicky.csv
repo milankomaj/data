@@ -3,8 +3,8 @@ AMC,AMC,AMC,AMC
 ANIXE HD,ANIXE HD,ANIXE HD,ANIXE HD
 ARD Alpha,ARD Alpha,ARD Alpha,ARD Alpha
 AXN Black,AXN Black,AXN Black,AXN Black
-AXN,AXN,AXN,AXN
 AXN White,AXN White,AXN White,AXN White
+AXN,AXN,AXN,AXN
 Al Jazeera English HD,Al Jazeera English HD,Al Jazeera English HD,Al Jazeera English HD
 Algerie 3,Algerie 3,Algerie 3,Algerie 3
 Aragón TV,Aragón TV,Aragón TV,Aragón TV
@@ -50,9 +50,9 @@ Dorcel TV,Doma HD,Film Europe HD,FightBox
 Dorcel XXX,Dorcel TV,Film Europe+ HD,Film Europe HD
 Dvojka HD,Dorcel XXX,Film+,Film Europe+ HD
 EWTN Katholisches,Dvojka HD,FilmBox Extra HD,Film+
-Earthx TV,EWTN Katholisches,FilmBox,FilmBox Extra HD
-Epic Drama HD,Earthx TV,FilmBox Stars,FilmBox
-EuroNews,Epic Drama HD,Fishing and Hunting,FilmBox Stars
+Earthx TV,EWTN Katholisches,FilmBox Stars,FilmBox Extra HD
+Epic Drama HD,Earthx TV,FilmBox,FilmBox Stars
+EuroNews,Epic Drama HD,Fishing and Hunting,FilmBox
 Eurosport 1 DE,EuroNews,Folx TV,Fishing and Hunting
 Extreme Sports Channel,Eurosport 1 DE,France 24 English,Folx TV
 FightBox,Extreme Sports Channel,France 24,France 24 English
@@ -61,10 +61,10 @@ Film Europe+ HD,Film Europe HD,Golf Channel,GoTV
 Film+,Film Europe+ HD,History HD,Golf Channel
 FilmBox Extra HD,Film+,Hobby TV,History HD
 FilmBox Family,FilmBox Extra HD,I24 NEWS,Hobby TV
-FilmBox,FilmBox Family,INPLUS,I24 NEWS
-FilmBox Premium HD,FilmBox,JOJ Cinema HD,INPLUS
-FilmBox Stars,FilmBox Premium HD,JOJ Family HD,JOJ 24 HD
-Fishing and Hunting,FilmBox Stars,Jednotka HD,JOJ Cinema HD
+FilmBox Premium HD,FilmBox Family,INPLUS,I24 NEWS
+FilmBox Stars,FilmBox Premium HD,JOJ Cinema HD,INPLUS
+FilmBox,FilmBox Stars,JOJ Family HD,JOJ 24 HD
+Fishing and Hunting,FilmBox,Jednotka HD,JOJ Cinema HD
 Folx TV,Fishing and Hunting,JimJam,JOJ HD
 France 24 English,Folx TV,K-TV,JOJ Šport HD
 France 24,France 24 English,Kabel Eins Doku,Jednotka HD
@@ -94,12 +94,12 @@ Love Nature HD,LALA TV,National Geographic Wild,N24 DOKU
 MDR Sachsen HD,LCP HD,Newsmax HD,NDR Hamburg HD
 MTV 00s,LEO TV,Nick Jr Czech,NHK World HD
 MTV 80s,Love Nature HD,Nickelodeon DE,National Geographic HD
-MTV DE,MDR Sachsen HD,Nickelodeon,National Geographic Wild HD
-MTV Europe CZ,MTV 00s,Nickelodeon Ukraine Pluto TV,Newsmax HD
+MTV DE,MDR Sachsen HD,Nickelodeon Ukraine Pluto TV,National Geographic Wild HD
+MTV Europe CZ,MTV 00s,Nickelodeon,Newsmax HD
 Malyatko TV,MTV 80s,Nicktoons,Nick Jr Czech
 Man-X,MTV DE,Nitro,Nickelodeon DE
-Markíza International,MTV Europe CZ,Nova Action HD,Nickelodeon
-Melodie TV,Malyatko TV,Nova Cinema HD,Nickelodeon Ukraine Pluto TV
+Markíza International,MTV Europe CZ,Nova Action HD,Nickelodeon Ukraine Pluto TV
+Melodie TV,Malyatko TV,Nova Cinema HD,Nickelodeon
 Mezzo HD,Man-X,Nova Fun HD,Nicktoons
 Minimax,Markíza HD,Nova Gold,Nitro
 Mňam TV,Markíza Krimi HD,Nova HD,Nova International
@@ -113,12 +113,12 @@ Nautical HD,NDR Hamburg HD,Pershiy Ukraine,Phoenix HD
 Newsmax HD,NHK World HD,Phoenix HD,Playboy TV Europe
 Nick Jr Czech,National Geographic HD,Playboy TV Europe,Plus HD
 Nickelodeon DE,National Geographic Wild HD,Prima COOL HD,Prima PLUS HD
-Nickelodeon,Nautical HD,Prima HD,Pro Sieben MAXX
-Nickelodeon Ukraine Pluto TV,Newsmax HD,Prima KRIMI HD,Pro Sieben
+Nickelodeon Ukraine Pluto TV,Nautical HD,Prima HD,Pro Sieben MAXX
+Nickelodeon,Newsmax HD,Prima KRIMI HD,Pro Sieben
 Nicktoons,Nick Jr Czech,Prima LOVE HD,QVC 2 UHD
 Nitro,Nickelodeon DE,Prima MAX HD,QVC UHD
-Nova Action HD,Nickelodeon,Prima STAR,R9 Osterreich HD
-Nova Cinema HD,Nickelodeon Ukraine Pluto TV,Prima Show,RELAX
+Nova Action HD,Nickelodeon Ukraine Pluto TV,Prima STAR,R9 Osterreich HD
+Nova Cinema HD,Nickelodeon,Prima Show,RELAX
 Nova Fun HD,Nicktoons,Prima ZOOM HD,RTL 2
 Nova Gold,Nitro,Pro Sieben MAXX,RTL Television
 Nova HD,Nova International,Pro Sieben,RTL plus
@@ -175,50 +175,51 @@ Sport 1 DE,Super RTL,VIXEN HD,ZDF HD
 Sport 1 HD,TA3 HD,VOX,ZDF info HD
 Sport 2 HD,TELE 5,Viasat Explore,ZDF neo HD
 Stingray CMusic,TLC DE,Viasat History HD,Zee One HD
-Stingray Classica HD,TOGGO plus,Viasat Nature HD,arte HD
-Stingray iConcerts HD,TRT World HD,WDR HD Köln,ducktv
-Super RTL,TV Galicia HD,Welt,hr HD
-TA3 HD,TV Lux HD,ZDF HD,oe24.TV HD
-TELE 5,TV Noe,ZDF info HD,one HD
-TLC DE,TV Paprika,ZDF neo HD,rbb HD
-TOGGO plus,TV RUS,Zee One HDtagesschau 24 HD,
-TRT World HD,TV1 OOE,arte HD,ÓČKO BLACK HD
-TV Barrandov HD,TV5 Monde FBS HD,ducktv,ÓČKO EXPRES HD
-TV Galicia HD,TV8 HD,hr HD,ÓČKO
-TV Lux HD,Travelxp HD,oe24.TV HD,ÓČKO STAR
-TV Noe,UHD1 by ASTRA,one HD,ČT1 HD
-TV Paprika,UP NETWORK,rbb HD,ČT2 HD
-TV RUS,VIXEN HD,tagesschau 24 HD,ČT24 HD
-TV1 OOE,VOX,ÓČKO BLACK HD,Šláger Muzika
-TV5 Monde FBS HD,Viasat Explore,ÓČKO EXPRES HD,Šláger Originál
-TV8 HD,Viasat History HD,ÓČKO,Šlágr Premium HD
-Televize Seznam,Viasat Nature HD,ÓČKO STAR,[
-Travelxp HD,Vivid TV Europe,ČT :D HD,
-UHD1 by ASTRA,WAU HD,ČT Sport HD,
-UP NETWORK,WDR HD Köln,ČT art HD,
-VIXEN HD,Welt,ČT1 HD,
-VOX,ZDF HD,ČT2 HD,
-Viasat Explore,ZDF info HD,ČT24 HD,
-Viasat History HD,ZDF neo HD,Šláger Muzika,
-Viasat Nature HD,Zee One HDŠláger Originál,,
-Vivid TV Europe,arte HD,Šlágr Premium HD,
-WDR HD Köln,ducktv,[,
-Welt,hr HD,,
-ZDF HD,oe24.TV HD,,
-ZDF info HD,one HD,,
-ZDF neo HD,rbb HD,,
-Zee One HDtagesschau 24 HD,,,
+Stingray Classica HD,TOGGO plus,Viasat Nature HD,[
+Stingray iConcerts HD,TRT World HD,WDR HD Köln,arte HD
+Super RTL,TV Galicia HD,Welt,ducktv
+TA3 HD,TV Lux HD,ZDF HD,hr HD
+TELE 5,TV Noe,ZDF info HD,oe24.TV HD
+TLC DE,TV Paprika,ZDF neo HD,one HD
+TOGGO plus,TV RUS,Zee One HDrbb HD,
+TRT World HD,TV1 OOE,[tagesschau 24 HD,
+TV Barrandov HD,TV5 Monde FBS HD,arte HD,ÓČKO BLACK HD
+TV Galicia HD,TV8 HD,ducktv,ÓČKO EXPRES HD
+TV Lux HD,Travelxp HD,hr HD,ÓČKO STAR
+TV Noe,UHD1 by ASTRA,oe24.TV HD,ÓČKO
+TV Paprika,UP NETWORK,one HD,ČT1 HD
+TV RUS,VIXEN HD,rbb HD,ČT2 HD
+TV1 OOE,VOX,tagesschau 24 HD,ČT24 HD
+TV5 Monde FBS HD,Viasat Explore,ÓČKO BLACK HD,Šláger Muzika
+TV8 HD,Viasat History HD,ÓČKO EXPRES HD,Šláger Originál
+Televize Seznam,Viasat Nature HD,ÓČKO STAR,Šlágr Premium HD
+Travelxp HD,Vivid TV Europe,ÓČKO,
+UHD1 by ASTRA,WAU HD,ČT :D HD,
+UP NETWORK,WDR HD Köln,ČT Sport HD,
+VIXEN HD,Welt,ČT art HD,
+VOX,ZDF HD,ČT1 HD,
+Viasat Explore,ZDF info HD,ČT2 HD,
+Viasat History HD,ZDF neo HD,ČT24 HD,
+Viasat Nature HD,Zee One HDŠláger Muzika,,
+Vivid TV Europe,[Šláger Originál,,
+WDR HD Köln,arte HD,Šlágr Premium HD,
+Welt,ducktv,,
+ZDF HD,hr HD,,
+ZDF info HD,oe24.TV HD,,
+ZDF neo HD,one HD,,
+Zee One HDrbb HD,,,
+[tagesschau 24 HD,,,
 arte HD,ÓČKO BLACK HD,,
 ducktv,ÓČKO EXPRES HD,,
-hr HD,ÓČKO,,
-oe24.TV HD,ÓČKO STAR,,
+hr HD,ÓČKO STAR,,
+oe24.TV HD,ÓČKO,,
 one HD,ČT1 HD,,
 rbb HD,ČT2 HD,,
 tagesschau 24 HD,ČT24 HD,,
 ÓČKO BLACK HD,Šláger Muzika,,
 ÓČKO EXPRES HD,Šláger Originál,,
-ÓČKO,Šlágr Premium HD,,
-ÓČKO STAR,[,,
+ÓČKO STAR,Šlágr Premium HD,,
+ÓČKO,,,
 ČT :D HD,,,
 ČT Sport HD,,,
 ČT art HD,,,
@@ -228,4 +229,3 @@ tagesschau 24 HD,ČT24 HD,,
 Šláger Muzika,,,
 Šláger Originál,,,
 Šlágr Premium HD,,,
-[,,,
