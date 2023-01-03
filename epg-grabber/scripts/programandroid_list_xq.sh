@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo -e "\033[31;1m programandroid chanells \033[0m"
 for XPath in {'//a/@id','//n','//o','//p','//a/@k'}
 do
 echo "${XPath}"
