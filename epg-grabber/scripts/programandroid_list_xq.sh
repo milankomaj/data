@@ -9,7 +9,7 @@ echo $version
 curl -X GET \
   --no-progress-meter \
   --url "https://programandroid.365dni.cz/android/v5-tv.php?locale=sk" \
-| ./xq -x ${XPath} > ${version}.csv
+| xq -x ${XPath} > ${version}.csv
 done
 
 paste -d ',' *.csv > programandroid.tsv
@@ -25,8 +25,3 @@ echo "</site>" >> programandroid.channels.xml
 awk -F ',' '{print "programandroid-"$1","$1","$2","$5","$3}' programandroid.tsv | sort -t, -k3 > programandroid.channels.csv
 
 sed -i 1i"xmltv_id,site_id,name,channelNumber,logoUrl" programandroid.channels.csv
-
-
-
-
-
