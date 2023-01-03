@@ -20,11 +20,29 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
+      - name: xq
+        run: |
+          echo -e "\033[31;1m Xq Version download Latest version\033[0m"
+          XQtool=$(curl -L -s -H 'Accept: application/json' https://github.com/sibprogrammer/xq/releases/latest)
+          VersionXQtool=$(echo $XQtool | sed -e 's/.*"tag_name":"\([^"]*\)".*/\1/')
+          echo VersionXQtool = $VersionXQtool
+          echo $VersionXQtool
+          short=$(echo $VersionXQtool | cut -c 2-)
+          echo $short
+          URL=$(curl -s -L -o xq_$(echo $short)_linux_amd64.tar.gz https://github.com/sibprogrammer/xq/releases/download/$(echo $VersionXQtool)/xq_$(echo $short)_linux_amd64.tar.gz)
+          tar -xf xq_$(echo $short)_linux_amd64.tar.gz xq
+
+
       - name: chmod
         run: |
-         go install github.com/sibprogrammer/xq@latest
          echo -e "\033[31;1m Update chanells. \033[0m"
-         xq
+         chmod +x ./scripts/horizon_tv_list_curl.sh
+         bash ./scripts/horizon_tv_list_curl.sh
+         chmod +x ./scripts/o2_tv_list_curl.sh
+         bash ./scripts/o2_tv_list_curl.sh
+         chmod +x ./scripts/skylink_balicky.sh
+         bash ./scripts/skylink_balicky.sh
          chmod +x ./scripts/programandroid_list_xq.sh
          bash ./scripts/programandroid_list_xq.sh
 
