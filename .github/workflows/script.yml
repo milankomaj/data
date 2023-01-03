@@ -27,7 +27,7 @@ jobs:
 
          chmod +x ./scripts/programandroid_list_xq.sh
          bash ./scripts/programandroid_list_xq.sh
-
+         ./xq
         shell: bash
 
       - name: update-codes

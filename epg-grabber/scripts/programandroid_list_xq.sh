@@ -9,7 +9,7 @@ echo $version
 curl -X GET \
   --no-progress-meter \
   --url "https://programandroid.365dni.cz/android/v5-tv.php?locale=sk" \
-| ./xq -x ${XPath} > $version.csv
+| ./xq -x ${XPath} > $(echo $version).csv
 done
 
 paste -d ',' *.csv > programandroid.tsv
