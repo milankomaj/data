@@ -17,7 +17,7 @@ jobs:
       run:
         working-directory: ./epg-grabber
     steps:
-      - name: Checkout
+      - name: checkout
         uses: actions/checkout@v3
 
       - name: xq
@@ -31,29 +31,30 @@ jobs:
           echo $short
           URL=$(curl -s -L -o xq_$(echo $short)_linux_amd64.tar.gz https://github.com/sibprogrammer/xq/releases/download/$(echo $VersionXQtool)/xq_$(echo $short)_linux_amd64.tar.gz)
           tar -xvzf xq_$(echo $short)_linux_amd64.tar.gz xq
+        shell: bash
 
       - name: chmod
         run: |
-         echo -e "\033[31;1m Update chanells. \033[0m"
-         chmod +x ./scripts/horizon_tv_list_curl.sh
-         bash ./scripts/horizon_tv_list_curl.sh
-         chmod +x ./scripts/o2_tv_list_curl.sh
-         bash ./scripts/o2_tv_list_curl.sh
-         chmod +x ./scripts/skylink_balicky.sh
-         bash ./scripts/skylink_balicky.sh
-         chmod +x ./scripts/programandroid_list_xq.sh
-         bash ./scripts/programandroid_list_xq.sh
+          echo -e "\033[31;1m Update chanells. \033[0m"
+          chmod +x ./scripts/horizon_tv_list_curl.sh
+          ./scripts/horizon_tv_list_curl.sh
+          chmod +x ./scripts/o2_tv_list_curl.sh
+          ./scripts/o2_tv_list_curl.sh
+          chmod +x ./scripts/skylink_balicky.sh
+          ./scripts/skylink_balicky.sh
+          chmod +x ./scripts/programandroid_list_xq.sh
+          ./scripts/programandroid_list_xq.sh
         shell: bash
 
       - name: update-codes
         run: |
-         npm install
-         npm run update-codes
+          npm install
+          npm run update-codes
 
       - name: tree
         run: |
-         echo ***./***
-         tree -h ./sites/
+          echo ***./***
+          tree -h ./sites/
 
       - name: deploy
         run: |
