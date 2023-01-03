@@ -24,12 +24,7 @@ jobs:
         run: |
          go install github.com/sibprogrammer/xq@latest
          echo -e "\033[31;1m Update chanells. \033[0m"
-         chmod +x ./scripts/horizon_tv_list_curl.sh
-         bash ./scripts/horizon_tv_list_curl.sh
-         chmod +x ./scripts/o2_tv_list_curl.sh
-         bash ./scripts/o2_tv_list_curl.sh
-         chmod +x ./scripts/skylink_balicky.sh
-         bash ./scripts/skylink_balicky.sh
+
          chmod +x ./scripts/programandroid_list_xq.sh
          bash ./scripts/programandroid_list_xq.sh
 

@@ -3,13 +3,13 @@
 for XPath in {'//a/@id','//n','//o','//p','//a/@k'}
 do
 echo "${XPath}"
-version=$(date +'%s%N');
+version=$(date +'%s%N')
 echo $version
 
 curl -X GET \
   --no-progress-meter \
   --url "https://programandroid.365dni.cz/android/v5-tv.php?locale=sk" \
-| ./xq -x ${XPath} > ${version}.csv
+| ./xq -x ${XPath} > $version.csv
 done
 
 paste -d ',' *.csv > programandroid.tsv
