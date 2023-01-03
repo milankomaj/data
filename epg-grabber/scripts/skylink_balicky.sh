@@ -20,4 +20,4 @@ sed -i 's/ "//g' ${balicky}-${lang[@]::2}.tsv
 sed -i 's/"//g' ${balicky}-${lang[@]::2}.tsv
 done
 done
-paste -d '' *.tsv > skylink_balicky.csv
+paste -d '' *.tsv > ./csv/skylink_balicky.csv

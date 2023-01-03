@@ -22,6 +22,8 @@ jobs:
         uses: actions/checkout@v3
       - name: chmod
         run: |
+         sudo apt-fast update
+         sudo apt-fast install xq
          echo -e "\033[31;1m Update chanells. \033[0m"
          chmod +x ./scripts/horizon_tv_list_curl.sh
          bash ./scripts/horizon_tv_list_curl.sh
@@ -46,8 +48,7 @@ jobs:
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}
           git pull
-          git add ./sites/*.csv
-          git add ./*.csv
+          git add ./csv/*.csv
           git add ./sites/*.xml
           git commit -m "epg-grabber-update-codes"
           git push
