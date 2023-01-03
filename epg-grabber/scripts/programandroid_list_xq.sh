@@ -22,6 +22,6 @@ sed -i 2i"<site site=\"programandroid.365dni.cz\">" programandroid.channels.xml
 sed -i 3i"\ \ <channels>" programandroid.channels.xml
 echo "  </channels>" >> programandroid.channels.xml
 echo "</site>" >> programandroid.channels.xml
-awk -F ',' '{print "programandroid-"$1","$1","$2","$5","$3}' programandroid.tsv | sort -t, -k3 > programandroid.channels.csv
+awk -F ',' '{print "programandroid-"$1","$1","$2","$5","$3}' programandroid.tsv | sort -t, -k3 > csv/programandroid.channels.csv
 
 sed -i 1i"xmltv_id,site_id,name,channelNumber,logoUrl" csv/programandroid.channels.csv
