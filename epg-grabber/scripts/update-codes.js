@@ -25,7 +25,7 @@ function main() {
       if (a.name.toLowerCase() > b.name.toLowerCase()) return 1
       return 0
     })
-    writeToFile('.csv/codes.csv', convertToCSV(sorted))
+    writeToFile('csv/codes.csv', convertToCSV(sorted))
     console.log('Done')
   })
 }
