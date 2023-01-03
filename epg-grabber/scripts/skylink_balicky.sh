@@ -16,8 +16,9 @@ sed -i '/3sat HD/,$d' ${balicky}-${lang[@]::2}.tsv
 sed -i 's/^[ \t]*//' ${balicky}-${lang[@]::2}.tsv
 sed -i 's/\Iba Live TV\>//g' ${balicky}-${lang[@]::2}.tsv
 sed -i 's/\Live TV\>//g' ${balicky}-${lang[@]::2}.tsv
+sed -i 's/\ Pouze\>//g' ${balicky}-${lang[@]::2}.tsv
 sed -i 's/ "//g' ${balicky}-${lang[@]::2}.tsv
 sed -i 's/"//g' ${balicky}-${lang[@]::2}.tsv
 done
 done
-paste -d '' *.tsv > ./csv/skylink_balicky.csv
+paste -d '' *.tsv | awk -F, '{NF=4}1' OFS="," > ./csv/skylink_balicky.csv
