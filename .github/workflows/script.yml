@@ -31,7 +31,7 @@ jobs:
           echo $short
           URL=$(curl -s -L -o xq_$(echo $short)_linux_amd64.tar.gz https://github.com/sibprogrammer/xq/releases/download/$(echo $VersionXQtool)/xq_$(echo $short)_linux_amd64.tar.gz)
           tar -xvzf xq_$(echo $short)_linux_amd64.tar.gz xq
-          # echo "${VersionXQtool//v.}"
+          echo "${VersionXQtool//v.}"
 
       - name: chmod
         run: |
