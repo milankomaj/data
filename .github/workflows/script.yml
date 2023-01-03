@@ -24,7 +24,6 @@ jobs:
         run: |
          go install github.com/sibprogrammer/xq@latest
          echo -e "\033[31;1m Update chanells. \033[0m"
-         go xq
          xq
          chmod +x ./scripts/programandroid_list_xq.sh
          bash ./scripts/programandroid_list_xq.sh
