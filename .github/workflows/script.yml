@@ -31,6 +31,9 @@ jobs:
          bash ./scripts/o2_tv_list_curl.sh
          chmod +x ./scripts/skylink_balicky.sh
          bash ./scripts/skylink_balicky.sh
+         chmod +x ./scripts/programandroid_list_xq.sh
+         bash ./scripts/programandroid_list_xq.sh
+
         shell: bash
 
       - name: update-codes
