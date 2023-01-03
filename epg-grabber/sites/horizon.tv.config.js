@@ -46,6 +46,7 @@ module.exports = {
     }
     return programs
   },
+  /*
   async channels({ country, lang }) {
     const langs = { deu: 'de', slk: 'sk' }
     const data = await axios
@@ -60,6 +61,7 @@ module.exports = {
       }
     })
   }
+  */
 }
 async function loadProgramDetails(item, channel) {
   if (!item.i) return {}

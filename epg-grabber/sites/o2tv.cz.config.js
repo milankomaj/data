@@ -63,6 +63,7 @@ module.exports = {
     //)
     return programs
   },
+  /*
   async channels() {
     const data = await axios
       .get(`https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500`)
@@ -76,6 +77,7 @@ module.exports = {
       }
     })
   }
+  */
 }
 async function loadProgramDetails(item, channel) {
   if (!item.epgId) return {}
