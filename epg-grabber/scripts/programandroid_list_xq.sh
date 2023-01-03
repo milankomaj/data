@@ -24,4 +24,4 @@ echo "  </channels>" >> programandroid.channels.xml
 echo "</site>" >> programandroid.channels.xml
 awk -F ',' '{print "programandroid-"$1","$1","$2","$5","$3}' programandroid.tsv | sort -t, -k3 > programandroid.channels.csv
 
-sed -i 1i"xmltv_id,site_id,name,channelNumber,logoUrl" programandroid.channels.csv
+sed -i 1i"xmltv_id,site_id,name,channelNumber,logoUrl" csv/programandroid.channels.csv
