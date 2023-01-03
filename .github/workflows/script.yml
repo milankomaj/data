@@ -31,7 +31,6 @@ jobs:
           echo $short
           URL=$(curl -s -L -o xq_$(echo $short)_linux_amd64.tar.gz https://github.com/sibprogrammer/xq/releases/download/$(echo $VersionXQtool)/xq_$(echo $short)_linux_amd64.tar.gz)
           tar -xvzf xq_$(echo $short)_linux_amd64.tar.gz xq
-          
 
       - name: chmod
         run: |
@@ -44,7 +43,6 @@ jobs:
          bash ./scripts/skylink_balicky.sh
          chmod +x ./scripts/programandroid_list_xq.sh
          bash ./scripts/programandroid_list_xq.sh
-
         shell: bash
 
       - name: update-codes

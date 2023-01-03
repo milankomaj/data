@@ -14,3 +14,4 @@ echo "  </channels>" >> sites/o2_chanell_.xml
 echo "</site>" >> sites/o2_chanell_.xml
 #
 sed -i 1i"xmltv_id,site_id,name,channelNumber,logoUrl" csv/o2_chanell.csv
+echo "done"

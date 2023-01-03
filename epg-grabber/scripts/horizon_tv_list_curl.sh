@@ -15,3 +15,4 @@ echo "  </channels>" >> sites/horizon.tv_sk.channels.xml
 echo "</site>" >> sites/horizon.tv_sk.channels.xml
 #
 sed -i 1i"xmltv_id,site_id,name,channelNumber,logoUrl" csv/horizon.tv_sk.chanell.csv
+echo "done"
