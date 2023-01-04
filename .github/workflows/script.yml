@@ -20,7 +20,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v3
 
-      - id: localle
+      - name: localle
         uses: milankomaj/shell-x@v0.1
         with:
           who-to-greet: '${{ github.actor }}'
