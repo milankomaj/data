@@ -6,7 +6,7 @@ const convert = require('xml-js')
 function main() {
   let codes = {}
   console.log('Starting...')
-  glob('sites/**/*.xml', null, function (er, files) {
+  glob('channels/**/*.xml', null, function (er, files) {
     files.forEach(filename => {
       const channels = parseChannels(filename)
       channels.forEach(channel => {

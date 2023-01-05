@@ -11,10 +11,10 @@ dayjs.extend(customParseFormat)
 
 module.exports = {
   site: 'm.tv.sms.cz',
-  channels: 'm.tv.sk.cz.channels.xml',
-  output: 'm.tv.sk.cz.guide.xml',
-  lang: 'cz',
-  days: 2,
+  //channels: 'm.tv.sk.cz.channels.xml',
+  //output: 'm.tv.sk.cz.guide.xml',
+  //lang: 'cz',
+  //days: 2,
   url: function ({ date, channel }) {
     return `https://m.tv.sms.cz/index.php?stanice=${channel.site_id}&cas=0&den=${date.format(
       'YYYY-MM-DD'

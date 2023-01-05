@@ -52,7 +52,7 @@ jobs:
           git config --global user.name ${{ secrets.NAME }}
           git config pull.rebase true
           echo ${{ steps.grab3.outcome }}
-          git add o2tv.cz_cz.guide.xml
+          git add ./guide/o2tv.cz_cz.guide.xml
           git commit -m "epg-grabber - ${{ steps.grab3.outcome }}"
           git pull
           git push -f
