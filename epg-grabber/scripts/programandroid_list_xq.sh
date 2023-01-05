@@ -9,10 +9,10 @@ echo $version
 curl -X GET \
   --no-progress-meter \
   --url "https://programandroid.365dni.cz/android/v5-tv.php?locale=sk" \
-| ./xq -x ${XPath} > $(echo $version).tsv
+| ./xq -x ${XPath} > $(echo $version)_programandroid.tsv
 done
 
-paste -d ',' *.tsv > programandroid.tsv
+paste -d ',' *_programandroid.tsv > programandroid.tsv
 sed -i '/České\|Slovenské/!d' programandroid.tsv
 sed -i '/Ostatné/d' programandroid.tsv
 
