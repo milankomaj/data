@@ -39,7 +39,7 @@ sed -i 3i"\ \ <channels>" channels/mujtvprogram.channels.xml
 echo "  </channels>" >> channels/mujtvprogram.channels.xml
 echo "</site>" >> channels/mujtvprogram.channels.xml
 sed -i 's/&/&amp;/g' channels/mujtvprogram.channels.xml
-sed -i 's/ logo=""//g' channels/channels/mujtvprogram.channels.xml
+sed -i 's/ logo=""//g' channels/mujtvprogram.channels.xml
 
 awk -F ',' '{print "mujtvprogram-"$1","$1","$2","$3","$4}' mujtvprogram.tsv | sort -t, -k3 > csv/mujtvprogram.channels.csv
 sed -i 1i"xmltv_id,site_id,name,channelNumber,logoUrl" csv/mujtvprogram.channels.csv

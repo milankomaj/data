@@ -56,6 +56,10 @@ jobs:
           ./scripts/mujtvprogram_list_xq.sh
         shell: bash
 
+      - name: update-codes
+        run: |
+          npm install
+          npm run update-codes
 
       - name: tree
         run: |
