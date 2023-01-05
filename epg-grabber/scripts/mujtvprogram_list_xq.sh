@@ -1,6 +1,6 @@
 #!/bin/bash
 echo -e "\033[31;1m mujtvprogram chanells \033[0m"
-for XPath in {'//channel/cid','//channel/name','//channel/order','//channel/logo-image/url','//channel/lang'}
+for XPath in {//channel//cid,//channel/name,//channel/order,//channel/logo-image/url,//channel/lang}
 do
 echo "${XPath}"
 version=$(date +'%s%N');
