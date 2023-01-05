@@ -4,9 +4,9 @@
   "scripts": {
     "update-codes": "node scripts/update-codes.js",
     "NpmInstall": "npm install --save",
-    "grab1": "epg-grabber --days=5 --config=./sites/m.tv.sms.cz.config.js --channels=./channels/m.tv.sk.cz.channels.xml --output=./guide/m.tv.sk.cz.guide.xml --days=1",
-    "grab2": "epg-grabber --config=./sites/horizon.tv.config.js --channels=./channels/horizon.tv_sk.channels.xml --output=./guide/horizon.tv_sk.guide.xml --days=1",
-    "grab3": "epg-grabber --config=./sites/o2tv.cz.config.js --channels=./channels/o2_chanell_.xml --output=./guide/o2tv.cz_cz.guide.xml --days=1"
+    "grab1": "epg-grabber --config=./sites/m.tv.sms.cz.config.js --channels=./channels/m.tv.sk.cz.channels.xml --output=./guide/m.tv.sk.cz.guide.xml --days=5",
+    "grab2": "epg-grabber --config=./sites/horizon.tv.config.js --channels=./channels/horizon.tv_sk.channels.xml --output=./guide/horizon.tv_sk.guide.xml --days=5",
+    "grab3": "epg-grabber --config=./sites/o2tv.cz.config.js --channels=./channels/o2_chanell_.xml --output=./guide/o2tv.cz_cz.guide.xml --days=5"
   },
   "author": "Arhey",
   "license": "MIT",
