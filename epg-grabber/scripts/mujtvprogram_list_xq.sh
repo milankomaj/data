@@ -27,7 +27,7 @@ curl -X POST \
 | ./xq -x ${XPath} > ${version}_mujtvprogram.tsv
 done
 
-paste -d ',' *.tsv > mujtvprogram.tsv
+paste -d ',' *_mujtvprogram.tsv > mujtvprogram.tsv
 
 
 
