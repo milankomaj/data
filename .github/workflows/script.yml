@@ -20,6 +20,14 @@ jobs:
       - name: checkout
         uses: actions/checkout@v3
 
+      - name: localle
+        uses: milankomaj/shell-x@v0.1
+        with:
+          who-to-greet: '${{ github.actor }}'
+          shell: 'bash'
+          locale: 'sk_SK.utf8'
+          timezone: 'Europe/Bratislava'
+
       - name: xq
         run: |
           echo -e "\033[31;1m Xq Version download Latest version\033[0m"
