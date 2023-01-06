@@ -30,6 +30,7 @@ module.exports = {
       })
       .catch(console.error)
     for (let item of items) {
+      if (!item.t) return []
       const detail = await loadProgramDetails(item)
       programs.push({
         title: item.t,
@@ -125,15 +126,19 @@ function parseItems(content, channel) {
 
 function parseDescription(detail) {
   //console.log(detail.listings[0].program.description)
+  let catUa = (detail.program.description == "undefined")
+  if (catUa == true) return []
   if (detail.program.longDescription) { return detail.program.longDescription }
   else if (!detail.program.longDescription && detail.program.description) { return detail.program.description }
   else { return [] }
-
 }
 function parseCategory(detail) {
   //console.log(detail.listings[0].program.categories)
   if (!detail.program.categories) return []
-  return detail.program.categories.map((category) => category.title).join(', ')
+  let catUb = detail.program.categories.map((category) => category.title).join(', ')
+  let catUa = (catUb == "Neklasifikované")
+  if (catUa == true) return []
+  return catUb
 }
 function parseIcon(detail) {
   if (!detail.program.images) return []
