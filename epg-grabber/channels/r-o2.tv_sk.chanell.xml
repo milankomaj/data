@@ -1,32 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<site site="horizon.tv">
-  <channels>
-    <channel lang="sk" xmltv_id="o2-18" site_id="BBC World News" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/bbc-world-news.png">BBC World News</channel>
-    <channel lang="sk" xmltv_id="o2-145" site_id="Bloomberg" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/bloomberg.png">Bloomberg</channel>
-    <channel lang="sk" xmltv_id="o2-97" site_id="Boomerang" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/boomerang.png">Boomerang</channel>
-    <channel lang="sk" xmltv_id="o2-39" site_id="Epic Drama HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/epic-hd.png">Epic Drama HD</channel>
-    <channel lang="sk" xmltv_id="o2-40" site_id="Film Europe HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/film-europe-hd.png">Film Europe HD</channel>
-    <channel lang="sk" xmltv_id="o2-41" site_id="FilmEurope+" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/film-europe-plus.png">Film Europe +</channel>
-    <channel lang="sk" xmltv_id="o2-100" site_id="LalaTV" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/lala-tv.png">Lala TV</channel>
-    <channel lang="sk" xmltv_id="o2-9" site_id="Nova Action HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/nova-action.png">Nova ACTION HD</channel>
-    <channel lang="sk" xmltv_id="o2-6" site_id="Nova Cinema HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/nova-cinema-hd.png">Nova Cinema HD</channel>
-    <channel lang="sk" xmltv_id="o2-7" site_id="Nova 2 HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/nova-2.png">Nova Fun HD</channel>
-    <channel lang="sk" xmltv_id="o2-8" site_id="Nova Gold HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/nova-gold-hd.png">Nova GOLD HD</channel>
-    <channel lang="sk" xmltv_id="o2-3" site_id="Nova HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/nova_202201.png">Nova HD</channel>
-    <channel lang="sk" xmltv_id="o2-10" site_id="NovaLady" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/nova-lady.png">Nova Lady</channel>
-    <channel lang="sk" xmltv_id="o2-77" site_id="Nova Sport 1 HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/nova-sport-1.png">Nova Sport 1 HD</channel>
-    <channel lang="sk" xmltv_id="o2-78" site_id="Nova Sport 2 HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/nova-sport-2-hd.png">Nova Sport 2 HD</channel>
-    <channel lang="sk" xmltv_id="o2-79" site_id="NovaSport3HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/nova-sport-3.png">Nova Sport 3 HD</channel>
-    <channel lang="sk" xmltv_id="o2-80" site_id="NovaSport4HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/nova-sport-4.png">Nova Sport 4 HD</channel>
-    <channel lang="sk" xmltv_id="o2-130" site_id="Óčko Expres" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/ocko-express.png">Óčko Expres</channel>
-    <channel lang="sk" xmltv_id="o2-122" site_id="Óčko" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/ocko.png">Óčko HD</channel>
-    <channel lang="sk" xmltv_id="o2-121" site_id="Óčko Gold" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/ocko-star.png">Óčko Star</channel>
-    <channel lang="sk" xmltv_id="o2-70" site_id="O2 Sport HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png">O2TV Sport HD</channel>
-    <channel lang="sk" xmltv_id="o2-15" site_id="Paramount Network" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/paramount_network.png">Paramount Network</channel>
-    <channel lang="sk" xmltv_id="o2-4" site_id="Prima HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/prima-hd.png">Prima HD</channel>
-    <channel lang="sk" xmltv_id="o2-45" site_id="PrimaShow" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/prima-show.png">Prima Show</channel>
-    <channel lang="sk" xmltv_id="o2-44" site_id="PrimaStar" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/prima-star.png">Prima Star</channel>
-    <channel lang="sk" xmltv_id="o2-185" site_id="Rebel" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/rebel.png">Rebel</channel>
-    <channel lang="sk" xmltv_id="o2-129" site_id="C Music TV" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/c-music-tv.png">STINGRAY CMUSIC</channel>
-  </channels>
-</site>
