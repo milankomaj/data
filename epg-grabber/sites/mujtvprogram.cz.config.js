@@ -29,7 +29,8 @@ module.exports = {
         category: parseCategory(item),
         date: item.year._text || null,
         director: parseList(item.directors),
-        actor: parseList(item.actors)
+        actor: parseList(item.actors),
+        sub_title: parseSub(item)
       })
     })
     return programs
@@ -56,7 +57,10 @@ function parseDescription(item) {
   else if ((!item.longDescription._text && item.shortDescription._text)) { return item.shortDescription._text }
   else { return [] }
 }
-
+function parseSub(item) {
+  if (item.shortDescription) return item.shortDescription._text
+  return null
+}
 function parseList(list) {
   if (!list) return []
   if (!list._text) return []
