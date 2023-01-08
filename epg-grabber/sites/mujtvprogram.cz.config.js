@@ -52,9 +52,9 @@ function parseItems(content) {
   }
 }
 function parseDescription(item) {
-  if (item.longDescription) return item.longDescription._text
-  if (item.shortDescription) return item.shortDescription._text
-  return null
+  if (item.longDescription._text) { return item.longDescription._text }
+  else if ((!item.longDescription._text && item.shortDescription._text)) { return item.shortDescription._text }
+  else { return [] }
 }
 
 function parseList(list) {
