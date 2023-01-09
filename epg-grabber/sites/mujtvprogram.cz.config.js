@@ -12,7 +12,7 @@ module.exports = {
   site: 'mujtvprogram.cz',
   url({ channel, date }) {
     const diff = date.diff(dayjs.utc().startOf('d'), 'd')
-    console.log("diff",diff)
+    //console.log("diff",diff)
     return `https://services.mujtvprogram.cz/tvprogram2services/services/tvprogrammelist_mobile.php?channel_cid=${channel.site_id}&day=${diff}`
   },
   parser({ content }) {
