@@ -58,8 +58,10 @@ function parseDescription(item) {
   else { return [] }
 }
 function parseSub(item) {
-  if (item.shortDescription) return item.shortDescription._text
-  return null
+  if (!item.year._text && !item.shortDescription._text) { return [] }
+  else if (item.year._text && !(String(item.shortDescription._text).length < 89)) { return item.year._text }
+  else if (item.shortDescription._text && (String(item.shortDescription._text).length < 89)) { return item.shortDescription._text }
+  else { return [] }
 }
 function parseList(list) {
   if (!list) return []
