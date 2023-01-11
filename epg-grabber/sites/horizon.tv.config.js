@@ -112,18 +112,13 @@ function parseDirector(detail) {
 
 function parseItems(content, channel) {
   if (!content) return []
+  const channelId = String(channel.site_id)
+  //console.log("channel.site_id",String(channel.site_id))
   const data = typeof content === 'string' ? JSON.parse(content) : content
   if (!data || !Array.isArray(data.entries)) return []
-  //console.log("data",data)
-  const entity = data.entries.find(e => e.o)
-  //console.log("entity",entity)
-  if (!entity) return []
-  //console.log("channelId",entity.o)
+  const entity = data.entries.find(e => e.o === channelId)
   return entity ? entity.l : []
 }
-
-
-
 function parseDescription(detail) {
   //console.log(detail.listings[0].program.description)
   let catUa = (detail.program.description == "undefined")
