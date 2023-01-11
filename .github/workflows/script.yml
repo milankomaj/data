@@ -71,10 +71,10 @@ jobs:
         run: |
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}
-          git pull
-          git add ./csv/*.csv
-          git add ./channels/*.xml
           stat -c "%y : %n" ./csv/*.csv
           stat -c "%y : %n" ./channels/*.xml
+          git pull
+          git add ./csv/*.csv || echo
+          git add ./channels/*.xml || echo
           git commit -m "epg-grabber-update-codes" || echo
           git push
