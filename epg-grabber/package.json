@@ -6,8 +6,8 @@
     "NpmInstall": "npm install --save",
     "grab1": "epg-grabber --config=./sites/mujtvprogram.cz.config.js --channels=./channels/r-mujtvproram.xml --output=./guide/mujtvprogram.cz_cz.guide.xml --days=5",
     "grab2": "epg-grabber --config=./sites/horizon.tv.config.js --channels=./channels/r-horizon.tv_sk.chanell.xml --output=./guide/horizon.tv_sk.guide.xml --days=5",
-    "grab3": "epg-grabber --config=./sites/o2tv.cz.config.js --channels=./channels/r-o2.tv_chanell_.xml  --output=./guide/o2tv.cz_cz.guide.xml --days=5",
-    "grab4": "epg-grabber --config=./sites/m.tv.sms.cz.config.js --channels=./channels/m.tv.sk.cz.channels.xml --output=./guide/m.tv.sk.cz.guide.xml --days=5"   
+    "grab3": "epg-grabber --curl --config=./sites/o2tv.cz.config.js --channels=./channels/r-o2.tv_chanell_.xml  --output=./guide/o2tv.cz_cz.guide.xml --days=5",
+    "grab4": "epg-grabber --config=./sites/m.tv.sms.cz.config.js --channels=./channels/m.tv.sk.cz.channels.xml --output=./guide/m.tv.sk.cz.guide.xml --days=5"
   },
   "author": "Arhey",
   "license": "MIT",
