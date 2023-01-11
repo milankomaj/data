@@ -75,5 +75,4 @@ jobs:
           git add ./csv/*.csv
           git add ./channels/*.xml
           git commit -m "epg-grabber-update-codes" || echo
-          git log -1 --pretty="format:%ci" ./csv/codes.csv
           git push
