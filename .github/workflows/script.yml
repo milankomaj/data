@@ -71,9 +71,9 @@ jobs:
         run: |
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}
-          git log -1 --pretty="format:%ci" ./csv/codes.csv
           git pull
           git add ./csv/*.csv
           git add ./channels/*.xml
           git commit -m "epg-grabber-update-codes" || echo
+          git log -1 --pretty="format:%ci" ./csv/codes.csv
           git push
