@@ -21,12 +21,11 @@ jobs:
         uses: actions/checkout@v3
 
       - name: localle
-        uses: milankomaj/shell-x@v0.1
+        uses: milankomaj/shell-x@v0.2
         with:
-          who-to-greet: '${{ github.actor }}'
-          shell: 'bash'
-          locale: 'sk_SK.utf8'
-          timezone: 'Europe/Bratislava'
+          shell: bash
+          locale: sk_SK.utf8
+          timezone: Europe/Bratislava
 
       - name: xq
         run: |
