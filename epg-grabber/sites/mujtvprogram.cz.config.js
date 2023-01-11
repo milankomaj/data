@@ -20,7 +20,7 @@ module.exports = {
     const items = parseItems(content)
     //console.log("items",items)
     items.forEach(item => {
-      console.log("item",item)
+      //console.log("item",item)
       programs.push({
         title: item.name._text,
         start: parseTime(item.startDate._text),
