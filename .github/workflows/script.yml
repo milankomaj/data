@@ -74,5 +74,6 @@ jobs:
           git pull
           git add ./csv/*.csv
           git add ./channels/*.xml
-          git commit -m "epg-grabber-update-codes"
+          git show --name-only --format=tformat:
+          git commit -m "epg-grabber-update-codes" || echo
           git push
