@@ -3,6 +3,8 @@
 echo -e "\033[31;1m horizon chanells \033[0m"
 curl -X GET \
   --no-progress-meter \
+  --connect-timeout 10 \
+  --max-time 10 \
   --url "https://legacy-dynamic.oesp.horizon.tv/oesp/v4/SK/slk/web/channels" \
 | jq -r '.channels[] | ["horizon-\(.stationSchedules[0].station.serviceId)", .stationSchedules[0].station.id, .title, .channelNumber, (.stationSchedules[0].station.images | map(select(.assetType | contains ("station-logo-medium"))) | .[] .url)] | join(",")' | sort -t, -k3 > csv/horizon.tv_sk.chanell.csv
 #
