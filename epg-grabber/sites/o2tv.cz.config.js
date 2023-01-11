@@ -21,31 +21,7 @@ module.exports = {
     let items = parseItems(content, channel)
     if (!items.length) return programs
     //console.log("items.length", items.length)
-    /*
-    const f = date.valueOf()
-    const g = dayjs(f).add(1, 'day').valueOf()
-    const i = dayjs(g).add(1, 'day').valueOf()
-    const j = dayjs(i).add(1, 'day').valueOf()
-    const k = dayjs(j).add(1, 'day').valueOf()
-    const l = dayjs(k).add(1, 'day').valueOf()
-    //console.log("f,g,i,j,k,l", f, g, i, j, k, l)
-    const promises = [
-      axios.get(`https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&from=${g}&to=${i}`),
-      axios.get(`https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&from=${i}&to=${j}`),
-      axios.get(`https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&from=${j}&to=${k}`),
-      axios.get(`https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&from=${k}&to=${l}`)
-    ]
-    await Promise.allSettled(promises)
-      .then(results => {
-        results.forEach(r => {
-          if (r.status === 'fulfilled') {
-            items = items.concat(parseItems(r.value.data, channel))
-          }
-        })
-      })
-      .catch(console.error)
 
-      */
     // items.forEach(item => {
     for (let item of items) {
       // console.log("item",item)
@@ -63,24 +39,11 @@ module.exports = {
     //)
     return programs
   },
-  /*
-  async channels() {
-    const data = await axios
-      .get(`https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500`)
-      .then(r => r.data)
-      .catch(console.log)
-    return data.channels.map(item => {
-      return {
-        lang: 'cz',
-        site_id: item.name,
-        name: item.name
-      }
-    })
-  }
-  */
+
+
 }
 async function loadProgramDetails(item, channel) {
-  if (!item.epgId) return {}
+  if (!item.epgId) return []
   //console.log("item", String(item).length)
   const url = `https://api.o2tv.cz/unity/api/v1/programs/${parseI(item)}/`
   const data = await axios
