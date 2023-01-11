@@ -5,19 +5,19 @@ const API_PROD_ENDPOINT = `https://legacy-dynamic.oesp.horizon.tv/oesp/v4/SK/slk
 module.exports = {
   site: 'horizon.tv',
   url: function ({ date, channel }) {
-    const [country, lang] = channel.site_id.split('#')
-    return `${API_ENDPOINT}/${country}/${lang}/web/programschedules/${date.format('YYYYMMDD')}/1`
+    //const [country, lang] = channel.site_id.split('#')
+    return `${API_ENDPOINT}/SK/slk/web/programschedules/${date.format('YYYYMMDD')}/1`
   },
   async parser({ content, channel, date }) {
-    const [country, lang] = channel.site_id.split('#')
+    //const [country, lang] = channel.site_id.split('#')
     let programs = []
     let items = parseItems(content, channel)
     if (!items.length) return programs
     const d = date.format('YYYYMMDD')
     const promises = [
-      axios.get(`${API_ENDPOINT}/${country}/${lang}/web/programschedules/${d}/2`),
-      axios.get(`${API_ENDPOINT}/${country}/${lang}/web/programschedules/${d}/3`),
-      axios.get(`${API_ENDPOINT}/${country}/${lang}/web/programschedules/${d}/4`)
+      axios.get(`${API_ENDPOINT}/SK/slk/web/programschedules/${d}/2`),
+      axios.get(`${API_ENDPOINT}/SK/slk/web/programschedules/${d}/3`),
+      axios.get(`${API_ENDPOINT}/SK/slk/web/programschedules/${d}/4`)
     ]
     await Promise.allSettled(promises)
       .then(results => {
@@ -30,6 +30,7 @@ module.exports = {
       })
       .catch(console.error)
     for (let item of items) {
+      if (!item.t) return []
       const detail = await loadProgramDetails(item)
       programs.push({
         title: item.t,
@@ -71,7 +72,7 @@ async function loadProgramDetails(item, channel) {
     .get(url)
     .then(r => r.data)
     .catch(console.log)
-   // console.log(url)
+  // console.log(url)
   // console.log(data)
   return data || {}
 }
@@ -108,27 +109,36 @@ function parseDirector(detail) {
   return detail.program.directors.map((director) => director).join(', ')
 }
 */
+
 function parseItems(content, channel) {
   if (!content) return []
-  const [_, __, channelId] = channel.site_id.split('#')
   const data = typeof content === 'string' ? JSON.parse(content) : content
   if (!data || !Array.isArray(data.entries)) return []
-  const entity = data.entries.find(e => e.o === channelId)
+  //console.log("data",data)
+  const entity = data.entries.find(e => e.o)
+  //console.log("entity",entity)
   if (!entity) return []
   //console.log("channelId",entity.o)
   return entity ? entity.l : []
 }
+
+
+
 function parseDescription(detail) {
   //console.log(detail.listings[0].program.description)
+  let catUa = (detail.program.description == "undefined")
+  if (catUa == true) return []
   if (detail.program.longDescription) { return detail.program.longDescription }
   else if (!detail.program.longDescription && detail.program.description) { return detail.program.description }
   else { return [] }
-
 }
 function parseCategory(detail) {
   //console.log(detail.listings[0].program.categories)
   if (!detail.program.categories) return []
-  return detail.program.categories.map((category) => category.title).join(', ')
+  let catUb = detail.program.categories.map((category) => category.title).join(', ')
+  let catUa = (catUb == "Neklasifikované")
+  if (catUa == true) return []
+  return catUb
 }
 function parseIcon(detail) {
   if (!detail.program.images) return []

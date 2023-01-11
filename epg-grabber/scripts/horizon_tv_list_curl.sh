@@ -7,7 +7,7 @@ curl -X GET \
 | jq -r '.channels[] | ["horizon-\(.stationSchedules[0].station.serviceId)", .stationSchedules[0].station.id, .title, .channelNumber, (.stationSchedules[0].station.images | map(select(.assetType | contains ("station-logo-medium"))) | .[] .url)] | join(",")' | sort -t, -k3 > csv/horizon.tv_sk.chanell.csv
 #
 sed -i 's/&/and/g' csv/horizon.tv_sk.chanell.csv
-awk -F ',' '{print "    <channel lang=\"sk\" xmltv_id=\""$1"\""" site_id=\"SK#slk#"$2"\""" logo=\""$5"\""">"$3"</channel>"}' csv/horizon.tv_sk.chanell.csv > channels/horizon.tv_sk.channels.xml
+awk -F ',' '{print "    <channel lang=\"sk\" xmltv_id=\""$1"\""" site_id=\""$2"\""" logo=\""$5"\""">"$3"</channel>"}' csv/horizon.tv_sk.chanell.csv > channels/horizon.tv_sk.channels.xml
 sed -i 1i"<?xml version=\"1.0\" encoding=\"UTF-8\"?>" channels/horizon.tv_sk.channels.xml
 sed -i 2i"<site site=\"horizon.tv\">" channels/horizon.tv_sk.channels.xml
 sed -i 3i"\ \ <channels>" channels/horizon.tv_sk.channels.xml

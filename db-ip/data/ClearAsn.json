@@ -11,6 +11,14 @@
     "asn": "1003",
     "isp": "andrewnet"
   },
+  "1008": {
+    "asn": "1008",
+    "isp": "GANJINGWORLD CORPORATION"
+  },
+  "1011": {
+    "asn": "1011",
+    "isp": "Accutar Biotechnology (Canada) Inc."
+  },
   "1015": {
     "asn": "1015",
     "isp": "Server Starter Host LLC"
@@ -18,6 +26,10 @@
   "1017": {
     "asn": "1017",
     "isp": "Mystic Unlimited Inc."
+  },
+  "1019": {
+    "asn": "1019",
+    "isp": "Sotera Health"
   },
   "1020": {
     "asn": "1020",
@@ -39,6 +51,10 @@
     "asn": "1025",
     "isp": "Valor Christian High School"
   },
+  "1027": {
+    "asn": "1027",
+    "isp": "TNT WiFi LLC"
+  },
   "1030": {
     "asn": "1030",
     "isp": "Domain Privacy LLC"
@@ -59,9 +75,21 @@
     "asn": "1043",
     "isp": "KSP Technology"
   },
+  "1044": {
+    "asn": "1044",
+    "isp": "Blinn College"
+  },
+  "1050": {
+    "asn": "1050",
+    "isp": "Onvox LLC"
+  },
   "1052": {
     "asn": "1052",
     "isp": "Coeur d' Alene Tribe"
+  },
+  "1053": {
+    "asn": "1053",
+    "isp": "BearCom Operating LLC"
   },
   "1055": {
     "asn": "1055",
@@ -79,17 +107,33 @@
     "asn": "1062",
     "isp": "City of Emmett"
   },
+  "1064": {
+    "asn": "1064",
+    "isp": "Rivulet Wireless Inc."
+  },
   "1065": {
     "asn": "1065",
     "isp": "Tangerine Global"
+  },
+  "1075": {
+    "asn": "1075",
+    "isp": "Wiseinfotec.net LLC"
   },
   "1076": {
     "asn": "1076",
     "isp": "TNC Wireless Limited"
   },
+  "1077": {
+    "asn": "1077",
+    "isp": "ActivePure Technologies LLC"
+  },
   "1080": {
     "asn": "1080",
     "isp": "Water and Power Community Credit Union"
+  },
+  "1082": {
+    "asn": "1082",
+    "isp": "Zenith American Solutions Inc."
   },
   "1083": {
     "asn": "1083",
@@ -118,6 +162,10 @@
   "1097": {
     "asn": "1097",
     "isp": "Aeron Broadband"
+  },
+  "1100": {
+    "asn": "1100",
+    "isp": "Nuday Networks Inc."
   },
   "1101": {
     "asn": "1101",
@@ -1067,6 +1115,10 @@
     "asn": "1666",
     "isp": "ANS Communications"
   },
+  "1670": {
+    "asn": "1670",
+    "isp": "ANS Communications"
+  },
   "1672": {
     "asn": "1672",
     "isp": "ANS Communications"
@@ -1867,6 +1919,10 @@
     "asn": "2285",
     "isp": "Orange S.A."
   },
+  "2287": {
+    "asn": "2287",
+    "isp": "Orange S.A."
+  },
   "2300": {
     "asn": "2300",
     "isp": "Orange S.A."
@@ -1890,6 +1946,10 @@
   "2386": {
     "asn": "2386",
     "isp": "AT&T Data Communications Services"
+  },
+  "2418": {
+    "asn": "2418",
+    "isp": "Renater"
   },
   "2426": {
     "asn": "2426",
@@ -2671,6 +2731,10 @@
     "asn": "2914",
     "isp": "NTT America Inc."
   },
+  "2915": {
+    "asn": "2915",
+    "isp": "SoftBank Corp."
+  },
   "2920": {
     "asn": "2920",
     "isp": "Los Angeles County Office of Education"
@@ -2710,6 +2774,10 @@
   "3058": {
     "asn": "3058",
     "isp": "Federal State Institution Federal Scientific Research Institute for System Ana"
+  },
+  "3060": {
+    "asn": "3060",
+    "isp": "York Technical College"
   },
   "3061": {
     "asn": "3061",
@@ -3006,6 +3074,10 @@
   "3235": {
     "asn": "3235",
     "isp": "PJSC Vimpelcom"
+  },
+  "3236": {
+    "asn": "3236",
+    "isp": "SERVER.UA LLC"
   },
   "3238": {
     "asn": "3238",
@@ -4257,6 +4329,10 @@
   },
   "3938": {
     "asn": "3938",
+    "isp": "NTT America Inc."
+  },
+  "3939": {
+    "asn": "3939",
     "isp": "NTT America Inc."
   },
   "3943": {
@@ -5749,6 +5825,10 @@
   },
   "5182": {
     "asn": "5182",
+    "isp": "DoD Network Information Center"
+  },
+  "5231": {
+    "asn": "5231",
     "isp": "DoD Network Information Center"
   },
   "5237": {
@@ -7967,6 +8047,10 @@
     "asn": "6836",
     "isp": "GEDI News Network S.p.A."
   },
+  "6837": {
+    "asn": "6837",
+    "isp": "Swisscom (Schweiz) AG"
+  },
   "6838": {
     "asn": "6838",
     "isp": "Christopher Luke"
@@ -8402,6 +8486,10 @@
   "7068": {
     "asn": "7068",
     "isp": "Pfizer Inc."
+  },
+  "7070": {
+    "asn": "7070",
+    "isp": "iHeartCommunications Inc."
   },
   "7078": {
     "asn": "7078",
@@ -13523,6 +13611,10 @@
     "asn": "9597",
     "isp": "KDDI Web Communications Inc."
   },
+  "9598": {
+    "asn": "9598",
+    "isp": "NTT Communications Corporation"
+  },
   "9600": {
     "asn": "9600",
     "isp": "So-net Corporation"
@@ -15439,6 +15531,10 @@
     "asn": "10310",
     "isp": "Oath Holdings Inc."
   },
+  "10317": {
+    "asn": "10317",
+    "isp": "Cuc International"
+  },
   "10320": {
     "asn": "10320",
     "isp": "Internet Services Provider Network"
@@ -15526,6 +15622,10 @@
   "10370": {
     "asn": "10370",
     "isp": "Northwest Airlines"
+  },
+  "10376": {
+    "asn": "10376",
+    "isp": "Wells Fargo & Company"
   },
   "10377": {
     "asn": "10377",
@@ -15874,6 +15974,10 @@
   "10625": {
     "asn": "10625",
     "isp": "Intercontinental Exchange Inc."
+  },
+  "10630": {
+    "asn": "10630",
+    "isp": "Avati Seguranca Digital Avancada Ltda"
   },
   "10631": {
     "asn": "10631",
@@ -18699,6 +18803,10 @@
     "asn": "11840",
     "isp": "VeriSign Infrastructure & Operations"
   },
+  "11841": {
+    "asn": "11841",
+    "isp": "Ultimate Internet Access Inc"
+  },
   "11842": {
     "asn": "11842",
     "isp": "Regal Entertainment Group"
@@ -18862,6 +18970,10 @@
   "11904": {
     "asn": "11904",
     "isp": "AcenTek"
+  },
+  "11905": {
+    "asn": "11905",
+    "isp": "DOWELL COMPUTING INC."
   },
   "11910": {
     "asn": "11910",
@@ -19378,6 +19490,10 @@
   "12098": {
     "asn": "12098",
     "isp": "Union Bank of California"
+  },
+  "12099": {
+    "asn": "12099",
+    "isp": "OAKWOOD HEALTHCARE INC"
   },
   "12100": {
     "asn": "12100",
@@ -19966,6 +20082,10 @@
   "12292": {
     "asn": "12292",
     "isp": "Transkom GmbH"
+  },
+  "12293": {
+    "asn": "12293",
+    "isp": "Xvid Services OU"
   },
   "12294": {
     "asn": "12294",
@@ -21290,6 +21410,10 @@
   "12843": {
     "asn": "12843",
     "isp": "TelemaxX Telekommunikation GmbH"
+  },
+  "12844": {
+    "asn": "12844",
+    "isp": "Bouygues Telecom SA"
   },
   "12846": {
     "asn": "12846",
@@ -23423,6 +23547,10 @@
     "asn": "13760",
     "isp": "Uniti Fiber Holdings Inc."
   },
+  "13761": {
+    "asn": "13761",
+    "isp": "BSI Informatica Ltda"
+  },
   "13762": {
     "asn": "13762",
     "isp": "Hunter Douglas"
@@ -24415,6 +24543,10 @@
     "asn": "14112",
     "isp": "SecureNet Information Services"
   },
+  "14114": {
+    "asn": "14114",
+    "isp": "SAP America Inc."
+  },
   "14115": {
     "asn": "14115",
     "isp": "ABSA (Amalgamated Banks of South Africa)"
@@ -25150,6 +25282,10 @@
   "14398": {
     "asn": "14398",
     "isp": "Autodesk Inc."
+  },
+  "14401": {
+    "asn": "14401",
+    "isp": "SolidNetwork Technologies Inc."
   },
   "14404": {
     "asn": "14404",
@@ -25910,6 +26046,10 @@
   "14672": {
     "asn": "14672",
     "isp": "Carroll-Net Inc."
+  },
+  "14673": {
+    "asn": "14673",
+    "isp": "FiberSpeed"
   },
   "14675": {
     "asn": "14675",
@@ -28987,6 +29127,10 @@
     "asn": "15880",
     "isp": "Private entrepreneur Chikalin Anatoly Nikolaevich"
   },
+  "15881": {
+    "asn": "15881",
+    "isp": "LLC TransTelematic Technologies"
+  },
   "15882": {
     "asn": "15882",
     "isp": "M&M Computers SRL"
@@ -31555,6 +31699,10 @@
     "asn": "16898",
     "isp": "LOG-NET INC."
   },
+  "16899": {
+    "asn": "16899",
+    "isp": "S&D Coffee Inc."
+  },
   "16900": {
     "asn": "16900",
     "isp": "Sedgwick Claims Management Services Inc."
@@ -32943,6 +33091,10 @@
     "asn": "17411",
     "isp": "Io-Global Services Pvt. Ltd."
   },
+  "17412": {
+    "asn": "17412",
+    "isp": "Internet Exchange Nepal"
+  },
   "17415": {
     "asn": "17415",
     "isp": "Ming Yi Tea Farm"
@@ -33311,6 +33463,10 @@
     "asn": "17570",
     "isp": "SK Global co. Ltd"
   },
+  "17571": {
+    "asn": "17571",
+    "isp": "ncsoft"
+  },
   "17573": {
     "asn": "17573",
     "isp": "SK Broadband Co Ltd"
@@ -33546,6 +33702,10 @@
   "17650": {
     "asn": "17650",
     "isp": "Equant Inc"
+  },
+  "17651": {
+    "asn": "17651",
+    "isp": "AboveNet Communications Taiwan Co. Ltd"
   },
   "17653": {
     "asn": "17653",
@@ -34503,6 +34663,10 @@
     "asn": "18040",
     "isp": "MBTNET"
   },
+  "18041": {
+    "asn": "18041",
+    "isp": "Taiwan Digital Streaming Co."
+  },
   "18042": {
     "asn": "18042",
     "isp": "Koos Broadband Telecom"
@@ -35387,6 +35551,10 @@
     "asn": "18396",
     "isp": "PhilCom Corporation Mindanao"
   },
+  "18398": {
+    "asn": "18398",
+    "isp": "TPG Internet Pty Ltd"
+  },
   "18399": {
     "asn": "18399",
     "isp": "Yatanarpon Teleport Company Limited"
@@ -35814,6 +35982,10 @@
   "18555": {
     "asn": "18555",
     "isp": "The Art Institute of Chicago"
+  },
+  "18556": {
+    "asn": "18556",
+    "isp": "State Compensation Insurance Fund"
   },
   "18557": {
     "asn": "18557",
@@ -37755,6 +37927,10 @@
     "asn": "19263",
     "isp": "Cincinnati Bell Any Distance Inc."
   },
+  "19264": {
+    "asn": "19264",
+    "isp": "TeleCurve LLC"
+  },
   "19265": {
     "asn": "19265",
     "isp": "Memorial Medical Center"
@@ -38238,6 +38414,10 @@
   "19470": {
     "asn": "19470",
     "isp": "LAS CRUCES PUBLIC SCHOOLS"
+  },
+  "19471": {
+    "asn": "19471",
+    "isp": "Central Arkansas Telephone Cooperative Inc."
   },
   "19472": {
     "asn": "19472",
@@ -39215,6 +39395,10 @@
     "asn": "19851",
     "isp": "Doylestown Hospital"
   },
+  "19853": {
+    "asn": "19853",
+    "isp": "OrangeHost"
+  },
   "19855": {
     "asn": "19855",
     "isp": "Masergy Communications Inc."
@@ -39846,6 +40030,10 @@
   "20093": {
     "asn": "20093",
     "isp": "Performive LLC"
+  },
+  "20096": {
+    "asn": "20096",
+    "isp": "HEWLETT PACKARD ENTERPRISE COMPANY"
   },
   "20097": {
     "asn": "20097",
@@ -45335,6 +45523,10 @@
     "asn": "22294",
     "isp": "ROTECH HEALTHCARE INC"
   },
+  "22297": {
+    "asn": "22297",
+    "isp": "Jelecos LLC"
+  },
   "22299": {
     "asn": "22299",
     "isp": "GCR Company/GCR Online"
@@ -46511,6 +46703,10 @@
     "asn": "22709",
     "isp": "North State Telephone LLC"
   },
+  "22710": {
+    "asn": "22710",
+    "isp": "Charter Communications"
+  },
   "22711": {
     "asn": "22711",
     "isp": "Genworth North America Corporation"
@@ -47275,6 +47471,10 @@
     "asn": "22973",
     "isp": "Norwest Venture Partners"
   },
+  "22974": {
+    "asn": "22974",
+    "isp": "Charter Communications"
+  },
   "22975": {
     "asn": "22975",
     "isp": "Banco de Chile"
@@ -47726,6 +47926,10 @@
   "23131": {
     "asn": "23131",
     "isp": "STARLAN TELECOM CORP."
+  },
+  "23132": {
+    "asn": "23132",
+    "isp": "Charter Communications"
   },
   "23134": {
     "asn": "23134",
@@ -49023,6 +49227,10 @@
     "asn": "23591",
     "isp": "LS ITC"
   },
+  "23592": {
+    "asn": "23592",
+    "isp": "Ministry of Food and Drug Safety"
+  },
   "23593": {
     "asn": "23593",
     "isp": "bkl LLC"
@@ -49882,6 +50090,10 @@
   "23949": {
     "asn": "23949",
     "isp": "PT Comtronics Systems"
+  },
+  "23950": {
+    "asn": "23950",
+    "isp": "Generasi Indonesia Digital PT."
   },
   "23951": {
     "asn": "23951",
@@ -51735,6 +51947,10 @@
     "asn": "24711",
     "isp": "Collecte Localisation Satellites SA"
   },
+  "24712": {
+    "asn": "24712",
+    "isp": "AXIGEN MESSAGING SRL"
+  },
   "24713": {
     "asn": "24713",
     "isp": "CGI Suomi Oy"
@@ -52218,6 +52434,10 @@
   "24940": {
     "asn": "24940",
     "isp": "Hetzner Online GmbH"
+  },
+  "24944": {
+    "asn": "24944",
+    "isp": "Arena Bilgisayar San. ve Tic A.S"
   },
   "24945": {
     "asn": "24945",
@@ -52762,6 +52982,10 @@
   "25166": {
     "asn": "25166",
     "isp": "MAIL.BG Ssc"
+  },
+  "25167": {
+    "asn": "25167",
+    "isp": "TuK Datentechnik Oliver Knapp"
   },
   "25171": {
     "asn": "25171",
@@ -56447,6 +56671,10 @@
     "asn": "26546",
     "isp": "FIBERNETICS CORPORATION"
   },
+  "26547": {
+    "asn": "26547",
+    "isp": "Open Text Corporation"
+  },
   "26548": {
     "asn": "26548",
     "isp": "PureVoltage Hosting Inc."
@@ -56850,6 +57078,10 @@
   "26701": {
     "asn": "26701",
     "isp": "AS-HMC"
+  },
+  "26703": {
+    "asn": "26703",
+    "isp": "Kalona Cooperative Telephone Company"
   },
   "26704": {
     "asn": "26704",
@@ -57883,6 +58115,10 @@
     "asn": "27178",
     "isp": "Practice Management Technologies and Services"
   },
+  "27179": {
+    "asn": "27179",
+    "isp": "Invisalink Wireless"
+  },
   "27180": {
     "asn": "27180",
     "isp": "HCREIT"
@@ -58702,6 +58938,10 @@
   "27496": {
     "asn": "27496",
     "isp": "VENETIAN CASINO RESORT LLC"
+  },
+  "27500": {
+    "asn": "27500",
+    "isp": "ICANN"
   },
   "27501": {
     "asn": "27501",
@@ -63179,6 +63419,10 @@
     "asn": "29152",
     "isp": "DECKNET S.A.R.L."
   },
+  "29156": {
+    "asn": "29156",
+    "isp": "DXC Technology Danmark A/S"
+  },
   "29161": {
     "asn": "29161",
     "isp": "Verbund Management Service GmbH"
@@ -64487,6 +64731,10 @@
     "asn": "29706",
     "isp": "Mixed Signal Solutions"
   },
+  "29707": {
+    "asn": "29707",
+    "isp": "Orion Federal Credit Union"
+  },
   "29708": {
     "asn": "29708",
     "isp": "Assured Guaranty Corp"
@@ -65207,6 +65455,10 @@
     "asn": "29964",
     "isp": "McCormick & Company Inc."
   },
+  "29966": {
+    "asn": "29966",
+    "isp": "VeriSign Global Registry Services"
+  },
   "29967": {
     "asn": "29967",
     "isp": "ARAMARK"
@@ -65270,6 +65522,10 @@
   "29987": {
     "asn": "29987",
     "isp": "NEWCORP"
+  },
+  "29988": {
+    "asn": "29988",
+    "isp": "Rogers Communications Canada Inc."
   },
   "29989": {
     "asn": "29989",
@@ -67579,6 +67835,10 @@
     "asn": "30864",
     "isp": "ELAVON FINANCIAL SERVICES LIMITED"
   },
+  "30865": {
+    "asn": "30865",
+    "isp": "TAS-IX NGO Center for interoperability data"
+  },
   "30866": {
     "asn": "30866",
     "isp": "ECI Telecom Ltd"
@@ -67786,6 +68046,10 @@
   "30941": {
     "asn": "30941",
     "isp": "BEUMER Maschinenfabrik GmbH & Co. KG"
+  },
+  "30942": {
+    "asn": "30942",
+    "isp": "HW STUDIO Szamitastechnikai Kereskedelmi es Szolgaltato Korlatolt Felelossegu"
   },
   "30943": {
     "asn": "30943",
@@ -68150,6 +68414,10 @@
   "31095": {
     "asn": "31095",
     "isp": "Spar Business Services GmbH"
+  },
+  "31096": {
+    "asn": "31096",
+    "isp": "Bandit Holding AS"
   },
   "31097": {
     "asn": "31097",
@@ -71591,6 +71859,10 @@
     "asn": "32432",
     "isp": "Colleges of the Fenway Inc."
   },
+  "32435": {
+    "asn": "32435",
+    "isp": "DotAlliance"
+  },
   "32437": {
     "asn": "32437",
     "isp": "Webdev CC T/A Cybertek"
@@ -73194,6 +73466,10 @@
   "33038": {
     "asn": "33038",
     "isp": "XIT Rural Telephone Cooperative Inc."
+  },
+  "33040": {
+    "asn": "33040",
+    "isp": "Telecom Intellectual Property Limited"
   },
   "33042": {
     "asn": "33042",
@@ -74982,6 +75258,10 @@
   "33743": {
     "asn": "33743",
     "isp": "Hudson Valley Wireless"
+  },
+  "33745": {
+    "asn": "33745",
+    "isp": "Atos IT Solutions and Services Inc"
   },
   "33748": {
     "asn": "33748",
@@ -78131,6 +78411,10 @@
     "asn": "34946",
     "isp": "Jonkoping Energi AB"
   },
+  "34947": {
+    "asn": "34947",
+    "isp": "Alibaba Travel Company (LTD)"
+  },
   "34948": {
     "asn": "34948",
     "isp": "Claranet SAS"
@@ -78686,6 +78970,10 @@
   "35132": {
     "asn": "35132",
     "isp": "Enivest AS"
+  },
+  "35133": {
+    "asn": "35133",
+    "isp": "Hybula B.V."
   },
   "35135": {
     "asn": "35135",
@@ -79534,6 +79822,10 @@
   "35423": {
     "asn": "35423",
     "isp": "OOO Serebryannaya Strela"
+  },
+  "35424": {
+    "asn": "35424",
+    "isp": "T.B.I. REFUNDS UNLIMITED COMPANY"
   },
   "35425": {
     "asn": "35425",
@@ -81039,6 +81331,10 @@
     "asn": "35988",
     "isp": "Umass Memorial health care inc"
   },
+  "35990": {
+    "asn": "35990",
+    "isp": "Citizen Support LLC"
+  },
   "35991": {
     "asn": "35991",
     "isp": "Paulson & CO. INC."
@@ -81878,6 +82174,10 @@
   "36298": {
     "asn": "36298",
     "isp": "InfoCision Management Corporation"
+  },
+  "36299": {
+    "asn": "36299",
+    "isp": "Capstone Investment Advisors LLC"
   },
   "36300": {
     "asn": "36300",
@@ -86259,6 +86559,10 @@
     "asn": "38140",
     "isp": "NZ Forest Research Institute Ltd"
   },
+  "38141": {
+    "asn": "38141",
+    "isp": "PT. Citramedia Network"
+  },
   "38142": {
     "asn": "38142",
     "isp": "Universitas Airlangga"
@@ -88043,6 +88347,10 @@
     "asn": "38841",
     "isp": "kbro CO. Ltd."
   },
+  "38842": {
+    "asn": "38842",
+    "isp": "DNS INTERNATIONAL"
+  },
   "38843": {
     "asn": "38843",
     "isp": "PUMO NETWORK DIGITAL TECHNOLOGY CO.LTD"
@@ -89278,6 +89586,10 @@
   "39274": {
     "asn": "39274",
     "isp": "Clal Insurance Company Ltd"
+  },
+  "39276": {
+    "asn": "39276",
+    "isp": "Blue Screen SRL"
   },
   "39277": {
     "asn": "39277",
@@ -90771,6 +91083,10 @@
     "asn": "39769",
     "isp": "VAT Bank Finance and Credit"
   },
+  "39770": {
+    "asn": "39770",
+    "isp": "1337TEAM LIMITED"
+  },
   "39771": {
     "asn": "39771",
     "isp": "Renault Trucks SAS"
@@ -90866,6 +91182,10 @@
   "39800": {
     "asn": "39800",
     "isp": "CMA MONITORING Sp. z o.o."
+  },
+  "39801": {
+    "asn": "39801",
+    "isp": "France IX Services SASU"
   },
   "39803": {
     "asn": "39803",
@@ -91974,6 +92294,10 @@
   "40177": {
     "asn": "40177",
     "isp": "The Institutes"
+  },
+  "40178": {
+    "asn": "40178",
+    "isp": "OCEANBLUE CLOUD INC."
   },
   "40181": {
     "asn": "40181",
@@ -100867,6 +101191,10 @@
     "asn": "43217",
     "isp": "Heidrick and Struggles International Inc"
   },
+  "43224": {
+    "asn": "43224",
+    "isp": "IPv4 Management SRL"
+  },
   "43226": {
     "asn": "43226",
     "isp": "SafeData LLC"
@@ -101270,6 +101598,10 @@
   "43356": {
     "asn": "43356",
     "isp": "Comtech Ticaret LTD."
+  },
+  "43357": {
+    "asn": "43357",
+    "isp": "Owl Limited"
   },
   "43359": {
     "asn": "43359",
@@ -104547,6 +104879,10 @@
     "asn": "44457",
     "isp": "Lovenskiold Handel AS"
   },
+  "44459": {
+    "asn": "44459",
+    "isp": "Hertza LLC trading as ZeroBounce"
+  },
   "44460": {
     "asn": "44460",
     "isp": "MEDIACENTER HUNGARY INFORMATIKAI SZOLGALTATO ES UZEMELTETO kft"
@@ -104558,6 +104894,10 @@
   "44462": {
     "asn": "44462",
     "isp": "Stadtwerke Muerzzuschlag GmbH"
+  },
+  "44463": {
+    "asn": "44463",
+    "isp": "Diners Club SLO d.o.o."
   },
   "44465": {
     "asn": "44465",
@@ -104578,6 +104918,10 @@
   "44470": {
     "asn": "44470",
     "isp": "Commercial Bank Moskommertsbank Ltd."
+  },
+  "44472": {
+    "asn": "44472",
+    "isp": "Hofstaetter IT GmbH"
   },
   "44473": {
     "asn": "44473",
@@ -104978,6 +105322,10 @@
   "44604": {
     "asn": "44604",
     "isp": "JSC KVANT-TELEKOM"
+  },
+  "44605": {
+    "asn": "44605",
+    "isp": "RCS & RDS SA"
   },
   "44606": {
     "asn": "44606",
@@ -108115,6 +108463,10 @@
     "asn": "45839",
     "isp": "Shinjiru Technology Sdn Bhd"
   },
+  "45843": {
+    "asn": "45843",
+    "isp": "TRANSWORLD ASSOCIATES (PVT) LIMITED"
+  },
   "45845": {
     "asn": "45845",
     "isp": "Communications & Communicate Nepal Pvt Ltd"
@@ -108535,6 +108887,10 @@
     "asn": "46010",
     "isp": "SAMJUNG DATA SERVICE"
   },
+  "46011": {
+    "asn": "46011",
+    "isp": "LX"
+  },
   "46012": {
     "asn": "46012",
     "isp": "Induk University"
@@ -108722,6 +109078,10 @@
   "46079": {
     "asn": "46079",
     "isp": "KSC Commercial Internet Co.Ltd."
+  },
+  "46080": {
+    "asn": "46080",
+    "isp": "OrthoAlliance MSO LLC"
   },
   "46081": {
     "asn": "46081",
@@ -109086,6 +109446,10 @@
   "46206": {
     "asn": "46206",
     "isp": "Sanford Health"
+  },
+  "46207": {
+    "asn": "46207",
+    "isp": "State of Louisiana Supreme Court - JA/CMIS"
   },
   "46208": {
     "asn": "46208",
@@ -110282,6 +110646,10 @@
   "46643": {
     "asn": "46643",
     "isp": "Virginia College Savings Plan"
+  },
+  "46644": {
+    "asn": "46644",
+    "isp": "Social Blade LLC"
   },
   "46646": {
     "asn": "46646",
@@ -113615,6 +113983,10 @@
     "asn": "47816",
     "isp": "WF Konijnenberg Holding B.V."
   },
+  "47817": {
+    "asn": "47817",
+    "isp": "Bank Pasargad PJSC"
+  },
   "47818": {
     "asn": "47818",
     "isp": "Midi Picardie Informatique Hospitaliere"
@@ -114198,6 +114570,10 @@
   "48009": {
     "asn": "48009",
     "isp": "Limited Liability company MOEX Information Security"
+  },
+  "48010": {
+    "asn": "48010",
+    "isp": "OLIMP-KONSALT Ltd"
   },
   "48011": {
     "asn": "48011",
@@ -115302,6 +115678,10 @@
   "48375": {
     "asn": "48375",
     "isp": "Tibra Trading Europe Limited"
+  },
+  "48377": {
+    "asn": "48377",
+    "isp": "PJSC Credit Europe Bank Ukraine"
   },
   "48380": {
     "asn": "48380",
@@ -117283,6 +117663,10 @@
     "asn": "49021",
     "isp": "SOCIETATEA NATIONALA DE TRANSPORT GAZE NATURALE TRANSGAZ SA"
   },
+  "49022": {
+    "asn": "49022",
+    "isp": "Polymer Mana Medicine Co."
+  },
   "49023": {
     "asn": "49023",
     "isp": "INOVO SOLUTIONS SRL"
@@ -117739,6 +118123,10 @@
     "asn": "49160",
     "isp": "ASTEIS-TELECOM Ltd."
   },
+  "49161": {
+    "asn": "49161",
+    "isp": "Zapp Systems GmbH"
+  },
   "49162": {
     "asn": "49162",
     "isp": "AFerry Ltd"
@@ -117791,6 +118179,10 @@
     "asn": "49178",
     "isp": "Nadunet Telecom S.L"
   },
+  "49179": {
+    "asn": "49179",
+    "isp": "Tendence LLC"
+  },
   "49180": {
     "asn": "49180",
     "isp": "Bricostore Hungaria Kft"
@@ -117826,6 +118218,10 @@
   "49193": {
     "asn": "49193",
     "isp": "Unifon AS"
+  },
+  "49196": {
+    "asn": "49196",
+    "isp": "Insys Video Technologies sp. z o.o. trading as Insys Video Technologies sp. z o"
   },
   "49197": {
     "asn": "49197",
@@ -118302,6 +118698,10 @@
   "49347": {
     "asn": "49347",
     "isp": "PUBLIC JOINT STOCK COMPANY TRANSCAPITALBANK"
+  },
+  "49349": {
+    "asn": "49349",
+    "isp": "Dotsi Unipessoal Lda."
   },
   "49350": {
     "asn": "49350",
@@ -119515,6 +119915,10 @@
     "asn": "49744",
     "isp": "Intuit Ltd."
   },
+  "49747": {
+    "asn": "49747",
+    "isp": "LLC QHOST"
+  },
   "49749": {
     "asn": "49749",
     "isp": "VostokMediaSvyaz Ltd."
@@ -120034,6 +120438,10 @@
   "49910": {
     "asn": "49910",
     "isp": "Ludigssoft Management GmbH trading as Ludigssoft RZ GmbH & Co. KG"
+  },
+  "49911": {
+    "asn": "49911",
+    "isp": "CDN Squared Limited"
   },
   "49912": {
     "asn": "49912",
@@ -120643,6 +121051,10 @@
     "asn": "50107",
     "isp": "Vista Technology LLP"
   },
+  "50108": {
+    "asn": "50108",
+    "isp": "Electronic Arts Limited"
+  },
   "50110": {
     "asn": "50110",
     "isp": "OBERGERICHT DES KANTON ZURICH"
@@ -120911,6 +121323,10 @@
     "asn": "50195",
     "isp": "Univerza v Mariboru"
   },
+  "50196": {
+    "asn": "50196",
+    "isp": "MYNET S.R.L."
+  },
   "50197": {
     "asn": "50197",
     "isp": "Political party Edinaya Russia"
@@ -121039,6 +121455,10 @@
     "asn": "50237",
     "isp": "The College of Management Academic Studies"
   },
+  "50238": {
+    "asn": "50238",
+    "isp": "Grand LLC"
+  },
   "50239": {
     "asn": "50239",
     "isp": "MDI MEDIA S.C. D.Bielinska I. Obszynska"
@@ -121110,6 +121530,10 @@
   "50258": {
     "asn": "50258",
     "isp": "CityLink Ltd"
+  },
+  "50259": {
+    "asn": "50259",
+    "isp": "Information Technology ArmanNet PLC"
   },
   "50260": {
     "asn": "50260",
@@ -121595,6 +122019,10 @@
     "asn": "50407",
     "isp": "ASDOUGLAS"
   },
+  "50409": {
+    "asn": "50409",
+    "isp": "GK Osnova JSC"
+  },
   "50410": {
     "asn": "50410",
     "isp": "Hrvatske autoceste d.o.o."
@@ -121646,6 +122074,10 @@
   "50423": {
     "asn": "50423",
     "isp": "Wardynski i Wspolnicy Spolka Komandytowa"
+  },
+  "50424": {
+    "asn": "50424",
+    "isp": "Widecom Systems SRL"
   },
   "50425": {
     "asn": "50425",
@@ -123279,6 +123711,10 @@
     "asn": "50941",
     "isp": "Vargonen Teknoloji ve Bilisim Sanayi Ticaret Anonim Sirketi"
   },
+  "50942": {
+    "asn": "50942",
+    "isp": "TK Zenit LLC"
+  },
   "50943": {
     "asn": "50943",
     "isp": "HHLA Hamburger Hafen und Logistik AG"
@@ -123654,6 +124090,10 @@
   "51060": {
     "asn": "51060",
     "isp": "LandTech Sp. z.o.o."
+  },
+  "51061": {
+    "asn": "51061",
+    "isp": "DECHEMA Gesellschaft fuer Chemische Technik und Biotechnologie e V"
   },
   "51063": {
     "asn": "51063",
@@ -124370,6 +124810,10 @@
   "51285": {
     "asn": "51285",
     "isp": "JSK IT. Information Technologies Co."
+  },
+  "51287": {
+    "asn": "51287",
+    "isp": "Consensus One Sp. z o.o."
   },
   "51288": {
     "asn": "51288",
@@ -125175,6 +125619,10 @@
     "asn": "51516",
     "isp": "Fexco Unlimited Company"
   },
+  "51517": {
+    "asn": "51517",
+    "isp": "Arend Brouwer trading as ERITAP"
+  },
   "51518": {
     "asn": "51518",
     "isp": "EKMA IS LTD"
@@ -125250,6 +125698,10 @@
   "51540": {
     "asn": "51540",
     "isp": "Fikri DAL"
+  },
+  "51541": {
+    "asn": "51541",
+    "isp": "Bitfactor SRL"
   },
   "51545": {
     "asn": "51545",
@@ -125439,6 +125891,10 @@
     "asn": "51600",
     "isp": "Joint Stock Commercial Bank Enisey (Public JSC)"
   },
+  "51601": {
+    "asn": "51601",
+    "isp": "IPTP LTD"
+  },
   "51602": {
     "asn": "51602",
     "isp": "AD Aerodrom 'Nikola Tesla' Beograd"
@@ -125615,6 +126071,10 @@
     "asn": "51660",
     "isp": "Suvorovo NET Ltd"
   },
+  "51661": {
+    "asn": "51661",
+    "isp": "Allstar Net s.r.o."
+  },
   "51662": {
     "asn": "51662",
     "isp": "Teledistribucion Fran SLU"
@@ -125630,6 +126090,10 @@
   "51665": {
     "asn": "51665",
     "isp": "Telediscount AO"
+  },
+  "51666": {
+    "asn": "51666",
+    "isp": "OOO WestCall Ltd."
   },
   "51667": {
     "asn": "51667",
@@ -125982,6 +126446,10 @@
   "51776": {
     "asn": "51776",
     "isp": "Sportradar AG"
+  },
+  "51777": {
+    "asn": "51777",
+    "isp": "Alborz Insurance Company"
   },
   "51778": {
     "asn": "51778",
@@ -127075,6 +127543,10 @@
     "asn": "52111",
     "isp": "GroupM OG"
   },
+  "52112": {
+    "asn": "52112",
+    "isp": "Tom Klein"
+  },
   "52113": {
     "asn": "52113",
     "isp": "CONET Services GmbH"
@@ -127362,6 +127834,14 @@
   "52208": {
     "asn": "52208",
     "isp": "Engineering-technical center-communication LLC"
+  },
+  "52209": {
+    "asn": "52209",
+    "isp": "Atis Omran Sevin PSJ"
+  },
+  "52210": {
+    "asn": "52210",
+    "isp": "Accuris Technologies Ltd."
   },
   "52211": {
     "asn": "52211",
@@ -131419,6 +131899,10 @@
     "asn": "53469",
     "isp": "Kenai Peninsula Borough School District"
   },
+  "53471": {
+    "asn": "53471",
+    "isp": "Netskrt"
+  },
   "53472": {
     "asn": "53472",
     "isp": "City of Kirkland Washington"
@@ -132922,6 +133406,10 @@
   "54040": {
     "asn": "54040",
     "isp": "NBCUniversal"
+  },
+  "54041": {
+    "asn": "54041",
+    "isp": "Evan Warren Pratten Sole Proprietorship"
   },
   "54044": {
     "asn": "54044",
@@ -134527,6 +135015,10 @@
     "asn": "54607",
     "isp": "Apogee Telecom Inc."
   },
+  "54610": {
+    "asn": "54610",
+    "isp": "Eastern Maine Healthcare Systems"
+  },
   "54611": {
     "asn": "54611",
     "isp": "Intelligent Technology Solutions Inc."
@@ -135382,6 +135874,10 @@
   "54918": {
     "asn": "54918",
     "isp": "GT Nexus Inc"
+  },
+  "54919": {
+    "asn": "54919",
+    "isp": "Hara Partners Systems LLC"
   },
   "54920": {
     "asn": "54920",
@@ -137339,6 +137835,10 @@
     "asn": "55664",
     "isp": "PT Inovasi Global Mumpuni"
   },
+  "55665": {
+    "asn": "55665",
+    "isp": "PT Sampoerna Telemedia Indonesia"
+  },
   "55666": {
     "asn": "55666",
     "isp": "PT Media Sarana Data"
@@ -138359,6 +138859,10 @@
     "asn": "56123",
     "isp": "VERNet Pty Ltd"
   },
+  "56124": {
+    "asn": "56124",
+    "isp": "Mousumi Apartment  56 Sreenagar Main Road"
+  },
   "56126": {
     "asn": "56126",
     "isp": "United Bank Limited"
@@ -138643,6 +139147,10 @@
     "asn": "56256",
     "isp": "Perpustakaan Nasional RI"
   },
+  "56257": {
+    "asn": "56257",
+    "isp": "Balai Penyedia dan Pengelola Pembiayaan Telekomunikasi dan Informatika"
+  },
   "56258": {
     "asn": "56258",
     "isp": "PT. PGAS TELEKOMUNIKASI NUSANTARA"
@@ -138819,6 +139327,10 @@
     "asn": "56326",
     "isp": "9-ka.ru Ltd."
   },
+  "56327": {
+    "asn": "56327",
+    "isp": "Uniconnect Srl"
+  },
   "56329": {
     "asn": "56329",
     "isp": "Gigaclear Limited"
@@ -138938,6 +139450,10 @@
   "56366": {
     "asn": "56366",
     "isp": "VEGA - Parco Scientifico Tecnologico di Venezia S.c.a.r.l."
+  },
+  "56368": {
+    "asn": "56368",
+    "isp": "Nicola von Thadden"
   },
   "56370": {
     "asn": "56370",
@@ -139567,6 +140083,10 @@
     "asn": "56559",
     "isp": "CoreTech s.r.l."
   },
+  "56560": {
+    "asn": "56560",
+    "isp": "Komserviss SIA"
+  },
   "56561": {
     "asn": "56561",
     "isp": "Central Bank of the Republic of Armenia"
@@ -139710,6 +140230,10 @@
   "56606": {
     "asn": "56606",
     "isp": "NERACOM Ltd."
+  },
+  "56607": {
+    "asn": "56607",
+    "isp": "Privately owned entrepreneur Chabanov Andrey Alexandrovich"
   },
   "56609": {
     "asn": "56609",
@@ -140223,6 +140747,10 @@
     "asn": "56765",
     "isp": "Shahid Beheshti university"
   },
+  "56766": {
+    "asn": "56766",
+    "isp": "Bahilov Ilya Vitalievich PE"
+  },
   "56767": {
     "asn": "56767",
     "isp": "Airfibre Limited"
@@ -140683,6 +141211,10 @@
     "asn": "56912",
     "isp": "GoeTel GmbH"
   },
+  "56913": {
+    "asn": "56913",
+    "isp": "CoChen Technology LTD."
+  },
   "56914": {
     "asn": "56914",
     "isp": "The-Chaim-Sheba-Medical-Center"
@@ -140770,6 +141302,10 @@
   "56940": {
     "asn": "56940",
     "isp": "SC TECHNOLOGICAL SRL"
+  },
+  "56941": {
+    "asn": "56941",
+    "isp": "Enterprise Services Italia S.R.L"
   },
   "56942": {
     "asn": "56942",
@@ -140915,6 +141451,10 @@
     "asn": "56986",
     "isp": "Telecable Clientes S.L."
   },
+  "56987": {
+    "asn": "56987",
+    "isp": "ABACLOUDA SAS"
+  },
   "56988": {
     "asn": "56988",
     "isp": "Mobile & Television Communications LLC"
@@ -140974,6 +141514,10 @@
   "57005": {
     "asn": "57005",
     "isp": "PE Homich Nataliya G."
+  },
+  "57006": {
+    "asn": "57006",
+    "isp": "Coral Ltd."
   },
   "57007": {
     "asn": "57007",
@@ -141358,6 +141902,10 @@
   "57136": {
     "asn": "57136",
     "isp": "Viva Telecom SRL"
+  },
+  "57138": {
+    "asn": "57138",
+    "isp": "Marek Ziolkowski"
   },
   "57139": {
     "asn": "57139",
@@ -142583,6 +143131,10 @@
     "asn": "57548",
     "isp": "Parzeller S + S GmbH & Co. KG"
   },
+  "57549": {
+    "asn": "57549",
+    "isp": "SKS LLC"
+  },
   "57550": {
     "asn": "57550",
     "isp": "OTP Banka Srbija"
@@ -142898,6 +143450,10 @@
   "57648": {
     "asn": "57648",
     "isp": "Civey GmbH"
+  },
+  "57650": {
+    "asn": "57650",
+    "isp": "Nomios UK&I Limited"
   },
   "57651": {
     "asn": "57651",
@@ -143567,6 +144123,10 @@
     "asn": "57852",
     "isp": "CLOUD S P SARL"
   },
+  "57853": {
+    "asn": "57853",
+    "isp": "ASSOCIATION SENAHEBERG"
+  },
   "57854": {
     "asn": "57854",
     "isp": "UNISTAR LC do.o."
@@ -144062,6 +144622,10 @@
   "58006": {
     "asn": "58006",
     "isp": "LTD Technet"
+  },
+  "58007": {
+    "asn": "58007",
+    "isp": "Witine Limited"
   },
   "58008": {
     "asn": "58008",
@@ -144615,6 +145179,10 @@
     "asn": "58191",
     "isp": "OOO DevelopOnBox"
   },
+  "58192": {
+    "asn": "58192",
+    "isp": "Atis Omran Sevin PSJ"
+  },
   "58193": {
     "asn": "58193",
     "isp": "Telecom26 AG"
@@ -144894,6 +145462,10 @@
   "58288": {
     "asn": "58288",
     "isp": "Optovaya Textile Company ltd."
+  },
+  "58289": {
+    "asn": "58289",
+    "isp": "Kazakhstan Network Communication LLP"
   },
   "58290": {
     "asn": "58290",
@@ -146067,6 +146639,10 @@
     "asn": "58772",
     "isp": "CHINANET Fujian province Fuzhou IDC network"
   },
+  "58778": {
+    "asn": "58778",
+    "isp": "Mango Teleservices Limited"
+  },
   "58779": {
     "asn": "58779",
     "isp": "i4HK Limited"
@@ -146190,6 +146766,10 @@
   "58850": {
     "asn": "58850",
     "isp": "Bloomberg Financial Information (Beijing) Co Ltd"
+  },
+  "58851": {
+    "asn": "58851",
+    "isp": "Priority of Fashion(Beijing)Information Technology Co.Ltd"
   },
   "58852": {
     "asn": "58852",
@@ -147451,6 +148031,10 @@
     "asn": "59487",
     "isp": "GENEL ENEGRY YONETIM HIZMETLERI A.S."
   },
+  "59488": {
+    "asn": "59488",
+    "isp": "NORIEL IMPEX S.R.L."
+  },
   "59489": {
     "asn": "59489",
     "isp": "Anadolu Bilisim Hizmetleri A.S."
@@ -147878,6 +148462,10 @@
   "59620": {
     "asn": "59620",
     "isp": "Global Electronic Solutions LTD."
+  },
+  "59621": {
+    "asn": "59621",
+    "isp": "Flo Networks Limited"
   },
   "59622": {
     "asn": "59622",
@@ -148867,6 +149455,10 @@
     "asn": "59955",
     "isp": "Advanced Broadband Services S.A.L"
   },
+  "59956": {
+    "asn": "59956",
+    "isp": "PP Lurenet"
+  },
   "59957": {
     "asn": "59957",
     "isp": "CJSC BILLINGOVYI CENTER"
@@ -148918,6 +149510,10 @@
   "59974": {
     "asn": "59974",
     "isp": "Altyn Asyr CJSC"
+  },
+  "59975": {
+    "asn": "59975",
+    "isp": "Play-Telecom LLC."
   },
   "59977": {
     "asn": "59977",
@@ -149122,6 +149718,10 @@
   "60056": {
     "asn": "60056",
     "isp": "YATIRIM FINANSMAN MENKUL DEGERLER ANONIM SIRKETI"
+  },
+  "60057": {
+    "asn": "60057",
+    "isp": "Standart AG LLC"
   },
   "60058": {
     "asn": "60058",
@@ -149691,6 +150291,10 @@
     "asn": "60252",
     "isp": "OBIT Ltd."
   },
+  "60253": {
+    "asn": "60253",
+    "isp": "Host Europe GmbH"
+  },
   "60254": {
     "asn": "60254",
     "isp": "GLS IT Services GmbH"
@@ -149794,6 +150398,10 @@
   "60286": {
     "asn": "60286",
     "isp": "Agency-KA Ltd."
+  },
+  "60287": {
+    "asn": "60287",
+    "isp": "IPDOM LLC"
   },
   "60288": {
     "asn": "60288",
@@ -150683,6 +151291,10 @@
     "asn": "60583",
     "isp": "SOCIETATEA NATIONALA NUCLEARELECTRICA SA BUCURESTI SUCURSALA CNE CERNAVODA"
   },
+  "60585": {
+    "asn": "60585",
+    "isp": "SITEL-VSAT sro"
+  },
   "60586": {
     "asn": "60586",
     "isp": "Securitas AS"
@@ -150919,9 +151531,17 @@
     "asn": "60660",
     "isp": "Joint-Stock Commercial Bank Priobye"
   },
+  "60661": {
+    "asn": "60661",
+    "isp": "Kuwait Awqaf Public Foundation"
+  },
   "60662": {
     "asn": "60662",
     "isp": "Data Communication & Software i Grondal Aktiebolag"
+  },
+  "60663": {
+    "asn": "60663",
+    "isp": "Online Company for Technological Information Supply of Electronic Equipment an"
   },
   "60664": {
     "asn": "60664",
@@ -151138,6 +151758,10 @@
   "60729": {
     "asn": "60729",
     "isp": "Zwiebelfreunde e.V."
+  },
+  "60730": {
+    "asn": "60730",
+    "isp": "JSC KA-INTERNET"
   },
   "60731": {
     "asn": "60731",
@@ -151510,6 +152134,10 @@
   "60840": {
     "asn": "60840",
     "isp": "OJSC Telecom-Service"
+  },
+  "60841": {
+    "asn": "60841",
+    "isp": "BERRYBYTE"
   },
   "60842": {
     "asn": "60842",
@@ -152306,6 +152934,10 @@
   "61098": {
     "asn": "61098",
     "isp": "Akenes SA"
+  },
+  "61099": {
+    "asn": "61099",
+    "isp": "Open Coconut SRL"
   },
   "61101": {
     "asn": "61101",
@@ -154695,6 +155327,10 @@
     "asn": "61911",
     "isp": "RIDERSON MENDES BORGES - ME"
   },
+  "61912": {
+    "asn": "61912",
+    "isp": "UAILINK LTDA"
+  },
   "61914": {
     "asn": "61914",
     "isp": "Roberto Keller - ME"
@@ -155747,6 +156383,10 @@
     "asn": "62235",
     "isp": "Albacete Sistemas y Servicios SL"
   },
+  "62236": {
+    "asn": "62236",
+    "isp": "Exsotel S.L."
+  },
   "62238": {
     "asn": "62238",
     "isp": "Sina Financial & Investment Holding Co (PJS)"
@@ -155974,6 +156614,10 @@
   "62308": {
     "asn": "62308",
     "isp": "Bibus Menos Sp. z o.o."
+  },
+  "62309": {
+    "asn": "62309",
+    "isp": "Shawn Rassi trading as Chromatel"
   },
   "62310": {
     "asn": "62310",
@@ -156506,6 +157150,10 @@
   "62490": {
     "asn": "62490",
     "isp": "Comintech Corp"
+  },
+  "62493": {
+    "asn": "62493",
+    "isp": "City of Bryan Texas"
   },
   "62495": {
     "asn": "62495",
@@ -157299,6 +157947,10 @@
     "asn": "62774",
     "isp": "Cleveland Browns"
   },
+  "62775": {
+    "asn": "62775",
+    "isp": "Internet2"
+  },
   "62776": {
     "asn": "62776",
     "isp": "Health Dialog Services Corporation"
@@ -157542,6 +158194,10 @@
   "62863": {
     "asn": "62863",
     "isp": "PRAIRIECARE LLC"
+  },
+  "62864": {
+    "asn": "62864",
+    "isp": "net innovation llc"
   },
   "62866": {
     "asn": "62866",
@@ -157931,6 +158587,10 @@
     "asn": "63012",
     "isp": "East Baton Rouge Sheriff"
   },
+  "63013": {
+    "asn": "63013",
+    "isp": "EHRTECH-N1"
+  },
   "63014": {
     "asn": "63014",
     "isp": "McCormick Place"
@@ -157978,6 +158638,10 @@
   "63029": {
     "asn": "63029",
     "isp": "Payscale Inc."
+  },
+  "63030": {
+    "asn": "63030",
+    "isp": "My Simple ISP LLC"
   },
   "63031": {
     "asn": "63031",
@@ -159427,6 +160091,10 @@
     "asn": "63531",
     "isp": "Beijing BAIWU Technology Co. Ltd."
   },
+  "63534": {
+    "asn": "63534",
+    "isp": "SHENZHEN CHUNQIU YUNJISUAN"
+  },
   "63548": {
     "asn": "63548",
     "isp": "LENOVO (BEIJING) Co.ltd"
@@ -159831,6 +160499,10 @@
     "asn": "63795",
     "isp": "RoutelNet"
   },
+  "63796": {
+    "asn": "63796",
+    "isp": "Next Network Research Laboratory Graduate School of Science and Engineering"
+  },
   "63826": {
     "asn": "63826",
     "isp": "Central Procurement Technical Unit (CPTU)"
@@ -159982,6 +160654,14 @@
   "63895": {
     "asn": "63895",
     "isp": "Charmway Limited"
+  },
+  "63901": {
+    "asn": "63901",
+    "isp": "CYCORE"
+  },
+  "63902": {
+    "asn": "63902",
+    "isp": "SHINE TELECOM CO. LTD."
   },
   "63911": {
     "asn": "63911",
@@ -160375,6 +161055,10 @@
     "asn": "64078",
     "isp": "Star Framework Co."
   },
+  "64080": {
+    "asn": "64080",
+    "isp": "SYN-UK"
+  },
   "64086": {
     "asn": "64086",
     "isp": "AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED"
@@ -160707,9 +161391,17 @@
     "asn": "64267",
     "isp": "Sprious LLC"
   },
+  "64270": {
+    "asn": "64270",
+    "isp": "QuadraNet Enterprises LLC"
+  },
   "64271": {
     "asn": "64271",
     "isp": "rixCloud"
+  },
+  "64272": {
+    "asn": "64272",
+    "isp": "DOT AZ DOT US DOMAINS OF ARIZONA LLC"
   },
   "64273": {
     "asn": "64273",
