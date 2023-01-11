@@ -8,6 +8,8 @@ echo $version
 
 curl -X POST \
  --no-progress-meter \
+ --connect-timeout 10 \
+ --max-time 10 \
  --url "https://services.mujtvprogram.cz/tvprogram2services/services/tvchannellist_mobile.php" \
  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0" \
  -H "Accept: */*" \
