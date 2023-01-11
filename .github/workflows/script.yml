@@ -74,6 +74,6 @@ jobs:
           git pull
           git add ./csv/*.csv
           git add ./channels/*.xml
-          git log --pretty=format: --name-only --diff-filter=A | sort - | sed '/^$/d'
+          git ls-tree -r master --name-only
           git commit -m "epg-grabber-update-codes" || echo
           git push
