@@ -24,9 +24,11 @@ jobs:
         run: chmod +x ./asn.sh
         shell: bash
 
-      - name: install apt
-        run: sudo apt-get update && sudo apt-get install -y sed && sudo apt-get install -y gawk && sudo apt-get install -y curl
-        shell: bash
+      - name: test
+        run: |
+         go get -u github.com/shenwei356/csvtk/csvtk
+         csvtk
+
       - name: run sh
         run: bash ./asn.sh
         shell: bash
@@ -59,7 +61,7 @@ jobs:
           git config --global user.name ${{ secrets.NAME }}
           git pull
           git add ${{ github.workspace }}/README.md
-          git add ./data/{ClearAsn.json,ClearIpRange.json}
-          git add ./data/{Clear.csv,AsnIsp.csv}
+          git add ./data/*.json
+          git add ./data/*.csv
           git commit -m "db-ip"
           git push
