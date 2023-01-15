@@ -24,11 +24,6 @@ jobs:
         run: chmod +x ./asn.sh
         shell: bash
 
-      - name: test
-        run: |
-         go install github.com/shenwei356/csvtk/csvtk@latest
-         csvtk
-
       - name: run sh
         run: bash ./asn.sh
         shell: bash
