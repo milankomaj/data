@@ -41,7 +41,7 @@ jobs:
         
       - name: data
         run: |
-         jq --compact-output 'group_by(.asn) | map({ "asn": .[0].asn,"isp": map(."isp") | unique, "od-do": map(."od-do") | unique })' Clear.json > data.json
+         jq --compact-output 'group_by(.asn) | map({ "asn": .[0].asn,"isp": map(."isp") | unique, "od-do": map(."od-do") | unique })' ./data/Clear.json > ./data/data.json
         shell: bash
 
       - name: timestamp
