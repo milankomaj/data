@@ -20,14 +20,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        
       - name: chmod
         run: chmod +x ./asn.sh
         shell: bash
 
       - name: run sh
-        run: |
-         bash ./asn.sh
-         jq  --compact-output 'group_by(.asn) | map({ "asn": .[0].asn,"isp": map(."isp") | unique, "od-do": map(."od-do") | unique })' ./data/Clear.json > ./data/data.json
+        run: bash ./asn.sh
         shell: bash
         
         
@@ -39,6 +38,11 @@ jobs:
         run: npm run gh-asn
       - name: gh-od-do
         run: npm run gh-od-do
+        
+      - name: data
+        run: |
+         jq --compact-output 'group_by(.asn) | map({ "asn": .[0].asn,"isp": map(."isp") | unique, "od-do": map(."od-do") | unique })' Clear.json > data.json
+        shell: bash
 
       - name: timestamp
         run: |
