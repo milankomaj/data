@@ -26,7 +26,7 @@ jobs:
 
       - name: test
         run: |
-         go get -u github.com/shenwei356/csvtk/csvtk
+         go install github.com/shenwei356/csvtk/csvtk
          csvtk
 
       - name: run sh
