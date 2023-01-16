@@ -7,6 +7,7 @@ then
     echo curl OK
 else
     echo curl FAIL
+    exit
 fi
 
 sed -i '/::/d' data/Clear.csv                                         # (vymaže riadky ::)
