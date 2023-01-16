@@ -36,7 +36,25 @@ jobs:
 
       - name: Grab
         id: grab3
-        run: npm run grab3
+        run: |
+          version=$(curl -X HEAD -w "%{http_code}" \
+          --no-progress-meter \
+          --connect-timeout 20 \
+          --max-time 20 \
+          --url 'https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=1' \
+          -I \
+          -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; Nexus 6P Build/OPP3.170518.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Mobile Safari/537.36' \
+          -H 'Accept: application/json,*/*' \
+          -H 'DNT: 1' \
+          -H 'Connection: keep-alive' \
+          -o /dev/null)
+          if [ $version -eq 0 ]
+          then
+          echo curl OK
+          else
+          exit
+          fi
+          npm run grab3
 
       - name: outcome
         id: grab3_outcome
