@@ -17,7 +17,7 @@ jobs:
   grab:
     runs-on: ubuntu-latest
     timeout-minutes: 480
-    continue-on-error: false
+    continue-on-error: true
     strategy:
 
       max-parallel: 2
@@ -48,7 +48,7 @@ jobs:
           -H 'DNT: 1' \
           -H 'Connection: keep-alive' \
           -o /dev/null)
-          if [ $version -eq 0 ]
+          if [ $version -eq 200 ]
           then
           echo curl OK
           else
