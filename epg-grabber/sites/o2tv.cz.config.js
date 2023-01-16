@@ -1,19 +1,28 @@
-const dayjs = require('dayjs')
 const axios = require('axios')
+const dayjs = require('dayjs')
 module.exports = {
   site: 'o2tv.cz',
   request: {
+    headers: function () {
+      return {
+        'Referer': 'https://api.o2tv.cz',
+        'Host': 'api.o2tv.cz',
+        'Accept': 'application/json,*/*',
+        'Sec-Fetch-Site': 'cross-site',
+        'User-Agent': 'Mozilla/5.0 (Linux; Android 8.0.0; Nexus 6P Build/OPP3.170518.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Mobile Safari/537.36'
+      }
+    },
     cache: {
       ttl: 3 * 60 * 60 * 1000 // 3h
     }
   },
   url: function ({ date, channel }) {
-    //const id = channel.site_id
+    const id = encodeURIComponent(channel.site_id)
     //console.log("id", id)
     const d = date.valueOf()
     //const g = dayjs(date).add(1, 'day').valueOf()
     //console.log("d,g", d, g)
-    return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&from=${d}`
+    return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${d}`
     //return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${f}&to=${g}`
   },
   async parser({ content, channel, date }) {
