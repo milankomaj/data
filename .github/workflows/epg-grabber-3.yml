@@ -36,6 +36,7 @@ jobs:
 
       - name: Grab
         id: grab3
+        continue-on-error: false
         run: |
           version=$(curl -X HEAD -w "%{http_code}" \
           --no-progress-meter \
