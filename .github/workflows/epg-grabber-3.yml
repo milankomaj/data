@@ -52,6 +52,7 @@ jobs:
           then
           echo curl OK
           else
+          echo curl FAIL
           exit
           fi
           npm run grab3
