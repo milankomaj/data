@@ -8,6 +8,8 @@ echo $version
 
 curl -X GET \
   --no-progress-meter \
+  --connect-timeout 10 \
+  --max-time 10 \
   --url "https://programandroid.365dni.cz/android/v5-tv.php?locale=sk" \
 | ./xq -x ${XPath} > $(echo $version)_programandroid.tsv
 done

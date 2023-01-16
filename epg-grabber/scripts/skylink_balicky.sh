@@ -9,6 +9,8 @@ echo "${lang[@]::2}"
 echo "${balicky}"
 curl -X GET \
   --no-progress-meter \
+  --connect-timeout 10 \
+  --max-time 10 \
   --url "https://web.scraper.workers.dev/?url=https://www.skylink."${lang}"/balicky/"${balicky}"&selector=.kanal&scrape=text&spaced=true&pretty=true" \
 | jq -r '.result[]' > ${balicky}-${lang[@]::2}_skylink.tsv
 sed -i '$ d' ${balicky}-${lang[@]::2}_skylink.tsv
