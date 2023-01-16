@@ -1,6 +1,17 @@
 #!/bin/bash
+version=$(date +'%Y-%m');
+echo $version
+curl -sSL https://download.db-ip.com/free/dbip-asn-lite-$version.csv.gz | gunzip > data/Clear.csv
+if [ $? -eq 0 ]
+then
+    echo curl OK
+else
+    echo curl FAIL
+    exit
+fi
 
-
+# csv
+echo "csv"
 sed -i '/::/d' data/Clear.csv                                         # (vymaže riadky ::)
 awk -i inplace -F ',' '{print $3","$1"-"$2","$4$5}' data/Clear.csv    # (skráti 4 stĺpec + prehodí stĺpec)
 sed -i 's/"//g' data/Clear.csv                                        # (nahradí " /*/)
