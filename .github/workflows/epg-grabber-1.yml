@@ -28,6 +28,9 @@ jobs:
       output_grab1: ${{ steps.grab1_outcome.outputs.grab1_outcome}}
 
     steps:
+      - name: github.event_name
+        run: echo ${{ github.event_name }}
+
       - name: Checkout
         uses: actions/checkout@v3
 
