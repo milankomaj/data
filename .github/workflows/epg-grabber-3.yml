@@ -66,7 +66,7 @@ jobs:
          echo ${{ steps.grab3.outcome }}
          echo "grab3_outcome=${{ steps.grab3.outcome }}" >> $GITHUB_OUTPUT
 
-      # remove ?
+      # remove ? ${{ github.event_name == 'workflow_dispatch' }}
       - name: Deploy
         if: ${{ github.event_name == 'schedule' }}
         run: |
