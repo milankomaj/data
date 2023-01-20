@@ -45,9 +45,14 @@ jobs:
 
       - name: outputs_grabers
         run: |
+         echo "outputs outcome"
          echo ${{ needs.grab1.outputs.grab1_outcome }}
          echo ${{ needs.grab2.outputs.grab2_outcome }}
          echo ${{ needs.grab3.outputs.grab3_outcome }}
+         echo "grabs outcome"
+         echo ${{ needs.grab1.outcome }}
+         echo ${{ needs.grab2.outcome }}
+         echo ${{ needs.grab3.outcome }}
 
 
       - name: GITHUB_STEP_SUMMARY
@@ -59,6 +64,7 @@ jobs:
           echo "grab2 | $(echo ${{ needs.grab2.outputs.grab2_outcome }})" >> $GITHUB_STEP_SUMMARY
           echo "grab3 | $(echo ${{ needs.grab3.outputs.grab3_outcome }})" >> $GITHUB_STEP_SUMMARY
 
+      # git add ...guide.xml
       - name: Update
         id: update
         run: |

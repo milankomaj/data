@@ -17,7 +17,7 @@ jobs:
   grab:
     runs-on: ubuntu-latest
     timeout-minutes: 180
-    continue-on-error: true
+    continue-on-error: false
     strategy:
 
       max-parallel: 2
@@ -45,6 +45,7 @@ jobs:
          echo ${{ steps.grab1.outcome }}
          echo "grab1_outcome=${{ steps.grab1.outcome }}" >> $GITHUB_OUTPUT
 
+      # remove ?
       - name: Deploy
         run: |
           git config --global user.email ${{ secrets.EMAIL }}

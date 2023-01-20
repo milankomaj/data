@@ -17,7 +17,7 @@ jobs:
   grab:
     runs-on: ubuntu-latest
     timeout-minutes: 480
-    continue-on-error: true
+    continue-on-error: false
     strategy:
 
       max-parallel: 2
@@ -51,11 +51,12 @@ jobs:
           if [ $version -eq 200 ]
           then
           echo curl OK
+          npm run grab3
           else
           echo curl FAIL
-          exit
+          exit 1
           fi
-          npm run grab3
+
 
       - name: outcome
         id: grab3_outcome
@@ -64,7 +65,7 @@ jobs:
          echo ${{ steps.grab3.outcome }}
          echo "grab3_outcome=${{ steps.grab3.outcome }}" >> $GITHUB_OUTPUT
 
-
+      # remove ?
       - name: Deploy
         run: |
           git config --global user.email ${{ secrets.EMAIL }}
