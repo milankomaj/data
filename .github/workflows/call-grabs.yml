@@ -45,17 +45,17 @@ jobs:
 
       - name: outputs_grabers
         run: |
-         echo "${{ needs.grab1.outputs.grab1_outcome }}"
+         echo "${{ needs.grab*.outputs.grab*_outcome }}"
          echo ${{ needs.grab1.outputs.grab1_outcome }}
          echo ${{ needs.grab2.outputs.grab2_outcome }}
          echo ${{ needs.grab3.outputs.grab3_outcome }}
 
-         echo "${{ needs.grab1.outcome }}"
+         echo "${{ needs.grab*.outcome }}"
          echo ${{ needs.grab1.outcome }}
          echo ${{ needs.grab2.outcome }}
          echo ${{ needs.grab3.outcome }}
 
-         echo "${{ grab1.outcome }}"
+         echo "${{ grab*.outcome }}"
          echo ${{ grab1.outcome }}
          echo ${{ grab2.outcome }}
          echo ${{ grab3.outcome }}
