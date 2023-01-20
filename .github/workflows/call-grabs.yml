@@ -53,6 +53,8 @@ jobs:
          echo ${{ needs.grab1.outcome }}
          echo ${{ needs.grab2.outcome }}
          echo ${{ needs.grab3.outcome }}
+         echo "github.event_name"
+         echo ${{ github.event_name }}
 
 
       - name: GITHUB_STEP_SUMMARY
