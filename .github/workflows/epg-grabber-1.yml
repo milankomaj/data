@@ -42,6 +42,7 @@ jobs:
         id: grab1_outcome
         shell: bash
         run: |
+         echo ${{ github.event_name }}
          echo ${{ steps.grab1.outcome }}
          echo "grab1_outcome=${{ steps.grab1.outcome }}" >> $GITHUB_OUTPUT
 
