@@ -82,4 +82,6 @@ jobs:
           git commit -m "epg-grabber" || echo
           git pull
           git status --short -uno
+          echo "" >> $GITHUB_STEP_SUMMARY
+          git status --short -uno >> $GITHUB_STEP_SUMMARY
           git push
