@@ -1,5 +1,6 @@
 Channel Name,EPG Code (tvg-id),ID
 1+1,o2-162,1plus1
+360 TuneBox HD,horizon-10200,lgi-obolite-sk-prod-master:10200
 360TuneBox,mujtvprogram-367,367
 :24,o2-164,RTVS24
 ABC TV,programandroid-1337,1337
@@ -111,7 +112,6 @@ CS Mystery,programandroid-717,717
 CT 1 HD,horizon-10018,lgi-obolite-sk-prod-master:10018
 CT 2 HD,horizon-10019,lgi-obolite-sk-prod-master:10019
 CT 24 HD,horizon-10021,lgi-obolite-sk-prod-master:10021
-CT 3 HD,horizon-10017,lgi-obolite-sk-prod-master:10017
 CT D HD / CT art HD,horizon-10020,lgi-obolite-sk-prod-master:10020
 CT sport HD,horizon-10082,lgi-obolite-sk-prod-master:10082
 Current Time,horizon-10194,lgi-obolite-sk-prod-master:10194
@@ -158,6 +158,7 @@ Duna World,horizon-10145,lgi-obolite-sk-prod-master:10145
 Dvojka,mujtvprogram-180,180
 Dvojka,o2-163,Dvojka
 Dvojka HD,horizon-10002,lgi-obolite-sk-prod-master:10002
+E! Entertainment,horizon-10203,lgi-obolite-sk-prod-master:10203
 E! Entertainment,mujtvprogram-410,410
 E! Europe,EEurope.us,E%21+Entertainment
 Edge Sport HD,o2-87,EdgeSportHD
@@ -189,6 +190,7 @@ Extreme Sports Channel,mujtvprogram-85,85
 Fashion TV,mujtvprogram-119,119
 Fashion TV,o2-116,Fashion TV
 Fashion TV HD,horizon-10105,lgi-obolite-sk-prod-master:10105
+FashionBox,horizon-10202,lgi-obolite-sk-prod-master:10202
 FashionBox HD,mujtvprogram-338,338
 FashionTV,programandroid-83,83
 Fast and FunBox HD,horizon-10130,lgi-obolite-sk-prod-master:10130
@@ -211,6 +213,7 @@ Film+ CZ HD,horizon-10043,lgi-obolite-sk-prod-master:10043
 FILM+ HU,horizon-10162,lgi-obolite-sk-prod-master:10162
 FilmBox,mujtvprogram-64,64
 Filmbox,programandroid-72,72
+FilmBox Arthouse,horizon-10201,lgi-obolite-sk-prod-master:10201
 FilmBox Central Europe,FilmBoxCentralEurope.us,Filmbox
 FilmBox Extra HD,horizon-10125,lgi-obolite-sk-prod-master:10125
 FilmBox Extra HD,mujtvprogram-121,121
