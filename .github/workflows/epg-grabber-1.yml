@@ -17,7 +17,7 @@ jobs:
   grab:
     runs-on: ubuntu-latest
     timeout-minutes: 180
-    continue-on-error: true
+    continue-on-error: false
     strategy:
 
       max-parallel: 2
@@ -35,6 +35,7 @@ jobs:
         run: npm install
 
       - name: Grab
+        continue-on-error: true
         id: grab1
         run: npm run grab1
 
