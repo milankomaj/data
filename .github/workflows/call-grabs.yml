@@ -71,6 +71,7 @@ jobs:
 
       # git add ...guide.xml
       - name: Update
+        if: ${{ github.event_name == 'schedule' }}
         id: update
         run: |
           git config --global user.email ${{ secrets.EMAIL }}
