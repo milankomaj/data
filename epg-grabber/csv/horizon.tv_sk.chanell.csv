@@ -26,7 +26,6 @@ horizon-10082,lgi-obolite-sk-prod-master:10082,CT sport HD,213,https://staticqbr
 horizon-10018,lgi-obolite-sk-prod-master:10018,CT 1 HD,21,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5053.f.CT_1_HD.png?style=content-station-logo-medium
 horizon-10019,lgi-obolite-sk-prod-master:10019,CT 2 HD,22,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5054.f.CT_2_HD.png?style=content-station-logo-medium
 horizon-10021,lgi-obolite-sk-prod-master:10021,CT 24 HD,24,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/8431.f.CT_24_HD.png?style=content-station-logo-medium
-horizon-10017,lgi-obolite-sk-prod-master:10017,CT 3 HD,20,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/9097.f.CT_3_HD.png?style=content-station-logo-medium
 horizon-10194,lgi-obolite-sk-prod-master:10194,Current Time,367,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/CurrentTime.f.png?style=content-station-logo-medium
 horizon-10008,lgi-obolite-sk-prod-master:10008,Dajto HD,9,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/50047.f.Dajto_HD_SK.png?style=content-station-logo-medium
 horizon-10109,lgi-obolite-sk-prod-master:10109,Deutsche Welle,352,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/4667.f.Deutsche_Welle.png?style=content-station-logo-medium
@@ -42,6 +41,7 @@ horizon-10084,lgi-obolite-sk-prod-master:10084,ducktv HD,250,https://staticqbr-s
 horizon-10145,lgi-obolite-sk-prod-master:10145,Duna World,459,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/483_13_c_67a1cc500fb0219ad22022f9b6a5bdf5.Duna_World_SK.png?style=content-station-logo-medium
 horizon-10146,lgi-obolite-sk-prod-master:10146,Duna,460,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/483_2_c_f722c641cc8eee9954c7d17090dbb352.Duna.png?style=content-station-logo-medium
 horizon-10002,lgi-obolite-sk-prod-master:10002,Dvojka HD,3,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/8408.f.Dvojka_HD_SK.png?style=content-station-logo-medium
+horizon-10203,lgi-obolite-sk-prod-master:10203,E! Entertainment,315,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/eentertainment.f.png?style=content-station-logo-medium
 horizon-10131,lgi-obolite-sk-prod-master:10131,EroXXX HD,418,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5198.f.EroXXX_HD.png?style=content-station-logo-medium
 horizon-10192,lgi-obolite-sk-prod-master:10192,Espreso TV,366,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/Espreso_TV.f.png?style=content-station-logo-medium
 horizon-10114,lgi-obolite-sk-prod-master:10114,Euronews FR,357,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/8649fr.f.Euronews_FR.png?style=content-station-logo-medium
@@ -51,10 +51,12 @@ horizon-10072,lgi-obolite-sk-prod-master:10072,Eurosport 1 HD,200,https://static
 horizon-10073,lgi-obolite-sk-prod-master:10073,Eurosport 2 HD,201,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5069.f.Eurosport_2_HD.png?style=content-station-logo-medium
 horizon-10136,lgi-obolite-sk-prod-master:10136,Extasy HD,423,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/Extasy_HD.f.Extasy_HD.png?style=content-station-logo-medium
 horizon-10079,lgi-obolite-sk-prod-master:10079,Extreme Sports,210,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/1236.f.Extreme_Sports.png?style=content-station-logo-medium
+horizon-10202,lgi-obolite-sk-prod-master:10202,FashionBox,414,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/fashionbox.f.png?style=content-station-logo-medium
 horizon-10105,lgi-obolite-sk-prod-master:10105,Fashion TV HD,313,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/8274.f.Fashion_TV_HD.png?style=content-station-logo-medium
 horizon-10130,lgi-obolite-sk-prod-master:10130,Fast and FunBox HD,417,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/8005.f.Fast_and_Fun_HD.png?style=content-station-logo-medium
 horizon-10161,lgi-obolite-sk-prod-master:10161,Fem3,478,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/Fem3_HU.f.Fem3_HU.png?style=content-station-logo-medium
 horizon-10128,lgi-obolite-sk-prod-master:10128,Fightbox HD,415,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/8006.f.Fightbox_HD.png?style=content-station-logo-medium
+horizon-10201,lgi-obolite-sk-prod-master:10201,FilmBox Arthouse,409,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/arthouse.f.png?style=content-station-logo-medium
 horizon-10125,lgi-obolite-sk-prod-master:10125,FilmBox Extra HD,410,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5011.f.FilmBox_Extra_HD.png?style=content-station-logo-medium
 horizon-10045,lgi-obolite-sk-prod-master:10045,FilmBox Family,106,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5094.f.FilmBox_Family.png?style=content-station-logo-medium
 horizon-10044,lgi-obolite-sk-prod-master:10044,FilmBox HD,105,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5092.f.FilmBox.png?style=content-station-logo-medium
@@ -181,3 +183,4 @@ horizon-10170,lgi-obolite-sk-prod-master:10170,VOX,507,https://staticqbr-sk-prod
 horizon-10175,lgi-obolite-sk-prod-master:10175,Vremja,533,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5188.f.Vremja.png?style=content-station-logo-medium
 horizon-10009,lgi-obolite-sk-prod-master:10009,WAU HD,10,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/8406.f.WAU_SK.png?style=content-station-logo-medium
 horizon-10164,lgi-obolite-sk-prod-master:10164,WELT,501,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/483_110002_c_e959874e6c55bdc3dab22b3adb5d40ea.N24_SK.png?style=content-station-logo-medium
+horizon-10200,lgi-obolite-sk-prod-master:10200,360 TuneBox HD,412,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/360tunebox.f.png?style=content-station-logo-medium
