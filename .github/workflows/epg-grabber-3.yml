@@ -68,7 +68,7 @@ jobs:
 
       # remove ? ${{ github.event_name == 'workflow_dispatch' }}
       - name: Deploy
-        if: ${{ github.event_name == 'schedule' }}
+        if: ${{ github.event_name == 'workflow_dispatch' }}
         run: |
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}
