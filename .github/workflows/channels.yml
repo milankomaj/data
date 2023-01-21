@@ -76,5 +76,5 @@ jobs:
           git add ./csv/*.csv
           git add ./channels/*.xml
           git commit -m "epg-grabber-update-codes" || echo
-          git status pretty --short --untracked-files=no
+          git status --short -uno
           git push

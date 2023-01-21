@@ -13,19 +13,22 @@ jobs:
     uses: ./.github/workflows/channels.yml
     secrets: inherit
   grab1:
+    needs: [channels]
     uses: ./.github/workflows/epg-grabber-1.yml
     secrets: inherit
   grab2:
+    needs: [channels]
     uses: ./.github/workflows/epg-grabber-2.yml
     secrets: inherit
   grab3:
+    needs: [channels]
     uses: ./.github/workflows/epg-grabber-3.yml
     secrets: inherit
 
 
   push:
     runs-on: ubuntu-latest
-    needs: [grab1,grab2,grab3]
+    needs: [grab1,grab2,grab3,channels]
     steps:
 
       - name: Checkout
@@ -86,5 +89,5 @@ jobs:
           git add ./epg-grabber/channels/*.xml
           git commit -m "epg-grabber" || echo
           git pull
-          git status pretty --short --untracked-files=no
+          git status --short -uno
           git push
