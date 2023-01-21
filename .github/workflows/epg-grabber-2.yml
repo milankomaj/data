@@ -37,7 +37,9 @@ jobs:
       - name: Grab
         continue-on-error: true
         id: grab2
-        run: npm run grab2
+        run: |
+         # exit 1
+         npm run grab2
 
       - name: outcome
         id: grab2_outcome

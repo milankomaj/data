@@ -38,6 +38,7 @@ jobs:
         continue-on-error: true
         id: grab3
         run: |
+          # exit 1
           version=$(curl -X HEAD -w "%{http_code}" \
           --no-progress-meter \
           --connect-timeout 20 \
