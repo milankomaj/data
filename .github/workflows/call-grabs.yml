@@ -55,10 +55,6 @@ jobs:
          echo ${{ needs.grab2.outcome }}
          echo ${{ needs.grab3.outcome }}
 
-         echo "grab*.outcome"
-         echo ${{ grab1.outcome }}
-         echo ${{ grab2.outcome }}
-         echo ${{ grab3.outcome }}
 
          echo "github.event_name"
          echo ${{ github.event_name }}
