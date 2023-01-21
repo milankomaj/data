@@ -9,9 +9,9 @@ jobs:
   grab_channels:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    continue-on-error: false
+    continue-on-error: true
     strategy:
-      fail-fast: true
+      # fail-fast: true
       max-parallel: 2
     defaults:
       run:
@@ -28,6 +28,7 @@ jobs:
           timezone: Europe/Bratislava
 
       - name: xq
+        id: xq
         run: |
           echo -e "\033[31;1m Xq Version download Latest version\033[0m"
           XQtool=$(curl -L -s -H 'Accept: application/json' https://github.com/sibprogrammer/xq/releases/latest)
@@ -40,22 +41,31 @@ jobs:
           tar -xvzf xq_$(echo $short)_linux_amd64.tar.gz xq
         shell: bash
 
-      - name: chmod
+      - name: ChmodCurl
+        id: ChmodCurl
         run: |
-          echo -e "\033[31;1m Update chanells. \033[0m"
+          echo -e "\033[31;1m Update chanells Curl. \033[0m"
           chmod +x ./scripts/horizon_tv_list_curl.sh
           ./scripts/horizon_tv_list_curl.sh
           chmod +x ./scripts/o2_tv_list_curl.sh
           ./scripts/o2_tv_list_curl.sh
           chmod +x ./scripts/skylink_balicky.sh
           ./scripts/skylink_balicky.sh
+        shell: bash
+
+      - name: ChmodXq
+        if:  steps.xq.outcome == 'success'
+        id: ChmodXq
+        run: |
+          echo -e "\033[31;1m Update chanells Xq. \033[0m"
           chmod +x ./scripts/programandroid_list_xq.sh
           ./scripts/programandroid_list_xq.sh
-           chmod +x ./scripts/mujtvprogram_list_xq.sh
+          chmod +x ./scripts/mujtvprogram_list_xq.sh
           ./scripts/mujtvprogram_list_xq.sh
         shell: bash
 
       - name: update-codes
+        if:  steps.ChmodCurl.outcome == 'success' && steps.ChmodXq.outcome == 'success'
         run: |
           npm install
           npm run update-codes
