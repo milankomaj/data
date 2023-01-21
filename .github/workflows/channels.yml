@@ -68,6 +68,7 @@ jobs:
           tree -h ./channels/
 
       - name: deploy
+        if: ${{ github.event_name == 'workflow_dispatch' }}
         run: |
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}
@@ -75,4 +76,5 @@ jobs:
           git add ./csv/*.csv
           git add ./channels/*.xml
           git commit -m "epg-grabber-update-codes" || echo
+          git status pretty --short --untracked-files=no
           git push
