@@ -85,6 +85,8 @@ sed -i 's/"Meniny má Patrik, Patrícia"/"Meniny má Patrik","Meniny má Patríc
 sed -i 's/ x x x x /\",\"/g' gg.json
 sed -i 's/"Meniny má Drahomíra a Mário"/"Meniny má Drahomíra","Meniny má Mário"/g' gg.json
 sed -i 's/"Meniny má Erika a Erik"/"Meniny má Erika","Meniny má Erik"/g' gg.json
+sed -i 's/. x/./g' gg.json
+sed -i 's/\"\./\"/g' gg.json
 
 jq add gg.json > jj.json
 jq '{month: .}' jj.json > names_days.json
