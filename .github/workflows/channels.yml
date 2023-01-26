@@ -77,6 +77,7 @@ jobs:
           echo ***./channels/***
           tree -h ./channels/
 
+      # git status --short -uno
       - name: deploy
         if: ${{ github.event_name == 'workflow_dispatch' }} || ${{ github.event_name == 'schedule' }}
         run: |
@@ -86,7 +87,4 @@ jobs:
           git add ./csv/*.csv
           git add ./channels/*.xml
           git commit -m "epg-grabber-update-codes" || echo
-          git status --short -uno
-          echo "" >> $GITHUB_STEP_SUMMARY
-          git status --short -uno >> $GITHUB_STEP_SUMMARY
           git push

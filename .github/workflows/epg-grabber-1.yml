@@ -60,6 +60,4 @@ jobs:
           git add ./guide/mujtvprogram.cz_cz.guide.xml
           git commit -m "epg-grabber - ${{ steps.grab1.outcome }}"
           git pull
-          echo "" >> $GITHUB_STEP_SUMMARY
-          git status --short -uno >> $GITHUB_STEP_SUMMARY
           git push -f
