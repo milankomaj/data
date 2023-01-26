@@ -47,7 +47,7 @@ jobs:
       - name: Tree
         run: |
          echo ***./***
-         tree -F -D -t -h -L 3 ./
+         tree -F -t -h -L 3 ./
 
       - name: outputs_grabers
         run: |
