@@ -47,7 +47,7 @@ jobs:
       - name: Tree
         run: |
          echo ***./***
-         tree -h -L 3 ./
+         tree -F -D -t -h -L 3 ./
 
       - name: outputs_grabers
         run: |
@@ -67,7 +67,7 @@ jobs:
           echo "grab2 | $(echo ${{ needs.grab2.outputs.grab2_outcome }})" >> $GITHUB_STEP_SUMMARY
           echo "grab3 | $(echo ${{ needs.grab3.outputs.grab3_outcome }})" >> $GITHUB_STEP_SUMMARY
 
-      # 
+      #
       - name: Update
         if: ${{ github.event_name == 'schedule' }} || ${{ github.event_name == 'workflow_dispatch' }}
         id: update
