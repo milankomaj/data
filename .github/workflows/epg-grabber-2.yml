@@ -51,7 +51,7 @@ jobs:
 
       # remove ? ${{ github.event_name == 'workflow_dispatch' }}
       - name: Deploy
-        if: ${{ github.event_name == 'workflow_dispatch' }}
+        if: ${{ github.event_name == 'workflow_dispatch' }} || ${{ github.event_name == 'schedule' }}
         run: |
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}
@@ -60,4 +60,6 @@ jobs:
           git add ./guide/horizon.tv_sk.guide.xml
           git commit -m "epg-grabber - ${{ steps.grab2.outcome }}"
           git pull
+          echo "" >> $GITHUB_STEP_SUMMARY
+          git status --short -uno >> $GITHUB_STEP_SUMMARY
           git push -f
