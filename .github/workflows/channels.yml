@@ -30,15 +30,15 @@ jobs:
       - name: xq
         id: xq
         run: |
-          echo -e "\033[31;1m Xq Version download Latest version\033[0m"
-          XQtool=$(curl -L -s -H 'Accept: application/json' https://github.com/sibprogrammer/xq/releases/latest)
-          VersionXQtool=$(echo $XQtool | sed -e 's/.*"tag_name":"\([^"]*\)".*/\1/')
-          echo VersionXQtool = $VersionXQtool
-          echo $VersionXQtool
-          short=$(echo $VersionXQtool | cut -c 2-)
-          echo $short
-          URL=$(curl -s -L -o xq_$(echo $short)_linux_amd64.tar.gz https://github.com/sibprogrammer/xq/releases/download/$(echo $VersionXQtool)/xq_$(echo $short)_linux_amd64.tar.gz)
-          tar -xvzf xq_$(echo $short)_linux_amd64.tar.gz xq
+          FILE=''
+          REPO='sibprogrammer/xq'
+          PLATFORM=$(uname -s | tr A-Z a-z)
+          curl -sL \
+          $(curl -s https://api.github.com/repos/${REPO}/releases/latest \
+          | grep browser_download_url \
+          | cut -d\" -f4 \
+          | grep -E *${PLATFORM}_amd64) \
+          | tar xvz ${FILE}
         shell: bash
 
       - name: ChmodCurl
