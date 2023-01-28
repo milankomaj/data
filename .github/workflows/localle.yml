@@ -29,4 +29,6 @@ jobs:
           echo "${mm,,}"
           echo "${mm^^}"
           echo "${mm^}"
+          sudo apt install ncal
           ncal
+          cal
