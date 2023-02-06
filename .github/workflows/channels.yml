@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     continue-on-error: true
-    environment: ${{ vars.SHEET_ELEONORA }}
     strategy:
       # fail-fast: true
       max-parallel: 2
@@ -66,6 +65,7 @@ jobs:
           ./scripts/skylink_balicky.sh
           ./scripts/r-chanells.sh
         shell: bash
+        environment: ${{ vars.SHEET_ELEONORA }}
 
       - name: update-codes
         if:  steps.Chmod.outcome == 'success' && steps.Update.outcome == 'success'
