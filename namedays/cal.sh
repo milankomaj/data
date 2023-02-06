@@ -25,6 +25,8 @@ sed 's/€/'\''/1g' ee.sh > 1.sh
 sed 's/prefix /curl -a -L -s -H "Accept\: application\/json" /1g' 1.sh > 2.sh
 sed 's/#/"/1g' 2.sh > 3.sh
 mkdir ${mm,,}
+sed -i 's/[^[:print:]\t]//g' 3.sh
+sed -i 's/_//g' 3.sh
 sed 's/_//g' 3.sh > ${mm,,}.sh
 echo "jq 'reduce inputs as \$w (.; . * \$w)' ${mm,,}/${mm,,}.json >> ${mm,,}.json" >> ${mm,,}.sh
 bash ${mm,,}.sh
