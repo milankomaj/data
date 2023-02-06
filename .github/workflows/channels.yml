@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 env:
   env_var: ${{ vars.SHEET_ELEONORA }}
-  env_var2: ${{ vars.SHEET_ELEONORA }}
+  env_var2: ${{ vars.SCRAPER_ELEONORA }}
 jobs:
   grab_channels:
     runs-on: ubuntu-latest
