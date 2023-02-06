@@ -5,7 +5,7 @@ on:
   workflow_call:
   workflow_dispatch:
 env:
-  env_var: ${{ secrets.SHEET_ELEONORA }}
+  env_var: ${{ vars.SHEET_ELEONORA }}
 jobs:
   grab_channels:
     runs-on: ubuntu-latest
