@@ -59,7 +59,7 @@ jobs:
         id: Update
         run: |
           echo -e "\033[31;1m Update chanells. \033[0m"
-
+          echo "overridden variable : ${{ vars.SHEET_ELEONORA }}"
           ./scripts/r-chanells.sh
         shell: bash
 
