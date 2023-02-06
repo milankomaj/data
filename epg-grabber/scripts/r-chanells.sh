@@ -1,6 +1,7 @@
 #!/bin/bash
 #
 #
+echo -e "\033[31;1m r-chanells \033[0m"
 for Rchanells in {r-horizon,r-o2,r-mujtvprogram}
 do
 echo "${Rchanells}"
