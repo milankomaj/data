@@ -10,7 +10,7 @@ curl -X GET \
   --connect-timeout 20 \
   --max-time 20 \
   --no-progress-meter \
-  --url $env_var/{Rchanells} \
+  --url (echo "$env_var")/{Rchanells} \
 | jq '.[] | del(.prefix)  | join(",")'  | tr -d $'\r' | sort -t, -k3  > ${Rchanells}.tsv
 
 sed -i 's/\"//g' ${Rchanells}.tsv
