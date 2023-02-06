@@ -6,7 +6,6 @@ on:
   workflow_dispatch:
 env:
   env_var: ${{ vars.SHEET_ELEONORA }}
-
 jobs:
   grab_channels:
     runs-on: ubuntu-latest
@@ -60,7 +59,11 @@ jobs:
         id: Update
         run: |
           echo -e "\033[31;1m Update chanells. \033[0m"
-
+          ./scripts/programandroid_list_xq.sh
+          ./scripts/mujtvprogram_list_xq.sh
+          ./scripts/horizon_tv_list_curl.sh
+          ./scripts/o2_tv_list_curl.sh
+          ./scripts/skylink_balicky.sh
           ./scripts/r-chanells.sh
         shell: bash
 
