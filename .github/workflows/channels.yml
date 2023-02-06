@@ -4,13 +4,13 @@ run-name: ${{ github.workflow }} ✅ ${{ github.event_name}}
 on:
   workflow_call:
   workflow_dispatch:
-env:
-  env_var: ${{ vars.SHEET_ELEONORA }}
+
 jobs:
   grab_channels:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     continue-on-error: true
+    environment: ${{ vars.SHEET_ELEONORA }}
     strategy:
       # fail-fast: true
       max-parallel: 2
