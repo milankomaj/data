@@ -41,31 +41,33 @@ jobs:
           | tar xvz ${FILE}
         shell: bash
 
-      - name: ChmodCurl
-        id: ChmodCurl
+      - name: Chmod
+        id: Chmod
         run: |
-          echo -e "\033[31;1m Update chanells Curl. \033[0m"
+          echo -e "\033[31;1m Chmod. \033[0m"
           chmod +x ./scripts/horizon_tv_list_curl.sh
-          ./scripts/horizon_tv_list_curl.sh
           chmod +x ./scripts/o2_tv_list_curl.sh
-          ./scripts/o2_tv_list_curl.sh
           chmod +x ./scripts/skylink_balicky.sh
-          ./scripts/skylink_balicky.sh
+          chmod +x ./scripts/programandroid_list_xq.sh
+          chmod +x ./scripts/mujtvprogram_list_xq.sh
+          chmod +x ./scripts/r-chanells.sh
         shell: bash
 
-      - name: ChmodXq
+      - name: Update
         if:  steps.xq.outcome == 'success'
-        id: ChmodXq
+        id: Update
         run: |
-          echo -e "\033[31;1m Update chanells Xq. \033[0m"
-          chmod +x ./scripts/programandroid_list_xq.sh
+          echo -e "\033[31;1m Update chanells. \033[0m"
           ./scripts/programandroid_list_xq.sh
-          chmod +x ./scripts/mujtvprogram_list_xq.sh
           ./scripts/mujtvprogram_list_xq.sh
+          ./scripts/horizon_tv_list_curl.sh
+          ./scripts/o2_tv_list_curl.sh
+          ./scripts/skylink_balicky.sh
+          ./scripts/r-chanells.sh
         shell: bash
 
       - name: update-codes
-        if:  steps.ChmodCurl.outcome == 'success' && steps.ChmodXq.outcome == 'success'
+        if:  steps.Chmod.outcome == 'success' && steps.Update.outcome == 'success'
         run: |
           npm install
           npm run update-codes
