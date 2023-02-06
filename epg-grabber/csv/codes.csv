@@ -27,6 +27,7 @@ Auto Motor Sport  HD,mujtvprogram-453,453
 Auto Motor Sport HD,o2-115,AutoMotorSport HD
 AXN,AXNEurope.gr,AXN
 AXN,mujtvprogram-9,9
+AXN,o2-47,AXN
 AXN,programandroid-55,55
 AXN Black,AXNBlack.us,AXN+Black
 AXN Black,mujtvprogram-369,369
@@ -69,7 +70,6 @@ CBS Reality,mujtvprogram-323,323
 CBS Reality,programandroid-32,32
 CETV,programandroid-524,524
 CH1 Russia,o2-157,CH1 Russia
-Channel One Russia HD,horizon-10172,lgi-obolite-sk-prod-master:10172
 Chuck,ChuckTV.sk,Chuck%20TV
 Chuck TV,programandroid-1502,1502
 Cinemax,mujtvprogram-7,7
@@ -312,12 +312,12 @@ Jojko,programandroid-999,999
 Jojko HD,horizon-10011,lgi-obolite-sk-prod-master:10011
 Kabel eins,horizon-10163,lgi-obolite-sk-prod-master:10163
 Kino Barrandov,mujtvprogram-454,454
-Kino Barrandov,o2-47,KINO Barrandov
+Kino Barrandov,o2-64,KINO Barrandov
 Kino Barrandov,programandroid-1018,1018
 Kino Barrandov HD,horizon-10034,lgi-obolite-sk-prod-master:10034
 KOŠICE:DNES,programandroid-1211,1211
 KRB,o2-666,KRB
-Krimi Barrandov,o2-48,Barrandov Plus
+Krimi Barrandov,o2-65,Barrandov Plus
 Lala,LalaTV.sk,Lala+TV
 LALA TV,mujtvprogram-728,728
 Lala TV,o2-100,LalaTV
@@ -340,7 +340,7 @@ m2,horizon-10139,lgi-obolite-sk-prod-master:10139
 m4 Sport HD,horizon-10141,lgi-obolite-sk-prod-master:10141
 m5,horizon-10140,lgi-obolite-sk-prod-master:10140
 Magyar ATV,horizon-10147,lgi-obolite-sk-prod-master:10147
-Mall.TV,o2-195,Letiste
+Mall.TV,o2-187,Letiste
 Markiza HD,horizon-10003,lgi-obolite-sk-prod-master:10003
 Markíza,mujtvprogram-183,183
 Markíza,programandroid-8,8
@@ -581,7 +581,7 @@ regiony+,programandroid-878,878
 Regionální TV,RegionalniTV.cz,regionalnitelevize.cz
 RELAX,horizon-10106,lgi-obolite-sk-prod-master:10106
 RELAX,mujtvprogram-314,314
-Relax,o2-183,RELAX
+Relax,o2-186,RELAX
 RELAX,programandroid-716,716
 Retro,mujtvprogram-206,206
 Retro Music,programandroid-248,248
@@ -698,7 +698,7 @@ TV LUX HD,horizon-10013,lgi-obolite-sk-prod-master:10013
 TV Natura,TVNatura.cz,TV+Natura
 TV Natura,programandroid-1244,1244
 TV Noe,mujtvprogram-75,75
-TV Noe,o2-182,TV Noe
+TV Noe,o2-184,TV Noe
 TV OSEM,programandroid-241,241
 TV Paprika,horizon-10063,lgi-obolite-sk-prod-master:10063
 TV Paprika,mujtvprogram-29,29

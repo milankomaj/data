@@ -6,6 +6,7 @@
     <channel lang="cz" xmltv_id="o2-149" site_id="Al Jazeera" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/aljazeera.png">Al Jazeera</channel>
     <channel lang="cz" xmltv_id="o2-60" site_id="Animal Planet HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/animal-planet-hd.png">Animal Planet HD</channel>
     <channel lang="cz" xmltv_id="o2-115" site_id="AutoMotorSport HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/auto-motor-und-sport.png">Auto Motor Sport HD</channel>
+    <channel lang="cz" xmltv_id="o2-47" site_id="AXN" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/axn-20230123.png">AXN</channel>
     <channel lang="cz" xmltv_id="o2-18" site_id="BBC World News" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/bbc-world-news.png">BBC World News</channel>
     <channel lang="cz" xmltv_id="o2-145" site_id="Bloomberg" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/bloomberg.png">Bloomberg</channel>
     <channel lang="cz" xmltv_id="o2-97" site_id="Boomerang" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/boomerang.png">Boomerang</channel>
@@ -63,11 +64,11 @@
     <channel lang="cz" xmltv_id="o2-46" site_id="STV1" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/stv.png">Jednotka</channel>
     <channel lang="cz" xmltv_id="o2-42" site_id="JoJ Cinema HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/joj-cinema.png">JoJ Cinema HD</channel>
     <channel lang="cz" xmltv_id="o2-43" site_id="JoJ Family HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/joj-family-hd.png">JoJ Family HD</channel>
-    <channel lang="cz" xmltv_id="o2-47" site_id="KINO Barrandov" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/kino-barrandov.png">Kino Barrandov</channel>
+    <channel lang="cz" xmltv_id="o2-64" site_id="KINO Barrandov" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/kino-barrandov.png">Kino Barrandov</channel>
     <channel lang="cz" xmltv_id="o2-666" site_id="KRB" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/krb.png">KRB</channel>
-    <channel lang="cz" xmltv_id="o2-48" site_id="Barrandov Plus" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/barrandov-krimi.png">Krimi Barrandov</channel>
+    <channel lang="cz" xmltv_id="o2-65" site_id="Barrandov Plus" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/barrandov-krimi.png">Krimi Barrandov</channel>
     <channel lang="cz" xmltv_id="o2-100" site_id="LalaTV" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/lala-tv.png">Lala TV</channel>
-    <channel lang="cz" xmltv_id="o2-195" site_id="Letiste" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/letiste.png">Mall.TV</channel>
+    <channel lang="cz" xmltv_id="o2-187" site_id="Letiste" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/letiste.png">Mall.TV</channel>
     <channel lang="cz" xmltv_id="o2-132" site_id="MezzoLiveHD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/mezzo-live.png">Mezzo Live HD</channel>
     <channel lang="cz" xmltv_id="o2-131" site_id="Mezzo" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/mezzo.png">Mezzo</channel>
     <channel lang="cz" xmltv_id="o2-114" site_id="Mňam TV" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/mnam.png">Mňam TV</channel>
@@ -126,7 +127,7 @@
     <channel lang="cz" xmltv_id="o2-52" site_id="Prima ZOOM HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/prima-zoom-hd.png">Prima ZOOM HD</channel>
     <channel lang="cz" xmltv_id="o2-159" site_id="RAI 1" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/rai1.png">RAI 1</channel>
     <channel lang="cz" xmltv_id="o2-185" site_id="Rebel" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/rebel.png">Rebel</channel>
-    <channel lang="cz" xmltv_id="o2-183" site_id="RELAX" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/relax.png">Relax</channel>
+    <channel lang="cz" xmltv_id="o2-186" site_id="RELAX" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/relax.png">Relax</channel>
     <channel lang="cz" xmltv_id="o2-124" site_id="Retro Music TV" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/retro-music.png">Retro Music TV</channel>
     <channel lang="cz" xmltv_id="o2-95" site_id="RiKTV" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/rik.png">RiK TV</channel>
     <channel lang="cz" xmltv_id="o2-156" site_id="RTL II" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/rtl-ii.png">RTL II</channel>
@@ -140,7 +141,7 @@
     <channel lang="cz" xmltv_id="o2-151" site_id="TNT" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/tnt.png">TNT</channel>
     <channel lang="cz" xmltv_id="o2-25" site_id="Barrandov HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/barrandov-hd.png">TV Barrandov HD</channel>
     <channel lang="cz" xmltv_id="o2-160" site_id="TVE" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/tve.png">TVE</channel>
-    <channel lang="cz" xmltv_id="o2-182" site_id="TV Noe" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/tv-noe.png">TV Noe</channel>
+    <channel lang="cz" xmltv_id="o2-184" site_id="TV Noe" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/tv-noe.png">TV Noe</channel>
     <channel lang="cz" xmltv_id="o2-161" site_id="TVP Polonia" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/tvp-polonia.png">TVP Polonia</channel>
     <channel lang="cz" xmltv_id="o2-152" site_id="TV1000 Ruskoe Kino" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/ruske-kino.png">TV1000 Ruskoe Kino</channel>
     <channel lang="cz" xmltv_id="o2-53" site_id="Viasat Explore" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/viasat-explore.png">Viasat Explore HD</channel>
