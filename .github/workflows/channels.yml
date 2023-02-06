@@ -6,12 +6,13 @@ on:
   workflow_dispatch:
 env:
   env_var: ${{ vars.SHEET_ELEONORA }}
+  env_var2: ${{ vars.SHEET_ELEONORA }}
 jobs:
   grab_channels:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     continue-on-error: true
-    environment: $env_var
+    environment: [$env_var,$env_var2]
     strategy:
       # fail-fast: true
       max-parallel: 2
