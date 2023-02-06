@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site site="r-mujtvprogram.tv">
+  <channels>
+    <channel lang="sk" xmltv_id="mujtvprogram-344" site_id="344" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=417142095fa934ab9c9f02e2bf7d5a9aandp2=80">Arena Sport 1</channel>
+    <channel lang="sk" xmltv_id="mujtvprogram-369" site_id="369" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=dcce8445e7c707239857e2fb3213ea52andp2=80">AXN Black</channel>
+    <channel lang="sk" xmltv_id="mujtvprogram-370" site_id="370" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=e4f5ce21e5c4ac42ff8a3c1d99ead13bandp2=80">AXN White</channel>
+    <channel lang="sk" xmltv_id="mujtvprogram-9" site_id="9" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=206f0baaf3ae62b0fedd0c4150916af9andp2=80">AXN</channel>
+    <channel lang="sk" xmltv_id="mujtvprogram-1040" site_id="1040" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=ab73879fdf9b10e1deb0224bfbb3cfd8andp2=80">CANAL+ Sport</channel>
+    <channel lang="sk" xmltv_id="mujtvprogram-533" site_id="533" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=f710f096d8a1ccb88bedbf3d8f6c0c9candp2=80">Dorcel TV</channel>
+    <channel lang="sk" xmltv_id="mujtvprogram-761" site_id="761" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=5ef2c19dd1070d963592331a1ff4c6aaandp2=80">Dorcel XXX</channel>
+    <channel lang="sk" xmltv_id="mujtvprogram-72" site_id="72" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=0bd717f5b87b04bc1e39b886a492567dandp2=80">Hustler</channel>
+    <channel lang="sk" xmltv_id="mujtvprogram-808" site_id="808" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=d91a50abe9e154fad4be716760a11e51andp2=80">Love Nature HD</channel>
+    <channel lang="sk" xmltv_id="mujtvprogram-495" site_id="495" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=1e5edc666f6748d00ece0e8c8fd92d8bandp2=80">Markíza International</channel>
+    <channel lang="sk" xmltv_id="mujtvprogram-1017" site_id="1017" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=bcbe656b111f70a50fedabf40c644cdcandp2=80">Markíza Krimi</channel>
+    <channel lang="sk" xmltv_id="mujtvprogram-296" site_id="296" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=a525a102fb950e7f64e3b72572728135andp2=80">Náš region TV</channel>
+    <channel lang="sk" xmltv_id="mujtvprogram-727" site_id="727" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=837622a6d6ce69dd8c568888aaaaae60andp2=80">Óčko Black HD</channel>
+    <channel lang="sk" xmltv_id="mujtvprogram-103" site_id="103" logo="">Playboy</channel>
+    <channel lang="sk" xmltv_id="mujtvprogram-723" site_id="723" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=ac6c69625699eaecc9b39f7ea4d69b8candp2=80">Skylink 7</channel>
+    <channel lang="sk" xmltv_id="mujtvprogram-233" site_id="233" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=661af53f8f3b997611c29f844c7006fdandp2=80">Stingray Classica</channel>
+    <channel lang="sk" xmltv_id="mujtvprogram-234" site_id="234" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=99c87946872c81f46190c77af7cd1d89andp2=80">Stingray iConcerts</channel>
+    <channel lang="sk" xmltv_id="mujtvprogram-570" site_id="570" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=5f14208e2f909f37a6b3686e601658b4andp2=80">UP Network</channel>
+    <channel lang="sk" xmltv_id="mujtvprogram-892" site_id="892" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=4499ebafb26a915859febcb4306703caandp2=80">Vixen</channel>
+  </channels>
+</site>
