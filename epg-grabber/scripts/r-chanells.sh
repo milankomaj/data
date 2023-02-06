@@ -5,13 +5,12 @@ echo -e "\033[31;1m r-chanells \033[0m"
 for Rchanells in {r-horizon,r-o2,r-mujtvprogram}
 do
 echo "${Rchanells}"
-mask=$(echo "::add-mask::$env_var")
 
 curl -X GET \
   --connect-timeout 20 \
   --max-time 20 \
   --no-progress-meter \
-  --url $(echo $mask/${Rchanells}) \
+  --url $(echo $env_var/${Rchanells}) \
 | jq '.[] | del(.prefix)  | join(",")'  | tr -d $'\r' | sort -t, -k3  > ${Rchanells}.tsv
 
 sed -i 's/\"//g' ${Rchanells}.tsv
