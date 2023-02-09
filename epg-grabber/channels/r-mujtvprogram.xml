@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<site site="r-mujtvprogram.tv">
+<site site="mujtvprogram.tv">
   <channels>
     <channel lang="sk" xmltv_id="mujtvprogram-344" site_id="344" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=417142095fa934ab9c9f02e2bf7d5a9aandp2=80">Arena Sport 1</channel>
     <channel lang="sk" xmltv_id="mujtvprogram-369" site_id="369" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=dcce8445e7c707239857e2fb3213ea52andp2=80">AXN Black</channel>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<site site="r-o2.tv">
+<site site="o2.tv">
   <channels>
     <channel lang="sk" xmltv_id="o2-18" site_id="BBC World News" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/bbc-world-news.png">BBC World News</channel>
     <channel lang="sk" xmltv_id="o2-145" site_id="Bloomberg" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/bloomberg.png">Bloomberg</channel>
