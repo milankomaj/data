@@ -14,7 +14,7 @@ curl -X GET \
 | jq '.[] | del(.prefix)  | join(",")'  | tr -d $'\r' | sort -t, -k3  > r-${Rchanells}.tsv
 
 sed -i 's/\"//g' r-${Rchanells}.tsv
-sed -i 's/&/and/g' r-${Rchanells}.tsv
+sed -i 's/&/&amp;/g' r-${Rchanells}.tsv
 sed -i '/^[[:space:]]*$/d' r-${Rchanells}.tsv
 awk -F ',' '{print "    <channel lang=\"sk\" xmltv_id=\""$1"\""" site_id=\""$2"\""" logo=\""$5"\""">"$3"</channel>"}' r-${Rchanells}.tsv > channels/r-${Rchanells}.xml
 sed -i 1i"<?xml version=\"1.0\" encoding=\"UTF-8\"?>" channels/r-${Rchanells}.xml
