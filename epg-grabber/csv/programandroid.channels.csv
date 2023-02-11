@@ -14,7 +14,7 @@ programandroid-55,55,AXN,116|88|,https://www.sms.cz/kategorie/televize/bmp/loga/
 programandroid-1020,1020,Barrandov Krimi,47|23|,https://www.sms.cz/kategorie/televize/bmp/loga/velka/barrandov_krimi.png
 programandroid-215,215,Barrandov,19|20|,https://www.sms.cz/kategorie/televize/bmp/loga/velka/barrandov.png
 programandroid-1472,1472,B in Balance (sk),||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/bib.png
-programandroid-1449,1449,Canal+ Domo,||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/canal_domo.png
+programandroid-15476,15476,Canal+ Action,||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/canal_action.png
 programandroid-15412,15412,Canal+ Sport,||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/canalplussport.png
 programandroid-168,168,Cartoon Network,||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/CNT.png
 programandroid-32,32,CBS Reality,120||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/cbsreality.png
@@ -32,7 +32,6 @@ programandroid-805,805,ČT :D,|10|,https://www.sms.cz/kategorie/televize/bmp/log
 programandroid-2,2,ČT1,1|1|,https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct1.png
 programandroid-3,3,ČT2,2|2|,https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct2.png
 programandroid-65,65,ČT24,12|8|,https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct24.png
-programandroid-1333,1333,ČT3,||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct3.png
 programandroid-73,73,ČT4 Sport,76|9|,https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct4.png
 programandroid-92,92,Discovery Science,58||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/discoveryscience.png
 programandroid-15,15,Discovery,56|121|,https://www.sms.cz/kategorie/televize/bmp/loga/velka/Discovery.png
@@ -68,7 +67,6 @@ programandroid-115,115,HBO3,22|77|,https://www.sms.cz/kategorie/televize/bmp/log
 programandroid-15322,15322,HGTV,||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/hgtv.png
 programandroid-202,202,History Channel,62|131|,https://www.sms.cz/kategorie/televize/bmp/loga/velka/history_channel_hd.png
 programandroid-1213,1213,Hobby TV,||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/hobbytv.png
-programandroid-1502,1502,Chuck TV,||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/chucktv.png
 programandroid-223,223,Investigation Discovery,59||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/id.png
 programandroid-850,850,Jihočeská televize,||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/jtv.png
 programandroid-137,137,Jim Jam,95|161|,https://www.sms.cz/kategorie/televize/bmp/loga/velka/jim-jam.png
@@ -105,6 +103,7 @@ programandroid-1271,1271,Nickelodeon (affiliate),||,https://www.sms.cz/kategorie
 programandroid-254,254,Nickelodeon,91|164|,https://www.sms.cz/kategorie/televize/bmp/loga/velka/nickelodeon.png
 programandroid-572,572,Nick Jr.,92|167|,https://www.sms.cz/kategorie/televize/bmp/loga/velka/nickjr.png
 programandroid-1314,1314,Nicktoons,||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/nicktoons.png
+programandroid-15474,15474,Noe+,||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/noeplus.png
 programandroid-114,114,Noe,182||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/noe.png
 programandroid-677,677,Nova Action,42|12|,https://www.sms.cz/kategorie/televize/bmp/loga/velka/nova_action.png
 programandroid-132,132,Nova Cinema,33|11|,https://www.sms.cz/kategorie/televize/bmp/loga/velka/nova_cinema.png
@@ -137,6 +136,7 @@ programandroid-15298,15298,O2TV Sport6,||,https://www.sms.cz/kategorie/televize/
 programandroid-1161,1161,O2TV Tenis,72||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/o2tv_tenis.png
 programandroid-62,62,Paprika,113|138|,https://www.sms.cz/kategorie/televize/bmp/loga/velka/paprika.png
 programandroid-1123,1123,Paramount Network,14|19|,https://www.sms.cz/kategorie/televize/bmp/loga/velka/paramountnetwork.png
+programandroid-15472,15472,Park TV,||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/park.png
 programandroid-1228,1228,Park TV,||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/parktv.png
 programandroid-589,589,POLAR,||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/polar.png
 programandroid-15408,15408,Poslanecká sněmovna ČR,||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/pspcz.png
@@ -171,6 +171,7 @@ programandroid-1310,1310,Senior,||,https://www.sms.cz/kategorie/televize/bmp/log
 programandroid-833,833,SENZI,|32|,https://www.sms.cz/kategorie/televize/bmp/loga/velka/senzi.png
 programandroid-1164,1164,Severka,||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/severka.png
 programandroid-1192,1192,Seznam.cz TV,11||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/seznamcztv.png
+programandroid-15471,15471,Skvele TV,||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/skvele.png
 programandroid-544,544,Slovácko,||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/slovacko.png
 programandroid-1143,1143,Spartak TV,||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/spartak.png
 programandroid-77,77,Spektrum Home,112||,https://www.sms.cz/kategorie/televize/bmp/loga/velka/spektrumhome.png
