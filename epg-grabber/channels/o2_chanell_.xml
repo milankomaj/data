@@ -149,6 +149,5 @@
     <channel lang="cz" xmltv_id="o2-55" site_id="Viasat Nature" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/viasat-nature.png">Viasat Nature HD</channel>
     <channel lang="cz" xmltv_id="o2-158" site_id="VOX" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/vox.png">VOX</channel>
     <channel lang="cz" xmltv_id="o2-162" site_id="1plus1" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/ukraina-1plus1.png">1+1</channel>
-    <channel lang="cz" xmltv_id="o2-164" site_id="RTVS24" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/rtvs-24.png">:24</channel>
   </channels>
 </site>

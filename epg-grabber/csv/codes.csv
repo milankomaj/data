@@ -2,7 +2,6 @@ Channel Name,EPG Code (tvg-id),ID
 1+1,o2-162,1plus1
 360 TuneBox HD,horizon-10200,lgi-obolite-sk-prod-master:10200
 360TuneBox,mujtvprogram-367,367
-:24,o2-164,RTVS24
 ABC TV,programandroid-1337,1337
 Africké nebe,o2-777,Africké nebe
 Akvárium,o2-888,Akvárium
@@ -510,7 +509,6 @@ Paramount Network,mujtvprogram-475,475
 Paramount Network,o2-15,Paramount Network
 Paramount Network,programandroid-1123,1123
 Park TV,horizon-10070,lgi-obolite-sk-prod-master:10070
-Park TV,programandroid-1228,1228
 Park TV,programandroid-15472,15472
 Playboy,mujtvprogram-103,103
 Playboy TV Europe,PlayboyTVEurope.us,Playboy+TV
