@@ -55,7 +55,7 @@ Brazzers TV Europe,mujtvprogram-377,377
 Brazzers TV HD,horizon-10188,lgi-obolite-sk-prod-master:10188
 Canal + Domo,CanalPlusDomo.pl,Canal%2B+Domo
 Canal + Sport,CanalPlusSport.pl,Canal%2B+Sport
-Canal+ Domo,programandroid-1449,1449
+Canal+ Action,programandroid-15476,15476
 CANAL+ Sport,mujtvprogram-1040,1040
 Canal+ Sport,programandroid-15412,15412
 Carousel,horizon-10180,lgi-obolite-sk-prod-master:10180
@@ -70,7 +70,6 @@ CBS Reality,programandroid-32,32
 CETV,programandroid-524,524
 CH1 Russia,o2-157,CH1 Russia
 Chuck,ChuckTV.sk,Chuck%20TV
-Chuck TV,programandroid-1502,1502
 Cinemax,mujtvprogram-7,7
 Cinemax,programandroid-66,66
 Cinemax 2,mujtvprogram-112,112
@@ -361,6 +360,7 @@ Minimax,mujtvprogram-32,32
 Minimax,programandroid-57,57
 Mnam TV HD,horizon-10036,lgi-obolite-sk-prod-master:10036
 Mnau TV,horizon-10037,lgi-obolite-sk-prod-master:10037
+Moonbug Kids,o2-101,Moonbug_Kids
 MTV,o2-123,MTV
 MTV,programandroid-234,234
 MTV 00s,horizon-10096,lgi-obolite-sk-prod-master:10096
@@ -415,6 +415,7 @@ Nicktoons,programandroid-1314,1314
 Nitro,horizon-10171,lgi-obolite-sk-prod-master:10171
 Noe,programandroid-114,114
 Noe TV HD,horizon-10035,lgi-obolite-sk-prod-master:10035
+Noe+,programandroid-15474,15474
 Nova,TVNova.cz,Nova
 Nova,mujtvprogram-3,3
 Nova,programandroid-1,1
@@ -510,7 +511,7 @@ Paramount Network,mujtvprogram-475,475
 Paramount Network,o2-15,Paramount Network
 Paramount Network,programandroid-1123,1123
 Park TV,horizon-10070,lgi-obolite-sk-prod-master:10070
-Park TV,programandroid-1228,1228
+Park TV,programandroid-15472,15472
 Playboy,mujtvprogram-103,103
 Playboy TV Europe,PlayboyTVEurope.us,Playboy+TV
 PLUS,mujtvprogram-184,184
@@ -524,7 +525,7 @@ Praha TV,o2-188,Praha TV
 PRAHA TV,programandroid-889,889
 Premier Sport,mujtvprogram-528,528
 Premier Sport 1,PremierSport1.sk,Premier+Sport+1
-Premier Sport 1,programandroid-985,985
+Premier Sport 1,programandroid-15480,15480
 Premier Sport 1 HD,o2-21,PremierSportHD1
 Premier Sport 1 HD,o2-74,PremierSportHD
 Premier Sport 2,PremierSport2.sk,Premier+Sport+2
@@ -618,6 +619,7 @@ SENZI HD,horizon-10016,lgi-obolite-sk-prod-master:10016
 Severka,programandroid-1164,1164
 Seznam.cz TV,programandroid-1192,1192
 Seznam.cz TV HD,horizon-10025,lgi-obolite-sk-prod-master:10025
+Skvele TV,programandroid-15471,15471
 Sky News,horizon-10197,lgi-obolite-sk-prod-master:10197
 Skylink 7,mujtvprogram-723,723
 Slager muzika,horizon-10102,lgi-obolite-sk-prod-master:10102
@@ -626,6 +628,7 @@ Slager Premium HD,horizon-10103,lgi-obolite-sk-prod-master:10103
 Slager TV,horizon-10157,lgi-obolite-sk-prod-master:10157
 Slovácko,programandroid-544,544
 Sorozat+,horizon-10155,lgi-obolite-sk-prod-master:10155
+Spark TV,programandroid-15482,15482
 Spartak TV,programandroid-1143,1143
 Spektrum,mujtvprogram-10,10
 Spektrum,programandroid-7,7
@@ -725,8 +728,8 @@ TVP Polonia,horizon-10118,lgi-obolite-sk-prod-master:10118
 TVP Polonia,o2-161,TVP Polonia
 UATV,horizon-10190,lgi-obolite-sk-prod-master:10190
 Up Network,UpNetwork.cz,UP+NETWORK
-UP Network,mujtvprogram-570,570
 UP NETWORK,programandroid-1169,1169
+UP Network,mujtvprogram-570,570
 UTV,programandroid-15410,15410
 V1,programandroid-706,706
 Vega,programandroid-1165,1165
@@ -787,7 +790,6 @@ Západoslovenská televízia,programandroid-15409,15409
 ČT24,mujtvprogram-24,24
 ČT24,programandroid-65,65
 ČT24 HD,o2-17,ČT24 HD
-ČT3,programandroid-1333,1333
 ČT4 Sport,programandroid-73,73
 Šláger Originál,o2-120,Šlágr TV
 Šlágr Muzika,programandroid-1198,1198
