@@ -1,122 +1,132 @@
-KOMPLET-sk,MULTI-sk,,
-AMC,AMC,,
-Arena Sport 1 HD,Arena Sport 1 HD,,
-Auto Motor Sport HD,AXN,,
-AXN,AXN Black,,
-AXN Black,AXN White,,
-AXN White,BBC World News HD,,
-BBC World News HD,Bloomberg Europe,,
-Bloomberg Europe,CANAL+ Action,,
-CANAL+ Action,Cartoon Network,,
-CANAL+ Sport,CNN Prima NEWS HD,,
-Cartoonito,CS Film,,
-Cartoon Network,CS History,,
-CBS Reality,CS Horror,,
-Cinemax,CS Mystery,,
-Cinemax2,ČT1 HD,,
-CNN Prima NEWS HD,ČT2 HD,,
-CS Film,ČT24 HD,,
-CS History,DAJTO HD,,
-CS Horror,Disney Channel,,
-CS Mystery,Doma HD,,
-ČT1 HD,ducktv,,
-ČT2 HD,Dvojka HD,,
-ČT24 HD,Earthx TV,,
-DAJTO HD,Epic Drama HD,,
-Disney Channel,EuroNews,,
-DocuBox,FightBox,,
-Doma HD,Film+,,
-Dorcel TV,FilmBox,,
-Dorcel XXX,FilmBox Extra HD,,
-ducktv,FilmBox Stars,,
-Dvojka HD,Film Europe HD,,
-Earthx TV,Film Europe+ HD,,
-Epic Drama HD,Fishing and Hunting,,
-EuroNews,France 24,,
-Extreme Sports Channel,Golf Channel,,
-FightBox,History HD,,
-Film+,Hobby TV,,
-FilmBox,INPLUS,,
-FilmBox Extra HD,Jednotka HD,,
-FilmBox Family,JimJam,,
-FilmBox Premium HD,JOJ Cinema HD,,
-FilmBox Stars,JOJ HD,,
-Film Europe HD,Jojko,,
-Film Europe+ HD,JOJ Šport HD,,
-Fishing and Hunting,JOJ 24 HD,,
-France 24,LALA TV,,
-Golf Channel,LEO TV,,
-HBO,Love Nature HD,,
-HBO2,Markíza HD,,
-HBO3,Markíza Krimi HD,,
-History HD,Minimax,,
-Hobby TV,Mňam TV,,
-Hustler,MTV DE,,
-INPLUS,MTV Europe CZ,,
-Jednotka HD,MTV 00s,,
-JimJam,MTV 80s,,
-JOJ Cinema HD,Náš region TV,,
-JOJ HD,National Geographic HD,,
-Jojko,National Geographic Wild HD,,
-JOJ Šport HD,Newsmax HD,,
-JOJ 24 HD,Nickelodeon,,
-LALA TV,Nickelodeon DE,,
-LEO TV,Nick Jr Czech,,
-Love Nature HD,Nicktoons,,
-Man-X,Nova International,,
-Markíza HD,Nova Sport 1 HD,,
-Markíza Krimi HD,Nova Sport 2 HD,,
-Mezzo HD,ÓČKO,,
-Minimax,ÓČKO BLACK HD,,
-Mňam TV,ÓČKO EXPRES HD,,
-MTV DE,ÓČKO STAR,,
-MTV Europe CZ,Penthouse Gold,,
-MTV 00s,Playboy TV Europe,,
-MTV 80s,Plus HD,,
-Náš region TV,Prima PLUS HD,,
-National Geographic HD,Rebel,,
-National Geographic Wild HD,RELAX,,
-Nautical HD,Retro,,
-Newsmax HD,RTVS ŠPORT HD,,
-Nickelodeon,RTVS 24 HD,,
-Nickelodeon DE,Senzi,,
-Nick Jr Czech,Skylink 7,,
-Nicktoons,Sky News International,,
-Nova International,Spektrum HD,,
-Nova Sport 1 HD,Spektrum Home,,
-Nova Sport 2 HD,Sport 1 DE,,
-ÓČKO,Sport 1 HD,,
-ÓČKO BLACK HD,Sport 2 HD,,
-ÓČKO EXPRES HD,SPORT5,,
-ÓČKO STAR,STORY4 HD,,
-Penthouse Gold,Šláger Muzika,,
-Penthouse Reality TV,Šláger Originál,,
-Playboy TV Europe,Šlágr Premium HD,,
-Plus HD,TA3 HD,,
-Prima PLUS HD,Travelxp HD,,
-Rebel,TV Lux HD,,
-RELAX,TV Noe,,
-Retro,TV8 HD,,
-RTVS ŠPORT HD,Viasat Explore,,
-RTVS 24 HD,Viasat History HD,,
-Senzi,Viasat Nature HD,,
-Skylink 7,VIXEN HD,,
-Sky News International,WAU HD,,
-Spektrum HD,,,
-Spektrum Home,,,
-Sport 1 DE,,,
-Sport 1 HD,,,
-Sport 2 HD,,,
-SPORT5,,,
-Stingray Classica HD,,,
-Stingray CMusic,,,
-Stingray iConcerts HD,,,
-STORY4 HD,,,
-Šláger Muzika,,,
-Šláger Originál,,,
-Šlágr Premium HD,,,
-TA3 HD,,,
-Travelxp HD,,,
+KOMPLET-cz,KOMPLET-sk,MULTI-cz,MULTI-sk
+AMC,AMC,AMC,AMC
+Arena Sport 1 HD,Arena Sport 1 HD,Arena Sport 1 HD,Arena Sport 1 HD
+Auto Motor Sport HD,Auto Motor Sport HD,AXN,AXN
+AXN,AXN,AXN Black,AXN Black
+AXN Black,AXN Black,AXN White,AXN White
+AXN White,AXN White,Barrandov Krimi,BBC World News HD
+Barrandov Krimi,BBC World News HD,BBC World News HD,Bloomberg Europe
+BBC World News HD,Bloomberg Europe,Bloomberg Europe,CANAL+ Action
+Bloomberg Europe,CANAL+ Action,CANAL+ Action,Cartoon Network
+CANAL+ Action,CANAL+ Sport,Cartoon Network,CNN Prima NEWS HD
+CANAL+ Sport,Cartoonito,CNN Prima NEWS HD,CS Film
+Cartoonito,Cartoon Network,CS Film,CS History
+Cartoon Network,CBS Reality,CS History,CS Horror
+CBS Reality,Cinemax,CS Horror,CS Mystery
+Cinemax,Cinemax2,CS Mystery,ČT1 HD
+Cinemax2,CNN Prima NEWS HD,ČT art HD,ČT2 HD
+CNN Prima NEWS HD,CS Film,ČT :D HD,ČT24 HD
+CS Film,CS History,ČT Sport HD,DAJTO HD
+CS History,CS Horror,ČT1 HD,Disney Channel
+CS Horror,CS Mystery,ČT2 HD,Doma HD
+CS Mystery,ČT1 HD,ČT24 HD,ducktv
+ČT art HD,ČT2 HD,Disney Channel,Dvojka HD
+ČT :D HD,ČT24 HD,ducktv,Earthx TV
+ČT Sport HD,DAJTO HD,Dvojka HD,Epic Drama HD
+ČT1 HD,Disney Channel,Earthx TV,EuroNews
+ČT2 HD,DocuBox,Epic Drama HD,FightBox
+ČT24 HD,Doma HD,EuroNews,Film+
+Disney Channel,Dorcel TV,FightBox,FilmBox
+DocuBox,Dorcel XXX,Film+,FilmBox Extra HD
+Dorcel TV,ducktv,FilmBox,FilmBox Stars
+Dorcel XXX,Dvojka HD,FilmBox Extra HD,Film Europe HD
+ducktv,Earthx TV,FilmBox Stars,Film Europe+ HD
+Dvojka HD,Epic Drama HD,Film Europe HD,Fishing and Hunting
+Earthx TV,EuroNews,Film Europe+ HD,France 24
+Epic Drama HD,Extreme Sports Channel,Fishing and Hunting,Golf Channel
+EuroNews,FightBox,France 24,History HD
+Extreme Sports Channel,Film+,Golf Channel,Hobby TV
+FightBox,FilmBox,History HD,INPLUS
+Film+,FilmBox Extra HD,Hobby TV,Jednotka HD
+FilmBox,FilmBox Family,INPLUS,JimJam
+FilmBox Extra HD,FilmBox Premium HD,Jednotka HD,JOJ Cinema HD
+FilmBox Family,FilmBox Stars,JimJam,JOJ HD
+FilmBox Premium HD,Film Europe HD,JOJ Cinema HD,Jojko
+FilmBox Stars,Film Europe+ HD,JOJ Family HD,JOJ Šport HD
+Film Europe HD,Fishing and Hunting,Kino Barrandov,JOJ 24 HD
+Film Europe+ HD,France 24,LALA TV,LALA TV
+Fishing and Hunting,Golf Channel,LEO TV,LEO TV
+France 24,HBO,Love Nature HD,Love Nature HD
+Golf Channel,HBO2,Markíza International,Markíza HD
+HBO,HBO3,Minimax,Markíza Krimi HD
+HBO2,History HD,Mňam TV,Minimax
+HBO3,Hobby TV,MTV DE,Mňam TV
+History HD,Hustler,MTV Europe CZ,MTV DE
+Hobby TV,INPLUS,MTV 00s,MTV Europe CZ
+Hustler,Jednotka HD,MTV 80s,MTV 00s
+INPLUS,JimJam,Náš region TV,MTV 80s
+Jednotka HD,JOJ Cinema HD,National Geographic HD,Náš region TV
+JimJam,JOJ HD,National Geographic Wild HD,National Geographic HD
+JOJ Cinema HD,Jojko,Newsmax HD,National Geographic Wild HD
+JOJ Family HD,JOJ Šport HD,Nickelodeon,Newsmax HD
+Kino Barrandov,JOJ 24 HD,Nickelodeon DE,Nickelodeon
+LALA TV,LALA TV,Nick Jr Czech,Nickelodeon DE
+LEO TV,LEO TV,Nicktoons,Nick Jr Czech
+Love Nature HD,Love Nature HD,Nova Action HD,Nicktoons
+Man-X,Man-X,Nova Cinema HD,Nova International
+Markíza International,Markíza HD,Nova Fun HD,Nova Sport 1 HD
+Mezzo HD,Markíza Krimi HD,Nova Gold,Nova Sport 2 HD
+Minimax,Mezzo HD,Nova HD,ÓČKO
+Mňam TV,Minimax,Nova Sport 1 HD,ÓČKO BLACK HD
+MTV DE,Mňam TV,Nova Sport 2 HD,ÓČKO EXPRES HD
+MTV Europe CZ,MTV DE,ÓČKO,ÓČKO STAR
+MTV 00s,MTV Europe CZ,ÓČKO BLACK HD,Penthouse Gold
+MTV 80s,MTV 00s,ÓČKO EXPRES HD,Playboy TV Europe
+Náš region TV,MTV 80s,ÓČKO STAR,Plus HD
+National Geographic HD,Náš region TV,Paramount Network,Prima PLUS HD
+National Geographic Wild HD,National Geographic HD,Penthouse Gold,RELAX
+Nautical HD,National Geographic Wild HD,Playboy TV Europe,Retro
+Newsmax HD,Nautical HD,Prima COOL HD,RTVS ŠPORT HD
+Nickelodeon,Newsmax HD,Prima HD,RTVS 24 HD
+Nickelodeon DE,Nickelodeon,Prima KRIMI HD,Senzi
+Nick Jr Czech,Nickelodeon DE,Prima LOVE HD,Skylink 7
+Nicktoons,Nick Jr Czech,Prima MAX HD,Sky News International
+Nova Action HD,Nicktoons,Prima Show,Spektrum HD
+Nova Cinema HD,Nova International,Prima STAR,Spektrum Home
+Nova Fun HD,Nova Sport 1 HD,Prima ZOOM HD,Sport 1 DE
+Nova Gold,Nova Sport 2 HD,RELAX,Sport 1 HD
+Nova HD,ÓČKO,Retro,Sport 2 HD
+Nova Sport 1 HD,ÓČKO BLACK HD,RTVS 24 HD,SPORT5
+Nova Sport 2 HD,ÓČKO EXPRES HD,Senzi,STORY4 HD
+ÓČKO,ÓČKO STAR,Skylink 7,Šláger Muzika
+ÓČKO BLACK HD,Penthouse Gold,Sky News International,Šláger Originál
+ÓČKO EXPRES HD,Penthouse Reality TV,Spektrum HD,Šlágr Premium HD
+ÓČKO STAR,Playboy TV Europe,Spektrum Home,TA3 HD
+Paramount Network,Plus HD,Sport 1 DE,Travelxp HD
+Penthouse Gold,Prima PLUS HD,Sport 1 HD,TV Lux HD
+Penthouse Reality TV,RELAX,Sport 2 HD,TV Noe
+Playboy TV Europe,Retro,SPORT5,TV8 HD
+Prima COOL HD,RTVS ŠPORT HD,STORY4 HD,Viasat Explore
+Prima HD,RTVS 24 HD,Šláger Muzika,Viasat History HD
+Prima KRIMI HD,Senzi,Šláger Originál,Viasat Nature HD
+Prima LOVE HD,Skylink 7,Šlágr Premium HD,VIXEN HD
+Prima MAX HD,Sky News International,TA3 HD,WAU HD
+Prima Show,Spektrum HD,Televize Seznam,
+Prima STAR,Spektrum Home,Travelxp HD,
+Prima ZOOM HD,Sport 1 DE,TV Barrandov HD,
+RELAX,Sport 1 HD,TV Lux HD,
+Retro,Sport 2 HD,TV Noe,
+RTVS 24 HD,SPORT5,TV8 HD,
+Senzi,Stingray Classica HD,Viasat Explore,
+Skylink 7,Stingray CMusic,Viasat History HD,
+Sky News International,Stingray iConcerts HD,Viasat Nature HD,
+Spektrum HD,STORY4 HD,VIXEN HD,
+Spektrum Home,Šláger Muzika,,
+Sport 1 DE,Šláger Originál,,
+Sport 1 HD,Šlágr Premium HD,,
+Sport 2 HD,TA3 HD,,
+SPORT5,Travelxp HD,,
+Stingray Classica HD,TV Lux HD,,
+Stingray CMusic,TV Noe,,
+Stingray iConcerts HD,TV Paprika,,
+STORY4 HD,TV8 HD,,
+Šláger Muzika,Viasat Explore,,
+Šláger Originál,Viasat History HD,,
+Šlágr Premium HD,Viasat Nature HD,,
+TA3 HD,Vivid TV Europe,,
+Televize Seznam,VIXEN HD,,
+Travelxp HD,WAU HD,,
+TV Barrandov HD,,,
 TV Lux HD,,,
 TV Noe,,,
 TV Paprika,,,
@@ -126,4 +136,3 @@ Viasat History HD,,,
 Viasat Nature HD,,,
 Vivid TV Europe,,,
 VIXEN HD,,,
-WAU HD,,,
