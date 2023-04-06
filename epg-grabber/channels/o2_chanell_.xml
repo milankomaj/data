@@ -6,6 +6,7 @@
     <channel lang="cz" xmltv_id="o2-149" site_id="Al Jazeera" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/aljazeera.png">Al Jazeera</channel>
     <channel lang="cz" xmltv_id="o2-60" site_id="Animal Planet HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/animal-planet-hd.png">Animal Planet HD</channel>
     <channel lang="cz" xmltv_id="o2-115" site_id="AutoMotorSport HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/auto-motor-und-sport.png">Auto Motor Sport HD</channel>
+    <channel lang="cz" xmltv_id="o2-48" site_id="AXN_Black" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/axn-black-20230123.png">AXN Black</channel>
     <channel lang="cz" xmltv_id="o2-47" site_id="AXN" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/axn-20230123.png">AXN</channel>
     <channel lang="cz" xmltv_id="o2-18" site_id="BBC World News" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/bbc-world-news.png">BBC News</channel>
     <channel lang="cz" xmltv_id="o2-145" site_id="Bloomberg" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/bloomberg.png">Bloomberg</channel>
@@ -38,7 +39,7 @@
     <channel lang="cz" xmltv_id="o2-39" site_id="Epic Drama HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/epic-hd.png">Epic Drama HD</channel>
     <channel lang="cz" xmltv_id="o2-82" site_id="Eurosport 1 HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/eurosport-hd.png">Eurosport 1 HD</channel>
     <channel lang="cz" xmltv_id="o2-83" site_id="Eurosport 2 HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/eurosport2-hd.png">Eurosport 2 HD</channel>
-    <channel lang="cz" xmltv_id="o2-187" site_id="Letiste" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/letiste.png">Fameplay</channel>
+    <channel lang="cz" xmltv_id="o2-187" site_id="Letiste" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/fameplay.png">Fameplay</channel>
     <channel lang="cz" xmltv_id="o2-116" site_id="Fashion TV" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/fashion-tv.png">Fashion TV</channel>
     <channel lang="cz" xmltv_id="o2-86" site_id="FightBoxHD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/fightbox.png">FightBox HD</channel>
     <channel lang="cz" xmltv_id="o2-35" site_id="Filmbox Extra HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/film-box-extra-hd.png">FilmBox Extra HD</channel>
@@ -59,7 +60,7 @@
     <channel lang="cz" xmltv_id="o2-31" site_id="HBO2 HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/hbo2-hd.png">HBO2 HD</channel>
     <channel lang="cz" xmltv_id="o2-32" site_id="HBO3 HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/hbo3-hd.png">HBO3 HD</channel>
     <channel lang="cz" xmltv_id="o2-112" site_id="HGTVHD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/hgtv.png">HGTV HD</channel>
-    <channel lang="cz" xmltv_id="o2-62" site_id="History" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/history.png">History</channel>
+    <channel lang="cz" xmltv_id="o2-62" site_id="History" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/history_202304.png">History</channel>
     <channel lang="cz" xmltv_id="o2-157" site_id="CH1 Russia" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/russia1.png">CH1 Russia</channel>
     <channel lang="cz" xmltv_id="o2-59" site_id="Investigation Discovery" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/investigation-discovery.png">ID</channel>
     <channel lang="cz" xmltv_id="o2-46" site_id="STV1" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/stv.png">Jednotka</channel>
@@ -69,8 +70,8 @@
     <channel lang="cz" xmltv_id="o2-666" site_id="KRB" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/krb.png">KRB</channel>
     <channel lang="cz" xmltv_id="o2-65" site_id="Barrandov Plus" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/barrandov-krimi.png">Krimi Barrandov</channel>
     <channel lang="cz" xmltv_id="o2-100" site_id="LalaTV" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/lala-tv.png">Lala TV</channel>
-    <channel lang="cz" xmltv_id="o2-132" site_id="MezzoLiveHD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/mezzo-live.png">Mezzo Live HD</channel>
-    <channel lang="cz" xmltv_id="o2-131" site_id="Mezzo" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/mezzo.png">Mezzo</channel>
+    <channel lang="cz" xmltv_id="o2-132" site_id="MezzoLiveHD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/mezzolive_202304.png">Mezzo Live HD</channel>
+    <channel lang="cz" xmltv_id="o2-131" site_id="Mezzo" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/mezzo_202304.png">Mezzo</channel>
     <channel lang="cz" xmltv_id="o2-114" site_id="Mňam TV" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/mnam.png">Mňam TV</channel>
     <channel lang="cz" xmltv_id="o2-101" site_id="Moonbug_Kids" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/moonbug-20230123.png">Moonbug Kids</channel>
     <channel lang="cz" xmltv_id="o2-125" site_id="VH1" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/mtv_00.png">MTV 00s</channel>
