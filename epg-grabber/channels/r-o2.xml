@@ -4,7 +4,7 @@
     <channel lang="sk" xmltv_id="o2-47" site_id="AXN" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/axn-20230123.png">AXN</channel>
     <channel lang="sk" xmltv_id="o2-18" site_id="BBC World News" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/bbc-world-news.png">BBC World News</channel>
     <channel lang="sk" xmltv_id="o2-145" site_id="Bloomberg" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/bloomberg.png">Bloomberg</channel>
-    <channel lang="sk" xmltv_id="o2-97" site_id="Boomerang" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/boomerang.png">Boomerang</channel>
+    <channel lang="sk" xmltv_id="o2-97" site_id="Boomerang" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/cartoonito_202303.png">Cartoonito</channel>
     <channel lang="sk" xmltv_id="o2-39" site_id="Epic Drama HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/epic-hd.png">Epic Drama HD</channel>
     <channel lang="sk" xmltv_id="o2-40" site_id="Film Europe HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/film-europe-hd.png">Film Europe HD</channel>
     <channel lang="sk" xmltv_id="o2-41" site_id="FilmEurope+" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/film-europe-plus.png">Film Europe +</channel>
@@ -25,7 +25,6 @@
     <channel lang="sk" xmltv_id="o2-4" site_id="Prima HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/prima-hd.png">Prima HD</channel>
     <channel lang="sk" xmltv_id="o2-45" site_id="PrimaShow" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/prima-show.png">Prima Show</channel>
     <channel lang="sk" xmltv_id="o2-44" site_id="PrimaStar" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/prima-star.png">Prima Star</channel>
-    <channel lang="sk" xmltv_id="o2-185" site_id="Rebel" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/rebel.png">Rebel</channel>
     <channel lang="sk" xmltv_id="o2-129" site_id="C Music TV" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/c-music-tv.png">STINGRAY CMUSIC</channel>
   </channels>
 </site>

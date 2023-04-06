@@ -7,7 +7,7 @@
     <channel lang="cz" xmltv_id="o2-60" site_id="Animal Planet HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/animal-planet-hd.png">Animal Planet HD</channel>
     <channel lang="cz" xmltv_id="o2-115" site_id="AutoMotorSport HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/auto-motor-und-sport.png">Auto Motor Sport HD</channel>
     <channel lang="cz" xmltv_id="o2-47" site_id="AXN" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/axn-20230123.png">AXN</channel>
-    <channel lang="cz" xmltv_id="o2-18" site_id="BBC World News" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/bbc-world-news.png">BBC World News</channel>
+    <channel lang="cz" xmltv_id="o2-18" site_id="BBC World News" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/bbc-world-news.png">BBC News</channel>
     <channel lang="cz" xmltv_id="o2-145" site_id="Bloomberg" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/bloomberg.png">Bloomberg</channel>
     <channel lang="cz" xmltv_id="o2-97" site_id="Boomerang" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/cartoonito_202303.png">Cartoonito</channel>
     <channel lang="cz" xmltv_id="o2-96" site_id="Cartoon Network" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/cn.png">Cartoon Network HD</channel>
@@ -38,6 +38,7 @@
     <channel lang="cz" xmltv_id="o2-39" site_id="Epic Drama HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/epic-hd.png">Epic Drama HD</channel>
     <channel lang="cz" xmltv_id="o2-82" site_id="Eurosport 1 HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/eurosport-hd.png">Eurosport 1 HD</channel>
     <channel lang="cz" xmltv_id="o2-83" site_id="Eurosport 2 HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/eurosport2-hd.png">Eurosport 2 HD</channel>
+    <channel lang="cz" xmltv_id="o2-187" site_id="Letiste" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/letiste.png">Fameplay</channel>
     <channel lang="cz" xmltv_id="o2-116" site_id="Fashion TV" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/fashion-tv.png">Fashion TV</channel>
     <channel lang="cz" xmltv_id="o2-86" site_id="FightBoxHD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/fightbox.png">FightBox HD</channel>
     <channel lang="cz" xmltv_id="o2-35" site_id="Filmbox Extra HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/film-box-extra-hd.png">FilmBox Extra HD</channel>
@@ -68,7 +69,6 @@
     <channel lang="cz" xmltv_id="o2-666" site_id="KRB" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/krb.png">KRB</channel>
     <channel lang="cz" xmltv_id="o2-65" site_id="Barrandov Plus" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/barrandov-krimi.png">Krimi Barrandov</channel>
     <channel lang="cz" xmltv_id="o2-100" site_id="LalaTV" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/lala-tv.png">Lala TV</channel>
-    <channel lang="cz" xmltv_id="o2-187" site_id="Letiste" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/letiste.png">Mall.TV</channel>
     <channel lang="cz" xmltv_id="o2-132" site_id="MezzoLiveHD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/mezzo-live.png">Mezzo Live HD</channel>
     <channel lang="cz" xmltv_id="o2-131" site_id="Mezzo" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/mezzo.png">Mezzo</channel>
     <channel lang="cz" xmltv_id="o2-114" site_id="Mňam TV" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/mnam.png">Mňam TV</channel>
