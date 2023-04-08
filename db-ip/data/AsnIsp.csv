@@ -20,11 +20,13 @@ asn,isp
 1041,Kimberly-Clark Corporation
 1043,KSP Technology
 1044,Blinn College
+1045,ZS Associates Inc
 1050,Onvox LLC
 1053,BearCom Operating LLC
 1055,City of Manteca
 1057,Falcon Wireless LLC
 1058,MCPc Inc.
+1059,GETTR
 1062,City of Emmett
 1064,Rivulet Wireless Inc.
 1065,Tangerine Global
@@ -59,7 +61,7 @@ asn,isp
 1126,Vancis Advanced ICT Services
 1128,SURF B.V.
 1133,SURF B.V.
-1136,KPN B.V.
+1136,KPN
 1140,Stichting Internet Domeinregistratie Nederland
 1145,SURF B.V.
 1147,SURF B.V.
@@ -100,7 +102,7 @@ asn,isp
 1258,XKL LLC
 1261,National Instruments Corporation
 1265,Saint Mary's College
-1267,WIND TRE S.P.A.
+1267,ASN-WINDTRE
 1270,UUNET Germany
 1271,Deutsche Telekom Technik GmbH / T-CNF
 1273,Vodafone Group PLC
@@ -171,13 +173,9 @@ asn,isp
 1447,Chipotle Mexican Grill INC
 1448,United Cooperative Services
 1449,PayPal Inc.
-1466,Headquarters USAISC
-1475,Headquarters USAISC
-1480,Headquarters USAISC
 1493,Headquarters USAISC
 1501,Headquarters USAISC
 1502,Headquarters USAISC
-1503,Headquarters USAISC
 1508,Headquarters USAISC
 1516,Headquarters USAISC
 1527,Headquarters USAISC
@@ -215,7 +213,6 @@ asn,isp
 1615,Exelixis Inc.
 1616,CoreLink Data Centers
 1617,Jacobs Levy Equity Management Inc.
-1618,Daytona Net Works Inc.
 1620,doelegal llc
 1621,Securian Financial Group Inc.
 1622,NCH Capital Inc.
@@ -350,7 +347,6 @@ asn,isp
 1926,Tampere University Foundation
 1929,University of Massachusetts
 1930,Fundacao para a Ciencia e a Tecnologia I.P.
-1931,HP Inc.
 1932,Consolidated Edison Co. of New York Inc.
 1935,Renater
 1938,Renater
@@ -408,12 +404,13 @@ asn,isp
 2110,BT Communications Ireland Limited
 2111,SkyNet Group Ltd.
 2114,ESCUELAS DE ESTUDIOS SUPERIORES ESIC SACERDOTES DEL CORAZON DE JESUS PADRES REP
+2115,OPEGIEKA Sp. z o.o.
 2116,GLOBALCONNECT AS
 2117,European Southern Observatory
 2118,Reliable Communications s.r.o.
-2119,TELENOR-NEXTEL
+2119,Telenor Norge AS
 2121,Reseaux IP Europeens Network Coordination Centre (RIPE NCC)
-2128,INEX
+2128,Internet Neutral Exchange Association Company Limited By Guarantee
 2129,EntServ UK Limited
 2134,Santander Global Technology S.L.U
 2140,IBM
@@ -445,6 +442,7 @@ asn,isp
 2280,Orange S.A.
 2281,Orange S.A.
 2285,Orange S.A.
+2286,Orange S.A.
 2287,Orange S.A.
 2300,Orange S.A.
 2379,CenturyLink Communications LLC
@@ -568,7 +566,6 @@ asn,isp
 2701,Kansas State University
 2703,Data-Prompt Inc.
 2705,BJC HEALTH SYSTEM
-2706,HKBN Enterprise Solutions HK Limited
 2707,First Communications LLC
 2708,Universidad de Guanajuato
 2711,Spirit Communications
@@ -694,7 +691,7 @@ asn,isp
 3169,Jacek Pasek BRK Network Devices
 3170,VeloxServ Communications Ltd
 3173,Stanleyworks (Europe) GmbH
-3175,Filanco LLC
+3175,CITYTELECOM-MSK
 3176,Banque Du Liban
 3177,Visparad Web Hosting Service LLC
 3178,FastLine For Communication And Information Technology Ltd
@@ -746,7 +743,7 @@ asn,isp
 3252,Fiberax Networking&Cloud Ltd.
 3253,PJSC Vimpelcom
 3254,Lucky Net Ltd
-3255,State Enterprise Scientific and Telecommunication Centre Ukrainian Academic an
+3255,UARNET-AS
 3257,GTT Communications Inc.
 3259,DOCAPOST BPO SAS
 3260,INTRACOM S.A. TELECOM SOLUTIONS
@@ -774,6 +771,7 @@ asn,isp
 3288,Mofet Institute
 3289,MIDOCAR SRL
 3290,WIFAST SARL
+3291,GTT Communications Inc.
 3292,TDC Holding A/S
 3295,Societe Generale S.A.
 3296,Societe Generale S.A.
@@ -841,7 +839,6 @@ asn,isp
 3390,University of Missouri - Kansas City
 3399,Obenetwork AB
 3401,City of Seattle Dept. of Admin. Services
-3402,Acilis Telecom Backbone
 3408,Rainbow Media Holdings LLC
 3410,Cornell College
 3411,St. Michael's Hospital
@@ -866,9 +863,7 @@ asn,isp
 3464,Alabama Supercomputer Network
 3465,J. B. Hunt Transport Inc.
 3470,DoD Network Information Center
-3471,DoD Network Information Center
 3474,DoD Network Information Center
-3475,Navy Network Information Center (NNIC)
 3477,National Oceanic and Atmospheric Administration
 3479,Board of Regents of the University System of Georgia
 3480,Board of Regents of the University System of Georgia
@@ -1114,7 +1109,6 @@ asn,isp
 4283,CenturyLink Communications LLC
 4284,CenturyLink Communications LLC
 4297,CenturyLink Communications LLC
-4306,Novia Corp
 4307,SOUTH VALLEY INTERNET
 4309,Fidelity Management & Research Company
 4310,Seminole State College of Florida
@@ -1158,6 +1152,7 @@ asn,isp
 4505,WHDH-TV
 4508,NeuStyle
 4511,University of Miami
+4513,Unitas Global
 4514,Paradise Valley Unified School District
 4515,PCCW IMS Limited
 4528,The University of Hong Kong
@@ -1236,7 +1231,6 @@ asn,isp
 4697,Network Technology Laboratories NIPPON TELEGRAPH AND TELEPHONE CORPORATION
 4711,INTEC Inc.
 4713,NTT Communications Corporation
-4717,WIDE Project
 4718,Cyber Kansai Project
 4721,JCOM Co. Ltd.
 4723,Dolphin
@@ -1257,8 +1251,8 @@ asn,isp
 4764,Wideband Networks Pty Ltd
 4765,PACIFIC INTERNET (S) PTE. LTD.
 4766,Korea Telecom
-4767,Computer Science
-4768,Vodafone New Zealand Limited
+4767,Asian Institute of Technology
+4768,One New Zealand Group Limited
 4769,Exa Bytes Network Sdn.Bhd.
 4770,INTERNET COMPANY OF NEW ZEALAND LIMITED
 4771,Spark New Zealand Trading Limited
@@ -1473,6 +1467,7 @@ asn,isp
 5486,Partner Communications Ltd.
 5488,Proximus NV
 5489,International Hellenic University
+5491,Jan Olsson
 5495,Saint Petersburg State University
 5498,Institution Central Information and Analytical Center at the Ministry of Educat
 5500,CLOUDCOCO HOLDINGS LIMITED
@@ -1597,7 +1592,6 @@ asn,isp
 5743,Port Metro Vancouver
 5744,United States Patent and Trademark Office
 5752,GBIS Holdings Inc.
-5757,General Physics Corporation
 5758,ALPHA ENTERPRISES LIMITED INC.
 5760,Biddeford Internet Corp
 5764,Convoke Communications Corp.
@@ -1779,7 +1773,7 @@ asn,isp
 6405,American Information Network
 6406,Continuous Electron Beam Accelerator Facility
 6407,Primus Telecommunications Canada Inc.
-6412,KEMS Block-A Floor 7
+6412,KW
 6419,IDD Enterprises LP
 6421,TATA COMMUNICATIONS (AMERICA) INC
 6423,Digital Fortress
@@ -1837,6 +1831,7 @@ asn,isp
 6569,Nationwide Services Inc
 6579,Memorial University of Newfoundland
 6580,Golden West Telecommunications Coop. Inc.
+6583,Websecure Inc.
 6586,WebCentric Communications Inc.
 6591,Intergraph Corporation
 6595,U.S. Department of Defense Education Activity
@@ -2091,7 +2086,6 @@ asn,isp
 7181,TierPoint LLC
 7183,Navient Solutions Inc.
 7184,Universidad Veracruzana
-7185,QuadraNet Internet Services
 7191,CenturyLink Communications LLC
 7194,City of Burbank
 7195,EDGEUNO SAS
@@ -2161,7 +2155,6 @@ asn,isp
 7358,The Dun & Bradstreet Corporation
 7359,CenturyLink Communications LLC
 7362,Hearst Newspapers  LLC
-7363,-Reserved AS-
 7365,CENTROIN PROVEDOR DE SERV. INTERNET. LTDA
 7366,Lemuria Communications Inc.
 7377,University of California San Diego
@@ -2359,6 +2352,7 @@ asn,isp
 7782,Alaska Communications Systems Group Inc.
 7784,Atlantech Online Inc.
 7786,NeuStar Inc.
+7788,Magma Communications Ltd.
 7792,3M Company
 7794,Execulink Telecom Inc.
 7795,LUMOS Networks Inc.
@@ -2374,7 +2368,6 @@ asn,isp
 7820,Tower Federal Credit Union
 7821,Inteliquent inc.
 7828,Northland Communications
-7829,GeoLinks
 7832,WW/Precision Communication
 7834,L3Harris Technologies Inc.
 7835,Abraxis Networks Inc.
@@ -2508,7 +2501,7 @@ asn,isp
 8211,Cooperatieve Rabobank U.A.
 8216,INDRA SISTEMAS S.A.
 8217,ENI S.p.A.
-8218,Zayo Infrastructure France SA
+8218,NEO-ASN
 8219,Inna Grigorevna Khoruzhaya
 8220,COLT Technology Services Group Limited
 8221,ISABEL N.V.
@@ -2560,7 +2553,7 @@ asn,isp
 8294,Fornax ZRt.
 8296,HBVB Private Unlimited
 8297,TATA Communications (Canada) Ltd.
-8298,Pim van Pelt
+8298,IPNG
 8299,JVC INFOTEL
 8300,Swisscom (Schweiz) AG
 8301,Gibtelecom Ltd.
@@ -2569,7 +2562,7 @@ asn,isp
 8304,Ecritel SASU
 8305,Yuri Lebedev
 8308,NAUKOWA I AKADEMICKA SIEC KOMPUTEROWA INSTYTUT BADAWCZY
-8309,SIPARTECH SAS
+8309,SIPARTECH
 8311,Redestel Networks S.L.
 8312,Bas Smit trading as Zylon
 8314,UAB Lrytas
@@ -2579,10 +2572,10 @@ asn,isp
 8319,NETHINKS GmbH
 8323,Academic Computer Centre CYFRONET AGH
 8324,South Ural State University
-8325,OOO FREEnet Group
+8325,NETIS-AS
 8326,Politechnika Bydgoska im. Jana i Jedrzeja Sniadeckich
 8328,SaaSplaza Nederland B.V.
-8330,LONAP
+8330,LONAP Ltd
 8331,JSC ER-Telecom Holding
 8334,LLC SETEL
 8336,THE INNOVATION GROUP (EMEA) LTD
@@ -2608,7 +2601,7 @@ asn,isp
 8371,PJSC Vimpelcom
 8373,Deutsche Bank AG
 8374,Polkomtel Sp. z o.o.
-8375,KDDI Deutschland GmbH
+8375,Telehouse Deutschland GmbH
 8376,Jordan Data Communications Company LLC
 8377,Awanti Ltd.
 8380,TOWARZYSTWO UBEZPIECZEN NA ZYCIE EUROPA SPOLKA AKCYJNA
@@ -2646,7 +2639,7 @@ asn,isp
 8443,PJSC Rostelecom
 8444,JANUS HENDERSON ADMINISTRATION UK LIMITED
 8445,SALZBURG AG fur Energie Verkehr und Telekommunikation
-8447,A1 Telekom Austria AG
+8447,A1TELEKOM-AT
 8448,CETIN Hungary Zrt.
 8449,ElCat Ltd.
 8450,Fachhochschule Worms
@@ -2677,7 +2670,7 @@ asn,isp
 8485,Joint Stock Company TransTeleCom
 8487,Phibee Telecom SAS
 8489,EDV Beratung Mersberger
-8491,Scientific-Production Enterprise Business Sviaz Holding LLC
+8491,BSH-AS
 8492,OBIT Ltd.
 8494,Sigma Software LLC
 8495,INTERNET AG Global Network
@@ -2768,7 +2761,6 @@ asn,isp
 8648,KAMP Netzwerkdienste GmbH
 8649,ZeXoTeK IT-Services GmbH
 8651,MUFG Securities EMEA PLC
-8652,DATAS AG
 8654,Crimeainfocom Ltd
 8657,MEO - SERVICOS DE COMUNICACOES E MULTIMEDIA S.A.
 8659,United Nations International Computing Centre
@@ -2805,7 +2797,7 @@ asn,isp
 8717,A1 Bulgaria EAD
 8719,Dnepropetrovsk National University of Oles Gonchar
 8720,Aspan telecom
-8721,Hurriyet Gazetecilik & Matbacilik A.S.
+8721,UNSPECIFIED
 8723,ITS INTEGRA SAS
 8726,Grupa KKI-BCI Sp. Z o.o.
 8727,BE-terna d.o.o.
@@ -2956,7 +2948,7 @@ asn,isp
 8976,Streamwide Romania SRL
 8978,Holy See - Vatican City State
 8981,Voronezh State University
-8982,Company for computing services NETCETERA DOOEL export-import Skopje
+8982,Netcetera AG
 8983,Nokia Solutions and Networks Oy
 8985,Joint-stock company Internet Exchange MSK-IX
 8987,Amazon Data Services Ireland Ltd
@@ -2993,7 +2985,7 @@ asn,isp
 9049,JSC ER-Telecom Holding
 9050,ORANGE ROMANIA COMMUNICATION S.A
 9051,IncoNet Data Management sal
-9052,Unidad Editorial S.A.
+9052,Unidad Editorial SA
 9053,VSHosting s.r.o.
 9055,Verizon Ireland Limited
 9056,Keldysh Institute of Applied Mathematics Russian Academy of Sciences
@@ -3102,14 +3094,14 @@ asn,isp
 9216,Symphox Information Co. LTd.
 9221,The Hongkong and Shanghai Banking Corp Ltd
 9223,Indus Towers Ltd
-9224,Cirrus Communications
+9224,Swoop Telecommunications Pty Ltd
 9226,1-Net Singapore Pte Ltd
 9228,PT. Total Info Kharisma
 9229,Speedcast Limited
 9230,Bangladesh Online Ltd
 9231,China Mobile Hong Kong Company Limited
+9232,Cloud Information Technology (Intl) Telecom Group LIMITED
 9234,Sol One PTE LTD
-9235,Focus Pacific
 9237,PCCW Global (HK) Limited
 9238,Tata Communications Limited
 9241,Fiji International Telecommunications Ltd
@@ -3143,7 +3135,7 @@ asn,isp
 9288,DB Technologies
 9289,ASM Pacific Technology Ltd
 9290,GoHosting
-9292,Temasek Polytechnic of Singapore
+9292,Temasek Polytechnic
 9293,HKNet Co. Ltd.
 9294,GNET INC.
 9297,Colocity Pty Ltd
@@ -3153,7 +3145,6 @@ asn,isp
 9304,HGC Global Communications Limited
 9306,RongHua Road No.11 Beijing Economy Technology Development Area
 9308,Abitcool(China) Inc.
-9310,MYREPUBLIC PTY LTD
 9311,HITRON TECHNOLOGY INC.
 9312,xTom Hong Kong Limited
 9313,Network Technology (Aust) P/L
@@ -3169,7 +3160,6 @@ asn,isp
 9327,Vodafone New Zealand Limited
 9328,DATACOM SYSTEMS (AU) PTY LTD
 9329,Sri Lanka Telecom Ltd
-9332,Wannan Trading Pty Ltd
 9334,iManila
 9335,CAT Telecom Public Company Limited
 9336,World Without Wires Pty Ltd
@@ -3209,10 +3199,11 @@ asn,isp
 9419,Nanyang Technological University
 9421,AAPT Limited
 9422,PT SOLNET INDONESIA
+9423,ServerKing.io LLC
 9426,SingTel Optus Pty Ltd
 9430,Software Technology Parks of IndiaBlock-IV
 9431,The University of Auckland
-9432,Vodafone New Zealand Limited
+9432,One New Zealand Group Limited
 9433,Massey University
 9435,Suncorp-Metway Limited
 9438,SingTel Optus Pty Ltd
@@ -3291,7 +3282,7 @@ asn,isp
 9555,Verizon Australia Pty Limited
 9557,Pakistan Telecommuication company limited
 9558,PrimeCrown Technologies Private Limited
-9559,Vodafone New Zealand Limited
+9559,One New Zealand Group Limited
 9562,ANET Co. Ltd.
 9564,SingTel Optus Pty Ltd
 9568,KOREA INSTITUTE OF MACHINERY   MATERIALS (KIMM)
@@ -3443,7 +3434,6 @@ asn,isp
 9794,PT. Core Mediatech (D-NET)
 9795,Ramsay Health Care Australia Pty Ltd
 9796,Wipro Ltd.
-9797,Nexon Asia Pacific Pty Ltd
 9801,A Building Haibo Masion No.136 Xisihuan North Road
 9802,Abitcool(China) Inc.
 9803,Beijing Jingxun Public Information Technology Co. Ltd
@@ -3511,7 +3501,7 @@ asn,isp
 9891,CS Loxinfo Public Company Limited
 9892,Iconz-Webvisions Pte. Ltd.
 9893,Cenitex
-9896,Vodafone New Zealand Limited
+9896,One New Zealand Group Limited
 9898,IQ Hive Limited
 9902,NeocomISP Limited
 9903,Internet Thailand Company Ltd.
@@ -3681,7 +3671,7 @@ asn,isp
 10137,PT Telkom Satelit Indonesia
 10138,iBasis (Hong Kong) Ltd
 10139,Smart Broadband Inc.
-10143,Exetel Pty Ltd
+10143,SUPERLOOP (AUSTRALIA) PTY LTD
 10145,SecureIP Pty Ltd
 10146,Ford Motor Company
 10148,University of Melbourne
@@ -3804,6 +3794,8 @@ asn,isp
 10364,University of Alabama in Huntsville
 10367,Fibercast Corporation
 10370,Northwest Airlines
+10372,Wells Fargo & Company
+10376,Wells Fargo & Company
 10377,Sound Choice Communications LLC
 10379,Deluxe Corporation
 10381,Southwest Cyberport Inc.
@@ -3827,6 +3819,7 @@ asn,isp
 10425,-Reserved AS-
 10429,TELEFÔNICA BRASIL S.A
 10430,Washington State K-20 Telecommunications Network
+10431,Sonoran Software Systems LLC
 10436,Instituto Tecnológico y de Estudios Superiores de Monterrey
 10439,CariNet Inc.
 10440,Merkle Inc.
@@ -3857,6 +3850,7 @@ asn,isp
 10507,Sprint Personal Communications Systems
 10508,University of Arkansas
 10511,CC Services Inc
+10515,VeriSign Infrastructure & Operations
 10524,GOYA DE PUERTO RICO
 10531,Terra Networks Brasil S.A.
 10532,Rackspace Hosting
@@ -4153,6 +4147,7 @@ asn,isp
 11180,TierPoint LLC
 11181,Vaxxine Computer Systems Inc.
 11183,Mount Horeb Telephone Co
+11185,DreamHack Inc
 11187,Global Web Solutions Inc.
 11188,LOS ANGELES COUNTY - INTERNAL SERVICESDIVISION
 11189,Caliber Home Loans Inc.
@@ -4265,7 +4260,6 @@ asn,isp
 11336,Barclays Global Investors
 11337,Marlabs Incorporated
 11338,SKY SERVIÇOS DE BANDA LARGA LTDA
-11339,United Sources of America Inc.
 11340,Red Universitaria Nacional
 11342,Pathway Communications
 11345,Akima Management Services Inc.
@@ -4296,6 +4290,7 @@ asn,isp
 11381,Point Broadband Fiber Holding LLC
 11382,Wiley Rein LLP
 11383,TierPoint LLC
+11385,Nowyr inc.
 11386,HEALTH AND HOSPITAL CORPORATION OF MARION COUNTY
 11387,La Curacao
 11389,Heritage Capital Corporation
@@ -4773,6 +4768,7 @@ asn,isp
 12134,Manufacturers and Traders Trust Company
 12136,Núcleo de Inf. e Coord. do Ponto BR - NIC.BR
 12137,LightHouse Business Information Solutions LLC
+12138,Tax AirFreight Inc.
 12140,Horizons Telecomunicações e Tecnologia S.A.
 12142,SULLCROM
 12144,Cloud Grid Computing
@@ -4862,7 +4858,7 @@ asn,isp
 12252,America Movil Peru S.A.C.
 12253,Leon County Board of County Commisioners
 12254,Instructure Inc
-12257,EMC Corporation
+12257,Dell Inc.
 12258,Dimension Data
 12259,EBOCOM LLC
 12261,DTC Communications Inc.
@@ -4870,7 +4866,6 @@ asn,isp
 12265,Transaction Network Services Inc.
 12266,StoreRunner Inc.
 12268,Elizabethtown College
-12269,Groupon Inc.
 12271,Charter Communications Inc
 12272,Medata Inc.
 12273,Transunion Interactive Inc.
@@ -4890,9 +4885,9 @@ asn,isp
 12293,Xvid Services OU
 12294,PrJSC VF UKRAINE
 12296,ADA-NET Internet ve Iletisim Hizmetleri Tic. A.S.
-12297,Telecom Armenia CJSC
+12297,TELECOM-ARMENIA
 12298,QIAGEN GmbH
-12301,Invitech ICT Services Kft.
+12301,Invitech
 12302,Vodafone Romania S.A.
 12303,Council of Hungarian Internet Providers
 12305,G9Telecom S.A.
@@ -4947,14 +4942,14 @@ asn,isp
 12381,Resilans AB
 12384,Swedish University of Agricultural Sciences
 12386,Orange Espagne SA
-12387,TON
+12387,TON Total optical Networks AG
 12388,Casey CableVision Ltd.
 12389,PJSC Rostelecom
 12390,KCOM GROUP LIMITED
 12392,Brutele SC
 12396,PJSC MegaFon
 12397,Optocom Ltd
-12399,SCAN-PLUS-AS
+12399,q.beyond Cloud Solutions GmbH
 12400,Partner Communications Ltd.
 12401,internic Datenkommunikations GmbH
 12402,University of Piraeus
@@ -5031,7 +5026,7 @@ asn,isp
 12536,BSO Network Solutions SAS
 12539,Penki Kontinentai Ltd.
 12540,IdecNet S.A.
-12541,EVOLUTIO CLOUD ENABLER S.A. UNIPERSONAL
+12541,EBC_Inner_AS
 12543,PJSC Vimpelcom
 12545,Transcom Ltd
 12546,Kleemann GmbH
@@ -5074,7 +5069,7 @@ asn,isp
 12611,R-KOM Regensburger Telekommunikationsverwaltungsgesellschaft mbH trading as R-K
 12613,Firebrick Limited
 12615,Global Communication Net Plc
-12616,Filanco LLC
+12616,Citytelecom LLC
 12618,Politechnika Bydgoska im. Jana i Jedrzeja Sniadeckich
 12619,Yediot Information Technologies ltd
 12620,Ticinocom SA
@@ -5127,7 +5122,7 @@ asn,isp
 12708,TalkTalk Communications Limited
 12709,Melita Limited
 12713,OTEGlobe
-12714,PJSC MegaFon
+12714,MEGAFON-AS
 12716,A1 Bulgaria EAD
 12722,RECONN LLC
 12724,Prokhorov General Physics Institute Russian Academy of Sciences
@@ -5212,6 +5207,7 @@ asn,isp
 12841,Veltrade LLC
 12842,Internet Oltenia SRL
 12843,TelemaxX Telekommunikation GmbH
+12844,Bouygues Telecom SA
 12846,PJSC Rostelecom
 12847,Latvijas Mobilais Telefons SIA
 12849,Hot-Net internet services Ltd.
@@ -5228,7 +5224,7 @@ asn,isp
 12888,Amadeus Data Processing GmbH
 12891,Genel Kurmay Baskanligi
 12895,Erste Digital GmbH
-12897,ENTEGAMEDIANET
+12897,ENTEGA Medianet GmbH
 12898,PSV Digital GmbH
 12902,Luna.nl B.V.
 12903,Turkiye Garanti Bankasi A.S.
@@ -5345,7 +5341,7 @@ asn,isp
 13091,JP Posta Srbije Beograd
 13092,Akademska mreza Republike Srbije - AMRES
 13093,Haaretz Daily Newspaper Ltd.
-13094,JSC ER-Telecom Holding
+13094,SFO-IX-AS
 13095,PJSC Vimpelcom
 13097,Axera SpA
 13099,AzEuroTel J.V.
@@ -5409,12 +5405,13 @@ asn,isp
 13204,TERA YATIRIM MENKUL DEGERLER A.S.
 13205,British Telecommunications PLC
 13208,Newtel Limited
+13209,Atom Hosting SRL
 13210,ACADEMIA DE STUDII ECONOMICE
 13213,UK-2 Limited
 13214,Hans Fredrik Lennart Neij
 13215,JSC Telecommunication company Convey Plus
 13216,C5 IT Services (Guernsey) Limited
-13223,CONSEIL DE L EUROPE
+13223,Council Of Europe
 13224,AS13224
 13226,CYBERNET SA
 13227,Kraft-S LLC
@@ -5422,13 +5419,13 @@ asn,isp
 13232,Portigon AG
 13233,21TORR GmbH
 13236,DATACOM LTD
-13237,euNetworks GmbH
+13237,LAMBDANET-AS
 13238,YANDEX LLC
 13240,TRENDLINE INFORMATION and COMMUNICATION SERVICES LTD
 13242,Latvijas Lauksaimniecibas Universitate
 13243,TIETOEVRY NORWAY AS
 13244,Rietumu banka AS
-13246,InterNetWire Communications GmbH
+13246,Key-Systems GmbH
 13247,Erdenreich Datentechnik GmbH
 13249,PRIVATE JOINT STOCK COMPANY DATAGROUP
 13250,Backbone Solutions AG
@@ -5495,7 +5492,6 @@ asn,isp
 13357,Ampernet Telecomunicações Ltda
 13359,LEARN
 13360,Triton Digital
-13361,American Computer Group Inc.
 13362,PCWorld.com
 13363,ASG Technologies Group Inc.
 13367,Comcast Cable Communications LLC
@@ -5604,7 +5600,6 @@ asn,isp
 13539,Bastyr University
 13541,Siemens Industry Software Inc.
 13543,City of Cookeville
-13545,Matthews International Capital Management LLC
 13547,Porter Hospital
 13548,College of Charleston
 13549,Mercury Network Corporation
@@ -5795,7 +5790,6 @@ asn,isp
 13844,St. John's Riverside Hospital
 13845,eStruxture Data Centers Inc.
 13846,Lavalife Corp.
-13849,Blockinetic LLC
 13850,FractalCore LLC
 13851,SevenL Networks
 13853,ECTISP Ellis County Texas Internet Service Provider Inc.
@@ -6007,7 +6001,6 @@ asn,isp
 14160,Premium Hosting Inc.
 14161,Land O'Lakes Inc.
 14163,Shearman & Sterling
-14164,Verizon Business
 14165,Fastline Publications LLC
 14166,Softcom Inc.
 14167,Multi-Ad Services Inc.
@@ -6113,7 +6106,6 @@ asn,isp
 14327,Portland General Electric Company
 14328,R.R. Donnelley and Sons Co.
 14329,OPEN ACCESS TECHNOLOGY INTERNATIONAL INC.
-14330,Digital Insight Corporation
 14332,Connexity Inc.
 14333,On-Ramp Indiana Inc. (ORI.NET)
 14334,Renaissance Learning Inc.
@@ -6139,7 +6131,6 @@ asn,isp
 14368,Brazos Internet
 14369,Nmax
 14371,Paul Bunyan Communications
-14372,Pegasystems Inc.
 14373,University of Texas Medical Branch
 14374,Agri-Valley Services Corporation
 14379,Northern Trust Company
@@ -6154,7 +6145,6 @@ asn,isp
 14388,Bronco Wine Co.
 14389,Cash Express LLC
 14390,Coretel America Inc.
-14391,Automatic Data Processing Inc.
 14395,Federal Home Loan Bank Of Atlanta
 14396,IBASIS INC.
 14397,1st Class Hosting LLC
@@ -6195,7 +6185,6 @@ asn,isp
 14448,High Point University
 14449,Dynamic Signal Inc.
 14450,GEICO
-14451,GEICO
 14452,CMA Inc.
 14453,ADVANCED KNOWLEDGE NETWORKS
 14454,SilverSky Inc.
@@ -6282,6 +6271,7 @@ asn,isp
 14579,Edward D. Jones & Co. L.P.
 14582,Dickinson Financial Corporation
 14583,Virginia Information Technologies Agency (VITA)
+14584,Baker & Taylor Inc.
 14585,CIFNet Inc.
 14586,Nuclearfallout Enterprises Inc.
 14588,Activision Publishing Inc.
@@ -6526,7 +6516,6 @@ asn,isp
 14940,LIGO Livingston Observatory
 14941,Integrated Document Solutions Inc
 14942,Regional One Health
-14944,eMoney Advisor
 14945,FAIRFIELD MEDICAL CENTER
 14946,Baptist Memorial Health Care Corporation
 14948,IQVIA Holdings Inc
@@ -6614,7 +6603,7 @@ asn,isp
 15077,MAG-TEK INC.
 15079,Ionic Capital Management LLC
 15080,Viking Global Investors LP
-15081,Cros.net Inc.
+15081,Omni Fiber
 15082,Tekco
 15083,Infolink Global Corporation
 15084,Concentrix CVG Corporation
@@ -6630,7 +6619,6 @@ asn,isp
 15100,Bevcomm
 15101,Central 1 Credit Union
 15102,Corridor Communications INC.
-15103,Knovalent Inc.
 15106,Lennox International Inc.
 15107,Grupo Financiero Bancomer
 15108,Allo Communications LLC
@@ -6732,7 +6720,6 @@ asn,isp
 15256,Itau Unibanco S.A.
 15257,NBT Labs LLC
 15258,Gilbane Building Company
-15259,AT&T Solutions ITS/NCS
 15260,Disney Worldwide Services Inc.
 15261,Zellius Telecommunications Inc.
 15262,Global Payments Inc.
@@ -6784,6 +6771,7 @@ asn,isp
 15335,KAPLAN TELEPHONE COMPANY INC.
 15336,Concordia University St. Paul
 15337,Wm. Rainey Harper College
+15338,CEROBI LLC
 15340,Community Vision Inc.
 15342,DELTA DENTAL PLAN OF MICHIGAN
 15343,AMERIPRISE FINANCIAL SERVICES INC.
@@ -7037,7 +7025,7 @@ asn,isp
 15766,Domicilium (IOM) Limited
 15768,WorldPay (UK) Limited
 15769,Deutsche Bank AG
-15770,Durham County Council
+15770,DERWENTSIDE
 15773,Inclarity Communications Ltd
 15774,Limited Liability Company TTK-Svyaz
 15776,International Business Machines of Belgium Ltd
@@ -7238,7 +7226,6 @@ asn,isp
 16122,Prada S.p.A.
 16125,UAB Cherry Servers
 16128,AGARIK SAS
-16134,Tecnocratica Centro de Datos S.L.
 16135,TURKCELL ILETISIM HIZMETLERI A.S.
 16138,GRUPA INTERIA.PL MEDIA Sp z.o.o. SK
 16141,Net Bull Srl
@@ -7271,7 +7258,7 @@ asn,isp
 16185,MODUM KABEL-TV AS
 16186,IP Group AS
 16188,punkt.de GmbH
-16189,KLEE SA
+16189,UNSPECIFIED
 16190,WEB LLC
 16192,Rom Electronic Company SRL
 16193,BORICA AD
@@ -7429,7 +7416,6 @@ asn,isp
 16463,Data Processing Solutions Inc.
 16464,CT Corporation System
 16466,Avaya Inc.
-16467,GeoLinks
 16468,AirFiber WISP LLC
 16470,WingNET Internet Services
 16471,Adexus S.A.
@@ -7457,7 +7443,6 @@ asn,isp
 16508,AEG
 16509,Amazon.com Inc.
 16511,IT Freedom LLC
-16512,Rackifi LLC
 16515,Oath Holdings Inc.
 16517,LEE & ASSOCIATES LLC
 16519,University of Colorado Denver
@@ -7557,6 +7542,7 @@ asn,isp
 16657,Fibertech Networks LLC
 16659,Crown Castle USA
 16660,Capital One Financial Corporation
+16661,Hack This LLC
 16664,CC Communications
 16665,Joint Industry Board of the Electrical Industry
 16666,-Reserved AS-
@@ -7602,6 +7588,7 @@ asn,isp
 16731,Royal Bank of Canada
 16732,VELOCOM
 16733,NortonLifeLock Inc.
+16734,Kyndryl
 16735,ALGAR TELECOM S/A
 16738,Logistics Management Institute
 16739,Midcontinent Communications
@@ -7774,7 +7761,6 @@ asn,isp
 16979,RCM Technologies (USA) Inc.
 16981,Emmis Communications Corp.
 16982,Vital Images Inc.
-16983,Conduent Business Services LLC
 16986,City of Santa Monica
 16987,UHAUL INTERNATIONAL INC.
 16988,International Paper
@@ -7801,6 +7787,7 @@ asn,isp
 17015,Western State Colorado University
 17017,campuscolo.com
 17018,Quality Technology Services LLC
+17020,DXC US Latin America Corporation
 17023,Morneau Shepell Ltd.
 17025,Zayo Bandwidth
 17026,Seminole Hard Rock Support ServicesLLC
@@ -7824,7 +7811,7 @@ asn,isp
 17051,Purdue Pharma LP
 17052,Target Corporation
 17053,ImperialDade
-17054,CONTINENTAL BROADBAND PENNSYLVANIA INC.
+17054,Expedient
 17055,University of Utah
 17056,CipherSpace LLC
 17058,Intelliverse
@@ -7912,7 +7899,6 @@ asn,isp
 17188,Lilani Enterprises Inc.
 17189,Mitsubishi UFJ Trust & Banking Corporation
 17190,Washington Metropolitan Area Transit Authority
-17191,P.A.M. Transportation Services Inc.
 17192,LEK Internet Services Inc.
 17194,LPGA
 17195,Taylor Corporation
@@ -8052,7 +8038,6 @@ asn,isp
 17390,IBM
 17394,NetApp Inc.
 17397,Paysafe
-17398,iPass Incorporated
 17400,MSTelcom-Mercury Servicos de Telecomunicacoes S.A.R.L
 17401,ERTACH S.A.
 17402,CenturyLink Communications LLC
@@ -8140,7 +8125,7 @@ asn,isp
 17545,DATACOM SYSTEMS (AU) PTY LTD
 17547,M1 NET LTD
 17550,San Miguel Corporation
-17551,DCS Internet
+17551,ANYCAST HOLDINGS PTY LTD
 17552,TRUE INTERNET CORPORATION CO. LTD.
 17553,Bogor Agricultural University
 17554,Citic Telecom International (Data) Limited
@@ -8263,7 +8248,7 @@ asn,isp
 17747,SITI NETWORKS LIMITED
 17748,Affinity Express
 17750,Energex Ltd
-17753,Data Infosys Ltd
+17753,DATA INGENIOUS GLOBAL LIMITED
 17754,Excellmedia
 17755,IRESS Market Technology Ltd
 17756,Australian Postal Corporation
@@ -8357,7 +8342,6 @@ asn,isp
 17894,Innove Communications
 17895,Cybernet Solutions Inc
 17897,asn for Heilongjiang Provincial Net of CT
-17900,AAPT Limited
 17901,Samart Infonet Co. Ltd.
 17903,Cognizant Technology Solutions India Pvt Ltd
 17904,Sri Lanka Telecom Ltd
@@ -8429,7 +8413,6 @@ asn,isp
 18015,Fastcom Limited
 18017,Tuaropaki Communications Ltd
 18018,Gamebuilders Inc.
-18019,Cotton Candy Cloud Pte Ltd
 18021,Unisys New Zealand Ltd
 18022,SMART NET
 18023,Korea Maritime and Ocean University
@@ -8557,7 +8540,7 @@ asn,isp
 18222,Data Hub Pvt. Ltd.
 18223,Capital IQ Information Systems (india) PVt Ltd.
 18224,CrimsonLogic Pte Ltd
-18225,Softcell Technologies Limited
+18225,Softcell Technologies Private Limited
 18227,Clear-Comm Sdn Bhd
 18228,NCS Pte Ltd
 18229,CtrlS
@@ -8927,6 +8910,7 @@ asn,isp
 18771,Agavue LLC
 18772,Sky Lakes Medical Center Inc.
 18773,County of Henrico
+18775,AS18775
 18776,Valassis Communications Inc.
 18777,Texas State University - San Marcos
 18778,CliftonLarsonAllen LLP
@@ -8952,6 +8936,7 @@ asn,isp
 18805,-Reserved AS-
 18807,Datasite LLC
 18809,Cable Onda
+18811,MENTOS COUPLE INC.
 18812,New Wave Communications
 18814,Atlantic Technology Centre
 18815,CITY AND COUNTY OF DENVER
@@ -8989,7 +8974,6 @@ asn,isp
 18867,American Messaging Services L.L.C.
 18870,Great Western Bank
 18872,Veritas Technologies LLC
-18873,NextGen RCM Services LLC
 18874,Digitalglobe Inc. 
 18875,Questzone.Net Inc.
 18880,Lam Research Corporation
@@ -9153,6 +9137,7 @@ asn,isp
 19137,Epsilon Interactive LLC
 19138,Sweet Briar College
 19140,-Reserved AS-
+19141,DXC US Latin America Corporation
 19142,-Reserved AS-
 19147,The Vancouver Clinic Inc. P.S.
 19148,Leaseweb USA Inc.
@@ -9169,7 +9154,6 @@ asn,isp
 19160,Apex Tool Group LLC
 19161,Apogee Telecom Inc.
 19162,The Moody Bible Institute of Chicago
-19163,CONEX
 19165,Webpass Inc.
 19167,Core Broadband Inc
 19168,XSOLI INC.
@@ -9299,6 +9283,7 @@ asn,isp
 19368,Secured Network Services Inc.
 19371,ENOVATEL LLC
 19373,Triara.com S.A. de C.V.
+19375,Numeric Investors LLC
 19377,Cloud Carib Limited
 19380,C.H. ROBINSON WORLDWIDE INC.
 19381,Simply Bits LLC
@@ -9311,6 +9296,7 @@ asn,isp
 19395,Bucks County Community College
 19396,Haynes Furniture Company Inc.
 19397,ACN
+19398,Tenet HealthSystem Medical Inc.
 19399,Region Stockholm
 19400,SPX Flow Inc.
 19402,SMITH
@@ -9464,7 +9450,7 @@ asn,isp
 19653,CTS Communications Corp
 19655,TimkenSteel Corporation
 19656,Lehigh Secure Data LLC
-19658,-Reserved AS-
+19658,North Broward Hospital District
 19659,Builder Homesite Inc.
 19661,Susquehanna International Group LLP
 19662,Uniserve On Line
@@ -9473,7 +9459,6 @@ asn,isp
 19668,PriceWaterhouseCoopers LLP
 19670,Custom Computer Specialists Inc.
 19674,Navpoint Internet
-19676,Swift Global (K) Ltd.
 19677,NJTRANSIT
 19679,Dropbox Inc.
 19681,Networkitects Inc.
@@ -9578,9 +9563,11 @@ asn,isp
 19831,StampinUp
 19833,Abacus Solutions LLC
 19834,Conversant LLC
+19836,VeriSign Infrastructure & Operations
 19837,Stock Building Supply
 19838,Blue Water Networks
 19839,Wind Creek Bethlehem LLC
+19840,Oaktree Capital Management LLC
 19841,ISNS
 19842,Colosseum Online Inc.
 19843,Prosper Marketplace Inc
@@ -9680,6 +9667,7 @@ asn,isp
 19987,MICOM
 19988,Portal Systems Inc.
 19990,ZetaNET Telecom
+19991,FirstEnergy Corp.
 19993,R.J. O'Brien and Associates Inc.
 19994,Rackspace Hosting
 19995,VSE Corporation
@@ -9799,7 +9787,6 @@ asn,isp
 20170,Maritz Holdings Inc.
 20171,VMC Consulting
 20173,Televisa S.A de C.V.
-20174,WESTERN UNION COMPANY
 20176,First National Bank of Omaha
 20177,Emporia State University
 20179,Tullett & Tokyo Forex Inc.
@@ -9818,7 +9805,6 @@ asn,isp
 20204,NovoLink Communications Inc. - Houston
 20205,Amplex Electric Inc.
 20207,Gigared S.A.
-20209,Logicworks Corporation
 20210,Pharmaceutical Research Associates Inc.
 20213,Gifford Wireless Inc
 20214,Comcast Cable Communications LLC
@@ -10004,7 +9990,6 @@ asn,isp
 20507,T-mobile Netherlands B.V.
 20509,Elko Grupa as
 20510,Nexum Hungary Internet Service Provider Ltd.
-20513,A.M.S. Carlzon
 20514,Axians AB
 20515,Inter-don Ltd.
 20516,Sky Vision Ukraine Ltd
@@ -10075,7 +10060,7 @@ asn,isp
 20649,FS Veri Merkezi Internet Teknolojileri Limited Sirketi
 20650,IP NEXIA N.V.
 20652,Unitron Systems & Development LTD
-20653,M&L Systems GmbH
+20653,MLSYSTEMS-AS
 20655,e-Style ISP LLC
 20656,Laris Investments Sp. z o.o.
 20657,ATLANTIS BG Ltd.
@@ -10116,7 +10101,7 @@ asn,isp
 20718,ARSYS INTERNET S.L.
 20719,Birzeit University
 20720,LLC Tatarstan-On-Line
-20722,Allnet Telecom Srl
+20722,ALLNET-AS
 20723,AVONET s.r.o.
 20733,TSOD Ltd.
 20738,Host Europe GmbH
@@ -10131,7 +10116,7 @@ asn,isp
 20755,net-lab GmbH
 20756,NAMESHIELD SAS
 20763,Bank BPH S.A.
-20764,RASCOM-AS
+20764,CJSC RASCOM
 20765,Henkel AG & Co KGaA
 20766,Association Gitoyen
 20768,ZDIS GmbH
@@ -10179,7 +10164,7 @@ asn,isp
 20846,UAB Parabole
 20847,Previder B.V.
 20848,ROSBUSINESSCONSULTING JSC
-20849,CONTINUM A.G.
+20849,CONTINUM AG
 20850,Kyivski Telekomunikatsiyni Merezhi LLC
 20853,eTOP sp. z o.o.
 20855,Airdata AG
@@ -10197,7 +10182,6 @@ asn,isp
 20879,RCS & RDS SA
 20880,Tele Columbus AG
 20882,Russmedia IT GmbH
-20884,O2 Czech Republic a.s.
 20886,bn:t Blatzheim Networks Telecom GmbH
 20889,All for One sp. z o.o.
 20890,Sulzer Management AG
@@ -10307,7 +10291,6 @@ asn,isp
 21068,Krzysztof Lachota trading as Image Electronics SC
 21069,METANET AG
 21070,TotalEnergies SE
-21073,Zoranet Connectivity Services BV
 21074,UniCredit Business Integrated Solutions S.C.p.A.
 21075,PRIVATE JOINT STOCK COMPANY DATAGROUP
 21077,Specialist Computer Centres Plc
@@ -10416,12 +10399,12 @@ asn,isp
 21277,Allay Nawroz Telecom Company for Communication/Ltd.
 21282,KazNIC Organization
 21283,A1 Slovenija telekomunikacijske storitved.d.
-21286,Cegeka Consulting B.V.
+21286,KPN B.V.
 21288,SPRINT S.A.
 21292,Joint-stock company National system of payment cards
 21293,Norsk Rikskringkasting AS
 21294,CLOUDSYS TELECOM SRL
-21296,Pricewaterhouse Coopers Services Ltd
+21296,Pricewaterhousecoopers Services Limited
 21297,Oslo Bors ASA
 21298,Republican Fund 'Mordovia-Internet'
 21299,Kar-Tel LLC
@@ -10452,7 +10435,7 @@ asn,isp
 21339,Contingency Networks Ltd
 21341,Soroush Rasanheh Company Ltd
 21342,Akamai International B.V.
-21343,Allied Standart Limited LLC
+21343,Internet Invest Ltd.
 21344,PKO BP FINAT Sp. z o.o.
 21345,Messagelabs Limited
 21346,Enterprise Services Information Security UK Limited
@@ -10510,7 +10493,7 @@ asn,isp
 21441,LJUBLJANSKA BORZA d.d. Ljubljana
 21443,AT&T Global Network Services Nederland B.V.
 21446,SOTEL LLC
-21447,Telecom Center LLC
+21447,JSC ER-Telecom Holding
 21448,Integrated Digital Services Ltd
 21449,ETAT DE GENEVE
 21450,HOT Mobile Ltd.
@@ -10520,7 +10503,6 @@ asn,isp
 21456,Kvadrat AS
 21458,KfW Kreditanstalt fur Wiederaufbau
 21459,Advanced 365 LTD
-21461,Haendle & Korte GmbH
 21464,EDF Trading Ltd
 21465,EUROPAEISKE REJSEFORSIKRING A/S
 21466,Kabelfernsehen Bodeli AG
@@ -10692,7 +10674,6 @@ asn,isp
 21710,St. Lucie County - Automated Services
 21712,CommonSpirit Health 
 21713,Bulloch County Rural Telephone Cooperative Inc.
-21714,-Reserved AS-
 21718,Northwest Natural Gas
 21719,CHL
 21720,Vocalocity Inc.
@@ -10709,6 +10690,7 @@ asn,isp
 21734,Trading Technologies Intl Inc.
 21735,Gannett Co. Inc.
 21737,SpringNet
+21738,Rozint Ltd Co
 21739,MAJUBA TECHNOLOGIES(PTY) Limited t/a T-SOL
 21741,Visualcorp Holding Ltda
 21742,ELANY
@@ -10773,7 +10755,6 @@ asn,isp
 21821,Montefiore Medical Center
 21822,JD Byrider Systems Inc
 21826,Corporación Telemic C.A.
-21827,Calix Inc.
 21828,Tulare County Office of Education
 21830,COMSOUTH TELEDATA Inc.
 21832,Kellin Communications
@@ -11001,6 +10982,7 @@ asn,isp
 22163,Texas A&M University System Health Science Center
 22164,Clark County School District
 22167,Fintech
+22168,The Shadowserver Foundation Inc.
 22169,Omnis Network LLC
 22171,IP Services
 22172,Mitchell International
@@ -11097,6 +11079,7 @@ asn,isp
 22304,City of Marietta
 22306,eGov Jamaica Limited
 22310,LIFE Outreach International
+22311,FAIRNET LLC
 22312,TECO Energy Inc.
 22313,Supercable
 22314,Communications Corporation of America
@@ -11232,7 +11215,7 @@ asn,isp
 22504,LORETTO COMMUNICATION SERVICES INC.
 22507,Sprouts Farmers Market
 22509,Banfield
-22510,Braintree Payment Solutions LLC
+22510,PayPal Inc.
 22511,Presidio Networked Solutions LLC
 22512,OpenBSD
 22515,DEPARTAMENTO DE POLICIA FEDERAL
@@ -11405,7 +11388,7 @@ asn,isp
 22744,Wex Inc.
 22746,Lincoln County Telephone System Inc.
 22747,TulsaConnect
-22748,SkyNet Canada Wireless Network Inc.
+22748,Resilience Data Group Inc.
 22750,BCS Group (BCSNet)
 22751,Mothic Technologies LLC
 22752,MCJUNKIN CORPORATION
@@ -11555,6 +11538,7 @@ asn,isp
 22956,American Stock Transfer & Trust Co.
 22958,Fusion LLC
 22959,NOROC BROADBAND LLC
+22961,Atheral LLC
 22962,The Kennedy Center
 22964,ISP Telecom
 22965,VMWare Inc.
@@ -11607,7 +11591,7 @@ asn,isp
 23028,Team Cymru Inc.
 23029,E Street
 23030,University of Houston - Downtown
-23031,PIOVESAN AMPUERO EMILIO (TELECU UNILINKMASTER)
+23031,TELECU TELECOMUNICACIONES DEL ECUADOR TELECUSA S.A.S.
 23032,FCS Industries
 23033,Wowrack.com
 23034,The Descartes Systems Group Inc.
@@ -11653,7 +11637,7 @@ asn,isp
 23093,HealthMarkets Inc.
 23094,hibu inc.
 23095,SHARP HealthCare
-23096,Tranzact
+23096,Controlled Networks Solution LLC
 23097,COHEN & STEERS CAPITAL MGMT. INC.
 23098,American Airlines Inc.
 23099,DM Petroleum Operations Company
@@ -11748,7 +11732,7 @@ asn,isp
 23235,Boston Medical Center
 23237,McMaster University
 23240,LifeCare Assurance Company
-23241,big planet inc.
+23241,Nu Skin International Inc.
 23242,LLC City-Telekom
 23243,COMCEL GUATEMALA S.A.
 23245,Airbus Defense and Space Inc.
@@ -11756,7 +11740,7 @@ asn,isp
 23247,Samtec inc.
 23248,Paducah Power System
 23249,Avectra
-23250,Braintree Payment Solutions LLC
+23250,PayPal Inc.
 23251,Bridgestone Americas Inc.
 23252,WTC Communications
 23254,CARR COMMUNICATIONS INC.
@@ -11781,7 +11765,6 @@ asn,isp
 23282,Santa Barbara County
 23284,Complete Genomics Inc.
 23286,Hulu LLC
-23287,Discovery Communications
 23288,-Reserved AS-
 23290,El Paso County
 23291,Flagstar Bank
@@ -12000,7 +11983,6 @@ asn,isp
 23600,Korea Internet Security Agency
 23601,tsis
 23602,CS Loxinfo Public Company Limited
-23607,LeoNet Pvt. Ltd.
 23613,New Media Tokushima Co.ltd.
 23614,Kochi Systems Co. Ltd.
 23615,University of Shizuoka
@@ -12039,7 +12021,7 @@ asn,isp
 23664,Wipro Technologies
 23665,Seven Seven Global Services Inc.
 23666,PT Sistelindo Mitralintas
-23667,Commonwealth Bureau of Meteorology
+23667,Bureau of Meteorology
 23668,KOREA POLYTECHNIC UNIVERSITY
 23669,United IP
 23670,Oz Servers Pty Ltd
@@ -12071,7 +12053,7 @@ asn,isp
 23717,TRUE INTERNET CORPORATION CO. LTD.
 23719,Australian Academic and Research Network
 23720,Rakuten Mobile Inc.
-23722,Newcastle Permanent Building Society
+23722,Newcastle Greater Mutual Group Ltd
 23724,IDC China Telecommunications Corporation
 23726,India Internet Foundation
 23727,Managed Solutions Pty Ltd
@@ -12211,7 +12193,7 @@ asn,isp
 23949,PT Comtronics Systems
 23950,Generasi Indonesia Digital PT.
 23951,PT JEMBATAN CITRA NUSANTARA
-23952,Internet Service provider PT.
+23952,Thamrin Telekomunikasi Network PT.
 23953,PT ARTHA TELEKOMINDO
 23954,PT. Bank Mandiri (Persero) Tbk.
 23955,Tashi InfoComm Limited
@@ -12296,7 +12278,6 @@ asn,isp
 24097,CS Loxinfo Public Company Limited
 24101,Australian Academic and Research Network
 24103,Toluna India Private Limited
-24105,LeoNet Pvt. Ltd.
 24107,CommArc Consulting Ltd
 24109,WNS Global Services Pvt Ltd
 24110,IVE GROUP AUSTRALIA PTY LTD
@@ -12572,7 +12553,6 @@ asn,isp
 24549,Layerstack Limited
 24550,Websurfer Nepal Communication System Pvt. Ltd
 24554,Fivenetwork Solution India Pvt Ltd Internet
-24555,Asia Pacific Network Information Centre
 24556,Bijoy Online Ltd
 24558,Aditya Birla Management Corporation Limited
 24559,G-Mobile Co.Ltd
@@ -12691,7 +12671,7 @@ asn,isp
 24753,Globecomm Europe B.V.
 24756,Credit Agricole Bank Polska S.A.
 24757,EthioNet
-24758,Mikroel Ltd
+24758,MICROEL-AS
 24764,m.a.x. Informationstechnologie AG
 24766,GBC GmbH Internet Service Center Ingenieurgesellschaft fuer Systemsoftware und 
 24768,ALMOUROLTEC SERVICOS DE INFORMATICA E INTERNET LDA
@@ -12706,7 +12686,7 @@ asn,isp
 24780,Autostrade per l'Italia S.P.A.
 24783,PJSC Rostelecom
 24784,Payzone Group Unlimited Company
-24785,JOINTTRANSIT-AS
+24785,Broadband Hosting B.V.
 24786,ProSiebenSat.1 Tech Solutions GmbH
 24787,Sprint Net Ltd.
 24789,PJSC Rostelecom
@@ -12787,6 +12767,7 @@ asn,isp
 24944,Arena Bilgisayar San. ve Tic A.S
 24945,Telecommunication Company Vinteleport Ltd.
 24949,AXA Technology Services UK Limited
+24950,Venus REIT OOD
 24951,EveryWare AG
 24952,Firmenich SA
 24953,NETPLANET GmbH
@@ -12799,7 +12780,6 @@ asn,isp
 24964,A1 Bulgaria EAD
 24971,Master Internet s.r.o.
 24972,SIA LURSOFT IT
-24973,dogado GmbH
 24978,Telenec Telekommunikation Neustadt GmbH
 24981,AS Privatbank
 24982,BankMed sal
@@ -12840,7 +12820,7 @@ asn,isp
 25049,Shell Information Technology International B.V.
 25050,VOCALINK LTD
 25052,O.M.C. COMPUTERS & COMMUNICATIONS LTD
-25053,Generali IT-Solutions GmbH
+25053,EA-AS
 25054,GoeTel GmbH
 25055,Bank Millennium SA
 25056,SSI Schaefer IT Solutions GmbH
@@ -12918,7 +12898,6 @@ asn,isp
 25165,Entri LLC
 25166,MAIL.BG Ssc
 25167,TuK Datentechnik Oliver Knapp
-25171,Budapesti Corvinus Egyetem
 25173,ISKRA elektro in elektronska industrija
 25174,Osokorky Online LLC
 25176,AC-Net Externservice AB
@@ -12928,6 +12907,7 @@ asn,isp
 25183,TOV N-Tema
 25184,Afranet
 25185,PSI COMPANY LIMITED
+25186,Orange S.A.
 25189,AO Countrycom
 25190,UAB Kauno interneto sistemos
 25192,CZ.NIC z.s.p.o.
@@ -12980,7 +12960,6 @@ asn,isp
 25277,POSLuH d.o.o za informaticke usluge i trgovinu
 25278,Autoritatea pentru Digitalizarea Romaniei
 25279,Treml+Sturm Datentechnik GmbH
-25281,MTM s.a.r.l
 25282,Keeper-Soft Ltd.
 25285,Boletin Oficial del Estado
 25286,CANALWEB SAS
@@ -13072,10 +13051,12 @@ asn,isp
 25443,International Data Group Poland S.A.
 25444,Headquarters of National Armed Forces Republic of Latvia
 25445,Austria Card-Plastikkarten und Ausweissysteme Gesellschaft m.b.H.
+25446,ERTH-SAAS-AS
 25447,JM-DATA GmbH
+25448,PE Avtsynov Mikhail Alexandrovich
 25449,GPKK Gubernskie apteki
 25450,Toyota Boshoku Europe N.V.
-25451,LLC NTT Russia
+25451,RU LLC
 25454,ORANGE MOLDOVA S.A.
 25455,Guardfox SRL
 25456,Physical person-businessman Rostilo Sergey Alexandrovich
@@ -13126,7 +13107,6 @@ asn,isp
 25521,PJSC Industrial Media Network
 25522,Travelport Austria GmbH
 25523,Polskie_Radio_SA
-25525,Sentia Netherlands BV
 25526,LAMBDA LLC
 25527,Cartel-Sistem SRL
 25528,A1 Hrvatska d.o.o.
@@ -13339,6 +13319,7 @@ asn,isp
 25843,EvolveIP LLC
 25844,Skadden Arps
 25845,Virginia Mason Medical Center
+25849,Resilient Cyber Solutions
 25850,Carestream Health Inc.
 25851,ALTIUS Broadband LLC
 25853,Ellijay Telephone Company
@@ -13364,6 +13345,7 @@ asn,isp
 25886,HP Inc.
 25888,HP Inc.
 25889,BancorpSouth Inc.
+25890,BLUEFOX COMMUNICATIONS
 25891,School Of Visual Arts Inc.
 25892,VTX Telecom
 25894,MX2 Technology Inc
@@ -13422,6 +13404,7 @@ asn,isp
 25970,IAC Services LLC
 25971,Milwaukee Public Schools
 25972,SAP Labs
+25973,PacketExchange Inc
 25974,Hotwire Inc.
 25975,NET2ATLANTA.COM LLC
 25977,HOUSTON COMMUNITY COLLEGE SYSTEM
@@ -13615,6 +13598,7 @@ asn,isp
 26254,Mail2world INC.
 26255,Oakton Community College
 26257,County Of Washington
+26258,BASF Corporation
 26259,Telegia
 26261,E Squared C Inc.
 26263,City of Las Vegas
@@ -13777,7 +13761,6 @@ asn,isp
 26492,VCCCD
 26495,Coast to Coast Computer Products
 26496,GoDaddy.com LLC
-26497,Worldwide TechServices LLC.
 26498,Sanford Underground Laboratory at Homestake
 26500,Fisher-Titus Medical Center
 26503,Phone.com Inc.
@@ -13865,7 +13848,6 @@ asn,isp
 26631,Gunnison Valley Hospital
 26632,Connetrix
 26633,Texas Woman's University
-26636,QuickPacket LLC
 26637,Apeiron
 26638,Minneapolis Public Schools
 26643,-Reserved AS-
@@ -13900,6 +13882,7 @@ asn,isp
 26679,Heliacal Networks
 26682,-Reserved AS-
 26685,Franklin Resources
+26686,PowerHouse
 26688,PFTC Trading LLC
 26691,The CIT Group
 26694,Adm Investor Services Inc
@@ -14278,6 +14261,7 @@ asn,isp
 27339,HRL Laboratories LLC
 27343,Monsanto
 27344,Reading Hospital
+27347,Datapro Telecom Solutions LLC
 27348,Surfnet Communications Inc.
 27349,Definitive Networks Inc.
 27353,Indiana University Health Inc.
@@ -14327,7 +14311,6 @@ asn,isp
 27419,Big River Telephone
 27421,Applause
 27422,Tennessee State University
-27423,Caithness Energy LLC.
 27425,IdeaTek Telcom LLC
 27426,-Reserved AS-
 27429,SISU Medical Solutions LLC
@@ -14343,6 +14326,7 @@ asn,isp
 27453,Systemax Inc.
 27455,Williams Trading LLC
 27457,SL Green Realty Corp
+27458,Fast Lane Internet
 27459,Trust Company of America
 27461,Pomeroy IT Solutions Sales Company Inc.
 27462,KDV Technology and Consulting Services Inc.
@@ -14389,7 +14373,6 @@ asn,isp
 27541,Frontier Telenet
 27542,K+K America Corporation
 27543,Elliott Associates
-27544,VeriSign Global Registry Services
 27545,City National Bank
 27548,United States Advanced Network Inc.
 27550,Orgill Inc.
@@ -14774,7 +14757,7 @@ asn,isp
 28135,ASSOCIAÇÃO NACIONAL PARA INCLUSÃO DIGITAL - ANID
 28136,SPACnet - Projetos Avançados em Computação
 28137,Vialink Soluções de Tecnologia Ltda
-28138,SCW Telecom
+28138,WIRELESSNET INTERNET SOLUTIONS LTDA - ME
 28139,ItaSis Informática Ltda
 28140,Maxiweb Internet Provider
 28142,DIGITAL DESIGN SERVIÇOS DE TELECOMUNICAÇÕES EIRELI
@@ -14903,10 +14886,10 @@ asn,isp
 28296,Acessa Telecomunicações Ltda
 28298,SKY SERVIÇOS DE BANDA LARGA LTDA
 28299,Cyberweb Networks Ltda
-28300,MMA ACESSORIOS E SERVICOS DE INFORMATICA LTDA.
+28300,Speed Serviços de Internet Ltda
 28301,Departamento de Educação e Cultura do Exército
 28304,Banco Safra SA.
-28305,LGTEL61 INTERNET LTDA
+28305,PERSIS INTERNET LTDA
 28306,Voluy Telecom Eireli
 28308,Orion Telecomunicações Comercio e Serviços LTDA
 28309,WGO Telecomunicações Ltda
@@ -14935,7 +14918,6 @@ asn,isp
 28342,IMICRO PROVEDORES DE INTERNET LTDA
 28343,Unifique Telecomunicações SA
 28344,FIDELITY NATIONAL PARTICIPACOES E SERVICOS DE INFO
-28345,Núcleo de Inf. e Coord. do Ponto BR - NIC.BR
 28349,CABONNET INTERNET LTDA
 28351,Claro NXT Telecomunicacoes Ltda
 28352,NETSPEED LTDA
@@ -15001,8 +14983,11 @@ asn,isp
 28439,Mediared Telecomunicaciones S.A de C.V.
 28445,TECNOLOGIA EN TELECOMUNICACIONES DEL CENTRO S.A. DE C.V
 28446,NUEVA WAL MART DE MEXICO
+28447,ONFIBER SA DE CV
 28448,FABRICA DE PAPEL SAN FRANCISCO S.A. DE C.V.
 28449,Home Interiors de Mexico S. de R.L. de C.V.
+28451,Ignacio Sanchez Gutierrez
+28452,Radio Enlaces del Bajio
 28453,GK TELECOMUNICACIONES SA DE CV
 28454,Servicios DR de México SA de CV
 28457,UNIVERSIDAD LATINOAMERICANA S.C.
@@ -15113,7 +15098,7 @@ asn,isp
 28621,NetOeste Telecomunicações Ltda
 28623,PONTIFICIA UNIVERSID CATOLICA DO RIO GRANDE DO SUL
 28624,PROVEDORA CMA INTERNET LTDA
-28626,Dimension Data Brasil Tecnologia da Informacao
+28626,NTT BRASIL COMERCIO E SERVIÇOS DE TECNOLOGIA LTDA
 28627,EMBRAER - Empresa Brasileira de Aeronáutica SA
 28628,ERICSSON TELECOMUNICACOES S.A.
 28629,SENADO FEDERAL
@@ -15131,13 +15116,13 @@ asn,isp
 28644,Brasilsite Telecomunicações Ltda.
 28645,Itapecerica On-Line Telecomunicacoes e Informatica
 28646,Confederação Int. das Coop. Ligadas ao SICREDI
-28647,GIGA TV LTDA - EPP
+28647,CABONNET INTERNET LTDA
 28649,Desktop Sigmanet Comunicação Multimídia SA
 28650,Lojas Simonetti Ltda
 28652,Telecomunicações Nordeste Ltda.
 28653,WNET INTERNET LTDA.
 28654,Axtelecom Ltda
-28656,Blink Telecom
+28656,BTT TELECOMUNICACOES S.A.
 28657,MD Brasil - Tecnologia da Informação Ltda
 28658,Gigalink de Nova Friburgo Soluções em Rede Multimi
 28660,OPEN SYSTEM LTDA
@@ -15166,6 +15151,7 @@ asn,isp
 28693,KHS GmbH
 28695,Auto Trader Limited
 28698,UUNET Africa Lusaka Zambia
+28699,SIA BITE Latvija
 28701,vertical IT-Service GmbH
 28703,PJSC Vimpelcom
 28704,Proximus NV
@@ -15242,7 +15228,6 @@ asn,isp
 28820,Eastern telecommunication Company AD
 28824,EMP SECURE AS
 28825,CJSC Telekommunikacii 21
-28826,Bupa Denmark Services A S
 28830,Bilotcerkivskiy National Agrarian University
 28831,Phoenix Informatica SRL
 28832,MTS PJSC
@@ -15370,7 +15355,7 @@ asn,isp
 29030,Sa Telecable
 29031,Lugansk Telephone Company
 29032,DATANET LLC
-29033,Eckoh UK Limited
+29033,ECKOH
 29035,DaNet Ltd.
 29036,Notartel S.p.A.
 29037,Teliko gmbh
@@ -15390,6 +15375,7 @@ asn,isp
 29056,Citycom Telekommunikation GmbH
 29057,Texas Instruments Deutschland GmbH
 29058,International Olympic Committee (IOC)
+29060,ALKIM BASIN YAYIN ILETISIM LTD. STI.
 29061,Saimanet Telecomunications
 29062,V.O.K.S. LLC
 29063,Atos-NL-AS
@@ -15402,7 +15388,7 @@ asn,isp
 29072,Regional Digital Telecommunication Company LLC
 29074,FAUST ISP LTD.
 29075,IELO-LIAZO SERVICES SAS
-29076,Filanco LLC
+29076,Citytelecom LLC
 29077,MOSHAVERIN PARSAYE BARIN Company Ltd.
 29079,IRNA
 29080,Unicredit-Bulbank-AD
@@ -15540,11 +15526,11 @@ asn,isp
 29293,Luottokunta
 29296,Amt fuer Informatik und Organisation des Kantons Solothurn
 29297,Southern Communications Ltd
-29298,SUSE Software Solutions Germany GmbH
+29298,SUSE
 29300,BRDY AS
 29301,KARAVEL SAS
 29302,Hosting Services Inc
-29303,Ltd PermInterCom
+29303,PIC-AS
 29304,JSC SATIS-TL-94
 29305,OF.PL SP. Z O.O.
 29306,BANCA COMERCIALA INTESA SANPAOLO ROMANIA S.A.
@@ -15736,7 +15722,7 @@ asn,isp
 29634,ADB.RU Ltd.
 29636,catalyst2 Services Limited
 29637,Digital Optical Communications LTD
-29639,EUROCENTER GAMES SARL
+29639,Eurocenter Games Ltd
 29641,Allianz Suisse Versicherungs-Gesellschaft AG
 29643,DPI holding Gmbh
 29644,AIRSPEED COMMUNICATIONS UNLIMITED COMPANY
@@ -15968,7 +15954,6 @@ asn,isp
 29969,BI Incorporated
 29970,Devon Energy Corporation
 29972,Morehouse School of Medicine
-29973,DATA AXLE INC
 29974,Wightman Telecom
 29975,Vodacom
 29976,Oracle Corporation
@@ -15978,7 +15963,6 @@ asn,isp
 29984,Willamette University
 29985,AMN Healthcare
 29986,Gold Lasso Inc.
-29988,Rogers Communications Canada Inc.
 29989,URM Stores Inc
 29990,AppNexus Inc
 29992,Department of Veterans Affairs
@@ -16112,6 +16096,7 @@ asn,isp
 30187,Broward County
 30188,Televergence Solutions Inc.
 30189,Crump Life Insurance Services Inc
+30192,Hume Lake Christian Camps
 30193,Los Angeles Unified School District
 30196,CAPS
 30197,Best Western International
@@ -16135,7 +16120,6 @@ asn,isp
 30231,Arcadia University
 30232,M3 Consulting LLC
 30233,Paychex Incorporated
-30235,Twinservers Hosting Solutions Inc.
 30236,Cronomagic Canada Inc.
 30237,Chaney Systems Inc.
 30238,Cisco Systems Ironport Division
@@ -16158,7 +16142,6 @@ asn,isp
 30262,High 5 Games LLC
 30263,Cal-Ore Telephone Co.
 30264,Columbia Power and Water Systems
-30265,-Reserved AS-
 30268,CITY OF CHASKA CHASKANET
 30269,Door County Broadband LLC
 30272,Government of Grenada
@@ -16239,7 +16222,6 @@ asn,isp
 30387,National Institutes of Health
 30390,Imerys Pigments
 30391,ISC INTERNATIONAL LTD.
-30392,The Advisory Board Company
 30393,Bill Me Later
 30394,Jennison Associates LLC
 30395,SWEDISHAMERICAN HEALTH SYSTEM CORPORATION
@@ -16298,6 +16280,7 @@ asn,isp
 30467,Vonage Holdings Inc.
 30468,Vonage Holdings Inc.
 30469,Vonage Holdings Inc.
+30470,TELEPERFORMANCE USA
 30471,Raleigh Film & Television Studios Inc.
 30472,East-West Center
 30473,Ethan Allen Global Inc.
@@ -16354,7 +16337,6 @@ asn,isp
 30551,AK Steel Corporation
 30553,Thorek Memorial Hospital
 30554,Levy Restaurants
-30555,Faucet Direct Inc.
 30558,The Lincoln Electric Company
 30559,Navtech Systems Support Inc.
 30560,General Electric Company
@@ -16428,6 +16410,7 @@ asn,isp
 30680,Fidelity National Information Services Inc.
 30681,John Carroll university
 30682,NCS Pearson Inc.
+30685,KIEHL IT SERVICES LLC
 30686,Level 3 Communications Inc.
 30687,National Weather Service Southern Region Headquarters
 30688,FastTrack Communications Inc.
@@ -16478,7 +16461,7 @@ asn,isp
 30758,DT Iletisim Hizmetleri A.S.
 30761,Interpol
 30764,PODA a.s.
-30766,GGew net GmbH
+30766,GGEWNET-AS
 30767,JSC Tagil Telecom
 30768,Lantek LLC
 30769,The Berkeley Group plc
@@ -16538,7 +16521,6 @@ asn,isp
 30860,Virtual Systems LLC
 30862,Atos AG
 30864,ELAVON FINANCIAL SERVICES LIMITED
-30865,TAS-IX NGO Center for interoperability data
 30866,ECI Telecom Ltd
 30869,State Educational Institution of Higher Professional Education Moscow State Ra
 30870,Trans-iX B.V.
@@ -16593,7 +16575,7 @@ asn,isp
 30942,HW STUDIO Szamitastechnikai Kereskedelmi es Szolgaltato Korlatolt Felelossegu
 30943,ZAO Web Hosting
 30948,S.C UNIMAT S.R.L
-30950,Eviny-AS30950
+30950,Eviny Digital AS
 30952,KIT Finance (JSC)
 30953,Niko-2001 LLC
 30960,OOO Scientific-Production Center Tetra
@@ -16638,7 +16620,7 @@ asn,isp
 31028,Novoe Kabelnoe Television Ltd.
 31029,M-REAL NET Ltd.
 31032,Call Center Poland S.A
-31034,Aruba S.p.A.
+31034,ARUBA-ASN
 31035,LLC Unlimited Telecom
 31036,JSC ER-Telecom Holding
 31037,Wave Net LLC
@@ -16700,7 +16682,7 @@ asn,isp
 31124,Societe Electrique des Forces de l'Aubonne
 31125,Mavra VerwaltungsgmbH
 31126,SODETEL S.A.L.
-31127,SATRO s.r.o.
+31127,SATRO
 31129,Miedzynarodowe Targi Poznanskie Sp. z o.o.
 31131,GRUNDFOS HOLDING A/S
 31133,PJSC MegaFon
@@ -16864,7 +16846,7 @@ asn,isp
 31413,Unicer Bebidas SA
 31415,SPETSVYSOTSTROY JSC
 31417,Mivtach Simon Insurance Agencies Ltd
-31418,SOGECABLE S.A.
+31418,Telefonica Audiovisual Digital S.L.U.
 31420,Terasyst Ltd
 31423,Przedsiebiorstwo PROMAX Spolka Jawna Zofia Formanek-Okroj Wieslaw Okroj
 31424,Netrics Zuerich AG Opfikon
@@ -16918,7 +16900,7 @@ asn,isp
 31496,PJSC Rostelecom
 31497,Comissao do Mercado de Valores Mobiliarios
 31499,Ekaterinburg-2000 LLC
-31500,Global Network Management Inc
+31500,GLOBALNET-AS
 31503,Master IT Ltd.
 31504,SVT-COM LTD
 31505,Przedsiebiorstwo Produkcyjno-Uslugowo-Handlowe 'Duna' Dunaj Piotr
@@ -16938,14 +16920,14 @@ asn,isp
 31529,DENIC eG
 31531,TOV Point
 31534,ING Bank N.V. - Sofia Branch
-31537,Erdee Media BV
+31537,Erdee Media B.V.
 31540,Aquanet S.A.
 31541,Krea Icerik Hizmetleri ve Produksiyon A.S
 31542,Trade Industrial Company Omega-Avtopostavka Ltd
 31543,myNet GmbH
 31545,GENERALI zavarovalnica d.d.
 31547,McKinsey & Company Inc United Kingdom
-31549,RASANA
+31549,Aria Shatel Company Ltd
 31550,DYCKERHOFF GmbH
 31554,LANSOFT DATA SRL
 31556,ARKADA-X Ltd.
@@ -16971,8 +16953,7 @@ asn,isp
 31589,Zaporizhstal Integrated Iron & Steel Works JSC
 31590,Rackhosting.com ApS
 31592,Thomas Kernen
-31593,TV Company Black Sea Ltd
-31595,DATACENTRES LIMITED
+31595,Awell-Wireless-AS
 31596,Ogilvy GmbH
 31598,FOP Savostin Oleg Lubobisch
 31599,Rimco Ryszard Slomczynski
@@ -16990,10 +16971,10 @@ asn,isp
 31621,QXL-net-Poland-AS
 31624,Verotel International B.V.
 31626,OOO ZVI Telecom
-31627,Servicios Para Medios De Pago S.A.
+31627,REDSYS SERVICIOS DE PROCESAMIENTO SL
 31628,Getfiber Sp. z o.o.
 31629,LOREAL SA
-31631,Telcom Networks Limited
+31631,TELCOM
 31632,OAG Aviation WorldWide Limited
 31633,PP Lan-Telecom
 31634,Servanet AB
@@ -17016,7 +16997,7 @@ asn,isp
 31660,PIXTEL
 31662,connecta ag
 31669,ScaleCity BVBA
-31671,AKT Informationssysteme AG
+31671,Innowerk-IT GmbH
 31673,Uniserver Internet B.V.
 31674,T.C. Maliye Bakanligi Gelirler Genel Mudurlugu
 31676,PENTALOG ROMANIA SRL
@@ -17058,7 +17039,6 @@ asn,isp
 31738,Novosibirsk Regional Center of Distance Education
 31742,Sota Solutions Ltd.
 31743,Interpublic GIS (UK) Ltd
-31745,Spire Technologies
 31746,Franklin and Marshall College
 31747,BlackRock Financial Management Inc.
 31750,Methodist Hospital of Memphis
@@ -17114,7 +17094,6 @@ asn,isp
 31813,-Reserved AS-
 31814,FlightSafety International
 31815,Media Temple Inc.
-31816,National Marrow Donor Program
 31817,Progress Software Corp - CSG
 31819,Praeses Corporation
 31821,Riverdale Country School
@@ -17205,6 +17184,7 @@ asn,isp
 31965,COYOTE LOGISTICS LLC
 31966,CSAA Insurance Exchange
 31967,Florida Institute of Technology
+31968,Adamo Creative LLC
 31971,UMPQUA BANK
 31972,Emagine Concept Inc.
 31973,Wisconsin Physicians Service Insurance Corp.
@@ -17347,7 +17327,6 @@ asn,isp
 32180,ROCKET SOFTWARE INC
 32181,GigeNET
 32182,Grange Mutual Casualty Co.
-32185,Transplant Resource Center of Maryland Inc.
 32186,FUJIFILM Manufacturing USA Inc
 32187,-Reserved AS-
 32189,Universidad del Sagrado Corazon
@@ -17399,7 +17378,7 @@ asn,isp
 32257,A&E Television - Stamford
 32258,Velocity Fusion
 32260,Healthpeak Properties Inc.
-32261,SUBSPACE
+32261,Neoatomic LLC
 32262,Industry I-Net Inc.
 32263,Catalyst Repository Systems Inc.
 32264,KMTelecom
@@ -17534,6 +17513,7 @@ asn,isp
 32459,Branch Networks LLC
 32460,C.O.P.S. Monitoring
 32461,ARE-East River Science Park LLC
+32463,Chippewa of the Thames First Nation
 32464,University Of Illinois College Of Medicine At Peoria
 32467,SFA Holdings Inc.
 32468,Correctional Medical Services
@@ -17567,6 +17547,7 @@ asn,isp
 32511,Asante Health System
 32512,AMERICAN PUBLIC HEALTH ASSOCIATION
 32513,BATTELLE MEMORIAL INSTITUTE
+32516,Impala Asset Management LLC
 32517,Dot Internet Solutions Inc.
 32520,Diebold Nixdorf Incorporated
 32521,Canadian Natural Resources Limited
@@ -17628,6 +17609,7 @@ asn,isp
 32601,Abilene Christian University
 32602,ROI Solutions LLC
 32603,Matrix Applications LLC
+32604,uwalkin IT Solutions
 32605,BraveSoftTech Inc
 32606,The Marcus Corporation
 32607,Canaccord Genuity LLC
@@ -17643,6 +17625,7 @@ asn,isp
 32624,TELSTAR1 INTERNET SERVICES
 32625,OFFSITE LLC
 32626,Houston Area Library Automated Network ( HALAN )
+32627,BIDS Trading L.P.
 32629,City of Charlotte
 32630,Patterson Companies Inc.
 32634,FULL SERVICE NETWORK LP
@@ -17702,6 +17685,7 @@ asn,isp
 32713,General Electric Consumer Products
 32715,ILLINOIS CENTRAL COLLEGE
 32717,SNET ANGOLA
+32719,Basin Electric Power Coop
 32720,Canon USA Inc.
 32721,WesBanco Bank Inc.
 32726,Liberty University
@@ -17863,7 +17847,6 @@ asn,isp
 32958,Heritage Medical Associates P.C.
 32959,LiteUp Inc.
 32969,Global Cash Access Inc.
-32970,Fidelity National Information Services Inc.
 32971,Howard Community College
 32973,Bracebridge Capital LLC
 32974,Kaiser Foundation Health Plan Inc.
@@ -17871,6 +17854,7 @@ asn,isp
 32980,NeuStar Inc.
 32982,U.S. Department of Energy
 32984,Rue La La Inc
+32985,Follett School Solutions LLC
 32986,Key Developments LLC
 32987,Clnetworks Inc
 32989,Next Level IT L.L.C.
@@ -17940,7 +17924,6 @@ asn,isp
 33099,Digital Technology Solutions Inc.
 33100,DHR INTERNATIONAL
 33103,OpenMarket
-33104,The Jellyvision Lab Inc.
 33105,The Halton Board of Education
 33110,Manitoba Blue Cross
 33111,Calix Inc.
@@ -17994,7 +17977,6 @@ asn,isp
 33187,Sam Houston State University
 33189,South Dakota Board of Regents
 33190,KAZ INCORPORATED
-33191,Buc Mobile Inc
 33192,National Aquarium in Baltimore
 33193,Heart of the Rockies Regional Medical Center
 33194,Chemical Abstracts Service
@@ -18039,7 +18021,6 @@ asn,isp
 33258,Computer Solutions
 33260,Miva Merchant Inc.
 33261,Power Home Remodeling LLC
-33264,SYNDEO LLC
 33265,Lee Enterprises Incorporated
 33267,First Republic Bank
 33268,TRUST LLC
@@ -18119,7 +18100,6 @@ asn,isp
 33381,ABS Investment Management LLC
 33382,CRYPTIC STUDIOS INC.
 33383,HP Inc.
-33385,Mepeeps Inc
 33387,Nocix LLC
 33389,College Boreal
 33390,READYTECH CORPORATION
@@ -18136,7 +18116,6 @@ asn,isp
 33409,CBI Connect Inc.
 33411,Bright Pattern Inc
 33412,Keepit A/S
-33413,Beta Offshore
 33414,Kent County Information Systems
 33415,Perkins Coie LLP
 33416,West Tennessee Healthcare
@@ -18259,19 +18238,17 @@ asn,isp
 33598,The Goldman Sachs Group Inc.
 33599,Reliable Reports of Texas Inc.
 33600,Tennessee Technological University
+33601,Outreach Broadband Inc.
 33602,Tele-Universite
 33603,DOMINOS PIZZA LLC
 33604,Burlington Telecom
 33606,TekLinks Inc.
-33607,Weidenhammer
 33608,Hood College
 33610,SAPUTO INC
 33611,Nuvodia LLC
-33613,Rodan & Fields LLC
 33614,City of San Diego
 33615,Envision Healthcare Holdings Inc
 33616,Co-Mo Comm Inc
-33618,Logical Solutions Inc
 33619,Advanced Micro Devices Inc.
 33620,Altrinsic Global Advisors LLC
 33621,COMMNET WIRELESS LLC
@@ -18315,6 +18292,7 @@ asn,isp
 33684,-Reserved AS-
 33686,SUN DOT COMMUNICATIONS LLC.
 33690,Aureon Network Services
+33691,Element Critical
 33692,Macalester College
 33693,TierPoint LLC
 33695,ScaleMatrix
@@ -18350,7 +18328,7 @@ asn,isp
 33753,West Bend Mutual Insurance Company
 33759,Regeneron Pharmaceuticals Inc.
 33762,RAIN GROUP HOLDINGS (PTY) LTD
-33763,Internet Technologies Namibia
+33763,Paratus Telecommunications Limited
 33764,African Network Information Center - ( AfriNIC Ltd. )
 33765,TANZANIA TELECOMMUNICATIONS CO. LTD
 33769,IT Dynamics
@@ -18364,7 +18342,6 @@ asn,isp
 33785,City Net Telecom
 33786,K-Net
 33788,Kanar Telecommunication (Canar Telecom Co.Ltd)
-33789,Ministry of Communications and Information Technology
 33796,Bolignet-Aarhus
 33797,OOO WestCall Ltd.
 33801,Ukkoverkot Oy
@@ -18415,7 +18392,6 @@ asn,isp
 33879,Forth Ports Public Limited Company
 33883,TRIOPTIMUM s.r.o.
 33885,Ownit Broadband AB
-33886,Stockholm Internet eXchange AB
 33888,Federal State Unitary Enterprise State Scientific-research Institute of the Ci
 33892,The municipal enterprise Severskelektrosviaz
 33894,MTS PJSC
@@ -18459,7 +18435,7 @@ asn,isp
 33959,METRO Kereskedelmi Kft.
 33960,Asya Katilim Bankasi A.S.
 33961,Telcor Communications SRL
-33962,Filanco LLC
+33962,Citytelecom LLC
 33964,Sogei Societa' Generale d' Informatica S.p.A.
 33965,LITECOM AG
 33967,Lancashire County Council
@@ -18488,7 +18464,6 @@ asn,isp
 34001,SIA LIVAS NET
 34002,Interxion France S.A.
 34006,SPIE ICS SASU
-34007,Proquote Limited
 34010,Yahoo! UK Services Limited
 34011,Host Europe GmbH
 34012,Sentia Netherlands BV
@@ -18507,7 +18482,6 @@ asn,isp
 34042,MT-Telecom LLC
 34045,MCX SERWIS Sp. z o.o.
 34046,ShieldTelecom Ltd.
-34047,Bystrov Dmitriy Sergeevich
 34049,H-data spol. s r.o.
 34052,OOO NPP Logika
 34056,Kyiv Optic Networks ltd
@@ -18529,7 +18503,6 @@ asn,isp
 34086,T-Systems International GmbH
 34087,NTE MARKED AS
 34088,Host Europe GmbH
-34089,LLC NEARMEDIC PLUS
 34090,paysafecard.com Wertkarten AG
 34093,Nordic Telecom Regional s.r.o.
 34094,JSC Credit Agricole Bank
@@ -18732,7 +18705,7 @@ asn,isp
 34418,Global Bilgi Pazarlama ve Cagri Hizmetleri A.S.
 34420,Netaffairs Hosting B.V.
 34422,LPG HC
-34424,Polskie Gornictwo Naftowe i Gazownictwo SA
+34424,Polski Koncern Naftowy Orlen S.A.
 34426,Shabakah Net
 34427,Comsenso BV
 34428,Giulio Lo Presti
@@ -18780,6 +18753,7 @@ asn,isp
 34497,Logicalis Guernsey Ltd
 34499,BlackBox Hosting Ltd
 34500,CTSPI Company
+34501,Viva Telecom SRL
 34502,Multikom Austria Telekom GmbH
 34503,YouNet Ltd.
 34506,Dagrofa ApS
@@ -18855,7 +18829,6 @@ asn,isp
 34596,HVfree.net servis. s.r.o.
 34597,LLC SUNLIGHT
 34599,EI TOWERS S.P.A.
-34600,6G Networks Sp. z o. o.
 34601,Viewpoint Photo SRL
 34602,MEGASVYAZ LLC
 34604,Institute of Soil Science and Plant Cultivation - State Research Institute
@@ -18889,7 +18862,6 @@ asn,isp
 34646,Arne Steinkamm
 34648,Unicredit Bank SA
 34650,A.D.B. Analisi Dati Borsa S.p.A.
-34653,Focus Nunti Ltd.
 34654,Merula Limited
 34655,JWE S.a r.l.
 34656,COMPENSA S.A.
@@ -18932,7 +18904,7 @@ asn,isp
 34705,Stofa A/S
 34706,JSC NPF Deserving Future
 34707,State Educational Institution of higher professional Education 'Kemerovo State 
-34709,CJSC Settelecom
+34709,CJSC RACE TELECOM
 34711,ICE Computers SRL
 34714,OPTICNET - SERV S.R.L.
 34715,AMRON Ltd.
@@ -19034,7 +19006,7 @@ asn,isp
 34847,LAROIAS COMPUTERS SRL
 34848,J2 Global Denmark A/S
 34849,Federal State Institution of Higher Professional Education Peoples Friendship 
-34851,FSS
+34851,PENSION AND SOCIAL INSURANCE FUND OF THE RUSSIAN FEDERATION
 34852,AYALON INSURANCE COMPANY LTD
 34853,ZAO Prime
 34854,Staclar Carrier Ltd.
@@ -19052,7 +19024,6 @@ asn,isp
 34871,Part Financial Information Processing Co.
 34872,Cedric Rossius
 34873,ACSS - Administracao Central do Sistema de Saude I.P.
-34875,PJSC Rostelecom
 34876,SMART SISTEMZ TECHNOLOJI MMM
 34877,JSC PROCREDIT BANK
 34878,Karlsruhe Institute of Technology
@@ -19117,7 +19088,7 @@ asn,isp
 34953,RelAix Networks GmbH
 34955,Martin Vicenik
 34958,Xavier Beaudouin
-34959,KVIKTEL LLC
+34959,PROCLOUD
 34960,Netcetera AG
 34961,UAB GNT Lietuva
 34964,Ripe-NetWorks e.U.
@@ -19167,7 +19138,7 @@ asn,isp
 35022,Gazprombank OJSC
 35023,GORENJSKA BANKA D.D. KRANJ
 35024,Axit Automatisering B.V.
-35025,ZAO Teleconnect
+35025,TC-AS
 35026,Gelicon-Apple Limited liability company
 35027,SEVENP B.V.
 35030,Comfone AG
@@ -19229,7 +19200,6 @@ asn,isp
 35112,GBN group Ltd
 35114,GIUNTI EDITORE S.P.A.
 35115,BESTGO.PL SP. Z O.O.
-35116,InfoCasa Information Technologies S.L.
 35117,Verivox GmbH
 35119,Garden Pro LLC
 35120,WORKING GROUP TWO AS
@@ -19304,7 +19274,6 @@ asn,isp
 35214,Nordic Telecom Regional s.r.o.
 35215,MERITA Maria Zabrocka
 35220,SPOTX INC.
-35222,Blue Air
 35223,Hoi Internet AG
 35224,PLINQ BV
 35225,Hrvatske ceste
@@ -19415,6 +19384,7 @@ asn,isp
 35372,Mizban Dadeh Iranian Co. (Ltd)
 35373,Valsts akciju sadiedriba Latvijas Pasts
 35374,JSC ER-Telecom Holding
+35375,John Macleod trading as Howick Digital
 35377,OOO ZVI Telecom
 35378,Sat Film Sp. z o.o. i Wspolnicy Sp. k.
 35381,Nikita Sergienko
@@ -19504,7 +19474,7 @@ asn,isp
 35505,Pronet Solutii IT SRL
 35506,INFORMATION SOCIETY S.A.
 35507,BEGASOFT AG
-35508,iHome LLC
+35508,TeraNet LLC
 35509,Superonline Iletisim Hizmetleri A.S.
 35512,Dynamic Connection SRL
 35514,GEOX S.P.A.
@@ -19585,7 +19555,7 @@ asn,isp
 35627,Tom Laermans
 35629,Technical Solutions service Company for Telecommunications and Information Tech
 35631,Smart Telecom Limited
-35632,Iris 64
+35632,Societe Francaise Du Radiotelephone - SFR SA
 35635,Net Jump GmbH
 35636,SIA First Data Latvia
 35637,WAOO A/S
@@ -19625,7 +19595,7 @@ asn,isp
 35689,The enterprise with foreign investments TV and Radio Company NBM Ltd
 35690,IRAN INSURANCE JOINT STOCK COMPANY
 35691,Plan Communications Limited
-35695,FALCON Bartosz Kalinski
+35695,F-NET sp. z o.o.
 35698,Salinen Austria AG
 35699,Adamo Telecom Iberia S.A.
 35700,Bilbao Bizkaia Kutxa
@@ -19686,8 +19656,6 @@ asn,isp
 35778,Mar-Kom S.C. Arkadiusz Czyzak Wojciech Mrugalski
 35779,mCloud doo
 35780,Logix Telecom LLC
-35781,LLC POLYUS-2014
-35782,Decco B.V.
 35783,Info-connect Ltd.
 35785,Zepter IT Sp. z o.o.
 35787,Internet Cafe uslugi informatyczne Miroslaw Backiel
@@ -19773,6 +19741,7 @@ asn,isp
 35927,Banque Laurentienne du Canada
 35928,BECKMAN COULTER INC.
 35929,Bend-La Pine Schools
+35930,Datacenter on demand LLC
 35931,Konica Minolta Healthcare Americas Inc.
 35932,Splash Wireless Internet LLC
 35934,Republic Services Inc.
@@ -19784,7 +19753,6 @@ asn,isp
 35944,Meyer Sound
 35946,Fair Isaac Corporation
 35947,Storagepipe Solutions Inc.
-35948,-Reserved AS-
 35950,Volvo Group North America Inc.
 35951,Comtech Telecommunications Corp.
 35953,NTT Global Networks Incorporated
@@ -19950,10 +19918,8 @@ asn,isp
 36197,Computer Data Inc.
 36198,ZDM Network Solutions LLC
 36199,Cree Lighting a company of IDEAL INDUSTRIES INC
-36200,Rev.io
 36201,B2X Online Inc
 36203,Stellar Association LLC
-36204,Ivanti Inc.
 36205,PwC Management Services LP
 36207,GRAND COUNTY INTERNET SERVICES INC.
 36209,TEGNA Inc.
@@ -20197,6 +20163,7 @@ asn,isp
 36555,City Of Vernon
 36556,Wave Rural Connect LLC
 36557,Ramius Capital Group L.L.C.
+36561,Google LLC
 36562,Practice Velocity LLC.
 36564,Siemens Industry Software Inc.
 36565,County of Montgomery
@@ -20233,7 +20200,6 @@ asn,isp
 36602,Dial Global
 36603,AIRLINES REPORTING CORPORATION
 36605,Lancity Networks Inc.
-36606,VOCUS INC
 36607,Association for Computing Machinery Inc
 36610,East Kentucky Network LLC.
 36612,Clark County WA
@@ -20246,7 +20212,6 @@ asn,isp
 36637,Flying Horse Holdings LLC
 36638,Jackson Rancheria Band of Miwuk Indians
 36640,SLAS Consulting LLC
-36642,Property Insight LLC.
 36644,4Voice LLC
 36645,Genuity Networks LLC
 36646,Oath Holdings Inc.
@@ -20274,7 +20239,6 @@ asn,isp
 36679,-Reserved AS-
 36681,Tritech Communications Inc.
 36682,NEUROMETRIX INC.
-36683,Willamette Education Service District
 36684,Zwick Tech Labs LLC
 36686,Vanco Payment Solutions LLC
 36687,WiLine Networks Inc.
@@ -20304,6 +20268,7 @@ asn,isp
 36721,CONNECT powered by American Family Insurance
 36723,Waukesha County
 36724,Hanson Communications Inc.
+36725,Collectors Universe Inc.
 36726,Arrow International Inc.
 36728,Emery Telcom
 36729,Brash Concepts Inc.
@@ -20633,6 +20598,7 @@ asn,isp
 37233,Zamani Telecom Niger SA
 37235,Mimecast South Africa
 37236,Reflex Solutions
+37238,Africa Online Operations (Mauritius) Limited
 37239,ICTGlobe Management (Pty) Ltd
 37244,DT DOBIE KENYA LTD
 37247,Jhpiego Corporation
@@ -20691,6 +20657,7 @@ asn,isp
 37334,JASCO CONVERGED SOLUTIONS (Pty) Ltd
 37336,Econet - Leo SA
 37337,MUNI S.A
+37338,AS37338
 37339,Network International Payment Services
 37340,SPECTRANET LIMITED
 37341,GLO MOBILE GHANA LTD
@@ -20708,7 +20675,6 @@ asn,isp
 37353,Seacom Western Cape (Pty) Ltd
 37354,SawaSawa.com
 37356,Huge Networks (Pty) Ltd
-37357,Huge Networks (Pty) Ltd
 37358,BitCo
 37362,Tanzania Ports Authority
 37363,Faircape
@@ -20733,7 +20699,6 @@ asn,isp
 37403,Info-Gro (PTY) Ltd
 37405,University of Nigeria
 37406,RCS-Communication
-37408,National Water And Sewerage Corporation
 37410,Lonestar Communications Corporation
 37411,First in Business Solutions
 37412,The Packet Hub
@@ -20742,7 +20707,6 @@ asn,isp
 37415,AFRINET SA
 37418,Guaranty Trust Bank Sierra Leone Limited
 37419,Tanzania Revenue Authority
-37420,University of JOS
 37421,Cellulant LTD
 37424,SPACETEL BENIN SA
 37425,SomCable
@@ -20786,6 +20750,7 @@ asn,isp
 37482,Broadband Innovations
 37483,ORANGE RDC
 37484,Lasernet (Pty) Ltd
+37485,Data Control and Systems
 37487,guineanet
 37488,Altron TMT (Pty) Ltd
 37489,ABARI COMMUNICATIONS MOZAMBIQUE LDA
@@ -20820,7 +20785,6 @@ asn,isp
 37531,Airtel Niger
 37532,Zambia Research and Education Network (ZAMREN)
 37534,Guaranty Trust Bank (Ghana) Limited
-37537,Altron Botswana Proprietary Limited
 37540,Winrock Nigeria Limited
 37541,Chinguitel S.A
 37542,Iclix (PTY) Ltd
@@ -20858,7 +20822,6 @@ asn,isp
 37586,ONATEL
 37587,UNION BANK OF NIGERIA PLC
 37588,ORLEAN INVEST AFRICA LIMITED
-37589,It Is Internet Pty Ltd
 37590,Banco Comercial Angolano
 37591,AS37591
 37593,Infrasat
@@ -20947,7 +20910,6 @@ asn,isp
 37723,Cajutel (SL) Sarl Limited
 37724,TFyreIT (PTY) LTD
 37725,101 SYSTEMS
-37730,United S.A.S.
 37769,TISPA - Tanzania Internet Service Providers Association
 37888,HORIBA Ltd.
 37889,J-PARC Center
@@ -20985,7 +20947,6 @@ asn,isp
 37978,Telstra Corporation Limited
 37979,ThePacific.Net Ltd
 37983,CS Loxinfo Public Company Limited
-37988,FlowVPS
 37989,eSys Technologies Pte Ltd
 37990,NRG Gladstone Operating Services Pty Ltd
 37992,Thammasat University
@@ -21004,7 +20965,7 @@ asn,isp
 38011,GramBangla Systems Limited
 38012,Downer EDI Limited
 38015,Capgemini Technology Services India Limited
-38016,Alcatel Australia
+38016,Nokia Solutions and Networks Australia Pty Ltd
 38017,Square InformatiX Ltd
 38019,China Mobile
 38021,Network of Indian Institute of Foreign Trade
@@ -21032,7 +20993,6 @@ asn,isp
 38057,Dell (China) Co.Ltd
 38058,AMDOCS DEVELOPMENT CENTRE INDIA LLP
 38060,BIZNET
-38062,Betfair Technology Pty. Ltd.
 38064,InternetNZ
 38066,TPG Internet Pty Ltd
 38067,Radiant Communications Ltd
@@ -21124,7 +21084,6 @@ asn,isp
 38193,TRANSWORLD ASSOCIATES (PVT) LIMITED
 38195,SUPERLOOP (AUSTRALIA) PTY LTD
 38196,Mobilink GSM Pakistan Mobile Communication Ltd.
-38197,Sun Network (Hong Kong) Limited
 38198,Digicel Tonga Ltd.
 38200,BTS Communications (BD) Ltd
 38201,Tonga Communications Corporation
@@ -21145,6 +21104,7 @@ asn,isp
 38227,Computer Services Ltd
 38228,Samart Infonet Co. Ltd.
 38229,Lanka Education and Research Network
+38230,Forhosting
 38231,CS Loxinfo Public Company Limited
 38232,LINK ADMINISTRATION HOLDINGS LIMITED
 38233,Evolving Systems Networks India Pvt
@@ -21160,7 +21120,6 @@ asn,isp
 38248,VTC-VN
 38249,KIS Viet Nam Securities Corporations
 38251,VNDirect Securities Corporation
-38252,CAPGEMINI VIETNAM CO. LTD
 38253,Hanoi Telecom JSC
 38254,Pang-Wei Tsai
 38256,Bengal Group Ltd.
@@ -21171,7 +21130,7 @@ asn,isp
 38263,VOCUS PTY LTD
 38264,Wateen Telecom Limited
 38265,Office of Info.Tech. Admin. for Educational Development
-38266,Hutchison Max Telecom Limited
+38266,Vodafone Idea Ltd. (VIL)
 38271,CyberTech House
 38272,China Education and Research Network (CERNET)
 38274,PT MEGAXUS INFOTECH
@@ -21698,7 +21657,7 @@ asn,isp
 39077,Aschendorff Medien GmbH & Co. KG
 39078,GDM Konsult AB
 39081,RAL INFO SERV SRL
-39083,David Froehlich
+39083,DAVID-FROEHLICH
 39084,LLC RINET
 39085,Torunski Zaklady Materialow Opatrunkowych S.A.
 39086,Nexway SAS
@@ -21845,7 +21804,6 @@ asn,isp
 39285,Gartner KG
 39286,NitroServ SARL
 39287,ab stract
-39288,Nette sp. z o.o.
 39289,OOO MediaSeti
 39290,METRO Digital GmbH
 39291,macroIS GmbH
@@ -21965,6 +21923,7 @@ asn,isp
 39444,OWENTIS SAS
 39445,LLC Netiks
 39447,ZERTIA TELECOMUNICACIONES S.L.
+39448,MYNET S.R.L.
 39449,Fastcom Broadband Limited
 39451,Melbourne Server Hosting Ltd
 39452,Myphone LLC
@@ -22093,10 +22052,11 @@ asn,isp
 39606,Automatic Answer Communication AAC
 39608,Lanet Network Ltd
 39610,LCH Group Holdings Limited
-39611,TIBO COMMUNICATIONS SH.P.K
+39611,Tibo-AS
 39612,Tevia Ltd.
 39614,Dawico Deutschland GmbH
 39615,XrealNet Internet Ltd
+39616,BZSOLUTIONS SRL
 39617,Chris Burton t/a 8086 Consultancy
 39618,HostCram LLC
 39620,NG BAILEY IT SERVICES LIMITED
@@ -22105,6 +22065,7 @@ asn,isp
 39624,KPMG AG
 39627,Sky UK Limited
 39628,FirstLink Networks B.V.B.A.
+39629,LANSOFT DATA SRL
 39631,APR Media Services - OMD Ltd.
 39632,Eesti Pank
 39633,NIU SOLUTIONS Limited
@@ -22209,8 +22170,6 @@ asn,isp
 39789,Limited Liability Company Active
 39790,Web4U s.r.o.
 39791,Telco Pro Services a. s.
-39792,Nicolas CHEVRIER
-39793,UNITEL-MEDIA Sp. z o.o.
 39794,Elektrownia Kozienice S.A
 39795,Zeitverlag Gerd Bucerius GmbH & Co. KG
 39797,Conectys Serv Telecom SRL
@@ -22320,7 +22279,7 @@ asn,isp
 39927,E-Light-Telecom Ltd.
 39928,Broadcasting TV Company Studio 1+1
 39930,EPS Distribution Grup SRL
-39931,SARL Franche-comte Net
+39931,FRANCHE COMTE NET SAS
 39932,Ergon Informatik AG
 39934,Roico Net Kft
 39935,NETSMART (CYPRUS) LTD
@@ -22522,7 +22481,6 @@ asn,isp
 40224,Selectcom Telecom
 40226,Alaska USA Federal Credit Union
 40227,IP Networked Services Inc.
-40228,Levin & Levy LLP
 40229,MaineHealth Maine Medical Center
 40230,Columbus Telephone Company Incorporated
 40232,Mid-States Services LLC.
@@ -22780,7 +22738,6 @@ asn,isp
 40619,Clark County Nevada
 40620,QIAGEN Redwood City Inc.
 40623,Office of Oceanic and Atmospheric Research - Geophysical Fluid Dynamics Laborat
-40624,Do Dev LLC
 40625,Jefferson Community College
 40626,Wentworth-Douglass Hospital
 40627,RingCentral Inc
@@ -22994,7 +22951,6 @@ asn,isp
 40932,Hutchens Senter
 40933,Triangle Communications
 40934,Fortinet Inc.
-40941,GeoLinks
 40942,Cape Cod Community College
 40943,Rural Broadband L.L.C.
 40944,Mass College of Liberal Arts
@@ -23073,7 +23029,6 @@ asn,isp
 41041,Conversant LLC
 41043,Gaming 4 Fun SRL
 41044,L'ile aux surfers s.a.r.l.
-41045,WEBEDIA SA
 41046,Nej.cz s.r.o.
 41047,Bart Vrancken trading as MLaB
 41049,Xait AS
@@ -23115,7 +23070,7 @@ asn,isp
 41096,TOV TV&Radio Company 'TIM'
 41097,CENTRUM ELEKTRONICZNYCH USLUG PLATNICZYCH ESERVICE SA
 41098,NetFox Ltd.
-41099,Global Reach Networks Limited
+41099,globalreach
 41100,IGP Decaux spa
 41102,ZR-Telecom plus Ltd.
 41103,teleBIZZ Ltd
@@ -23182,7 +23137,7 @@ asn,isp
 41191,Mappy SA
 41193,Uno Automatiseringsdiensten B.V.
 41195,Netfinity Grup SRL
-41198,Atronic Austria GmbH
+41198,IGT Austria GmbH
 41201,DOLSAT sp. z o.o.
 41202,UNITEL LLC
 41203,DPDgroup UK Ltd
@@ -23272,7 +23227,7 @@ asn,isp
 41322,Peter Pan sp. z o.o.
 41323,INFOBYTE LLC
 41325,REGIONE MARCHE
-41327,FIBERTELECOM-AS
+41327,Fiber Telecom S.p.A.
 41328,KKNK Technobud Ltd
 41329,Sky Mobile LLC
 41330,T2 Mobile LLC
@@ -23342,7 +23297,7 @@ asn,isp
 41414,Energy Holding S.R.L.
 41415,Square Enix Limited
 41417,TURKIYE JOKEY KULUBU DERNEGI AT YETISTIRICILIGI VE YARISLARI IKTISADI ISLETMESI
-41418,SATELVEX S.A.
+41418,AVATEL TELECOM SA
 41419,KazRENA
 41420,Xentech B.V.
 41421,StarNet Telecom Sp. z o.o.
@@ -23413,7 +23368,6 @@ asn,isp
 41521,BBP AG
 41522,ETT Sp. z o.o.
 41524,SAS ARMATIS LC FRANCE
-41525,FILI-Telecom LLC
 41526,Association XNAME
 41528,Loopia AB
 41529,MediaServe International B.V.
@@ -23476,7 +23430,6 @@ asn,isp
 41605,SCOOP IT SAS
 41606,Logos Technologies S.r.l.
 41608,NextGenWebs S.L.
-41609,Standart AG LLC
 41610,Finite Software Systems Ltd.
 41612,Red Bee Media Limited
 41615,JSC Russian Agricultural Bank
@@ -23528,7 +23481,6 @@ asn,isp
 41668,JSC ER-Telecom Holding
 41669,Gulf Electronic Tawasul Co.
 41670,hkfree.org z.s.
-41671,SERVER.UA LLC
 41672,NETPLANET SRL
 41676,JMDI Jacek Maleszko
 41678,The Internet Business Ltd
@@ -23543,7 +23495,6 @@ asn,isp
 41690,Dailymotion S.A.
 41691,PJSC Rostelecom
 41692,OpenCarrier eG
-41694,Raiffeisen Bank Zartkoruen Mukodo Reszvenytarsasag
 41695,VOSTRON Limited
 41696,Ram Mobile Data (Netherlands) B.V.
 41697,Hellas Sat Consortium Ltd
@@ -23594,7 +23545,6 @@ asn,isp
 41753,Quality of Service Networks Sweden AB
 41754,JSC ER-Telecom Holding
 41755,EMEKLILIK GOZETIM MERKEZI A.S.
-41758,Da.Net Ltd
 41763,CRISTEA TELECOM SYSTEM SRL
 41764,Ratola Information Technologies EOOD
 41765,IPGarde SAS
@@ -23659,7 +23609,7 @@ asn,isp
 41843,JSC ER-Telecom Holding
 41844,Urban Mobility Center EAD
 41845,OOO Fun Holding
-41847,Daniel O'Mahony
+41847,STEALTH-NETWORKS
 41848,Gavle kommun
 41849,NETSTORMING S.R.L.
 41850,SC ADEVARUL HOLDING SRL
@@ -23701,7 +23651,7 @@ asn,isp
 41909,PINVDS OU
 41910,Sole proprietor Lukianenko Viacheslav Ivanovych
 41911,Lanet Network Ltd
-41913,COMPUTERLINE
+41913,Computerline GmbH
 41914,IE Andrey Shlyk
 41915,Land-forst- und wasserwirtschaft-liches Rechenzentrum GmbH
 41916,Poslovni sistem Mercator d.d.
@@ -23768,7 +23718,7 @@ asn,isp
 41993,Cloud Center Finland Oy
 41994,Compania Espanola Se Seguros Y Reaseguros de Credito y Caucion SA
 41997,Connect CJSC
-41998,NetComBW-AS
+41998,NetCom BW GmbH
 41999,OOO Pegas Touristik
 42000,Futruy s.r.o.
 42001,Media Sououz Ltd.
@@ -24088,6 +24038,7 @@ asn,isp
 42433,LD4Unity B.V.
 42435,Tecnicas Reunidas S.A.
 42437,T2 Mobile LLC
+42440,Rayaneh Danesh Golestan Complex P.J.S. Co.
 42441,CHP Shmatko Sergey Leonidovic
 42442,Adacor Hosting GmbH
 42444,Insurance company SOGAZ-Med JSC
@@ -24367,7 +24318,6 @@ asn,isp
 42822,Regional public autonomous institution Multifunctional Center of Perm region
 42824,LLC Energy-Buran
 42826,S&T Slovakia sro
-42827,OOO Kolpinskie Internet-Seti
 42828,Top Net SARL
 42830,STK TV SAT 364
 42831,UK Dedicated Servers Limited
@@ -24575,7 +24525,6 @@ asn,isp
 43110,Joint Ukrainian-American enterprise Ewropol with legal form Ltd
 43112,TSBG Hosting Ltd.
 43113,Piotr Lukasik ETERNA
-43114,SVK-Telecom LLC
 43115,Consorci Institut de Fisica Altes Energies
 43116,Istanbul Ticaret Odasi
 43117,ITI NEOVISION SP. Z O.O.
@@ -24690,7 +24639,6 @@ asn,isp
 43268,Science Network Solution LLC
 43270,Sergei Chubenko
 43271,DIGORA SARL
-43272,DOTNET SH.P.K
 43273,Optik Line LLC
 43274,Teleradiocompany Teleos-1 Ltd
 43275,PJSC Vimpelcom
@@ -24725,10 +24673,10 @@ asn,isp
 43314,JSC ER-Telecom Holding
 43315,EGETRA ROMANIA SA
 43316,Capital Market Authority
-43317,FNK LLC
+43317,SIA VEESP
 43318,MTS PJSC
 43319,GP Internet Ltd.
-43320,Velykyy Olexandr Leonidovych
+43320,Pushkar Inna Mykolaivna
 43321,Satelcom-Service Ltd.
 43322,Belbim Istanbul Belediyeleri Bilgi Islem Energi Sanayi Ve Ticaret AS
 43323,Vision247 Ltd
@@ -24743,8 +24691,6 @@ asn,isp
 43338,TSG Interactive Services Limited
 43341,MDlink online service center GmbH
 43342,BPCE S.A.
-43343,Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS
-43345,CLDIN B.V.
 43347,Ullink SAS
 43348,Tatarinova Alla Ivanovna
 43349,Evroline severo-zapad
@@ -24914,7 +24860,7 @@ asn,isp
 43574,PJSC Rostelecom
 43576,LTD KuMIR TELECOM
 43578,MBA DATACENTERS S.L.
-43579,Krankenhaus der Barmherzigen Schwestern
+43579,Ordensklinikum Linz GmbH
 43580,TOV 'Nocservice'
 43581,ZTV CORP LLC
 43582,ABY Plastik Ambalaj ve Enerji SAN.VE TIC.A.S.
@@ -24942,7 +24888,6 @@ asn,isp
 43619,Association pour l'union des rezo des residences etudiantes (AURORE)
 43621,Parallels International GmbH
 43623,Hessischer Rundfunk
-43624,PQ HOSTING S.R.L.
 43625,Wi-Fi System di GianCarlo Forno
 43626,GEONET SOFT SRL
 43627,UAB Besmegeniai
@@ -24957,7 +24902,7 @@ asn,isp
 43643,Transportes Aereos Portugueses SA
 43645,Kiruna kommun
 43646,TDF SASU
-43647,DATA CENTER NETWORK SELECTEL FE LLC.
+43647,SERVERCORE CIS LLC
 43648,STIADSL S.R.L
 43651,Generali Insurance AD
 43652,EDGOO NETWORKS UNIPESSOAL LDA
@@ -25006,7 +24951,6 @@ asn,isp
 43714,Production co-operative Economic-legal laboratory
 43716,Istanbul Deniz Otobusleri San.Tic.A.S
 43717,BUSINESS FRANCE EPIC
-43718,Veriosoft EOOD
 43719,IBM Services Financial Sector Luxembourg Sarl
 43720,MTS OJSC
 43721,Ltd Ural-Avstro-Invest
@@ -25027,7 +24971,6 @@ asn,isp
 43741,Sitirit-Telecom Ltd.
 43743,Kruiz LLC
 43744,Orion City LLC
-43745,Cube Limited
 43747,ARTERNOSOL S.L.
 43748,TOV TECHNOLOGIYA PLUS
 43749,Happymed Healthcare and IT Provider Co. Ltd.
@@ -25041,7 +24984,7 @@ asn,isp
 43758,Cyber_Folks S.A.
 43761,SvyazService Ltd
 43762,Comp S.A.
-43763,Haut-Rhin Telecom
+43763,Societe Francaise Du Radiotelephone - SFR SA
 43764,Electron-Service LTD
 43766,Mobile Telecommunication Company Saudi Arabia Joint-Stock company
 43768,OGUZSATLINK SRL
@@ -25062,7 +25005,6 @@ asn,isp
 43786,PP NVF Sistema i Tehnika
 43787,ING BANK (EURASIA) ZAO
 43790,Frode Laursen A/S
-43791,STN SARL
 43793,PJSC Rostelecom
 43794,Euronext Technologies SAS
 43795,Budgetary institution in the field of information technologies of the Vologda r
@@ -25091,7 +25033,6 @@ asn,isp
 43830,Digital Energy LLC
 43832,Joint-stock company Internet Exchange MSK-IX
 43833,OPEN CABLE TELECOMUNICACIONES S.L.
-43834,ADACOM SA
 43837,Lukasz Pelka trading as VEGA
 43838,City of Bradford Metropolitan District
 43840,Best Internet Security SRL
@@ -25158,11 +25099,12 @@ asn,isp
 43915,TrueSpeed Communications Limited
 43916,Interwetten Gaming Limited
 43917,UPEO LLC
-43919,Safa Galenica S.A.
+43919,Alliance Healthcare Espana S.A.
 43922,City of Malmo
 43923,Regione Veneto
 43924,IQUO LIMITED
 43925,MOLDCELL S.A.
+43926,Anxanet Operadors de Xarxes SL
 43927,HOSTERION SRL
 43928,MVM Information Technology Private Company Limited by Shares
 43929,ASN Sp. z o.o.
@@ -25194,7 +25136,7 @@ asn,isp
 43961,FISERV POLSKA S.A.
 43962,INTEN Sp. z o. o.
 43965,Tehran University of Medical Science
-43966,IT REGION LTD
+43966,OOO IT-Region
 43967,TEREMKY LAN ISP LLC
 43968,TOP-NET S.C.
 43970,PJSC Vimpelcom
@@ -25249,7 +25191,7 @@ asn,isp
 44032,FOP Kolesnichenko Nataliya Anatoliivna
 44033,Komster Sp. z o.o.
 44034,Hi3G Access AB
-44036,Piraeus Financial Holdings SA
+44036,Optima Bank S.A.
 44039,JSC Chelyabinsk pipe-rolling factory
 44041,Korporatsia Svyazy Ltd.
 44043,H88 WEB HOSTING S.R.L.
@@ -25423,7 +25365,6 @@ asn,isp
 44285,Sefroyek Pardaz Engineering Co. LTD
 44286,crossip communications gmbh
 44287,JP Elektromreza Srbije Beograd
-44288,JSC Banks Processing Center
 44291,Infomir LLC
 44292,NUANCE COMMUNICATIONS LIMITED
 44294,PE LOPATIN ARKADIY BORISOVICH
@@ -25542,7 +25483,6 @@ asn,isp
 44446,OOO SibirInvest
 44447,Mirror Partner Utveckling AB
 44450,PagoNxt Merchant Solutions S.L.
-44451,Digiweb ltd
 44452,netIQ s.r.o.
 44453,interneX GmbH
 44454,Czestochowska Spoldzielnia Mieszkaniowa Nasza Praca
@@ -25614,7 +25554,6 @@ asn,isp
 44540,Kartel Ltd.
 44541,Jochem Stobbe trading as Prelution
 44542,AO Countrycom
-44543,Rooyekhat Media Company Ltd
 44544,Easy Media SRL
 44545,CREALOGIX BaaS GmbH & Co. KG
 44546,ALFA TELECOM s.r.o.
@@ -25645,7 +25584,7 @@ asn,isp
 44584,Progress Tehnologiya LLC
 44585,Efor Global Technology SL
 44586,Executive Agency Electronic Communication Networks and Information Systems
-44587,MEGACOM-IT LLC
+44587,MEGACOM-AS
 44588,ADEVINTA SPAIN S.L.U.
 44592,SkyLink Data Center BV
 44594,Austrian Airlines AG
@@ -25681,6 +25620,7 @@ asn,isp
 44638,Elektrohaus Gabriel GmbH & Co. KG
 44639,Isik University
 44640,Cactus Ltd.
+44643,Multimedia Polska Sp. z o.o.
 44644,Arvakur hf
 44645,PKN Datenkommunikations GmbH
 44646,Gamesys Ltd.
@@ -25726,7 +25666,7 @@ asn,isp
 44701,Software Design SPA
 44702,JORDAN TV CABLE & INTERNET SERVICES CO
 44703,Thuraya Telecommunications Private Joint-Stock Company
-44704,Perekrestok-2000 LLC
+44704,X5-RETAIL-GROUP-AS
 44705,Obyedinennye Nakhabinskie seti LLC
 44706,Monty UK Global Limited
 44707,Unicaja Banco SA
@@ -25782,6 +25722,7 @@ asn,isp
 44771,SC Lithuanian Radio and TV Center
 44772,LLC INTER-SVYAZ-GROUP
 44773,PE Znamenskiy L.V.
+44774,Alliance LLC
 44776,Reist Telecom AG
 44777,JSC for Insurance and Reinsurance QBE Makedonija Skopje
 44778,Enterprise Incubator Foundation
@@ -25894,6 +25835,7 @@ asn,isp
 44921,FOP A.L. Kryuchkov
 44923,Saint-Petersburg Computer Networks Ltd.
 44925,1984 ehf
+44926,Data Management Professionals B.V.
 44927,LLC Telecom MPK
 44929,Nord Connect OU
 44931,TNT Express ICS Limited
@@ -25938,7 +25880,6 @@ asn,isp
 44986,Amadeus Data Processing GmbH
 44988,KovrovTelecom Ltd.
 44989,AERNNOVA AEROSPACE SA Unipersonal
-44990,Trenka Informatik AG
 44991,Grepton Informatikai Zartkoruen Mukodo Reszvenytarsasag
 44993,Mobik d.o.o.
 44994,IPEVA SARL
@@ -25947,7 +25888,7 @@ asn,isp
 44999,Mifril+ LLC
 45000,Sberbank of Russia PJSC
 45001,Commercial bank KYRGYZSTAN OJSC
-45002,JP VODOVOD - KANALIZACIJA D.O.O.
+45002,JAVNI HOLDING Ljubljana d.o.o.
 45005,Gorizont Ltd
 45007,VIPNET PRIM Ltd
 45008,American Express Travel Related Services Company Inc
@@ -26023,6 +25964,7 @@ asn,isp
 45152,Zone Networks Pty Ltd
 45153,Sutherland Global Services Private Limited
 45154,Appnomic Systems Pvt Ltd
+45155,SENCOR
 45158,Tasmanet Pty Ltd
 45160,Lotteries Commission of Western Australia
 45162,VICTORIAN RAIL TRACK
@@ -26108,7 +26050,6 @@ asn,isp
 45295,PT. Cipta Informatika Cemerlang
 45296,Internet Masuk Desa
 45298,INTERLINK TECHNOLOGY PT
-45300,PT AJN Solusindo
 45302,PT DES Teknologi Informasi
 45304,PetraNet Surabaya
 45305,Lintas Data Prima PT
@@ -26338,7 +26279,6 @@ asn,isp
 45692,DFSI Spatial Services
 45696,Pusat Pelaporan dan Analisis Transaksi Keuangan
 45697,Universitas Surabaya
-45699,Jogja Digital PT
 45701,Internet Madju Abad Millenindo PT
 45702,Fotografer Net Global PT
 45703,Badan Koordinasi Penanaman Modal (BKPM)
@@ -26420,7 +26360,6 @@ asn,isp
 45843,TRANSWORLD ASSOCIATES (PVT) LIMITED
 45845,Communications & Communicate Nepal Pvt Ltd
 45847,Office of Info.Tech. Admin. for Educational Development
-45848,AU IX Pty Limited
 45850,Quantum Solutions India
 45851,Bharat Bhawan - II IIS Department
 45852,Bendigo Bank
@@ -26455,7 +26394,7 @@ asn,isp
 45910,i-System Technology Limited
 45911,Phoenix Satellite Television Company Limited
 45912,Indue Limited
-45915,Yahoo! Web Services India Pvt Ltd
+45915,Yahoo Inc.
 45916,Gujarat Telelink Pvt Ltd
 45917,Lend Lease Corporation
 45918,SmarTone Mobile Communications (Macau) Limited
@@ -26470,7 +26409,6 @@ asn,isp
 45937,Brisbane Airport Corporation
 45938,Nucleus Connect Pte Ltd
 45939,Foundation Securities (Private) Limited
-45941,interTouch Pte. Ltd.
 45942,Sikka Broadband Pvt. Ltd.
 45945,Acme Commerce Sdn Bhd
 45946,Air New Zealand Limited
@@ -26534,7 +26472,7 @@ asn,isp
 46029,PT. SEKAWAN GLOBAL KOMUNIKA
 46030,PT Jastrindo Dinamika
 46031,PT. PATRA TELEKOMUNIKASI INDONESIA
-46032,Fastel Sarana Indonesia PT
+46032,PT Centrin Online Prima
 46034,Departemen Kesehatan
 46035,PT Trikomsel Oke Tbk
 46037,Phillip Securities Indonesia PT
@@ -26630,7 +26568,6 @@ asn,isp
 46169,City of Georgetown
 46171,Carrollton-Farmers Branch Independent School Dist.
 46175,Vaquero Network Services LLC
-46176,Komputer King LLC
 46177,SimpleCDN Technologies Inc.
 46178,Integrity Virtual IT Inc.
 46179,MediaFire LLC
@@ -26791,6 +26728,7 @@ asn,isp
 46409,Global Tel*link Corporation
 46411,ID Analytics Inc
 46413,Fulair LLC
+46414,Otelco Telephone LLC
 46416,BankOnIT L.L.C.
 46424,New Jersey Turnpike Authority
 46425,Salinas Valley Memorial Hospital
@@ -26842,7 +26780,6 @@ asn,isp
 46481,Topco Associates LLC
 46482,Vecima Networks Inc.
 46483,Rochester General Hospital
-46485,Brandywine Global Investments
 46489,Twitch Interactive Inc.
 46490,DME Holdings LLC
 46491,Metropolitan Educational Council
@@ -26923,7 +26860,7 @@ asn,isp
 46610,Warren County Board of Commissioners
 46612,Viterra Inc
 46613,COLLETTE VACATIONS
-46614,-Reserved AS-
+46614,Sencinet LatAm (Nevada) Corp.
 46615,Blackstar Fiber Company LP
 46616,Westinghouse Electric Company LLC
 46617,WebMD Inc.
@@ -26964,7 +26901,7 @@ asn,isp
 46664,VolumeDrive
 46665,Applied Statistics & Management Inc.
 46667,Evercore Partners Services East LLC
-46668,KnowledgeBase Marketing Inc.
+46668,Choreograph
 46669,American Pacific Mortgage Corp.
 46670,MARKETING ASSOCIATES LLC
 46672,Cologix Inc
@@ -26980,6 +26917,7 @@ asn,isp
 46686,Ontario Energy Board
 46687,BCI Mississippi BroadbandLLC
 46688,Landscape Structures Inc.
+46689,Lee Wireless LLC
 46690,Southern New England Telephone Company and SNET America Inc.
 46691,Lunavi Inc.
 46692,City of Windom
@@ -26995,8 +26933,9 @@ asn,isp
 46718,BT Conferencing
 46719,COMCELL INC.
 46720,Ubity
-46721,Skynet Country LLC
+46721,Skynet Country INC
 46722,Bryant University
+46724,Kelsey-Seybold Clinic
 46725,Education Service Center-Region 19
 46726,Lurie LLP
 46727,FES
@@ -27112,7 +27051,6 @@ asn,isp
 46887,Lightower Fiber Networks I LLC
 46889,Clearent LLC
 46892,Winnebago Cooperative Telecom Association
-46894,Gabbit LLC
 46895,CSG Systems Inc.
 46897,Rack Wizards Inc
 46900,Rushmore Electric Power Cooperative Inc.
@@ -27153,7 +27091,6 @@ asn,isp
 46956,Eagle Seven Technologies LLC
 46957,Medicine Park Telephone Company
 46959,Vancouver Convention Centre
-46960,Energy Transfer LP
 46962,HRCOM
 46963,City of Winston-Salem
 46964,The Broad Institute Inc.
@@ -27205,7 +27142,7 @@ asn,isp
 47036,Halifax County Public Schools
 47037,ScoutDNS
 47038,DMCI Broadband LLC.
-47039,Madison National Life
+47039,National Guardian Life Insurance Company
 47040,Delta Products Corporation
 47041,ST BERNARDS HEALTHCARE
 47042,Diverse Power Incorporated
@@ -27312,7 +27249,6 @@ asn,isp
 47186,Allgemeine Baugesellschaft PORR AG
 47187,Forinicom S.r.l.
 47188,Press TV Co.
-47189,NavoTech Inzynieria Srodowiska
 47190,TOTAL OIL TURKIYE A.S.
 47193,LAN-Optic Ltd
 47194,Oblcom Swiss AG
@@ -27323,7 +27259,7 @@ asn,isp
 47202,LAZER TELECOMUNICACOES S.A.
 47203,JSC CrimeaTelecom
 47205,Telia Lietuva AB
-47206,Rennes Metropole Telecom Participation
+47206,Societe Francaise Du Radiotelephone - SFR SA
 47207,Digital Residence B.V.
 47209,Sage Spain S.L.
 47210,Djivaya Voda Ltd.
@@ -27348,10 +27284,11 @@ asn,isp
 47234,Olofstroms Kabel-TV AB
 47236,CityLink Ltd
 47237,NUR Telecom LLC
-47240,OOO Trivon Networks
+47240,TRIVON-AS
 47241,Joint Stock Company TransTeleCom
 47242,Host SpA
 47243,ONEXIM Group Ltd.
+47245,Network Technology Line LTD
 47249,Ringsted Kommune
 47250,AKSEL-NET sp. z o.o.
 47251,Fabian Friesenecker trading as VLBGIT Friesenecker e.U.
@@ -27386,7 +27323,7 @@ asn,isp
 47291,Refrig Co Industrial SRL
 47292,Sentia Denmark A/S
 47295,NTT Data Business Solutions Global Managed Services GmbH
-47297,Telekommunikation Lindau (B) GmbH
+47297,NetCom BW GmbH
 47299,Reyl & Cie SA
 47300,INRS
 47301,XTB S.A.
@@ -27464,7 +27401,7 @@ asn,isp
 47404,Akademia Leona Kozminskiego
 47405,NASJONAL SIKKERHETSMYNDIGHET
 47406,ERRE ELLE NET s.r.l.
-47407,Municipal State Institution Department of Administration of the City of Yuzhno
+47407,MKU Digital Transformation of the City Administration of Yuzhno-Sakhalinsk
 47408,Mandarin S.p.A.
 47409,thinkproject Deutschland GmbH
 47411,Kremsmueller Anlagenbau GmbH
@@ -27484,7 +27421,7 @@ asn,isp
 47435,Eschborner Service GmbH
 47438,Pskovline Ltd.
 47439,Sitikom Ltd.
-47440,BUSINESS SYSTEM TELEHOUSE OOO
+47440,BST-AS
 47441,Comfortel Ltd.
 47442,Mada Communications CJSC
 47443,Magnet Networks Limited
@@ -27622,6 +27559,7 @@ asn,isp
 47633,Synthos S.A
 47635,Linenet Ltd.
 47636,Nitsora Alena Vladimirovna
+47637,INFERNA LIMITED
 47638,Cadence Networks Ltd
 47639,Yanuda AG
 47640,Tricomp Sp. z. o. o.
@@ -27642,10 +27580,8 @@ asn,isp
 47664,Neologic Ltd.
 47665,Citybook Services Ltd
 47666,mStart Business Solutions
-47667,SC COSMETICS ORIFLAME ROMANIA SRL
 47668,LLC R&D Center ScanEx
 47670,PE Martin Bornscheuer
-47671,Novacorp Networks Limited
 47672,CENTRUM ZASOBOW CYBERPRZESTRZENI SIL ZBROJNYCH
 47673,BershNet Ltd.
 47674,Net Solutions - Consultoria Em Tecnologias De Informacao Sociedade Unipessoal 
@@ -27685,7 +27621,6 @@ asn,isp
 47719,Switch Telecom s.a.r.l
 47720,CORK INTERNET EXCHANGE LIMITED
 47721,Murat Aktas
-47722,Concorde Capital Ltd.
 47723,Softline Trade JSC
 47724,Limited Liability Company HeadHunter
 47726,INFOBOX LLC
@@ -27847,6 +27782,7 @@ asn,isp
 47936,Nagravision SA
 47938,LLC TRAIDES
 47939,TDV Teleradio company Yalta
+47940,Private Joint Stock Company AVDIIVKA COKE PLANT
 47941,Red Hat Ltd
 47942,Regional Telecom Ltd
 47944,Chambre des Deputes Luxembourg
@@ -27908,7 +27844,6 @@ asn,isp
 48016,Novatel druzba za informacijske tehnologije d.o.o.
 48017,VIALINK SAS
 48019,Terra-Telecom LLC
-48020,AVATEL TELECOM SA
 48021,ALSTOR A. Zwierzynski i Wspolnicy Sp.j.
 48022,TTcomm S.A.
 48023,PLatan Park 1 Leasing Sp. z o.o.
@@ -27985,6 +27920,7 @@ asn,isp
 48118,Aries Investments LLC.
 48119,Firma Handlowo - Uslugowa MultiFOX
 48120,Flash Telecom LLC
+48121,Computer research center of Islamic seminary of Isfahan
 48122,JSC Helicopters Mil & Kamov
 48123,MTS PJSC
 48124,MTS PJSC
@@ -28062,7 +27998,6 @@ asn,isp
 48228,Arvato Rus LLC
 48229,Starlight Media LLC
 48230,LLC MONOLITH.NET
-48232,RSERVERS TECH S.R.L.
 48233,Netroniks EOOD
 48234,OOO IT-Region
 48235,Kirill Vechera
@@ -28103,6 +28038,7 @@ asn,isp
 48285,ROBTEX LIMITED
 48286,Mavi Net Elektronik iletisim Bil.Hizm.San.ve Tic.Ltd.Sti.
 48287,JSC RU-CENTER
+48288,EWII Bredbaand A/S
 48289,Dadeh Pardazan Sabz Alborz Co.(P.J.S.)
 48290,Gruenenthal Pharma GmbH & Co. KG
 48292,CIKLET ILETISIM TASARIM VE ORG. TIC. LTD. STI.
@@ -28174,7 +28110,7 @@ asn,isp
 48375,Tibra Trading Europe Limited
 48377,PJSC Credit Europe Bank Ukraine
 48380,ATTIKI ODOS S.A.
-48382,Microdata Service srl Unipersonale
+48382,Microdata Service SRL
 48383,Invest Mobile LLC
 48384,SML Maschinengesellschaft mbH
 48385,INFOAURA LTD
@@ -28333,7 +28269,7 @@ asn,isp
 48582,ngena GmbH
 48584,Sarnica-Net LTD
 48585,Clevernet GmbH
-48586,BAIKAL-IX-AS
+48586,LLC Zero Kilometer
 48587,Private Entreprise Zharkov Mukola Mukolayovuch
 48588,DWebs Ltd
 48590,Litasco S.A.
@@ -28365,7 +28301,7 @@ asn,isp
 48632,BTS HOLDINGS PLC
 48633,KAN Sp. z o.o.
 48634,R.T.I. SPA
-48635,CLDIN B.V.
+48635,CLDIN-NL
 48636,Keratronik Safety Sp. z o.o.
 48637,Ukrainian state Enterprise of the Post Connection UKRPOSHTA
 48638,Cronos NV
@@ -28399,6 +28335,7 @@ asn,isp
 48676,Accord Telecom Ltd.
 48678,PENTECH BILISIM TEKNOLOJILERI SANAYI VE TICARET LIMITED SIRKETi
 48679,Consultant Ltd.
+48680,Netpower IT Solutions AS
 48682,IP Space Limited
 48683,Bilink LLC
 48684,Viking Host B.V.
@@ -28422,9 +28359,9 @@ asn,isp
 48705,AEGON TOWARZYSTWO UBEZPIECZEN NA ZYCIE SA Sucursala FLORESTI
 48706,KERRIDGE COMMERCIAL SYSTEMS (KSH) LIMITED
 48707,AS48707 OPS PL sp. z o.o.
+48708,Omax Network d.o.o.
 48709,World of connections Ltd.
 48710,Mediterraneum XX. S.L.
-48711,ADLERNET-AS
 48712,Info-Net Uslugi Teleinformatyczne S.C.
 48715,Sefroyek Pardaz Engineering Co. LTD
 48716,PS Internet Company LLC
@@ -28513,7 +28450,6 @@ asn,isp
 48829,SYKES Kozep Europa Kft.
 48830,TransEuroCom LLC
 48832,Linkdotnet-Jordan
-48834,Intersat LLC
 48836,Ana Hotels SA
 48837,SC ALFA WEB SRL
 48840,Perfect Presentation for commercial services
@@ -28524,7 +28460,7 @@ asn,isp
 48847,WAVES S.A.L
 48848,Telekom Servis T Ltd
 48849,Sika Informationssysteme AG
-48850,Krajowa Izba Komunikacji Ethernetowej
+48850,Stowarzyszenie e-Poludnie
 48851,Radware Ltd
 48853,JSC PO Sevmash
 48854,team.blue Denmark A/S
@@ -28575,7 +28511,6 @@ asn,isp
 48910,Unitas Global Ltd
 48911,SVR LTD
 48914,Zeppelin Rusland Ltd
-48915,PP Vitaliy Zayets
 48916,ZAO Kraftway Corporation PLC
 48917,Optinet Ltd
 48918,Globalways GmbH
@@ -28615,7 +28550,7 @@ asn,isp
 48960,AQUAa.s.
 48962,TeamDev Ltd.
 48963,Wielkopolski Bank Spoldzielczy
-48964,Private Enterprise Enterra
+48964,ENTERRA-as
 48966,Wataniya Palestine Mobile Telecommunication Company Ltd
 48967,Cboe Europe Limited
 48969,Parus-Telecom Ltd.
@@ -28638,7 +28573,6 @@ asn,isp
 48996,CENTRE HOSPITALIER PRINCESSE GRACE
 48997,Stichting Zorgring Noord Holland Noord
 48999,SC AVIDAL NET SRL
-49000,AVATEL TELECOM SA
 49001,Leon Sp. z o.o.
 49002,JSC Russian Post
 49003,OJSC Perm Powersale Company
@@ -28648,7 +28582,7 @@ asn,isp
 49009,Freifunk Rheinland e.V.
 49010,Herning Kommune
 49011,MACS THD
-49012,Novy Impuls 50 Ltd.
+49012,Lenta Ltd
 49013,Fusion Media s.r.o.
 49014,Wirtschaftskammer Oesterreich
 49015,SAVSKE-ELEKTRARNE-LJUBLJANA-DOO
@@ -28683,6 +28617,7 @@ asn,isp
 49048,JSC ER-Telecom Holding
 49049,Bath North East Somerset Council
 49050,LLC MKK Jet Money Microfinance
+49051,Digital Technology ApS
 49052,DATA ZYX SRL
 49055,New information technologies Ltd
 49056,Inel Internacional Dooel Kavadarci
@@ -28697,6 +28632,7 @@ asn,isp
 49069,AspireGlobal Marketing Solutions Ltd
 49070,Telecompany Viza-2 Ltd.
 49071,Schweizerische Radio- und Fernsehgesellschaft
+49072,Novatech EOOD
 49073,Moviement srl
 49074,SC TECHNOLOGICAL SRL
 49076,COMPASS ELECTRO-OPTICAL SYSTEMS LTD
@@ -28717,7 +28653,7 @@ asn,isp
 49097,Fujitsu Services GmbH
 49098,Studiya NOVA LLC
 49099,Tadbir Pardaz IT Group LTD
-49100,Pishgaman Toseeh Ertebatat Company (Private Joint Stock)
+49100,IR-THR-PTE
 49101,KABELOVA TELEVIZE CZ s.r.o.
 49102,Connected sp. z o. o.
 49103,Asr-e Enteghal-e Dadeha Company (Private J.S.)
@@ -28743,7 +28679,6 @@ asn,isp
 49128,OAO Russian Railway
 49129,LTD CGC Co
 49130,SysEleven GmbH
-49132,JSC IC Allianz
 49135,Wirtschaftskammer Oberoesterreich
 49136,Telecommunication networks Ltd
 49137,ADSN Association declaree
@@ -28793,6 +28728,7 @@ asn,isp
 49198,MAKSNET d.o.o. Beograd
 49199,Autonomous Nonprofit Organisation Russian Scientific-Research Institute for Pu
 49200,Sperasoft Poland Sp. z o.o.
+49202,Kisara LLC
 49203,ERB IT SHARED SERVICES S.A.
 49204,TOV ITT
 49205,Kuwait Petroleum Corporation
@@ -28824,7 +28760,6 @@ asn,isp
 49234,Bundesamt fuer Sicherheit in der Informationstechnik
 49238,DrWeb Ltd
 49240,Alinma Bank
-49241,The joint-stock Bank 'ROSEVROBANK'
 49242,Internet Union Spolka Akcyjna
 49243,The state institution The Main Economic Office of the Administrative Affairs 
 49244,Scancom s.r.o.
@@ -28860,6 +28795,7 @@ asn,isp
 49283,Setera Oy
 49284,Milano Teleport SRL
 49285,ITAF BVBA
+49286,Lobulous Corp.
 49287,Melbikomas UAB
 49288,PJSC Rosgosstrakh Bank
 49289,Omegacom S.R.L.S.
@@ -28974,6 +28910,7 @@ asn,isp
 49437,Institutul National de Cercetare Dezvoltare pentru Fizica Pamantului - INCDFP R
 49439,Link Ltd
 49442,Solar Network Ltd.
+49443,SC ITNS.NET SRL
 49444,Private Limited Company Lutacom
 49446,Suedostschweiz Newmedia AG
 49447,Nice IT Services Group Inc.
@@ -28991,9 +28928,10 @@ asn,isp
 49461,PP Podilsky Intelectualni sistemy
 49463,Les Nouveaux Constructeurs SA
 49464,ICF SYSTEMS AG
+49465,Teleradiocompany RubinTelecom Ltd.
 49466,KLAYER LLC
 49467,Inetmar internet Hizmetleri San. Tic. Ltd. Sti
-49468,SC Mag Bross Web Services SRL
+49468,MAGIT'ST SRL
 49469,LLC MELT-INTERNET
 49472,Eastera Ltd.
 49473,AZV- Suedholstein AoeR
@@ -29014,6 +28952,7 @@ asn,isp
 49490,Circlenet LLP
 49491,PE Sukonnik Mukola Valeriyovuch
 49494,CEWE Stiftung & Co. KGaA
+49496,MDM-AS
 49498,S&T Hrvatska d.o.o.
 49499,Industrie und Handelskammer Reutlingen
 49501,Menorah Mivtachim insurance Ltd.
@@ -29029,7 +28968,7 @@ asn,isp
 49515,Nordiska Servercentralen AB
 49519,ASSOCIATION IHCB GROUP
 49520,Uster Technologies AG
-49521,The Ural State Law University
+49521,Federal State Budgetary Educational Institution of Higher Education Ural State
 49522,INDUSTRIENS PENSIONSFORSIKRING A/S
 49523,STATKRAFT MARKETS GMBH
 49524,Wolnet SRL
@@ -29051,7 +28990,6 @@ asn,isp
 49544,i3D.net B.V
 49545,StroyTelecom-Yug Ltd
 49546,Voicetec sys Limited
-49549,Standart AG LLC
 49551,Teleseti Ltd
 49552,OpenSource Training Ralf Spenneberg
 49553,AXE INFORMATIQUE SAS
@@ -29082,6 +29020,7 @@ asn,isp
 49582,UPSTREAM TELECOMMUNICATIONS AND SOFTWARE SYSTEMS S.A.
 49583,Kom lan Ltd
 49584,Dataxion SAS
+49585,CoreRoute OU
 49586,Intility AS
 49587,JSAGROUP-AS
 49588,SDS-Vostok Ltd.
@@ -29140,6 +29079,7 @@ asn,isp
 49660,FH Campus Wien
 49661,8K Cloud Ltd
 49662,Lohika LTD
+49664,CANPACK S.A.
 49665,MTS PJSC
 49666,Telecommunication Infrastructure Company
 49667,IP Baltic SIA
@@ -29170,6 +29110,8 @@ asn,isp
 49699,SuperHosting.BG Ltd.
 49701,RIA Link Ltd
 49702,Svyaz Telecom OOO
+49703,CONSULTIC SRL
+49704,PETASCALE SUPERCOMPUTER CONSORTIUM - BULGARIA - DZZD
 49708,Osrodek Badawczo-Rozwojowy Przemyslu Rafineryjnego S.A.
 49709,Videobyte S.r.l.
 49711,Flynet Ltd
@@ -29250,10 +29192,10 @@ asn,isp
 49811,Uzlovaya.net Ltd
 49812,Lincoln Electric Europe B.V.
 49813,Innova Co S.A.R.L.
-49814,TOMGATE-AS
+49814,TomGate LLC
 49815,Host2 LTD
 49816,MTS PJSC
-49819,Shopzilla Europe Ltd
+49819,CONNEXITY UK LIMITED
 49820,Pictura Imaginis B.V.
 49821,Electrica LLC
 49823,Hastingwood Securities Ltd
@@ -29326,7 +29268,7 @@ asn,isp
 49905,Elopak ZAO
 49907,INDECO
 49909,Direct One SA
-49910,Ludigssoft Management GmbH trading as Ludigssoft RZ GmbH & Co. KG
+49910,LUDIGSSOFT
 49911,CDN Squared Limited
 49912,Janeiro LLC
 49913,Gazprom Insurance Ltd
@@ -29595,7 +29537,7 @@ asn,isp
 50260,OOO Svyaz Alians
 50261,ACE Telecom Kft
 50264,TEMA MAGAZACILIK HIZMETLERI TICARET A.S
-50265,Invest Mobile LLC
+50265,GT-AS
 50266,T-Mobile Thuis BV
 50267,Vibe Games LLC
 50268,Federal State Institution The Russian eye and plastic surgery centre of the fe
@@ -29698,7 +29640,7 @@ asn,isp
 50386,LLC Communication Industrial complex
 50389,PHOENIX NAP LLC.
 50391,DIVERGENT NETWORKS LTD
-50392,LLC Campus Networks
+50392,CAMPUS-RV-as
 50394,SYSTEM SRL
 50396,LLC Format-center
 50398,Fast Communication s.r.o.
@@ -29733,7 +29675,7 @@ asn,isp
 50432,Royal Bank of Scotland plc
 50433,State educational institution of higher professional education Tomsk State Ped
 50434,DevonStudio Sp. z o.o.
-50435,A&K+ Ltd.
+50435,AKLTD
 50437,SC TECHNOLOGICAL SRL
 50438,Qline Ltd.
 50439,City Telephone Network Ltd.
@@ -29832,6 +29774,7 @@ asn,isp
 50562,IT PAYS AS
 50563,Onlycable Comunicaciones S.L.
 50564,Electronica Martinez de Cartagena S.L.
+50565,Muzaffer Guler
 50567,OOO Sibenergotelecom
 50568,Communication Communications
 50569,Institute for Software Systems of National Academy of Sciences of Ukraine
@@ -29839,7 +29782,7 @@ asn,isp
 50571,FGBU Presidential Library named after NB Yeltsin
 50572,Nordlo Improve AB
 50575,Alexej Senderkin
-50576,LLC Altair-Center
+50576,FREEWAY Plus LLC
 50577,Intelsc Ltd.
 50578,SteamVPS SRL
 50579,Zahidna Multyservisna Merezha LLC
@@ -29853,7 +29796,7 @@ asn,isp
 50590,PE NETBERRY
 50591,Boomerang Rayaneh
 50592,Javni Zavod Lekrana Ljubljana
-50593,JSC Transtelecom
+50593,T1-Group LLC
 50594,Stasishen Aleksandr Afanasiyovich
 50595,Hochschule RheinMain University of Applied Sciences
 50596,Informatsionnye Tekhnologii LLC
@@ -29879,7 +29822,6 @@ asn,isp
 50619,VISIUM LLC
 50620,Blue Networks Technologies SARL
 50621,OMG.de GmbH
-50622,Payvision B.V.
 50623,Infotech LLC
 50624,Outscale SASU
 50625,Krosnienskie Centrum Informatyczne KROSOFT
@@ -29889,7 +29831,6 @@ asn,isp
 50630,Segezha Packaging A/S
 50632,Fish.Net Limited
 50633,PE Osaula Mihail Dmitrovich
-50634,Parsek d.o.o.
 50635,Call Master LLC
 50636,RTP LLC
 50637,Expressoft Technology SRL
@@ -29914,7 +29855,6 @@ asn,isp
 50660,SSIF BRK FINANCIAL GROUP SA
 50661,Telkab sp. z o.o.
 50662,PP Scientific-industrial enterprise 'Leokom'
-50663,Comercial Neyva Bank Ltd
 50664,Re:Sources France SAS
 50666,LigaT Telecom Sociedade Unipessoal LDA
 50667,NETPROTECT SRL
@@ -29936,7 +29876,6 @@ asn,isp
 50691,Siberian Internet Company LLC
 50692,Iran Khodro Co. P.J.S.
 50693,BeotelNet-ISP d.o.o
-50694,WetNet Ltd.
 50695,VLTAVA LABE MEDIA a.s.
 50696,EasternGraphics GmbH
 50697,ACSN Limited
@@ -29968,7 +29907,7 @@ asn,isp
 50733,Ertebat Gostaran Bina
 50734,Bell AG
 50737,ASR Nederland N.V.
-50738,HUIZE-TELECOM-AS
+50738,HUIZE TELECOM LIMITED
 50739,OOO Suntel
 50741,ARIS Kart SPB Ltd
 50742,LLC DOMNET
@@ -30029,7 +29968,7 @@ asn,isp
 50812,Axess OnLine SARL
 50813,PAY AND SHOP LIMITED
 50815,TELPROM Informacijske tehnologije d.o.o.
-50818,MUONA SAS
+50818,MUONA
 50819,Star Storage SRL
 50820,Joint Stock Company Open Financial Marketplace
 50821,Stockholms Stadsnat AB
@@ -30048,7 +29987,6 @@ asn,isp
 50835,EANCENTER TELECOM LLC
 50837,CLOUDSIGMA AG
 50840,Marek Bajerski trading as HITME.PL
-50843,ACUTUS.PRO sp. z o.o.
 50845,VeriFone Systems France SAS
 50846,Ava-Lan Ltd.
 50847,Global Bilgi LLC
@@ -30072,6 +30010,7 @@ asn,isp
 50865,Amiad Filtration Systems Ltd
 50866,Ministry of Foreign Affairs
 50867,HOSTKEY B.V.
+50868,VoIPStarr B.V.
 50870,TeleIncom Service Ltd
 50873,David Doepelheuer
 50875,NESS VERI ILETISIM TEKNOLOJILERI SAN. VE TIC A.S.
@@ -30086,7 +30025,7 @@ asn,isp
 50884,Level Network SRL
 50885,Open Joint Stock Company Russian Railways
 50886,NETFIL SRL
-50887,TV POST SRL
+50887,DCFH-AS
 50888,Minotaur I.T. Limited
 50889,NVIDIA Ltd
 50891,Moviement srl
@@ -30195,7 +30134,6 @@ asn,isp
 51027,OJSC Tatmedia
 51028,Zummer LLC
 51029,Antibiotice SA
-51030,Skyvision Business Centre B.V.
 51032,LLC POWERNET
 51034,Weacom Ltd
 51035,JSC ER-Telecom Holding
@@ -30221,7 +30159,6 @@ asn,isp
 51059,Brightbox Systems Ltd
 51060,LandTech Sp. z.o.o.
 51061,DECHEMA Gesellschaft fuer Chemische Technik und Biotechnologie e V
-51063,Fujitsu Telecommunications Europe Ltd
 51064,Glowny Inspektorat Transportu Drogowego
 51065,Banca Passadore & C. S.p.A.
 51066,Austro Control Oesterreichische Gesellschaft fuer Zivilluftfahrt mit beschraenk
@@ -30311,7 +30248,7 @@ asn,isp
 51174,ENERJISA ENERJI URETIM A.S
 51176,magellan netzwerke GmbH
 51177,TIPZOR MEDIA SRL
-51178,AVANTEL-SPB-AS
+51178,JSC Avantel
 51179,VIOTOP SRL
 51180,Lanet Network Ltd
 51181,State educational institution for higher professional education SIBERIAN STATE 
@@ -30335,7 +30272,6 @@ asn,isp
 51199,TECHNOTEK LLC
 51200,LLC Digital Dialogue-Nets
 51201,Ahmadiyya Muslim Jamaat Deutschland KdoR
-51202,Tehnic Profesional Grup S.R.L.
 51203,BM5 Bartosz Malinowski
 51204,UNIREA SHOPPING CENTER SA
 51206,Turk Hava Yollari Technic A.S.
@@ -30433,6 +30369,7 @@ asn,isp
 51327,RETN AM Limited Liability Company
 51329,CONNECTION NETWORKS L.P.
 51331,SychrovNET s.r.o
+51332,M247-Enterprise
 51333,Arcolink Telecomunicazioni S.r.l.
 51334,PJSC Corporation VSMPO-AVISMA
 51335,No Blue Screen System SAS
@@ -30441,7 +30378,7 @@ asn,isp
 51338,SIA Latvijas Propana gaze
 51339,'ARKTIKA GROUP' Ltd
 51340,Transport Holding of Almaty City LLP
-51341,Gigacom Systems Ltd.
+51341,Gigakom Sistems OOO
 51342,Hachn ISP Ltd.
 51343,Telecom Service LLC
 51344,IDM Suedtirol Alto Adige
@@ -30461,7 +30398,7 @@ asn,isp
 51363,Telepatiya Ltd
 51364,Peter Cremer Holding GmbH & Co KG
 51365,JSC Belinvestbank
-51366,Canal Plus France SA
+51366,GROUPE CANAL+ S.A.
 51367,FOP Koshoviy Oleg Volodymirovich
 51368,Captech Distribution AB
 51369,LLC TRC FIORD
@@ -30535,7 +30472,6 @@ asn,isp
 51446,SP Argaev Artem Sergeyevich
 51447,RootLayer Web Services Ltd.
 51448,Uralskie Kabelnye Seti Ltd.
-51449,Kabelova televize Usti nad Orlici spol. s r. o.
 51450,Wordline Switzerland AG
 51453,ANEXIA Internetdienstleistungs GmbH
 51454,CRIF GmbH
@@ -30543,7 +30479,6 @@ asn,isp
 51456,LLC KAPITAL-SVYAZ
 51457,CONECTA WIRELESS S.L.
 51458,GL events CITE/CENTRE DE CONGRES/LYON SA
-51459,Manhattan SAS
 51460,Sina Bank
 51461,ARKA UNIVERSAL IMPEX SRL
 51462,RTL BELGIUM S.A.
@@ -30561,6 +30496,7 @@ asn,isp
 51476,Talem Yatirim Insaat ve Ticaret AS.
 51477,Teleradiokompaniya Kandalaksha LLC
 51478,OBIT Ltd.
+51479,Finans-Grupp LLC
 51480,Direct Sport Bet SRL
 51482,Banedanmark
 51483,SaSG GmbH & Co. KG
@@ -30643,7 +30579,7 @@ asn,isp
 51579,Korporatvniy partner Ltd
 51580,TIMENET SPA
 51581,Profonika EOOD
-51582,Cifrova Kabelna Korporacia EOOD
+51582,DCC-BG
 51583,LLC Kuzbass phone networks
 51584,ZepterBank Closed joint-stock company
 51585,Acibadem Saglik Hizmet ve Ticaret A.S
@@ -30741,6 +30677,7 @@ asn,isp
 51703,Boydak Holding A.S.
 51704,South West Grid for Learning Trust Ltd.
 51705,Moskovia Telecom OOO
+51707,Medway Towns Council
 51708,Libera Universita di Bolzano
 51709,R Systems Computaris Europe SRL
 51710,AQUILEIA CAPITAL SERVICES SRL
@@ -30893,6 +30830,7 @@ asn,isp
 51885,ALRO S.A.
 51887,FREQUENTIS COMSOFT GmbH
 51888,Pilot Systems consulting SARL
+51889,Gostaresh Pardazesh Dana Negar Co.(PJSC)
 51890,MM Service GmbH
 51891,GSP ltd.
 51892,VOENTELECOM JSC
@@ -30909,7 +30847,6 @@ asn,isp
 51906,recast IT GmbH & Co. KG
 51908,Panet DOO Pancevo
 51909,CONFORT BUSINESS SOLUTIONS SRL
-51910,Teltac WorldWide INC
 51911,AAYLEX ONE SA
 51912,Information-analytical control of the government of the Jewish autonomous regio
 51913,Internet Vikings International AB
@@ -30994,7 +30931,7 @@ asn,isp
 52009,RAFAL SLAWINSKI SEJNET
 52010,Stavropol Communications LLC
 52015,Dancer LLC
-52016,JSC ADFACT
+52016,ADFACT
 52018,Lnet Multimedia SARL
 52019,Oracle Svenska AB
 52020,RSK - Rudzkie Sieci Komputerowe Sp. z o.o.
@@ -31082,6 +31019,7 @@ asn,isp
 52131,CITY.NET Ltd.
 52139,Slovanet a.s.
 52140,United Nations High Commissioner for Refugees
+52141,Delrus Ltd.
 52142,Polcom Sp. z o.o.
 52143,dotSmart SARL
 52144,MyBit Services BV
@@ -31135,7 +31073,7 @@ asn,isp
 52207,JSC ER-Telecom Holding
 52208,Engineering-technical center-communication LLC
 52209,Atis Omran Sevin PSJ
-52210,Accuris Technologies Ltd.
+52210,ACCURIS-AS
 52211,SSI Schaefer SRL
 52212,DV CLOUD LLC
 52213,LLC DONETSK FIBER-OPTICAL NETWORK
@@ -31187,6 +31125,7 @@ asn,isp
 52277,ITURAN DE ARGENTINA SA
 52278,Fravatel EIRL
 52279,ETERNET S.R.L.
+52280,INTERNEXA Chile S.A.
 52281,Patriacell C.A.
 52283,Aginet SA
 52284,Panamaserver.com
@@ -31334,7 +31273,6 @@ asn,isp
 52446,BANCO NACIONAL DE PANAMA
 52447,Cooperativa Telefonica y Otros Servicios de Santa Clara del Mar Limitada Cootels
 52449,My Tech BZ
-52450,FISERV COSTA RICA S.A.
 52451,Superintendencia de Administración tributaria
 52452,COMPASS GROUP INVESMENTS ADVISORS (CGIA)
 52453,Atcco S.R.L.
@@ -31384,6 +31322,7 @@ asn,isp
 52509,CABASE Camara Arg de Base de Datos y Serv en Linea
 52510,MI INTERNET SPA
 52511,IRONSERVERS E.I.R.L
+52512,OPENCLOUD SpA
 52519,rodrigo przybycien
 52520,Sociedade Educacional Santo Antônio
 52523,COMPANHIA PAULISTA DE FORCA E LUZ
@@ -31493,7 +31432,6 @@ asn,isp
 52645,HB Saúde SA
 52646,Servimed Comercial Ltda
 52647,Melp Comércio & Representações Ltda ME
-52648,Consórcio Conecte
 52649,Tribunal de Justica do Estado do Rio Grande do Sul
 52651,DeltaAtiva Telecomunicacoes
 52652,BENCHIMOL IRMAO & CIA LTDA
@@ -31513,7 +31451,7 @@ asn,isp
 52671,Confederação Nacional das Cooperativas do Sicoob
 52672,B3 S.A. Brasil Bolsa
 52673,WI-MAX INTERNET LTDA
-52674,AVATO DATACENTER SA
+52674,BRASIL TECNOLOGIA E PARTICIPACOES S/A
 52675,Pronet Provedor Network Ltda -Me
 52676,C3 Desenvolvimento de Sistemas Computacionais
 52677,Webgenium System Ltda
@@ -31596,7 +31534,7 @@ asn,isp
 52780,MAP Piumhi Ltda - ME
 52781,Pertec Servicos de Telecomunicacoes ltda
 52782,HYUNDAI AUTOEVER BRASIL TECNOLOGIA DA INFORMACAO
-52783,SKYNET TELECOMUNICACOES EIRELI
+52783,ALCANS TELECOM LTDA
 52786,BrByte Telecom
 52787,MAX TELECOM PROVEDOR DE ACESSO A INTERNET LTDA
 52788,Meganet Telecomunicaçoes e Internet LTDA
@@ -31678,7 +31616,6 @@ asn,isp
 52877,VOE INTERNET
 52878,REDE DE TELECOMUNICAÇÕES CARAJAS LTDA
 52879,ABM INFORMATICA E TELECOM
-52881,Virtual Mostardas - Com de Art de Informática Ltda
 52882,Ecritel do Brasil Hospedagem de Dados
 52883,ICAL - Indústria de Calcinação Ltda
 52885,Cooperativa Central Aurora Alimentos
@@ -31696,7 +31633,7 @@ asn,isp
 52899,FLIX TELECOM
 52900,HI TELECOM EIRELI
 52901,MINAS TELECOM
-52902,LINK TELECOM
+52902,M J SOARES DE LIRA E SERVICOS EIRELI
 52903,Sglinknet Telecomunicacoes Ltda-ME
 52904,Multpontos Telecomunicações Ltda - ME
 52905,MIT Internet
@@ -31730,7 +31667,7 @@ asn,isp
 52937,FHP TELECOMUNICACAO E COM VAREJISTA DE PRODUTOS DE
 52938,EMA Comércio de Eletrônicos e Servicos Ltda.
 52939,Minas Turbo Provedor de Internet
-52940,NEMESIS Provedor de Acesso as Redes de Comunicação
+52940,PATH TELECOM S.A.
 52941,SPACE NETWORK
 52942,Conexis Internet Provider Ltda
 52944,MEGALINK TELECOMUNICACOES LTDA ME
@@ -31745,7 +31682,6 @@ asn,isp
 52956,Speed Travel Comunicação Multimídia Ltda - ME
 52958,Empr.Tec.Inform.Comun. Mun.SP-PRODAM-SP S/A
 52960,EDILSON SANTOS SILVA SOBRINHO - ME
-52961,FNA E-OURO GESTAO DE FRANCHISING E NEGOCIOS LTDA
 52962,Vipnet Baixada Telecom. e Informática Ltda
 52963,JATIMNET TELECOM
 52964,FÁBIO MENDES DIAS LTDA ME
@@ -31768,7 +31704,6 @@ asn,isp
 52982,GGT PROVEDOR INTERNET LTDA
 52984,CS-NET Informática e Tecnologia Ltda.
 52986,Vupt Provedora de Internet Ltda
-52987,Fybernet Teleinformatica Ltda
 52988,PLENA TELECOM
 52990,Vonex Telecomunicações
 52991,Tres Pontas Internet Ltda
@@ -31787,7 +31722,7 @@ asn,isp
 53005,Rede Connect Telecom
 53006,ALGAR TELECOM S/A
 53007,Volvo do Brasil Veículos Ltda.
-53008,Pontal Cabo Ltda
+53008,CABONNET INTERNET LTDA
 53009,Bacth Servicos de Informatica Ltda
 53010,MINUTES4ALL TELECOMUNICAÇÕES LTDA
 53011,KARCHER IND E COM LTDA
@@ -31807,6 +31742,7 @@ asn,isp
 53027,Vale S/A
 53028,ATP TECNOLOGIA E PRODUTOS S.A.
 53029,Seabra Informatica Ltda
+53035,Núcleo de Inf. e Coord. do Ponto BR - NIC.BR
 53038,IDC19 - WDI SOLUCOES EM TEC INFORMACAO LTDA
 53039,ABRIL COMUNICACOES S.A.
 53040,ALTA CONEXAO TELECOMUNICACOES LTDA
@@ -31841,7 +31777,7 @@ asn,isp
 53076,INTERPIRA INTERNET SERVICE PROVIDER LTDA
 53077,ALOLTECH TELECOM LTDA
 53078,Acesse Comunicação Ltda
-53079,A.S.Byte Informática Ltda - ME
+53079,MD Brasil - Tecnologia da Informação Ltda
 53080,Rede Telecom
 53081,Netjacarei Telecon Ltda
 53083,C & M Software Ltda.
@@ -31915,7 +31851,7 @@ asn,isp
 53170,Cabangu Internet Ltda
 53171,PATH TELECOM S.A.
 53172,Next Telecomunicações do Brasil LTDA
-53173,ARENANET TEL COM E SERV EM INF LTDA
+53173,SOBRALNET SERVICOS E TELECOMUNICACOES LTDA - ME
 53174,Pannet Serviços On Line Ltda
 53175,Unetvale Servicos e Equipamentos LTDA
 53178,SCNet Equipamentos de Informática Ltda
@@ -31991,7 +31927,6 @@ asn,isp
 53271,Phenix Cable
 53272,SAIC
 53274,Skyrunner Inc.
-53275,Graham Partners Inc.
 53276,Tudor Investment Corporation
 53277,FuelQuest Inc.
 53279,INXPO inc.
@@ -32000,6 +31935,7 @@ asn,isp
 53282,Skywave Wireless Inc.
 53285,Worldcall Internet Inc.
 53286,LA Financial Federal Credit Union
+53287,5Q Cloud
 53288,STERICYCLE INC.
 53289,Data Moving Company
 53291,WSFS Bank
@@ -32018,7 +31954,6 @@ asn,isp
 53311,Air Medical Group Holdings
 53312,Sunvale Inc.
 53313,ITRON INC.
-53315,Nexus IS
 53316,CHEETAHMAIL
 53317,WakeMed
 53319,Commission scolaire des Phares
@@ -32091,6 +32026,7 @@ asn,isp
 53423,Brazos WiFi
 53425,North Carolina Electric Membership Corp
 53426,Delaware North Companies
+53427,TGLOBAL NETWORKS
 53429,FreedomVOICE Systems
 53432,Owensboro Health Inc.
 53434,SRI International
@@ -32301,6 +32237,7 @@ asn,isp
 53740,optbit LLC
 53741,American Airlines Inc.
 53742,Houlton Regional Hospital
+53745,Nordklett Inc.
 53746,American Savings Bank FSB
 53747,Wall Street Systems Delaware Inc
 53748,University Medical Center of Southern Nevada
@@ -32312,7 +32249,6 @@ asn,isp
 53757,Unilink Networks Inc.
 53758,Invalid Network
 53759,Visual Net Design LC
-53760,Xenir LLC
 53764,DM Wireless LLC
 53765,San Francisco Federal Credit Union
 53766,VMWare Inc.
@@ -32438,7 +32374,6 @@ asn,isp
 53957,Millers Capital Insurance Company
 53958,ZT Group International Inc
 53959,Public Service Data Inc.
-53960,MAZZETTA COMPANY
 53962,Media Arts Lab
 53963,LRGHealthcare
 53964,Advanced Digital Data Inc.
@@ -32448,7 +32383,7 @@ asn,isp
 53973,Freepoint Commodities LLC
 53974,Jazz Network Inc.
 53975,WESTERN ASSET MANAGEMENT COMPANY
-53976,CONTINENTAL BROADBAND PENNSYLVANIA INC.
+53976,Expedient
 53978,Acumed LLC
 53979,Eastern Florida State College
 53980,Brightstar Communications Inc
@@ -32469,10 +32404,12 @@ asn,isp
 54004,Optimum WiFi
 54006,VTX Communications LLC
 54007,Wycliffe Bible Translators Inc
+54009,Brudda Networks LLC
 54013,Varonis Systems Inc.
 54015,Chicago International Produce Market Condominium association
 54016,Diebold Nixdorf Incorporated
 54017,UCare Minnesota
+54018,CarRentals LLC
 54019,Weis Markets Inc
 54021,FIX FLYER LLC
 54022,K & M Telephone Company Inc
@@ -32495,7 +32432,7 @@ asn,isp
 54048,CVIN LLC
 54050,Government Personnel Mutual Life Insurance Company
 54053,Realogy Group LLC
-54054,Deteque LLC
+54054,Deteque
 54055,RSNB Bank
 54056,Packaging Corporation of America
 54057,Wheat State Telephone Inc.
@@ -32549,6 +32486,7 @@ asn,isp
 54132,Integration Partners Corporation
 54133,UnmeteredInternet.com
 54135,TEGNA Inc.
+54136,Nasdaq Inc.
 54137,Tony Graham Toyota
 54138,Overplay Inc
 54139,Connexio.ca
@@ -32737,6 +32675,7 @@ asn,isp
 54406,Convermax Corp
 54407,ARENT FOX LLP
 54408,First Insurance Company of Hawaii
+54409,BDO USA LLP
 54410,Bozeman Deaconess Health Services
 54411,ONE Gas Inc.
 54412,Rogers Communications Canada Inc.
@@ -32815,7 +32754,6 @@ asn,isp
 54519,TEAM Madison Partners LLC.
 54520,Calgary Catholic School District
 54521,National Gallery of Art
-54522,CIERANT CORPORATION
 54523,WSTC
 54525,APPLIED GLOBAL TECHNOLOGIES LLC
 54526,Uhlig LLC
@@ -32838,6 +32776,7 @@ asn,isp
 54548,ProfitBricks Inc.
 54549,City of Vallejo A municipal corporation
 54550,M S International Inc.
+54552,Samaritan's Purse
 54554,Turner Industries Group LLC.
 54555,Host Duplex LLC
 54556,McCallie School
@@ -32948,6 +32887,7 @@ asn,isp
 54713,CAMC Health System Inc.
 54714,Secure Global Solutions LLC
 54719,TELUS Communications Inc.
+54720,Global IP Networks INC
 54721,NGEN Networks
 54722,Museum of Science
 54723,Midwest Data Center Inc.
@@ -32967,6 +32907,7 @@ asn,isp
 54748,Hudson Bay Capital Management LP
 54749,Jaspin Interactive Inc.
 54751,Kelley Drye & Warren LLP
+54753,-Reserved AS-
 54754,Ains inc.
 54755,Desert Winds Wireless Inc
 54758,OtterBox
@@ -33057,7 +32998,6 @@ asn,isp
 54885,State of Idaho
 54886,ROCKET SOFTWARE INC
 54890,BBIX USA INC.
-54891,Marvel Studios LLC
 54892,Center on Budget and Policy Priorities
 54893,AutoLoop
 54894,Summit Rock Advisors LLC
@@ -33095,6 +33035,7 @@ asn,isp
 54937,MacDon Industries Ltd.
 54938,Bspeedy Wireless Inc.
 54940,Broadridge Financial Solutions Inc.
+54941,St Mary's University
 54943,Stillwater Insurance Services Inc
 54945,RACK59 Partners LLC
 54946,Metro Health
@@ -33206,6 +33147,7 @@ asn,isp
 55102,NRG Energy Inc.
 55103,Thin-nology LLC
 55104,BioClinica Inc.
+55105,NORTHWEST COMMUNICATIONS COOPERATIVE
 55106,Datacate Inc.
 55107,Havas Worldwide LLC
 55111,Calvert County
@@ -33231,6 +33173,7 @@ asn,isp
 55132,Beverly Hills Hotel
 55133,St. Croix Central School District
 55134,SKYNET360 LLC
+55135,Laureate Education Inc.
 55136,CARLTON FIELDS P.A.
 55139,Landry's Inc.
 55140,Sho Me Technologies LLC
@@ -33280,7 +33223,6 @@ asn,isp
 55216,CarverLink
 55217,TRIWEST HEALTHCARE ALLIANCE
 55219,Cisco Systems Inc.
-55220,KIX MEDIA INC
 55222,9219-1568 Quebec Inc.
 55224,Marietta City Schools
 55226,Wellpartner Inc
@@ -33328,7 +33270,6 @@ asn,isp
 55282,SUNY Canton
 55284,Universal Service Administrative Company
 55286,B2 Net Solutions Inc.
-55287,Surplus Lines Stamping Office of Texas
 55288,Dimensional Strategies Inc.
 55289,-Reserved AS-
 55290,Depository Trust & Clearing Corporation
@@ -33551,6 +33492,7 @@ asn,isp
 55654,IAIN Surakarta
 55655,PT. Saranainsan Mudaselaras
 55656,Ministry of Transportation Republic of Indonesia
+55659,PT Omadata Indonesia (OMADATA Internet Exchange)
 55660,PT Master Web Network
 55661,PT Informasi Teknologi Indonesia
 55662,CV. CITRAWEB NUSA INFOMEDIA
@@ -33566,7 +33508,6 @@ asn,isp
 55674,Universitas Negeri Yogyakarta
 55679,PT Hyperindo Media Perkasa
 55680,Kantor Sistem Informasi Universitas Atma Jaya Yogyakarta
-55682,PT. Fiber Media Indonesia
 55683,CV Argon Data Interkoneksi
 55684,Universitas Sebelas Maret
 55685,PT Jala Lintas Media
@@ -33588,7 +33529,6 @@ asn,isp
 55710,Permodalan Nasional Berhad
 55711,Brainpulse Technologies Pvt. Ltd.
 55712,PLINTRON GLOBAL TECHNOLOGY SOLUTIONS PVT LTD
-55714,Fiberlink Pvt.Ltd
 55715,Advanced Data Centres Limited
 55719,Reserve Bank of New Zealand
 55720,Gigabit Hosting Sdn Bhd
@@ -33727,6 +33667,7 @@ asn,isp
 55973,Universal Cinema Services Co. Ltd
 55976,Beijing DxConsole Technology Co. Ltd
 55982,Changhong IT information Products CO.LTD.
+55989,Zhejiang Xuanyun Technology Co. Ltd.
 55990,Huawei Cloud Service data center
 55991,AS55991
 55992,Beijing Qihu Technology Company Limited
@@ -33811,7 +33752,6 @@ asn,isp
 56132,Monash University
 56134,Horizon Cable Communication Co.Ltd.
 56135,Sliced Tech Holdings Unit Trust
-56136,Li & Fung (Trading) Limited
 56140,Nocser Technology
 56141,Danang ICT Infrastructure Development Center
 56142,BP Exploration Operating Company
@@ -33868,6 +33808,7 @@ asn,isp
 56240,PT DJARUM
 56241,PT Telkom Satelit Indonesia
 56242,PT SUMBER KONEKSI INDOTELEMATIKA
+56243,Indonusa System Integrator Prima PT.
 56245,PT Fajar Techno System
 56246,PT Sumber Data Indonesia
 56248,PT INDAH KIAT PULP & PAPER Tbk
@@ -33877,7 +33818,6 @@ asn,isp
 56254,UNIVERSITAS RIAU
 56255,PT Transtech Communication Media
 56256,Perpustakaan Nasional RI
-56257,Balai Penyedia dan Pengelola Pembiayaan Telekomunikasi dan Informatika
 56258,PT. PGAS TELEKOMUNIKASI NUSANTARA
 56259,PT Astra Graphia Information Technology
 56260,PT Pascal Indonesia
@@ -34030,6 +33970,7 @@ asn,isp
 56465,Therecom Ltd
 56467,Kartina World LLP
 56468,MC NETWORKING Sh.p.k.
+56469,BIP21 SAS
 56470,Diagnostyka Consilio Sp.zoo
 56472,Ampersand Srl
 56473,Conduit Connect B.V
@@ -34100,6 +34041,7 @@ asn,isp
 56551,Ayuntamiento Rivas Vaciamadrid
 56552,Storm Systems LLC
 56553,REVEL BUSINESS GROUP SRL
+56554,Internet Society
 56557,Department of Digital Development of the Voronezh region
 56558,TOV AGRO TM
 56559,CoreTech s.r.l.
@@ -34189,7 +34131,7 @@ asn,isp
 56664,Sigma-Net Ltd.
 56665,Proximus Luxembourg S.A.
 56666,The federal state unitary enterprise Scientific techical center Atlas
-56667,Inter-set Ltd.
+56667,Intercom LLC
 56668,FOP Demchuk Sergiy Olexandrovuch
 56669,LLC Gazpromneft ITO
 56670,West Sussex County Council
@@ -34202,7 +34144,6 @@ asn,isp
 56678,LLC Gydrozo
 56679,TECOM LLC
 56680,Shared Electronic Banking Services Company K.S.C
-56681,Drustvo za telekomunikacije Orion telekom doo Beograd-Zemun
 56682,GRUPA INTERIA.PL MEDIA Sp z.o.o. SK
 56683,EXNESS LIMITED
 56684,Oscar Downstream SRL
@@ -34224,7 +34165,7 @@ asn,isp
 56702,Chitatehenergy JSC
 56703,MEHR AVA GOSTAR PARSIAN INFORMATION ENGINEERING CO.LTD
 56704,Farice ehf
-56705,MegaIntelSystems Ltd.
+56705,MEGAINTELSYSTEMS-AS
 56707,OOO NETCOM
 56709,Spoldzielnia Telekomunikacyjna WIST w Lace
 56710,MAXEN TECHNOLOGIES S.L.
@@ -34254,6 +34195,7 @@ asn,isp
 56743,PARADOX ENGINEERING SAGL
 56744,EXIMTUR SRL
 56745,Kalnet4u Ltd
+56746,SIMULTANEOUS NETWORK PROTOCOL S.R.L.
 56747,Nelson Services s.r.o.
 56749,Roshangaran Ertebatat Rayaneh
 56750,CLINICA POLISANO SRL
@@ -34287,7 +34229,7 @@ asn,isp
 56792,Banca Comerciala Moldindconbank SA
 56793,OJSC Commercial Bank Evrofinance Mosnarbank
 56794,New Transport Company Ltd.
-56795,B1 TV CHANNEL S.R.L.
+56795,B1-TV-CHANNEL
 56797,FOP Ruban Nataliya
 56798,HIDORA SA
 56800,LAST MILE spol. s r.o.
@@ -34310,7 +34252,7 @@ asn,isp
 56820,OOO EVRAZ
 56821,KnVnet services s.r.o.
 56822,Universal Telecom Experts S.L
-56823,FOP Mulyavka Vyacheslav Aleksandrovich
+56823,ASCITYNET
 56826,Urzad Lotnictwa Cywilnego
 56827,mirnet s.r.o.
 56828,Norsk Helsenett SF
@@ -34427,7 +34369,6 @@ asn,isp
 56973,VITKOVICE IT SOLUTIONS a.s.
 56974,STATE REVENUE COMMITTEE OF THE REPUBLIC OF ARMENIA
 56975,Metrex Engineering LTD
-56976,Core2u i Sverige AB
 56977,STILAR Ltd
 56978,National Security and Defence Council of Ukraine Staff
 56981,JSC ER-Telecom Holding
@@ -34451,7 +34392,7 @@ asn,isp
 57003,PortalTeleNet LLC
 57004,Soitec SA
 57005,PE Homich Nataliya G.
-57006,Servis-N-AS
+57006,Haulmont Samara Ltd.
 57007,NITEX ISP s.r.o.
 57009,Satoga SRL
 57010,IT House Ltd
@@ -34628,6 +34569,7 @@ asn,isp
 57243,BB-ONE.net Limited
 57244,OOO SP Millenium-Apsny
 57246,WellTelecom LLC
+57247,Motus A/S
 57248,Wisper s.r.o.
 57249,EDGE NPD
 57250,Ru.Net Ltd.
@@ -34655,7 +34597,7 @@ asn,isp
 57279,Sauron CZ s.r.o.
 57280,Lindbak IT AS
 57281,RTT Ltd.
-57284,REGION PICARDIE
+57284,Region Hauts-de-France
 57285,LIMITED LIABILITY COMPANY UKRAINIAN INFOSYSTEMS
 57286,GIGAS HOSTING S.A.
 57287,OtavaNet s.r.o.
@@ -34679,7 +34621,6 @@ asn,isp
 57312,E.Soft Ltd.
 57314,Invest Mobile LLC
 57315,YOUAND.CO.UK LIMITED
-57316,MED.CO (MEDICAL COMPANY) SRL
 57317,Servermeile GmbH
 57318,AS Baltic International Bank
 57319,JSC Tander
@@ -34719,7 +34660,7 @@ asn,isp
 57366,IRAN POST Company
 57367,Atman Sp. z o.o.
 57368,Limited Liability Company  SSTinvest
-57370,Swisscom (Schweiz) AG
+57370,WINGO
 57371,Mass-Net LLC
 57372,OOO Comtelco
 57373,Groupe ESIEA Association declaree
@@ -34755,7 +34696,7 @@ asn,isp
 57420,LLC Foratelecom
 57421,Gorset Ltd.
 57422,Pautina.Net LLC
-57423,SIGTERM MIKAL VILLA
+57423,Sigterm AS
 57424,Limited liability company New Line
 57428,SD Intelect SRL
 57432,Kostromskoi zavod avtokomponentov CJSC
@@ -34887,9 +34828,9 @@ asn,isp
 57593,Polska Spolka Gazownictwa SP. Z O.O.
 57594,FAN-TEX Aleksander Grzegorz HIRSZTRITT
 57595,Netlogic doo
-57598,S.H.A. Trans S.R.L.
 57599,Private Enterprise On Line
 57600,FIGEN YAZILIM EVI TIC.LTD.STI.
+57601,GM-AS
 57602,Statens Jordbruksverk
 57605,Helpteh Ukraine Ltd
 57606,Proxis spol. s r.o.
@@ -34964,7 +34905,7 @@ asn,isp
 57697,Tier-4 Ltd
 57700,DeepCo Ltd
 57701,Myszkowska Telewizja Kablowa Sp. z o.o.
-57703,STAR MEDIA LLC
+57703,LLC SM-UKRAINE
 57704,SpeedClick for Information Technology and Communication Ltd
 57705,Lifoet-2007 LLC
 57706,Hybula B.V.
@@ -34976,7 +34917,6 @@ asn,isp
 57712,NPF SOFTVIDEO Ltd.
 57713,Societatea Comerciala ACER-COM S.R.L.
 57714,Gulf Bank Public Shareholding
-57715,Rojek Emil CAFE-NET
 57716,Skynet Telecom s.r.o.
 57717,FiberXpress BV
 57718,INM s. j. Tomasz Chomko Mariusz Lisowski
@@ -34996,7 +34936,6 @@ asn,isp
 57734,France IX Services SASU
 57736,Holstebro Kommune
 57737,Joint Stock Company Angarsk Electrolysis Chemical Complex
-57739,dogado GmbH
 57740,Hermes Datacommunications International Limited
 57741,Uzel Svyazy Ltd
 57742,TVT LLC
@@ -35137,6 +35076,7 @@ asn,isp
 57910,Soluciones Corporativas IP SL
 57911,Miltenyi Biotec GmbH
 57912,Asyst EOOD
+57913,toscanatlc
 57914,Bank Audi SAL - Audi Saradar Group
 57915,Sinch Denmark ApS
 57916,Larom TV SRL
@@ -35176,12 +35116,12 @@ asn,isp
 57962,LLC  Ug telekom grup 
 57964,ILR LOGISTICA ROMANIA S.R.L.
 57966,INTRATEL Sp. z o.o.
-57967,IP Excess AB
 57968,Ministry of Foreign Affairs
 57970,OLE COMUNICACION S.L.
 57971,Mediasvyaz Ltd.
 57972,Inter Connects Inc
 57973,LLC VK
+57974,PLASMA-DC-AS
 57975,ARTV Union Ltd.
 57976,Blizzard Entertainment Inc
 57977,ISVTEC SARL
@@ -35211,10 +35151,10 @@ asn,isp
 58004,STIME SAS
 58005,F24 NORDICS AS
 58006,LTD Technet
-58007,Witine Limited
+58007,Witine
 58008,OAO Trade House Russky Holod
 58010,uvensys GmbH
-58011,CHEOPS TECHNOLOGY FRANCE S.A.
+58011,Cheops-AS
 58012,Nanida Cloud Kft.
 58014,ZUTOM s.r.o.
 58017,BONDSPOT S.A.
@@ -35245,6 +35185,7 @@ asn,isp
 58047,Kurator-Inform Ltd.
 58048,Bezheckaya Internet Company ltd.
 58049,MTX Services Sarl
+58051,Alpha Internet Limited
 58053,Tam Iran Khodro Company
 58055,EXTRATEL-NET1-AS
 58056,siaIT d.o.o.
@@ -35291,7 +35232,6 @@ asn,isp
 58108,United Shipbuilding Corporation JSC
 58109,STARCARD BANKA KARTLARI MERKEZI LTD
 58111,VESTAS WIND SYSTEMS A/S
-58114,Vincon Vrancea SA
 58116,Mamba JSC
 58118,SC ADINET-Com SRL
 58119,LLC ID STRATEGY
@@ -35358,9 +35298,10 @@ asn,isp
 58204,ALPIS PRODUCT SRL
 58207,JSC Polyus Krasnoyarsk
 58208,GEDEFI Conseil SARL
+58209,Murat Terzioglu
 58210,SkyNet Ltd.
 58211,Marco Zebut
-58212,DATAFOREST
+58212,dataforest GmbH
 58213,TOTTER MIDI podjetje za proizvodnjo in raziskave razvoj in trgovino
 58217,BelKomStroy Ltd.
 58219,Ekus LLC
@@ -35442,6 +35383,7 @@ asn,isp
 58314,SvyazResurs-Kuban LLC
 58316,WiGate S.r.l.
 58317,Embark Studios AB
+58318,ZILORE NETWORKS LIMITED
 58319,Kazakov Aleksey Dmitrievich
 58320,Skogsstyrelsen
 58321,Oxylion S. A.
@@ -35475,6 +35417,7 @@ asn,isp
 58375,Universitas Udayana
 58376,PT Angkasa Komunikasi Global Utama
 58377,Sentra Niaga Solusindo PT.
+58378,Balai Telekomunikasi dan Informatika Perdesaan
 58381,Wow Internet Indonesia
 58383,PT. Sejahtera Damai Bersama
 58385,PT. Bank Syariah Mandiri
@@ -35542,7 +35485,6 @@ asn,isp
 58487,Rumahweb
 58488,PUSDATIN KKP
 58491,PT Sarana Mukti Adijaya
-58492,Universitas Islam Sultan Agung
 58495,PT Parsaoran Global Datatrans
 58497,PT Integra Ventura
 58498,PT Infrastruktur Bisnis Sejahtera
@@ -35819,7 +35761,7 @@ asn,isp
 59074,TAIKANG INSURANCE GROUP CO.LTD.
 59077,Shanghai UCloud Information Technology Company Limited
 59078,Yunify Technologies Inc.
-59080,Beijing HuaxiaYakue Network Technology Co. Ltd.
+59080,Beijing Shiwei border Technology Co. Ltd
 59083,Shanghai Kuanhui Tech. Co.ltd
 59089,NO.18 Building University of Technology
 59091,Kanagawa Institute of Technology
@@ -35996,6 +35938,7 @@ asn,isp
 59432,GINERNET S.L.
 59434,JSC The Auction house of the Russian Federation
 59437,Northern Data AG
+59438,Increo Interactive Creations AS
 59439,EvolveIP LTD
 59440,LightPort Ltd
 59441,NOAVARAN SHABAKEH SABZ MEHREGAN (Ltd.)
@@ -36020,7 +35963,6 @@ asn,isp
 59463,Vision 2008 Ltd.
 59465,LLC Sciener
 59466,EuroExpress Ltd.
-59467,The first international bookmaker company Ltd.
 59468,TzOV CENTR SAPR
 59470,ASL AIRLINES FRANCE S.A.
 59471,Movicom s.c. Witold Skorzycki Dariusz Zwolinski
@@ -36041,7 +35983,7 @@ asn,isp
 59489,Anadolu Bilisim Hizmetleri A.S.
 59490,MNG Havayollari ve Tasimacilik A.S.
 59491,Livenet Sp. z o.o.
-59492,Media IT 27 LLC
+59492,MEGOGO-LLC
 59493,MIMIC Ltd
 59494,Enigma Telecom Ltd.
 59495,Uralskie lokomotivy Ltd
@@ -36075,6 +36017,7 @@ asn,isp
 59531,PE Meshchaninov Nikolay Nikolaevych
 59532,COMETEINET TELECOM SRL
 59533,Lukjanova Lydia Andreevna PE
+59534,Navigator Ltd
 59535,Orange Group HH Ltd.
 59536,RIZBUKNET LLC
 59537,Lider-Telecom LLC
@@ -36098,7 +36041,6 @@ asn,isp
 59563,Porumb Flavius Nicolae Persoana Fizica Autorizata
 59564,Unit-IS Ltd.
 59565,Cronos Internet Ltd
-59568,FP Digital Business Solutions GmbH
 59569,IE Boykov Roman Konstantinovich
 59571,Apps Ministry LLC
 59573,Sari System Bandarabas Company
@@ -36123,7 +36065,7 @@ asn,isp
 59597,4COM TECHNOLOGIES LIMITED
 59598,Sakura Network LTD
 59599,NCCW B.V.
-59600,Atlas Telecom Ltd.
+59600,ATLAS-TELECOM-AS
 59601,Limited Liability Company HeadHunter
 59602,FORTPOST Ltd.
 59603,Regional state independent organization The information and techonological cen
@@ -36133,20 +36075,20 @@ asn,isp
 59607,Telewizja Kablowa Hajnowka Kiedys
 59609,JP Sluzbeni Glasnik
 59611,GigaNet Pawel Jastrzebski
-59613,UBNIX
+59613,Ukrainian Backbone Networks LLC
 59614,Uralmicro Ltd
 59615,SIA Serverum
 59616,Baikal Teleport CJSC
 59617,Andy Davidson
 59619,Blackpool Borough Council
 59620,Global Electronic Solutions LTD.
-59621,Flo Networks Limited
 59622,tv factory AG
 59624,Federal State Institution Russian Scientific Center Kurchatovsky institute
 59625,Korek Telecom Company for Communications LLC
 59626,CONSCIA DANMARK A/S
 59627,Docker LTD
 59630,NN Insurance EurAsia NV
+59631,AVATEL TELECOM SA
 59632,SC PIDGIN HOST SRL
 59633,PESCO Switzerland AG
 59634,Zetta Connect Ltd
@@ -36187,9 +36129,11 @@ asn,isp
 59674,Erhan Mahmut trading as Aysima Bilisim Teknolojileri
 59675,mywire Datentechnik GmbH
 59677,SMART TELECOM MEDIA SRL
+59678,SYSTEM36 LLC
 59679,Agenstvo po rasprostraneniu zarubejnih izdaniy OJSC
 59680,Convergent Network Solutions Ltd
 59681,Satellit PE
+59682,MULTICAST LLC
 59684,Hoster kg Ltd.
 59685,Van Oord Dredging and Marine Contractors BV
 59686,Gemini Internet Sp. z o.o.
@@ -36283,6 +36227,7 @@ asn,isp
 59809,21 IN Ltd
 59810,Helvetia Swiss Insurance Company Ltd.
 59811,Voneus Ltd
+59812,Gluecklich GmbH
 59813,Konstantin Verba
 59815,Kompeatelecom Ltd.
 59816,Safe Hosts Internet LLP
@@ -36364,7 +36309,6 @@ asn,isp
 59928,OJSC Electrosignal Corp.
 59929,Flexibelt B.V.
 59930,Telegram Messenger Inc
-59931,Lebanon Online SARL
 59933,Sensical Services Limited
 59934,Conversion Marketing SRL
 59935,TT-Travel LLC
@@ -36430,7 +36374,7 @@ asn,isp
 60036,Dyfed IT Solutions Ltd
 60038,TripAdvisor Limited
 60039,Geotelco Limited
-60040,LLC Runet Business Systems
+60040,RBS-AS
 60042,OnTelecom LLC
 60043,JSC ER-Telecom Holding
 60044,EMnify GmbH
@@ -36461,6 +36405,7 @@ asn,isp
 60078,NEXTLAN SRL
 60079,Electromagnetic Field Ltd.
 60080,S2 Grupo de Innovacion en Procesos Organizativos S.L.U.
+60081,Che-System LLC
 60083,ASYA KATILIM BANKASI A.S
 60085,LLC Connect
 60086,Valvera s.r.o.
@@ -36485,7 +36430,7 @@ asn,isp
 60112,CLARINS SA
 60115,Stadtverwaltung St. Gallen
 60117,Host Sailor Ltd
-60118,Cyber Smart Solutions S.R.L
+60118,INVITE Systems SRL
 60119,Novosibirsk Telecommunication Company Ltd.
 60121,Uzdaroji akcine bendrove EOLTAS
 60122,Sberbank of Russia PJSC
@@ -36531,7 +36476,6 @@ asn,isp
 60175,WORTMANN AG
 60177,Limited Liability Company BUKMEKERSKAYA KONTORA PARI
 60178,Mohammad Sheikhe Sajadie
-60181,SAP SE
 60182,Omega Trans Ltd.
 60185,QatarEnergy
 60186,Eurasian Development Bank
@@ -36551,7 +36495,6 @@ asn,isp
 60202,Kivi TV Ltd.
 60203,Innovaciones Tecnlogicas del Sur S.L.
 60204,Enterprise Services France SAS
-60205,Magine Pro AB
 60207,VENTE-PRIVEE.COM SA
 60209,Informationsverarbeitung Leverkusen GmbH
 60212,BiteCom LTD.
@@ -36713,7 +36656,7 @@ asn,isp
 60436,KBC GLOBAL SERVICES NV
 60437,FORA-BANK Joint-Stock Commercial Bank
 60441,ELITKOM Ltd.
-60446,Datema Bilisim Ticaret Anonim Sirketi
+60446,datema
 60447,I NET BULGARIA EOOD
 60448,Damian Giecko COVERNET
 60450,VEZUVIAN SRL
@@ -36845,14 +36788,14 @@ asn,isp
 60611,Closed Joint Stock Company Alfa-Bank
 60612,Albatros Ltd.
 60615,COMPANIA NATIONALA POSTA ROMANA S.A.
-60616,Oy IBM Finland Ab
+60616,IBM_Finland
 60618,Enterprise Services France SAS
 60619,TelcoNet Kft.
 60620,Societe du Parc du Futuroscope
 60621,Authority of Developing Al-Madinah Al-Munawarah
 60623,ATCOM Joint Stock Company
 60624,MyNET Sp. z o.o.
-60626,Leaseweb CDN B.V.
+60626,LeaseWeb Network B.V.
 60627,Rayankadeh Apadana Company Ltd
 60628,FGBU REA Minenergo Russia
 60630,Association Alsace Reseau Neutre
@@ -36948,7 +36891,7 @@ asn,isp
 60748,VSK Insurance Joint Stock Company
 60749,Promotion PICHET SAS
 60750,Falco ISP Services B.V.
-60751,ServeByte Ltd
+60751,ServeByte
 60752,AOSSIA S.A.
 60753,Gromtsov Alexander Gennadyevich
 60754,Dianet Ltd.
@@ -37196,10 +37139,10 @@ asn,isp
 61063,Marina Maus
 61064,Pawel Idrian trading as TELE-NECIK.PL
 61066,LUKOIL TECHNOLOGY SERVICES BULGARIA LTD
+61067,EON TV INTERNATIONAL LTD
 61068,OOO NECSTEL
 61069,Eqservers LLC
 61071,NETBOX LTD
-61072,EZNet LIMITED
 61073,Global Financial Digital Solution Company JSC
 61074,Cuuma Communications Oy
 61077,NP Base SRL
@@ -37207,7 +37150,7 @@ asn,isp
 61079,Digi Italy S.R.L.
 61081,DEFAULTROUTE LIMITED
 61082,Ministerstvo na Truda i Socialnata Politika
-61083,DeGiro B.V
+61083,flatexDEGIRO Bank AG
 61084,Mehmet Selim Sahin
 61086,GIE ORTEC SERVICES
 61089,AHLI UNITED BANK KSC
@@ -37218,7 +37161,6 @@ asn,isp
 61096,Realmedia Network S.A.
 61097,Softcat Ltd
 61098,Akenes SA
-61099,Open Coconut SRL
 61101,Euronet-Druzhkovka LLC
 61102,Interhost Communication Solutions Ltd.
 61107,TOONBOX STUDIO LTD
@@ -37245,7 +37187,7 @@ asn,isp
 61138,Zappie Host LLC
 61139,TV TEOMAR SRL
 61140,GRINN Corporation CJSC
-61141,OST CJSC
+61141,OST JSC
 61143,Jersey Airtel Limited
 61144,Computerline GmbH
 61145,Real Broadband Ltd
@@ -37259,7 +37201,7 @@ asn,isp
 61153,Procter & Gamble Service GmbH
 61154,IntegraDesign Mariusz Barczyk
 61155,CUBiT IT Solutions GmbH
-61156,INTERFORUM Ltd.
+61156,IFORUM-AS
 61157,PlusServer GmbH
 61160,Biblioteca Apostolica Vaticana
 61161,Darkness Reigns (Holding) B.V.
@@ -37295,7 +37237,7 @@ asn,isp
 61207,Hostek AB
 61208,SCORTEL SRL
 61209,University of Sistan and Baluchestan
-61211,SETCOR d.o.o.
+61211,SETCOR
 61212,Tata Communications Move B.V.
 61213,Visma IT & Communications AS
 61215,IIJ Europe Limited
@@ -37310,7 +37252,7 @@ asn,isp
 61230,Internet Protocol Transit Telecom Ltd.
 61231,SSE PLC
 61232,redIT Services AG
-61233,TERRA TELEKOM SP. Z O.O.
+61233,Enformatel Sp. z o.o.
 61234,Cyren Inc
 61235,Complementary liability company TUT and TAM Logistics
 61236,MEDIACTIVE SAS
@@ -37356,7 +37298,7 @@ asn,isp
 61294,Andreas Stihl Kereskedelmi Kft.
 61295,NETOPS LTD.
 61296,TechCom s.r.o.
-61297,Ante Mediam LLC
+61297,DATACENTER-UA
 61299,ACUTUS.PRO sp. z o.o.
 61301,Parahodstvo Balgarski Morski Flot AD
 61302,HUIZE LTD
@@ -37413,7 +37355,7 @@ asn,isp
 61363,Ivoclar Vivadent AG
 61365,Global Cloud Ltd
 61367,TOO B-TEL
-61369,Datasim Limited
+61368,DAFEIYUN LTD
 61370,'Inter Expo Center EOOD'
 61371,Gigabit-Net Ltd.
 61372,AZIMUT TELECOM Ltd.
@@ -37503,7 +37445,6 @@ asn,isp
 61486,Universidad Nacional de Quilmes
 61487,COOPERATIVA ELECTRICA DE SALADILLO
 61490,Cable Norte Tv SA
-61491,INNOVA TELECOM
 61492,SERVICIOS EQUIFAX CHILE LIMITADA
 61493,InterBS S.R.L. (BAEHOST)
 61494,CABASE Camara Arg de Base de Datos y Serv en Linea
@@ -37786,7 +37727,7 @@ asn,isp
 61893,RM dos Santos Informatica
 61894,FreeBSD Brasil LTDA
 61895,EZEQUIEL DOS SANTOS ALVES - INTERNET
-61897,Mgtek Informática LTDA
+61897,HP COMERCIO E SERVICOS DE TECNOLOGIA E TELECOM LTD
 61898,Foco Servicoes de Telecomunicacoes Ltda Me
 61899,CERVEJARIA PETROPOLIS SA
 61900,Mais Internet LTDA EPP
@@ -37872,7 +37813,7 @@ asn,isp
 61997,Spichkin Andrey Mikolaevich
 61998,SzerverPlex.hu KFT.
 61999,MOTIV IT MASTERS B.V.
-62000,SERVERD SAS
+62000,NETRIX-AS
 62001,Aphelion Consulting AB
 62002,Rissa Kraftlag SA
 62004,JSC Virtualization Technology Center
@@ -37938,7 +37879,6 @@ asn,isp
 62075,Julian Lannert
 62077,DT Iletisim Hizmetleri A.S.
 62080,Adrian Almenar Serrano
-62081,Stowarzyszenie e-Poludnie
 62082,Hostland LTD
 62083,Fio banka a.s.
 62086,VIA-ONLINE GmbH
@@ -38011,6 +37951,7 @@ asn,isp
 62170,JSC BPS-Sberbank
 62172,Neonix Web Services Limited
 62173,Sepehr Saye Ban Shokoufaei Company (ltd)
+62174,INTERPAN LTD.
 62176,EZE A.S.
 62178,MASTER IT Technologies a.s.
 62179,UAB Ecofon
@@ -38071,13 +38012,13 @@ asn,isp
 62251,Dremuchij Les Ltd
 62252,JSC Kor Standard Bank
 62254,Avarn Security Oy
-62255,Asmunda New Media Ltd.
 62257,Mohsen Nikkhah trading as Kardox
 62258,Profim Sp zoo
 62259,Intelesi LLC
 62260,AB LIETUVOS PASTAS
 62261,Joint-stock company Internet Exchange MSK-IX
 62262,Wavenet Limited
+62263,Hosh Ertebat Zarandieh (Zarandieh Communication Intelligence) Company LLC
 62264,Federal State Budgetary Institution All-Russian Research Institute of Hydromet
 62265,Mahan Air Ltd
 62266,Cherpakov Aleksey Vladimirovich
@@ -38172,6 +38113,7 @@ asn,isp
 62381,Deltatre S.p.A.
 62382,LLC KDV Grupp
 62383,Lambrechts Data Services VOF
+62384,Radio Service Ltd.
 62385,Bertsch Holding GmbH
 62386,Aspilink Ltd.
 62389,Scientific Production Corporation Irkut PJSC
@@ -38188,7 +38130,7 @@ asn,isp
 62405,Brouzdal s.r.o.
 62407,MHCOM GmbH
 62408,Provista UK Ltd
-62410,Linenet Ltd.
+62410,LINENET-AS
 62411,SOLYTRON - SD - PETAR IVANOV AND GEORGI NAKOV
 62412,Borecom Networks S.L.
 62413,Kholding Monastyr'yev I Ko LLC
@@ -38210,14 +38152,14 @@ asn,isp
 62438,Geniproj SARL
 62439,RedLine Telecom LLC
 62440,Terralink LLC
-62442,Dade-Samane-Fanava
+62442,Dade Samane Fanava Company (PJS)
 62445,ADA NET-TV SRL
 62446,NIKA-TELECOM LLC
 62448,WAVEZONE SRL
 62449,Sybell Informatika Kft
 62450,TELECOMPROEKT Ltd.
 62452,Al-Imam Muhammad Ibn Saud Islamic University
-62453,Bagem.lv SIA
+62453,JSC BALTICOM
 62455,Wifiber Limited
 62456,WEBHANE Bilisim Teknolojileri Ticaret Limited Sirketi
 62457,Telewizja Puls Sp. z o.o.
@@ -38551,6 +38493,7 @@ asn,isp
 62958,ADT LLC
 62959,Innovative Systems LLC
 62961,Blueshift Information Systems Inc.
+62962,HyLife LTD
 62964,Weatherford International LLC
 62965,SAFE CREDIT UNION
 62966,BrightEdge Technologies
@@ -38595,7 +38538,6 @@ asn,isp
 63019,Parolink.net
 63020,WiValley Inc.
 63023,GTHost
-63026,DartPoints LLC
 63027,Lanicom LLC
 63029,Payscale Inc.
 63030,My Simple ISP LLC
@@ -38619,7 +38561,6 @@ asn,isp
 63060,ALTIUS Broadband LLC
 63061,CWT US LLC
 63062,Hughes Network Systems
-63063,Apsalar Inc.
 63064,Yotta Connect LLC
 63067,City National Bank
 63068,CrocWeb
@@ -38634,7 +38575,6 @@ asn,isp
 63083,Chapin Long Distance Inc.
 63086,Uber Technologies Inc
 63087,Empyrean Benefit Solutions Inc.
-63088,Hitachi Vantara Corporation
 63089,Salina Spavinaw Telephone Company Inc
 63090,VoiceCall Inc
 63092,-Reserved AS-
@@ -38937,6 +38877,7 @@ asn,isp
 63501,PT Mega Mentari Mandiri
 63502,PT. Dhecyber Flow Indonesia
 63503,PT. Nadyne Media Tama
+63504,Yayasan Panca Dharma
 63505,UIN Sunan Ampel -  Surabaya
 63506,Badan SAR Nasional
 63508,PT DINAMIKA MEDIAKOM
@@ -39029,6 +38970,7 @@ asn,isp
 63774,Kamoike.net LLP
 63775,YAKAGE CABLE TELEVISION
 63776,Mercari Inc.
+63777,National Institutes of Natural Sciences National Astronomical Observatory of JA
 63779,JUSTPLAYER Co.Ltd.
 63780,dual&Co. Inc.
 63781,Kobayashi Family Net LLP
@@ -39050,6 +38992,7 @@ asn,isp
 63827,PT Econdelight
 63834,PrimeXM Technologies Ltd
 63835,No.293Wanbao Avenue
+63837,China Unicom Shanghai network
 63838,Hengyang
 63840,Live Network & System
 63843,Dohatec New Media
@@ -39075,6 +39018,7 @@ asn,isp
 63878,PT Victory Network Indonesia
 63879,UIN Sunan Gunung Djati Bandung
 63882,PT Giga Prima Lestari
+63883,PT Senosan Multi Artha
 63884,Sekolah Tinggi Agama Islam Negeri (STAIN) Kudus
 63885,PT Inovasi Tjaraka Buana
 63886,Universitas Pembangunan Nasional Veteran Yogyakarta
@@ -39195,9 +39139,11 @@ asn,isp
 64102,Oracle Corporation
 64103,CABASE Camara Arg de Base de Datos y Serv en Linea
 64104,CABASE Camara Arg de Base de Datos y Serv en Linea
+64106,CABASE Camara Arg de Base de Datos y Serv en Linea
 64108,GRUPO Z
 64109,JOCKEY CLUB A.C.
 64110,LK-TRO-KOM S.A. (ELECTROCOM)
+64111,INFORMATICA BLUEHOSTING LIMITADA
 64112,PIT CHILE SP
 64113,FALABELLA TECNOLOGIA CORPORATIVA LTDA
 64114,TECNOWEB PERU SAC
@@ -39331,9 +39277,8 @@ asn,isp
 64440,Kongsberg Aviation Maintenance Services AS
 64441,Conectix Internet SRL
 64442,Securitas AG Schweizerische Bewachungsgesellschaft
-64443,Sky Waves SARL
 64444,RESEAU THD SARL
-64445,AS-NETJOIN
+64445,Michele Pietravalle trading as NetJoin
 64447,Fiba Holding A.S.
 64449,Datakonsult Magnus Sandberg
 64452,Play Solutions SRL
@@ -39362,7 +39307,6 @@ asn,isp
 64484,Hexanode SARL
 64485,Mitel Networks Limited
 64486,NPC BRIZ+ LLC
-64487,Cas Ebbers trading as Qonexa
 64488,IOPS s.r.o.
 64490,Montsibovych Andrii
 64492,Partner-Service LLC
