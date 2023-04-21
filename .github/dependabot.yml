@@ -7,6 +7,7 @@ version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/db-ip" # Location of package manifests
+    versioning-strategy: increase
     schedule:
       interval: "weekly"
       day: "saturday"
@@ -14,6 +15,7 @@ updates:
       
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/epg-grabber" # Location of package manifests
+    versioning-strategy: increase
     schedule:
       interval: "weekly"
       day: "saturday"
