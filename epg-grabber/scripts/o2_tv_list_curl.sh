@@ -3,8 +3,6 @@
 echo -e "\033[31;1m o2 chanells \033[0m"
 curl -X GET \
   --no-progress-meter \
-  --connect-timeout 30 \
-  --max-time 30 \
   --url "https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500" \
 | jq -r '.epg.items[] | ["o2-\(.channel.weight)", .channel.channelKey, .channel.name, .channel.weight, "https://assets.o2tv.cz\(.channel.logoUrl)"] | join(",")' | sort -t, -k3 > csv/o2_chanell.csv
 #
