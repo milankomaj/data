@@ -7,7 +7,7 @@ module.exports = {
       return {
         'Referer': 'https://api.o2tv.cz',
         'Host': 'api.o2tv.cz',
-        'Accept': 'application/json,*/*',
+        'Accept': 'application/json',
         'Sec-Fetch-Site': 'none',
         'User-Agent': 'Mozilla/5.0 (Linux; Android 8.0.0; Nexus 6P Build/OPP3.170518.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Mobile Safari/537.36'
       }
