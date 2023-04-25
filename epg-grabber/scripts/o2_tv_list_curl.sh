@@ -2,7 +2,7 @@
 #
 echo -e "\033[31;1m o2 chanells \033[0m"
 curl -X GET \
-  --fail \
+  --fail-with-body \
   --no-progress-meter \
   --connect-timeout 30 \
   --max-time 30 \
