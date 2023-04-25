@@ -1,5 +1,4 @@
 #!/bin/bash
-#
 echo -e "\033[31;1m horizon chanells \033[0m"
 curl -X GET \
   --no-progress-meter \
