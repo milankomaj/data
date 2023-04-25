@@ -6,7 +6,7 @@ curl -X GET \
   --no-progress-meter \
   --connect-timeout 30 \
   --max-time 30 \
-  --url "https://cors-anywhere.eleonora.workers.dev/?q=https%3A%2F%2Fapi.o2tv.cz%2Funity%2Fapi%2Fv1%2Fepg%2Fdepr%2F%3FforceLimit%3Dtrue%26limit%3D500" \
+  --url $(echo $env_var3)"/?url=?q=https%3A%2F%2Fapi.o2tv.cz%2Funity%2Fapi%2Fv1%2Fepg%2Fdepr%2F%3FforceLimit%3Dtrue%26limit%3D500" \
 | jq -r '.epg.items[] | ["o2-\(.channel.weight)", .channel.channelKey, .channel.name, .channel.weight, "https://assets.o2tv.cz\(.channel.logoUrl)"] | join(",")' | sort -t, -k3 > csv/o2_chanell.csv
 #
 awk -F ',' '{print "    <channel lang=\"cz\" xmltv_id=\""$1"\""" site_id=\""$2"\""" logo=\""$5"\""">"$3"</channel>"}' csv/o2_chanell.csv  > channels/o2_chanell_.xml
