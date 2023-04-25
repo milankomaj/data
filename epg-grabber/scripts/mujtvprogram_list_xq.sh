@@ -30,12 +30,8 @@ curl -X POST \
 done
 
 paste -d ',' *_mujtvprogram.tsv > mujtvprogram.tsv
-
-
-
 awk -F ',' '{print "    <channel lang=\""$5"\" xmltv_id=\"mujtvprogram-"$1"\""" site_id=\""$1"\""" logo=\""$4"\""">"$2"</channel>"}' mujtvprogram.tsv  > channels/mujtvprogram.channels.xml
 sed -i 1i"<?xml version=\"1.0\" encoding=\"UTF-8\"?>" channels/mujtvprogram.channels.xml
-
 sed -i 2i"<site site=\"mujtvprogram.cz#skylink#cz#komplet\">" channels/mujtvprogram.channels.xml
 sed -i 3i"\ \ <channels>" channels/mujtvprogram.channels.xml
 echo "  </channels>" >> channels/mujtvprogram.channels.xml
