@@ -6,7 +6,7 @@ curl -X GET \
   --no-progress-meter \
   --connect-timeout 30 \
   --max-time 30 \
-  --url "https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500" \
+  --url "https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=170" \
 | jq -r '.epg.items[] | ["o2-\(.channel.weight)", .channel.channelKey, .channel.name, .channel.weight, "https://assets.o2tv.cz\(.channel.logoUrl)"] | join(",")' | sort -t, -k3 > csv/o2_chanell.csv
 #
 awk -F ',' '{print "    <channel lang=\"cz\" xmltv_id=\""$1"\""" site_id=\""$2"\""" logo=\""$5"\""">"$3"</channel>"}' csv/o2_chanell.csv  > channels/o2_chanell_.xml
