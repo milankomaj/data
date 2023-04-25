@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     continue-on-error: true
-    environment: $env_var,$env_var2
+    environment: $env_var,$env_var2,$env_var3
     strategy:
       # fail-fast: true
       max-parallel: 2
