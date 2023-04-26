@@ -81,5 +81,5 @@ function parseCategory(item) {
 function parseIcon(item) {
   if (!item[0].url._text) { return [] }
   // console.log("parseIcon",item[0].url._text)
-  else { return (String(item[0].url._text)) }
+  else { return item[0].url._text }
 }
