@@ -79,7 +79,7 @@ function parseCategory(item) {
 }
 
 function parseIcon(item) {
-  if (!item) return null
+  if (!item) return []
   // console.log("parseIcon",item[0].url._text)
   return item[0].url._text
 }
