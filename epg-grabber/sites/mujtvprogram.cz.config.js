@@ -79,7 +79,8 @@ function parseCategory(item) {
 }
 
 function parseIcon(item) {
-  if (!item.picture) return []
-  // console.log("parseIcon",item[0].url._text)
-  return item.picture[0].url._text
+  if (!item) return []
+  // console.log("👉 parseIcon",typeof(item.picture))
+  if ((typeof item.picture === 'object') && !item.picture[0] && item.picture.url) return item.picture.url._text
+  if ((typeof item.picture === 'object') && item.picture[0].url) return item.picture[0].url._text
 }
