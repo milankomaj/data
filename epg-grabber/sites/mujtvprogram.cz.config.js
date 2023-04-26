@@ -31,7 +31,7 @@ module.exports = {
         director: parseList(item.directors),
         actor: parseList(item.actors),
         sub_title: parseSub(item),
-        icon: parseIcon(item.pictures.picture)
+        icon: parseIcon(item.pictures)
       })
     })
     return programs
@@ -79,7 +79,7 @@ function parseCategory(item) {
 }
 
 function parseIcon(item) {
-  if (!item[0].url._text) { return [] }
+  if (!item.picture) return []
   // console.log("parseIcon",item[0].url._text)
-  else { return item[0].url._text }
+  return item.picture[0].url._text
 }
