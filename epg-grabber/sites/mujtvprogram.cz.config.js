@@ -31,7 +31,7 @@ module.exports = {
         director: parseList(item.directors),
         actor: parseList(item.actors),
         sub_title: parseSub(item),
-        icon: parseIcon(item.pictures.picture) || null
+        icon: parseIcon(item.pictures.picture)
       })
     })
     return programs
