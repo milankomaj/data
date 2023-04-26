@@ -30,7 +30,8 @@ module.exports = {
         date: item.year._text || null,
         director: parseList(item.directors),
         actor: parseList(item.actors),
-        sub_title: parseSub(item)
+        sub_title: parseSub(item),
+        icon: parseIcon(item.pictures.picture) || null
       })
     })
     return programs
@@ -75,4 +76,10 @@ function parseTime(time) {
 function parseCategory(item) {
   if (!item['programme-type']) return null
   return item['programme-type'].name._text
+}
+
+function parseIcon(item) {
+  if (!item) return null
+  // console.log("parseIcon",item[0].url._text)
+  return item[0].url._text
 }
