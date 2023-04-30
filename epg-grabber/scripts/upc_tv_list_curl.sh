@@ -10,7 +10,7 @@ curl -X GET \
 sed -i 's/&/&amp;/g' csv/upc.tv_sk.chanell.csv
 awk -F ',' '{print "    <channel lang=\"sk\" xmltv_id=\""$1"\""" site_id=\""$2"\""" logo=\""$5"\""">"$3"</channel>"}' csv/upc.tv_sk.chanell.csv > channels/upc.tv_sk.channels.xml
 sed -i 1i"<?xml version=\"1.0\" encoding=\"UTF-8\"?>" channels/upc.tv_sk.channels.xml
-sed -i 2i"<site site=\"upc.tv\">" channels/upc.tv_sk.channels.xml
+sed -i 2i"<site site=\"upctv.sk\">" channels/upc.tv_sk.channels.xml
 sed -i 3i"\ \ <channels>" channels/upc.tv_sk.channels.xml
 echo "  </channels>" >> channels/upc.tv_sk.channels.xml
 echo "</site>" >> channels/upc.tv_sk.channels.xml
