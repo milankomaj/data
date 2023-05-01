@@ -6,6 +6,7 @@ module.exports = {
     headers: {
         'Host': 'api.o2tv.cz',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/jxl,image/webp,*/*;q=0.8',
+        'Connection': 'keep-alive', 
         'Sec-Fetch-Site': 'none',
         'Sec-Fetch-Mode': 'navigate',
         'Sec-Fetch-Dest': 'document',
