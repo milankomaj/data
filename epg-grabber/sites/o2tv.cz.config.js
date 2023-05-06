@@ -7,7 +7,7 @@ module.exports = {
         'Host': 'api.o2tv.cz',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/jxl,image/webp,*/*;q=0.8',
         'Connection': 'keep-alive', 
-        'Sec-Fetch-Site': 'none',
+        'Sec-Fetch-Site': 'cross-site',
         'Sec-Fetch-Mode': 'navigate',
         'Sec-Fetch-Dest': 'document',
         'User-Agent': 'Mozilla/5.0 (Linux; Android 8.0.0; Nexus 6P Build/OPP3.170518.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Mobile Safari/537.36'
