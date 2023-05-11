@@ -2,57 +2,38 @@ const axios = require('axios')
 //const dayjs = require('dayjs')
 module.exports = {
   site: 'o2tv.cz',
-  request: {
-    headers: {
-      "Host": "api.o2tv.cz",
-      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/jxl,image/webp,*/*;q=0.8",
-      "Connection": "keep-alive",
-      "Sec-Fetch-Site": "none",
-      "Sec-Fetch-Mode": "navigate",
-      "Sec-Fetch-Dest": "document",
-      "User-Agent": "Mozilla/5.0 (Linux; Android 8.0.0; Nexus 6P Build/OPP3.170518.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Mobile Safari/537.36",
-      "Accept-Language": "sk, en- US; q=0.7, en; q=0.3",
-      "Accept-Encoding": "gzip, deflate, br",
-      "DNT": "1",
-      "Upgrade-Insecure-Requests": "1",
-      "Sec-Fetch-User": "?1",
-      "Pragma": "no-cache",
-      "Cache-Control": "no-cache",
-      "TE": "trailers"
-      }
+  url: function ({ date, channel }) {
+    const id = encodeURIComponent(channel.site_id)
+    //console.log("id", id)
+    const d = date.valueOf()
+    //const g = dayjs(date).add(1, 'day').valueOf()
+    //console.log("d,g", d, g)
+    return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${d}`
+    //return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${f}&to=${g}`
   },
-url: function ({ date, channel }) {
-  const id = encodeURIComponent(channel.site_id)
-  //console.log("id", id)
-  const d = date.valueOf()
-  //const g = dayjs(date).add(1, 'day').valueOf()
-  //console.log("d,g", d, g)
-  return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${d}`
-  //return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${f}&to=${g}`
-},
   async parser({ content, channel, date }) {
-  let programs = []
-  let items = parseItems(content, channel)
-  if (!items.length) return programs
-  //console.log("items.length", items.length)
+    let programs = []
+    let items = parseItems(content, channel)
+    if (!items.length) return programs
+    //console.log("items.length", items.length)
 
-  // items.forEach(item => {
-  for (let item of items) {
-    // console.log("item",item)
-    const detail = await loadProgramDetails(item)
-    programs.push({
-      title: item.name,
-      start: parsestartT(item),
-      stop: parsestopP(item),
-      description: parseDescription(detail),
-      category: parseCategory(detail),
-      icon: parseIcon(detail),
-      sub_title: parseSub(detail) + parseYear(detail) + parseSeason(detail) + parseEpisode(detail)
-    })
-  }
-  //)
-  return programs
-},
+    // items.forEach(item => {
+    for (let item of items) {
+      // console.log("item",item)
+      const detail = await loadProgramDetails(item)
+      programs.push({
+        title: item.name,
+        start: parsestartT(item),
+        stop: parsestopP(item),
+        description: parseDescription(detail),
+        category: parseCategory(detail),
+        icon: parseIcon(detail),
+        sub_title: parseSub(detail) + parseYear(detail) + parseSeason(detail) + parseEpisode(detail)
+      })
+    }
+    //)
+    return programs
+  },
 
 
 }
