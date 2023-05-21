@@ -1,6 +1,5 @@
 const axios = require('axios')
 //const dayjs = require('dayjs')
-const API = 'https://api.o2tv.cz/unity/api/v1'
 module.exports = {
   site: 'o2tv.cz',
   url() {
@@ -9,7 +8,7 @@ module.exports = {
     //const d = date.valueOf()
     //const g = dayjs(date).add(1, 'day').valueOf()
     //console.log("d,g", d, g)
-    return `${API}/epg/depr/?forceLimit=true&limit=500`
+    return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500`
     //return `https://mapi.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${d}`
     //return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${f}&to=${g}`
   },
@@ -42,7 +41,7 @@ module.exports = {
 async function loadProgramDetails(item, channel) {
   if (!item.epgId) return []
   //console.log("item", String(item).length)
-  const url = `${API}/programs/${parseI(item)}/`
+  const url = `https://api.o2tv.cz/unity/api/v1/programs/${parseI(item)}/`
   const data = await axios
     .get(url)
     .then(r => r.data)
