@@ -2,13 +2,18 @@ const axios = require('axios')
 //const dayjs = require('dayjs')
 module.exports = {
   site: 'o2tv.cz',
+  request: {
+    cache: {
+      ttl: 60 * 60 * 1000 // 1 hour
+    }
+  },
   url: function ({ date, channel }) {
     const id = encodeURIComponent(channel.site_id)
     //console.log("id", id)
     const d = date.valueOf()
     //const g = dayjs(date).add(1, 'day').valueOf()
     //console.log("d,g", d, g)
-    return `https://mapi.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${d}`
+    return `https://mapi.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500`
     //return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${f}&to=${g}`
   },
   async parser({ content, channel, date }) {
