@@ -1,20 +1,21 @@
 const fs = require('fs')
-const { glob } = require('glob')
+const glob = require('glob')
 const path = require('path')
 const convert = require('xml-js')
 
 function main() {
   let codes = {}
   console.log('Starting...')
-  glob('channels/**/*.xml', null, function (er, files) {
+  glob('channels/**/r-*.xml', null, function (er, files) {
     files.forEach(filename => {
       const channels = parseChannels(filename)
       channels.forEach(channel => {
-        if (!codes[channel.xmltv_id + channel.name + channel.site_id]) {
-          codes[channel.xmltv_id + channel.name + channel.site_id] = {
+        if (!codes[channel.xmltv_id + channel.name + channel.site_id + channel.logo]) {
+          codes[channel.xmltv_id + channel.name + channel.site_id + channel.logo] = {
             name: channel.name,
             code: channel.xmltv_id,
-            id: channel.site_id
+            id: channel.site_id,
+            logo: channel.logo
           }
         }
       })
@@ -41,9 +42,9 @@ function writeToFile(filename, data) {
 }
 
 function convertToCSV(arr) {
-  let string = 'Channel Name,EPG Code (tvg-id),ID\n'
+  let string = 'Channel Name,EPG Code (tvg-id),ID,Logo\n'
   for (const item of arr) {
-    string += `${item.name},${item.code},${item.id}\n`
+    string += `${item.name},${item.code},${item.id},${item.logo}\n`
   }
 
   return string
