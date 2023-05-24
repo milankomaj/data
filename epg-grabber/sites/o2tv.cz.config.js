@@ -3,13 +3,13 @@ const axios = require('axios')
 module.exports = {
   site: 'o2tv.cz',
   url() {
-    //const id = encodeURIComponent(channel.site_id)
+    const id = encodeURIComponent(channel.site_id)
     //console.log("id", id)
-    //const d = date.valueOf()
+    const d = date.valueOf()
     //const g = dayjs(date).add(1, 'day').valueOf()
     //console.log("d,g", d, g)
-    return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500`
-    //return `https://mapi.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${d}`
+    //return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500`
+    return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${d}`
     //return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${f}&to=${g}`
   },
   async parser({ content, channel, date }) {
