@@ -4,6 +4,7 @@ const API_ENDPOINT = `https://legacy-static.oesp.horizon.tv/oesp/v4`
 const API_PROD_ENDPOINT = `https://legacy-dynamic.oesp.horizon.tv/oesp/v4/SK/slk/web/listings/`
 module.exports = {
   site: 'horizon.tv',
+  maxConnections: 5,
   url: function ({ date, channel }) {
     //const [country, lang] = channel.site_id.split('#')
     return `${API_ENDPOINT}/SK/slk/web/programschedules/${date.format('YYYYMMDD')}/1`

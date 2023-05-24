@@ -10,6 +10,7 @@ dayjs.extend(customParseFormat)
 
 module.exports = {
   site: 'mujtvprogram.cz',
+  maxConnections: 5,
   url({ channel, date }) {
     const diff = date.diff(dayjs.utc().startOf('d'), 'd')
     //console.log("diff",diff)
