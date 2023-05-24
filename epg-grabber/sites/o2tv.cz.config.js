@@ -1,7 +1,6 @@
 const axios = require('axios')
 //const dayjs = require('dayjs')
 module.exports = {
-  site: 'o2tv.cz',
   maxConnections: 5,
   url: function ({ date, channel }) {
     const id = encodeURIComponent(channel.site_id)
