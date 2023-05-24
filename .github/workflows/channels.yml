@@ -72,12 +72,6 @@ jobs:
           ./scripts/r-chanells.sh
         shell: bash
 
-      - name: update-codes
-        if:  steps.Update.outcome == 'success'
-        run: |
-          npm install
-          npm run update-codes
-
       - name: tree
         run: |
           echo ***./sites/***
