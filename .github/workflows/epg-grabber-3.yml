@@ -11,6 +11,8 @@ on:
   pull_request_target:
     branches: 'main'
     types: [closed]
+env:
+  env_var3: ${{ vars.CORS_ELEONORA }}
 # schedule:
 #  - cron: '30 1 */5 * *'
 jobs:
