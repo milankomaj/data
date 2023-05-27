@@ -41,8 +41,8 @@ module.exports = {
 async function loadProgramDetails(item, channel) {
   if (!item.epgId) return []
   //console.log("item", String(item).length)
-  // `https://api.o2tv.cz/unity/api/v1/programs/${parseI(item)}/`
-  const url = process.env.env_var3 + '/?q=https%3A%2F%2Fapi.o2tv.cz%2Funity%2Fapi%2Fv1%2Fprograms' + `/${parseI(item)}/`
+
+  const url = `https://api.o2tv.cz/unity/api/v1/programs/${parseI(item)}/`
   const data = await axios
     .get(url)
     .then(r => r.data)
