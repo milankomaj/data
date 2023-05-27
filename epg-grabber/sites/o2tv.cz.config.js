@@ -2,19 +2,6 @@ const axios = require('axios')
 //const dayjs = require('dayjs')
 module.exports = {
   site: 'o2tv.cz',
-  request: {
-    headers: {
-      'Referer': 'https://api.o2tv.cz',
-      'Host': 'api.o2tv.cz',
-      'Accept': 'application/json,*/*',
-      'Sec-Fetch-Site': 'cross-site',
-      'User-Agent': 'Mozilla/5.0 (Linux; Android 8.0.0; Nexus 6P Build/OPP3.170518.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Mobile Safari/537.36'
-    }
-  },
-  cache: {
-    ttl: 3 * 60 * 60 * 1000 // 3h
-
-  },
   url: function ({ channel, date }) {
     const id = encodeURIComponent(channel.site_id)
     //console.log("id", id)
