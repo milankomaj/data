@@ -61,7 +61,7 @@ horizon-10044,lgi-obolite-sk-prod-master:10044,FilmBox HD,105,https://staticqbr-
 horizon-10144,lgi-obolite-sk-prod-master:10144,Filmbox HU,457,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/8741.f.Filmbox_HU.png?style=content-station-logo-medium
 horizon-10126,lgi-obolite-sk-prod-master:10126,FilmBox Premium HD,411,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/8201.f.FilmBox_Premium_HD.png?style=content-station-logo-medium
 horizon-10127,lgi-obolite-sk-prod-master:10127,FilmBox Stars HD,413,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5095.f.FilmBox_Plus.png?style=content-station-logo-medium
-horizon-10043,lgi-obolite-sk-prod-master:10043,Film+ CZ HD,104,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/8004.f.Film_plus_HD.png?style=content-station-logo-medium
+horizon-10043,lgi-obolite-sk-prod-master:10043,Film+ CZ HD,104,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/filmplus.f.png?style=content-station-logo-medium
 horizon-10162,lgi-obolite-sk-prod-master:10162,FILM+ HU,479,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/Film_plus_HU.f.Film_plus_HU.png?style=content-station-logo-medium
 horizon-10068,lgi-obolite-sk-prod-master:10068,Fishing and Hunting,173,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5096.f.Fishing_and_Hunting.png?style=content-station-logo-medium
 horizon-10014,lgi-obolite-sk-prod-master:10014,Folklorika HD,17,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/Folklorika_HD.f.Folklorika_HD.png?style=content-station-logo-medium
@@ -161,6 +161,7 @@ horizon-10062,lgi-obolite-sk-prod-master:10062,TLC HD,165,https://staticqbr-sk-p
 horizon-10064,lgi-obolite-sk-prod-master:10064,Travel Channel HD,167,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/7253.f.Travel_Channel_HD.png?style=content-station-logo-medium
 horizon-10119,lgi-obolite-sk-prod-master:10119,TRT World,368,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/TRT_World.f.TRT_World.png?style=content-station-logo-medium
 horizon-10195,lgi-obolite-sk-prod-master:10195,TurboTV HD,69,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/TurboTV.png?style=content-station-logo-medium
+horizon-10204,lgi-obolite-sk-prod-master:10204,TV Doktor,72,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/doktor.f.png?style=content-station-logo-medium
 horizon-10013,lgi-obolite-sk-prod-master:10013,TV LUX HD,14,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/483_50055_c_7d2257cda285bcbb3e8b67a71f1cc0d4.TV_LUX_SK.png?style=content-station-logo-medium
 horizon-10151,lgi-obolite-sk-prod-master:10151,TV Paprika HU,466,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/9052.f.TV_Paprika_HU.png?style=content-station-logo-medium
 horizon-10063,lgi-obolite-sk-prod-master:10063,TV Paprika,166,https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5193.f.TV_Paprika.png?style=content-station-logo-medium

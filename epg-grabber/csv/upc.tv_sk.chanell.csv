@@ -61,7 +61,7 @@ upctv-10044,10044,FilmBox HD,105,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/im
 upctv-10144,10144,Filmbox HU,457,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8741.f.Filmbox_HU.png
 upctv-10126,10126,FilmBox Premium HD,411,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8201.f.FilmBox_Premium_HD.png
 upctv-10127,10127,FilmBox Stars HD,413,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5095.f.FilmBox_Plus.png
-upctv-10043,10043,Film+ CZ HD,104,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8004.f.Film_plus_HD.png
+upctv-10043,10043,Film+ CZ HD,104,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/filmplus.f.png
 upctv-10162,10162,FILM+ HU,479,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Film_plus_HU.f.Film_plus_HU.png
 upctv-10068,10068,Fishing and Hunting,173,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5096.f.Fishing_and_Hunting.png
 upctv-10014,10014,Folklorika HD,17,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Folklorika_HD.f.Folklorika_HD.png
@@ -161,6 +161,7 @@ upctv-10062,10062,TLC HD,165,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-
 upctv-10064,10064,Travel Channel HD,167,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/7253.f.Travel_Channel_HD.png
 upctv-10119,10119,TRT World,368,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TRT_World.f.TRT_World.png
 upctv-10195,10195,TurboTV HD,69,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TurboTV.png
+upctv-10204,10204,TV Doktor,72,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/doktor.f.png
 upctv-10013,10013,TV LUX HD,14,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_50055_c_7d2257cda285bcbb3e8b67a71f1cc0d4.TV_LUX_SK.png
 upctv-10151,10151,TV Paprika HU,466,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/9052.f.TV_Paprika_HU.png
 upctv-10063,10063,TV Paprika,166,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5193.f.TV_Paprika.png
