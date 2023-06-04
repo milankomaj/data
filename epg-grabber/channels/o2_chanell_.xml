@@ -73,7 +73,7 @@
     <channel lang="cz" xmltv_id="o2-132" site_id="MezzoLiveHD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/mezzolive_202304.png">Mezzo Live HD</channel>
     <channel lang="cz" xmltv_id="o2-131" site_id="Mezzo" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/mezzo_202304.png">Mezzo</channel>
     <channel lang="cz" xmltv_id="o2-114" site_id="Mňam TV" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/mnam.png">Mňam TV</channel>
-    <channel lang="cz" xmltv_id="o2-101" site_id="Moonbug_Kids" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/moonbug-20230123.png">Moonbug Kids</channel>
+    <channel lang="cz" xmltv_id="o2-101" site_id="Moonbug_Kids" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/moonbug-20230123.png">Moonbug</channel>
     <channel lang="cz" xmltv_id="o2-125" site_id="VH1" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/mtv_00.png">MTV 00s</channel>
     <channel lang="cz" xmltv_id="o2-123" site_id="MTV" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/mtv.png">MTV</channel>
     <channel lang="cz" xmltv_id="o2-126" site_id="VH1 Classic" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/mtv80_20221004.png">MTV 80s</channel>
@@ -117,6 +117,8 @@
     <channel lang="cz" xmltv_id="o2-188" site_id="Praha TV" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/praha-tv.png">Praha TV</channel>
     <channel lang="cz" xmltv_id="o2-21" site_id="PremierSportHD1" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/premier-sport.png">Premier Sport 1 HD</channel>
     <channel lang="cz" xmltv_id="o2-74" site_id="PremierSportHD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/premier-sport.png">Premier Sport 1 HD</channel>
+    <channel lang="cz" xmltv_id="o2-22" site_id="PremierSport2HD1" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/premier-sport-2.png">Premier Sport 2 HD</channel>
+    <channel lang="cz" xmltv_id="o2-75" site_id="PremierSport2HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/premier-sport-2.png">Premier Sport 2 HD</channel>
     <channel lang="cz" xmltv_id="o2-26" site_id="Prima Cool HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/prima-cool-hd.png">Prima Cool HD</channel>
     <channel lang="cz" xmltv_id="o2-4" site_id="Prima HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/prima-hd.png">Prima HD</channel>
     <channel lang="cz" xmltv_id="o2-29" site_id="Prima Krimi HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/prima-krimi.png">Prima Krimi HD</channel>
