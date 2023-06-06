@@ -3,17 +3,6 @@ const axios = require('axios')
 module.exports = {
   site: 'o2tv.cz',
   maxConnections: 5,
-  request: {
-    cache: {
-      ttl: 3 * 60 * 60 * 1000 // 3h
-    },
-  },
-  headers: function () {
-    return {
-      'User-Agent':
-        'Mozilla/5.0 (Linux; Android 8.0.0; Nexus 6P Build/OPP3.170518.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Mobile Safari/537.36'
-    }
-  },
   url: function ({ channel, date }) {
     const id = encodeURIComponent(channel.site_id)
     //console.log("id", id)
