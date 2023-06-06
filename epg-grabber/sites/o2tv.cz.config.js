@@ -7,7 +7,7 @@ module.exports = {
     console.log("id", id)
     const d = date.valueOf()
     //const g = dayjs(date).add(1, 'day').valueOf()
-    console.log("d", d)
+    //console.log("d,g", d, g)
     return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${d}`
     //return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${f}&to=${g}`
   },
