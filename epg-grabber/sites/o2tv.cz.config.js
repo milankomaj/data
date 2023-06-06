@@ -4,8 +4,8 @@ module.exports = {
   site: 'o2tv.cz',
   maxConnections: 5,
   url: function ({ channel, date }) {
-    const id = channel.site_id
-    console.log("id", id)
+    const id = channel.site_id //encodeURIComponent(channel.site_id)
+    //console.log("id", id)
     const d = date.valueOf()
     //const g = dayjs(date).add(1, 'day').valueOf()
     //console.log("d,g", d, g)
