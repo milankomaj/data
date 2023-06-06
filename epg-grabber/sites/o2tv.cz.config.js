@@ -4,10 +4,10 @@ module.exports = {
   site: 'o2tv.cz',
   url: function ({ channel, date }) {
     const id = encodeURIComponent(channel.site_id)
-    //console.log("id", id)
+    console.log("id", id)
     const d = date.valueOf()
     //const g = dayjs(date).add(1, 'day').valueOf()
-    //console.log("d,g", d, g)
+    console.log("d", d)
     return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${d}`
     //return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${f}&to=${g}`
   },
