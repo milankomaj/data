@@ -1,6 +1,7 @@
 KOMPLET-cz,KOMPLET-sk,MULTI-cz,MULTI-sk
 AMC,AMC,AMC,AMC
 Arena Sport 1 HD,Arena Sport 1 HD,Arena Sport 1 HD,Arena Sport 1 HD
+Arena Sport 2 HD,Arena Sport 2 HD,Arena Sport 2 HD,Arena Sport 2 HD
 Auto Motor Sport HD,Auto Motor Sport HD,AXN,AXN
 AXN,AXN,AXN Black,AXN Black
 AXN Black,AXN Black,AXN White,AXN White
@@ -67,66 +68,67 @@ Love Nature HD,Love Nature HD,Nova Cinema HD,Nova International
 Man-X,Man-X,Nova Fun HD,Nova Sport 1 HD
 Markíza International,Markíza HD,Nova Gold,Nova Sport 2 HD
 Mezzo HD,Markíza Krimi HD,Nova HD,ÓČKO
-Minimax,Mezzo HD,Nova Sport 1 HD,ÓČKO BLACK HD
-Mňam TV,Minimax,Nova Sport 2 HD,ÓČKO EXPRES HD
-MTV DE,Mňam TV,ÓČKO,ÓČKO STAR
-MTV Europe CZ,MTV DE,ÓČKO BLACK HD,Penthouse Gold
-MTV 00s,MTV Europe CZ,ÓČKO EXPRES HD,Playboy TV Europe
-MTV 80s,MTV 00s,ÓČKO STAR,Plus HD
-National Geographic HD,MTV 80s,Paramount Network,Prima PLUS HD
-National Geographic Wild HD,National Geographic HD,Penthouse Gold,RELAX
-Nautical HD,National Geographic Wild HD,Playboy TV Europe,Retro
-Newsmax HD,Nautical HD,Prima COOL HD,RTVS ŠPORT HD
-Nickelodeon,Newsmax HD,Prima HD,RTVS 24 HD
-Nickelodeon DE,Nickelodeon,Prima KRIMI HD,Senzi
-Nick Jr Czech,Nickelodeon DE,Prima LOVE HD,Skylink 7
-Nicktoons,Nick Jr Czech,Prima MAX HD,Sky News International
-Nova Action HD,Nicktoons,Prima Show,Spektrum HD
-Nova Cinema HD,Nova International,Prima STAR,Spektrum Home
-Nova Fun HD,Nova Sport 1 HD,Prima ZOOM HD,Sport 1 DE
-Nova Gold,Nova Sport 2 HD,RELAX,Sport 1 HD
-Nova HD,ÓČKO,Retro,Sport 2 HD
-Nova Sport 1 HD,ÓČKO BLACK HD,RTVS 24 HD,SPORT5
-Nova Sport 2 HD,ÓČKO EXPRES HD,Senzi,STORY4 HD
-ÓČKO,ÓČKO STAR,Skylink 7,Šláger Muzika
-ÓČKO BLACK HD,Penthouse Gold,Sky News International,Šláger Originál
-ÓČKO EXPRES HD,Penthouse Reality TV,Spektrum HD,Šlágr Premium HD
-ÓČKO STAR,Playboy TV Europe,Spektrum Home,TA3 HD
-Paramount Network,Plus HD,Sport 1 DE,Travelxp HD
-Penthouse Gold,Prima PLUS HD,Sport 1 HD,TV Lux HD
-Penthouse Reality TV,RELAX,Sport 2 HD,TV Noe
-Playboy TV Europe,Retro,SPORT5,TV Spark
-Prima COOL HD,RTVS ŠPORT HD,STORY4 HD,TV8 HD
-Prima HD,RTVS 24 HD,Šláger Muzika,Viasat Explore
-Prima KRIMI HD,Senzi,Šláger Originál,Viasat History HD
-Prima LOVE HD,Skylink 7,Šlágr Premium HD,Viasat Nature HD
-Prima MAX HD,Sky News International,TA3 HD,VIXEN HD
-Prima Show,Spektrum HD,Televize Seznam,WAU HD
-Prima STAR,Spektrum Home,Travelxp HD,
-Prima ZOOM HD,Sport 1 DE,TV Barrandov HD,
-RELAX,Sport 1 HD,TV Lux HD,
-Retro,Sport 2 HD,TV Noe,
-RTVS 24 HD,SPORT5,TV Spark,
-Senzi,Stingray Classica HD,TV8 HD,
-Skylink 7,Stingray CMusic,Viasat Explore,
-Sky News International,Stingray iConcerts HD,Viasat History HD,
-Spektrum HD,STORY4 HD,Viasat Nature HD,
-Spektrum Home,Šláger Muzika,VIXEN HD,
-Sport 1 DE,Šláger Originál,,
-Sport 1 HD,Šlágr Premium HD,,
-Sport 2 HD,TA3 HD,,
-SPORT5,Travelxp HD,,
-Stingray Classica HD,TV Lux HD,,
-Stingray CMusic,TV Noe,,
-Stingray iConcerts HD,TV Paprika,,
-STORY4 HD,TV Spark,,
-Šláger Muzika,TV8 HD,,
-Šláger Originál,Viasat Explore,,
-Šlágr Premium HD,Viasat History HD,,
-TA3 HD,Viasat Nature HD,,
-Televize Seznam,Vivid TV Europe,,
-Travelxp HD,VIXEN HD,,
-TV Barrandov HD,WAU HD,,
+Minimax,Mezzo HD,Nova Lady,ÓČKO BLACK HD
+Mňam TV,Minimax,Nova Sport 1 HD,ÓČKO EXPRES HD
+MTV DE,Mňam TV,Nova Sport 2 HD,ÓČKO STAR
+MTV Europe CZ,MTV DE,ÓČKO,Penthouse Gold
+MTV 00s,MTV Europe CZ,ÓČKO BLACK HD,Playboy TV Europe
+MTV 80s,MTV 00s,ÓČKO EXPRES HD,Plus HD
+National Geographic HD,MTV 80s,ÓČKO STAR,Prima PLUS HD
+National Geographic Wild HD,National Geographic HD,Paramount Network,RELAX
+Nautical HD,National Geographic Wild HD,Penthouse Gold,Retro
+Newsmax HD,Nautical HD,Playboy TV Europe,RTVS ŠPORT HD
+Nickelodeon,Newsmax HD,Prima COOL HD,RTVS 24 HD
+Nickelodeon DE,Nickelodeon,Prima HD,Senzi
+Nick Jr Czech,Nickelodeon DE,Prima KRIMI HD,Skylink 7
+Nicktoons,Nick Jr Czech,Prima LOVE HD,Sky News International
+Nova Action HD,Nicktoons,Prima MAX HD,Spektrum HD
+Nova Cinema HD,Nova International,Prima Show,Spektrum Home
+Nova Fun HD,Nova Sport 1 HD,Prima STAR,Sport 1 DE
+Nova Gold,Nova Sport 2 HD,Prima ZOOM HD,Sport 1 HD
+Nova HD,ÓČKO,RELAX,Sport 2 HD
+Nova Lady,ÓČKO BLACK HD,Retro,SPORT5
+Nova Sport 1 HD,ÓČKO EXPRES HD,RTVS 24 HD,STORY4 HD
+Nova Sport 2 HD,ÓČKO STAR,Senzi,Šláger Muzika
+ÓČKO,Penthouse Gold,Skylink 7,Šláger Originál
+ÓČKO BLACK HD,Penthouse Reality TV,Sky News International,Šlágr Premium HD
+ÓČKO EXPRES HD,Playboy TV Europe,Spektrum HD,TA3 HD
+ÓČKO STAR,Plus HD,Spektrum Home,Travelxp HD
+Paramount Network,Prima PLUS HD,Sport 1 DE,TV Lux HD
+Penthouse Gold,RELAX,Sport 1 HD,TV Noe
+Penthouse Reality TV,Retro,Sport 2 HD,TV Spark
+Playboy TV Europe,RTVS ŠPORT HD,SPORT5,TV8 HD
+Prima COOL HD,RTVS 24 HD,STORY4 HD,Viasat Explore
+Prima HD,Senzi,Šláger Muzika,Viasat History HD
+Prima KRIMI HD,Skylink 7,Šláger Originál,Viasat Nature HD
+Prima LOVE HD,Sky News International,Šlágr Premium HD,VIXEN HD
+Prima MAX HD,Spektrum HD,TA3 HD,WAU HD
+Prima Show,Spektrum Home,Televize Seznam,
+Prima STAR,Sport 1 DE,Travelxp HD,
+Prima ZOOM HD,Sport 1 HD,TV Barrandov HD,
+RELAX,Sport 2 HD,TV Lux HD,
+Retro,SPORT5,TV Noe,
+RTVS 24 HD,Stingray Classica HD,TV Spark,
+Senzi,Stingray CMusic,TV8 HD,
+Skylink 7,Stingray iConcerts HD,Viasat Explore,
+Sky News International,STORY4 HD,Viasat History HD,
+Spektrum HD,Šláger Muzika,Viasat Nature HD,
+Spektrum Home,Šláger Originál,VIXEN HD,
+Sport 1 DE,Šlágr Premium HD,,
+Sport 1 HD,TA3 HD,,
+Sport 2 HD,Travelxp HD,,
+SPORT5,TV Lux HD,,
+Stingray Classica HD,TV Noe,,
+Stingray CMusic,TV Paprika,,
+Stingray iConcerts HD,TV Spark,,
+STORY4 HD,TV8 HD,,
+Šláger Muzika,Viasat Explore,,
+Šláger Originál,Viasat History HD,,
+Šlágr Premium HD,Viasat Nature HD,,
+TA3 HD,Vivid TV Europe,,
+Televize Seznam,VIXEN HD,,
+Travelxp HD,WAU HD,,
+TV Barrandov HD,,,
 TV Lux HD,,,
 TV Noe,,,
 TV Paprika,,,
