@@ -2,6 +2,7 @@
 <site site="mujtvprogram.tv">
   <channels>
     <channel lang="sk" xmltv_id="mujtvprogram-344" site_id="344" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=417142095fa934ab9c9f02e2bf7d5a9a&amp;p2=80">Arena Sport 1</channel>
+    <channel lang="sk" xmltv_id="mujtvprogram-379" site_id="379" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=e40bd2279b88dab77b024d002dea6187&amp;p2=80">Arena Sport 2</channel>
     <channel lang="sk" xmltv_id="mujtvprogram-369" site_id="369" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=dcce8445e7c707239857e2fb3213ea52&amp;p2=80">AXN Black</channel>
     <channel lang="sk" xmltv_id="mujtvprogram-370" site_id="370" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=e4f5ce21e5c4ac42ff8a3c1d99ead13b&amp;p2=80">AXN White</channel>
     <channel lang="sk" xmltv_id="mujtvprogram-296" site_id="296" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=a525a102fb950e7f64e3b72572728135&amp;p2=80">A11</channel>
