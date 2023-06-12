@@ -1,46 +1,50 @@
-import { get } from 'axios'
+const axios = require('axios')
 //const dayjs = require('dayjs')
-export const site = 'o2tv.cz'
-export const maxConnections = 5
-export function url({ channel, date }) {
-  const id = encodeURIComponent(channel.site_id) //encodeURIComponent(channel.site_id)
+module.exports = {
+  site: 'o2tv.cz',
+  maxConnections: 5,
+  url: function ({ channel, date }) {
+    const id = encodeURIComponent(channel.site_id) //encodeURIComponent(channel.site_id)
+    //console.log("id", id)
+    const d = date.valueOf()
+    //const g = dayjs(date).add(1, 'day').valueOf()
+    //console.log("d,g", d, g)
+    return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${d}`
+    //return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${f}&to=${g}`
+  },
+  async parser({ content, channel, date }) {
+    let programs = []
+    let items = parseItems(content, channel)
+    if (!items.length) return programs
+    //console.log("items.length", items.length)
 
-  //console.log("id", id)
-  const d = date.valueOf()
-  //const g = dayjs(date).add(1, 'day').valueOf()
-  //console.log("d,g", d, g)
-  return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${d}`
-  //return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${f}&to=${g}`
-}
-export async function parser({ content, channel, date }) {
-  let programs = []
-  let items = parseItems(content, channel)
-  if (!items.length)
+    // items.forEach(item => {
+    for (let item of items) {
+      // console.log("item",item)
+      const detail = await loadProgramDetails(item)
+      programs.push({
+        title: item.name,
+        start: parsestartT(item),
+        stop: parsestopP(item),
+        description: parseDescription(detail),
+        category: parseCategory(detail),
+        icon: parseIcon(detail),
+        sub_title: parseSub(detail) + parseYear(detail) + parseSeason(detail) + parseEpisode(detail)
+      })
+    }
+    //)
     return programs
-  //console.log("items.length", items.length)
-  // items.forEach(item => {
-  for (let item of items) {
-    // console.log("item",item)
-    const detail = await loadProgramDetails(item)
-    programs.push({
-      title: item.name,
-      start: parsestartT(item),
-      stop: parsestopP(item),
-      description: parseDescription(detail),
-      category: parseCategory(detail),
-      icon: parseIcon(detail),
-      sub_title: parseSub(detail) + parseYear(detail) + parseSeason(detail) + parseEpisode(detail)
-    })
-  }
-  //)
-  return programs
+  },
+
+
 }
 async function loadProgramDetails(item, channel) {
   if (!item.epgId) return []
   //console.log("item", String(item).length)
 
   const url = `https://api.o2tv.cz/unity/api/v1/programs/${parseI(item)}/`
-  const data = await get(url)
+  const data = await axios
+    .get(url)
     .then(r => r.data)
     .catch(console.log)
   //console.log(url)
