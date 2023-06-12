@@ -12,7 +12,6 @@
   "author": "Arhey",
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.4.0",
     "dayjs": "^1.11.8",
     "epg-grabber": "^0.31.0",
     "epg-parser": "^0.2.0",
