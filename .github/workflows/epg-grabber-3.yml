@@ -41,25 +41,25 @@ jobs:
         id: grab3
         run: |
           # exit 1
-          # version=$(curl -X HEAD -w "%{http_code}" \
-          # --no-progress-meter \
-          # --connect-timeout 20 \
-          # --max-time 20 \
-          # --url 'https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=1' \
-          # -I \
-          # -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; Nexus 6P Build/OPP3.170518.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Mobile Safari/537.36' \
-          # -H 'Accept: application/json,*/*' \
-          # -H 'DNT: 1' \
-          # -H 'Connection: keep-alive' \
-          # -o /dev/null)
-          # if [ $version -eq 200 ]
-          # then
-          # echo curl OK
+           version=$(curl -X HEAD -w "%{http_code}" \
+           --no-progress-meter \
+           --connect-timeout 20 \
+           --max-time 20 \
+           --url 'https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=1' \
+           -I \
+           -H 'User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; Nexus 6P Build/OPP3.170518.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Mobile Safari/537.36' \
+           -H 'Accept: application/json,*/*' \
+           -H 'DNT: 1' \
+           -H 'Connection: keep-alive' \
+           -o /dev/null)
+           if [ $version -eq 200 ]
+           then
+           echo curl OK
           npm run grab3
-          # else
-          # echo curl FAIL
-          # exit 1
-          # fi
+           else
+           echo curl FAIL
+           exit 1
+           fi
 
 
       - name: outcome
