@@ -42,7 +42,7 @@ async function loadProgramDetails(item, channel) {
   if (!item.epgId) return []
   //console.log("item", String(item).length)
 
-  const url = process.env.env_var3 + "/?q=" + `https://api.o2tv.cz/unity/api/v1/programs/${parseI(item)}/`
+  const url = `https://mapi.o2tv.cz/unity/api/v1/programs/${parseI(item)}/`
   const data = await axios
     .get(url)
     .then(r => r.data)
