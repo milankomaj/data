@@ -3,34 +3,13 @@ const axios = require('axios')
 module.exports = {
   site: 'o2tv.cz',
   maxConnections: 5,
-  request: {
-    headers: {
-      "Host": "api.o2tv.cz",
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0",
-      "Accept": "application/json",
-      "Accept-Language": "sk,en-US;q=0.5",
-      "Accept-Encoding": "gzip, deflate, br",
-      "DNT": "1",
-      "Connection": "keep-alive",
-      "Upgrade-Insecure-Requests": "1",
-      "Sec-Fetch-Dest": "document",
-      "Sec-Fetch-Mode": "navigate",
-      "Sec-Fetch-Site": "cross-site",
-      "Sec-Fetch-User": "?1",
-      "Pragma": "no-cache",
-      "Cache-Control": "no-cache"
-    },
-    cache: {
-      ttl: 3 * 60 * 60 * 1000 // 3h
-    }
-  },
   url: function ({ channel, date }) {
     const id = encodeURIComponent(channel.site_id) //encodeURIComponent(channel.site_id)
     //console.log("id", id)
     const d = date.valueOf()
     //const g = dayjs(date).add(1, 'day').valueOf()
     //console.log("d,g", d, g)
-    return process.env.env_var3 + "/?q=" + `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${d}`
+    return (process.env.env_var3 + "/?q=" + `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${d}`)
     //return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${f}&to=${g}`
   },
   async parser({ content, channel, date }) {
@@ -63,28 +42,9 @@ async function loadProgramDetails(item, channel) {
   if (!item.epgId) return []
   //console.log("item", String(item).length)
 
-  const url = process.env.env_var3 + "/?q=" + `https://api.o2tv.cz/unity/api/v1/programs/${parseI(item)}/`
+  const url = (process.env.env_var3 + "/?q=" + `https://api.o2tv.cz/unity/api/v1/programs/${parseI(item)}/`)
   const data = await axios
-    .get(
-      url, {
-      headers: {
-        "Host": "api.o2tv.cz",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0",
-        "Accept": "application/json",
-        "Accept-Language": "sk,en-US;q=0.5",
-        "Accept-Encoding": "gzip, deflate, br",
-        "DNT": "1",
-        "Connection": "keep-alive",
-        "Upgrade-Insecure-Requests": "1",
-        "Sec-Fetch-Dest": "document",
-        "Sec-Fetch-Mode": "navigate",
-        "Sec-Fetch-Site": "cross-site",
-        "Sec-Fetch-User": "?1",
-        "Pragma": "no-cache",
-        "Cache-Control": "no-cache"
-      },
-    }
-    )
+    .get(url)
     .then(r => r.data)
     .catch(console.log)
   //console.log(url)
