@@ -3,6 +3,9 @@ const axios = require('axios')
 module.exports = {
   site: 'o2tv.cz',
   maxConnections: 5,
+  request: {
+    timeout: 50000 // 50 seconds
+  },
   url: function ({ channel, date }) {
     const id = encodeURIComponent(channel.site_id) //encodeURIComponent(channel.site_id)
     //console.log("id", id)
