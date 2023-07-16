@@ -224,5 +224,6 @@
     <channel lang="sk" xmltv_id="programandroid-15471" site_id="15471" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/skvele.png">Skvele TV</channel>
     <channel lang="sk" xmltv_id="programandroid-15472" site_id="15472" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/park.png">Park TV</channel>
     <channel lang="sk" xmltv_id="programandroid-15482" site_id="15482" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/spark.png">Spark TV</channel>
+    <channel lang="sk" xmltv_id="programandroid-15508" site_id="15508" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/tvdoktor.png">TV Doktor</channel>
   </channels>
 </site>
