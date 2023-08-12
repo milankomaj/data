@@ -25,7 +25,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: localle
-        uses: milankomaj/shell-x@v0.2
+        uses: milankomaj/shell-x@v0.3
         with:
           shell: bash
           locale: sk_SK.utf8
