@@ -50,8 +50,8 @@
     <channel lang="cz" xmltv_id="mujtvprogram-18" site_id="18" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=731498bd1afcd17e53643dd75a9a10ea&amp;p2=80">ČT sport</channel>
     <channel lang="cz" xmltv_id="mujtvprogram-17" site_id="17" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=11dac2d7fe5514e362318f0f212a840c&amp;p2=80">Nova Sport 1</channel>
     <channel lang="cz" xmltv_id="mujtvprogram-466" site_id="466" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=52b4f4f976af662468915020f177bc6d&amp;p2=80">Nova Sport 2</channel>
-    <channel lang="cz" xmltv_id="mujtvprogram-904" site_id="904">Nova Sport 3</channel>
-    <channel lang="cz" xmltv_id="mujtvprogram-905" site_id="905">Nova Sport 4</channel>
+    <channel lang="cz" xmltv_id="mujtvprogram-904" site_id="904" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=8848ffa12bad239fd606114e47335b60&amp;p2=80">Nova Sport 3</channel>
+    <channel lang="cz" xmltv_id="mujtvprogram-905" site_id="905" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=3775f3844d9c811608873fcfe678097b&amp;p2=80">Nova Sport 4</channel>
     <channel lang="cz" xmltv_id="mujtvprogram-16" site_id="16" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=566e52b95baae881c30bdb6a78f3d669&amp;p2=80">Eurosport 1</channel>
     <channel lang="cz" xmltv_id="mujtvprogram-25" site_id="25" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=9028cafedb8845db469da758c7813987&amp;p2=80">Eurosport 2</channel>
     <channel lang="sk" xmltv_id="mujtvprogram-928" site_id="928" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=463022363e42669684ed651fff8044e4&amp;p2=80">RTVS Šport</channel>
