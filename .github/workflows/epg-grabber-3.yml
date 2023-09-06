@@ -19,7 +19,7 @@ jobs:
   grab:
     runs-on: ubuntu-latest
     timeout-minutes: 480
-    continue-on-error: false
+    continue-on-error: true
     strategy:
 
       max-parallel: 2
