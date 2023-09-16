@@ -43,7 +43,7 @@ jobs:
           npm run grab3
           scale=$(sed -n '$=' ./guide/o2tv.cz_cz.guide.xml)
           echo $scale
-          if [[ "$scale" -ge "20" ]]
+          if [[ "$scale" -ge "30" ]]
           then
           echo "++++"
           else
