@@ -5,11 +5,15 @@
     <channel lang="cz" xmltv_id="o2-888" site_id="Akvárium" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/akvarium.png">Akvárium</channel>
     <channel lang="cz" xmltv_id="o2-149" site_id="Al Jazeera" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/aljazeera.png">Al Jazeera</channel>
     <channel lang="cz" xmltv_id="o2-60" site_id="Animal Planet HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/animal-planet-hd.png">Animal Planet HD</channel>
+    <channel lang="cz" xmltv_id="o2-88" site_id="ArenaSport1" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/arenasport1_2309.png">Arena Sport 1</channel>
+    <channel lang="cz" xmltv_id="o2-89" site_id="ArenaSport2" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/arenasport2_2309.png">Arena Sport 2</channel>
     <channel lang="cz" xmltv_id="o2-115" site_id="AutoMotorSport HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/auto-motor-und-sport.png">Auto Motor Sport HD</channel>
     <channel lang="cz" xmltv_id="o2-48" site_id="AXN_Black" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/axn-black-20230123.png">AXN Black</channel>
     <channel lang="cz" xmltv_id="o2-47" site_id="AXN" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/axn-20230123.png">AXN</channel>
     <channel lang="cz" xmltv_id="o2-18" site_id="BBC World News" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/bbc-world-news.png">BBC News</channel>
     <channel lang="cz" xmltv_id="o2-145" site_id="Bloomberg" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/bloomberg.png">Bloomberg</channel>
+    <channel lang="cz" xmltv_id="o2-108" site_id="canalaction" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/canalaction_2309.png">Canal+ Action</channel>
+    <channel lang="cz" xmltv_id="o2-84" site_id="canalsport" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/canalsport_2309.png">Canal+ Sport</channel>
     <channel lang="cz" xmltv_id="o2-97" site_id="Boomerang" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/cartoonito_202303.png">Cartoonito</channel>
     <channel lang="cz" xmltv_id="o2-96" site_id="Cartoon Network" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/cn.png">Cartoon Network HD</channel>
     <channel lang="cz" xmltv_id="o2-33" site_id="Cinemax HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/cinemax-hd.png">Cinemax HD</channel>
@@ -25,7 +29,9 @@
     <channel lang="cz" xmltv_id="o2-76" site_id="ČT sport HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/ct-sport-hd.png">ČT sport HD</channel>
     <channel lang="cz" xmltv_id="o2-1" site_id="ČT1 HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/ct1-hd.png">ČT1 HD</channel>
     <channel lang="cz" xmltv_id="o2-181" site_id="ČT1 Jih" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/ct1.png">ČT1 JM</channel>
+    <channel lang="cz" xmltv_id="o2-183" site_id="CT1_JZC" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/ct1.png">ČT1 JZC</channel>
     <channel lang="cz" xmltv_id="o2-180" site_id="ČT1 Sever" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/ct1.png">ČT1 SM</channel>
+    <channel lang="cz" xmltv_id="o2-182" site_id="CT1_SVC" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/ct1.png">ČT1 SVC</channel>
     <channel lang="cz" xmltv_id="o2-2" site_id="ČT2 HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/ct2-hd.png">ČT2 HD</channel>
     <channel lang="cz" xmltv_id="o2-17" site_id="ČT24 HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/ct24-hd.png">ČT24 HD</channel>
     <channel lang="cz" xmltv_id="o2-147" site_id="Deutsche Welle" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/deutsche-welle.png">Deutsche Welle</channel>
@@ -91,7 +97,7 @@
     <channel lang="cz" xmltv_id="o2-3" site_id="Nova HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/nova_202201.png">Nova HD</channel>
     <channel lang="cz" xmltv_id="o2-10" site_id="NovaLady" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/nova-lady.png">Nova Lady</channel>
     <channel lang="cz" xmltv_id="o2-77" site_id="Nova Sport 1 HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/nova-sport-1.png">Nova Sport 1 HD</channel>
-    <channel lang="cz" xmltv_id="o2-78" site_id="Nova Sport 2 HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/nova-sport-2-hd.png">Nova Sport 2 HD</channel>
+    <channel lang="cz" xmltv_id="o2-78" site_id="Nova Sport 2 HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/novasport2_2309.png">Nova Sport 2 HD</channel>
     <channel lang="cz" xmltv_id="o2-79" site_id="NovaSport3HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/nova-sport-3.png">Nova Sport 3 HD</channel>
     <channel lang="cz" xmltv_id="o2-80" site_id="NovaSport4HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/nova-sport-4.png">Nova Sport 4 HD</channel>
     <channel lang="cz" xmltv_id="o2-130" site_id="Óčko Expres" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/ocko-express.png">Óčko Expres</channel>
@@ -103,6 +109,7 @@
     <channel lang="cz" xmltv_id="o2-5" site_id="O2 Sport" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png">O2TV SPORT HD</channel>
     <channel lang="cz" xmltv_id="o2-70" site_id="O2 Sport HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png">O2TV Sport HD</channel>
     <channel lang="cz" xmltv_id="o2-551" site_id="O2 Sport1 HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png">O2TV Sport1 HD</channel>
+    <channel lang="cz" xmltv_id="o2-560" site_id="O2TVSport10HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png">O2TV Sport10 HD</channel>
     <channel lang="cz" xmltv_id="o2-552" site_id="O2 Sport2 HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png">O2TV Sport2 HD</channel>
     <channel lang="cz" xmltv_id="o2-553" site_id="O2 Sport3 HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png">O2TV Sport3 HD</channel>
     <channel lang="cz" xmltv_id="o2-554" site_id="O2 Sport4 HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png">O2TV Sport4 HD</channel>
@@ -110,10 +117,10 @@
     <channel lang="cz" xmltv_id="o2-556" site_id="O2 Sport6 HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png">O2TV Sport6 HD</channel>
     <channel lang="cz" xmltv_id="o2-557" site_id="O2 Sport7 HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png">O2TV Sport7 HD</channel>
     <channel lang="cz" xmltv_id="o2-558" site_id="O2 Sport8 HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png">O2TV Sport8 HD</channel>
+    <channel lang="cz" xmltv_id="o2-559" site_id="O2TVSport9HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png">O2TV Sport9 HD</channel>
     <channel lang="cz" xmltv_id="o2-20" site_id="O2TenisHD1" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/o2-tv-tenis.png">O2TV Tenis HD</channel>
     <channel lang="cz" xmltv_id="o2-72" site_id="O2 Tenis HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/o2-tv-tenis.png">O2TV Tenis HD</channel>
     <channel lang="cz" xmltv_id="o2-15" site_id="Paramount Network" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/paramount_network.png">Paramount Network</channel>
-    <channel lang="cz" xmltv_id="o2-188" site_id="Praha TV" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/praha-tv.png">Praha TV</channel>
     <channel lang="cz" xmltv_id="o2-21" site_id="PremierSportHD1" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/premier-sport.png">Premier Sport 1 HD</channel>
     <channel lang="cz" xmltv_id="o2-74" site_id="PremierSportHD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/premier-sport.png">Premier Sport 1 HD</channel>
     <channel lang="cz" xmltv_id="o2-22" site_id="PremierSport2HD1" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/premier-sport-2.png">Premier Sport 2 HD</channel>
@@ -133,7 +140,7 @@
     <channel lang="cz" xmltv_id="o2-95" site_id="RiKTV" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/rik.png">RiK TV</channel>
     <channel lang="cz" xmltv_id="o2-156" site_id="RTL II" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/rtl-ii.png">RTL II</channel>
     <channel lang="cz" xmltv_id="o2-155" site_id="RTL" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/rtl.png">RTL</channel>
-    <channel lang="cz" xmltv_id="o2-84" site_id="Sport5" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/sport5.png">Sport5</channel>
+    <channel lang="cz" xmltv_id="o2-109" site_id="SpektrumHome" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/spectrum_home_2309.png">Spektrum Home</channel>
     <channel lang="cz" xmltv_id="o2-129" site_id="C Music TV" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/c-music-tv.png">STINGRAY CMUSIC</channel>
     <channel lang="cz" xmltv_id="o2-113" site_id="Story4" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/story4.png">Story4</channel>
     <channel lang="cz" xmltv_id="o2-120" site_id="Šlágr TV" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/slager-original-20221208.png">Šláger Originál</channel>
