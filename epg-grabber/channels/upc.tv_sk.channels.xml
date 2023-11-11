@@ -37,9 +37,9 @@
     <channel lang="sk" xmltv_id="upctv-10018" site_id="10018" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5053.f.CT_1_HD.png">CT 1 HD</channel>
     <channel lang="sk" xmltv_id="upctv-10019" site_id="10019" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5054.f.CT_2_HD.png">CT 2 HD</channel>
     <channel lang="sk" xmltv_id="upctv-10021" site_id="10021" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8431.f.CT_24_HD.png">CT 24 HD</channel>
-    <channel lang="sk" xmltv_id="upctv-10194" site_id="10194" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/CurrentTime.f.png">Current Time</channel>
+    <channel lang="sk" xmltv_id="upctv-10194" site_id="10194" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/CurrentTime.f.png">Current Time HD</channel>
     <channel lang="sk" xmltv_id="upctv-10008" site_id="10008" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/50047.f.Dajto_HD_SK.png">Dajto HD</channel>
-    <channel lang="sk" xmltv_id="upctv-10109" site_id="10109" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/4667.f.Deutsche_Welle.png">Deutsche Welle</channel>
+    <channel lang="sk" xmltv_id="upctv-10109" site_id="10109" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/4667.f.Deutsche_Welle.png">Deutsche Welle HD</channel>
     <channel lang="sk" xmltv_id="upctv-10052" site_id="10052" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5006.f.Discovery.png">Discovery HD</channel>
     <channel lang="sk" xmltv_id="upctv-10053" site_id="10053" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8415.f.Discovery_Science_HD.png">Discovery Science HD</channel>
     <channel lang="sk" xmltv_id="upctv-10086" site_id="10086" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5063.f.Disney_Channel.png">Disney Channel</channel>
@@ -49,10 +49,10 @@
     <channel lang="sk" xmltv_id="upctv-10174" site_id="10174" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5064.f.Dom_Kino.png">Dom Kino</channel>
     <channel lang="sk" xmltv_id="upctv-10054" site_id="10054" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8414.f.DTX_HD.png">DTX HD</channel>
     <channel lang="sk" xmltv_id="upctv-10084" site_id="10084" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5007.f.duck_tv.png">ducktv HD</channel>
-    <channel lang="sk" xmltv_id="upctv-10145" site_id="10145" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_13_c_67a1cc500fb0219ad22022f9b6a5bdf5.Duna_World_SK.png">Duna World</channel>
-    <channel lang="sk" xmltv_id="upctv-10146" site_id="10146" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_2_c_f722c641cc8eee9954c7d17090dbb352.Duna.png">Duna</channel>
+    <channel lang="sk" xmltv_id="upctv-10146" site_id="10146" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_2_c_f722c641cc8eee9954c7d17090dbb352.Duna.png">Duna HD</channel>
+    <channel lang="sk" xmltv_id="upctv-10145" site_id="10145" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_13_c_67a1cc500fb0219ad22022f9b6a5bdf5.Duna_World_SK.png">Duna World HD</channel>
     <channel lang="sk" xmltv_id="upctv-10002" site_id="10002" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8408.f.Dvojka_HD_SK.png">Dvojka HD</channel>
-    <channel lang="sk" xmltv_id="upctv-10203" site_id="10203" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/eentertainment.f.png">E! Entertainment</channel>
+    <channel lang="sk" xmltv_id="upctv-10203" site_id="10203" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/eentertainment.f.png">E! Entertainment HD</channel>
     <channel lang="sk" xmltv_id="upctv-10131" site_id="10131" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5198.f.EroXXX_HD.png">EroXXX HD</channel>
     <channel lang="sk" xmltv_id="upctv-10192" site_id="10192" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Espreso_TV.f.png">Espreso TV</channel>
     <channel lang="sk" xmltv_id="upctv-10111" site_id="10111" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8649.f.Euronews_HD.png">Euronews HD</channel>
@@ -62,12 +62,12 @@
     <channel lang="sk" xmltv_id="upctv-10073" site_id="10073" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5069.f.Eurosport_2_HD.png">Eurosport 2 HD</channel>
     <channel lang="sk" xmltv_id="upctv-10136" site_id="10136" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Extasy_HD.f.Extasy_HD.png">Extasy HD</channel>
     <channel lang="sk" xmltv_id="upctv-10079" site_id="10079" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/1236.f.Extreme_Sports.png">Extreme Sports</channel>
-    <channel lang="sk" xmltv_id="upctv-10202" site_id="10202" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/fashionbox.f.png">FashionBox</channel>
+    <channel lang="sk" xmltv_id="upctv-10202" site_id="10202" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/fashionbox.f.png">FashionBox HD</channel>
     <channel lang="sk" xmltv_id="upctv-10105" site_id="10105" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8274.f.Fashion_TV_HD.png">Fashion TV HD</channel>
     <channel lang="sk" xmltv_id="upctv-10130" site_id="10130" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8005.f.Fast_and_Fun_HD.png">Fast &amp; FunBox HD</channel>
     <channel lang="sk" xmltv_id="upctv-10161" site_id="10161" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Fem3_HU.f.Fem3_HU.png">Fem3</channel>
     <channel lang="sk" xmltv_id="upctv-10128" site_id="10128" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8006.f.Fightbox_HD.png">Fightbox HD</channel>
-    <channel lang="sk" xmltv_id="upctv-10201" site_id="10201" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/arthouse.f.png">FilmBox Arthouse</channel>
+    <channel lang="sk" xmltv_id="upctv-10201" site_id="10201" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/arthouse.f.png">FilmBox Arthouse HD</channel>
     <channel lang="sk" xmltv_id="upctv-10125" site_id="10125" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5011.f.FilmBox_Extra_HD.png">FilmBox Extra HD</channel>
     <channel lang="sk" xmltv_id="upctv-10045" site_id="10045" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5094.f.FilmBox_Family.png">FilmBox Family</channel>
     <channel lang="sk" xmltv_id="upctv-10044" site_id="10044" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5092.f.FilmBox.png">FilmBox HD</channel>
@@ -108,7 +108,7 @@
     <channel lang="sk" xmltv_id="upctv-10104" site_id="10104" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/10104.png">Mezzo</channel>
     <channel lang="sk" xmltv_id="upctv-10085" site_id="10085" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5117.f.Minimax_Animax.png">Minimax</channel>
     <channel lang="sk" xmltv_id="upctv-10036" site_id="10036" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/7213.f.Mnam_TV_HD.png">Mnam TV HD</channel>
-    <channel lang="sk" xmltv_id="upctv-10037" site_id="10037" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8203.f.Mnau_TV.png">Mnau TV</channel>
+    <channel lang="sk" xmltv_id="upctv-10037" site_id="10037" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8203.f.Mnau_TV.png">Mnau TV HD</channel>
     <channel lang="sk" xmltv_id="upctv-10092" site_id="10092" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5016.f.MTV.png">MTV Europe</channel>
     <channel lang="sk" xmltv_id="upctv-10093" site_id="10093" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/1183.f.MTV_Live_HD.png">MTV Live HD</channel>
     <channel lang="sk" xmltv_id="upctv-10096" site_id="10096" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/0145.f.VH1.png">MTV 00s</channel>
@@ -117,9 +117,9 @@
     <channel lang="sk" xmltv_id="upctv-10182" site_id="10182" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5120.f.Muzyka.png">Muzika Pervogo</channel>
     <channel lang="sk" xmltv_id="upctv-10156" site_id="10156" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Muzsika_TV_HU.f.Muzsika_TV_HU.png">Muzsika TV</channel>
     <channel lang="sk" xmltv_id="upctv-10138" site_id="10138" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/10138.png">m1 HD</channel>
-    <channel lang="sk" xmltv_id="upctv-10139" site_id="10139" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/10139.png">m2</channel>
+    <channel lang="sk" xmltv_id="upctv-10139" site_id="10139" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/10139.png">m2 HD</channel>
     <channel lang="sk" xmltv_id="upctv-10141" site_id="10141" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/10141.png">m4 Sport HD</channel>
-    <channel lang="sk" xmltv_id="upctv-10140" site_id="10140" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/M5.f.M5.png">m5</channel>
+    <channel lang="sk" xmltv_id="upctv-10140" site_id="10140" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/M5.f.M5.png">m5 HD</channel>
     <channel lang="sk" xmltv_id="upctv-10059" site_id="10059" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8081.f.Nat_Geo_Wild_HD.png">Nat Geo Wild HD</channel>
     <channel lang="sk" xmltv_id="upctv-10058" site_id="10058" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5122.f.Nat_Geo_HD.png">National Geographic HD</channel>
     <channel lang="sk" xmltv_id="upctv-10088" site_id="10088" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5123.f.Nickelodeon.png">Nickelodeon</channel>
@@ -134,7 +134,7 @@
     <channel lang="sk" xmltv_id="upctv-10115" site_id="10115" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/1006.f.ORF1.png">ORF 1</channel>
     <channel lang="sk" xmltv_id="upctv-10116" site_id="10116" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/1007.f.ORF2.png">ORF 2</channel>
     <channel lang="sk" xmltv_id="upctv-10181" site_id="10181" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/9104.f.O_exclamation.png">O!</channel>
-    <channel lang="sk" xmltv_id="upctv-10070" site_id="10070" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/park_tv.f.Park_TV_HD.png">Park TV</channel>
+    <channel lang="sk" xmltv_id="upctv-10070" site_id="10070" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/park_tv.f.Park_TV_HD.png">Park TV HD</channel>
     <channel lang="sk" xmltv_id="upctv-11134" site_id="11134" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/petofi.f.png">Petofi Radio</channel>
     <channel lang="sk" xmltv_id="upctv-10179" site_id="10179" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/9102.f.Pobeda.png">Pobeda</channel>
     <channel lang="sk" xmltv_id="upctv-10176" site_id="10176" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/9099.f.Poekhali_exclamation.png">Poekhali!</channel>
@@ -175,15 +175,16 @@
     <channel lang="sk" xmltv_id="upctv-10169" site_id="10169" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_110006_c_e051e3d4a1274f965874a5117218978c.SAT_1_SK.png">SAT 1</channel>
     <channel lang="sk" xmltv_id="upctv-10016" site_id="10016" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/50040.f.SENZI_HD.png">SENZI HD</channel>
     <channel lang="sk" xmltv_id="upctv-10025" site_id="10025" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8671sd.f.Seznamcz_TV.png">Seznam.cz TV HD</channel>
+    <channel lang="sk" xmltv_id="upctv-10199" site_id="10199" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/skvele.f.png">Skvele TV HD</channel>
     <channel lang="sk" xmltv_id="upctv-10197" site_id="10197" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/9106.f.png">Sky News</channel>
     <channel lang="sk" xmltv_id="upctv-11135" site_id="11135" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/7039.f.png">Sky Radio</channel>
-    <channel lang="sk" xmltv_id="upctv-10102" site_id="10102" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Slager_muzika.png">Slager muzika</channel>
-    <channel lang="sk" xmltv_id="upctv-10101" site_id="10101" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Slager_original.png">Slager original</channel>
+    <channel lang="sk" xmltv_id="upctv-10102" site_id="10102" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Slager_muzika.png">Slager muzika HD</channel>
+    <channel lang="sk" xmltv_id="upctv-10101" site_id="10101" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Slager_original.png">Slager original HD</channel>
     <channel lang="sk" xmltv_id="upctv-10103" site_id="10103" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Slagr_premium.f.Slagr_premium.png">Slager Premium HD</channel>
-    <channel lang="sk" xmltv_id="upctv-10157" site_id="10157" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Slager_TV_HU.f.Slager_TV_HU.png">Slager TV</channel>
+    <channel lang="sk" xmltv_id="upctv-10157" site_id="10157" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Slager_TV_HU.f.Slager_TV_HU.png">Slager TV HD</channel>
     <channel lang="sk" xmltv_id="upctv-10155" site_id="10155" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Sorozat_plus_HU.f.Sorozat_plus_HU.png">Sorozat+</channel>
     <channel lang="sk" xmltv_id="upctv-10060" site_id="10060" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5162.f.Spektrum_HD.png">Spektrum HD</channel>
-    <channel lang="sk" xmltv_id="upctv-10061" site_id="10061" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5163.f.Spektrum_home.png">Spektrum home</channel>
+    <channel lang="sk" xmltv_id="upctv-10061" site_id="10061" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5163.f.Spektrum_home.png">Spektrum home HD</channel>
     <channel lang="sk" xmltv_id="upctv-10074" site_id="10074" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/7212.f.Sport_1_HD.png">Sport 1 HD</channel>
     <channel lang="sk" xmltv_id="upctv-10075" site_id="10075" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5165.f.Sport_2_HD.png">Sport 2 HD</channel>
     <channel lang="sk" xmltv_id="upctv-10158" site_id="10158" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Story_4_HU.f.Story_4_HU.png">Story 4</channel>
@@ -193,20 +194,20 @@
     <channel lang="sk" xmltv_id="upctv-10177" site_id="10177" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/9100.f.Telecafe.png">Telecafe</channel>
     <channel lang="sk" xmltv_id="upctv-10062" site_id="10062" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5061.f.Discovery_TLC.png">TLC HD</channel>
     <channel lang="sk" xmltv_id="upctv-10064" site_id="10064" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/7253.f.Travel_Channel_HD.png">Travel Channel HD</channel>
-    <channel lang="sk" xmltv_id="upctv-10119" site_id="10119" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TRT_World.f.TRT_World.png">TRT World</channel>
+    <channel lang="sk" xmltv_id="upctv-10119" site_id="10119" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TRT_World.f.TRT_World.png">TRT World HD</channel>
     <channel lang="sk" xmltv_id="upctv-10195" site_id="10195" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TurboTV.png">TurboTV HD</channel>
-    <channel lang="sk" xmltv_id="upctv-10204" site_id="10204" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/doktor.f.png">TV Doktor</channel>
+    <channel lang="sk" xmltv_id="upctv-10204" site_id="10204" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/doktor.f.png">TV Doktor HD</channel>
     <channel lang="sk" xmltv_id="upctv-10013" site_id="10013" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_50055_c_7d2257cda285bcbb3e8b67a71f1cc0d4.TV_LUX_SK.png">TV LUX HD</channel>
+    <channel lang="sk" xmltv_id="upctv-10063" site_id="10063" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5193.f.TV_Paprika.png">TV Paprika HD</channel>
     <channel lang="sk" xmltv_id="upctv-10151" site_id="10151" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/9052.f.TV_Paprika_HU.png">TV Paprika HU</channel>
-    <channel lang="sk" xmltv_id="upctv-10063" site_id="10063" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5193.f.TV_Paprika.png">TV Paprika</channel>
-    <channel lang="sk" xmltv_id="upctv-10118" site_id="10118" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TVP_Polonia.f.TVP_Polonia.png">TVP Polonia</channel>
+    <channel lang="sk" xmltv_id="upctv-10118" site_id="10118" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TVP_Polonia.f.TVP_Polonia.png">TVP Polonia HD</channel>
     <channel lang="sk" xmltv_id="upctv-10038" site_id="10038" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8648.f.TV_Raj.png">TV Raj HD</channel>
-    <channel lang="sk" xmltv_id="upctv-10184" site_id="10184" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TV_Romana.f.TV_Romana.png">TV Romana</channel>
+    <channel lang="sk" xmltv_id="upctv-10184" site_id="10184" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TV_Romana.f.TV_Romana.png">TV Romana HD</channel>
     <channel lang="sk" xmltv_id="upctv-10039" site_id="10039" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/ruzinov.f.TV_Ruzinov_HD.png">TV Ruzinov HD</channel>
     <channel lang="sk" xmltv_id="upctv-10160" site_id="10160" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TV2Sef_HU.f.TV2Sef_HU.png">TV2Sef</channel>
     <channel lang="sk" xmltv_id="upctv-10148" site_id="10148" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_11_w_c2db000b3b3fe8fab637bc2a3aa973d3.TV2_SK.png">TV2</channel>
     <channel lang="sk" xmltv_id="upctv-10150" site_id="10150" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483010.f.Story_4_SK.png">TV4</channel>
-    <channel lang="sk" xmltv_id="upctv-10015" site_id="10015" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8437.f.TV8_HD.png">TV8</channel>
+    <channel lang="sk" xmltv_id="upctv-10015" site_id="10015" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8437.f.TV8_HD.png">TV8 HD</channel>
     <channel lang="sk" xmltv_id="upctv-10190" site_id="10190" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/UATV.f.png">UATV</channel>
     <channel lang="sk" xmltv_id="upctv-11136" site_id="11136" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/7035.f.png">Veronica</channel>
     <channel lang="sk" xmltv_id="upctv-10065" site_id="10065" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/764620.f.Viasat_Explore_HD.png">Viasat Explore HD</channel>
