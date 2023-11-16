@@ -4,7 +4,7 @@ module.exports = {
   site: 'o2tv.cz',
   maxConnections: 5,
   request: {
-    timeout: 90000, // 90 seconds
+    timeout: 5000, //
     delay: 5000, // 5 seconds
   },
   url: function ({ channel, date }) {
