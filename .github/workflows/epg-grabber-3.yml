@@ -8,9 +8,7 @@ on:
         value: ${{ jobs.grab.outputs.output_grab3 }}
 
   workflow_dispatch:
-  pull_request_target:
-    branches: 'main'
-    types: [closed]
+
 env:
   env_var3: ${{ vars.CORS_ELEONORA }}
 # schedule:
