@@ -4,8 +4,8 @@ module.exports = {
   site: 'o2tv.cz',
   maxConnections: 1,
   request: {
-    timeout: 35000, //
-    delay: 55000, // 55 seconds
+    timeout: 55000, //
+    delay: 95000, // 95 seconds
   },
   url: function ({ channel, date }) {
     const id = encodeURIComponent(channel.site_id) //encodeURIComponent(channel.site_id)
