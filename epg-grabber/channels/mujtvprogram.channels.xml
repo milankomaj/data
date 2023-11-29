@@ -3,7 +3,6 @@
   <channels>
     <channel lang="cz" xmltv_id="mujtvprogram-1" site_id="1" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=221c83bb0fc366a6af5a167d5558781e&amp;p2=80">ČT1</channel>
     <channel lang="cz" xmltv_id="mujtvprogram-2" site_id="2" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=930021742680a86aabfe6100a6899d2b&amp;p2=80">ČT2</channel>
-    <channel lang="cz" xmltv_id="mujtvprogram-723" site_id="723" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=ac6c69625699eaecc9b39f7ea4d69b8c&amp;p2=80">Skylink 7</channel>
     <channel lang="cz" xmltv_id="mujtvprogram-3" site_id="3" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=60712218b2910fb81fc217d672f602af&amp;p2=80">Nova</channel>
     <channel lang="cz" xmltv_id="mujtvprogram-4" site_id="4" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=aa330a12f11883b0f0fe6a45702e8e04&amp;p2=80">Prima</channel>
     <channel lang="cz" xmltv_id="mujtvprogram-89" site_id="89" logo="https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=b248cb57e2fb343e1effe7bc682aa6bd&amp;p2=80">TV Barrandov</channel>
