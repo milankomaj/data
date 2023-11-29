@@ -5,7 +5,7 @@ module.exports = {
   maxConnections: 1,
   request: {
     timeout: 55000, //
-    delay: 95000, // 95 seconds
+    delay: 195000, // 195 seconds
   },
   url: function ({ channel, date }) {
     const id = encodeURIComponent(channel.site_id) //encodeURIComponent(channel.site_id)
