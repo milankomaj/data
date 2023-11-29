@@ -2,10 +2,10 @@ const axios = require('axios')
 //const dayjs = require('dayjs')
 module.exports = {
   site: 'o2tv.cz',
-  maxConnections: 1,
+  maxConnections: 5,
   request: {
-    timeout: 55000, //
-    delay: 195000, // 195 seconds
+    timeout: 5000, //
+    delay: 5000, // 5 seconds
   },
   url: function ({ channel, date }) {
     const id = encodeURIComponent(channel.site_id) //encodeURIComponent(channel.site_id)
@@ -13,7 +13,7 @@ module.exports = {
     const d = date.valueOf()
     //const g = dayjs(date).add(1, 'day').valueOf()
     //console.log("d,g", d, g)
-    return process.env.env_var3 + `/?q=https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&channelKey=${id}&from=${d}`
+    return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&channelKey=${id}&from=${d}`
     //return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${f}&to=${g}`
   },
   async parser({ content, channel, date }) {
