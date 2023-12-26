@@ -51,7 +51,7 @@ jobs:
           path: |
             ./namedays/*.*
 
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           path: ./
 
