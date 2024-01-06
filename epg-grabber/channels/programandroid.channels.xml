@@ -26,8 +26,6 @@
     <channel lang="cz" xmltv_id="programandroid-65" site_id="65" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct24.png">ČT24</channel>
     <channel lang="cz" xmltv_id="programandroid-73" site_id="73" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct4.png">ČT4 Sport</channel>
     <channel lang="cz" xmltv_id="programandroid-15" site_id="15" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/Discovery.png">Discovery Channel</channel>
-    <channel lang="cz" xmltv_id="programandroid-92" site_id="92" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/discoveryscience.png">Discovery Science</channel>
-    <channel lang="cz" xmltv_id="programandroid-1129" site_id="1129" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/dtx.png">DTX</channel>
     <channel lang="cz" xmltv_id="programandroid-9" site_id="9" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/eurosport1.png">Eurosport 1</channel>
     <channel lang="cz" xmltv_id="programandroid-59" site_id="59" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/eurosport2.png">Eurosport 2</channel>
     <channel lang="cz" xmltv_id="programandroid-591" site_id="591" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/eroxhd.png">Erox HD</channel>
@@ -125,7 +123,6 @@
     <channel lang="cz" xmltv_id="programandroid-1245" site_id="1245" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/lalatv.png">Lala TV</channel>
     <channel lang="cz" xmltv_id="programandroid-1271" site_id="1271" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/nickelodeon.png">Nickelodeon (affiliate)</channel>
     <channel lang="cz" xmltv_id="programandroid-168" site_id="168" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/CNT.png">Cartoon Network</channel>
-    <channel lang="cz" xmltv_id="programandroid-1272" site_id="1272" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/loungetv.png">Lounge TV</channel>
     <channel lang="cz" xmltv_id="programandroid-1314" site_id="1314" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/nicktoons.png">Nicktoons</channel>
     <channel lang="cz" xmltv_id="programandroid-1320" site_id="1320" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/lovenature.png">Love Nature</channel>
     <channel lang="cz" xmltv_id="programandroid-1338" site_id="1338" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/cnnprima.png">CNN Prima News</channel>
