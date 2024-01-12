@@ -2,10 +2,10 @@ const axios = require('axios')
 //const dayjs = require('dayjs')
 module.exports = {
   site: 'o2tv.cz',
-  maxConnections: 5,
+  maxConnections: 1,
   request: {
-    timeout: 55000, //
-    delay: 55000, // 55 seconds
+    timeout: 5000, //
+    delay: 5000, // 5 seconds
   },
   url: function ({ channel, date }) {
     const id = encodeURIComponent(channel.site_id) //encodeURIComponent(channel.site_id)
@@ -48,7 +48,7 @@ async function loadProgramDetails(item, channel) {
 
   const url = process.env.env_var3 + `/?q=https://api.o2tv.cz/unity/api/v1/programs/${parseI(item)}/`
   const data = await axios
-    .get(url, { "timeout": 55000 })
+    .get(url, { "timeout": 5000 })
     .then(r => r.data)
     .catch(console.log)
   //console.log(url)
