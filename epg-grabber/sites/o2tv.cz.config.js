@@ -1,26 +1,41 @@
+const dayjs = require('dayjs')
 const axios = require('axios')
-//const dayjs = require('dayjs')
 module.exports = {
   site: 'o2tv.cz',
-  maxConnections: 1,
   request: {
-    timeout: 5000, //
-    delay: 5000, // 5 seconds
+    headers: {
+      "Host": "api.o2tv.cz",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0",
+      "Accept": "application/json",
+      "Accept-Language": "sk,en-US;q=0.5",
+      "Accept-Encoding": "gzip, deflate, br",
+      "DNT": "1",
+      "Connection": "keep-alive",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Fetch-Dest": "document",
+      "Sec-Fetch-Mode": "navigate",
+      "Sec-Fetch-Site": "cross-site",
+      "Sec-Fetch-User": "?1",
+      "Pragma": "no-cache",
+      "Cache-Control": "no-cache"
+    },
+    cache: {
+      ttl: 3 * 60 * 60 * 1000 // 3h
+    }
   },
-  url: function ({ channel, date }) {
-    const id = encodeURIComponent(channel.site_id) //encodeURIComponent(channel.site_id)
+  url: function ({ date, channel }) {
+    const id = encodeURIComponent(channel.site_id)
     //console.log("id", id)
     const d = date.valueOf()
     //const g = dayjs(date).add(1, 'day').valueOf()
     //console.log("d,g", d, g)
-    return process.env.env_var3 + `/?q=https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&channelKey=${id}&from=${d}`
+    return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${d}`
     //return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${f}&to=${g}`
   },
   async parser({ content, channel, date }) {
     let programs = []
     let items = parseItems(content, channel)
     if (!items.length) return programs
-    //console.log("items.length", items.length)
 
     // items.forEach(item => {
     for (let item of items) {
@@ -40,24 +55,42 @@ module.exports = {
     return programs
   },
 
-
 }
 async function loadProgramDetails(item, channel) {
-  if (!item.epgId) return []
+  if (!item.epgId) return {}
   //console.log("item", String(item).length)
-
-  const url = process.env.env_var3 + `/?q=https://api.o2tv.cz/unity/api/v1/programs/${parseI(item)}/`
+  const url = `https://api.o2tv.cz/unity/api/v1/programs/${parseI(item)}/`
   const data = await axios
-    .get(url, { "timeout": 5000 })
+    .get(
+      url, {
+        headers: {
+          "Host": "api.o2tv.cz",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0",
+          "Accept": "application/json",
+          "Accept-Language": "sk,en-US;q=0.5",
+          "Accept-Encoding": "gzip, deflate, br",
+          "DNT": "1",
+          "Connection": "keep-alive",
+          "Upgrade-Insecure-Requests": "1",
+          "Sec-Fetch-Dest": "document",
+          "Sec-Fetch-Mode": "navigate",
+          "Sec-Fetch-Site": "cross-site",
+          "Sec-Fetch-User": "?1",
+          "Pragma": "no-cache",
+          "Cache-Control": "no-cache"
+        },
+    }
+    )
     .then(r => r.data)
     .catch(console.log)
-  //console.log(url)
-  // console.log(data)
+  console.log("url 👉", url)
+  //console.log("data 👉",data)
   return data || {}
 }
 function parseItems(content, channel) {
   try {
     const data = JSON.parse(content)
+    console.log("data 👉", data)
     const id = channel.site_id
     //const id = encodeURIComponent(channel.site_id)
     const channelData = data.epg.items.find(i => i.channel.channelKey == id)
