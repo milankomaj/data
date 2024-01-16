@@ -1,5 +1,5 @@
 const axios = require('axios')
-const dayjs = require('dayjs')
+//const dayjs = require('dayjs')
 module.exports = {
   site: 'o2tv.cz',
   maxConnections: 5,
@@ -11,10 +11,10 @@ module.exports = {
     const id = encodeURIComponent(channel.site_id) //encodeURIComponent(channel.site_id)
     //console.log("id", id)
     const d = date.valueOf()
-    const g = dayjs(date).add(1, 'day').valueOf()
+    //const g = dayjs(date).add(1, 'day').valueOf()
     //console.log("d,g", d, g)
-    //return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&channelKey=${id}&from=${d}`
-    return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${d}&to=${g}`
+    return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&channelKey=${id}&from=${d}`
+    //return `https://api.o2tv.cz/unity/api/v1/epg/depr/?forceLimit=true&limit=500&channelKey=${id}&from=${d}&to=${g}`
   },
   async parser({ content, channel, date }) {
     let programs = []
@@ -48,7 +48,7 @@ async function loadProgramDetails(item, channel) {
 
   const url = `https://api.o2tv.cz/unity/api/v1/programs/${parseI(item)}/`
   const data = await axios
-    .get(url,{ timeout: 5000 })
+    .get(url,{ "timeout": 5000 })
     .then(r => r.data)
     .catch(console.log)
   //console.log(url)
