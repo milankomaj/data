@@ -4,8 +4,8 @@ module.exports = {
   site: 'o2tv.cz',
   maxConnections: 5,
   request: {
-    timeout: 5000, //
-    delay: 5000, // 5 seconds
+    timeout: 15000, //
+    delay: 15000, // 5 seconds
   },
   url: function ({ channel, date }) {
     const id = encodeURIComponent(channel.site_id) //encodeURIComponent(channel.site_id)
@@ -48,7 +48,7 @@ async function loadProgramDetails(item, channel) {
 
   const url = `https://api.o2tv.cz/unity/api/v1/programs/${parseI(item)}/`
   const data = await axios
-    .get(url,{ timeout: 5000 })
+    .get(url,{ timeout: 15000 })
     .then(r => r.data)
     .catch(console.log)
   //console.log(url)
