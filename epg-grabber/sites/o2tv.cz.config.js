@@ -48,7 +48,7 @@ async function loadProgramDetails(item, channel) {
 
   const url = `https://api.o2tv.cz/unity/api/v1/programs/${parseI(item)}/`
   const data = await axios
-    .get(url)
+    .get(url,{ timeout: 5000 })
     .then(r => r.data)
     .catch(console.log)
   //console.log(url)
