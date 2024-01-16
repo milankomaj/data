@@ -83,14 +83,14 @@ async function loadProgramDetails(item, channel) {
     )
     .then(r => r.data)
     .catch(console.log)
-  //console.log("url 👉", url)
+  console.log("url 👉", url)
   //console.log("data 👉",data)
   return data || {}
 }
 function parseItems(content, channel) {
   try {
     const data = JSON.parse(content)
-    //console.log("data 👉", data)
+    console.log("data 👉", data)
     const id = channel.site_id
     //const id = encodeURIComponent(channel.site_id)
     const channelData = data.epg.items.find(i => i.channel.channelKey == id)
