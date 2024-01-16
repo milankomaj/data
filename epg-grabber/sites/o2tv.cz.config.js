@@ -1,5 +1,5 @@
 const axios = require('axios')
-//const dayjs = require('dayjs')
+const dayjs = require('dayjs')
 module.exports = {
   site: 'o2tv.cz',
   maxConnections: 5,
