@@ -1,13 +1,17 @@
 xmltv_id,site_id,name,channelNumber,logoUrl
 upctv-10024,10024,AMC HD,27,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8200.f.AMC_HD.png
 upctv-10049,10049,Animal Planet HD,150,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5000.f.Animal_Planet_HD.png
+upctv-12117,12117,ATV Ziar nad Hronom,572,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/ATV_Ziar_nad_Hronom.f.png
 upctv-10077,10077,Auto Motor Sport,207,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_20030_c_a8656683994a04e1456c9f3df4209ac7.Auto_Motor_Sport_SK.png
 upctv-10187,10187,BabesTV HD,424,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/BabesTV_HD.png
+upctv-12114,12114,Banovska TV,569,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Banovska_TV.f.png
+upctv-12109,12109,Bardejovska TV (BTV),564,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Bardejovska_TV_BTV.f.png
 upctv-10033,10033,Barrandov Krimi HD,64,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/7236.f.Barrandov_Plus_HD.png
 upctv-10032,10032,Barrandov TV HD,62,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5039.f.Barrandov_TV_HD.png
 upctv-11132,11132,Bartok Radio,731,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/bartok.f.png
 upctv-10178,10178,Bober,536,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/9101.f.Bobyor.png
 upctv-10188,10188,Brazzers TV HD,425,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Brazzers_TV_HD.png
+upctv-12120,12120,B52 Vranovska TV,575,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/B52_Vranovska_TV.f.png
 upctv-10180,10180,Carousel,538,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/9103.f.Carousel.png
 upctv-10091,10091,Cartoon Network HD,258,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8634.f.Cartoon_Network_HD.png
 upctv-10123,10123,Cinemax HD,404,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5048.f.Cinemax_HD.png
@@ -44,6 +48,7 @@ upctv-10129,10129,Docubox HD,416,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/im
 upctv-10004,10004,Doma HD,5,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_50061_c_19b65c3d22dc1dc1d877c9ebdb8e716b.TV_Doma_SK.png
 upctv-10173,10173,Dom Kino PREMIUM HD,531,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/9098.f.Dom_Kino_PREMIUM_HD.png
 upctv-10174,10174,Dom Kino,532,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5064.f.Dom_Kino.png
+upctv-12108,12108,DSTV,563,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/DSTV.f.png
 upctv-10084,10084,ducktv HD,250,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5007.f.duck_tv.png
 upctv-10146,10146,Duna HD,460,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_2_c_f722c641cc8eee9954c7d17090dbb352.Duna.png
 upctv-10145,10145,Duna World HD,459,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_13_c_67a1cc500fb0219ad22022f9b6a5bdf5.Duna_World_SK.png
@@ -67,7 +72,6 @@ upctv-10201,10201,FilmBox Arthouse HD,409,https://staticqbr-prod-sk.gnp.cloud.up
 upctv-10125,10125,FilmBox Extra HD,410,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5011.f.FilmBox_Extra_HD.png
 upctv-10045,10045,FilmBox Family,106,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5094.f.FilmBox_Family.png
 upctv-10044,10044,FilmBox HD,105,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5092.f.FilmBox.png
-upctv-10144,10144,Filmbox HU,457,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8741.f.Filmbox_HU.png
 upctv-10126,10126,FilmBox Premium HD,411,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8201.f.FilmBox_Premium_HD.png
 upctv-10127,10127,FilmBox Stars HD,413,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5095.f.FilmBox_Plus.png
 upctv-10043,10043,Film+ CZ HD,104,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/filmplus.f.png
@@ -83,6 +87,7 @@ upctv-10121,10121,HBO 2 HD,402,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/imag
 upctv-10122,10122,HBO 3 HD,403,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5103.f.HBO_3_HD.png
 upctv-10137,10137,HirTV,450,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_3_c_8c438f56a055eb522959f7d1d67c3316.Hir_TV_SK.png
 upctv-10057,10057,History HD,160,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/10057.png
+upctv-12115,12115,Hlohovska TV,570,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Hlohovska_TV.f.png
 upctv-10069,10069,Hobby TV HD,174,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/hobby_tv.f.Hobby_TV_HD.png
 upctv-10055,10055,ID HD,157,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8416.f.IDX_HD.png
 upctv-10001,10001,Jednotka HD,2,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8090.f.Jednotka_HD_SK.png
@@ -97,10 +102,13 @@ upctv-10163,10163,Kabel eins,500,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/im
 upctv-10034,10034,Kino Barrandov HD,65,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/7230.f.Kino_Barrandov_HD.png
 upctv-11133,11133,Kossuth Radio,732,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/kossuth.f.png
 upctv-10134,10134,Leo TV HD,421,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Leo_TV_HD.f.Leo_TV_HD.png
+upctv-12112,12112,Levicka TV LTS,567,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Levicka_TV_LTS.f.png
+upctv-12122,12122,Lubovnianska TV,577,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Lubovnianska_TV.f.png
 upctv-11108,11108,Lumen,707,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_50052_c_1af281e47a5494e1298400d03de97b4e.png
 upctv-10147,10147,Magyar ATV,461,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_5_c_83605e6df56dd3fd70decd6ec788e5f5.Magyar_ATV_SK.png
 upctv-10003,10003,Markiza HD,4,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8091.f.Markiza_HD_SK.png
 upctv-10196,10196,Markiza Krimi HD,103,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Markiza_Krimi_HD.f.png
+upctv-12103,12103,Mestska TV Trnava,558,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Mestska_TV_Trnava.f.png
 upctv-10104,10104,Mezzo,312,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/10104.png
 upctv-10085,10085,Minimax,251,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5117.f.Minimax_Animax.png
 upctv-10036,10036,Mnam TV HD,67,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/7213.f.Mnam_TV_HD.png
@@ -160,12 +168,14 @@ upctv-11107,11107,Regina Vychod,706,https://staticqbr-prod-sk.gnp.cloud.upctv.sk
 upctv-11105,11105,Regina Zapad,704,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_50057_c_c83f40bd72204e8652f67e936bf95392.png
 upctv-10106,10106,RELAX,314,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5152.f.RELAX.png
 upctv-10098,10098,Retro Music TV,306,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5153.f.Retro_Music_TV.png
+upctv-12118,12118,Roznavska TV (RVTV),573,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Roznavska_TV_RVTV.f.png
 upctv-10166,10166,RTL DE,503,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_110004_c_13134c68f3d625820f8972c4d5c86386.RTL_SK.png
 upctv-10153,10153,RTL Gold,470,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/RTL_Gold_HU.f.RTL_Gold_HU.png
 upctv-10154,10154,RTL HAROM,471,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/RTL_plus_HU.f.RTL_plus_HU.png
 upctv-10142,10142,RTL HU,455,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_6_c_a3d559aa63f5f7892b903d4e19d03d6a.RTL_Klub_SK.png
 upctv-10143,10143,RTL KETTO,456,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_9_c_1cae97d83ed8c6dd05e6b5b6952b31fb.RTL_2_HUN_SK.png
 upctv-10167,10167,RTL Zwei,504,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/RTL_2_GER_SK.png
+upctv-12107,12107,RTV Krea,562,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/RTV_Krea.f.png
 upctv-10186,10186,RTVS Sport HD,16,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/RTVS_Sport_HD.f.png
 upctv-10193,10193,RTVS 24 HD,11,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/RTVS24_HD.f.png
 upctv-10169,10169,SAT 1,506,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_110006_c_e051e3d4a1274f965874a5117218978c.SAT_1_SK.png
@@ -189,20 +199,33 @@ upctv-10159,10159,Super TV2,476,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/ima
 upctv-10012,10012,TA3 HD,13,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5169.f.TA3.png
 upctv-10177,10177,Telecafe,535,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/9100.f.Telecafe.png
 upctv-10062,10062,TLC HD,165,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5061.f.Discovery_TLC.png
+upctv-12121,12121,TOP TV Topolniky,576,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TOP_TV_Topolniky.f.png
 upctv-10064,10064,Travel Channel HD,167,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/7253.f.Travel_Channel_HD.png
 upctv-10119,10119,TRT World HD,368,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TRT_World.f.TRT_World.png
 upctv-10195,10195,TurboTV HD,69,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TurboTV.png
+upctv-12101,12101,TV Bratislava,556,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TV_Bratislava.f.png
 upctv-10204,10204,TV Doktor HD,72,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/doktor.f.png
+upctv-12119,12119,TV Dolny Kubin,574,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TV_Dolny_Kubin.f.png
+upctv-12111,12111,TV Hronka,566,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TV_Hronka.f.png
 upctv-10013,10013,TV LUX HD,14,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_50055_c_7d2257cda285bcbb3e8b67a71f1cc0d4.TV_LUX_SK.png
+upctv-12116,12116,TV Mistral,571,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TV_Mistral.f.png
+upctv-12124,12124,TV Moldava,579,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TV_Moldava.f.png
+upctv-12104,12104,TV Nitricka,559,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TV_Nitricka.f.png
+upctv-12123,12123,TV Nove Zamky,578,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TV_Nove_Zamky.f.png
 upctv-10063,10063,TV Paprika HD,166,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5193.f.TV_Paprika.png
 upctv-10151,10151,TV Paprika HU,466,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/9052.f.TV_Paprika_HU.png
+upctv-12110,12110,TV Poprad,565,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TV_Poprad.f.png
 upctv-10118,10118,TVP Polonia HD,363,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TVP_Polonia.f.TVP_Polonia.png
 upctv-10038,10038,TV Raj HD,70,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8648.f.TV_Raj.png
+upctv-12106,12106,TV Reduta (SNV),561,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TV_Reduta_SNV.f.png
 upctv-10184,10184,TV Romana HD,584,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TV_Romana.f.TV_Romana.png
 upctv-10039,10039,TV Ruzinov HD,71,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/ruzinov.f.TV_Ruzinov_HD.png
+upctv-12113,12113,TV Stara Tura,568,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TV_Stara_Tura.f.png
+upctv-12125,12125,TV Vita,580,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TV_Vita.f.png
 upctv-10160,10160,TV2Sef,477,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TV2Sef_HU.f.TV2Sef_HU.png
 upctv-10148,10148,TV2,462,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_11_w_c2db000b3b3fe8fab637bc2a3aa973d3.TV2_SK.png
 upctv-10150,10150,TV4,464,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483010.f.Story_4_SK.png
+upctv-12105,12105,TV7 Presov,560,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TV7_Presov.f.png
 upctv-10015,10015,TV8 HD,18,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8437.f.TV8_HD.png
 upctv-10190,10190,UATV,364,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/UATV.f.png
 upctv-11136,11136,Veronica,735,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/7035.f.png
@@ -213,4 +236,5 @@ upctv-10170,10170,VOX,507,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-ser
 upctv-10175,10175,Vremja,533,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5188.f.Vremja.png
 upctv-10009,10009,WAU HD,10,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8406.f.WAU_SK.png
 upctv-10164,10164,WELT,501,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_110002_c_e959874e6c55bdc3dab22b3adb5d40ea.N24_SK.png
+upctv-12102,12102,Zapadoslovenska TV,557,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Zapadoslovenska_TV.f.png
 upctv-10200,10200,360 TuneBox HD,412,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/360tunebox.f.png
