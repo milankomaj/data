@@ -113,7 +113,6 @@
     <channel lang="cz" xmltv_id="programandroid-1208" site_id="1208" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/rtmplus.png">RTM plus Liberecko</channel>
     <channel lang="cz" xmltv_id="programandroid-1209" site_id="1209" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/epicdrama.png">Epic Drama</channel>
     <channel lang="cz" xmltv_id="programandroid-1213" site_id="1213" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/hobbytv.png">Hobby TV</channel>
-    <channel lang="cz" xmltv_id="programandroid-1236" site_id="1236" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/topkids.png">Top Kids</channel>
     <channel lang="cz" xmltv_id="programandroid-1241" site_id="1241" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/leo_gold.png">Leo TV Gold</channel>
     <channel lang="cz" xmltv_id="programandroid-1242" site_id="1242" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/ocko_black.png">Óčko Black</channel>
     <channel lang="cz" xmltv_id="programandroid-1244" site_id="1244" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/tvnatura.png">TV Natura</channel>
@@ -152,6 +151,7 @@
     <channel lang="cz" xmltv_id="programandroid-15535" site_id="15535" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/nova_sport_5.png">Nova Sport 5</channel>
     <channel lang="cz" xmltv_id="programandroid-15536" site_id="15536" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/nova_sport_6.png">Nova Sport 6</channel>
     <channel lang="cz" xmltv_id="programandroid-15537" site_id="15537" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/canalplussport2.png">Canal+ Sport 2</channel>
+    <channel lang="cz" xmltv_id="programandroid-15538" site_id="15538" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/premiersport4.png">Premier Sport 4</channel>
     <channel lang="sk" xmltv_id="programandroid-687" site_id="687" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/arenasport.png">Arena Sport 1</channel>
     <channel lang="sk" xmltv_id="programandroid-800" site_id="800" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/arenasport2.png">Arena Sport 2</channel>
     <channel lang="sk" xmltv_id="programandroid-150" site_id="150" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/ducktv.png">duck.tv</channel>

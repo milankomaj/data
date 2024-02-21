@@ -2,7 +2,7 @@ xmltv_id,site_id,name,channelNumber,logoUrl
 o2-777,Africké nebe,Africké nebe,777,https://assets.o2tv.cz/assets/images/tv-logos/original/afrika.png
 o2-888,Akvárium,Akvárium,888,https://assets.o2tv.cz/assets/images/tv-logos/original/akvarium.png
 o2-149,Al Jazeera,Al Jazeera,149,https://assets.o2tv.cz/assets/images/tv-logos/original/aljazeera.png
-o2-60,Animal Planet HD,Animal Planet HD,60,https://assets.o2tv.cz/assets/images/tv-logos/original/animal-planet-hd.png
+o2-59,Animal Planet HD,Animal Planet HD,59,https://assets.o2tv.cz/assets/images/tv-logos/original/animal-planet-hd.png
 o2-88,ArenaSport1,Arena Sport 1,88,https://assets.o2tv.cz/assets/images/tv-logos/original/arenasport1_2309.png
 o2-89,ArenaSport2,Arena Sport 2,89,https://assets.o2tv.cz/assets/images/tv-logos/original/arenasport2_2309.png
 o2-115,AutoMotorSport HD,Auto Motor Sport HD,115,https://assets.o2tv.cz/assets/images/tv-logos/original/auto-motor-und-sport.png
@@ -22,7 +22,7 @@ o2-142,CNN,CNN,142,https://assets.o2tv.cz/assets/images/tv-logos/original/cnn.pn
 o2-63,CrimeInvestigation,Crime+Investigation,63,https://assets.o2tv.cz/assets/images/tv-logos/original/crime-investigation.png
 o2-38,CS Film,CS Film,38,https://assets.o2tv.cz/assets/images/tv-logos/original/cs-film.png
 o2-61,CSHistory,CS History,61,https://assets.o2tv.cz/assets/images/tv-logos/original/cs-history.png
-o2-49,HOROR FILM,CS Horror,49,https://assets.o2tv.cz/assets/images/tv-logos/original/horror-film.png
+o2-60,HOROR FILM,CS Horror,60,https://assets.o2tv.cz/assets/images/tv-logos/original/horror-film.png
 o2-99,ČT :D HD / ČT art HD,ČT :D HD / ČT art HD,99,https://assets.o2tv.cz/assets/images/tv-logos/original/ct-d-hd.png
 o2-84,ČT sport HD,ČT sport HD,84,https://assets.o2tv.cz/assets/images/tv-logos/original/ct-sport-hd.png
 o2-1,ČT1 HD,ČT1 HD,1,https://assets.o2tv.cz/assets/images/tv-logos/original/ct1-hd.png
@@ -33,7 +33,7 @@ o2-182,CT1_SVC,ČT1 SVC,182,https://assets.o2tv.cz/assets/images/tv-logos/origin
 o2-2,ČT2 HD,ČT2 HD,2,https://assets.o2tv.cz/assets/images/tv-logos/original/ct2-hd.png
 o2-17,ČT24 HD,ČT24 HD,17,https://assets.o2tv.cz/assets/images/tv-logos/original/ct24-hd.png
 o2-147,Deutsche Welle,Deutsche Welle,147,https://assets.o2tv.cz/assets/images/tv-logos/original/deutsche-welle.png
-o2-56,Discovery,Discovery HD,56,https://assets.o2tv.cz/assets/images/tv-logos/original/discovery_hd.png
+o2-58,Discovery,Discovery HD,58,https://assets.o2tv.cz/assets/images/tv-logos/original/discovery_hd.png
 o2-90,Disney Channel,Disney Channel,90,https://assets.o2tv.cz/assets/images/tv-logos/original/disney-channel-20221109.png
 o2-98,ducktv,ducktv,98,https://assets.o2tv.cz/assets/images/tv-logos/original/ducktv.png
 o2-163,Dvojka,Dvojka,163,https://assets.o2tv.cz/assets/images/tv-logos/original/dvojka.png
@@ -63,7 +63,7 @@ o2-31,HBO2 HD,HBO2 HD,31,https://assets.o2tv.cz/assets/images/tv-logos/original/
 o2-32,HBO3 HD,HBO3 HD,32,https://assets.o2tv.cz/assets/images/tv-logos/original/hbo3-hd.png
 o2-112,HGTVHD,HGTV HD,112,https://assets.o2tv.cz/assets/images/tv-logos/original/hgtv.png
 o2-62,History,History,62,https://assets.o2tv.cz/assets/images/tv-logos/original/history_202304.png
-o2-59,Investigation Discovery,ID,59,https://assets.o2tv.cz/assets/images/tv-logos/original/investigation-discovery.png
+o2-107,Investigation Discovery,ID,107,https://assets.o2tv.cz/assets/images/tv-logos/original/investigation-discovery.png
 o2-46,STV1,Jednotka,46,https://assets.o2tv.cz/assets/images/tv-logos/original/stv.png
 o2-42,JoJ Cinema HD,JoJ Cinema HD,42,https://assets.o2tv.cz/assets/images/tv-logos/original/joj-cinema.png
 o2-43,JoJ Family HD,JoJ Family HD,43,https://assets.o2tv.cz/assets/images/tv-logos/original/joj-family-hd.png
@@ -149,9 +149,9 @@ o2-160,TVE,TVE,160,https://assets.o2tv.cz/assets/images/tv-logos/original/tve.pn
 o2-184,TV Noe,TV Noe,184,https://assets.o2tv.cz/assets/images/tv-logos/original/tv-noe.png
 o2-161,TVP Polonia,TVP Polonia,161,https://assets.o2tv.cz/assets/images/tv-logos/original/tvp-polonia.png
 o2-152,TV1000 Ruskoe Kino,TV1000 Ruskoe Kino,152,https://assets.o2tv.cz/assets/images/tv-logos/original/ruske-kino.png
-o2-53,Viasat Explore,Viasat Explore HD,53,https://assets.o2tv.cz/assets/images/tv-logos/original/viasat-explore.png
-o2-54,Viasat History,Viasat History HD,54,https://assets.o2tv.cz/assets/images/tv-logos/original/viasat-history.png
-o2-55,Viasat Nature,Viasat Nature HD,55,https://assets.o2tv.cz/assets/images/tv-logos/original/viasat-nature.png
+o2-55,Viasat Explore,Viasat Explore HD,55,https://assets.o2tv.cz/assets/images/tv-logos/original/viasat-explore.png
+o2-56,Viasat History,Viasat History HD,56,https://assets.o2tv.cz/assets/images/tv-logos/original/viasat-history.png
+o2-57,Viasat Nature,Viasat Nature HD,57,https://assets.o2tv.cz/assets/images/tv-logos/original/viasat-nature.png
 o2-158,VOX,VOX,158,https://assets.o2tv.cz/assets/images/tv-logos/original/vox.png
 o2-162,1plus1,1+1,162,https://assets.o2tv.cz/assets/images/tv-logos/original/ukraina-1plus1.png
 o2-164,RTVS24,:24,164,https://assets.o2tv.cz/assets/images/tv-logos/original/rtvs-24.png
