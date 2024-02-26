@@ -9,7 +9,9 @@
     <channel lang="cz" xmltv_id="o2-89" site_id="ArenaSport2" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/arenasport2_2309.png">Arena Sport 2</channel>
     <channel lang="cz" xmltv_id="o2-115" site_id="AutoMotorSport HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/auto-motor-und-sport.png">Auto Motor Sport HD</channel>
     <channel lang="cz" xmltv_id="o2-48" site_id="AXN_Black" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/axn-black-20230123.png">AXN Black</channel>
+    <channel lang="cz" xmltv_id="o2-49" site_id="AXN_White" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/axn-white_202402.png">AXN White</channel>
     <channel lang="cz" xmltv_id="o2-47" site_id="AXN" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/axn-20230123.png">AXN</channel>
+    <channel lang="cz" xmltv_id="o2-53" site_id="BBC_Earth" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/bbc-earth_202402.png">BBC Earth</channel>
     <channel lang="cz" xmltv_id="o2-18" site_id="BBC World News" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/bbc-world-news.png">BBC News</channel>
     <channel lang="cz" xmltv_id="o2-145" site_id="Bloomberg" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/bloomberg.png">Bloomberg</channel>
     <channel lang="cz" xmltv_id="o2-108" site_id="canalaction" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/canalaction_2309.png">Canal+ Action</channel>
@@ -142,6 +144,7 @@
     <channel lang="cz" xmltv_id="o2-109" site_id="SpektrumHome" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/spectrum_home_2309.png">Spektrum Home</channel>
     <channel lang="cz" xmltv_id="o2-129" site_id="C Music TV" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/c-music-tv.png">STINGRAY CMUSIC</channel>
     <channel lang="cz" xmltv_id="o2-113" site_id="Story4" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/story4.png">Story4</channel>
+    <channel lang="cz" xmltv_id="o2-81" site_id="Strike" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/strike_2024.png">Strike</channel>
     <channel lang="cz" xmltv_id="o2-120" site_id="Šlágr TV" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/slager-original-20221208.png">Šláger Originál</channel>
     <channel lang="cz" xmltv_id="o2-144" site_id="TA3" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/ta3.png">TA3</channel>
     <channel lang="cz" xmltv_id="o2-11" site_id="Televize Seznam HD" logo="https://assets.o2tv.cz/assets/images/tv-logos/original/seznam-hd.png">Televize Seznam HD</channel>
