@@ -91,3 +91,12 @@ sed -i 's/\"\./\"/g' gg.json
 jq add gg.json > jj.json
 jq '{month: .}' jj.json > names_days.json
 jq -c . names_days.json > names_days_min.json
+
+ //     "29-februar": {
+ //       "h3": [
+ //         "Meniny má Radomír"
+ //        ],
+ //       "p": [
+ //         "Mužské meno Radomír má slovanský pôvod a jeho význam je 'má rád mier'. Ich obľúbená farba je zelená a rastlinný totem agát. Radomírovia niekedy pôsobia ako tajuplní ľudia. Ich správanie je niekedy rozdielné. Títo ľudia sú aktívni aj elegantní. Vedia vždy reagovať na každý podnet a chcú zabezpečiť, aby sa ostatní cítili v spoločnosti uvoľnene. Aj keď sa dajú ľahko ovplyvniť, čakajú vždy reakcie od iných ľudí. Zvyčajne majú výborné zdravie, a keď síce majú nepravidelný život a pracujú hekticky, dokážu si zachovať rovnovážny stav. Milujú slnko a dovolenky, mali by sa venovať hlavne dostatku spánku, jesť veľa ovocia a jedlá, ktoré posilňujú kosti, svaly a srdce. "
+ //       ]
+ //     }
