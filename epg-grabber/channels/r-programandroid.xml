@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site site="programandroid.tv">
+  <channels>
+    <channel lang="sk" xmltv_id="programandroid-55" site_id="55" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/axn.png">AXN</channel>
+    <channel lang="sk" xmltv_id="programandroid-1209" site_id="1209" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/epicdrama.png">Epic Drama</channel>
+    <channel lang="sk" xmltv_id="programandroid-1341" site_id="1341" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/filmeuropeplus.png">Film Europe +</channel>
+    <channel lang="sk" xmltv_id="programandroid-570" site_id="570" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/filmeurope.png">Film Europe</channel>
+    <channel lang="sk" xmltv_id="programandroid-677" site_id="677" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/nova_action.png">Nova Action</channel>
+    <channel lang="sk" xmltv_id="programandroid-132" site_id="132" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/nova_cinema.png">Nova Cinema</channel>
+    <channel lang="sk" xmltv_id="programandroid-707" site_id="707" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/nova_2.png">Nova Fun</channel>
+    <channel lang="sk" xmltv_id="programandroid-712" site_id="712" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/nova_gold.png">Nova Gold</channel>
+    <channel lang="sk" xmltv_id="programandroid-15290" site_id="15290" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/novalady.png">Nova Lady</channel>
+    <channel lang="sk" xmltv_id="programandroid-1520" site_id="1520" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/nova_sport_3.png">Nova Sport 3</channel>
+    <channel lang="sk" xmltv_id="programandroid-1521" site_id="1521" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/nova_sport_4.png">Nova Sport 4</channel>
+    <channel lang="sk" xmltv_id="programandroid-1" site_id="1" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/nova.png">Nova</channel>
+    <channel lang="sk" xmltv_id="programandroid-1040" site_id="1040" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/o2_sport.png">O2 Sport</channel>
+    <channel lang="sk" xmltv_id="programandroid-1123" site_id="1123" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/paramountnetwork.png">Paramount Network</channel>
+    <channel lang="sk" xmltv_id="programandroid-15292" site_id="15292" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima_show.png">Prima Show</channel>
+    <channel lang="sk" xmltv_id="programandroid-1513" site_id="1513" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima_star.png">Prima Star</channel>
+    <channel lang="sk" xmltv_id="programandroid-4" site_id="4" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima.png">Prima</channel>
+    <channel lang="sk" xmltv_id="programandroid-15551" site_id="15551" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/warnertv.png">Warner TV</channel>
+  </channels>
+</site>
