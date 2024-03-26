@@ -1,8 +1,14 @@
 
 const { test, expect } = require('@playwright/test');
+/*
+await page.on('console', msg => console.log(msg.text()));
 
 
-
+await page.on('console', msg => {
+  if (msg.type() === 'error')
+    console.log(`Error text: "${msg.text()}"`);
+});
+*/
 
 
 test('has title', async ({ page }) => {
@@ -21,7 +27,6 @@ test('Page Screenshot', async ({ page }) => {
 });
 
 test('get other link', async ({ page }) => {
-  await page.on('console', msg => console.log(msg.text()));
   console.log("👉 3: ")
   await page.goto('https://milankomaj-934e3.firebaseapp.com/');
 
@@ -39,7 +44,7 @@ test('get other link', async ({ page }) => {
   // togle theme
   await page.locator('xpath=//*[@id="toDark"]').click({ timeout: 20000 });
   const theme = await page.evaluate(() => sessionStorage.getItem("theme"));
-  console.log("👉 theme: ", theme)
+  console.log("👉 theme: ", theme >> $GITHUB_ENV)
   await page.goto('https://milankomaj-934e3.firebaseapp.com/');
   await page.screenshot({ path: `test-results/click2.png` });
 
@@ -55,5 +60,6 @@ test('Page Screenshot 2', async ({ page }) => {
     // togle theme
   await page.locator('xpath=//*[@id="toDark"]').click({ timeout: 20000 });
   console.log("👉 theme: ", theme)
+
   await page.screenshot({ path: `test-results/click3.png` });
 });
