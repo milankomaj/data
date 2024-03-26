@@ -37,12 +37,13 @@ test('get other link', async ({ page }) => {
 
   // dark
   await page.locator('xpath=//*[@id="toDark"]').click({ timeout: 20000 });
-  const theme = await page.evaluate(() => sessionStorage.getItem("theme"));
-  console.log("👉 theme: ", theme)
+  const CETtheme = await page.evaluate(() => sessionStorage.getItem("theme"));
+  console.log("👉 theme: ", CETtheme)
   await page.goto('https://milankomaj-934e3.firebaseapp.com/');
   await page.screenshot({ path: `test-results/click2.png` });
   await expect(page.locator('xpath=//*[@id="loadPage"]')).toBeVisible();
-  await page.evaluate(() => sessionStorage.setItem("theme", 'light'));
-  console.log("👉 theme: ", theme)
+  const SETtheme = await page.evaluate(() => sessionStorage.setItem("theme", 'light'));
+  SETtheme()
+  console.log("👉 theme: ", CETtheme)
 
 });
