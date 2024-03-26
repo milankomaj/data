@@ -28,8 +28,8 @@ test('get started link', async ({ page, browser }) => {
   await page.goto('https://playwright.dev/');
 
   //////
-  const context = await browser.newContext({ recordVideo: { dir: 'videos/' } });
-  await page.video({ path: `videobase` });
+  const context = await browser.newContext({ recordVideo: { dir: 'videos/base.mp4' } });
+
 
 
 
