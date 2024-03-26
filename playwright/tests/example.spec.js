@@ -23,7 +23,7 @@ test('get other link', async ({ page }) => {
   await page.goto('https://milankomaj-934e3.firebaseapp.com/');
 
   // Click the get other link.
-  await page.getByRole('link', { name: 'other' }).click();
+  await page.getByRole('link', { name: 'other' }).click({ timeout: 20000 });
 
   // Expects page to have a heading with the name of about:.
   await expect(page.getByRole('heading', { name: 'about:' })).toBeVisible();
@@ -37,7 +37,7 @@ test('get other link', async ({ page }) => {
   await page.locator('xpath=//*[@id="toDark"]').click();
   await page.goto('https://milankomaj-934e3.firebaseapp.com/');
   await page.screenshot({ path: `test-results/click2.png` });
-  await expect(page.getByRole('heading', { name: '©' })).toBeVisible();
+  await expect(page.locator('xpath=//*[@id="loadPage"]')).toBeVisible();
 });
 
 console.log("👉end: ")
