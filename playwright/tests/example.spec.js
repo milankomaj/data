@@ -6,6 +6,7 @@ const { test, expect } = require('@playwright/test');
 
 
 test('has title', async ({ page }) => {
+  console.log("👉 1: ")
   await page.goto('https://milankomaj-934e3.firebaseapp.com/');
 
   // Expect a title "to contain" a substring.
@@ -14,11 +15,13 @@ test('has title', async ({ page }) => {
 
 
 test('Page Screenshot', async ({ page }) => {
+  console.log("👉 2: ")
   await page.goto('https://milankomaj-934e3.firebaseapp.com//');
   await page.screenshot({ path: `test-results/screenshot.png` });
 });
 
 test('get other link', async ({ page }) => {
+  console.log("👉 3: ")
   await page.goto('https://milankomaj-934e3.firebaseapp.com/');
 
   // Click the get other link.
@@ -39,5 +42,7 @@ test('get other link', async ({ page }) => {
   await page.goto('https://milankomaj-934e3.firebaseapp.com/');
   await page.screenshot({ path: `test-results/click2.png` });
   await expect(page.locator('xpath=//*[@id="loadPage"]')).toBeVisible();
+  await page.addInitScript(()=>{sessionStorage.setItem('theme', 'light');});
+  console.log("👉 theme: ", theme)
+
 });
-console.log("👉 end: ")
