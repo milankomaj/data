@@ -1,6 +1,5 @@
-// @ts-check
+import { firefox } from 'playwright'
 const { test, expect } = require('@playwright/test');
-
 
 
 
@@ -39,8 +38,26 @@ test('get other link', async ({ page }) => {
   await page.screenshot({ path: `test-results/click2.png` });
   await expect(page.locator('xpath=//*[@id="loadPage"]')).toBeVisible();
   const theme = sessionStorage.getItem("theme");
-  console.log("👉 theme: ", theme)
+
 
 });
 
 console.log("👉 end: ")
+
+;(async () => {
+  const browser = await firefox.launch()
+  const initalTime = Date.now()
+  console.log(initalTime)
+  const page = await browser.newPage()
+  const baseUrl ='https://milankomaj-934e3.firebaseapp.com/'
+  await page.goto(baseUrl)
+  await page.locator('xpath=//*[@id="toDark"]').click();
+
+  console.log("👉 theme: ", theme)
+
+
+  await browser.close()
+
+  const finalTime = Date.now()
+  console.log(finalTime)
+})()
