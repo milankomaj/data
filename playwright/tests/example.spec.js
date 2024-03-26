@@ -24,11 +24,11 @@ test('Page Screenshot', async ({ page }) => {
 
 });
 
-test('get started link', async ({ page }) => {
+test('get started link', async ({ page, browser }) => {
   await page.goto('https://playwright.dev/');
 
   //////
-  const context = await page.newContext({ recordVideo: { dir: 'videos/' } });
+  const context = await browser.newContext({ recordVideo: { dir: 'videos/' } });
 
 
   // Click the get started link.
