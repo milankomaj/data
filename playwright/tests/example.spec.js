@@ -11,7 +11,7 @@ test('has title', async ({ page }) => {
 
 test('Page Screenshot', async ({ page }) => {
   await page.goto('https://playwright.dev/');
-  await page.screenshot({ path: `/playwright-report/example.png` });
+  await page.screenshot({ path: `./playwright/screenshot.png` });
 
   console.log("page: ",page);
 });
