@@ -57,13 +57,13 @@ test('Page Screenshot 2', async ({ page }) => {
   await page.goto('https://milankomaj-934e3.firebaseapp.com//');
   const theme = await page.evaluate(() => sessionStorage.getItem("theme"));
 
-    // togle theme
+  // togle theme
   await page.locator('xpath=//*[@id="toDark"]').click({ timeout: 20000 });
   console.log("👉 theme: ", theme)
   await page.screenshot({ path: `test-results/click3.png` });
 
 
-
-  const promise = writeFile('test-results/message.txt', theme);
+  const data = String(theme)
+  const promise = writeFile('test-results/message.txt', data);
   await promise;
 });
