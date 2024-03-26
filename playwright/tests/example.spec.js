@@ -1,4 +1,4 @@
-
+import { writeFile } from 'node:fs/promises';
 const { test, expect } = require('@playwright/test');
 /*
 await page.on('console', msg => console.log(msg.text()));
@@ -60,6 +60,10 @@ test('Page Screenshot 2', async ({ page }) => {
     // togle theme
   await page.locator('xpath=//*[@id="toDark"]').click({ timeout: 20000 });
   console.log("👉 theme: ", theme)
-
   await page.screenshot({ path: `test-results/click3.png` });
+
+
+
+  const promise = writeFile('test-results/message.txt', theme);
+  await promise;
 });
