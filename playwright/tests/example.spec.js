@@ -37,7 +37,7 @@ test('get other link', async ({ page }) => {
 
   // dark
   await page.locator('xpath=//*[@id="toDark"]').click({ timeout: 20000 });
-  const gettheme = await page.evaluate(() => sessionStorage.getItem("theme"));
+  const theme = await page.evaluate(() => sessionStorage.getItem("theme"));
   console.log("👉 theme: ", gettheme)
   await page.goto('https://milankomaj-934e3.firebaseapp.com/');
   await page.screenshot({ path: `test-results/click2.png` });
