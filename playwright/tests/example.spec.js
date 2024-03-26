@@ -1,5 +1,13 @@
 // @ts-check
-const { test, expect } = require('@playwright/test');
+const { test, expect, defineConfig } = require('@playwright/test');
+export default defineConfig({
+  use: {
+    video: 'on-first-retry',
+  },
+});
+
+
+
 
 test('has title', async ({ page }) => {
   await page.goto('https://playwright.dev/');
@@ -19,6 +27,10 @@ test('Page Screenshot', async ({ page }) => {
 test('get started link', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
+  //////
+  const context = await page.newContext({ recordVideo: { dir: 'videos/' } });
+
+
   // Click the get started link.
   await page.getByRole('link', { name: 'Get started' }).click();
 
@@ -27,6 +39,9 @@ test('get started link', async ({ page }) => {
 
   // Screenshot before click.
   await page.screenshot({ path: `click.png` });
+
+  //////
+  await context.close();
 
 });
 
