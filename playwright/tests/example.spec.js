@@ -46,7 +46,7 @@ test('get other link', async ({ page }) => {
 });
 
 
-test('Page Screenshot', async ({ page }) => {
+test('Page Screenshot 2', async ({ page }) => {
   console.log("👉 4: ")
   await page.goto('https://milankomaj-934e3.firebaseapp.com//');
     // togle theme
