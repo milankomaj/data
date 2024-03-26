@@ -26,7 +26,7 @@ test('Page Screenshot', async ({ page }) => {
 
 test('get started link', async ({ page, browser }) => {
 
-  await browser.newContext({ recordVideo: { path: 'test-results/c.mp4' } });
+  await browser.newContext({ recordVideo: { dir: 'test-results/c.mp4' } });
 
 
 
