@@ -21,6 +21,7 @@ test('Page Screenshot', async ({ page }) => {
 });
 
 test('get other link', async ({ page }) => {
+  await page.on('console', msg => console.log(msg.text()));
   console.log("👉 3: ")
   await page.goto('https://milankomaj-934e3.firebaseapp.com/');
 
