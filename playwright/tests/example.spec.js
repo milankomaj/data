@@ -29,6 +29,10 @@ test('get started link', async ({ page, browser }) => {
 
   //////
   const context = await browser.newContext({ recordVideo: { dir: 'videos/' } });
+  console.log(await page.video().path());
+
+  await page.video({ path: `videobase` });
+
 
 
   // Click the get started link.
