@@ -48,7 +48,9 @@ console.log("👉 end: ")
   const baseUrl ='https://milankomaj-934e3.firebaseapp.com/'
   await page.goto(baseUrl)
   await page.locator('xpath=//*[@id="toDark"]').click();
-  const theme = sessionStorage.getItem("theme");
+
+  const theme = await page.evaluate(() => sessionStorage.getItem("theme"));
+  // const theme = sessionStorage.getItem("theme");
   console.log("👉 theme: ", theme)
 
 
