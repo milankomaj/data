@@ -27,12 +27,17 @@ test('get other link', async ({ page }) => {
 
   // Expects page to have a heading with the name of about:.
   await expect(page.getByRole('heading', { name: 'about:' })).toBeVisible();
+  
 
   // Screenshot before click.
   await page.screenshot({ path: `test-results/click.png` });
 
 
-
+  // dark
+  await page.getByTestId('toDark').click();
+  await page.goto('https://milankomaj-934e3.firebaseapp.com/');
+  await page.screenshot({ path: `test-results/click2.png` });
+  await expect(page.getByRole('heading', { name: '©' })).toBeVisible();
 });
 
 console.log("👉end: ")
