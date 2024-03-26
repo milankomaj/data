@@ -25,7 +25,7 @@ jobs:
     - name: Run Playwright tests
       run: |
        tree -h ${{ github.workspace }}/playwright/tests/
-       npx playwright test ./playwright/tests/example.spec.js --project firefox
+       npx playwright test ${{ github.workspace }}/playwright/tests/example.spec.js --project firefox
 
 
     - uses: actions/upload-artifact@v4
