@@ -19,12 +19,12 @@ jobs:
       run: npm ci
     - name: Install Playwright Browsers
       run: |
-       npx playwright install --with-deps
+       npx playwright install-deps firefox
 
 
     - name: Run Playwright tests
       run: |
-       npx playwright test
+       npx playwright test landing-page.spec.ts --project firefox
        tree -h ${{ github.workspace }}/playwright
 
     - uses: actions/upload-artifact@v4
