@@ -25,7 +25,7 @@ test('get other link', async ({ page }) => {
   await page.goto('https://milankomaj-934e3.firebaseapp.com/');
 
   // Click the get other link.
-  await page.getByRole('link', { name: 'other' }).click({ timeout: 20000 });
+  await page.getByRole('link', { name: 'other' }).click();
 
   // Expects page to have a heading with the name of about:.
   await expect(page.getByRole('heading', { name: 'about:' })).toBeVisible();
@@ -36,13 +36,13 @@ test('get other link', async ({ page }) => {
 
 
   // dark
-  await page.locator('xpath=//*[@id="toDark"]').click();
-  const theme = await page.evaluate(() => sessionStorage.getItem("theme"));
-  console.log("👉 theme: ", theme)
+  await page.locator('xpath=//*[@id="toDark"]').click({ timeout: 20000 });
+  const gettheme = await page.evaluate(() => sessionStorage.getItem("theme"));
+  console.log("👉 theme: ", gettheme)
   await page.goto('https://milankomaj-934e3.firebaseapp.com/');
   await page.screenshot({ path: `test-results/click2.png` });
   await expect(page.locator('xpath=//*[@id="loadPage"]')).toBeVisible();
-  await page.addInitScript(()=>{sessionStorage.setItem('theme', 'light');});
+  await page.evaluate(() => sessionStorage.setItem("theme", 'light'));
   console.log("👉 theme: ", theme)
 
 });
