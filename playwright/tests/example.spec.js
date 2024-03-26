@@ -66,4 +66,7 @@ test('Page Screenshot 2', async ({ page }) => {
   const data = String(theme)
   const promise = writeFile('test-results/message.txt', data);
   await promise;
+  process.env.foo = 'bar';
+  console.log(process.env.foo);
+
 });
