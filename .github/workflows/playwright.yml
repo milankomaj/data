@@ -24,8 +24,9 @@ jobs:
 
     - name: Run Playwright tests
       run: |
-       npx playwright test ${{ github.workspace }}/playwright/tests/landing-page.spec.ts --project chromium
        tree -h ${{ github.workspace }}/playwright
+       npx playwright test ${{ github.workspace }}/playwright/tests/ --project chromium
+
 
     - uses: actions/upload-artifact@v4
       if: always()
