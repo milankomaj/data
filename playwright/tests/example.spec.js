@@ -1,4 +1,4 @@
-import { writeFile } from 'node:fs/promises';
+// import { writeFile } from 'node:fs/promises';
 const core = require('@actions/core');
 const { test, expect } = require('@playwright/test');
 /*
@@ -65,7 +65,7 @@ test('Page Screenshot 2', async ({ page }) => {
 
 
   const data = String(theme)
-  const promise = writeFile('test-results/message.txt', data);
-  await promise;
+  // const promise = writeFile('test-results/message.txt', data);
+  // await promise;
   core.exportVariable('theme', data);
 });
