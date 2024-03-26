@@ -19,7 +19,7 @@ test('has title', async ({ page }) => {
 
 test('Page Screenshot', async ({ page }) => {
   await page.goto('https://playwright.dev/');
-  await page.screenshot({ path: `screenshot.png` });
+  await page.screenshot({ path: `test-results/screenshot.png` });
 
 
 });
@@ -28,7 +28,7 @@ test('get started link', async ({ page, browser }) => {
   await page.goto('https://playwright.dev/');
 
   //////
-  const context = await browser.newContext({ recordVideo: { dir: 'videos/base.mp4' } });
+  const context = await browser.newContext({ recordVideo: { path: 'test-results/base.mp4' } });
 
 
 
@@ -40,7 +40,7 @@ test('get started link', async ({ page, browser }) => {
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 
   // Screenshot before click.
-  await page.screenshot({ path: `click.png` });
+  await page.screenshot({ path: `test-results/click.png` });
 
   //////
   await context.close();

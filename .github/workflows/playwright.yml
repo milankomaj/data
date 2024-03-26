@@ -34,5 +34,5 @@ jobs:
         name: playwright-report
         path: |
           ${{ github.workspace }}/playwright/playwright-report/
-          ${{ github.workspace }}/playwright/*.png
+          ${{ github.workspace }}/playwright/test-results/*.png
         retention-days: 30
