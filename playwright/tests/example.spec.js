@@ -44,7 +44,7 @@ test('get other link', async ({ page }) => {
   // togle theme
   await page.locator('xpath=//*[@id="toDark"]').click({ timeout: 20000 });
   const theme = await page.evaluate(() => sessionStorage.getItem("theme"));
-  console.log("👉 theme: ", theme >> $GITHUB_ENV)
+  console.log("👉 theme: ", theme)
   await page.goto('https://milankomaj-934e3.firebaseapp.com/');
   await page.screenshot({ path: `test-results/click2.png` });
 
