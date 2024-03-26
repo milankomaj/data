@@ -32,7 +32,7 @@ jobs:
       if: always()
       with:
         name: playwright-report
-        path:
+        path: |
           ${{ github.workspace }}/playwright/playwright-report/
           ${{ github.workspace }}/screenshot.png
         retention-days: 30
