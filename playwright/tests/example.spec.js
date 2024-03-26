@@ -12,7 +12,7 @@ test('has title', async ({ page }) => {
 test('Page Screenshot', async ({ page }) => {
   await page.goto('https://playwright.dev/');
   await page.screenshot({ path: `/playwright/playwright-report/example.png` });
-  console.log("👉👈")
+  console.log("👉1👈")
 });
 
 test('get started link', async ({ page }) => {
@@ -24,3 +24,5 @@ test('get started link', async ({ page }) => {
   // Expects page to have a heading with the name of Installation.
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
+
+console.log("👉2👈")
