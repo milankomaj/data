@@ -27,10 +27,9 @@ test('Page Screenshot', async ({ page }) => {
 test('get started link', async ({ page, browser }) => {
   await page.goto('https://playwright.dev/');
 
-  //////
-  const context = await browser.newContext({ recordVideo: { path: 'test-results/base.mp4' } });
-
-
+  const context = await browser.newContext({ recordVideo: { dir: 'test-results/' } });
+  // Make sure to await close, so that videos are saved.
+  await context.close();
 
 
   // Click the get started link.
@@ -42,8 +41,7 @@ test('get started link', async ({ page, browser }) => {
   // Screenshot before click.
   await page.screenshot({ path: `test-results/click.png` });
 
-  //////
-  await context.close();
+
 
 });
 
