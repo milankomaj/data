@@ -28,6 +28,13 @@ jobs:
        npx playwright test ${{ github.workspace }}/playwright/tests/example.spec.js --project firefox
        tree -h ${{ github.workspace }}/playwright/test-results/
 
+
+    - name: env
+      run: |
+       echo "$theme"
+       echo "${{ env.theme }}"
+       echo "$(echo ${{ env.theme}})"
+
     - uses: actions/upload-artifact@v4
       if: always()
       with:
