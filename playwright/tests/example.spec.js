@@ -11,9 +11,9 @@ test('has title', async ({ page }) => {
 
 test('Page Screenshot', async ({ page }) => {
   await page.goto('https://playwright.dev/');
-  await page.screenshot({ path: `./playwright/screenshot.png` });
+  await page.screenshot({ path: `screenshot.png` });
 
-  console.log("page: ",page);
+  console.log("👉page: ",page);
 });
 
 test('get started link', async ({ page }) => {
@@ -26,4 +26,4 @@ test('get started link', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
 
-console.log("👉2👈")
+console.log("👉end: ")
