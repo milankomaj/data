@@ -13,7 +13,7 @@ test('Page Screenshot', async ({ page }) => {
   await page.goto('https://playwright.dev/');
   await page.screenshot({ path: `screenshot.png` });
 
-  console.log("👉page: ",page);
+  
 });
 
 test('get started link', async ({ page }) => {
