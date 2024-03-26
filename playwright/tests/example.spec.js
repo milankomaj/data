@@ -1,6 +1,5 @@
 
 const { test, expect } = require('@playwright/test');
-const theme = await page.evaluate(() => sessionStorage.getItem("theme"));
 
 
 
@@ -38,6 +37,7 @@ test('get other link', async ({ page }) => {
 
   // togle theme
   await page.locator('xpath=//*[@id="toDark"]').click({ timeout: 20000 });
+  const theme = await page.evaluate(() => sessionStorage.getItem("theme"));
   console.log("👉 theme: ", theme)
   await page.goto('https://milankomaj-934e3.firebaseapp.com/');
   await page.screenshot({ path: `test-results/click2.png` });
@@ -49,6 +49,8 @@ test('get other link', async ({ page }) => {
 test('Page Screenshot 2', async ({ page }) => {
   console.log("👉 4: ")
   await page.goto('https://milankomaj-934e3.firebaseapp.com//');
+  const theme = await page.evaluate(() => sessionStorage.getItem("theme"));
+
     // togle theme
   await page.locator('xpath=//*[@id="toDark"]').click({ timeout: 20000 });
   console.log("👉 theme: ", theme)
