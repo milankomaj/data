@@ -37,11 +37,7 @@ test('get other link', async ({ page }) => {
   await page.goto('https://milankomaj-934e3.firebaseapp.com/');
   await page.screenshot({ path: `test-results/click2.png` });
   await expect(page.locator('xpath=//*[@id="loadPage"]')).toBeVisible();
-  const theme = sessionStorage.getItem("theme");
-
-
 });
-
 console.log("👉 end: ")
 
 ;(async () => {
@@ -52,7 +48,7 @@ console.log("👉 end: ")
   const baseUrl ='https://milankomaj-934e3.firebaseapp.com/'
   await page.goto(baseUrl)
   await page.locator('xpath=//*[@id="toDark"]').click();
-
+  const theme = sessionStorage.getItem("theme");
   console.log("👉 theme: ", theme)
 
 
