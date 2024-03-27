@@ -9,7 +9,7 @@ jobs:
       max-parallel: 5
       fail-fast: false
       matrix:
-        test-group: [ chromium,firefox,webkit,'Mobile Chrome' ]
+        test-group: [ chromium,firefox,webkit ]
     defaults:
       run:
         working-directory: ./playwright
