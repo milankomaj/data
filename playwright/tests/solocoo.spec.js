@@ -9,10 +9,10 @@ test('get other link', async ({ page }) => {
   await expect(page).toHaveTitle(/Skylink/);
   await page.screenshot({ path: `test-results/title.png` });
 
-  await page.getByText('Continue as Free User').click({ timeout: 60000 });
+  await page.getByText('Continue as Free User').click();
   await page.screenshot({ path: `test-results/click.png` });
 
-  await expect(page.getByText('TV')).toBeVisible({ timeout: 60000 });
+  await expect(page.getByText('TV')).toBeVisible();
   await page.screenshot({ path: `test-results/visible.png` });
 
   const token_CZ = await page.evaluate(() => localStorage.getItem("token"));
