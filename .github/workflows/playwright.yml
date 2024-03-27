@@ -36,7 +36,7 @@ jobs:
     - name: Run Playwright tests
       run: |
        tree -h ${{ github.workspace }}/playwright/tests/
-       npx playwright test ${{ github.workspace }}/playwright/tests/firebaseapp.js --project ${{ matrix.browser }}
+       npx playwright test ${{ github.workspace }}/playwright/tests/firebaseapp.js
        tree -h ${{ github.workspace }}/playwright/test-results/
 
 
