@@ -13,7 +13,7 @@ test('get other link', async ({ page }) => {
   await page.screenshot({ path: `test-results/click.png` });
 
   await expect(page.getByText('TV')).toBeVisible();
-  await expect(page.getByText('FAQ')).toBeVisible();
+  await expect(page.getByText('Now on TV')).toBeVisible();
   await page.screenshot({ path: `test-results/visible.png` });
 
   const token_CZ = await page.evaluate(() => localStorage.getItem("token"));
