@@ -1,5 +1,7 @@
 #!/bin/bash
-"${{ env.token_CZ }}"
+echo "$token_CZ"
+echo "${{ env.token_CZ }}"
+echo "$(echo ${{ env.token_CZ }})"
 curl -X GET \
  --no-progress-meter \
  --connect-timeout 10 \
@@ -19,4 +21,4 @@ curl -X GET \
  -H 'Sec-Fetch-Mode: cors' \
  -H 'Sec-Fetch-Site: cross-site' \
  -H 'TE: trailers' \
-| jq -r '.channels[] | ["skylink_sk-\(.assetInfo.params.lcn)", .assetInfo.id, .assetInfo.title, .assetInfo.params.lcn, .assetInfo.images[0].url]'
+ | jq -r '.channels[] | ["skylink_sk-\(.assetInfo.params.lcn)", .assetInfo.id, .assetInfo.title, .assetInfo.params.lcn, .assetInfo.images[0].url]'

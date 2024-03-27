@@ -38,6 +38,7 @@ jobs:
        echo "$token_CZ"
        echo "${{ env.token_CZ }}"
        echo "$(echo ${{ env.token_CZ }})"
+       echo ----------------------------
        chmod +x ${{ github.workspace }}/epg-grabber/scripts/solocoo_sk_list_curl.sh
        ${{ github.workspace }}/epg-grabber/scripts/solocoo_sk_list_curl.sh
 
