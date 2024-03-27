@@ -9,7 +9,8 @@ jobs:
       run:
         working-directory: ./playwright
     strategy:
-      max-parallel: 3
+      max-parallel: 5
+      fail-fast: false
       matrix:
         browser:
           [
