@@ -1,6 +1,6 @@
 // import { writeFile } from 'node:fs/promises';
 const core = require('@actions/core');
-const { test, expect } = require('@playwright/test');
+const { test, expect, chromium } = require('@playwright/test');
 /*
 await page.on('console', msg => console.log(msg.text()));
 
@@ -55,7 +55,7 @@ test('get other link', async ({ page }) => {
 
 test('Page Screenshot 2', async ({ page }) => {
   console.log("👉 4: ")
-  await page.goto('https://milankomaj-934e3.firebaseapp.com//');
+  await page.goto('https://milankomaj-934e3.firebaseapp.com/');
   const theme = await page.evaluate(() => sessionStorage.getItem("theme"));
 
   // togle theme
@@ -68,4 +68,26 @@ test('Page Screenshot 2', async ({ page }) => {
   // const promise = writeFile('test-results/message.txt', data);
   // await promise;
   core.exportVariable('theme', data);
+});
+
+test("Slow Motion and Video Recording Demo", async () => {
+  console.log("👉 5: ")
+  const browser = await chromium.launch({
+    headless: false,
+    slowMo: 1000,
+  });
+  const context = await browser.newContext({
+    recordVideo: {
+      dir: "test-results/",
+      size: { width: 800, height: 600 },
+    },
+  });
+  const page = await context.newPage();
+
+  await page.goto('https://milankomaj-934e3.firebaseapp.com/');
+  await page.getByRole('link', { name: 'other' }).click();
+  await expect(page.getByRole('heading', { name: 'about:' })).toBeVisible();
+
+
+  await context.close();
 });
