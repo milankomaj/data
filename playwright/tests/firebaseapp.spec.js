@@ -69,4 +69,3 @@ test('Page Screenshot 2', async ({ page }) => {
   // await promise;
   core.exportVariable('theme', data);
 });
-
