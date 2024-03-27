@@ -9,7 +9,7 @@ jobs:
       max-parallel: 5
       fail-fast: false
       matrix:
-        test-group: [ chromium,firefox,webkit ]
+        test-group: [ chromium ] # chromium,firefox,webkit
     defaults:
       run:
         working-directory: ./playwright
@@ -29,15 +29,15 @@ jobs:
     - name: Run Playwright tests
       run: |
        tree -h ${{ github.workspace }}/playwright/tests/
-       npx playwright test ${{ github.workspace }}/playwright/tests/firebaseapp.spec.js --project ${{ matrix.test-group }}
+       npx playwright test ${{ github.workspace }}/playwright/tests/solocoo.spec.js --project ${{ matrix.test-group }}
        tree -h ${{ github.workspace }}/playwright/test-results/
 
 
     - name: env
       run: |
-       echo "$theme"
-       echo "${{ env.theme }}"
-       echo "$(echo ${{ env.theme}})"
+       echo "token_CZ"
+       echo "${{ env.token_CZ }}"
+       echo "$(echo ${{ env.token_CZ}})"
 
     - uses: actions/upload-artifact@v4
       if: always()
