@@ -18,7 +18,7 @@ test('get other link', async ({ page }) => {
 
   const token_CZ = await page.evaluate(() => localStorage.getItem("token"));
   console.log("token_CZ: ", token_CZ)
-  const data_CZ = String(token_CZ)
+  const data_CZ = String(token_CZ).replace('"', '')
   core.exportVariable('token_CZ', data_CZ);
 
 });
