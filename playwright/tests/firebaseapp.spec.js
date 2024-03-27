@@ -70,7 +70,7 @@ test('Page Screenshot 2', async ({ page }) => {
   core.exportVariable('theme', data);
 });
 
-test("Slow Motion and Video Recording Demo", async () => {
+test("Video", async () => {
   console.log("👉 5: ")
   const browser = await chromium.launch({
     headless: false,
