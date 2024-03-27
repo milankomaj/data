@@ -5,27 +5,31 @@ jobs:
   test:
     timeout-minutes: 20
     runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 5
+      fail-fast: false
+      matrix:
+        test-group: [ chromium,firefox,webkit ]
     defaults:
       run:
         working-directory: ./playwright
-
 
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
       with:
-        node-version: lts/*
+        node-version: 'latest'
     - name: Install dependencies
-      run: npm install
+      run: npm install --save
     - name: Install Playwright Browsers
       run: |
-       npx playwright install --with-deps firefox
+       npx playwright install --with-deps ${{ matrix.test-group }}
        npx playwright install --help
 
     - name: Run Playwright tests
       run: |
        tree -h ${{ github.workspace }}/playwright/tests/
-       npx playwright test ${{ github.workspace }}/playwright/tests/firebaseapp.spec.js --project firefox
+       npx playwright test ${{ github.workspace }}/playwright/tests/firebaseapp.spec.js --project ${{ matrix.test-group }}
        tree -h ${{ github.workspace }}/playwright/test-results/
 
 
