@@ -35,7 +35,7 @@ jobs:
 
     - name: env
       run: |
-       echo "$token_CZ"
+       echo $token_CZ
        echo "${{ env.token_CZ }}"
        echo "$(echo ${{ env.token_CZ }})"
        echo ----------------------------
