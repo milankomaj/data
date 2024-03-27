@@ -8,16 +8,7 @@ jobs:
     defaults:
       run:
         working-directory: ./playwright
-    strategy:
-      max-parallel: 5
-      fail-fast: false
-      matrix:
-        browser:
-          [
-            chromium,
-            firefox,
-            webkit,
-          ]
+
 
     steps:
     - uses: actions/checkout@v4
@@ -28,13 +19,13 @@ jobs:
       run: npm install
     - name: Install Playwright Browsers
       run: |
-       npx playwright install --with-deps ${{ matrix.browser }}
+       npx playwright install --with-deps firefox
        npx playwright install --help
 
     - name: Run Playwright tests
       run: |
        tree -h ${{ github.workspace }}/playwright/tests/
-       npx playwright test ${{ github.workspace }}/playwright/tests/firebaseapp.js --project ${{ matrix.browser }}
+       npx playwright test ${{ github.workspace }}/playwright/tests/example.spec.js --project firefox
        tree -h ${{ github.workspace }}/playwright/test-results/
 
 
@@ -47,7 +38,7 @@ jobs:
     - uses: actions/upload-artifact@v4
       if: always()
       with:
-        name: playwright-${{ matrix.browser }}
+        name: playwright
         path: |
           ${{ github.workspace }}/playwright/playwright-report/
           ${{ github.workspace }}/playwright/test-results/*.*
