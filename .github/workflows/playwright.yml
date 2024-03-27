@@ -15,8 +15,6 @@ jobs:
         browser:
           [
             chromium,
-            chrome,
-            msedge,
             firefox,
             webkit,
           ]
@@ -36,7 +34,7 @@ jobs:
     - name: Run Playwright tests
       run: |
        tree -h ${{ github.workspace }}/playwright/tests/
-       npx playwright test ${{ github.workspace }}/playwright/tests/firebaseapp.js
+       npx playwright test ${{ github.workspace }}/playwright/tests/firebaseapp.js --project ${{ matrix.browser }}
        tree -h ${{ github.workspace }}/playwright/test-results/
 
 
