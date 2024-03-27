@@ -1,6 +1,5 @@
 #!/bin/bash
 #
-
 curl -X GET \
  --no-progress-meter \
  --connect-timeout 10 \
