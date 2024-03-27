@@ -1,6 +1,5 @@
 #!/bin/bash
 #
-#!/bin/bash
 
 curl -X GET \
  --no-progress-meter \
