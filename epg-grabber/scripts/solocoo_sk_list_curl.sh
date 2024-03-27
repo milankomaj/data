@@ -9,7 +9,7 @@ curl -X GET \
  -H 'Accept: application/json, text/plain, */*' \
  -H 'Accept-Language: sk,en-US;q=0.5' \
  -H 'Accept-Encoding: gzip, deflate, br' \
- -H 'Authorization: Bearer' $token_CZ \
+ -H "Authorization: Bearer ${{ env.token_CZ }}" \
  -H 'Origin: https://livetv.skylink.sk' \
  -H 'DNT: 1' \
  -H 'Sec-GPC: 1' \
