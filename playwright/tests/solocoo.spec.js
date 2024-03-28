@@ -23,10 +23,7 @@ test('get other link', async ({ page }) => {
 
   await page.click('[data-testid="menuLanguageWrapper"]');
   await page.click('text=Slovenčina');
-  await Promise.all([
-    page.click('.sc-bxotGS:nth-child(1) > .sc-eoDtDP'),
-    page.waitForNavigation()
-  ]);
+  await page.click('.sc-bxotGS:nth-child(1) > .sc-eoDtDP');
 
   const token_SK = await page.evaluate(() => localStorage.getItem("token"));
   console.log("token_SK: ", token_SK)
