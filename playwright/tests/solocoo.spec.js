@@ -21,8 +21,9 @@ test('get other link', async ({ page }) => {
   const data_CZ = String(token_CZ)
   core.exportVariable('token_CZ', data_CZ);
 
-
-  await page.locator('[data-testid="menuLanguageWrapper"]').hover({ timeout: 20000 });
+  await page.click('.zBcaf');
+  await page.click('.zBcaf');
+  await expect(page.getByText('Language')).toBeVisible();
   await page.locator('.sc-bxotGS').click({ timeout: 20000 });
   await page.locator('sc-bxotGS:nth-child(1)').click({ timeout: 20000 });
 
