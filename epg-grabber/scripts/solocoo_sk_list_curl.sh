@@ -19,15 +19,15 @@ curl -X GET \
  -H 'Sec-Fetch-Mode: cors' \
  -H 'Sec-Fetch-Site: cross-site' \
  -H 'TE: trailers' \
-| jq -r '.channels[] | ["skylink_sk-\(.assetInfo.params.lcn)", .assetInfo.id, .assetInfo.title, .assetInfo.params.lcn, .assetInfo.images[0].url] | join(",")'  | sort -n -t, -k4,4 > ./playwright/test-results/solocoo.tv_sk.chanell.csv
+| jq -r '.channels[] | ["skylink_sk-\(.assetInfo.params.lcn)", .assetInfo.id, .assetInfo.title, .assetInfo.params.lcn, .assetInfo.images[0].url] | join(",")'  | sort -n -t, -k4,4 > ./test-results/solocoo.tv_sk.chanell.csv
 
 
-sed -i 's/skylink_sk-null/skylink_sk-sat/g' ./playwright/test-results/solocoo.tv_sk.chanell.csv
-awk -F ',' '{print "    <channel lang=\"sk\" xmltv_id=\""$1"\""" site_id=\""$2"\""" logo=\""$5"\""">"$3"</channel>"}' ./playwright/test-results/solocoo.tv_sk.chanell.csv > ./playwright/test-results/solocoo.tv_sk.chanell.xml
-sed -i 1i"<?xml version=\"1.0\" encoding=\"UTF-8\"?>" ./playwright/test-results/solocoo.tv_sk.chanell.xml
-sed -i 2i"<site site=\"solocoo.tv_sk\">" ./playwright/test-results/solocoo.tv_sk.chanell.xml
-sed -i 3i"\ \ <channels>" ./playwright/test-results/solocoo.tv_sk.chanell.xml
-echo "  </channels>" >> ./playwright/test-results/solocoo.tv_sk.chanell.xml
-echo "</site>" >> ./playwright/test-results/solocoo.tv_sk.chanell.xml
+sed -i 's/skylink_sk-null/skylink_sk-sat/g' ./test-results/solocoo.tv_sk.chanell.csv
+awk -F ',' '{print "    <channel lang=\"sk\" xmltv_id=\""$1"\""" site_id=\""$2"\""" logo=\""$5"\""">"$3"</channel>"}' ./test-results/solocoo.tv_sk.chanell.csv > ./test-results/solocoo.tv_sk.chanell.xml
+sed -i 1i"<?xml version=\"1.0\" encoding=\"UTF-8\"?>" ./test-results/solocoo.tv_sk.chanell.xml
+sed -i 2i"<site site=\"solocoo.tv_sk\">" ./test-results/solocoo.tv_sk.chanell.xml
+sed -i 3i"\ \ <channels>" ./test-results/solocoo.tv_sk.chanell.xml
+echo "  </channels>" >> ./test-results/solocoo.tv_sk.chanell.xml
+echo "</site>" >> ./test-results/solocoo.tv_sk.chanell.xml
 
-sed -i 1i"xmltv_id,site_id,name,channelNumber,logoUrl" ./playwright/test-results/solocoo.tv_sk.chanell.csv
+sed -i 1i"xmltv_id,site_id,name,channelNumber,logoUrl" ./test-results/solocoo.tv_sk.chanell.csv
