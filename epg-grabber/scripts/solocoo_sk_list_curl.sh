@@ -9,7 +9,7 @@ curl -X GET \
  -H 'Accept: application/json, text/plain, */*' \
  -H 'Accept-Language: sk,en-US;q=0.5' \
  -H 'Accept-Encoding: gzip, deflate, br' \
- -H  $(echo Authorization: Bearer $token_CZ) \
+ -H "Authorization: Bearer ${{ env.token_CZ }}" \
  -H 'Origin: https://livetv.skylink.sk' \
  -H 'DNT: 1' \
  -H 'Sec-GPC: 1' \
@@ -19,7 +19,7 @@ curl -X GET \
  -H 'Sec-Fetch-Mode: cors' \
  -H 'Sec-Fetch-Site: cross-site' \
  -H 'TE: trailers' \
- | jq -r '.channels[] | ["skylink_sk-\(.assetInfo.params.lcn)", .assetInfo.id, .assetInfo.title, .assetInfo.params.lcn, .assetInfo.images[0].url] | join(",")'  | sort -n -t, -k4,4 > solocoo.tv_sk.chanell.csv
+| jq -r '.channels[] | ["skylink_sk-\(.assetInfo.params.lcn)", .assetInfo.id, .assetInfo.title, .assetInfo.params.lcn, .assetInfo.images[0].url] | join(",")'  | sort -n -t, -k4,4 > solocoo.tv_sk.chanell.csv
 
 
 sed -i 's/skylink_sk-null/skylink_sk-sat/g' solocoo.tv_sk.chanell.csv
