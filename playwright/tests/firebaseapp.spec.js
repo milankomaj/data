@@ -70,16 +70,16 @@ test('Page Screenshot 2', async ({ page }) => {
   core.exportVariable('theme', data);
 });
 
-test("Video", async () => {
+test_video("Video", async () => {
   console.log("👉 5: ")
   const browser = await chromium.launch({
     headless: true,
-    slowMo: 1000,
+    slowMo: 6000,
   });
   const context = await browser.newContext({
     recordVideo: {
       dir: "test-results/",
-      size: { width: 800, height: 600 },
+      size: { width: 1000, height: 500 },
     },
   });
   const page = await context.newPage();
@@ -87,7 +87,8 @@ test("Video", async () => {
   await page.goto('https://milankomaj-934e3.firebaseapp.com/');
   await page.getByRole('link', { name: 'other' }).click();
   await expect(page.getByRole('heading', { name: 'about:' })).toBeVisible();
-
+  await page.locator('xpath=//*[@id="toDark"]').hover({ timeout: 60000 });
+  await page.locator('xpath=//*[@id="toDark"]').click({ timeout: 20000 });
 
   await context.close();
 });
