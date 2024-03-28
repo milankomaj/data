@@ -1,6 +1,5 @@
 #!/bin/bash -eux
 #
-$(echo $token_CZ)
 curl -X GET \
  --no-progress-meter \
  --connect-timeout 10 \
