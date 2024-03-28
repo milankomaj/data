@@ -42,7 +42,7 @@ jobs:
        chmod +x ${{ github.workspace }}/epg-grabber/scripts/solocoo_sk_list_curl.sh
        ${{ github.workspace }}/epg-grabber/scripts/solocoo_sk_list_curl.sh
        echo ----------------------------------
-       tree -h ${{ github.workspace }}
+       tree -h ${{ github.workspace }}/playwright/
 
     - uses: actions/upload-artifact@v4
       if: always()
