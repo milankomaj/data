@@ -96,6 +96,6 @@ test("Video", async () => {
   await expect(page.getByRole('heading', { name: 'about:' })).toBeVisible();
   await page.locator('xpath=//*[@id="toDark"]').hover({ timeout: 60000 });
   await page.locator('xpath=//*[@id="toDark"]').click({ timeout: 20000 });
-  await expect(page.locator('a.nav-link:nth-child(1)')).click({ timeout: 20000 });
+  await page.locator('a.nav-link:nth-child(1)').click({ timeout: 20000 });
   await context.close();
 });
