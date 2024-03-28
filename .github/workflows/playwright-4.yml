@@ -51,4 +51,6 @@ jobs:
         path: |
           ${{ github.workspace }}/playwright/playwright-report/
           ${{ github.workspace }}/playwright/test-results/*.*
+          ${{ github.workspace }}/epg-grabber/csv/solocoo.tv_sk.chanell.*
+          ${{ github.workspace }}/epg-grabber/channels/solocoo.tv_sk.chanell.*
         retention-days: 30
