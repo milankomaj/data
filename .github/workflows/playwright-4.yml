@@ -51,11 +51,12 @@ jobs:
        echo ----------------------------------
        tree -h ${{ github.workspace }}/playwright/test-results/
 
-    - uses: actions/upload-artifact@v4
-      if: always()
-      with:
-        name: playwright-${{ matrix.test-group }}
-        path: |
-          ${{ github.workspace }}/playwright/playwright-report/
-          ${{ github.workspace }}/playwright/test-results/*.*
-        retention-days: 30
+
+    # - uses: actions/upload-artifact@v4
+    #   if: always()
+    #   with:
+    #    name: playwright-${{ matrix.test-group }}
+    #     path: |
+    #       ${{ github.workspace }}/playwright/playwright-report/
+    #       ${{ github.workspace }}/playwright/test-results/*.*
+    #     retention-days: 30
