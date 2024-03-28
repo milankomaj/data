@@ -23,7 +23,7 @@ test('get other link', async ({ page }) => {
 
   await page.click('.zBcaf');
   await page.click('.zBcaf');
-  await page.click('text=Slovenčina');
+  await page.click('text=English');
 
   await page.click('.sc-bxotGS:nth-child(1) > .sc-eoDtDP');
 
