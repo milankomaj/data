@@ -47,7 +47,7 @@ jobs:
        echo ----------------------------------
        # chmod +x ${{ github.workspace }}/epg-grabber/scripts/solocoo_sk_list_curl.sh
        # ${{ github.workspace }}/epg-grabber/scripts/solocoo_sk_list_curl.sh
-       echo "{path}"
+       echo $PATH
        echo ----------------------------------
        tree -h ${{ github.workspace }}/playwright/test-results/
 
