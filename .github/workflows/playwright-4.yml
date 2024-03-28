@@ -42,7 +42,7 @@ jobs:
        chmod +x ${{ github.workspace }}/epg-grabber/scripts/solocoo_sk_list_curl.sh
        ${{ github.workspace }}/epg-grabber/scripts/solocoo_sk_list_curl.sh
        echo ----------------------------------
-       tree -h ~
+       tree -h ${{ github.workspace }}/playwright/test-results/
 
     - uses: actions/upload-artifact@v4
       if: always()
@@ -51,5 +51,4 @@ jobs:
         path: |
           ${{ github.workspace }}/playwright/playwright-report/
           ${{ github.workspace }}/playwright/test-results/*.*
-          ~/solocoo.tv_sk.chanell.*
         retention-days: 30
