@@ -23,9 +23,9 @@ test('get other link', async ({ page }) => {
 
   await page.click('.zBcaf');
   await page.click('.zBcaf');
-  await expect(page.getByText('Language')).toBeVisible();
-  await page.locator('.sc-bxotGS').click({ timeout: 20000 });
-  await page.locator('sc-bxotGS:nth-child(1)').click({ timeout: 20000 });
+  await page.click('[data-testid="menuLanguageWrapper"]');
+
+  await page.click('.sc-bxotGS:nth-child(1) > .sc-eoDtDP');
 
   const token_SK = await page.evaluate(() => localStorage.getItem("token"));
   console.log("token_SK: ", token_SK)
