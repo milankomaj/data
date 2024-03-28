@@ -21,4 +21,15 @@ test('get other link', async ({ page }) => {
   const data_CZ = String(token_CZ)
   core.exportVariable('token_CZ', data_CZ);
 
+  await page.click('text=Slovenčina');
+  await Promise.all([
+    page.click('.sc-bxotGS:nth-child(1) > .sc-eoDtDP'),
+    page.waitForNavigation()
+  ]);
+
+  const token_SK = await page.evaluate(() => localStorage.getItem("token"));
+  console.log("token_SK: ", token_SK)
+  const data_SK = String(token_SK)
+  core.exportVariable('token_SK', data_SK);
+
 });
