@@ -70,6 +70,13 @@ test('Page Screenshot 2', async ({ page }) => {
   core.exportVariable('theme', data);
 });
 
+
+
+
+
+
+
+
 test_video("Video", async () => {
   console.log("👉 5: ")
   const browser = await chromium.launch({
