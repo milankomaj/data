@@ -77,7 +77,7 @@ test('Page Screenshot 2', async ({ page }) => {
 
 
 
-test_video("Video", async () => {
+test("Video", async () => {
   console.log("👉 5: ")
   const browser = await chromium.launch({
     headless: true,
