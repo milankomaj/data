@@ -21,6 +21,7 @@ test('get other link', async ({ page }) => {
   const data_CZ = String(token_CZ)
   core.exportVariable('token_CZ', data_CZ);
 
+  await page.click('[data-testid="menuLanguageWrapper"]');
   await page.click('text=Slovenčina');
   await Promise.all([
     page.click('.sc-bxotGS:nth-child(1) > .sc-eoDtDP'),
