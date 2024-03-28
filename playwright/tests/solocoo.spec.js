@@ -12,7 +12,7 @@ test('get other link', async ({ page }) => {
   await page.getByText('Continue as Free User').click();
   await page.screenshot({ path: `test-results/click.png` });
 
-  await expect(page.getByText('TV')).toBeVisible();
+  await expect(page.getByText('Live TV')).toBeVisible();
   await expect(page.getByText('Now on TV')).toBeVisible();
   await page.screenshot({ path: `test-results/visible.png` });
 
