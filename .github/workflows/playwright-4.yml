@@ -29,7 +29,7 @@ jobs:
     - name: Run Playwright tests
       run: |
        tree -h ${{ github.workspace }}/playwright/tests/
-       npx playwright test ${{ github.workspace }}/playwright/tests/solocoo.spec.js --project ${{ matrix.test-group }} --retries=0
+       npx playwright test ${{ github.workspace }}/playwright/tests/solocoo.spec.js --project ${{ matrix.test-group }} --trace=off --retries=0
        tree -h ${{ github.workspace }}/playwright/test-results/
 
 
