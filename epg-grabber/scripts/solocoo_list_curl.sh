@@ -24,8 +24,8 @@ echo $lang
 
 curl -X GET \
  --no-progress-meter \
- --connect-timeout 30 \
- --max-time 30 \
+ --connect-timeout 50 \
+ --max-time 50 \
  --url 'https://tvapi.solocoo.tv/v1/bouquet' \
  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0' \
  -H 'Accept: application/json, text/plain, */*' \
