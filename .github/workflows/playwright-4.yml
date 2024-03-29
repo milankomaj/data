@@ -56,8 +56,6 @@ jobs:
     - name: output
       id: output
       run: |
-       echo "$outputCZ"
-       echo "$outputSK"
        echo ${{ steps.env.outputs.token_CZ_output }}
        echo ${{ steps.env.outputs.token_SK_output }}
        echo ----------------------------------
