@@ -5,6 +5,9 @@ jobs:
   test:
     timeout-minutes: 20
     runs-on: ubuntu-latest
+    outputs:
+      outputCZ: ${{ steps.env.outputs.token_CZ_output }}
+      outputSK: ${{ steps.env.outputs.token_SK_output }}
     strategy:
       max-parallel: 5
       fail-fast: false
@@ -53,8 +56,10 @@ jobs:
     - name: output
       id: output
       run: |
-       echo "$token_CZ_output"
-       echo "$token_SK_output"
+       echo "$outputCZ"
+       echo "$outputSK"
+       echo ${{ steps.env.outputs.token_CZ_output }}
+       echo ${{ steps.env.outputs.token_SK_output }}
        echo ----------------------------------
 
     # - name: Run script
