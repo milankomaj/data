@@ -1,13 +1,20 @@
 name: Playwright
 on:
   workflow_dispatch:
+  workflow_call:
+   outputs:
+    token_CZ_output:
+      description: "env tokens"
+      value: ${{ jobs.test.outputs.outputCZ }}
+    token_SK_output:
+      description: "env tokens"
+      value: ${{ jobs.test.outputs.outputSK }}
+
+
 jobs:
   test:
     timeout-minutes: 20
     runs-on: ubuntu-latest
-    outputs:
-      outputCZ: ${{ steps.env.outputs.token_CZ_output }}
-      outputSK: ${{ steps.env.outputs.token_SK_output }}
     strategy:
       max-parallel: 5
       fail-fast: false
@@ -16,49 +23,52 @@ jobs:
     defaults:
       run:
         working-directory: ./playwright
+    outputs:
+      outputCZ: ${{ steps.enviroment.outputs.token_CZ_output }}
+      outputSK: ${{ steps.enviroment.outputs.token_SK_output }}
 
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
-      with:
-        node-version: 'latest'
-    - name: Install dependencies
-      run: npm install --save
-    - name: Install Playwright Browsers
-      run: |
-       npx playwright install --with-deps ${{ matrix.test-group }}
-       npx playwright install --help
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 'latest'
+      - name: Install dependencies
+        run: npm install --save
+      - name: Install Playwright Browsers
+        run: |
+         npx playwright install --with-deps ${{ matrix.test-group }}
+         npx playwright install --help
 
-    - name: playwright
-      id: playwright
-      run: |
-       tree -h ${{ github.workspace }}/playwright/tests/
-       npx playwright test ${{ github.workspace }}/playwright/tests/solocoo.spec.js --project ${{ matrix.test-group }} --trace=off --retries=0
-       tree -h ${{ github.workspace }}/playwright/test-results/
+      - name: playwright
+        id: playwright
+        run: |
+         tree -h ${{ github.workspace }}/playwright/tests/
+         npx playwright test ${{ github.workspace }}/playwright/tests/solocoo.spec.js --project ${{ matrix.test-group }} --trace=off --retries=0
+         tree -h ${{ github.workspace }}/playwright/test-results/
 
 
-    - name: env
-      id: env
-      run: |
-       echo "token_CZ = $token_CZ"
-       echo "$token_CZ"
-       echo "${{ env.token_CZ }}"
-       echo "$(echo ${{ env.token_CZ}})"
-       echo ----------------------------------
-       echo "token_SK = $token_SK"
-       echo "$token_SK"
-       echo "${{ env.token_SK }}"
-       echo "$(echo ${{ env.token_SK}})"
-       echo ----------------------------------
-       echo "token_CZ_output=${{ env.token_CZ }}" >> $GITHUB_OUTPUT
-       echo "token_SK_output=${{ env.token_SK }}" >> $GITHUB_OUTPUT
+      - name: enviroment
+        id: enviroment
+        run: |
+         echo "token_CZ = $token_CZ"
+         echo "$token_CZ"
+         echo "${{ env.token_CZ }}"
+         echo "$(echo ${{ env.token_CZ}})"
+         echo ----------------------------------
+         echo "token_SK = $token_SK"
+         echo "$token_SK"
+         echo "${{ env.token_SK }}"
+         echo "$(echo ${{ env.token_SK}})"
+         echo ----------------------------------
+         echo "token_CZ_output=${{ env.token_CZ }}" >> $GITHUB_OUTPUT
+         echo "token_SK_output=${{ env.token_SK }}" >> $GITHUB_OUTPUT
 
-    - name: output
-      id: output
-      run: |
-       echo ${{ steps.env.outputs.token_CZ_output }}
-       echo ${{ steps.env.outputs.token_SK_output }}
-       echo ----------------------------------
+      - name: output
+        id: output
+        run: |
+         echo ${{ steps.enviroment.outputs.token_CZ_output }}
+         echo ${{ steps.enviroment.outputs.token_SK_output }}
+         echo ----------------------------------
 
     # - name: Run script
     #   run: |
