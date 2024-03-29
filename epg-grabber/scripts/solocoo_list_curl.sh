@@ -4,23 +4,13 @@
 #
 echo -e "\033[31;1m solocoo chanells \033[0m"
 
-echo "$token_CZ"
-echo "$token_SK"
-
 CzToken=$(echo $token_CZ | sed -e 's/\"//g')
 SkToken=$(echo $token_SK | sed -e 's/\"//g')
 
-echo $CzToken
-echo $SkToken
-
 for SkCz in {sk-$SkToken,cz-$CzToken}
-
 do
 echo "${SkCz}"
 lang=$(echo "${SkCz}" | cut -d "-" -f 1)
-echo $lang
-
-
 
 curl -X GET \
  --no-progress-meter \
@@ -52,6 +42,5 @@ sed -i 3i"\ \ <channels>" ./test-results/solocoo.tv_${lang}.chanell.xml
 echo "  </channels>" >> ./test-results/solocoo.tv_${lang}.chanell.xml
 echo "</site>" >> ./test-results/solocoo.tv_${lang}.chanell.xml
 sed -i 1i"xmltv_id,site_id,name,channelNumber,logoUrl" ./test-results/solocoo.tv_${lang}.chanell.csv
-
 done
 echo "done"
