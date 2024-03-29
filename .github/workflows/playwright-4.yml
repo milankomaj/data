@@ -26,7 +26,8 @@ jobs:
        npx playwright install --with-deps ${{ matrix.test-group }}
        npx playwright install --help
 
-    - name: Run Playwright tests
+    - name: playwright
+      id: playwright
       run: |
        tree -h ${{ github.workspace }}/playwright/tests/
        npx playwright test ${{ github.workspace }}/playwright/tests/solocoo.spec.js --project ${{ matrix.test-group }} --trace=off --retries=0
@@ -34,6 +35,7 @@ jobs:
 
 
     - name: env
+      id: env
       run: |
        echo "token_CZ = $token_CZ"
        echo "$token_CZ"
@@ -45,18 +47,26 @@ jobs:
        echo "${{ env.token_SK }}"
        echo "$(echo ${{ env.token_SK}})"
        echo ----------------------------------
-       chmod +x ${{ github.workspace }}/epg-grabber/scripts/solocoo_list_curl.sh
-       ${{ github.workspace }}/epg-grabber/scripts/solocoo_list_curl.sh
-       echo $PATH
+
+    - name: output
+      id: output
+      run: |
+       echo "$token_CZ_output"
+       echo "$token_SK_output"
        echo ----------------------------------
-       tree -h ${{ github.workspace }}/playwright/test-results/
+
+    # - name: Run script
+    #   run: |
+    #    chmod +x ${{ github.workspace }}/epg-grabber/scripts/solocoo_list_curl.sh
+    #    ${{ github.workspace }}/epg-grabber/scripts/solocoo_list_curl.sh
+    #    tree -h ${{ github.workspace }}/playwright/test-results/
 
 
-    - uses: actions/upload-artifact@v4
-      if: always()
-      with:
-        name: playwright-${{ matrix.test-group }}
-        path: |
-          ${{ github.workspace }}/playwright/playwright-report/
-          ${{ github.workspace }}/playwright/test-results/*.*
-        retention-days: 30
+    # - uses: actions/upload-artifact@v4
+    #   if: always()
+    #   with:
+    #     name: playwright-${{ matrix.test-group }}
+    #     path: |
+    #       ${{ github.workspace }}/playwright/playwright-report/
+    #       ${{ github.workspace }}/playwright/test-results/*.*
+    #     retention-days: 30

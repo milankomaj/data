@@ -20,7 +20,7 @@ test('CZ', async ({ page }) => {
   console.log("token_CZ: ", token_CZ)
   const data_CZ = String(token_CZ)
   core.exportVariable('token_CZ', data_CZ);
-  core.setOutput('token_CZ', data_CZ);
+  core.setOutput('token_CZ_output', data_CZ);
 });
 
 test('SK', async ({ page }) => {
@@ -40,5 +40,5 @@ test('SK', async ({ page }) => {
   console.log("token_SK: ", token_SK)
   const data_SK = String(token_SK)
   core.exportVariable('token_SK', data_SK);
-  core.setOutput('token_SK', data_SK);
+  core.setOutput('token_SK_output', data_SK);
 });
