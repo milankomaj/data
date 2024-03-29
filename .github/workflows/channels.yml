@@ -38,9 +38,11 @@ jobs:
 
       - name: output_playwright
         run: |
+          echo "playwright"
           echo ${{ needs.playwright.outputs.token_SK_output }}
           echo ${{ needs.playwright.outputs.token_CZ_output }}
-
+          echo "token_SK=${{ needs.playwright.outputs.token_SK_output }}" >> $GITHUB_ENV
+          echo "token_CZ=${{ needs.playwright.outputs.token_CZ_output }}" >> $GITHUB_ENV
 
       - name: xq
         id: xq
