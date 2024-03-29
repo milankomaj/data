@@ -7,7 +7,9 @@ on:
 env:
   env_var: ${{ vars.SHEET_ELEONORA }}
   env_var2: ${{ vars.SCRAPER_ELEONORA }}
-  env_var3: ${{ vars.CORS_ELEONORA }}
+  token_SK: ${{ needs.playwright.outputs.token_SK_output }}
+  token_CZ: ${{ needs.playwright.outputs.token_CZ_output }}
+
 jobs:
   playwright:
     uses: ./.github/workflows/playwright-4.yml
