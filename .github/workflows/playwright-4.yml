@@ -1,15 +1,6 @@
 name: Playwright
 on:
   workflow_dispatch:
-  workflow_call:
-   outputs:
-    token_CZ_output:
-      description: "env tokens"
-      value: ${{ jobs.test.outputs.outputCZ }}
-    token_SK_output:
-      description: "env tokens"
-      value: ${{ jobs.test.outputs.outputSK }}
-
 
 jobs:
   test:
@@ -23,9 +14,7 @@ jobs:
     defaults:
       run:
         working-directory: ./playwright
-    outputs:
-      outputCZ: ${{ steps.enviroment.outputs.token_CZ_output }}
-      outputSK: ${{ steps.enviroment.outputs.token_SK_output }}
+
 
     steps:
       - uses: actions/checkout@v4

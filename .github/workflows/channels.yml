@@ -7,15 +7,9 @@ on:
 env:
   env_var: ${{ vars.SHEET_ELEONORA }}
   env_var2: ${{ vars.SCRAPER_ELEONORA }}
-
-
+  env_var3: ${{ vars.CORS_ELEONORA }}
 jobs:
-  playwright:
-    uses: ./.github/workflows/playwright-4.yml
-    secrets: inherit
-
   grab_channels:
-    needs: [playwright]
     runs-on: ubuntu-latest
     timeout-minutes: 10
     continue-on-error: true
@@ -37,17 +31,6 @@ jobs:
           locale: sk_SK.utf8
           timezone: Europe/Bratislava
 
-
-      - name: output_playwright
-        run: |
-          echo "playwright"
-          echo ${{ needs.playwright.outputs.token_SK_output }}
-          echo ${{ needs.playwright.outputs.token_CZ_output }}
-          echo "token_SK=${{ needs.playwright.outputs.token_SK_output }}" >> $GITHUB_ENV
-          echo "token_CZ=${{ needs.playwright.outputs.token_CZ_output }}" >> $GITHUB_ENV
-          echo "$token_CZ"
-          echo "$token_SK"
-
       - name: xq
         id: xq
         run: |
@@ -68,12 +51,11 @@ jobs:
           echo -e "\033[31;1m Chmod. \033[0m"
           chmod +x ./scripts/horizon_tv_list_curl.sh
           chmod +x ./scripts/upc_tv_list_curl.sh
+          # chmod +x ./scripts/o2_tv_list_curl.sh
           chmod +x ./scripts/skylink_balicky.sh
           chmod +x ./scripts/programandroid_list_xq.sh
           chmod +x ./scripts/mujtvprogram_list_xq.sh
           chmod +x ./scripts/r-chanells.sh
-          chmod +x ./scripts/r-chanells.sh
-          # chmod +x ./scripts/solocoo_list_curl.sh
         shell: bash
 
       - name: Update
@@ -96,8 +78,6 @@ jobs:
           tree -h ./sites/
           echo ***./channels/***
           tree -h ./channels/
-          echo "$token_CZ"
-          echo "$token_SK"
 
       # git status --short -uno
       - name: deploy
