@@ -24,8 +24,8 @@ echo $lang
 
 curl -X GET \
  --no-progress-meter \
- --connect-timeout 90 \
- --max-time 90 \
+ --connect-timeout 180 \
+ --max-time 180 \
  --url 'https://tvapi.solocoo.tv/v1/bouquet' \
  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0' \
  -H 'Accept: application/json, text/plain, */*' \
@@ -52,6 +52,6 @@ sed -i 3i"\ \ <channels>" ./test-results/solocoo.tv_${lang}.chanell.xml
 echo "  </channels>" >> ./test-results/solocoo.tv_${lang}.chanell.xml
 echo "</site>" >> ./test-results/solocoo.tv_${lang}.chanell.xml
 sed -i 1i"xmltv_id,site_id,name,channelNumber,logoUrl" ./test-results/solocoo.tv_${lang}.chanell.csv
-done
 sleep 1m
+done
 echo "done"
