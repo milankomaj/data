@@ -7,8 +7,7 @@ on:
 env:
   env_var: ${{ vars.SHEET_ELEONORA }}
   env_var2: ${{ vars.SCRAPER_ELEONORA }}
-  token_SK: ${{ needs.playwright.outputs.token_SK_output }}
-  token_CZ: ${{ needs.playwright.outputs.token_CZ_output }}
+
 
 jobs:
   playwright:
@@ -46,6 +45,8 @@ jobs:
           echo ${{ needs.playwright.outputs.token_CZ_output }}
           echo "token_SK=${{ needs.playwright.outputs.token_SK_output }}" >> $GITHUB_ENV
           echo "token_CZ=${{ needs.playwright.outputs.token_CZ_output }}" >> $GITHUB_ENV
+          echo "$token_CZ"
+          echo "$token_SK"
 
       - name: xq
         id: xq
@@ -95,6 +96,8 @@ jobs:
           tree -h ./sites/
           echo ***./channels/***
           tree -h ./channels/
+          echo "$token_CZ"
+          echo "$token_SK"
 
       # git status --short -uno
       - name: deploy
