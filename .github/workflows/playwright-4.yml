@@ -47,12 +47,14 @@ jobs:
        echo "${{ env.token_SK }}"
        echo "$(echo ${{ env.token_SK}})"
        echo ----------------------------------
+       # echo "token_CZ_output=${{ env.token_CZ }}" >> $GITHUB_OUTPUT
+       # echo "token_SK_output=${{ env.token_SK }}" >> $GITHUB_OUTPUT
 
     - name: output
       id: output
       run: |
-       echo "$token_CZ_output"
-       echo "$token_SK_output"
+       echo "${{ token_CZ_output }}"
+       echo "${{ token_SK_output }}"
        echo ----------------------------------
 
     # - name: Run script
