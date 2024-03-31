@@ -16,11 +16,11 @@ jobs:
     uses: ./.github/workflows/playwright-4.yml
     secrets: inherit
   grab1:
-    needs: [channels,playwright]
+    needs: [channels]
     uses: ./.github/workflows/epg-grabber-1.yml
     secrets: inherit
   grab2:
-    needs: [channels,playwright]
+    needs: [channels]
     uses: ./.github/workflows/epg-grabber-2.yml
     secrets: inherit
   # grab3:
