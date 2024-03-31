@@ -4,21 +4,21 @@
 #
 echo -e "\033[31;1m solocoo chanells \033[0m"
 
-echo "$token_CZ"
-echo "$token_SK"
+# echo "$token_CZ"
+# echo "$token_SK"
 
 CzToken=$(echo $token_CZ | sed -e 's/\"//g')
 SkToken=$(echo $token_SK | sed -e 's/\"//g')
 
-echo $CzToken
-echo $SkToken
+# echo $CzToken
+# echo $SkToken
 
 for SkCz in {sk-$SkToken,cz-$CzToken}
 
 do
 echo "${SkCz}"
-lang=$(echo "${SkCz}" | cut -d "-" -f 1)
-echo $lang
+lang=$(echo "${SkCz}" | cut -d "-" -f1-)
+# echo $lang
 
 
 
@@ -31,7 +31,7 @@ curl -X GET \
  -H 'Accept: application/json, text/plain, */*' \
  -H 'Accept-Language: sk,en-US;q=0.5' \
  -H 'Accept-Encoding: gzip, deflate, br' \
- -H "Authorization: Bearer $(echo "${SkCz}" | cut -d "-" -f 2)" \
+ -H "Authorization: Bearer $(echo "${SkCz}" | cut -d "-" -f2-)" \
  -H "Origin: https://livetv.skylink.${lang}" \
  -H 'DNT: 1' \
  -H 'Sec-GPC: 1' \
