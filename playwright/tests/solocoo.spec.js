@@ -2,7 +2,6 @@
 const core = require('@actions/core');
 const { test, expect } = require('@playwright/test');
 
-
 test('CZ', async ({ page }) => {
   await page.goto('https://livetv.skylink.cz');
   await expect(page.getByText('Continue as Free User')).toBeVisible();
