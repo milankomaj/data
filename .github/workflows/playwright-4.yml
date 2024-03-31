@@ -96,6 +96,6 @@ jobs:
           git add ./csv/*.csv
           git add ./channels/*.xml
           git add ${{ github.workspace }}/playwright/test-results/
-          git commit -m "Playwright - ${{ steps.scripts.outcome }}"
+          git commit -m "Playwright - ${{ steps.scripts.outcome }}" || echo
           git pull
           git push -f
