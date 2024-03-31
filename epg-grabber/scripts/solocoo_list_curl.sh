@@ -17,7 +17,7 @@ for SkCz in {sk-$SkToken,cz-$CzToken}
 
 do
 echo "${SkCz}"
-lang=$(echo "${SkCz}" | cut -d "-" -f1-)
+lang=$(echo "${SkCz}" | cut -d "-" -f1)
 # echo $lang
 
 
