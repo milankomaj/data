@@ -30,7 +30,7 @@ jobs:
           shell: bash
           locale: sk_SK.utf8
           timezone: Europe/Bratislava
-          comand: date && timedatectl set-local-rtc 1 && timedatectl
+          comand: date && sudo timedatectl set-local-rtc 1 && timedatectl
 
       - name: xq
         id: xq
