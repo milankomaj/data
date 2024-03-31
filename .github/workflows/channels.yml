@@ -31,7 +31,6 @@ jobs:
           locale: sk_SK.utf8
           timezone: Europe/Bratislava
           comand: date && timedatectl
-          
 
       - name: xq
         id: xq
