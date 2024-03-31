@@ -67,7 +67,7 @@ jobs:
           echo "---: | :--- " >> $GITHUB_STEP_SUMMARY
           echo "grab1 | $(echo ${{ needs.grab1.outputs.grab1_outcome }})" >> $GITHUB_STEP_SUMMARY
           echo "grab2 | $(echo ${{ needs.grab2.outputs.grab2_outcome }})" >> $GITHUB_STEP_SUMMARY
-          echo "grab3 | $(echo ${{ needs.playwright.outputs.playwright_outcome }})" >> $GITHUB_STEP_SUMMARY
+          echo "playwright | $(echo ${{ needs.playwright.outputs.playwright_outcome }})" >> $GITHUB_STEP_SUMMARY
 
       #
       - name: Update
