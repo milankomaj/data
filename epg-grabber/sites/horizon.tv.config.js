@@ -15,7 +15,6 @@ module.exports = {
     let items = parseItems(content, channel)
     if (!items.length) return programs
     const d = date.format('YYYYMMDD')
-    console.log("👉 date: ", d)
     const promises = [
       axios.get(`${API_ENDPOINT}/SK/slk/web/programschedules/${d}/2`),
       axios.get(`${API_ENDPOINT}/SK/slk/web/programschedules/${d}/3`),
