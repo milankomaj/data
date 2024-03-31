@@ -27,7 +27,7 @@ curl -X GET \
  --connect-timeout 720 \
  --max-time 720 \
  --url 'https://tvapi.solocoo.tv/v1/bouquet' \
- -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0' \
+ -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0" \
  -H 'Accept: application/json, text/plain, */*' \
  -H 'Accept-Language: sk,en-US;q=0.5' \
  -H 'Accept-Encoding: gzip, deflate, br' \
