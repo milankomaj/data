@@ -24,8 +24,6 @@ lang=$(echo "${SkCz}" | cut -d "-" -f 1)
 
 curl -X GET \
  --no-progress-meter \
- --connect-timeout 1440 \
- --max-time 1440 \
  --url 'https://tvapi.solocoo.tv/v1/bouquet' \
  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0' \
  -H 'Accept: application/json, text/plain, */*' \
