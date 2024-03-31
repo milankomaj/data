@@ -44,13 +44,13 @@ jobs:
       - name: enviroment
         id: enviroment
         run: |
-         echo "token_CZ = $token_CZ"
-         # echo "$token_CZ"
+         # echo "token_CZ = $token_CZ"
+         echo "$token_CZ"
          # echo "${{ env.token_CZ }}"
          # echo "$(echo ${{ env.token_CZ}})"
          echo ----------------------------------
-         echo "token_SK = $token_SK"
-         # echo "$token_SK"
+         # echo "token_SK = $token_SK"
+         echo "$token_SK"
          # echo "${{ env.token_SK }}"
          # echo "$(echo ${{ env.token_SK}})"
          echo ----------------------------------

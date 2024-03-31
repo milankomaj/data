@@ -4,28 +4,28 @@
 #
 echo -e "\033[31;1m solocoo chanells \033[0m"
 
-# echo "$token_CZ"
-# echo "$token_SK"
+echo "$token_CZ"
+echo "$token_SK"
 
 CzToken=$(echo $token_CZ | sed -e 's/\"//g')
 SkToken=$(echo $token_SK | sed -e 's/\"//g')
 
-# echo $CzToken
-# echo $SkToken
+echo $CzToken
+echo $SkToken
 
 for SkCz in {sk-$SkToken,cz-$CzToken}
 
 do
 echo "${SkCz}"
 lang=$(echo "${SkCz}" | cut -d "-" -f 1)
-# echo $lang
+echo $lang
 
 
 
 curl -X GET \
  --no-progress-meter \
- --connect-timeout 5000 \
- --max-time 5000 \
+ --connect-timeout 720 \
+ --max-time 720 \
  --url 'https://tvapi.solocoo.tv/v1/bouquet' \
  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0' \
  -H 'Accept: application/json, text/plain, */*' \
