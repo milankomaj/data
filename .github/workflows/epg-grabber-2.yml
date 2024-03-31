@@ -6,7 +6,6 @@ on:
        grab2_outcome:
         description: "jobs.grab.outputs.output_grab2"
         value: ${{ jobs.grab.outputs.output_grab2 }}
-
   workflow_dispatch:
 
 # schedule:
