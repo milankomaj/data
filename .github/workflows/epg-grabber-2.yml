@@ -29,14 +29,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: localle
-        uses: milankomaj/shell-x@v0.3
-        with:
-          shell: bash
-          locale: sk_SK.utf8
-          timezone: Europe/Bratislava
-          comand: date && timedatectl
-
       - name: NpmInstall
         run: npm install
 
