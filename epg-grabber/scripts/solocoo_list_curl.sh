@@ -41,17 +41,17 @@ curl -X GET \
  -H 'Sec-Fetch-Mode: cors' \
  -H 'Sec-Fetch-Site: cross-site' \
  -H 'TE: trailers' \
-| jq -r '.channels[] | ["skylink.language-\(.assetInfo.params.lcn)", .assetInfo.id, .assetInfo.title, .assetInfo.params.lcn, .assetInfo.images[0].url] | join(",")'  | sort -n -t, -k4,4 > ./test-results/solocoo.tv_${lang}.chanell.csv
+| jq -r '.channels[] | ["skylink.language-\(.assetInfo.params.lcn)", .assetInfo.id, .assetInfo.title, .assetInfo.params.lcn, .assetInfo.images[0].url] | join(",")'  | sort -n -t, -k4,4 > csv//solocoo.tv_${lang}.chanell.csv
 
-sed -i "s/skylink.language/skylink.${lang}/g" ./test-results/solocoo.tv_${lang}.chanell.csv
-awk -F ',' '{print "    <channel lang=\"language\" xmltv_id=\""$1"\""" site_id=\""$2"\""" logo=\""$5"\""">"$3"</channel>"}' ./test-results/solocoo.tv_${lang}.chanell.csv > ./test-results/solocoo.tv_${lang}.chanell.xml
-sed -i "s/language/${lang}/g" ./test-results/solocoo.tv_${lang}.chanell.xml
-sed -i 1i"<?xml version=\"1.0\" encoding=\"UTF-8\"?>" ./test-results/solocoo.tv_${lang}.chanell.xml
-sed -i 2i"<site site=\"skylink.${lang}\">" ./test-results/solocoo.tv_${lang}.chanell.xml
-sed -i 3i"\ \ <channels>" ./test-results/solocoo.tv_${lang}.chanell.xml
-echo "  </channels>" >> ./test-results/solocoo.tv_${lang}.chanell.xml
-echo "</site>" >> ./test-results/solocoo.tv_${lang}.chanell.xml
-sed -i 1i"xmltv_id,site_id,name,channelNumber,logoUrl" ./test-results/solocoo.tv_${lang}.chanell.csv
+sed -i "s/skylink.language/skylink.${lang}/g" csv/solocoo.tv_${lang}.chanell.csv
+awk -F ',' '{print "    <channel lang=\"language\" xmltv_id=\""$1"\""" site_id=\""$2"\""" logo=\""$5"\""">"$3"</channel>"}' csv/solocoo.tv_${lang}.chanell.csv > channels/solocoo.tv_${lang}.chanell.xml
+sed -i "s/language/${lang}/g" channels/solocoo.tv_${lang}.chanell.xml
+sed -i 1i"<?xml version=\"1.0\" encoding=\"UTF-8\"?>" channels/solocoo.tv_${lang}.chanell.xml
+sed -i 2i"<site site=\"skylink.${lang}\">" channels/solocoo.tv_${lang}.chanell.xml
+sed -i 3i"\ \ <channels>" channels/solocoo.tv_${lang}.chanell.xml
+echo "  </channels>" >> channels/solocoo.tv_${lang}.chanell.xml
+echo "</site>" >> channels/solocoo.tv_${lang}.chanell.xml
+sed -i 1i"xmltv_id,site_id,name,channelNumber,logoUrl" csv/solocoo.tv_${lang}.chanell.csv
 
 done
 echo "done"

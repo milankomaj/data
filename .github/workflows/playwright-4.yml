@@ -1,7 +1,11 @@
 name: Playwright
 on:
   workflow_dispatch:
-
+  workflow_call:
+    outputs:
+     playwright_outcome:
+      description: "output_enviroment"
+      value: ${{ jobs.test.outputs.output_enviroment }}
 jobs:
   test:
     timeout-minutes: 20
@@ -14,7 +18,8 @@ jobs:
     defaults:
       run:
         working-directory: ./playwright
-
+    outputs:
+      output_enviroment: ${{ steps.output_enviroment.outputs.playwright_outcome}}
 
     steps:
       - uses: actions/checkout@v4
@@ -40,37 +45,57 @@ jobs:
         id: enviroment
         run: |
          echo "token_CZ = $token_CZ"
-         echo "$token_CZ"
-         echo "${{ env.token_CZ }}"
-         echo "$(echo ${{ env.token_CZ}})"
+         # echo "$token_CZ"
+         # echo "${{ env.token_CZ }}"
+         # echo "$(echo ${{ env.token_CZ}})"
          echo ----------------------------------
          echo "token_SK = $token_SK"
-         echo "$token_SK"
-         echo "${{ env.token_SK }}"
-         echo "$(echo ${{ env.token_SK}})"
+         # echo "$token_SK"
+         # echo "${{ env.token_SK }}"
+         # echo "$(echo ${{ env.token_SK}})"
          echo ----------------------------------
-         echo "token_CZ_output=${{ env.token_CZ }}" >> $GITHUB_OUTPUT
-         echo "token_SK_output=${{ env.token_SK }}" >> $GITHUB_OUTPUT
+         # echo "token_CZ_output=${{ env.token_CZ }}" >> $GITHUB_OUTPUT
+         # echo "token_SK_output=${{ env.token_SK }}" >> $GITHUB_OUTPUT
 
       - name: output
-        id: output
+        id: output_enviroment
         run: |
-         echo ${{ steps.enviroment.outputs.token_CZ_output }}
-         echo ${{ steps.enviroment.outputs.token_SK_output }}
+         # echo ${{ steps.enviroment.outputs.token_CZ_output }}
+         # echo ${{ steps.enviroment.outputs.token_SK_output }}
+         echo ${{ github.event_name }}
+         echo ${{ steps.enviroment.outcome }}
+         echo "playwright_outcome=${{ steps.enviroment.outcome }}" >> $GITHUB_OUTPUT
          echo ----------------------------------
 
-    # - name: Run script
-    #   run: |
-    #    chmod +x ${{ github.workspace }}/epg-grabber/scripts/solocoo_list_curl.sh
-    #    ${{ github.workspace }}/epg-grabber/scripts/solocoo_list_curl.sh
-    #    tree -h ${{ github.workspace }}/playwright/test-results/
+      - name: Run scripts
+        id: scripts
+        working-directory: ./epg-grabber
+        run: |
+          chmod +x ${{ github.workspace }}/epg-grabber/scripts/solocoo_list_curl.sh
+          ${{ github.workspace }}/epg-grabber/scripts/solocoo_list_curl.sh
+          tree -h ${{ github.workspace }}/playwright/test-results/
 
 
-    # - uses: actions/upload-artifact@v4
-    #   if: always()
-    #   with:
-    #     name: playwright-${{ matrix.test-group }}
-    #     path: |
-    #       ${{ github.workspace }}/playwright/playwright-report/
-    #       ${{ github.workspace }}/playwright/test-results/*.*
-    #     retention-days: 30
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-${{ matrix.test-group }}
+          path: |
+            ${{ github.workspace }}/playwright/playwright-report/
+            ${{ github.workspace }}/playwright/test-results/*.*
+          retention-days: 30
+
+
+      - name: Deploy
+        if: steps.scripts.outcome == 'success'
+        working-directory: ./epg-grabber
+        run: |
+          git config --global user.email ${{ secrets.EMAIL }}
+          git config --global user.name ${{ secrets.NAME }}
+          git config pull.rebase true
+          git add ./csv/*.csv
+          git add ./channels/*.xml
+          git add ${{ github.workspace }}/playwright/test-results/
+          git commit -m "Playwright - ${{ steps.scripts.outcome }}"
+          git pull
+          git push -f
