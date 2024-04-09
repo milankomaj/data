@@ -57,6 +57,7 @@ jobs:
           chmod +x ./scripts/programandroid_list_xq.sh
           chmod +x ./scripts/mujtvprogram_list_xq.sh
           chmod +x ./scripts/r-chanells.sh
+          chmod +x ./scripts/csv2md.sh
         shell: bash
 
       - name: Update
@@ -71,6 +72,7 @@ jobs:
           # ./scripts/o2_tv_list_curl.sh
           ./scripts/skylink_balicky.sh
           ./scripts/r-chanells.sh
+          ./scripts/csv2md.sh
         shell: bash
 
       - name: tree
