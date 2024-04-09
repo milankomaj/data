@@ -41,7 +41,7 @@ curl -X GET \
  -H 'Sec-Fetch-Mode: cors' \
  -H 'Sec-Fetch-Site: cross-site' \
  -H 'TE: trailers' \
-| jq -r '.channels[] | ["skylink.language-\(.assetInfo.params.lcn)", .assetInfo.id, .assetInfo.title, .assetInfo.params.lcn, .assetInfo.images[0].url] | join(",")'  | sort -n -t, -k4,4 > csv//solocoo.tv_${lang}.chanell.csv
+| jq -r '.channels[] | ["skylink.language-\(.assetInfo.params.lcn)", .assetInfo.id, .assetInfo.title, .assetInfo.params.lcn, .assetInfo.images[0].url] | join(",")'  | sort -n -t, -k4,4 > csv/solocoo.tv_${lang}.chanell.csv
 
 sed -i "s/skylink.language/skylink.${lang}/g" csv/solocoo.tv_${lang}.chanell.csv
 awk -F ',' '{print "    <channel lang=\"language\" xmltv_id=\""$1"\""" site_id=\""$2"\""" logo=\""$5"\""">"$3"</channel>"}' csv/solocoo.tv_${lang}.chanell.csv > channels/solocoo.tv_${lang}.chanell.xml
