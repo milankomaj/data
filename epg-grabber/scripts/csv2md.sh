@@ -2,8 +2,8 @@
 #
 # file=$(ls *.csv)
 echo -e "\033[31;1m csv2md \033[0m"
-
-file=$(ls csv/*.csv)
+cd csv
+file=$(ls *.csv)
 for chanells in ${file}
 do
 echo "${chanells}"
