@@ -5,7 +5,7 @@ for chanells in {solocoo.tv_cz.chanell,solocoo.tv_sk.chanell}
 do
 echo "${chanells}"
 
-sed -i "s/;/,/g" *.txt
+sed -i "s/;/,/g" samsungTV-Q/*/*.txt
 awk -F',' 'NR==FNR{ids[tolower($2)]; next} tolower($3) in ids' "samsungTV-Q/*/dvbs-satelit-*-.txt" csv/${chanells}.csv > samsungTV-Q/align-${chanells}.csv
 
 done
