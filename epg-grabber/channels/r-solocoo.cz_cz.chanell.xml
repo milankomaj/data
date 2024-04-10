@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site site="skylink.cz">
+  <channels>
+      <channel lang="cz" xmltv_id="skylink.cz-37" site_id="owf7uLkzCRWRyDphSdO7eXjeWhgSijsa8mWXR7eN" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Paramount%20Network_m.png">Paramount Network</channel>
+      <channel lang="cz" xmltv_id="skylink.cz-3" site_id="GIWXWJ8Db1hIe69rCijH8KFxK87NB2hG0vZXFopm" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Nova%20HD_m.png">Nova HD</channel>
+  </channels>
+</site>

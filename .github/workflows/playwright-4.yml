@@ -6,6 +6,11 @@ on:
      playwright_outcome:
       description: "output_enviroment"
       value: ${{ jobs.test.outputs.output_enviroment }}
+     grab3_outcome:
+      description: "jobs.test.outputs.output_grab3"
+      value: ${{ jobs.test.outputs.output_grab3 }}
+
+
 jobs:
   test:
     timeout-minutes: 20
@@ -20,6 +25,7 @@ jobs:
         working-directory: ./playwright
     outputs:
       output_enviroment: ${{ steps.output_enviroment.outputs.playwright_outcome}}
+      output_grab3: ${{ steps.output_enviroment.outputs.grab3_outcome}}
 
     steps:
       - uses: actions/checkout@v4
@@ -57,16 +63,6 @@ jobs:
          # echo "token_CZ_output=${{ env.token_CZ }}" >> $GITHUB_OUTPUT
          # echo "token_SK_output=${{ env.token_SK }}" >> $GITHUB_OUTPUT
 
-      - name: output
-        id: output_enviroment
-        run: |
-         # echo ${{ steps.enviroment.outputs.token_CZ_output }}
-         # echo ${{ steps.enviroment.outputs.token_SK_output }}
-         echo ${{ github.event_name }}
-         echo ${{ steps.enviroment.outcome }}
-         echo "playwright_outcome=${{ steps.enviroment.outcome }}" >> $GITHUB_OUTPUT
-         echo ----------------------------------
-
       - name: Run scripts
         id: scripts
         working-directory: ./epg-grabber
@@ -86,6 +82,28 @@ jobs:
           retention-days: 30
 
 
+      - name: Grab
+        if: steps.enviroment.outcome == 'success'
+        id: grab3
+        working-directory: ./epg-grabber
+        run: |
+         npm install --save
+         npm run grab3
+
+
+      - name: output
+        id: output_enviroment
+        run: |
+          # echo ${{ steps.enviroment.outputs.token_CZ_output }}
+          # echo ${{ steps.enviroment.outputs.token_SK_output }}
+          echo ${{ github.event_name }}
+          echo ${{ steps.enviroment.outcome }}
+          echo "playwright_outcome=${{ steps.enviroment.outcome }}" >> $GITHUB_OUTPUT
+          echo ----------------------------------
+          echo ${{ steps.grab3.outcome }}
+          echo "grab3_outcome=${{ steps.grab3.outcome }}" >> $GITHUB_OUTPUT
+
+
       - name: Deploy
         if: steps.scripts.outcome == 'success'
         working-directory: ./epg-grabber
@@ -95,6 +113,7 @@ jobs:
           git config pull.rebase false
           git add ./csv/*.csv
           git add ./channels/*.xml
+          git add ./guide/skylink.cz.guide.xml
           git commit -m "Playwright - ${{ steps.scripts.outcome }}" || echo
           git pull
           git push -f
