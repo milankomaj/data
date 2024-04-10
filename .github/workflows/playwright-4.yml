@@ -64,6 +64,7 @@ jobs:
          # echo "token_SK_output=${{ env.token_SK }}" >> $GITHUB_OUTPUT
 
       - name: Run scripts
+        if: steps.enviroment.outcome == 'success'
         id: scripts
         working-directory: ./epg-grabber
         run: |

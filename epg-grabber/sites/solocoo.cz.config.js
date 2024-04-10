@@ -2,6 +2,7 @@ const axios = require('axios')
 // const dayjs = require('dayjs')
 
 const tokenCZ = process.env.token_CZ.replaceAll("\"", "")
+const tokenSK = process.env.token_SK.replaceAll("\"", "")
 
 module.exports = {
   site: 'skylink.cz',
@@ -12,7 +13,7 @@ module.exports = {
       "referer": "https://livetv.skylink.cz",
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0",
       "Accept": "application/json",
-      "authorization": `Bearer ${tokenCZ}`
+      "authorization": `Bearer ${tokenSK}`
     },
     cache: {
       ttl: 3 * 60 * 60 * 1000 // 3h
@@ -73,7 +74,7 @@ async function loadProgramDetails(item, channel) {
         "referer": "https://livetv.skylink.cz",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0",
         "Accept": "application/json",
-        "authorization": `Bearer ${tokenCZ}`
+        "authorization": `Bearer ${tokenSK}`
       },
     }
     )
