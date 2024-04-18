@@ -100,7 +100,7 @@ function parseSub(detail) {
 }
 
 function parseIcon(detail) {
-  if (!detail.images) return []
+  if (!detail.images[1]) return []
   //console.log("parseIcon", "detail.images[1].url + "&w=464&h=261")
   return detail.images[1].url + "&w=464&h=261"
 }
