@@ -2,7 +2,7 @@
 #
 #
 echo -e "\033[31;1m r-chanells \033[0m"
-for Rchanells in {horizon,programandroid,mujtvprogram}
+for Rchanells in {horizon,CZ-skylink,mujtvprogram}
 do
 echo "r-${Rchanells}"
 
