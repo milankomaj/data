@@ -1,4 +1,5 @@
 name: Playwright
+run-name: ${{ github.workflow }} ✅ ${{ github.event_name}}
 on:
   workflow_dispatch:
   workflow_call:
