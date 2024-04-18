@@ -15,6 +15,8 @@ module.exports = {
       "Accept": "application/json",
       "authorization": `Bearer ${tokenCZ}`
     },
+    timeout: 9000, //
+    delay: 3000, // 3 seconds
     cache: {
       ttl: 3 * 60 * 60 * 1000 // 3h
     }
