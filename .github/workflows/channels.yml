@@ -58,6 +58,7 @@ jobs:
           chmod +x ./scripts/mujtvprogram_list_xq.sh
           chmod +x ./scripts/r-chanells.sh
           chmod +x ./scripts/csv2md.sh
+          chmod +x ./scripts/align.sh
         shell: bash
 
       - name: Update
@@ -73,6 +74,7 @@ jobs:
           ./scripts/skylink_balicky.sh
           ./scripts/r-chanells.sh
           ./scripts/csv2md.sh
+          ./scripts/align.sh
         shell: bash
 
       - name: tree
@@ -92,5 +94,6 @@ jobs:
           git add ./csv/*.csv
           git add ./channels/*.xml
           git add ./md/*.md
+          git add ./samsungTV-Q/*.csv
           git commit -m "epg-grabber-update-codes" || echo
           git push

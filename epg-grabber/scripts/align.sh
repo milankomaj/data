@@ -1,6 +1,8 @@
 #!/bin/bash
 # awk -F',' 'NR==FNR && FNR>1 {ids[$2]; next} $3 in ids' ids.csv data.csv > out.csv
 # ...cca
+echo -e "\033[31;1m align \033[0m"
+
 for chanells in {solocoo.tv_cz.chanell,solocoo.tv_sk.chanell}
 do
 echo "${chanells}"
