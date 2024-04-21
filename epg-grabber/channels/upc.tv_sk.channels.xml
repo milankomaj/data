@@ -37,7 +37,6 @@
     <channel lang="sk" xmltv_id="upctv-10047" site_id="10047" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8603.f.WAR.png">CS History HD</channel>
     <channel lang="sk" xmltv_id="upctv-10048" site_id="10048" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5111.f.Kino_Svet.png">CS Mystery HD</channel>
     <channel lang="sk" xmltv_id="upctv-10020" site_id="10020" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8432.f.CT_D_art_HD.png">CT D HD / CT art HD</channel>
-    <channel lang="sk" xmltv_id="upctv-10082" site_id="10082" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5055.f.CT_sport_HD.png">CT sport HD</channel>
     <channel lang="sk" xmltv_id="upctv-10018" site_id="10018" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5053.f.CT_1_HD.png">CT 1 HD</channel>
     <channel lang="sk" xmltv_id="upctv-10019" site_id="10019" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5054.f.CT_2_HD.png">CT 2 HD</channel>
     <channel lang="sk" xmltv_id="upctv-10021" site_id="10021" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8431.f.CT_24_HD.png">CT 24 HD</channel>
@@ -68,7 +67,6 @@
     <channel lang="sk" xmltv_id="upctv-10202" site_id="10202" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/fashionbox.f.png">FashionBox HD</channel>
     <channel lang="sk" xmltv_id="upctv-10105" site_id="10105" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8274.f.Fashion_TV_HD.png">Fashion TV HD</channel>
     <channel lang="sk" xmltv_id="upctv-10130" site_id="10130" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8005.f.Fast_and_Fun_HD.png">Fast &amp; FunBox HD</channel>
-    <channel lang="sk" xmltv_id="upctv-10161" site_id="10161" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Fem3_HU.f.Fem3_HU.png">Fem3</channel>
     <channel lang="sk" xmltv_id="upctv-10128" site_id="10128" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8006.f.Fightbox_HD.png">Fightbox HD</channel>
     <channel lang="sk" xmltv_id="upctv-10201" site_id="10201" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/arthouse.f.png">FilmBox Arthouse HD</channel>
     <channel lang="sk" xmltv_id="upctv-10125" site_id="10125" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5011.f.FilmBox_Extra_HD.png">FilmBox Extra HD</channel>
@@ -224,6 +222,7 @@
     <channel lang="sk" xmltv_id="upctv-10039" site_id="10039" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/ruzinov.f.TV_Ruzinov_HD.png">TV Ruzinov HD</channel>
     <channel lang="sk" xmltv_id="upctv-12113" site_id="12113" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TV_Stara_Tura.f.png">TV Stara Tura</channel>
     <channel lang="sk" xmltv_id="upctv-12125" site_id="12125" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TV_Vita.f.png">TV Vita</channel>
+    <channel lang="sk" xmltv_id="upctv-10161" site_id="10161" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Fem3_HU.f.Fem3_HU.png">TV2Klub</channel>
     <channel lang="sk" xmltv_id="upctv-10160" site_id="10160" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TV2Sef_HU.f.TV2Sef_HU.png">TV2Sef</channel>
     <channel lang="sk" xmltv_id="upctv-10148" site_id="10148" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_11_w_c2db000b3b3fe8fab637bc2a3aa973d3.TV2_SK.png">TV2</channel>
     <channel lang="sk" xmltv_id="upctv-10150" site_id="10150" logo="https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483010.f.Story_4_SK.png">TV4</channel>

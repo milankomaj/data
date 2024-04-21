@@ -156,7 +156,7 @@
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Film%20HD%20Hungary_m.png) | **Film+ HD Hungary** | 222
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Galaxy4_m.png) | **Galaxy4** | 223
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/TV2%20Comedy_m.png) | **TV2 Comedy** | 224
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Fem3_m.png) | **Fem3** | 225
+![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/TV2Klub_m.png) | **TV2Klub** | 225
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Izaura%20TV_m.png) | **Izaura TV** | 226
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Nick%20Jr%20Hungary_m.png) | **Nick Jr Hungary** | 227
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Nickelodeon%20Hungary_m.png) | **Nickelodeon Hungary** | 228
@@ -295,6 +295,7 @@
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Fashion%204K_m.png) | **Fashion 4K** | 561
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Stingray%20iConcerts%20%28East%29_m.png) | **Stingray iConcerts (East)** | 562
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Stingray%20Classica%20%28East%29_m.png) | **Stingray Classica (East)** | 563
+![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/TV%20Lux._m.png) | **TV Lux.** | 564
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/OTA%20Cam%20701%20Download_m.png) | **OTA Cam 701 Download** | 701
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/RADIO%20VLNA_m.png) | **RADIO VLNA** | 800
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Slovensko_m.png) | **Slovensko** | 801
