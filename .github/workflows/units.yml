@@ -72,7 +72,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           sparse-checkout: |
-           epg-grabber/scripts
+           epg-grabber/scripts/combine-xml.sh
+          sparse-checkout-cone-mode: false
 
       - uses: actions/download-artifact@v4
         id: download
