@@ -23,6 +23,6 @@ done
 
 sed -i 1i"$head" guide/units.guide.xml
 echo "</tv>" >> guide/units.guide.xml
-sed -i 's/http/https/g' guide/units.guide.xml
+sed -i 's/http\:/https\:/g' guide/units.guide.xml
 
 echo "done"
