@@ -85,7 +85,7 @@ jobs:
         working-directory: ./epg-grabber
         id: combine
         run: |
-         tree -h epg-grabber/scripts
+         tree -h ./
          echo ${{steps.download.outputs.download-path}}
          tree -h ${{steps.download.outputs.download-path}}
          chmod +x ./scripts/combine-xml.sh
