@@ -20,8 +20,6 @@ jobs:
         include:
            - unit: unit1
            - unit: unit2
-
-
     defaults:
       run:
         working-directory: ./epg-grabber
@@ -57,3 +55,20 @@ jobs:
           path: |
            ${{ github.workspace }}/epg-grabber/guide/${{ matrix.unit }}.guide.xml
           retention-days: 5
+
+  push:
+    runs-on: ubuntu-latest
+    needs: [grab]
+    steps:
+     # Artifacts download
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        id: download
+        with:
+         path: ${{ github.workspace }}/epg-grabber/guide/
+
+      - name: 'download path &&'
+        run: |
+         echo ${{steps.download.outputs.download-path}}
+         tree -h ${{ github.workspace }}/epg-grabber/guide/
+         tree -h ${{steps.download.outputs.download-path}}
