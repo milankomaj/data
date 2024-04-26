@@ -8,8 +8,8 @@
     "grab2": "epg-grabber --config=./sites/horizon.tv.config.js --channels=./channels/r-horizon.xml --output=./guide/horizon.tv_sk.guide.xml --days=5",
     "grab3": "epg-grabber --config=./sites/solocoo.cz.config.js --channels=./channels/r-CZ-skylink.xml --output=./guide/skylink.cz.guide.xml --days=5",
     "grab4": "epg-grabber --config=./sites/***.js --channels=./channels/***.xml --output=./guide/***.guide.xml --days=5",
-    "unit1": "epg-grabber --config=./sites/warner-tv.cz.config.js --channels=./channels/warner-tv.cz.chanell.xml --output=./guide/uni1.guide.xml --days=1",
-    "unit2": "epg-grabber --config=./sites/filmbox.sk.config.js --channels=./channels/filmbox_chanell.xml --output=./guide/uni2.guide.xml --days=1"
+    "unit1": "epg-grabber --config=./sites/warner-tv.cz.config.js --channels=./channels/warner-tv.cz.chanell.xml --output=./guide/unit1.guide.xml --days=1",
+    "unit2": "epg-grabber --config=./sites/filmbox.sk.config.js --channels=./channels/filmbox_chanell.xml --output=./guide/unit2.guide.xml --days=1"
 
 
   },

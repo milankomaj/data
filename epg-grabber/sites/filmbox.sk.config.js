@@ -13,13 +13,11 @@ module.exports = {
   },
   url: function ({ date, channel }) {
     const day = date.format('YYYY-MM-DD')
-    console.log("👉 day:", day)
     return `https://www.sledujfilmbox.sk/epg/data/?date=${day}`
   },
   async parser({ content, channel, date }) {
     let programs = []
     let items = parseItems(content, channel)
-    console.log("👉 items.length", items.length)
     if (!items.length) return programs
 
 
