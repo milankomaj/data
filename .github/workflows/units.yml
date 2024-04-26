@@ -42,13 +42,18 @@ jobs:
         run: |
          npm run ${{ matrix.unit }}
          scale=$(sed -n '$=' ./guide/${{ matrix.unit }}.guide.xml)
-         echo ${{ matrix.unit }} - $scale
+
 
          if [[ "${{ matrix.unit }}" = "unit1" ]]
          then
+         echo ${{ matrix.unit }} - $scale
          echo "unit1_outcome=$scale" >> $GITHUB_OUTPUT
-         else
+         elif [[ "${{ matrix.unit }}" = "unit2" ]]
+         then
+         echo ${{ matrix.unit }} - $scale
          echo "unit2_outcome=$scale" >> $GITHUB_OUTPUT
+         else
+         exit 1
          fi
 
 
@@ -106,9 +111,9 @@ jobs:
          sum=$(( ${{ needs.grab.outputs.unit1_scale }} + ${{ needs.grab.outputs.unit2_scale }} - 2 ))
          if [[ $sum -eq $scale ]]
          then
-         echo "✅"
+         echo "✅ Equal"
          else
-         echo "❌"
+         echo "❌ Not equal"
          fi
 
       - name: Deploy
