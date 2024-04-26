@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site site="sledujfilmbox.sk">
+  <channels>
+    <channel lang="cz" xmltv_id="filmbox-1" site_id="72" logo="https://c.sledujfilmbox.cz/files/epg/tv/72.png">Filmbox</channel>
+    <channel lang="cz" xmltv_id="filmbox-4" site_id="76" logo="https://c.sledujfilmbox.cz/files/epg/tv/76.png">Filmbox Stars</channel>
+    <channel lang="cz" xmltv_id="filmbox-3" site_id="182" logo="https://c.sledujfilmbox.cz/files/epg/tv/182.png">Filmbox Extra HD</channel>
+    <channel lang="cz" xmltv_id="filmbox-5" site_id="576" logo="https://c.sledujfilmbox.cz/files/epg/tv/576.png">Filmbox Family</channel>
+    <channel lang="cz" xmltv_id="filmbox-8" site_id="590" logo="https://c.sledujfilmbox.cz/files/epg/tv/590.png">Fightbox HD</channel>
+    <channel lang="cz" xmltv_id="filmbox-2" site_id="592" logo="https://c.sledujfilmbox.cz/files/epg/tv/592.png">Filmbox Premium HD</channel>
+    <channel lang="cz" xmltv_id="filmbox-13" site_id="731" logo="https://c.sledujfilmbox.cz/files/epg/tv/731.png">Eroxxx HD</channel>
+    <channel lang="cz" xmltv_id="filmbox-7" site_id="733" logo="https://c.sledujfilmbox.cz/files/epg/tv/733.png">Docubox HD</channel>
+    <channel lang="cz" xmltv_id="filmbox-9" site_id="734" logo="https://c.sledujfilmbox.cz/files/epg/tv/734.png">Fashionbox HD</channel>
+    <channel lang="cz" xmltv_id="filmbox-11" site_id="841" logo="https://c.sledujfilmbox.cz/files/epg/tv/841.png">360TuneBox</channel>
+    <channel lang="cz" xmltv_id="filmbox-6" site_id="982" logo="https://c.sledujfilmbox.cz/files/epg/tv/982.png">Filmbox Arthouse</channel>
+    <channel lang="cz" xmltv_id="filmbox-10" site_id="983" logo="https://c.sledujfilmbox.cz/files/epg/tv/983.png">Fast&amp;Funbox HD</channel>
+  </channels>
+</site>
