@@ -105,5 +105,5 @@ jobs:
           echo ${{ steps.combine.outcome }}
           git add ${{steps.download.outputs.download-path}}/units.guide.xml
           git commit -m "units-grabber - ${{ steps.combine.outcome }}"
-          git pull
+          git status --short -uno
           git push -f

@@ -1,8 +1,8 @@
 #!/bin/bash
-#
+# rm guide/units.guide.xml
 echo -e "\033[31;1m units \033[0m"
 
-# rm guide/units.guide.xml
+
 timestamp=$(date +"%Y%m%d")
 head="<?xml version=\"1.0\" encoding=\"UTF-8\"?><tv date=\"$timestamp\">"
 
