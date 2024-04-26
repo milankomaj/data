@@ -69,7 +69,12 @@ jobs:
 
     steps:
      # Artifacts download
-      # - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+           ./scripts/combine-xml.sh
+          sparse-checkout-cone-mode: false
+
       - uses: actions/download-artifact@v4
         id: download
         with:
