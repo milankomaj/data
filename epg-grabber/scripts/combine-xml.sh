@@ -5,7 +5,7 @@ echo -e "\033[31;1m units \033[0m"
 timestamp=$(date +"%Y%m%d")
 head="<?xml version=\"1.0\" encoding=\"UTF-8\"?><tv date=\"$timestamp\">"
 
-for guide in {unit2.guide.xml,unit1.guide.xmll}
+for guide in {unit2.guide.xml,unit1.guide.xml}
 do
 string=\<channel
 echo "${guide} - ${string}"
