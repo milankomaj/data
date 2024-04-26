@@ -23,15 +23,15 @@ jobs:
     needs: [channels]
     uses: ./.github/workflows/epg-grabber-2.yml
     secrets: inherit
-  # grab_unit:
-  #   needs: [channels]
-  #   uses: ./.github/workflows/units.yml
-  #   secrets: inherit
+  grab_unit:
+   needs: [channels]
+   uses: ./.github/workflows/units.yml
+   secrets: inherit
 
 
   push:
     runs-on: ubuntu-latest
-    needs: [grab1,grab2,playwright,channels]
+    needs: [grab1,grab2,playwright,channels,grab_unit]
     steps:
 
       - name: Checkout
@@ -59,6 +59,7 @@ jobs:
          echo ${{ needs.grab2.outputs.grab2_outcome }}
          echo ${{ needs.playwright.outputs.playwright_outcome  }}
          echo ${{ needs.playwright.outputs.grab3_outcome  }}
+         echo ${{ needs.grab_unit.outputs.units_outcome  }}
          echo ${{ github.event_name }}
 
       - name: GITHUB_STEP_SUMMARY
@@ -70,6 +71,8 @@ jobs:
           echo "grab2 | $(echo ${{ needs.grab2.outputs.grab2_outcome }})" >> $GITHUB_STEP_SUMMARY
           echo "playwright | $(echo ${{ needs.playwright.outputs.playwright_outcome }})" >> $GITHUB_STEP_SUMMARY
           echo "grab3 | $(echo ${{ needs.playwright.outputs.grab3_outcome }})" >> $GITHUB_STEP_SUMMARY
+          echo "grab_unit | $(echo ${{ needs.grab_unit.outputs.units_outcome }})" >> $GITHUB_STEP_SUMMARY
+
       #
       - name: Update
         if: ${{ github.event_name == 'schedule' }} || ${{ github.event_name == 'workflow_dispatch' }}
