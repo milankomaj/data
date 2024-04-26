@@ -88,8 +88,8 @@ jobs:
         run: |
          echo ${{steps.download.outputs.download-path}}
          tree -h ${{steps.download.outputs.download-path}}
-         chmod +x ./scripts/combine-xml.sh
-         ./scripts/combine-xml.sh
+         chmod +x ${{ github.workspace }}/epg-grabber/scripts/combine-xml.sh
+         ${{ github.workspace }}/epg-grabber/scripts/combine-xml.sh
          tree -h ${{steps.download.outputs.download-path}}
 
       - name: Deploy
