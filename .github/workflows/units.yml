@@ -24,8 +24,10 @@ jobs:
       run:
         working-directory: ./epg-grabber
     outputs:
-      unit1_scale: ${{ steps.grab_unit.outputs.unit1_outcome}}
-      unit2_scale: ${{ steps.grab_unit.outputs.unit2_outcome}}
+      unit1_scale: ${{ steps.unit_outcome.outputs.unit1_sum_outcome}}
+      unit2_scale: ${{ steps.unit_outcome.outputs.unit2_sum_outcome}}
+      unit1: ${{ steps.unit_outcome.outputs.unit1_outcome}}
+      unit2: ${{ steps.unit_outcome.outputs.unit2_outcome}}
 
     steps:
       - name: Checkout
@@ -63,16 +65,18 @@ jobs:
           if [[ "${{ matrix.unit }}" = "unit1" ]]
           then
           echo ${{ matrix.unit }} - $scale
-          echo "unit1_outcome=$scale" >> $GITHUB_OUTPUT
+          echo "unit1_sum_outcome=$scale" >> $GITHUB_OUTPUT
+          echo "unit1_outcome=${{ steps.grab_unit.outcome }}" >> $GITHUB_OUTPUT
           elif [[ "${{ matrix.unit }}" = "unit2" ]]
           then
           echo ${{ matrix.unit }} - $scale
-          echo "unit2_outcome=$scale" >> $GITHUB_OUTPUT
+          echo "unit2_sum_outcome=$scale" >> $GITHUB_OUTPUT
+          echo "unit2_outcome=${{ steps.grab_unit.outcome }}" >> $GITHUB_OUTPUT
           else
           exit 1
           fi
 
-          
+
   push:
     runs-on: ubuntu-latest
     if: ${{ success() }}
@@ -99,6 +103,8 @@ jobs:
         working-directory: ./epg-grabber
         id: combine
         run: |
+         echo ${{ needs.grab.outputs.unit1 }}
+         echo ${{ needs.grab.outputs.unit2 }}
          echo ${{steps.download.outputs.download-path}}
          tree -h ${{steps.download.outputs.download-path}}
          chmod +x ./scripts/combine-xml.sh
