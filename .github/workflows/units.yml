@@ -96,7 +96,7 @@ jobs:
           git config --global user.name ${{ secrets.NAME }}
           git config pull.rebase true
           echo ${{ steps.combine.outcome }}
-          git add ./guide/units.guide.xml
+          git add ${{steps.download.outputs.download-path}}/units.guide.xml
           git commit -m "units-grabber - ${{ steps.combine.outcome }}"
           git pull
           git push -f
