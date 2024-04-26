@@ -17,3 +17,4 @@ echo "</site>" >> channels/filmbox_chanell.xml
 sed -i 's/&/&amp;/g' channels/filmbox_chanell.xml
 #
 sed -i 1i"xmltv_id,site_id,name,channelNumber,logoUrl" csv/filmbox_chanell.csv
+echo "done"
