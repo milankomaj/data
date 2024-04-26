@@ -41,22 +41,6 @@ jobs:
         working-directory: ./epg-grabber
         run: |
          npm run ${{ matrix.unit }}
-         scale=$(sed -n '$=' ./guide/${{ matrix.unit }}.guide.xml)
-
-
-         if [[ "${{ matrix.unit }}" = "unit1" ]]
-         then
-         echo ${{ matrix.unit }} - $scale
-         echo "unit1_outcome=$scale" >> $GITHUB_OUTPUT
-         elif [[ "${{ matrix.unit }}" = "unit2" ]]
-         then
-         echo ${{ matrix.unit }} - $scale
-         echo "unit2_outcome=$scale" >> $GITHUB_OUTPUT
-         else
-         exit 1
-         fi
-
-
 
       - uses: actions/upload-artifact@v4
         id: upload
@@ -75,7 +59,20 @@ jobs:
           echo ${{ matrix.unit }} - ${{ steps.grab_unit.outcome }}
           echo ${{ steps.upload.outputs.artifact-id }}
           echo ${{ steps.upload.outputs.artifact-url }}
+          scale=$(sed -n '$=' ./guide/${{ matrix.unit }}.guide.xml)
+          if [[ "${{ matrix.unit }}" = "unit1" ]]
+          then
+          echo ${{ matrix.unit }} - $scale
+          echo "unit1_outcome=$scale" >> $GITHUB_OUTPUT
+          elif [[ "${{ matrix.unit }}" = "unit2" ]]
+          then
+          echo ${{ matrix.unit }} - $scale
+          echo "unit2_outcome=$scale" >> $GITHUB_OUTPUT
+          else
+          exit 1
+          fi
 
+          
   push:
     runs-on: ubuntu-latest
     if: ${{ success() }}
