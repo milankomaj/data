@@ -3,6 +3,19 @@ const dayjs = require('dayjs')
 module.exports = {
   site: 'warner-tv.cz',
   maxConnections: 5,
+  request: {
+    headers: {
+      "origin": "https://warner-tv.cz",
+      "referer": "https://warner-tv.cz",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0",
+      "Accept": "application/json"
+    },
+    timeout: 9000, //
+    delay: 3000, // 3 seconds
+    cache: {
+      ttl: 60 * 60 * 1000 // 1 hour
+    }
+  },
   url: function ({ date, channel }) {
     const day = date.format('YYYY/M/DD')
 
@@ -11,7 +24,7 @@ module.exports = {
   async parser({ content, channel, date }) {
     let programs = []
     let items = parseItems(content)
-    if (!items.length) return programs
+    console.log("👉 items.length:", items.length)
 
     const images = items.items_images
 
