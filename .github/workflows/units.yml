@@ -69,7 +69,12 @@ jobs:
          merge-multiple: true
          pattern: units_*
 
-      - name: 'download path &&'
+      - name: 'download && path && combine'
+        working-directory: ./epg-grabber
+        id: combine
         run: |
          echo ${{steps.download.outputs.download-path}}
+         tree -h ${{steps.download.outputs.download-path}}
+         chmod +x ./scripts/combine-xml.sh
+         ./scripts/combine-xml.sh
          tree -h ${{steps.download.outputs.download-path}}
