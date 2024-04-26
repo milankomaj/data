@@ -55,5 +55,5 @@ jobs:
         with:
           name: units
           path: |
-           ./guide/${{ matrix.unit }}.guide.xml
+           ${{ github.workspace }}/guide/${{ matrix.unit }}.guide.xml
           retention-days: 5
