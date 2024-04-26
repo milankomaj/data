@@ -66,6 +66,8 @@ jobs:
         id: download
         with:
          path: ${{ github.workspace }}/epg-grabber/guide/
+         merge-multiple: true
+         pattern: units_*
 
       - name: 'download path &&'
         run: |
