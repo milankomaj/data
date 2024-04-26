@@ -23,9 +23,9 @@ jobs:
     needs: [channels]
     uses: ./.github/workflows/epg-grabber-2.yml
     secrets: inherit
-  # grab3:
+  # grab_unit:
   #   needs: [channels]
-  #   uses: ./.github/workflows/epg-grabber-3.yml
+  #   uses: ./.github/workflows/units.yml
   #   secrets: inherit
 
 

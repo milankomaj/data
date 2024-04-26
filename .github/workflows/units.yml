@@ -1,0 +1,62 @@
+name: units-grabber
+run-name: ${{ github.workflow }} ✅ ${{ github.event_name}}
+on:
+  workflow_call:
+      outputs:
+       units_outcome:
+        description: "jobs.grab.outputs.output_unit"
+        value: ${{ jobs.grab.outputs.output_unit }}
+  workflow_dispatch:
+
+
+jobs:
+  grab:
+    runs-on: ubuntu-latest
+    timeout-minutes: 80
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        include:
+           - unit: uni1
+           - unit: unit2
+
+
+    defaults:
+      run:
+        working-directory: ./epg-grabber
+    outputs:
+      output_unit: ${{ steps.unit_outcome.outputs.unit_outcome}}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: NpmInstall
+        id: NpmInstall
+        run: npm install
+
+      - name: Grab
+        if: steps.NpmInstall.outcome == 'success'
+        id: grab_unit
+        working-directory: ./epg-grabber
+        run: |
+         npm run ${{ matrix.unit }}
+
+      - name: outcome
+        id: unit_outcome
+        shell: bash
+        run: |
+          echo ${{ matrix.unit }} - ${{ steps.grab_unit.outcome }}
+          echo "unit_outcome=${{ matrix.unit }} - ${{ steps.grab_unit.outcome }}" >> $GITHUB_OUTPUT
+
+      - uses: actions/upload-artifact@v4
+        if: steps.unit_outcome.outcome == 'success'
+        with:
+          name: units
+          path: |
+           ./guide/${{ matrix.unit }}.guide.xml
+          retention-days: 5
+
+
+
