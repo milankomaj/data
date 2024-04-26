@@ -100,6 +100,7 @@ jobs:
           echo "units_outcome=${{ steps.combine.outcome }}" >> $GITHUB_OUTPUT
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}
+          git config advice.updateSparsePath false
           git config pull.rebase false
           echo ${{ steps.combine.outcome }}
           git add ${{steps.download.outputs.download-path}}/units.guide.xml
