@@ -2,6 +2,7 @@
 #
 echo -e "\033[31;1m units \033[0m"
 
+rm guide/units.guide.xml
 timestamp=$(date +"%Y%m%d")
 head="<?xml version=\"1.0\" encoding=\"UTF-8\"?><tv date=\"$timestamp\">"
 
@@ -22,5 +23,6 @@ done
 
 sed -i 1i"$head" guide/units.guide.xml
 echo "</tv>" >> guide/units.guide.xml
+sed -i 's/http/https/g' units.guide.xml
 
 echo "done"
