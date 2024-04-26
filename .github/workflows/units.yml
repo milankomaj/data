@@ -19,7 +19,7 @@ jobs:
       matrix:
         include:
            - unit: unit1
-
+           - unit: unit2
 
 
     defaults:
