@@ -24,7 +24,8 @@ jobs:
       run:
         working-directory: ./epg-grabber
     outputs:
-      output_scale: ${{ steps.grab_unit.outputs.scale_outcome}}
+      unit1_scale: ${{ steps.grab_unit.outputs.unit1_outcome}}
+      unit2_scale: ${{ steps.grab_unit.outputs.unit2_outcome}}
 
     steps:
       - name: Checkout
@@ -42,7 +43,15 @@ jobs:
          npm run ${{ matrix.unit }}
          scale=$(sed -n '$=' ./guide/${{ matrix.unit }}.guide.xml)
          echo ${{ matrix.unit }} - $scale
-         echo "scale_outcome=$scale" >> $GITHUB_OUTPUT
+
+         if [[ "${{ matrix.unit }}" = "unit1" ]]
+         then
+         echo "unit1_outcome=$scale" >> $GITHUB_OUTPUT
+         else
+         echo "unit2_outcome=$scale" >> $GITHUB_OUTPUT
+         fi
+
+
 
       - uses: actions/upload-artifact@v4
         id: upload
@@ -96,8 +105,8 @@ jobs:
          tree -h ${{steps.download.outputs.download-path}}
          scale=$(sed -n '$=' ./guide/units.guide.xml)
          echo units - $scale
-         echo ${{ needs.grab.outputs.output_scale }}
-
+         echo ${{ needs.grab.outputs.unit1_scale }}
+         echo ${{ needs.grab.outputs.unit2_scale }}
 
       - name: Deploy
         id: deploy
