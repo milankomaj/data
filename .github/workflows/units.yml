@@ -4,8 +4,8 @@ on:
   workflow_call:
       outputs:
        units_outcome:
-        description: "jobs.grab.outputs.output_unit"
-        value: ${{ jobs.grab.outputs.output_unit }}
+        description: "jobs.push.outputs.output_units"
+        value: ${{ jobs.push.outputs.output_units }}
   workflow_dispatch:
 
 
@@ -23,8 +23,7 @@ jobs:
     defaults:
       run:
         working-directory: ./epg-grabber
-    outputs:
-      output_unit: ${{ steps.unit_outcome.outputs.unit_outcome}}
+
 
     steps:
       - name: Checkout
@@ -41,24 +40,31 @@ jobs:
         run: |
          npm run ${{ matrix.unit }}
 
+      - uses: actions/upload-artifact@v4
+        id: upload
+        if: steps.grab_unit.outcome == 'success'
+        with:
+          name: units_${{ matrix.unit }}
+          if-no-files-found: error
+          path: |
+           ${{ github.workspace }}/epg-grabber/guide/${{ matrix.unit }}.guide.xml
+          retention-days: 5
+
       - name: outcome
         id: unit_outcome
         shell: bash
         run: |
           echo ${{ matrix.unit }} - ${{ steps.grab_unit.outcome }}
-          echo "unit_outcome=${{ matrix.unit }} - ${{ steps.grab_unit.outcome }}" >> $GITHUB_OUTPUT
-
-      - uses: actions/upload-artifact@v4
-        if: steps.unit_outcome.outcome == 'success'
-        with:
-          name: units_${{ matrix.unit }}
-          path: |
-           ${{ github.workspace }}/epg-grabber/guide/${{ matrix.unit }}.guide.xml
-          retention-days: 5
+          echo ${{ steps.upload.outputs.artifact-id }}
+          echo ${{ steps.upload.outputs.artifact-url }}
 
   push:
     runs-on: ubuntu-latest
+    if: ${{ success() }}
     needs: [grab]
+    outputs:
+      output_units: ${{ steps.deploy.outputs.units_outcome}}
+
     steps:
      # Artifacts download
       - uses: actions/checkout@v4
@@ -78,3 +84,17 @@ jobs:
          chmod +x ./scripts/combine-xml.sh
          ./scripts/combine-xml.sh
          tree -h ${{steps.download.outputs.download-path}}
+
+      - name: Deploy
+        id: deploy
+        if: steps.combine.outcome == 'success'
+        run: |
+          echo "units_outcome=${{ steps.combine.outcome }}" >> $GITHUB_OUTPUT
+          git config --global user.email ${{ secrets.EMAIL }}
+          git config --global user.name ${{ secrets.NAME }}
+          git config pull.rebase true
+          echo ${{ steps.combine.outcome }}
+          git add ./guide/units.guide.xml
+          git commit -m "units-grabber - ${{ steps.combine.outcome }}"
+          git pull
+          git push -f
