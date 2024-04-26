@@ -72,7 +72,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           sparse-checkout: |
-           ./scripts/combine-xml.sh
+           ${{ github.workspace }}/epg-grabber/scripts/combine-xml.sh
           sparse-checkout-cone-mode: false
 
       - uses: actions/download-artifact@v4
