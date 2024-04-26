@@ -97,18 +97,19 @@ jobs:
         working-directory: ./epg-grabber
         id: combine
         run: |
-         tree -h ./
          echo ${{steps.download.outputs.download-path}}
          tree -h ${{steps.download.outputs.download-path}}
          chmod +x ./scripts/combine-xml.sh
          ./scripts/combine-xml.sh
          tree -h ${{steps.download.outputs.download-path}}
          scale=$(sed -n '$=' ./guide/units.guide.xml)
-         echo units - $scale
-         echo ${{ needs.grab.outputs.unit1_scale }}
-         echo ${{ needs.grab.outputs.unit2_scale }}
          sum=$(( ${{ needs.grab.outputs.unit1_scale }} + ${{ needs.grab.outputs.unit2_scale }} - 2 ))
-         echo [[ $sum -eq $scale ]]
+         if [[ $sum -eq $scale ]]
+         then
+         echo "✅"
+         else
+         echo "❌"
+         fi
 
       - name: Deploy
         id: deploy
