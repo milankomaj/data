@@ -39,6 +39,8 @@ jobs:
         working-directory: ./epg-grabber
         run: |
          npm run ${{ matrix.unit }}
+         scale=$(sed -n '$=' ./guide/${{ matrix.unit }}.guide.xml)
+         echo ${{ matrix.unit }} - $scale
 
       - uses: actions/upload-artifact@v4
         id: upload
