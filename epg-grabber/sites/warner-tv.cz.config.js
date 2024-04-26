@@ -24,7 +24,6 @@ module.exports = {
   async parser({ content, channel, date }) {
     let programs = []
     let items = parseItems(content)
-    console.log("👉 items.length:", items.length)
 
     const images = items.items_images
 
