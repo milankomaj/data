@@ -72,5 +72,4 @@ jobs:
       - name: 'download path &&'
         run: |
          echo ${{steps.download.outputs.download-path}}
-         tree -h ${{ github.workspace }}/epg-grabber/guide/
          tree -h ${{steps.download.outputs.download-path}}
