@@ -59,6 +59,8 @@ jobs:
          echo ${{ needs.grab2.outputs.grab2_outcome }}
          echo ${{ needs.playwright.outputs.playwright_outcome  }}
          echo ${{ needs.playwright.outputs.grab3_outcome  }}
+         echo ${{ needs.grab_unit.outputs.unit1_outcome }}
+         echo ${{ needs.grab_unit.outputs.unit2_outcome }}
          echo ${{ needs.grab_unit.outputs.units_outcome  }}
          echo ${{ github.event_name }}
 
@@ -71,7 +73,9 @@ jobs:
           echo "grab2 | $(echo ${{ needs.grab2.outputs.grab2_outcome }})" >> $GITHUB_STEP_SUMMARY
           echo "playwright | $(echo ${{ needs.playwright.outputs.playwright_outcome }})" >> $GITHUB_STEP_SUMMARY
           echo "grab3 | $(echo ${{ needs.playwright.outputs.grab3_outcome }})" >> $GITHUB_STEP_SUMMARY
-          echo "grab_unit | $(echo ${{ needs.grab_unit.outputs.units_outcome }})" >> $GITHUB_STEP_SUMMARY
+          echo "grab_unit1 | $(echo ${{ needs.grab_unit.outputs.unit1_outcome }})" >> $GITHUB_STEP_SUMMARY
+          echo "grab_unit2 | $(echo ${{ needs.grab_unit.outputs.unit2_outcome }})" >> $GITHUB_STEP_SUMMARY
+          echo "grab_units_combine | $(echo ${{ needs.grab_unit.outputs.units_outcome }})" >> $GITHUB_STEP_SUMMARY
 
       #
       - name: Update

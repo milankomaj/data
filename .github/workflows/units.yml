@@ -6,6 +6,14 @@ on:
        units_outcome:
         description: "jobs.push.outputs.output_units"
         value: ${{ jobs.push.outputs.output_units }}
+       unit1_outcome:
+        description: "jobs.grab.outputs.unit1"
+        value: ${{ jobs.grab.outputs.unit1 }}
+       unit2_outcome:
+        description: "jobs.grab.outputs.unit2"
+        value: ${{ jobs.grab.outputs.unit2 }}
+
+
   workflow_dispatch:
 
 
