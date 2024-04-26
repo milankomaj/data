@@ -94,7 +94,7 @@ jobs:
           echo "units_outcome=${{ steps.combine.outcome }}" >> $GITHUB_OUTPUT
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}
-          git config pull.rebase true
+          git config pull.rebase false
           echo ${{ steps.combine.outcome }}
           git add ${{steps.download.outputs.download-path}}/units.guide.xml
           git commit -m "units-grabber - ${{ steps.combine.outcome }}"
