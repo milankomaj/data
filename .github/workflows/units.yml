@@ -53,7 +53,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: steps.unit_outcome.outcome == 'success'
         with:
-          name: units
+          name: units-${{ github.workspace }}
           path: |
            ${{ github.workspace }}/epg-grabber/guide/${{ matrix.unit }}.guide.xml
           retention-days: 5
