@@ -107,6 +107,8 @@ jobs:
          echo units - $scale
          echo ${{ needs.grab.outputs.unit1_scale }}
          echo ${{ needs.grab.outputs.unit2_scale }}
+         sum=$(( ${{ needs.grab.outputs.unit1_scale }} + ${{ needs.grab.outputs.unit2_scale }} - 2 ))
+         echo [[ $sum -eq $scale ]]
 
       - name: Deploy
         id: deploy
