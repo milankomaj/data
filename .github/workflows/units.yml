@@ -43,7 +43,7 @@ jobs:
 
       - name: localle
         uses: milankomaj/shell-x@v0.3
-        if: ${{ github.event_name == 'workflow_dispatch' }}
+        if: ${{ github.event_name == 'workflow_dispatch' }} || ${{ github.event_name == 'schedule' }}
         with:
           shell: bash
           locale: sk_SK.utf8
