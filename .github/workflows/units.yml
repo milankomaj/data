@@ -41,6 +41,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: localle
+        uses: milankomaj/shell-x@v0.3
+        with:
+          shell: bash
+          locale: sk_SK.utf8
+          timezone: Europe/Bratislava
+          comand: date && sudo timedatectl set-local-rtc 1 && timedatectl
+
       - name: NpmInstall
         id: NpmInstall
         run: npm install
