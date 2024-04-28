@@ -12,10 +12,7 @@ on:
        unit2_outcome:
         description: "jobs.grab.outputs.unit2"
         value: ${{ jobs.grab.outputs.unit2 }}
-
-
   workflow_dispatch:
-
 
 jobs:
   grab:
@@ -49,7 +46,6 @@ jobs:
           locale: sk_SK.utf8
           timezone: Europe/Bratislava
 
-
       - name: NpmInstall
         id: NpmInstall
         run: npm install
@@ -79,19 +75,25 @@ jobs:
           echo ${{ steps.upload.outputs.artifact-id }}
           echo ${{ steps.upload.outputs.artifact-url }}
           scale=$(sed -n '$=' ./guide/${{ matrix.unit }}.guide.xml)
-          if [[ "${{ matrix.unit }}" = "unit1" ]]
-          then
+
+          # if [[ "${{ matrix.unit }}" = "unit1" ]]
+          # then
+          # echo ${{ matrix.unit }} - $scale
+          # echo "unit1_sum_outcome=$scale" >> $GITHUB_OUTPUT
+          # echo "unit1_outcome=${{ steps.grab_unit.outcome }}" >> $GITHUB_OUTPUT
+          # elif [[ "${{ matrix.unit }}" = "unit2" ]]
+          # then
+          # echo ${{ matrix.unit }} - $scale
+          # echo "unit2_sum_outcome=$scale" >> $GITHUB_OUTPUT
+          # echo "unit2_outcome=${{ steps.grab_unit.outcome }}" >> $GITHUB_OUTPUT
+          # else
+          # exit 1
+          # fi
+
           echo ${{ matrix.unit }} - $scale
-          echo "unit1_sum_outcome=$scale" >> $GITHUB_OUTPUT
-          echo "unit1_outcome=${{ steps.grab_unit.outcome }}" >> $GITHUB_OUTPUT
-          elif [[ "${{ matrix.unit }}" = "unit2" ]]
-          then
-          echo ${{ matrix.unit }} - $scale
-          echo "unit2_sum_outcome=$scale" >> $GITHUB_OUTPUT
-          echo "unit2_outcome=${{ steps.grab_unit.outcome }}" >> $GITHUB_OUTPUT
-          else
-          exit 1
-          fi
+          echo "${{ matrix.unit }}_sum_outcome=$scale" >> $GITHUB_OUTPUT
+          echo "${{ matrix.unit }}_outcome=${{ steps.grab_unit.outcome }}" >> $GITHUB_OUTPUT
+
 
 
   push:
@@ -134,6 +136,7 @@ jobs:
          echo "✅ Equal"
          else
          echo "❌ Not equal"
+         exit 1
          fi
 
       - name: Deploy
