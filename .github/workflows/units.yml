@@ -63,14 +63,13 @@ jobs:
         run: |
           echo ${{ matrix.unit }} - ${{ steps.grab_unit.outcome }}
           scale=$(sed -n '$=' ./guide/${{ matrix.unit }}.guide.xml)
-          echo ${{ matrix.unit }} - $scale
           if [[ "$scale" -ge "18" ]]
           then
-          echo "✅"
+          echo "✅ : ${{ matrix.unit }} - $scale"
           echo "${{ matrix.unit }}_sum_outcome=$scale" >> $GITHUB_OUTPUT
           echo "${{ matrix.unit }}_outcome=${{ steps.grab_unit.outcome }}" >> $GITHUB_OUTPUT
           else
-          echo "❌"
+          echo "❌ : ${{ matrix.unit }} - $scale"
           exit 1
           fi
 
