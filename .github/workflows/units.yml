@@ -84,7 +84,7 @@ jobs:
            ${{ github.workspace }}/epg-grabber/guide/${{ matrix.unit }}.guide.xml
           retention-days: 5
 
-      - run: echo ${{ steps.upload.outputs.artifact-id }} ":" ${{ steps.upload.outputs.artifact-url }}
+      - run: "${{ steps.upload.outputs.artifact-id }} - ${{ steps.upload.outputs.artifact-url }}"
 
 
   push:
