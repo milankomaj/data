@@ -75,24 +75,18 @@ jobs:
           echo ${{ steps.upload.outputs.artifact-id }}
           echo ${{ steps.upload.outputs.artifact-url }}
           scale=$(sed -n '$=' ./guide/${{ matrix.unit }}.guide.xml)
-
-          # if [[ "${{ matrix.unit }}" = "unit1" ]]
-          # then
-          # echo ${{ matrix.unit }} - $scale
-          # echo "unit1_sum_outcome=$scale" >> $GITHUB_OUTPUT
-          # echo "unit1_outcome=${{ steps.grab_unit.outcome }}" >> $GITHUB_OUTPUT
-          # elif [[ "${{ matrix.unit }}" = "unit2" ]]
-          # then
-          # echo ${{ matrix.unit }} - $scale
-          # echo "unit2_sum_outcome=$scale" >> $GITHUB_OUTPUT
-          # echo "unit2_outcome=${{ steps.grab_unit.outcome }}" >> $GITHUB_OUTPUT
-          # else
-          # exit 1
-          # fi
-
+          if [[ "$scale" -ge "18" ]]
+          then
           echo ${{ matrix.unit }} - $scale
+          echo "✅"
           echo "${{ matrix.unit }}_sum_outcome=$scale" >> $GITHUB_OUTPUT
           echo "${{ matrix.unit }}_outcome=${{ steps.grab_unit.outcome }}" >> $GITHUB_OUTPUT
+          else
+          echo "❌"
+          exit 1
+          fi
+
+
 
 
 
