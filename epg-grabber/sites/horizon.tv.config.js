@@ -32,15 +32,15 @@ module.exports = {
       .catch(console.error)
     for (let item of items) {
       if (!item.t) return []
-      const detail = await loadProgramDetails(item)
+      const detail = await loadProgramDetails(item) || []
       programs.push({
         title: item.t,
-        description: parseDescription(detail),
+        description: parseDescription(detail) || [],
         start: parseStart(item),
         stop: parseStop(item),
-        category: parseCategory(detail),
-        icon: parseIcon(detail),
-        sub_title: parseSub(detail) + parseYear(detail) + parseSeason(detail) + parseEpisode(detail),
+        category: parseCategory(detail) || [],
+        icon: parseIcon(detail) || [],
+        sub_title: (parseSub(detail) + parseYear(detail) + parseSeason(detail) + parseEpisode(detail)) || [],
         //director: parseDirector(detail),
         //season: parseSeason(detail),
         //episode: parseEpisode(detail)
