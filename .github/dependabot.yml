@@ -6,7 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
-    directory:
+    directories:
      - "/epg-grabber" # Location of package manifests
      - "/playwright"
     versioning-strategy: increase
