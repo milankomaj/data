@@ -46,6 +46,7 @@ module.exports = {
         //episode: parseEpisode(detail)
       })
     }
+    // console.log("programs:", programs)
     return programs
   }
 }
