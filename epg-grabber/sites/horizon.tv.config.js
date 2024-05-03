@@ -47,23 +47,7 @@ module.exports = {
       })
     }
     return programs
-  },
-  /*
-  async channels({ country, lang }) {
-    const langs = { deu: 'de', slk: 'sk' }
-    const data = await axios
-      .get(`https://legacy-dynamic.oesp.horizon.tv/oesp/v4/SK/slk/web/channels`)
-      .then(r => r.data)
-      .catch(console.log)
-    return data.channels.map(item => {
-      return {
-        lang: langs[lang],
-        site_id: `${country}#${lang}#${item.stationSchedules[0].station.id}`,
-        name: item.title
-      }
-    })
   }
-  */
 }
 async function loadProgramDetails(item, channel) {
   if (!item.i) return {}
