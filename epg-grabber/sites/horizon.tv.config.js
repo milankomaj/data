@@ -36,8 +36,8 @@ module.exports = {
       programs.push({
         title: item.t,
         description: parseDescription(detail) || [],
-        start: parseStart(item),
-        stop: parseStop(item),
+        start: dayjs(item.s).toJSON(),
+        stop: dayjs(item.e).toJSON(),
         category: parseCategory(detail) || [],
         icon: parseIcon(detail) || [],
         sub_title: (parseSub(detail) + parseYear(detail) + parseSeason(detail) + parseEpisode(detail)) || [],
@@ -68,7 +68,7 @@ module.exports = {
 async function loadProgramDetails(item, channel) {
   if (!item.i) return {}
   // console.log("item",item)
-  const url = `${API_PROD_ENDPOINT}` + `${parseI(item)}`
+  const url = `${API_PROD_ENDPOINT}` + item.i
   const data = await axios
     .get(url)
     .then(r => r.data)
@@ -77,39 +77,7 @@ async function loadProgramDetails(item, channel) {
   // console.log(data)
   return data || {}
 }
-function parseI(item) {
-  return item.i
-}
-function parseStart(item) {
-  return dayjs(item.s)
-}
-function parseStop(item) {
-  return dayjs(item.e)
-}
-/*
-function parsestartT(item) {
-  return item.s
-}
-function parsestopP(item) {
-  return item.e
-}
-function parseSeason(detail) {
-  //console.log("seriesNumber",String(detail.program.seriesNumber).length)
-  if (!detail.program.seriesNumber) return null
-  if (String(detail.program.seriesNumber).length > 2) return null
-  return detail.program.seriesNumber
-}
-function parseEpisode(detail) {
-  //console.log("seriesEpisodeNumber",String(detail.program.seriesEpisodeNumber).length)
-  if (!detail.program.seriesEpisodeNumber) return null
-  if (String(detail.program.seriesEpisodeNumber).length > 3) return null
-  return detail.program.seriesEpisodeNumber
-}
-function parseDirector(detail) {
-  if (!detail.program.directors) return []
-  return detail.program.directors.map((director) => director).join(', ')
-}
-*/
+
 
 function parseItems(content, channel) {
   if (!content) return []
