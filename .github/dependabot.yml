@@ -6,7 +6,9 @@
 version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/epg-grabber" # Location of package manifests
+    directory:
+     - "/epg-grabber" # Location of package manifests
+     - "/playwright"
     versioning-strategy: increase
     schedule:
       interval: "weekly"
