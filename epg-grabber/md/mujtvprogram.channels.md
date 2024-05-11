@@ -133,8 +133,8 @@
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=856df71312a0fbdd13d7a3d897939eae&p2=80) | **Prima COOL** | 24
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=afdd434566239dfa7b1c905f5a2c13d1&p2=80) | **Prima Love** | 27
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=84812352443b158ef7588f9e79c48e41&p2=80) | **Prima MAX** | 23
-![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=4e4dd9b87204da34ef0a808de90f8bbf&p2=80) | **Prima PLUS** | 82
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=842a86fcc3e208def1111a707f7859ad&p2=80) | **Prima Show** | 26
+![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=4e4dd9b87204da34ef0a808de90f8bbf&p2=80) | **Prima SK** | 82
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=105dd0f9660f7921d17dff31eed161bf&p2=80) | **Prima STAR** | 25
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=b6e1910c8b4528b6ce4a552add1ea837&p2=80) | **Prima ZOOM** | 132
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=aa330a12f11883b0f0fe6a45702e8e04&p2=80) | **Prima** | 12
