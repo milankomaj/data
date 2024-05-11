@@ -123,6 +123,7 @@
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/ocko-gold.png) | **Óčko Star** | 121|29|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/ocko.png) | **Óčko** | 122|28|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/oik.png) | **OIK TV** | ||
+![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/oktv.png) | **OK TV** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/orangesport.png) | **Orange Sport HD** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/orangesport2.png) | **Orange Sport 2 HD** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/orangesport3.png) | **Orange Sport 3 HD** | ||
