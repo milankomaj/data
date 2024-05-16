@@ -297,7 +297,6 @@
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Fashion%204K_m.png) | **Fashion 4K** | 561
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Stingray%20iConcerts%20%28East%29_m.png) | **Stingray iConcerts (East)** | 562
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Stingray%20Classica%20%28East%29_m.png) | **Stingray Classica (East)** | 563
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/TV%20Lux._m.png) | **TV Lux.** | 564
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/OTA%20Cam%20701%20Download_m.png) | **OTA Cam 701 Download** | 701
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CRo%20Radiozurnal_m.png) | **CRo Radiozurnal** | 800
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CRo%20DVOJKA_m.png) | **CRo DVOJKA** | 801
