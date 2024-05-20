@@ -23,7 +23,7 @@ jobs:
         test-group: [ chromium ] # chromium,firefox,webkit
     defaults:
       run:
-        working-directory: /playwright
+        working-directory: ./playwright
     outputs:
       output_enviroment: ${{ steps.output_enviroment.outputs.playwright_outcome}}
       output_grab3: ${{ steps.output_enviroment.outputs.grab3_outcome}}
