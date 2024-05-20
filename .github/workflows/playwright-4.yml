@@ -89,6 +89,7 @@ jobs:
         id: grab3
         working-directory: ${{ github.workspace }}/epg-grabber
         run: |
+         cd ${{ github.workspace }}/epg-grabber
          npm install --save
          npm run grab3
 
