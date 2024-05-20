@@ -87,7 +87,7 @@ jobs:
       - name: Grab
         if: steps.enviroment.outcome == 'success'
         id: grab3
-        working-directory: ./epg-grabber
+        working-directory: ${{ github.workspace }}/epg-grabber
         run: |
          npm install --save
          npm run grab3
@@ -108,7 +108,7 @@ jobs:
 
       - name: Deploy
         if: steps.scripts.outcome == 'success'
-        working-directory: ./epg-grabber
+        working-directory: ${{ github.workspace }}/epg-grabber
         run: |
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}
