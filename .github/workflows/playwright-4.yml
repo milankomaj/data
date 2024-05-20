@@ -89,7 +89,7 @@ jobs:
         id: grab3
         working-directory: ./epg-grabber
         run: |
-         npm install --save
+         npm run NpmInstall
          npm run grab3
 
 
