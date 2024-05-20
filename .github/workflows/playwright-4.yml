@@ -23,7 +23,7 @@ jobs:
         test-group: [ chromium ] # chromium,firefox,webkit
     defaults:
       run:
-        working-directory: ./playwright
+        working-directory: ${{ github.workspace }}/playwright
     outputs:
       output_enviroment: ${{ steps.output_enviroment.outputs.playwright_outcome}}
       output_grab3: ${{ steps.output_enviroment.outputs.grab3_outcome}}
@@ -67,7 +67,7 @@ jobs:
       - name: Run scripts
         if: steps.enviroment.outcome == 'success'
         id: scripts
-        working-directory: ./epg-grabber
+        working-directory: ${{ github.workspace }}/epg-grabber
         run: |
           chmod +x ${{ github.workspace }}/epg-grabber/scripts/solocoo_list_curl.sh
           ${{ github.workspace }}/epg-grabber/scripts/solocoo_list_curl.sh
