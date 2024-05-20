@@ -67,7 +67,7 @@ jobs:
       - name: Run scripts
         if: steps.enviroment.outcome == 'success'
         id: scripts
-        working-directory: ./epg-grabber
+        working-directory: /epg-grabber
         run: |
           chmod +x ${{ github.workspace }}/epg-grabber/scripts/solocoo_list_curl.sh
           ${{ github.workspace }}/epg-grabber/scripts/solocoo_list_curl.sh
