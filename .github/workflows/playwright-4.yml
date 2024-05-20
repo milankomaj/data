@@ -67,7 +67,7 @@ jobs:
       - name: Run scripts
         if: steps.enviroment.outcome == 'success'
         id: scripts
-        working-directory: /epg-grabber
+        working-directory: ./epg-grabber
         run: |
           chmod +x ${{ github.workspace }}/epg-grabber/scripts/solocoo_list_curl.sh
           ${{ github.workspace }}/epg-grabber/scripts/solocoo_list_curl.sh
@@ -87,7 +87,7 @@ jobs:
       - name: Grab
         if: steps.enviroment.outcome == 'success'
         id: grab3
-        working-directory: /epg-grabber
+        working-directory: ./epg-grabber
         run: |
          npm install --save
          npm run grab3
@@ -108,7 +108,7 @@ jobs:
 
       - name: Deploy
         if: steps.scripts.outcome == 'success'
-        working-directory: /epg-grabber
+        working-directory: ./epg-grabber
         run: |
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}
