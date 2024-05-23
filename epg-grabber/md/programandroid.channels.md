@@ -42,6 +42,7 @@
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/ducktv.png) | **ducktv** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/ducktvplus.png) | **ducktv plus** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/ducktv.png) | **duck.tv** | 98|163|
+![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/dvtvextra.png) | **DVTV Extra** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/epicdrama.png) | **Epic Drama** | 36||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/eroxhd.png) | **Erox HD** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/eurosport1.png) | **Eurosport 1** | 77|100|
