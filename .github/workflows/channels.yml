@@ -12,10 +12,9 @@ jobs:
   grab_channels:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    continue-on-error: true
     environment: $env_var,$env_var2,$env_var3
     strategy:
-      # fail-fast: true
+      fail-fast: false
       max-parallel: 2
     defaults:
       run:
