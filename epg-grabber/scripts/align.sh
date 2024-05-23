@@ -16,7 +16,7 @@ echo "${version}"
 
 sed -i "s/;/,/g" samsungTV-Q/*/*.txt
 
-awk -F',' 'NR==FNR{ids[tolower($2)]; next} tolower($3) in ids' samsungTV-Q/*/dvbs-satelit-*-.txt csv/${chanells}.csv > samsungTV-Q/align-${chanells}-${version}.csv
+awk -F',' 'NR==FNR{ids[tolower($2)]; next} tolower($3) in ids' samsungTV-Q/*/dvbs-satelit-*.txt csv/${chanells}.csv > samsungTV-Q/align-${chanells}-${version}.csv
 sed -i 1i"xmltv_id,site_id,name,channelNumber,logoUrl" samsungTV-Q/align-${chanells}-${version}.csv
 done
 done
