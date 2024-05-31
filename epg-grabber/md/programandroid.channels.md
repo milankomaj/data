@@ -152,8 +152,8 @@
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima_krimi.png) | **Prima Krimi** | 15|21|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/primalove.png) | **Prima LOVE** | 7|17|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima_max.png) | **Prima MAX** | 9|15|
-![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima_plus.png) | **Prima Plus** | |507|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima_show.png) | **Prima Show** | ||
+![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima_plus.png) | **Prima SK** | |507|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima_star.png) | **Prima Star** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima_zoom.png) | **Prima ZOOM** | 8|18|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima.png) | **Prima** | 4|5|
