@@ -185,7 +185,7 @@
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/JOJ%20PLUS%20HD_m.png) | **JOJ PLUS HD** | 357
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/WAU%20HD_m.png) | **WAU HD** | 358
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/JOJ%2024%20HD_m.png) | **JOJ 24 HD** | 359
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20PLUS%20HD_m.png) | **Prima PLUS HD** | 360
+![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20SK_m.png) | **Prima SK** | 360
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Nova%20International_m.png) | **Nova International** | 361
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Jojko_m.png) | **Jojko** | 362
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/JOJ%20Svet%20HD_m.png) | **JOJ Svet HD** | 363
