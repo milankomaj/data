@@ -2,12 +2,9 @@ name: call-epg-grabbers
 run-name: ${{ github.workflow }} ✅ ${{ github.event_name}}
 on:
   workflow_call:
-  workflow_dispatch:
-  pull_request_target:
-    branches: 'main'
-    types: [closed]
-  schedule:
-  - cron: '30 1 */5 * *'
+  # workflow_dispatch:
+  # schedule:
+  # - cron: '30 1 */5 * *'
 jobs:
   channels:
     uses: ./.github/workflows/channels.yml
