@@ -38,12 +38,12 @@
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CT%201%20HD_m.png) | **CT 1 HD** | 40
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CT%202%20HD_m.png) | **CT 2 HD** | 41
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Nova%20International_m.png) | **Nova International** | 42
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20PLUS%20HD_m.png) | **Prima PLUS HD** | 43
+![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20SK_m.png) | **Prima SK** | 43
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CNN%20Prima%20News%20HD_m.png) | **CNN Prima News HD** | 44
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CT%2024%20HD_m.png) | **CT 24 HD** | 45
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CT%20Dart%20HD_m.png) | **CT :D/art HD** | 47
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20MAX%20HD_m.png) | **Prima MAX HD** | 48
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20COOL%20HD_m.png) | **Prima COOL HD** | 49
+![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20COOL%20SK_m.png) | **Prima COOL SK** | 49
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20Zoom%20HD_m.png) | **Prima Zoom HD** | 50
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20KRIMI%20HD_m.png) | **Prima KRIMI HD** | 51
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20Love%20HD_m.png) | **Prima Love HD** | 52
