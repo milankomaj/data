@@ -1,0 +1,27 @@
+{
+  "name": "epg",
+  "version": "0.1.0",
+  "scripts": {
+    "update-codes": "node scripts/update-codes.js",
+    "NpmInstall": "npm install --save",
+    "grab1": "epg-grabber --config=./sites/mujtvprogram.cz.config.js --channels=./channels/r-mujtvprogram.xml --output=./guide/mujtvprogram.cz_cz.guide.xml --days=5",
+    "grab2": "epg-grabber --config=./sites/horizon.tv.config.js --channels=./channels/r-horizon.xml --output=./guide/horizon.tv_sk.guide.xml --days=5",
+    "grab3": "epg-grabber --config=./sites/solocoo.cz.config.js --channels=./channels/r-CZ-skylink.xml --output=./guide/skylink.cz.guide.xml --days=5",
+    "grab4": "epg-grabber --config=./sites/***.js --channels=./channels/***.xml --output=./guide/***.guide.xml --days=5",
+    "unit1": "epg-grabber --config=./sites/warner-tv.cz.config.js --channels=./channels/warner-tv.cz.chanell.xml --output=./guide/unit1.guide.xml --days=5",
+    "unit2": "epg-grabber --config=./sites/filmbox.sk.config.js --channels=./channels/filmbox_chanell.xml --output=./guide/unit2.guide.xml --days=5"
+
+
+  },
+  "author": "Arhey",
+  "license": "MIT",
+  "dependencies": {
+    "dayjs": "^1.11.11",
+    "epg-grabber": "^0.36.1",
+    "epg-parser": "^0.3.1",
+    "iconv-lite": "^0.6.3",
+    "cheerio": "^1.0.0-rc.12",
+    "xml-js": "^1.6.11",
+    "axios": "^1.7.2"
+  }
+}

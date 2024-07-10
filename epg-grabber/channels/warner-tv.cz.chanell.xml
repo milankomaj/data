@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site site="warner-tv.cz">
+  <channels>
+      <channel lang="cz" xmltv_id="warner-tv" site_id="warner-tv" logo="https://warner-tv.cz/assets/img/favicon/favicon.png">Warner Tv</channel>
+  </channels>
+</site>

@@ -1,0 +1,145 @@
+name: units-grabber
+run-name: ${{ github.workflow }} ✅ ${{ github.event_name}}
+on:
+  workflow_call:
+      outputs:
+       units_outcome:
+        description: "jobs.push.outputs.output_units"
+        value: ${{ jobs.push.outputs.output_units }}
+       unit1_outcome:
+        description: "jobs.grab.outputs.unit1"
+        value: ${{ jobs.grab.outputs.unit1 }}
+       unit2_outcome:
+        description: "jobs.grab.outputs.unit2"
+        value: ${{ jobs.grab.outputs.unit2 }}
+  workflow_dispatch:
+
+jobs:
+  grab:
+    runs-on: ubuntu-latest
+    timeout-minutes: 80
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        include:
+           - unit: unit1
+           - unit: unit2
+    defaults:
+      run:
+        working-directory: ./epg-grabber
+    outputs:
+      unit1_scale: ${{ steps.unit_outcome.outputs.unit1_sum_outcome}}
+      unit2_scale: ${{ steps.unit_outcome.outputs.unit2_sum_outcome}}
+      unit1: ${{ steps.unit_outcome.outputs.unit1_outcome}}
+      unit2: ${{ steps.unit_outcome.outputs.unit2_outcome}}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: localle
+        uses: milankomaj/shell-x@v0.3
+        if: ${{ github.event_name == 'workflow_dispatch' }} || ${{ github.event_name == 'schedule' }}
+        with:
+          shell: bash
+          locale: sk_SK.utf8
+          timezone: Europe/Bratislava
+
+      - name: NpmInstall
+        id: NpmInstall
+        run: npm install
+
+      - name: Grab
+        if: steps.NpmInstall.outcome == 'success'
+        id: grab_unit
+        working-directory: ./epg-grabber
+        run: |
+         npm run ${{ matrix.unit }}
+
+      - name: outcome
+        id: unit_outcome
+        shell: bash
+        run: |
+          echo ${{ matrix.unit }} - ${{ steps.grab_unit.outcome }}
+          scale=$(sed -n '$=' ./guide/${{ matrix.unit }}.guide.xml)
+          if [[ "$scale" -ge "18" ]]
+          then
+          echo "✅ : ${{ matrix.unit }} - $scale"
+          echo "${{ matrix.unit }}_sum_outcome=$scale" >> $GITHUB_OUTPUT
+          echo "${{ matrix.unit }}_outcome=${{ steps.grab_unit.outcome }}" >> $GITHUB_OUTPUT
+          else
+          echo "❌ : ${{ matrix.unit }} - $scale"
+          exit 1
+          fi
+
+      - uses: actions/upload-artifact@v4
+        id: upload
+        if: steps.grab_unit.outcome == 'success' && steps.unit_outcome.outcome == 'success'
+        with:
+          name: units_${{ matrix.unit }}
+          if-no-files-found: error
+          path: |
+           ${{ github.workspace }}/epg-grabber/guide/${{ matrix.unit }}.guide.xml
+          retention-days: 5
+
+      - run: echo "${{ steps.upload.outputs.artifact-id }} - ${{ steps.upload.outputs.artifact-url }}"
+
+
+  push:
+    runs-on: ubuntu-latest
+    if: ${{ success() }}
+    needs: [grab]
+    outputs:
+      output_units: ${{ steps.deploy.outputs.units_outcome}}
+
+    steps:
+     # Artifacts download
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+           epg-grabber/scripts/combine-xml.sh
+          sparse-checkout-cone-mode: false
+
+      - uses: actions/download-artifact@v4
+        id: download
+        with:
+         path: ${{ github.workspace }}/epg-grabber/guide/
+         merge-multiple: true
+         pattern: units_*
+
+      - name: 'download && path && combine'
+        working-directory: ./epg-grabber
+        id: combine
+        run: |
+         echo ${{ needs.grab.outputs.unit1 }}
+         echo ${{ needs.grab.outputs.unit2 }}
+         echo ${{steps.download.outputs.download-path}}
+         tree -h ${{steps.download.outputs.download-path}}
+         chmod +x ./scripts/combine-xml.sh
+         ./scripts/combine-xml.sh
+         tree -h ${{steps.download.outputs.download-path}}
+         scale=$(sed -n '$=' ./guide/units.guide.xml)
+         sum=$(( ${{ needs.grab.outputs.unit1_scale }} + ${{ needs.grab.outputs.unit2_scale }} - 2 ))
+         if [[ $sum -eq $scale ]]
+         then
+         echo "✅ Equal"
+         else
+         echo "❌ Not equal"
+         exit 1
+         fi
+
+      - name: Deploy
+        id: deploy
+        if: steps.combine.outcome == 'success'
+        run: |
+          echo "units_outcome=${{ steps.combine.outcome }}" >> $GITHUB_OUTPUT
+          git config --global user.email ${{ secrets.EMAIL }}
+          git config --global user.name ${{ secrets.NAME }}
+          git sparse-checkout disable
+          git config pull.rebase false
+          echo ${{ steps.combine.outcome }}
+          git add ${{steps.download.outputs.download-path}}/units.guide.xml
+          git commit -m "units-grabber - ${{ steps.combine.outcome }}"
+          git pull
+          git push -f

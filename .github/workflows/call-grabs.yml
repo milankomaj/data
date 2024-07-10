@@ -1,0 +1,88 @@
+name: call-epg-grabbers
+run-name: ${{ github.workflow }} ✅ ${{ github.event_name}}
+on:
+  workflow_call:
+  # workflow_dispatch:
+  # schedule:
+  # - cron: '30 1 */5 * *'
+jobs:
+  channels:
+    uses: ./.github/workflows/channels.yml
+    secrets: inherit
+  playwright:
+    uses: ./.github/workflows/playwright-4.yml
+    secrets: inherit
+  grab1:
+    needs: [channels]
+    uses: ./.github/workflows/epg-grabber-1.yml
+    secrets: inherit
+  grab2:
+    needs: [channels]
+    uses: ./.github/workflows/epg-grabber-2.yml
+    secrets: inherit
+  grab_unit:
+   needs: [channels]
+   uses: ./.github/workflows/units.yml
+   secrets: inherit
+
+
+  push:
+    runs-on: ubuntu-latest
+    needs: [grab1,grab2,playwright,channels,grab_unit]
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: timestamp
+        id: timestamp
+        run: |
+          date >> ./timestamp
+          stamp=$(date -r ./timestamp)
+          echo $stamp
+          cd ${{ github.workspace }}
+          sed -i "12s/.*/$stamp | epg-grabber/" ./README.md
+        shell: bash
+
+      - name: Tree
+        run: |
+         echo ***./***
+         tree -F -h -L 3 ./
+
+      - name: outputs_grabers
+        run: |
+         echo "needs.grab*.outputs.grab*_outcome"
+         echo ${{ needs.grab1.outputs.grab1_outcome }}
+         echo ${{ needs.grab2.outputs.grab2_outcome }}
+         echo ${{ needs.playwright.outputs.playwright_outcome  }}
+         echo ${{ needs.playwright.outputs.grab3_outcome  }}
+         echo ${{ needs.grab_unit.outputs.unit1_outcome }}
+         echo ${{ needs.grab_unit.outputs.unit2_outcome }}
+         echo ${{ needs.grab_unit.outputs.units_outcome  }}
+         echo ${{ github.event_name }}
+
+      - name: GITHUB_STEP_SUMMARY
+        run: |
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**grabers** | **sumary**" >> $GITHUB_STEP_SUMMARY
+          echo "---: | :--- " >> $GITHUB_STEP_SUMMARY
+          echo "grab1 | $(echo ${{ needs.grab1.outputs.grab1_outcome }})" >> $GITHUB_STEP_SUMMARY
+          echo "grab2 | $(echo ${{ needs.grab2.outputs.grab2_outcome }})" >> $GITHUB_STEP_SUMMARY
+          echo "playwright | $(echo ${{ needs.playwright.outputs.playwright_outcome }})" >> $GITHUB_STEP_SUMMARY
+          echo "grab3 | $(echo ${{ needs.playwright.outputs.grab3_outcome }})" >> $GITHUB_STEP_SUMMARY
+          echo "grab_unit1 | $(echo ${{ needs.grab_unit.outputs.unit1_outcome }})" >> $GITHUB_STEP_SUMMARY
+          echo "grab_unit2 | $(echo ${{ needs.grab_unit.outputs.unit2_outcome }})" >> $GITHUB_STEP_SUMMARY
+          echo "grab_units_combine | $(echo ${{ needs.grab_unit.outputs.units_outcome }})" >> $GITHUB_STEP_SUMMARY
+
+      #
+      - name: Update
+        if: ${{ github.event_name == 'schedule' }} || ${{ github.event_name == 'workflow_dispatch' }}
+        id: update
+        run: |
+          git config --global user.email ${{ secrets.EMAIL }}
+          git config --global user.name ${{ secrets.NAME }}
+          git config pull.rebase false
+          git add ./README.md
+          git commit -m "epg-grabber" || echo
+          git pull
+          git push

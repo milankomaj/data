@@ -1,0 +1,98 @@
+
+name: update script
+run-name: ${{ github.workflow }} ✅ ${{ github.event_name}}
+on:
+  workflow_call:
+  workflow_dispatch:
+env:
+  env_var: ${{ vars.SHEET_ELEONORA }}
+  env_var2: ${{ vars.SCRAPER_ELEONORA }}
+  env_var3: ${{ vars.CORS_ELEONORA }}
+jobs:
+  grab_channels:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment: $env_var,$env_var2,$env_var3
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+    defaults:
+      run:
+        working-directory: ./epg-grabber
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: localle
+        uses: milankomaj/shell-x@v0.3
+        with:
+          shell: bash
+          locale: sk_SK.utf8
+          timezone: Europe/Bratislava
+          comand: date && sudo timedatectl set-local-rtc 1 && timedatectl
+
+      - name: xq
+        id: xq
+        run: |
+          FILE=''
+          REPO='sibprogrammer/xq'
+          PLATFORM=$(uname -s | tr A-Z a-z)
+          curl -sL \
+          $(curl -s https://api.github.com/repos/${REPO}/releases/latest \
+          | grep browser_download_url \
+          | cut -d\" -f4 \
+          | grep -E *${PLATFORM}_amd64) \
+          | tar xvz ${FILE}
+        shell: bash
+
+      - name: Chmod
+        id: Chmod
+        run: |
+          echo -e "\033[31;1m Chmod. \033[0m"
+          chmod +x ./scripts/horizon_tv_list_curl.sh
+          chmod +x ./scripts/upc_tv_list_curl.sh
+          chmod +x ./scripts/filmbox_list_curl.sh
+          chmod +x ./scripts/skylink_balicky.sh
+          chmod +x ./scripts/programandroid_list_xq.sh
+          chmod +x ./scripts/mujtvprogram_list_xq.sh
+          chmod +x ./scripts/r-chanells.sh
+          chmod +x ./scripts/csv2md.sh
+          chmod +x ./scripts/align.sh
+        shell: bash
+
+      - name: Update
+        if:  steps.xq.outcome == 'success'
+        id: Update
+        run: |
+          echo -e "\033[31;1m Update chanells. \033[0m"
+          ./scripts/programandroid_list_xq.sh
+          ./scripts/mujtvprogram_list_xq.sh
+          ./scripts/horizon_tv_list_curl.sh
+          ./scripts/upc_tv_list_curl.sh
+          ./scripts/filmbox_list_curl.sh
+          ./scripts/skylink_balicky.sh
+          ./scripts/r-chanells.sh
+          ./scripts/csv2md.sh
+          ./scripts/align.sh
+        shell: bash
+
+      - name: tree
+        run: |
+          echo ***./sites/***
+          tree -h ./sites/
+          echo ***./channels/***
+          tree -h ./channels/
+
+      # git status --short -uno
+      - name: deploy
+        if: ${{ github.event_name == 'workflow_dispatch' }} || ${{ github.event_name == 'schedule' }}
+        run: |
+          git config --global user.email ${{ secrets.EMAIL }}
+          git config --global user.name ${{ secrets.NAME }}
+          git pull
+          git add ./csv/*.csv
+          git add ./channels/*.xml
+          git add ./md/*.md
+          git add ./samsungTV-Q/*.csv
+          git commit -m "epg-grabber-update-codes" || echo
+          git push
