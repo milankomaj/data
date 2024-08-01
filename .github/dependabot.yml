@@ -6,7 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
-    directory:
+    directories:
      - "/epg-grabber" # Location of package manifests
      - "/playwright"
     versioning-strategy: increase
@@ -16,7 +16,7 @@ updates:
       time: "11:10"
 
   - package-ecosystem: "github-actions" # See documentation for possible values
-    directory: "/" # Location of package manifests
+    directories: "/" # Location of package manifests
     schedule:
       interval: "weekly"
       day: "saturday"
