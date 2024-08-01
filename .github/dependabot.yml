@@ -16,7 +16,7 @@ updates:
     versioning-strategy: increase  
 
   - package-ecosystem: "github-actions" # See documentation for possible values
-    directories: "/" # Location of package manifests
+    directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
       day: "saturday"
