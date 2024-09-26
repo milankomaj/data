@@ -107,7 +107,6 @@ jobs:
           git config pull.rebase false
           git add ./csv/*.csv
           git add ./channels/*.xml
-          git add ./guide/skylink.cz.guide.xml
           git commit -m "Playwright - ${{ steps.scripts.outcome }}" || echo
           git pull
           git push -f
