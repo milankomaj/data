@@ -16,7 +16,8 @@
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/barrandov_krimi.png) | **Barrandov Krimi** | 47|23|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/barrandov.png) | **Barrandov** | 19|20|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/bbcearth.png) | **BBC Earth (cz)** | ||
-![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/bib.png) | **B in Balance (sk)** | ||
+![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/bbcfirst.png) | **BBC First** | ||
+![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/bib.png) | **Body in Balance (sk)** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/canal_action.png) | **Canal+ Action** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/canalplussport.png) | **Canal+ Sport** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/canalplussport2.png) | **Canal+ Sport 2** | ||
@@ -43,8 +44,8 @@
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/ducktvplus.png) | **ducktv plus** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/ducktv.png) | **duck.tv** | 98|163|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/dvtvextra.png) | **DVTV Extra** | ||
+![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/E.png) | **E! Entertainment** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/epicdrama.png) | **Epic Drama** | 36||
-![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/eroxhd.png) | **Erox HD** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/eurosport1.png) | **Eurosport 1** | 77|100|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/eurosport2.png) | **Eurosport 2** | 78|101|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/extasy.png) | **Extasy** | ||
@@ -90,6 +91,7 @@
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/lovenature.png) | **Love Nature** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/lux.png) | **Lux** | |54|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/markiza_international.png) | **Markíza International** | 135|47|
+![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/markiza_klasik.png) | **Markíza KLASIK** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/markiza_krimi.png) | **Markíza KRIMI** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/markiza.png) | **Markíza** | 14|500|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/mtt.png) | **Městská televize Trnava** | ||
@@ -146,7 +148,7 @@
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/premiersport.png) | **Premier Sport 1** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/premiersport2.png) | **Premier Sport 2** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/premiersport3.png) | **Premier Sport 3** | ||
-![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/premiersport4.png) | **Premier Sport 4** | ||
+![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/slagrpremium.png) | **Premium** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima_coolsk.png) | **Prima COOL SK** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima_cool.png) | **Prima Cool** | 6|16|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima_krimi.png) | **Prima Krimi** | 15|21|
@@ -185,11 +187,11 @@
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/sport1.png) | **Sport1** | 79|104|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/sport2.png) | **Sport2** | 80|105|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/story4.png) | **Story4 (cz)** | ||
+![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/strike.png) | **Strike TV** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/STV1.png) | **STV1** | 44|45|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/STV2.png) | **STV2** | |46|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/slagrmuzika.png) | **Šlágr Muzika** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/slagroriginal.png) | **Šlágr Originál** | 120|31|
-![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/slagrpremium.png) | **Šlágr Premium** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/surianskyspravodaj.png) | **Šuriansky spravodaj** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/ta3.png) | **TA3** | 144|53|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/tdt.png) | **TDT** | ||
@@ -209,7 +211,6 @@
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/tvdoktor.png) | **TV Doktor** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/hronka.png) | **TV Hronka** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/levoca.png) | **TV Levoča** | ||
-![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/tvnatura.png) | **TV Natura** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/tv8.png) | **TV OSEM** | 9|55|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/povazie.png) | **TV Považie** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/tv_raj.png) | **TV RAJ** | ||
@@ -219,7 +220,7 @@
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/tv9.png) | **TV9 KTV** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/utv.png) | **UTV** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/vega.png) | **Vega** | ||
-![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/viasatexplore.png) | **Viasat Explorer** | 53||
+![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/viasatexplore.png) | **Viasat Explore** | 53||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/viasathistory.png) | **Viasat History** | 54|130|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/viasatnature.png) | **Viasat Nature** | 55|129|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/volanttv.png) | **volant.tv** | ||
