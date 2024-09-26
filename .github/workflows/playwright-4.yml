@@ -84,14 +84,6 @@ jobs:
           retention-days: 30
 
 
-      - name: Grab
-        if: steps.enviroment.outcome == 'success'
-        id: grab3
-        working-directory: ./epg-grabber
-        run: |
-         npm install --save
-         npm run grab3
-
 
       - name: output
         id: output_enviroment
