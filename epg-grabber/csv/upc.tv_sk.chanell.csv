@@ -105,6 +105,7 @@ upctv-12122,12122,Lubovnianska TV,577,https://staticqbr-prod-sk.gnp.cloud.upctv.
 upctv-11108,11108,Lumen,707,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_50052_c_1af281e47a5494e1298400d03de97b4e.png
 upctv-10147,10147,Magyar ATV,461,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_5_c_83605e6df56dd3fd70decd6ec788e5f5.Magyar_ATV_SK.png
 upctv-10003,10003,Markiza HD,4,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8091.f.Markiza_HD_SK.png
+upctv-10207,10207,Markiza Klasik HD,102,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/10207.f.png
 upctv-10196,10196,Markiza Krimi HD,103,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Markiza_Krimi_HD.f.png
 upctv-12103,12103,Mestska TV Trnava,558,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Mestska_TV_Trnava.f.png
 upctv-10104,10104,Mezzo,312,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/10104.png
@@ -140,11 +141,12 @@ upctv-10070,10070,Park TV HD,175,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/im
 upctv-11134,11134,Petofi Radio,733,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/petofi.f.png
 upctv-10179,10179,Pobeda,537,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/9102.f.Pobeda.png
 upctv-10176,10176,Poekhali!,534,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/9099.f.Poekhali_exclamation.png
-upctv-10029,10029,Prima COOL HD,59,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5134.f.Prima_COOL_HD.png
+upctv-10103,10103,Premium HD,311,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Slagr_premium.f.Slagr_premium.png
+upctv-10029,10029,Prima COOL SK HD,59,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5134.f.Prima_COOL_HD.png
 upctv-10027,10027,Prima KRIMI HD,56,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8738.f.Prima_KRIMI_HD.png
-upctv-10030,10030,Prima love HD,60,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/769702.f.Prima_love_HD.png
+upctv-10030,10030,Prima love,60,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/769702.f.Prima_love_HD.png
 upctv-10028,10028,Prima MAX HD,58,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/769676.f.Prima_MAX_HD.png
-upctv-10023,10023,Prima PLUS HD,26,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8436.f.Prima_PLUS_HD.png
+upctv-10023,10023,Prima SK HD,26,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8436.f.Prima_PLUS_HD.png
 upctv-10031,10031,Prima ZOOM HD,61,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5139.f.Prima_ZOOM_HD.png
 upctv-10165,10165,ProSieben,502,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_110003_c_df1289a7f954043a763d02f963e41dc6.ProSieben_SK.png
 upctv-11104,11104,Radio Devin,703,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/7020.f.png
@@ -184,7 +186,6 @@ upctv-10197,10197,Sky News,350,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/imag
 upctv-11135,11135,Sky Radio,734,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/7039.f.png
 upctv-10102,10102,Slager muzika HD,310,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Slager_muzika.png
 upctv-10101,10101,Slager original HD,309,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Slager_original.png
-upctv-10103,10103,Slager Premium HD,311,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Slagr_premium.f.Slagr_premium.png
 upctv-10157,10157,Slager TV HD,474,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Slager_TV_HU.f.Slager_TV_HU.png
 upctv-10155,10155,Sorozat+,472,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/Sorozat_plus_HU.f.Sorozat_plus_HU.png
 upctv-10060,10060,Spektrum HD,163,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/5162.f.Spektrum_HD.png
@@ -225,7 +226,7 @@ upctv-10160,10160,TV2Sef,477,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-
 upctv-10148,10148,TV2,462,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483_11_w_c2db000b3b3fe8fab637bc2a3aa973d3.TV2_SK.png
 upctv-10150,10150,TV4,464,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/483010.f.Story_4_SK.png
 upctv-12105,12105,TV7 Presov,560,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/TV7_Presov.f.png
-upctv-10015,10015,TV8 HD,18,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8437.f.TV8_HD.png
+upctv-10015,10015,TV8,18,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/8437.f.TV8_HD.png
 upctv-10190,10190,UATV,364,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/UATV.f.png
 upctv-11136,11136,Veronica,735,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/7035.f.png
 upctv-10065,10065,Viasat Explore HD,168,https://staticqbr-prod-sk.gnp.cloud.upctv.sk/image-service/ImagesEPG/EventImages/764620.f.Viasat_Explore_HD.png
