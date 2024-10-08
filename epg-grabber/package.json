@@ -11,9 +11,6 @@
     "unit1": "epg-grabber --config=./sites/warner-tv.cz.config.js --channels=./channels/warner-tv.cz.chanell.xml --output=./guide/unit1.guide.xml --days=5",
     "unit2": "epg-grabber --config=./sites/filmbox.sk.config.js --channels=./channels/filmbox_chanell.xml --output=./guide/unit2.guide.xml --days=5",
     "unit3": "epg-grabber --config=./sites/paramountnetwork.cz.config.js --channels=./channels/paramountnetwork.cz.chanell.xml --output=./guide/unit3.guide.xml --days=5"
-
-
-
   },
   "author": "Arhey",
   "license": "MIT",
