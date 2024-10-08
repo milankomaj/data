@@ -70,10 +70,10 @@ jobs:
           ./scripts/horizon_tv_list_curl.sh
           ./scripts/upc_tv_list_curl.sh
           ./scripts/filmbox_list_curl.sh
-          ./scripts/skylink_balicky.sh
-          ./scripts/r-chanells.sh
-          ./scripts/csv2md.sh
-          ./scripts/align.sh
+          # ./scripts/skylink_balicky.sh
+          # ./scripts/r-chanells.sh
+          # ./scripts/csv2md.sh
+          # ./scripts/align.sh
         shell: bash
 
       - name: tree
@@ -94,5 +94,5 @@ jobs:
           git add ./channels/*.xml
           git add ./md/*.md
           git add ./samsungTV-Q/*.csv
-          git commit -m "epg-grabber-update-codes" || echo
+          git commit -S -m "epg-grabber-update-codes" || echo
           git push
