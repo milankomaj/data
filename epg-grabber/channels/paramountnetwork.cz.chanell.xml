@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site site="paramountnetwork.cz">
+  <channels>
+      <channel lang="cz" xmltv_id="paramountnetwork" site_id="paramountnetwork" logo="https://www.paramountnetwork.cz/apple-touch-icon-180x180.png">Paramount Network</channel>
+  </channels>
+</site>
