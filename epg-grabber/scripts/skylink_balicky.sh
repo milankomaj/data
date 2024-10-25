@@ -22,7 +22,7 @@ sed -i 's/\Iba Live TV\>/🟦/g' ${balicky}-${lang[@]::2}_skylink.tsv
 sed -i 's/\Live TV\>//g' ${balicky}-${lang[@]::2}_skylink.tsv
 sed -i 's/ "//g' ${balicky}-${lang[@]::2}_skylink.tsv
 sed -i 's/"//g' ${balicky}-${lang[@]::2}_skylink.tsv
-awk -i inplace 'NR == 1; NR > 1 {print $0 | "sort -t, -k1"}' ${balicky}-${lang[@]::2}_skylink.tsv
+awk -i inplace 'NR == 1; NR > 1 {print $0 | "sort -f -t, -k1"}' ${balicky}-${lang[@]::2}_skylink.tsv
 done
 done
 paste -d '' *_skylink.tsv | awk -F, '{NF=4}1' OFS="," > csv/skylink_balicky.csv
