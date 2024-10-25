@@ -36,7 +36,7 @@
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CS%20Horror_m.png) | **CS Horror** | 36
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Film%20HD_m.png) | **Film+ HD** | 37
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/STORY4%20HD_m.png) | **STORY4 HD** | 38
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CT%201%20HD_m.png) | **CT 1 HD** | 40
+![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CT%201%20PHA%20HD_m.png) | **CT 1 PHA HD** | 40
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CT%202%20HD_m.png) | **CT 2 HD** | 41
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Nova%20International_m.png) | **Nova International** | 42
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20SK_m.png) | **Prima SK** | 43
@@ -50,7 +50,7 @@
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20Love_m.png) | **Prima Love** | 52
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20Show_m.png) | **Prima Show** | 53
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20STAR_m.png) | **Prima STAR** | 54
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/TV%20Barrandov%20HD_m.png) | **TV Barrandov HD** | 55
+![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/TV%20Barrandov_m.png) | **TV Barrandov** | 55
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Kino%20Barrandov_m.png) | **Kino Barrandov** | 56
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Barrandov%20Krimi_m.png) | **Barrandov Krimi** | 57
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/HBO%20HD_m.png) | **HBO HD** | 60
@@ -239,8 +239,6 @@
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/RiC_m.png) | **RiC** | 448
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Comedy%20Central_m.png) | **Comedy Central** | 449
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/DELUXE%20MUSIC_m.png) | **DELUXE MUSIC** | 450
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Deluxe%20Flashback_m.png) | **Deluxe Flashback** | 451
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Deluxe%20Rock_m.png) | **Deluxe Rock** | 452
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Deluxe%20Dance_m.png) | **Deluxe Dance** | 453
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Deluxe%20Rap_m.png) | **Deluxe Rap** | 454
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/MTV%20Germany_m.png) | **MTV Germany** | 455
@@ -287,6 +285,7 @@
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/UHD1%20by%20ASTRA_m.png) | **UHD1 by ASTRA** | 557
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/SES%20UHD%20Demo_m.png) | **SES UHD Demo** | 558
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Love%20Nature%204k_m.png) | **Love Nature 4k** | 559
+![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20Love%20HD%20SK_m.png) | **Prima Love HD SK** | 560
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Stingray%20iConcerts%20%28East%29_m.png) | **Stingray iConcerts (East)** | 562
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Stingray%20Classica%20%28East%29_m.png) | **Stingray Classica (East)** | 563
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Nova%20HD._m.png) | **Nova HD.** | 566
