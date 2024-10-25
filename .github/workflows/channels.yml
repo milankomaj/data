@@ -5,14 +5,14 @@ on:
   workflow_call:
   workflow_dispatch:
 env:
-  env_var: ${{ vars.SHEET_ELEONORA }}
-  env_var2: ${{ vars.SCRAPER_ELEONORA }}
-  env_var3: ${{ vars.CORS_ELEONORA }}
+  # env_var: ${{ vars.SHEET_ELEONORA }}
+  # env_var2: ${{ vars.SCRAPER_ELEONORA }}
+  # env_var3: ${{ vars.CORS_ELEONORA }}
 jobs:
   grab_channels:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    environment: $env_var,$env_var2,$env_var3
+    # environment: $env_var,$env_var2,$env_var3
     strategy:
       fail-fast: false
       max-parallel: 2
@@ -72,8 +72,8 @@ jobs:
           ./scripts/upc_tv_list_curl.sh
           ./scripts/filmbox_list_curl.sh
           ./scripts/iprima_list_curl.sh
-          ./scripts/skylink_balicky.sh
-          ./scripts/r-chanells.sh
+          # ./scripts/skylink_balicky.sh
+          # ./scripts/r-chanells.sh
           ./scripts/csv2md.sh
           ./scripts/align.sh
         shell: bash
