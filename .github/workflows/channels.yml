@@ -52,6 +52,7 @@ jobs:
           chmod +x ./scripts/horizon_tv_list_curl.sh
           chmod +x ./scripts/upc_tv_list_curl.sh
           chmod +x ./scripts/filmbox_list_curl.sh
+          chmod +x ./scripts/iprima_list_curl.sh
           chmod +x ./scripts/skylink_balicky.sh
           chmod +x ./scripts/programandroid_list_xq.sh
           chmod +x ./scripts/mujtvprogram_list_xq.sh
@@ -70,6 +71,7 @@ jobs:
           ./scripts/horizon_tv_list_curl.sh
           ./scripts/upc_tv_list_curl.sh
           ./scripts/filmbox_list_curl.sh
+          ./scripts/iprima_list_curl.sh
           ./scripts/skylink_balicky.sh
           ./scripts/r-chanells.sh
           ./scripts/csv2md.sh

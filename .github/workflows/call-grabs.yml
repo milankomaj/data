@@ -41,7 +41,7 @@ jobs:
           stamp=$(date -r ./timestamp)
           echo $stamp
           cd ${{ github.workspace }}
-          sed -i "12s/.*/$stamp | epg-grabber/" ./README.md
+          sed -i "7s/.*/$stamp | epg-grabber/" ./README.md
         shell: bash
 
       - name: Tree
@@ -59,6 +59,7 @@ jobs:
          echo ${{ needs.grab_unit.outputs.unit1_outcome }}
          echo ${{ needs.grab_unit.outputs.unit2_outcome }}
          echo ${{ needs.grab_unit.outputs.unit3_outcome }}
+         echo ${{ needs.grab_unit.outputs.unit4_outcome }}
          echo ${{ needs.grab_unit.outputs.units_outcome  }}
          echo ${{ github.event_name }}
 
@@ -74,6 +75,7 @@ jobs:
           echo "grab_unit1 | $(echo ${{ needs.grab_unit.outputs.unit1_outcome }})" >> $GITHUB_STEP_SUMMARY
           echo "grab_unit2 | $(echo ${{ needs.grab_unit.outputs.unit2_outcome }})" >> $GITHUB_STEP_SUMMARY
           echo "grab_unit3 | $(echo ${{ needs.grab_unit.outputs.unit3_outcome }})" >> $GITHUB_STEP_SUMMARY
+          echo "grab_unit4 | $(echo ${{ needs.grab_unit.outputs.unit4_outcome }})" >> $GITHUB_STEP_SUMMARY
           echo "grab_units_combine | $(echo ${{ needs.grab_unit.outputs.units_outcome }})" >> $GITHUB_STEP_SUMMARY
 
       #
