@@ -88,6 +88,7 @@
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=f71b0fb59b7e005fd9e060eea105750e&p2=80) | **LEO TV** | 397
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=d91a50abe9e154fad4be716760a11e51&p2=80) | **Love Nature HD** | 144
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=1e5edc666f6748d00ece0e8c8fd92d8b&p2=80) | **Markíza International** | 74
+![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=0c35038f4a6f534856fd865644986e51&p2=80) | **Markíza KLASIK** | 55
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=bcbe656b111f70a50fedabf40c644cdc&p2=80) | **Markíza Krimi** | 54
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=169623c0f6ffdf692434641b8e32f6be&p2=80) | **Markíza** | 38
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=3908ce66327022c16ae2a9073b585c43&p2=80) | **Mezzo Live HD** | 377

@@ -152,6 +152,7 @@
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima_coolsk.png) | **Prima COOL SK** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima_cool.png) | **Prima Cool** | 6|16|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima_krimi.png) | **Prima Krimi** | 15|21|
+![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/primalovesk.png) | **Prima LOVE SK** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/primalove.png) | **Prima LOVE** | 7|17|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima_max.png) | **Prima MAX** | 9|15|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima_show.png) | **Prima Show** | ||
@@ -186,6 +187,7 @@
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/sporty.png) | **Sporty TV** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/sport1.png) | **Sport1** | 79|104|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/sport2.png) | **Sport2** | 80|105|
+![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/starmaxcomedy.png) | **Starmax Comedy** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/story4.png) | **Story4 (cz)** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/strike.png) | **Strike TV** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/STV1.png) | **STV1** | 44|45|
