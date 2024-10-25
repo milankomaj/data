@@ -4,7 +4,7 @@ run-name: ${{ github.workflow }} ✅ ${{ github.event_name}}
 on:
   workflow_call:
   workflow_dispatch:
-env:
+# env:
   # env_var: ${{ vars.SHEET_ELEONORA }}
   # env_var2: ${{ vars.SCRAPER_ELEONORA }}
   # env_var3: ${{ vars.CORS_ELEONORA }}
