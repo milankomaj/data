@@ -17,9 +17,9 @@ sed -i '$ d' ${balicky}-${lang[@]::2}_skylink.tsv
 sed -i "1s/.*/${balicky^^}-${lang[@]::2},/" ${balicky}-${lang[@]::2}_skylink.tsv
 sed -i '/3sat HD/,$d' ${balicky}-${lang[@]::2}_skylink.tsv
 sed -i 's/^[ \t]*//' ${balicky}-${lang[@]::2}_skylink.tsv
-sed -i 's/\Pouze Live TV\>/🟦/g' ${balicky}-${lang[@]::2}.csv
-sed -i 's/\Iba Live TV\>/🟦/g' ${balicky}-${lang[@]::2}.csv
-sed -i 's/\Live TV\>//g' ${balicky}-${lang[@]::2}.csv
+sed -i 's/\Pouze Live TV\>/🟦/g' ${balicky}-${lang[@]::2}_skylink.tsv
+sed -i 's/\Iba Live TV\>/🟦/g' ${balicky}-${lang[@]::2}_skylink.tsv
+sed -i 's/\Live TV\>//g' ${balicky}-${lang[@]::2}_skylink.tsv
 sed -i 's/ "//g' ${balicky}-${lang[@]::2}_skylink.tsv
 sed -i 's/"//g' ${balicky}-${lang[@]::2}_skylink.tsv
 awk -i inplace 'NR == 1; NR > 1 {print $0 | "sort -t, -k1"}' ${balicky}-${lang[@]::2}_skylink.tsv
