@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo -e "\033[31;1m antiktv chanells \033[0m"
 curl 'https://api.webtv.sk/channels' --compressed -X POST \
  --no-progress-meter \
  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0' \
