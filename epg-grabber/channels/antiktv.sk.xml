@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site site="antiktv.sk">
+  <channels>
+    <channel lang="cz" xmltv_id="733" site_id="al_jazeera_english" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/8b8c80852b1c0a5e11e2558c7cc4f1a9.svg">Al Jazeera English</channel>
+    <channel lang="cz" xmltv_id="732" site_id="al_jazeera" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/aaa573fe62834de165459c6379effda5.svg">Al Jazeera</channel>
+    <channel lang="cz" xmltv_id="749" site_id="amc" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/89bbcd29640a7f8554f374c52510c6c6.svg">AMC</channel>
+    <channel lang="cz" xmltv_id="588" site_id="animal_planet" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/22d1423b143aad8e6e72126a7b01eb3a.svg">Animal Planet</channel>
+    <channel lang="cz" xmltv_id="1161" site_id="arcadia_tv" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/a4b5488aae7b9ee54feb80af3cedaa9e.svg">Arcadia TV</channel>
+    <channel lang="cz" xmltv_id="426" site_id="arena_sport_1" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/7bb283b098043c80d771519c05a264c8.svg">Arena Sport 1</channel>
+    <channel lang="cz" xmltv_id="849" site_id="arena_sport_2" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/fb00a0489b24a8a62a52fce8c7ca09cb.svg">Arena Sport 2</channel>
+    <channel lang="cz" xmltv_id="1076" site_id="arirang_tv" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/fd01e93f96849d65e5487042868d6516.svg">Arirang TV</channel>
+    <channel lang="cz" xmltv_id="883" site_id="armenia_1_tv" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/c7e5533184889bd9ab47896d978dad2e.svg">Armenia 1 TV</channel>
+    <channel lang="cz" xmltv_id="688" site_id="auto_motor_und_sport" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/4bc4980aab96f89c6066393973591661.svg">Auto Motor und Sport</channel>
+    <channel lang="cz" xmltv_id="422" site_id="axn_black" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/be7739a317d37eb357d1b703129f2fb4.svg">AXN Black</channel>
+    <channel lang="cz" xmltv_id="421" site_id="axn_white" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/e588d1c20649007483b79823faad9cd8.svg">AXN White</channel>
+    <channel lang="cz" xmltv_id="591" site_id="axn" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/8784d41cda66c4ac2b5daef9e69bf183.svg">AXN</channel>
+    <channel lang="cz" xmltv_id="630" site_id="regionalni_televize" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/c85d15ea68690a4b33db30020bdcc3db.svg">A11</channel>
+    <channel lang="cz" xmltv_id="451" site_id="barrandov_plus" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/154fe5ee8024a98cf41e0cb7d94706da.svg">Barrandov Krimi</channel>
+    <channel lang="cz" xmltv_id="460" site_id="barrandov" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/1a5f0d7557ca176b19dd73b42532df0d.svg">Barrandov</channel>
+    <channel lang="cz" xmltv_id="627" site_id="cetv" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/edbf0d7e40a306b041cf241d1589ed07.svg">CETV</channel>
+    <channel lang="cz" xmltv_id="536" site_id="cgtn_documentary" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/1eb528efd1abece2f42da396ffe58bfb.svg">CGTN Documentary</channel>
+    <channel lang="cz" xmltv_id="661" site_id="cgtn" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/1a361492e065a56c44e27acb4f2aa46f.svg">CGTN</channel>
+    <channel lang="cz" xmltv_id="389" site_id="cinemax_2" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/65100e9df31ce74d83d34bff468792bb.svg">Cinemax 2</channel>
+    <channel lang="cz" xmltv_id="702" site_id="cinemax" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/669e22610de5442e826adfc069405ef6.svg">Cinemax</channel>
+    <channel lang="cz" xmltv_id="446" site_id="mtv_dance" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/f56516539de4a1c5822929837567c2c4.svg">club MTV</channel>
+    <channel lang="cz" xmltv_id="1236" site_id="prima_news" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/beac74e18415c0d9f56926529f4001d5.svg">CNN Prima News</channel>
+    <channel lang="cz" xmltv_id="645" site_id="crime_investigation" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/187a261b08dcd81e5966977d13c5eaf1.svg">Crime &amp; Investigation</channel>
+    <channel lang="cz" xmltv_id="1423" site_id="current_time" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/69a5c765d9fbc532ae49d9e2cb92f10c.svg">Current Time</channel>
+    <channel lang="cz" xmltv_id="453" site_id="ct_detem_ct_art" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/18ec82538f56a8ff0365a37afe2130ae.svg">ČT :D - ČT art</channel>
+    <channel lang="cz" xmltv_id="602" site_id="ct_1" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/89f8dc13317fb6802334c16ca15379c8.svg">ČT1</channel>
+    <channel lang="cz" xmltv_id="605" site_id="ct_2" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/e3b13acc7c1107459ce5a79ecd5ee509.svg">ČT2</channel>
+    <channel lang="cz" xmltv_id="606" site_id="ct_24" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/4b057e943a1ce6fcaf81ce83b909777b.svg">ČT24</channel>
+    <channel lang="cz" xmltv_id="469" site_id="dajto" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/b3a07de118d35983c4fc91605c47e0c3.svg">DajTo</channel>
+    <channel lang="cz" xmltv_id="589" site_id="discovery" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/a6f7e04cc1ae359a84746eb0c4ed460b.svg">Discovery</channel>
+    <channel lang="cz" xmltv_id="581" site_id="disney_channel" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/7a17b806af60e71d01e45083c142f35c.svg">Disney Channel</channel>
+    <channel lang="cz" xmltv_id="580" site_id="disney_junior" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/314204495cc598a49f96026509a8fb49.svg">Disney Junior</channel>
+    <channel lang="cz" xmltv_id="720" site_id="docubox_hd" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/02ee5b07770f2f0b775df6df317dca16.svg">DocuBox</channel>
+    <channel lang="cz" xmltv_id="1508" site_id="doktor_tv" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/b44b71db0fe4a78946d15d6d90719820.svg">Doktor TV</channel>
+    <channel lang="cz" xmltv_id="470" site_id="doma" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/6f8a77da26a88ed1dc01c3bf0335831c.svg">Doma</channel>
+    <channel lang="cz" xmltv_id="1219" site_id="duck_tv_plus" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/06e9c17779fa6446a8741f7369c4e276.svg">Duck TV Plus</channel>
+    <channel lang="cz" xmltv_id="614" site_id="duck_tv" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/ebedc1453f7aa2820299843cf9fa5959.svg">Duck TV</channel>
+    <channel lang="cz" xmltv_id="472" site_id="stv_2" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/dbcdc98ea8db55d1ac282a3361aa6ff2.svg">Dvojka</channel>
+    <channel lang="cz" xmltv_id="414" site_id="english_club_tv" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/e25b013f7698ca62a7fbd8f943b50f5a.svg">English Club TV</channel>
+    <channel lang="cz" xmltv_id="1419" site_id="epsreso_tv" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/de2d073da38fb91246eba917c1c78c85.svg">Espreso TV</channel>
+    <channel lang="cz" xmltv_id="544" site_id="euronews" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/3358484bc58ed4d8e2937f6ee51165ad.svg">Euronews</channel>
+    <channel lang="cz" xmltv_id="753" site_id="eurosport_1" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/723410b6d48888070012c0691a65afef.svg">Eurosport 1</channel>
+    <channel lang="cz" xmltv_id="586" site_id="eurosport_2" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/53556522790a0b05d647d7d5c27eed51.svg">Eurosport 2</channel>
+    <channel lang="cz" xmltv_id="718" site_id="fashionbox_hd" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/b37a4372a4b1fcfe48625f6e79d7b803.svg">FashionBox</channel>
+    <channel lang="cz" xmltv_id="409" site_id="fashion_tv" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/e50d4f5967b58983419172b5d8846ccd.svg">Fashion TV Czech &amp; Slovak</channel>
+    <channel lang="cz" xmltv_id="719" site_id="fast_and_funbox_hd" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/b3787cf05b2d7c45d85df9a4bd463ef1.svg">Fast and Funbox</channel>
+    <channel lang="cz" xmltv_id="716" site_id="fightbox_hd" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/d041441ede9d38de342dded720b81cd9.svg">FightBox</channel>
+    <channel lang="cz" xmltv_id="717" site_id="filmbox_arthouse" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/4560d8e1a2a94e0ff49d077e5bf28693.svg">Filmbox Arthouse</channel>
+    <channel lang="cz" xmltv_id="687" site_id="filmbox_extra_hd" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/34790002afbeaec3aefb15eebe69059a.svg">FilmBox Extra</channel>
+    <channel lang="cz" xmltv_id="715" site_id="filmbox_family" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/55de4cad03d4cf2bc5f250ecde34e710.svg">FilmBox Family</channel>
+    <channel lang="cz" xmltv_id="725" site_id="filmbox_premium" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/d03d8019b5d554bdda07411b1125eb37.svg">FilmBox Premium</channel>
+    <channel lang="cz" xmltv_id="415" site_id="filmbox_plus" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/dffd645341e06809a86df54882ea2a54.svg">FilmBox Stars</channel>
+    <channel lang="cz" xmltv_id="412" site_id="filmbox" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/391528aa0c3f572dc22822ee4f3525a4.svg">FilmBox</channel>
+    <channel lang="cz" xmltv_id="592" site_id="film_plus" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/2b999ab7d2f48e7f093f316704cd8e9c.svg">Film +</channel>
+    <channel lang="cz" xmltv_id="425" site_id="fishing_and_hunting" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/d64563947022edf4be13172dd289f166.svg">Fishing&amp;Hunting</channel>
+    <channel lang="cz" xmltv_id="1335" site_id="folklorika" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/23298e5fe2550ce68c1d9b85f6990c69.svg">Folklorika</channel>
+    <channel lang="cz" xmltv_id="1079" site_id="food_network" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/c0e751b6e9a9f8cbf1b42cc3b03c2e4a.svg">Food Network</channel>
+    <channel lang="cz" xmltv_id="548" site_id="france_24_english" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/bb911aa75776374311dfd6a023a93eb9.svg">France 24 English</channel>
+    <channel lang="cz" xmltv_id="549" site_id="france24" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/9fade1a51298d184f92be8f3968015e8.svg">France 24</channel>
+    <channel lang="cz" xmltv_id="860" site_id="golf_channel" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/14b321b355a467a5a0fc59ac49a487c6.svg">Golf Channel</channel>
+    <channel lang="cz" xmltv_id="385" site_id="hbo_2" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/60544b048cabc23f5443f45e55bb0815.svg">HBO 2</channel>
+    <channel lang="cz" xmltv_id="387" site_id="hbo_3" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/58921731f3357f0a6ec5ed7cbb5c6ca6.svg">HBO 3</channel>
+    <channel lang="cz" xmltv_id="386" site_id="hbo" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/8b2dfe5d312dbc3bb733028f2dad1bcf.svg">HBO</channel>
+    <channel lang="cz" xmltv_id="1429" site_id="hgtv" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/cf74382b49d5b088fc4a43179df9af8a.svg">HGTV</channel>
+    <channel lang="cz" xmltv_id="416" site_id="history_channel" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/475fd95b51e068db7e81c8f77c93d5dc.svg">History Channel</channel>
+    <channel lang="cz" xmltv_id="1308" site_id="history_2" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/04d055bb2543bcd043e6229549d4e5d1.svg">History 2</channel>
+    <channel lang="cz" xmltv_id="694" site_id="investigation_discovery" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/bd3bb1f3d23a076269b282f01d738020.svg">ID</channel>
+    <channel lang="cz" xmltv_id="596" site_id="stv_1" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/b5999a971c61bce3f20e6dd45d070ffd.svg">Jednotka</channel>
+    <channel lang="cz" xmltv_id="579" site_id="jim_jam" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/a98cbd6d7e123fa422d34ceb458dc2c7.svg">JimJam</channel>
+    <channel lang="cz" xmltv_id="1246" site_id="joj_cinema_plus_jedna" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/fb2c6fd9262372f9ea9ce827111160f7.svg">JOJ Cinema +1</channel>
+    <channel lang="cz" xmltv_id="595" site_id="joj_cinema" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/800244a29155204f4df7cf9e15f604ab.svg">JOJ Cinema</channel>
+    <channel lang="cz" xmltv_id="598" site_id="rik" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/5798e668488c086ddfe78922352487bf.svg">Jojko</channel>
+    <channel lang="cz" xmltv_id="597" site_id="joj_plus" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/1ff8c553aa165983f010c6a5938ec32b.svg">JOJ Plus</channel>
+    <channel lang="cz" xmltv_id="1517" site_id="joj_svet" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/5f573d7409f02c754b1cb8cfe4bc0164.svg">JOJ Svet</channel>
+    <channel lang="cz" xmltv_id="1374" site_id="joj_sport" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/14af30c201720856221c639dc2ba3bef.svg">JOJ Šport</channel>
+    <channel lang="cz" xmltv_id="922" site_id="joj_plus_jedna" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/344458d42be3540a975a0e5076b44228.svg">JOJ +1</channel>
+    <channel lang="cz" xmltv_id="1469" site_id="joj_24" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/9348e1b0304181264625154822b76820.svg">JOJ 24</channel>
+    <channel lang="cz" xmltv_id="468" site_id="joj" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/95d84ce12d07a68aab67390aa262dab3.svg">JOJ</channel>
+    <channel lang="cz" xmltv_id="452" site_id="kino_barrandov" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/f894f3b885bc02b52d781387fbcbbe46.svg">Kino Barrandov</channel>
+    <channel lang="cz" xmltv_id="1107" site_id="lala_tv" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/524dd0a520d48994f051122a857b3c3c.svg">LALA TV</channel>
+    <channel lang="cz" xmltv_id="818" site_id="life_tv" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/615ce4cc0c2e3e55b74c1aa7a661203e.svg">Life TV</channel>
+    <channel lang="cz" xmltv_id="1311" site_id="love_nature" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/75dcd092564fc21d8aefeacaddbc9b51.svg">Love Nature</channel>
+    <channel lang="cz" xmltv_id="1721" site_id="markiza_klasik" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/c8aa2ba659272cf98ea6a2566222741d.svg">Markíza Klasik</channel>
+    <channel lang="cz" xmltv_id="1430" site_id="markiza_krimi" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/e08e303b7c2eca15265050a9e9bbfc1f.svg">Markíza Krimi</channel>
+    <channel lang="cz" xmltv_id="1231" site_id="markiza_plus_jedna" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/e910de4c6891e918d2c52d6149fc9589.svg">Markíza +1</channel>
+    <channel lang="cz" xmltv_id="471" site_id="markiza" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/88aecef2b2abd7bfe49cd1ea2e5a4819.svg">Markíza</channel>
+    <channel lang="cz" xmltv_id="724" site_id="minimax" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/833cfc6b8c0fe1b2b62175c03cecf00b.svg">Minimax</channel>
+    <channel lang="cz" xmltv_id="440" site_id="mtv_hits" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/246f8b7066f398258a152ef21d628dd7.svg">MTV Hits</channel>
+    <channel lang="cz" xmltv_id="582" site_id="vh_1" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/4484ad116603bc9cd1b6ad4b786a2aa3.svg">MTV 00s</channel>
+    <channel lang="cz" xmltv_id="706" site_id="vh1_classic" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/b91ee9737bbbd8fe85ce509a5cb915cb.svg">MTV 80s</channel>
+    <channel lang="cz" xmltv_id="447" site_id="mtv_rocks" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/ecf2e1352f1ff360b8d59b2cf776fe62.svg">MTV 90s</channel>
+    <channel lang="cz" xmltv_id="660" site_id="national_geographic_channel_hd" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/26caee5d9acccf5b35b5756542c04c16.svg">National Geographic Channel</channel>
+    <channel lang="cz" xmltv_id="1153" site_id="national_geographic_wild" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/97420325ba282cc3c46755701d611672.svg">National Geographic Wild</channel>
+    <channel lang="cz" xmltv_id="1021" site_id="nhk_world_hd" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/925b83db924067251b517f9f755f7c68.svg">NHK World Japan</channel>
+    <channel lang="cz" xmltv_id="632" site_id="nickelodeon" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/a9c1e09063be12a1a758c45f8911190c.svg">Nickelodeon</channel>
+    <channel lang="cz" xmltv_id="531" site_id="nick_jr" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/3406bfdd2052c67d65a5dacb3101785f.svg">Nick Jr</channel>
+    <channel lang="cz" xmltv_id="1184" site_id="nicktoons" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/fcce0945a335333bb42ecfd978797620.svg">Nicktoons</channel>
+    <channel lang="cz" xmltv_id="604" site_id="noe" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/76b2928358fde79ea4a6184dc340522b.svg">NOE</channel>
+    <channel lang="cz" xmltv_id="814" site_id="nova_international" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/0057975def0969c7aaf8a7b73fd2c973.svg">Nova International</channel>
+    <channel lang="cz" xmltv_id="752" site_id="nova_sport_1_hd" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/7ee08a40878bdeecfe8dbce50a441693.svg">Nova Sport 1</channel>
+    <channel lang="cz" xmltv_id="857" site_id="nova_sport_2_hd" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/1695e11767f9a9944d12298362d82d53.svg">Nova Sport 2</channel>
+    <channel lang="cz" xmltv_id="1159" site_id="ocko_black_hd" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/c35dcc1aeefa5e01305a074678ee53d2.svg">Óčko Black</channel>
+    <channel lang="cz" xmltv_id="635" site_id="ocko_expres" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/e0eaf0237fadfadf308869e5b54a66dc.svg">Óčko Expres</channel>
+    <channel lang="cz" xmltv_id="634" site_id="ocko_star" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/5401f69bdc4f92d284c1baab3166fa0a.svg">Óčko Star</channel>
+    <channel lang="cz" xmltv_id="608" site_id="ocko" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/7f3ac6a4b0b8f11f58247bdfb7e3875c.svg">Óčko</channel>
+    <channel lang="cz" xmltv_id="947" site_id="park_tv" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/6fa11fd01b3f716c9f0a4be19bafe9cb.svg">PARK TV</channel>
+    <channel lang="cz" xmltv_id="1473" site_id="polar" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/cfc4a0d7049341d60fde5f2cbaaa09dd.svg">Polar TV</channel>
+    <channel lang="cz" xmltv_id="1263" site_id="slager_premium" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/1c32b85266662d9e26af48b5f7b2655f.svg">PREMIUM</channel>
+    <channel lang="cz" xmltv_id="461" site_id="prima_cool_sk" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/6abbba4fbabb01c0a5cb45e1be4e41ae.svg">Prima Cool SK</channel>
+    <channel lang="cz" xmltv_id="1022" site_id="prima_krimi" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/df864be8e022b54abd942b4e72075e99.svg">Prima Krimi</channel>
+    <channel lang="cz" xmltv_id="459" site_id="prima_love" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/7e5bfc297e39516c203215e04366ef70.svg">Prima Love</channel>
+    <channel lang="cz" xmltv_id="796" site_id="prima_max" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/0f4e3a3b69084a46aa083a9b9efd919f.svg">Prima Max</channel>
+    <channel lang="cz" xmltv_id="894" site_id="prima_plus_hd" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/f8fa5c2bb4b53261b3e407f00912565d.svg">Prima SK</channel>
+    <channel lang="cz" xmltv_id="561" site_id="rai_tre" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/1a0d84babb3ced47c369493a8a12123a.svg">Rai Tre</channel>
+    <channel lang="cz" xmltv_id="563" site_id="rai_uno" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/9283368353a4d87db9801ffa3505f59c.svg">Rai Uno</channel>
+    <channel lang="cz" xmltv_id="654" site_id="pohoda_rebel" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/c7b81764eb5438bc3792241b3782a5f8.svg">Rebel</channel>
+    <channel lang="cz" xmltv_id="655" site_id="pohoda_relax" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/107199f7c34818a72c7d56688e54a438.svg">Relax</channel>
+    <channel lang="cz" xmltv_id="609" site_id="retro_music_television" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/1dd02c2e852ba444f73dfe15f2d3806f.svg">Retro Music Television</channel>
+    <channel lang="cz" xmltv_id="1305" site_id="ric_tv" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/be1cae40eb98037d0845c013c6b9a6c8.svg">RiK TV</channel>
+    <channel lang="cz" xmltv_id="1332" site_id="stv_sport" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/147bd98d103f68f076595a7a52677af1.svg">RTVS Šport</channel>
+    <channel lang="cz" xmltv_id="600" site_id="senzi" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/7ec316fcee99091442c82f2192d58c0a.svg">Senzi</channel>
+    <channel lang="cz" xmltv_id="1448" site_id="skvele" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/2c0b7cc6b94ec3c0f63238164a0b5939.svg">Skvelé TV</channel>
+    <channel lang="cz" xmltv_id="804" site_id="sky_news" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/e0b6410f826f66e2598e67b732cc6d9e.svg">Sky News</channel>
+    <channel lang="cz" xmltv_id="916" site_id="up_network" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/0f5609d3a3b423b9f7860b7a068c946c.svg">Spark TV</channel>
+    <channel lang="cz" xmltv_id="424" site_id="spektrum_home" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/d6ebbf8ea635c0941a3802004dd42e16.svg">Spektrum Home</channel>
+    <channel lang="cz" xmltv_id="713" site_id="spektrum" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/ab482b1478e7d46efe71b6d2c77977d2.svg">Spektrum</channel>
+    <channel lang="cz" xmltv_id="584" site_id="sport_1" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/dcb376772bf63b123d92004a10a03b23.svg">Sport 1</channel>
+    <channel lang="cz" xmltv_id="583" site_id="sport_2" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/0f51ec91824fb629399ec84e2c6daac6.svg">Sport 2</channel>
+    <channel lang="cz" xmltv_id="1066" site_id="stingray_iconcerts" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/41e74714b12712232e3e167ca1896957.svg">STINGRAY iConcerts</channel>
+    <channel lang="cz" xmltv_id="999" site_id="slagr_2" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/837798f7f304319a84ef7ad33cea30b1.svg">Šláger Muzika</channel>
+    <channel lang="cz" xmltv_id="738" site_id="slagr_tv" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/31783e22e974d5bbfc283d003dc0c1c9.svg">Šláger Originál</channel>
+    <channel lang="cz" xmltv_id="601" site_id="ta_3" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/a92a0127acea617b5931733cd6f39107.svg">TA3</channel>
+    <channel lang="cz" xmltv_id="590" site_id="tlc" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/4281a54d8760b93e6dd4a4a87334207a.svg">TLC</channel>
+    <channel lang="cz" xmltv_id="854" site_id="travel_channel_hd" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/68d873953ac35046b66b4afa67ab86ff.svg">Travel Channel</channel>
+    <channel lang="cz" xmltv_id="1380" site_id="trt_world" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/1b71e9bfd0a15495158719aca02b4c95.svg">TRT World</channel>
+    <channel lang="cz" xmltv_id="1458" site_id="turbo_tv" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/b6380b16e0d51d0c5f57e975c0e9f094.svg">Turbo TV</channel>
+    <channel lang="cz" xmltv_id="572" site_id="tv_bratislava" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/26c62243c02556fc135f44ef109e548c.svg">TV Bratislava</channel>
+    <channel lang="cz" xmltv_id="603" site_id="lux" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/19e5c8601d1e3c8b6e72745c6834a966.svg">TV LUX</channel>
+    <channel lang="cz" xmltv_id="423" site_id="tv_paprika" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/676ea9e7b6fba998f20c9e013d32cc8d.svg">TV Paprika</channel>
+    <channel lang="cz" xmltv_id="823" site_id="tvp_info" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/914402d1bfae1caaae0bd144725a5677.svg">TVP Info</channel>
+    <channel lang="cz" xmltv_id="575" site_id="tv_poprad" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/f6b8fc89ab3e422193b465657febada9.svg">TV Poprad</channel>
+    <channel lang="cz" xmltv_id="742" site_id="tv_povazie" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/156e6cd91edb08ee6ccfbbb3a00a1dc7.svg">TV Považie</channel>
+    <channel lang="cz" xmltv_id="825" site_id="tvp_polonia" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/19699f3944e10e27e4250ba0cc2d71de.svg">TVP Polonia</channel>
+    <channel lang="cz" xmltv_id="1496" site_id="tvp_world" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/74c36f59de367d32cfbdefb33823269f.svg">TVP World</channel>
+    <channel lang="cz" xmltv_id="1093" site_id="tv_zemplin" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/33af6b8f81e29b18629c900899406b46.svg">TV Zemplín</channel>
+    <channel lang="cz" xmltv_id="629" site_id="tv_8" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/ed0f19faa4a0aa0ff4404ee053f51f11.svg">TV8</channel>
+    <channel lang="cz" xmltv_id="925" site_id="ua_tv" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/0bf4080e907782384db773cfb2b372ca.svg">UA TV</channel>
+    <channel lang="cz" xmltv_id="599" site_id="wau" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/e33dc17b4f8fc0b4f2a2f8be7a35cb3b.svg">WAU</channel>
+    <channel lang="cz" xmltv_id="1188" site_id="stv_3" logo="https://static.maxim.iptv.antik.sk/app/assets/upload/channels/379063b64e1f269a4f77e507842577aa.svg">:24</channel>
+  </channels>
+</site>
