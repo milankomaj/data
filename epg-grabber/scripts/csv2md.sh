@@ -8,5 +8,6 @@ do
 echo "${chanells}"
 awk -F ',' '{print "![]("$5") | **"$3"** | "$4}' csv/${chanells}.csv > md/${chanells}.md
 sed -i 2i":---: | :---: | :---:" md/${chanells}.md
+sed -i 's/\!\[\](logoUrl)/logo /g' md/${chanells}.md
 done
 echo "done"
