@@ -1,4 +1,4 @@
-![](logoUrl) | **name** | channelNumber
+logo  ![](logoUrl) | **name** | channelNumber
 :---: | :---: | :---:
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/b5999a971c61bce3f20e6dd45d070ffd.svg) | **Jednotka** | 1
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/dbcdc98ea8db55d1ac282a3361aa6ff2.svg) | **Dvojka** | 2
