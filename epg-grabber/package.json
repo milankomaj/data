@@ -20,7 +20,7 @@
     "epg-grabber": "^0.37.4",
     "epg-parser": "^0.3.1",
     "iconv-lite": "^0.6.3",
-    "cheerio": "^1.0.0-rc.12",
+    "cheerio": "^1.0.0",
     "xml-js": "^1.6.11",
     "axios": "^1.7.9"
   }
