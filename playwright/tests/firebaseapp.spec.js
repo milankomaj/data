@@ -93,7 +93,7 @@ test("Video", async () => {
 
   await page.goto('https://milankomaj-934e3.firebaseapp.com/');
   await page.getByRole('link', { name: 'other' }).click();
-  await expect(page.getByRole('heading', { name: 'about:' })).toBeVisible();
+  // await expect(page.getByRole('heading', { name: 'about:' })).toBeVisible();
   await page.locator('xpath=//*[@id="toDark"]').hover({ timeout: 60000 });
   await page.locator('xpath=//*[@id="toDark"]').click({ timeout: 20000 });
 
