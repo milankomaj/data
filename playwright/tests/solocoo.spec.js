@@ -6,11 +6,11 @@ test('CZ', async ({ page }) => {
   await page.goto('https://livetv.skylink.cz');
   await page.getByRole('link', { name: 'Pouze nutné cookies' }).click();
 
-  await expect(page.getByText('Prohlédnout')).toBeVisible();
+  // await expect(page.getByText('Prohlédnout')).toBeVisible();
   await expect(page).toHaveTitle(/Skylink/);
   // await page.screenshot({ path: `test-results/title.png` });
 
-  await page.getByText('Prohlédnout').click();
+  await page.getByText('Continue as Free User').click();
   // await page.screenshot({ path: `test-results/click.png` });
 
   await expect(page.getByText('TV průvodce')).toBeVisible();
@@ -28,7 +28,7 @@ test('SK', async ({ page }) => {
   await page.goto('https://livetv.skylink.sk');
   await page.getByRole('link', { name: 'Len potrebné cookies' }).click();
 
-  await expect(page.getByText('Pozrieť')).toBeVisible();
+  await expect(page.getByText('Continue as Free User')).toBeVisible();
   await expect(page).toHaveTitle(/Skylink/);
   // await page.screenshot({ path: `test-results/title.png` });
 
