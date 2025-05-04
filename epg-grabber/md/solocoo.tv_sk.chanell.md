@@ -8,7 +8,7 @@ logo  | **name** | channelNumber
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CANAL%20Sport_m.png) | **CANAL+ Sport** | 6
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CANAL%20Sport%202_m.png) | **CANAL+ Sport 2** | 7
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Filmbox%20HD_m.png) | **Filmbox HD** | 8
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Filmbox%20Stars_m.png) | **Filmbox Stars** | 9
+![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/FilmBox%20Stars_m.png) | **FilmBox Stars** | 9
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/RTVS%2024%20HD_m.png) | **RTVS 24 HD** | 11
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/RTVS%20SPORT%20HD_m.png) | **RTVS SPORT HD** | 12
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/DOMA%20HD_m.png) | **DOMA HD** | 13
@@ -22,7 +22,7 @@ logo  | **name** | channelNumber
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/TV%20Lux%20HD_m.png) | **TV Lux HD** | 21
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Filmbox%20Extra%20HD_m.png) | **Filmbox Extra HD** | 23
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Filmbox%20Premium%20HD_m.png) | **Filmbox Premium HD** | 24
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Filmbox%20Family_m.png) | **Filmbox Family** | 25
+![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/FilmBox%20Family_m.png) | **FilmBox Family** | 25
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/JOJ%20Cinema%20HD_m.png) | **JOJ Cinema HD** | 26
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CS%20Film_m.png) | **CS Film** | 27
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Epic%20Drama%20HD_m.png) | **Epic Drama HD** | 28
@@ -44,10 +44,10 @@ logo  | **name** | channelNumber
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CT%2024%20HD_m.png) | **CT 24 HD** | 45
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CT%20Dart%20HD_m.png) | **CT :D/art HD** | 47
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20MAX%20HD_m.png) | **Prima MAX HD** | 48
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20COOL%20SK_m.png) | **Prima COOL SK** | 49
+![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20COOL%20HD%20SK_m.png) | **Prima COOL HD SK** | 49
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20Zoom%20HD_m.png) | **Prima Zoom HD** | 50
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20KRIMI%20HD_m.png) | **Prima KRIMI HD** | 51
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20Love_m.png) | **Prima Love** | 52
+![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20Love%20HD%20SK_m.png) | **Prima Love HD SK** | 52
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20Show_m.png) | **Prima Show** | 53
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20STAR_m.png) | **Prima STAR** | 54
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/TV%20Barrandov_m.png) | **TV Barrandov** | 55
@@ -73,14 +73,12 @@ logo  | **name** | channelNumber
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/History%20HD_m.png) | **History HD** | 82
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Love%20Nature%20HD_m.png) | **Love Nature HD** | 83
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CrimeInvestigation_m.png) | **Crime+Investigation** | 84
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/DOCUBOX_m.png) | **DOCUBOX** | 85
+![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/DocuBox_m.png) | **DocuBox** | 85
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Nautical%20HD_m.png) | **Nautical HD** | 86
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Spektrum%20Home_m.png) | **Spektrum Home** | 90
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/TV%20Paprika_m.png) | **TV Paprika** | 91
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/INPLUS_m.png) | **INPLUS** | 93
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/tv8_m.png) | **tv8** | 94
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Hobby%20TV_m.png) | **Hobby TV** | 95
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Mnam%20TV_m.png) | **Mnam TV** | 96
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/JOJ%20Sport%20HD_m.png) | **JOJ Sport HD** | 100
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Nova%20Sport%201%20HD_m.png) | **Nova Sport 1 HD** | 101
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Nova%20Sport%202%20HD_m.png) | **Nova Sport 2 HD** | 102
@@ -90,7 +88,7 @@ logo  | **name** | channelNumber
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Sport%201%20HD_m.png) | **Sport 1 HD** | 106
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Sport%202%20HD_m.png) | **Sport 2 HD** | 107
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Golf%20Channel_m.png) | **Golf Channel** | 108
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/FIGHTBOX_m.png) | **FIGHTBOX** | 109
+![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/FightBox_m.png) | **FightBox** | 109
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Arena%20Sport%201%20HD_m.png) | **Arena Sport 1 HD** | 110
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Arena%20Sport%202%20HD_m.png) | **Arena Sport 2 HD** | 111
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/AutoMotorSport%20HD_m.png) | **AutoMotorSport HD** | 112
@@ -100,7 +98,6 @@ logo  | **name** | channelNumber
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CANAL%20Sport%206_m.png) | **CANAL+ Sport 6** | 116
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CANAL%20Sport%207_m.png) | **CANAL+ Sport 7** | 117
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CANAL%20Sport%208_m.png) | **CANAL+ Sport 8** | 118
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Extreme%20Sports%20Channel_m.png) | **Extreme Sports Channel** | 119
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Jojko_m.png) | **Jojko** | 120
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/JimJam%20CZ_m.png) | **JimJam CZ** | 121
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Minimax_m.png) | **Minimax** | 122
@@ -118,7 +115,7 @@ logo  | **name** | channelNumber
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Premium%20HD_m.png) | **Premium HD** | 143
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Senzi_m.png) | **Senzi** | 144
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/REBEL_m.png) | **REBEL** | 145
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/360%20Tune%20Box%20HD_m.png) | **360 Tune Box HD** | 146
+![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/360TuneBox_m.png) | **360TuneBox** | 146
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/OCKO_m.png) | **OCKO** | 147
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/OCKO%20STAR_m.png) | **OCKO STAR** | 148
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Ocko%20Black%20HD_m.png) | **Ocko Black HD** | 149
@@ -130,8 +127,6 @@ logo  | **name** | channelNumber
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Stingray%20CMusic_m.png) | **Stingray CMusic** | 155
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Stingray%20iConcerts%20HD_m.png) | **Stingray iConcerts HD** | 156
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Stingray%20Classica%20HD_m.png) | **Stingray Classica HD** | 157
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Noe%20TV_m.png) | **Noe TV** | 162
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/A11_m.png) | **A11** | 163
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Gametoon_m.png) | **Gametoon** | 164
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/English%20Club%20TV_m.png) | **English Club TV** | 165
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/M1_m.png) | **M1** | 200
@@ -188,7 +183,6 @@ logo  | **name** | channelNumber
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Markiza%20International_m.png) | **Markiza International** | 363
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/JOJ%20Family%20HD_m.png) | **JOJ Family HD** | 364
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Paramount%20Network_m.png) | **Paramount Network** | 365
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20COOL%20HD_m.png) | **Prima COOL HD** | 366
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/RTLZWEI_m.png) | **RTLZWEI** | 400
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/RTL%20Television_m.png) | **RTL Television** | 401
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/RTL%20Super_m.png) | **RTL Super** | 402
@@ -269,40 +263,20 @@ logo  | **name** | channelNumber
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/phoenix%20HD_m.png) | **phoenix HD** | 485
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/DW%20English_m.png) | **DW English** | 486
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/ARAGON%20TV_m.png) | **ARAGON TV** | 487
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Rai%20News%2024_m.png) | **Rai News 24** | 488
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Canal%20Sur%20Andalucia_m.png) | **Canal Sur Andalucia** | 490
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Arirang%20TV%20HD_m.png) | **Arirang TV HD** | 492
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Current%20Time%20TV_m.png) | **Current Time TV** | 493
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Cubavision%20Internacional_m.png) | **Cubavision Internacional** | 500
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/TV%20Galicia%20HD_m.png) | **TV Galicia HD** | 501
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Canal%20Algerie_m.png) | **Canal Algerie** | 502
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/TRT%20World%20HD_m.png) | **TRT World HD** | 503
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Sonlife%20Broadcasting%20Network_m.png) | **Sonlife Broadcasting Network** | 504
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/EWTN%20katholisches%20TV_m.png) | **EWTN katholisches TV** | 505
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/K-TV%20Fernsehen_m.png) | **K-TV Fernsehen** | 506
+![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/K-TV%20Fernsehen%20HD_m.png) | **K-TV Fernsehen HD** | 506
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Bibel%20TV%20HD_m.png) | **Bibel TV HD** | 507
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/QVC%20UHD_m.png) | **QVC UHD** | 555
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/UHD1%20by%20ASTRA_m.png) | **UHD1 by ASTRA** | 557
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/SES%20UHD%20Demo_m.png) | **SES UHD Demo** | 558
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Love%20Nature%204k_m.png) | **Love Nature 4k** | 559
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20Love%20HD%20SK_m.png) | **Prima Love HD SK** | 560
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Stingray%20iConcerts%20%28East%29_m.png) | **Stingray iConcerts (East)** | 562
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Stingray%20Classica%20%28East%29_m.png) | **Stingray Classica (East)** | 563
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Nova%20HD._m.png) | **Nova HD.** | 566
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20HD._m.png) | **Prima HD.** | 567
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Nova%20Sport%20HD._m.png) | **Nova Sport HD.** | 568
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Nova%20Action%20HD._m.png) | **Nova Action HD.** | 569
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Nova%20Cinema%20HD._m.png) | **Nova Cinema HD.** | 570
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20COOL%20HD._m.png) | **Prima COOL HD.** | 571
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Dajto%20HD._m.png) | **Dajto HD.** | 572
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/TV%20JOJ%20HD._m.png) | **TV JOJ HD.** | 573
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/JOJ%20PLUS%20HD._m.png) | **JOJ PLUS HD.** | 574
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Jojko._m.png) | **Jojko.** | 575
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Slager%20Muzika._m.png) | **Slager Muzika.** | 576
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/JOJ%20Sport%20HD._m.png) | **JOJ Sport HD.** | 577
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Markiza%20Krimi%20HD._m.png) | **Markiza Krimi HD.** | 578
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Nova%20International._m.png) | **Nova International.** | 580
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/JOJ%2024%20HD._m.png) | **JOJ 24 HD.** | 585
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/RADIO%20VLNA_m.png) | **RADIO VLNA** | 800
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Slovensko_m.png) | **Slovensko** | 801
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/ReginaBA_m.png) | **ReginaBA** | 802
@@ -372,7 +346,7 @@ logo  | **name** | channelNumber
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/OE2W_m.png) | **OE2W** | 880
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/OE3_m.png) | **OE3** | 881
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Hitradio%20OE3_m.png) | **Hitradio OE3** | 882
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Sunlite%20Radio_m.png) | **Sunlite Radio** | 883
+![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Veronica%20Goud%20van%20Oud_m.png) | **Veronica Goud van Oud** | 883
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Radio%20Maria_m.png) | **Radio Maria** | 884
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Antenne%20Bayern_m.png) | **Antenne Bayern** | 886
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Bayern%201_m.png) | **Bayern 1** | 887
