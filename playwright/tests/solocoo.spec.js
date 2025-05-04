@@ -13,7 +13,7 @@ test('CZ', async ({ page }) => {
   await page.getByText('Continue as Free User').click();
   // await page.screenshot({ path: `test-results/click.png` });
 
-  await expect(page.getByText('TV průvodce')).toBeVisible();
+  await expect(page.getByText('Live TV')).toBeVisible();
   // await expect(page.getByText('Now on TV')).toBeVisible();
   // await page.screenshot({ path: `test-results/visible.png` });
 
@@ -32,10 +32,10 @@ test('SK', async ({ page }) => {
   await expect(page).toHaveTitle(/Skylink/);
   // await page.screenshot({ path: `test-results/title.png` });
 
-  await page.getByText('Pozrieť').click();
+  await page.getByText('Continue as Free User').click();
   // await page.screenshot({ path: `test-results/click.png` });
 
-  await expect(page.getByText('Teraz v TV')).toBeVisible();
+  await expect(page.getByText('Live TV')).toBeVisible();
   // await expect(page.getByText('Now on TV')).toBeVisible();
   // await page.screenshot({ path: `test-results/visible.png` });
 
