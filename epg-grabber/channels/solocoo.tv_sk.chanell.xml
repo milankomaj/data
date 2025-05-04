@@ -9,7 +9,7 @@
     <channel lang="sk" xmltv_id="skylink.sk-6" site_id="J9IfXGXCJM0wflzJR-53cvmaDBsRj6vI8zwXFrrq" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CANAL%20Sport_m.png">CANAL+ Sport</channel>
     <channel lang="sk" xmltv_id="skylink.sk-7" site_id="D9tfFleO9sZ9Qrm6vgzzIkr4_TzI0EfD41JCWKKm" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CANAL%20Sport%202_m.png">CANAL+ Sport 2</channel>
     <channel lang="sk" xmltv_id="skylink.sk-8" site_id="h2Q0W8Gu1NTC_SMkS4yI9I1hLFteiTTXrKdxQOSf" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Filmbox%20HD_m.png">Filmbox HD</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-9" site_id="R1oUrl4RCBWIk9K91s6Ye5H4Gb8EW713oOXt6K0v" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Filmbox%20Stars_m.png">Filmbox Stars</channel>
+    <channel lang="sk" xmltv_id="skylink.sk-9" site_id="R1oUrl4RCBWIk9K91s6Ye5H4Gb8EW713oOXt6K0v" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/FilmBox%20Stars_m.png">FilmBox Stars</channel>
     <channel lang="sk" xmltv_id="skylink.sk-11" site_id="q1-IzRD8VDr4AP62rhZYA3SpxS9B6NfLzzFrqFFq" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/RTVS%2024%20HD_m.png">RTVS 24 HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-12" site_id="PZon-VohtcUTLBJ9KxK0SA1QWII7e7H51YobM3o5" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/RTVS%20SPORT%20HD_m.png">RTVS SPORT HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-13" site_id="yvK7gk6l-6VRsklwh9EbEGuYBmL5RTPalMTG9Czp" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/DOMA%20HD_m.png">DOMA HD</channel>
@@ -23,7 +23,7 @@
     <channel lang="sk" xmltv_id="skylink.sk-21" site_id="ehmxqmN2hlTobbfGEcfY1Kf5xUjjV7lTiRrsRfym" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/TV%20Lux%20HD_m.png">TV Lux HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-23" site_id="5RunTIceJ6pFS5dhh1oeu5zYCd-rNPRsOVhGwEm6" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Filmbox%20Extra%20HD_m.png">Filmbox Extra HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-24" site_id="5dDbDpCYwJfj7UrkcWNRPDV7cnT01uAMiJZa9EXy" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Filmbox%20Premium%20HD_m.png">Filmbox Premium HD</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-25" site_id="M75sGY9lji57Fgyxsztjc0ke7XIa2oPiQlSKDu0k" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Filmbox%20Family_m.png">Filmbox Family</channel>
+    <channel lang="sk" xmltv_id="skylink.sk-25" site_id="M75sGY9lji57Fgyxsztjc0ke7XIa2oPiQlSKDu0k" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/FilmBox%20Family_m.png">FilmBox Family</channel>
     <channel lang="sk" xmltv_id="skylink.sk-26" site_id="dss0NUVayjffnCI273IPys9ZE-MQOdAeJfUFyvN_" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/JOJ%20Cinema%20HD_m.png">JOJ Cinema HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-27" site_id="XswLiFYhookZq49EhespAn6OVoHf9Xs-_62XKMx4" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CS%20Film_m.png">CS Film</channel>
     <channel lang="sk" xmltv_id="skylink.sk-28" site_id="UrfzDNEV7W1rPbWsX6f_sj3UVE6C2YFYCQZdxSIT" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Epic%20Drama%20HD_m.png">Epic Drama HD</channel>
@@ -45,10 +45,10 @@
     <channel lang="sk" xmltv_id="skylink.sk-45" site_id="GQvz_YL0733sdxyp53rLv8wgySlCkQ0lUvtuDglM" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CT%2024%20HD_m.png">CT 24 HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-47" site_id="rMsuXC9Wr-X6Y_n3ERtzxc8voEtfSRSQT4cB3OaL" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CT%20Dart%20HD_m.png">CT :D/art HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-48" site_id="787y7kzYWJVLE_F3lK65bOqRVt0iV6xNMY5cWxup" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20MAX%20HD_m.png">Prima MAX HD</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-49" site_id="F7uhTEf6o6wAOFZdMdFXn9QNo9rlR9ER3VgmFAs1" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20COOL%20SK_m.png">Prima COOL SK</channel>
+    <channel lang="sk" xmltv_id="skylink.sk-49" site_id="F7uhTEf6o6wAOFZdMdFXn9QNo9rlR9ER3VgmFAs1" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20COOL%20HD%20SK_m.png">Prima COOL HD SK</channel>
     <channel lang="sk" xmltv_id="skylink.sk-50" site_id="VNioPJ3_NADMrt-v29THYgKYP-TGeXx1t520oBrj" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20Zoom%20HD_m.png">Prima Zoom HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-51" site_id="i_TVkZ4sK5Ji9170U-NkNgcGtCw-3pCiHGuxLvL2" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20KRIMI%20HD_m.png">Prima KRIMI HD</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-52" site_id="xcy3iAO3-or93RYPy4niaqqWmSwZzzsTxpUTJfGS" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20Love_m.png">Prima Love</channel>
+    <channel lang="sk" xmltv_id="skylink.sk-52" site_id="XuEvW74eUePXF7kDOD-66Qi7imJepYYUP7DGWKDS" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20Love%20HD%20SK_m.png">Prima Love HD SK</channel>
     <channel lang="sk" xmltv_id="skylink.sk-53" site_id="yVcJNustL6Fdod0QPuS491JrtIgCSTcmfvvgJfL-" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20Show_m.png">Prima Show</channel>
     <channel lang="sk" xmltv_id="skylink.sk-54" site_id="ilPRmYMxYS6KV1ayQM6TPIJqZOegeG5jsG1zGwjT" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20STAR_m.png">Prima STAR</channel>
     <channel lang="sk" xmltv_id="skylink.sk-55" site_id="iJN6lOzksHCEJ2iLfeC5fDsjqb7HsFRQ4v-suWoC" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/TV%20Barrandov_m.png">TV Barrandov</channel>
@@ -74,14 +74,12 @@
     <channel lang="sk" xmltv_id="skylink.sk-82" site_id="HYlucefQc5figqDDlDYmd0YwWn_idvgn00n6Qu-o" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/History%20HD_m.png">History HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-83" site_id="gYFXVK96iyr1HKx9P4ZEipu-IRKeEgVIFO_mtvgO" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Love%20Nature%20HD_m.png">Love Nature HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-84" site_id="z7zt9hdoSaf8IXuxBbMpgi0NVETO1xcyLWeVqxkL" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CrimeInvestigation_m.png">Crime+Investigation</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-85" site_id="0fZicJQubJub3G8V3yrZLyANHAjHPhjpvFx3Sf-_" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/DOCUBOX_m.png">DOCUBOX</channel>
+    <channel lang="sk" xmltv_id="skylink.sk-85" site_id="0fZicJQubJub3G8V3yrZLyANHAjHPhjpvFx3Sf-_" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/DocuBox_m.png">DocuBox</channel>
     <channel lang="sk" xmltv_id="skylink.sk-86" site_id="qkurpqg-1I4MvV2ZgYCh7BwCOKQ2nOWiEvUmfrbq" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Nautical%20HD_m.png">Nautical HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-90" site_id="9K0o7r-6wXxWV4XZ4vBNT5VCcGOt_kRR0xMVf1VA" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Spektrum%20Home_m.png">Spektrum Home</channel>
     <channel lang="sk" xmltv_id="skylink.sk-91" site_id="EaLW1wFXbhqYS5v_xmyNFNBikih6TzeoGWfsyn-K" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/TV%20Paprika_m.png">TV Paprika</channel>
     <channel lang="sk" xmltv_id="skylink.sk-93" site_id="Si71DQk6DpIlIhW7iIFBkib7Wj4LnTJ9iFbKuDJg" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/INPLUS_m.png">INPLUS</channel>
     <channel lang="sk" xmltv_id="skylink.sk-94" site_id="NUjvYp4KMBE3PoIrtjet929MplMvpdFjec_6n7An" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/tv8_m.png">tv8</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-95" site_id="7qSJK3NGxXkshH3kiDqGUN6at5GJUT8Wr0XM5IqS" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Hobby%20TV_m.png">Hobby TV</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-96" site_id="PzJcWsMviNwjou8CyWgqIojfFgOAikdDBWNXe0Xq" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Mnam%20TV_m.png">Mnam TV</channel>
     <channel lang="sk" xmltv_id="skylink.sk-100" site_id="JRjIqU98ZGSAPwlCQdje4DTgxKWkCgOD-3RBNTcN" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/JOJ%20Sport%20HD_m.png">JOJ Sport HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-101" site_id="MYRh_ntXRNRJuaVthFoSfi8fBDeCq_vRBbTDGjrq" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Nova%20Sport%201%20HD_m.png">Nova Sport 1 HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-102" site_id="fhDaC3oQkDGtS6xAlZisxO6f6ESkEG7Efl8wpfqY" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Nova%20Sport%202%20HD_m.png">Nova Sport 2 HD</channel>
@@ -91,7 +89,7 @@
     <channel lang="sk" xmltv_id="skylink.sk-106" site_id="Ux1UgS9P1EKZhmjWrQJ3uEkd_hZgQVpoPBuzzArI" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Sport%201%20HD_m.png">Sport 1 HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-107" site_id="A116V2J1fX6ZQsqnxSeBnA6ot5PJqzVyDFs2Z7QZ" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Sport%202%20HD_m.png">Sport 2 HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-108" site_id="RFRhXcBiGj7_-i9VV7z8FjR8R5ibs5RKB94mwXco" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Golf%20Channel_m.png">Golf Channel</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-109" site_id="LMfl2o1S7SFoHchYr9c0JCKbd3w9K3XkGci7RjBG" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/FIGHTBOX_m.png">FIGHTBOX</channel>
+    <channel lang="sk" xmltv_id="skylink.sk-109" site_id="LMfl2o1S7SFoHchYr9c0JCKbd3w9K3XkGci7RjBG" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/FightBox_m.png">FightBox</channel>
     <channel lang="sk" xmltv_id="skylink.sk-110" site_id="aNLD3UxMUTE4A_CKBRoLb7HB22EiAbyqnwMardEF" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Arena%20Sport%201%20HD_m.png">Arena Sport 1 HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-111" site_id="3VMN7e9kw1U0EOIakrKfIpE63G8oqXG_6DMR-4Ld" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Arena%20Sport%202%20HD_m.png">Arena Sport 2 HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-112" site_id="n-rGdJpEw565eTiv05UrLZn_lwV9cPwWFjq6oFll" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/AutoMotorSport%20HD_m.png">AutoMotorSport HD</channel>
@@ -101,7 +99,6 @@
     <channel lang="sk" xmltv_id="skylink.sk-116" site_id="Fgy4pEE2Vw3K8xex32txHfo-xoD3c7NGJc3i1xZN" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CANAL%20Sport%206_m.png">CANAL+ Sport 6</channel>
     <channel lang="sk" xmltv_id="skylink.sk-117" site_id="6Q3fMi2DDKuhsR_dxJTaSbWBRObJ3A_tiU8IcNyR" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CANAL%20Sport%207_m.png">CANAL+ Sport 7</channel>
     <channel lang="sk" xmltv_id="skylink.sk-118" site_id="aHamKCfg4W0jZhnwaRlzkPfGGEF1ALpmRGZ0vfbD" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/CANAL%20Sport%208_m.png">CANAL+ Sport 8</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-119" site_id="gghsfFYyH6k76HGBE8LkrDDdbuagtc3hb6KCDjvY" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Extreme%20Sports%20Channel_m.png">Extreme Sports Channel</channel>
     <channel lang="sk" xmltv_id="skylink.sk-120" site_id="I7pkoeQ8QlkWCMWwkcFM40_vTTYwRWmKa8rWMmAl" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Jojko_m.png">Jojko</channel>
     <channel lang="sk" xmltv_id="skylink.sk-121" site_id="EMiy-d26phSzQOkCw9n3bCzYVgM8rR8WnZXGzFaB" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/JimJam%20CZ_m.png">JimJam CZ</channel>
     <channel lang="sk" xmltv_id="skylink.sk-122" site_id="RwUo7XpUgl3QOx5OFInh3I4cL5SRf1d9OUKEsAnT" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Minimax_m.png">Minimax</channel>
@@ -119,7 +116,7 @@
     <channel lang="sk" xmltv_id="skylink.sk-143" site_id="xBOSmfGCowrLzS-0pdXxt_ywT0EbSbAu7FNKfEaJ" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Premium%20HD_m.png">Premium HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-144" site_id="-OJquD4-2Uy-jgb9ukJM9bjtixUle8qiPddLxYOS" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Senzi_m.png">Senzi</channel>
     <channel lang="sk" xmltv_id="skylink.sk-145" site_id="aa3ZeqZlbTnOqy_BG9pRXb4zTVP3qtB6MwC34hoo" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/REBEL_m.png">REBEL</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-146" site_id="aBpd2O-_O_XNWEnApvws8lO4pGxtFMUYF4ZLy9M7" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/360%20Tune%20Box%20HD_m.png">360 Tune Box HD</channel>
+    <channel lang="sk" xmltv_id="skylink.sk-146" site_id="aBpd2O-_O_XNWEnApvws8lO4pGxtFMUYF4ZLy9M7" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/360TuneBox_m.png">360TuneBox</channel>
     <channel lang="sk" xmltv_id="skylink.sk-147" site_id="jYZN6FfHJXAGhbgiTcrfgXFUPaZbUvkuIKgAHbXk" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/OCKO_m.png">OCKO</channel>
     <channel lang="sk" xmltv_id="skylink.sk-148" site_id="Q-rDCjC6ITWDtfSRoZqq50sPsCXlgeyE6ivy0Frb" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/OCKO%20STAR_m.png">OCKO STAR</channel>
     <channel lang="sk" xmltv_id="skylink.sk-149" site_id="fihFodygJCOhuXOXvVoXntW565KjvZ5H3YRBfl38" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Ocko%20Black%20HD_m.png">Ocko Black HD</channel>
@@ -131,8 +128,6 @@
     <channel lang="sk" xmltv_id="skylink.sk-155" site_id="iZuANsI3A5zJWCHq7oz_bUDR2nhgBh6-nGbhf9oS" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Stingray%20CMusic_m.png">Stingray CMusic</channel>
     <channel lang="sk" xmltv_id="skylink.sk-156" site_id="GdpL5nMyk1NcLfU261_aXM6dGibHCl1OLgyx9544" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Stingray%20iConcerts%20HD_m.png">Stingray iConcerts HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-157" site_id="5LrWFTh6CfNZZqTBbahLJygcoRvAjCAGDe1LzA8X" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Stingray%20Classica%20HD_m.png">Stingray Classica HD</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-162" site_id="jEkhpxs2Pb2h5a8Cvy0wc5vwh8LOWKjvqyQFqeeV" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Noe%20TV_m.png">Noe TV</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-163" site_id="SJFcZL4A2DlPctmitwoLmecxnFDWA1XCn9L4zmff" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/A11_m.png">A11</channel>
     <channel lang="sk" xmltv_id="skylink.sk-164" site_id="eJiuJte6DUQfFgxLAV6HOnPvP-L-wANkVwyrzow4" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Gametoon_m.png">Gametoon</channel>
     <channel lang="sk" xmltv_id="skylink.sk-165" site_id="USD5Yoto772mOG-dRpONh_z66EKE8udfsF-io6Bb" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/English%20Club%20TV_m.png">English Club TV</channel>
     <channel lang="sk" xmltv_id="skylink.sk-200" site_id="iZ3muNylWUw2Ky-XBrIDprJ2s40ZJEHou5VLN5-U" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/M1_m.png">M1</channel>
@@ -189,7 +184,6 @@
     <channel lang="sk" xmltv_id="skylink.sk-363" site_id="M_3f2VPSS8rsm_cTUC4KhV-SQSPmrYxneafLxZMl" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Markiza%20International_m.png">Markiza International</channel>
     <channel lang="sk" xmltv_id="skylink.sk-364" site_id="V3bEZGgZCY9v8tajK4tKYEdUBGE-t4xV-100GrHg" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/JOJ%20Family%20HD_m.png">JOJ Family HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-365" site_id="owf7uLkzCRWRyDphSdO7eXjeWhgSijsa8mWXR7eN" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Paramount%20Network_m.png">Paramount Network</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-366" site_id="DY4MbiVL97dDhqo_IxdgKNvLz7MnvTa_ki4xZSFA" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20COOL%20HD_m.png">Prima COOL HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-400" site_id="kKDMeBHwwT3H_w4Jlh1UaDHahnV5U3S4YfIy0Ejd" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/RTLZWEI_m.png">RTLZWEI</channel>
     <channel lang="sk" xmltv_id="skylink.sk-401" site_id="sRYgIqXBSAsxGYPqq3iaa55NIvKBULfIQd-1wIEt" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/RTL%20Television_m.png">RTL Television</channel>
     <channel lang="sk" xmltv_id="skylink.sk-402" site_id="AUtjZVdEewEEbOsunzitWSar4aQyWkDA-WSiNTdc" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/RTL%20Super_m.png">RTL Super</channel>
@@ -270,40 +264,20 @@
     <channel lang="sk" xmltv_id="skylink.sk-485" site_id="T2sybNh_3KFJkPY-Vop378j6rTt895PjXNRC4wPw" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/phoenix%20HD_m.png">phoenix HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-486" site_id="av01X64DxeEU-wNJ6cOh9EQQak7V0RvqxTrCz1B_" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/DW%20English_m.png">DW English</channel>
     <channel lang="sk" xmltv_id="skylink.sk-487" site_id="yg8zPRxnVsLBnJziwsA6S-pwHquA59px7sTSEMqx" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/ARAGON%20TV_m.png">ARAGON TV</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-488" site_id="F6l2gMnLu3OwLz325PULK0l0HJW-fyRFNsujrZ_-" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Rai%20News%2024_m.png">Rai News 24</channel>
     <channel lang="sk" xmltv_id="skylink.sk-490" site_id="oTuWj7Dz80IV7BH-2U4PgCaN9Ehx66UkS5MVBv8a" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Canal%20Sur%20Andalucia_m.png">Canal Sur Andalucia</channel>
     <channel lang="sk" xmltv_id="skylink.sk-492" site_id="le0F86OFFnrwK7dIrKUgeB-JpoPLprnzjX8mRYdV" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Arirang%20TV%20HD_m.png">Arirang TV HD</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-493" site_id="WkTgDlno22VxkuoOC-rXBnOOnf-lFhBRIK1SFXXk" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Current%20Time%20TV_m.png">Current Time TV</channel>
     <channel lang="sk" xmltv_id="skylink.sk-500" site_id="3rRJV2EM7lxDBcA534jRuGKbIU04rr-MCtf99b64" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Cubavision%20Internacional_m.png">Cubavision Internacional</channel>
     <channel lang="sk" xmltv_id="skylink.sk-501" site_id="4Pz_aq3M78aYqoCSv3qvgmLfICLwPJqLlE9PTIu0" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/TV%20Galicia%20HD_m.png">TV Galicia HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-502" site_id="jUlIlq50WqPpdh2NENfgUy8wh34ZUxzG4gauji5A" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Canal%20Algerie_m.png">Canal Algerie</channel>
     <channel lang="sk" xmltv_id="skylink.sk-503" site_id="OsaUZXLmY0Ag-SAbobW4AwRb1L_M3e6p96JuevY_" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/TRT%20World%20HD_m.png">TRT World HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-504" site_id="ERRhGDA7jBpQZh9ac4BTZEjfAhIFx_AqHwrn1NZM" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Sonlife%20Broadcasting%20Network_m.png">Sonlife Broadcasting Network</channel>
     <channel lang="sk" xmltv_id="skylink.sk-505" site_id="9ipnH4rf6VWEDIovn7oJvTNoOZK9tYAJH75hydfL" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/EWTN%20katholisches%20TV_m.png">EWTN katholisches TV</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-506" site_id="-CRxFNAzevHK1Z5OX5-1VIB6ABK2EyNFeq3pzE1A" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/K-TV%20Fernsehen_m.png">K-TV Fernsehen</channel>
+    <channel lang="sk" xmltv_id="skylink.sk-506" site_id="-CRxFNAzevHK1Z5OX5-1VIB6ABK2EyNFeq3pzE1A" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/K-TV%20Fernsehen%20HD_m.png">K-TV Fernsehen HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-507" site_id="FMD9L1_Ku-QtAvjyR45WNAg7VNDrE0ghBOEkEXTq" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Bibel%20TV%20HD_m.png">Bibel TV HD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-555" site_id="sY3uRK-8rLw2tphT6uvZicJ1Z7kvxUhbmbWi0Bb-" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/QVC%20UHD_m.png">QVC UHD</channel>
     <channel lang="sk" xmltv_id="skylink.sk-557" site_id="Uvez7kCF9q5-Gh-grdv9OrIZMyRTZaBfG8Oz9Lnt" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/UHD1%20by%20ASTRA_m.png">UHD1 by ASTRA</channel>
     <channel lang="sk" xmltv_id="skylink.sk-558" site_id="AhHch1biiFXAZVXWKxcqu6i4LEMitdQUE9LsPZI5" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/SES%20UHD%20Demo_m.png">SES UHD Demo</channel>
     <channel lang="sk" xmltv_id="skylink.sk-559" site_id="b9ZKJKYEeqiHMpmeO45uD_DIoP58uLohpKgZ3OrK" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Love%20Nature%204k_m.png">Love Nature 4k</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-560" site_id="XuEvW74eUePXF7kDOD-66Qi7imJepYYUP7DGWKDS" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20Love%20HD%20SK_m.png">Prima Love HD SK</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-562" site_id="vl2CxRMWpjDc6tE2TnVoJoDzDTKKpRFJEWgRfiaq" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Stingray%20iConcerts%20%28East%29_m.png">Stingray iConcerts (East)</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-563" site_id="K_v3hVpo9S1uNkZUx79Gczsj5QzBEHMGrs0XBVHt" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Stingray%20Classica%20%28East%29_m.png">Stingray Classica (East)</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-566" site_id="UnJE4Z09YFDKDPxhelxP9TUdjUQQzK0IrPxbVnNh" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Nova%20HD._m.png">Nova HD.</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-567" site_id="MF6AI52euvxo6RnVAtUbNTbJvcy2XuvG9Shl8WvU" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20HD._m.png">Prima HD.</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-568" site_id="55G-yzyJcUFwvklJQvEJrKDleTp2kB6kY7oNThVE" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Nova%20Sport%20HD._m.png">Nova Sport HD.</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-569" site_id="LJN_WVlEV6gkYwigGWlMPLhBXepbb7KpuESZdKI-" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Nova%20Action%20HD._m.png">Nova Action HD.</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-570" site_id="KG1Z1qlD9qWudJba___eXy0nViyIuOyhq7m37uCb" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Nova%20Cinema%20HD._m.png">Nova Cinema HD.</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-571" site_id="ZMmI6eUBK8aGV18UM-8EhWzknYJt49wXvx5vOp5x" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Prima%20COOL%20HD._m.png">Prima COOL HD.</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-572" site_id="XB2de5cDZxwvw0i5Fsz46UYYVDr_Zp32gJupT03D" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Dajto%20HD._m.png">Dajto HD.</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-573" site_id="WpKKrTBar2-HPD6xjuLnDHgmxLXWAXAAhqXnXjk_" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/TV%20JOJ%20HD._m.png">TV JOJ HD.</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-574" site_id="XrzCu6hoO3dhr6Ahj9LTp9X44-vnjcLq3Mimdx-P" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/JOJ%20PLUS%20HD._m.png">JOJ PLUS HD.</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-575" site_id="CeJdX1-X43Q5-Q0KH9XaCrDZNS4uqGDbcbsPV8x8" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Jojko._m.png">Jojko.</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-576" site_id="PHoktubJNcVscOnLKbyyFd7_ygCSi5-hQaMtAY-H" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Slager%20Muzika._m.png">Slager Muzika.</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-577" site_id="y6rKMiTYOHJldS8cDBnmYOSZk6ADt1R_438fqffn" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/JOJ%20Sport%20HD._m.png">JOJ Sport HD.</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-578" site_id="xQp9yFKp-F7ayHJixpUV_OA8RIMBzW-t1YuuDtnL" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Markiza%20Krimi%20HD._m.png">Markiza Krimi HD.</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-580" site_id="mIyrA7jYxwDz0UL8QFu4sbpi2Mt15cnZ0lUwhulj" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Nova%20International._m.png">Nova International.</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-585" site_id="uIxzcUXtOWlumXrwhFK1d-pxsXsa031jlW4e51Es" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/JOJ%2024%20HD._m.png">JOJ 24 HD.</channel>
     <channel lang="sk" xmltv_id="skylink.sk-800" site_id="utJL1HmxjcXKv94QcVg8EhxGVZEvOlLkFeMLE-cc" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/RADIO%20VLNA_m.png">RADIO VLNA</channel>
     <channel lang="sk" xmltv_id="skylink.sk-801" site_id="RY8VPTDXDiZwkpw0eSw4pInA0zR8ZtUqzU194Vh6" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Slovensko_m.png">Slovensko</channel>
     <channel lang="sk" xmltv_id="skylink.sk-802" site_id="XYOjcRm702zWEzfPzPWFdLoTRe4FnKEzLPQuKKw9" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/ReginaBA_m.png">ReginaBA</channel>
@@ -373,7 +347,7 @@
     <channel lang="sk" xmltv_id="skylink.sk-880" site_id="aKxnlI4Ef8bNyiFBWWi2vt8jlAPTMtdiMA2B8rkQ" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/OE2W_m.png">OE2W</channel>
     <channel lang="sk" xmltv_id="skylink.sk-881" site_id="G0L2vd0cd_jRtZ-JvXcFBkwkv_CpPgCBMBfXQ-tY" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/OE3_m.png">OE3</channel>
     <channel lang="sk" xmltv_id="skylink.sk-882" site_id="6Cu05BPq1YD3RpWQCVCYe4zgUSmnEfIvz6QwlZFc" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Hitradio%20OE3_m.png">Hitradio OE3</channel>
-    <channel lang="sk" xmltv_id="skylink.sk-883" site_id="4nFUgvUHe3EHwlZkXihxbHZNb7DJAfNxGcqVSyiQ" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Sunlite%20Radio_m.png">Sunlite Radio</channel>
+    <channel lang="sk" xmltv_id="skylink.sk-883" site_id="4nFUgvUHe3EHwlZkXihxbHZNb7DJAfNxGcqVSyiQ" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Veronica%20Goud%20van%20Oud_m.png">Veronica Goud van Oud</channel>
     <channel lang="sk" xmltv_id="skylink.sk-884" site_id="mpXu0ybndRTKf5CEUDERL_T-4FxdcjXx2cerB-ia" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Radio%20Maria_m.png">Radio Maria</channel>
     <channel lang="sk" xmltv_id="skylink.sk-886" site_id="dzdOvHl0XE9rt88SGblFwgu3zdjGVjF69rHC8GKJ" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Antenne%20Bayern_m.png">Antenne Bayern</channel>
     <channel lang="sk" xmltv_id="skylink.sk-887" site_id="kIlb6PlOEEaTGC15yMIqgx1lx3BRUCbOfy8FRqVC" logo="https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Bayern%201_m.png">Bayern 1</channel>
