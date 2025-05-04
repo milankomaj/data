@@ -67,13 +67,13 @@ jobs:
         id: Update
         run: |
           echo -e "\033[31;1m Update chanells. \033[0m"
-          # ./scripts/programandroid_list_xq.sh
-          # ./scripts/mujtvprogram_list_xq.sh
-          # ./scripts/horizon_tv_list_curl.sh
-          # ./scripts/upc_tv_list_curl.sh
-          # ./scripts/antiktv_list_curl.sh
-          # ./scripts/filmbox_list_curl.sh
-          # ./scripts/iprima_list_curl.sh
+          ./scripts/programandroid_list_xq.sh
+          ./scripts/mujtvprogram_list_xq.sh
+          ./scripts/horizon_tv_list_curl.sh
+          ./scripts/upc_tv_list_curl.sh
+          ./scripts/antiktv_list_curl.sh
+          ./scripts/filmbox_list_curl.sh
+          ./scripts/iprima_list_curl.sh
           # ./scripts/skylink_balicky.sh
           # ./scripts/r-chanells.sh
           ./scripts/csv2md.sh
