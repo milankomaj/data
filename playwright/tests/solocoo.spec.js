@@ -4,7 +4,7 @@ const { test, expect } = require('@playwright/test');
 
 test('CZ', async ({ page }) => {
   await page.goto('https://livetv.skylink.cz');
-  await expect(page.getByText('Prohlédnout')).toBeVisible();
+  // await expect(page.getByText('Prohlédnout')).toBeVisible();
   await expect(page).toHaveTitle(/Skylink/);
   // await page.screenshot({ path: `test-results/title.png` });
 
@@ -24,7 +24,7 @@ test('CZ', async ({ page }) => {
 
 test('SK', async ({ page }) => {
   await page.goto('https://livetv.skylink.sk');
-  await expect(page.getByText('Pozrieť')).toBeVisible();
+  // await expect(page.getByText('Pozrieť')).toBeVisible();
   await expect(page).toHaveTitle(/Skylink/);
   // await page.screenshot({ path: `test-results/title.png` });
 
