@@ -1,4 +1,4 @@
-![](logoUrl) | **name** | channelNumber
+logo  | **name** | channelNumber
 :---: | :---: | :---:
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Jednotka%20HD_m.png) | **Jednotka HD** | 1
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/Dvojka%20HD_m.png) | **Dvojka HD** | 2

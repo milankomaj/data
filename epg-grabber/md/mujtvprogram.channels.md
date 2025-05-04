@@ -1,9 +1,9 @@
-![](logoUrl) | **name** | channelNumber
+logo  | **name** | channelNumber
 :---: | :---: | :---:
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=181ab2ae0a67e37a124ffc6e7c285693&p2=80) | **AMC** | 190
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=80827a7225497dfb53f37650fd8b4840&p2=80) | **Animal Planet** | 125
-![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=417142095fa934ab9c9f02e2bf7d5a9a&p2=80) | **Arena Sport 1** | 108
-![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=e40bd2279b88dab77b024d002dea6187&p2=80) | **Arena Sport 2** | 109
+![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=417142095fa934ab9c9f02e2bf7d5a9a&p2=80) | **Arena Sport 1** | 107
+![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=e40bd2279b88dab77b024d002dea6187&p2=80) | **Arena Sport 2** | 108
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=f2464856c0987f1260ba96bd10155b84&p2=80) | **Auto Motor Sport  HD** | 114
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=dcce8445e7c707239857e2fb3213ea52&p2=80) | **AXN Black** | 192
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=e4f5ce21e5c4ac42ff8a3c1d99ead13b&p2=80) | **AXN White** | 193
@@ -23,7 +23,6 @@
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=3cec25ae0771314599f5318ff16610bb&p2=80) | **Cinemax** | 198
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=17117b7e39721b3d81d91d635795eba5&p2=80) | **Cinemax 2** | 199
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=27e7dbe166967d96e2a6435897f75f29&p2=80) | **Club MTV** | 360
-![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=a1c9d2c600a34f92762af5e08003c2c1&p2=80) | **CNN Prima News** | 17
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=09b0e4393039647e27a1f7749ef9edc8&p2=80) | **Crime & Investigation** | 155
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=0378bc778d9119b7b71e54b4f26b00f8&p2=80) | **CS Film** | 186
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=56c3885c06f7afa10cdbdde74bd2cacc&p2=80) | **CS History** | 129
@@ -45,9 +44,7 @@
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=f710f096d8a1ccb88bedbf3d8f6c0c9c&p2=80) | **Dorcel TV** | 404
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=5ef2c19dd1070d963592331a1ff4c6aa&p2=80) | **Dorcel XXX** | 405
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=c41009da991fa34dd6a3838f023a95db&p2=80) | **Ducktv** | 325
-![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=790271bf84f7851efcdc0a12076fd4f7&p2=80) | **Dvojka** | 34
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=f6d7d5a74345a83697f7f2de2ff8dc65&p2=80) | **E! Entertainment** | 159
-![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=b45753e5445cae78d5108034155e5f2c&p2=80) | **Epic Drama** | 209
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=3826a98d95f23374ac25adfb13bdc4f6&p2=80) | **Erox HD** | 402
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=dee396776bc113f556347793d23e8731&p2=80) | **EroXXX HD** | 399
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=566e52b95baae881c30bdb6a78f3d669&p2=80) | **Eurosport 1** | 101
@@ -75,12 +72,10 @@
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=7d71be02a17f95f286b3feaa9bac2f7b&p2=80) | **History Channel** | 127
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=0bd717f5b87b04bc1e39b886a492567d&p2=80) | **Hustler** | 396
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=ba38b0a7435dae958e5de733973004dc&p2=80) | **Investigation Discovery** | 136
-![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=af41e26050d9dbe2388a68dc9fb87f10&p2=80) | **Jednotka** | 33
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=f7a1a62bb85220c1543d18237187af81&p2=80) | **JimJam** | 318
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=2c14c2cb14a6ab09ecc930c06de52c2f&p2=80) | **JOJ Cinema** | 40
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=26b6f679c3959e07eae32c09a361e644&p2=80) | **JOJ Family** | 75
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=844f6dc14d61dd5965f197c6020b5fcb&p2=80) | **Jojko** | 328
-![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=3aed8902d1703977a03f5c8328a9dc52&p2=80) | **JOJ Šport** | 104
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=e87b36b2986de7b80d2439612306dfdb&p2=80) | **JOJ 24** | 67
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=62c2a4ee85ca43296f502887aa2249ee&p2=80) | **JOJ** | 37
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=cf272e1353caa1c5b2a218139c203d2d&p2=80) | **Kino Barrandov** | 189
@@ -129,7 +124,8 @@
 ![]() | **Playboy** | 403
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=1afc210ac052b9273f87bf5fdaf516c9&p2=80) | **PLUS** | 52
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=40b6e6db6572fd6e39e4a29a2e4ea166&p2=80) | **Power TV** | 355
-![]() | **Premier Sport 2** | 111
+![]() | **Premier Sport 2** | 103
+![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=a1c9d2c600a34f92762af5e08003c2c1&p2=80) | **Prima CNN** | 17
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=856df71312a0fbdd13d7a3d897939eae&p2=80) | **Prima COOL** | 24
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=afdd434566239dfa7b1c905f5a2c13d1&p2=80) | **Prima Love** | 27
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=84812352443b158ef7588f9e79c48e41&p2=80) | **Prima MAX** | 23
@@ -142,8 +138,7 @@
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=79ac117d490302b81ab08c8c3a682a64&p2=80) | **Private TV** | 400
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=5e0df0df1e7e319815dc87f47a8dcbfa&p2=80) | **Rebel** | 371
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=355e24aea9fbc0e5c4fc7d5dfb882194&p2=80) | **Retro** | 363
-![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=463022363e42669684ed651fff8044e4&p2=80) | **RTVS Šport** | 103
-![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=97c4094b535828580db20c8d7166bd80&p2=80) | **RTVS 24** | 36
+![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=463022363e42669684ed651fff8044e4&p2=80) | **RTVS Šport** | 109
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=6e2d5618d8cabcdc95105f08e8bb46e2&p2=80) | **Senzi** | 354
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=85da52bf2e7e3f8d31f74ef14b0cb82a&p2=80) | **Spektrum Home** | 140
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=46a3495ba191cc4e08a7451b8d5ca5dd&p2=80) | **Spektrum** | 139
@@ -153,6 +148,9 @@
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=b323f2ad3200cb938b43bed58dd8fbf9&p2=80) | **Stingray CMusic** | 375
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=99c87946872c81f46190c77af7cd1d89&p2=80) | **Stingray iConcerts** | 351
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=bdeec8f81739ad1c7fc8f633d4ad6b0d&p2=80) | **Story 4** | 38
+![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=af41e26050d9dbe2388a68dc9fb87f10&p2=80) | **ST1** | 33
+![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=790271bf84f7851efcdc0a12076fd4f7&p2=80) | **ST2** | 34
+![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=97c4094b535828580db20c8d7166bd80&p2=80) | **ST24** | 36
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=d68a50deaed130de7bd33ad0f189589a&p2=80) | **Šlágr Premium** | 378
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=b6cd5e1b46e3289109677f63c813c4bd&p2=80) | **TA3** | 66
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=facfd0bf62f131886ae61469dcd729eb&p2=80) | **Televize Seznam** | 80
@@ -165,6 +163,7 @@
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=61d1d85856fbd7bdc0dc8b1090a50ae6&p2=80) | **TV Paprika** | 153
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=b1ed2b271927baf29dfb28f34f3ce9a4&p2=80) | **TV Spark** | 150
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=823c4e23f7e767c43d69a8d431fa12f7&p2=80) | **TV 8** | 73
+![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=b45753e5445cae78d5108034155e5f2c&p2=80) | **Viasat Epic Drama** | 209
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=8b1078a2a5e66e1fc66863c0a54cd499&p2=80) | **Viasat Explorer** | 141
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=13cbd6322cbef4ccbf92bac33e2ba415&p2=80) | **Viasat History** | 135
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=d25d1265a9805809cd7ba60783dd666c&p2=80) | **Viasat Nature** | 134

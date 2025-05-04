@@ -1,4 +1,4 @@
-![](logoUrl) | **name** | playId
+logo  | **name** | playId
 :---: | :---: | :---:
 ![](https://d31b9s05ygj54s.cloudfront.net/prima-plus/logo/prima_2x_c.png) | **Prima** | p111013
 ![](https://d31b9s05ygj54s.cloudfront.net/prima-plus/logo/cool_2x_c.png) | **Prima COOL** | p111014

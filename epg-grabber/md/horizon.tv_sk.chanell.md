@@ -1,4 +1,4 @@
-![](logoUrl) | **name** | channelNumber
+logo  | **name** | channelNumber
 :---: | :---: | :---:
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/8200.f.AMC_HD.png?style=content-station-logo-medium) | **AMC HD** | 27
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5000.f.Animal_Planet_HD.png?style=content-station-logo-medium) | **Animal Planet HD** | 150
@@ -7,12 +7,11 @@
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/BabesTV_HD.png?style=content-station-logo-medium) | **BabesTV HD** | 424
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/Banovska_TV.f.png?style=content-station-logo-medium) | **Banovska TV** | 569
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/Bardejovska_TV_BTV.f.png?style=content-station-logo-medium) | **Bardejovska TV (BTV)** | 564
+![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/7230.f.Kino_Barrandov_HD.png?style=content-station-logo-medium) | **Barrandov Kino HD** | 65
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/7236.f.Barrandov_Plus_HD.png?style=content-station-logo-medium) | **Barrandov Krimi HD** | 64
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5039.f.Barrandov_TV_HD.png?style=content-station-logo-medium) | **Barrandov TV HD** | 62
-![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/9101.f.Bobyor.png?style=content-station-logo-medium) | **Bober** | 536
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/Brazzers_TV_HD.png?style=content-station-logo-medium) | **Brazzers TV HD** | 425
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/B52_Vranovska_TV.f.png?style=content-station-logo-medium) | **B52 Vranovska TV** | 575
-![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/9103.f.Carousel.png?style=content-station-logo-medium) | **Carousel** | 538
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/8634.f.Cartoon_Network_HD.png?style=content-station-logo-medium) | **Cartoon Network HD** | 258
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5048.f.Cinemax_HD.png?style=content-station-logo-medium) | **Cinemax HD** | 404
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5047.f.Cinemax_2_HD.png?style=content-station-logo-medium) | **Cinemax 2 HD** | 405
@@ -23,7 +22,7 @@
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/483_8_c_b0512fcf56051fb60e240a360ced3a57.Cool_TV_SK.png?style=content-station-logo-medium) | **Cool TV** | 463
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/8202.f.Crime_and_Investigation.png?style=content-station-logo-medium) | **Crime and Investigation** | 152
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5051.f.CS_film_CS_mini.png?style=content-station-logo-medium) | **CS Film CS Horror HD** | 107
-![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/8603.f.WAR.png?style=content-station-logo-medium) | **CS History HD** | 108
+![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/8603.f.WAR.png?style=content-station-logo-medium) | **CS History HD** | 110
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5111.f.Kino_Svet.png?style=content-station-logo-medium) | **CS Mystery HD** | 109
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/8432.f.CT_D_art_HD.png?style=content-station-logo-medium) | **CT D HD / CT art HD** | 23
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5053.f.CT_1_HD.png?style=content-station-logo-medium) | **CT 1 HD** | 21
@@ -36,8 +35,6 @@
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5063.f.Disney_Channel.png?style=content-station-logo-medium) | **Disney Channel** | 253
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/8633.f.Docubox_HD.png?style=content-station-logo-medium) | **Docubox HD** | 416
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/483_50061_c_19b65c3d22dc1dc1d877c9ebdb8e716b.TV_Doma_SK.png?style=content-station-logo-medium) | **Doma HD** | 5
-![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/9098.f.Dom_Kino_PREMIUM_HD.png?style=content-station-logo-medium) | **Dom Kino PREMIUM HD** | 531
-![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5064.f.Dom_Kino.png?style=content-station-logo-medium) | **Dom Kino** | 532
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/DSTV.f.png?style=content-station-logo-medium) | **DSTV** | 563
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5007.f.duck_tv.png?style=content-station-logo-medium) | **ducktv HD** | 250
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/483_2_c_f722c641cc8eee9954c7d17090dbb352.Duna.png?style=content-station-logo-medium) | **Duna HD** | 460
@@ -84,9 +81,9 @@
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/8636.f.RiK_HD.png?style=content-station-logo-medium) | **Jojko HD** | 12
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/483_50048_c_19cd2d0aaebad9937613fad1282cde2d.JOJ_Plus_HD_SK.png?style=content-station-logo-medium) | **JOJ Plus HD** | 7
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/JOJ_Sport_HD.f.JOJ_SPORT.png?style=content-station-logo-medium) | **JOJ Sport HD** | 15
+![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/JOJ_svet.f.png?style=content-station-logo-medium) | **JOJ Svet HD** | 108
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/JOJ24.f.png?style=content-station-logo-medium) | **JOJ 24 HD** | 28
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/Kabel_eins_SK.png?style=content-station-logo-medium) | **Kabel eins** | 500
-![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/7230.f.Kino_Barrandov_HD.png?style=content-station-logo-medium) | **Kino Barrandov HD** | 65
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/Leo_TV_HD.f.Leo_TV_HD.png?style=content-station-logo-medium) | **Leo TV HD** | 421
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/Levicka_TV_LTS.f.png?style=content-station-logo-medium) | **Levicka TV LTS** | 567
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/Lubovnianska_TV.f.png?style=content-station-logo-medium) | **Lubovnianska TV** | 577
@@ -104,7 +101,6 @@
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/0145.f.VH1.png?style=content-station-logo-medium) | **MTV 00s** | 304
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/1178.f.VH1_Classic.png?style=content-station-logo-medium) | **MTV 80s** | 305
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5207.f.MTV_Rocks.png?style=content-station-logo-medium) | **MTV 90s** | 303
-![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5120.f.Muzyka.png?style=content-station-logo-medium) | **Muzika Pervogo** | 540
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/Muzsika_TV_HU.f.Muzsika_TV_HU.png?style=content-station-logo-medium) | **Muzsika TV** | 473
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/10138.png?style=content-station-logo-medium) | **m1 HD** | 451
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/10139.png?style=content-station-logo-medium) | **m2 HD** | 452
@@ -123,14 +119,11 @@
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/ORF3.f.ORF3.png?style=content-station-logo-medium) | **ORF III** | 361
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/1006.f.ORF1.png?style=content-station-logo-medium) | **ORF 1** | 359
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/1007.f.ORF2.png?style=content-station-logo-medium) | **ORF 2** | 360
-![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/9104.f.O_exclamation.png?style=content-station-logo-medium) | **O!** | 539
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/park_tv.f.Park_TV_HD.png?style=content-station-logo-medium) | **Park TV HD** | 175
-![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/9102.f.Pobeda.png?style=content-station-logo-medium) | **Pobeda** | 537
-![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/9099.f.Poekhali_exclamation.png?style=content-station-logo-medium) | **Poekhali!** | 534
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/Slagr_premium.f.Slagr_premium.png?style=content-station-logo-medium) | **Premium HD** | 311
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5134.f.Prima_COOL_HD.png?style=content-station-logo-medium) | **Prima COOL SK HD** | 59
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/8738.f.Prima_KRIMI_HD.png?style=content-station-logo-medium) | **Prima KRIMI HD** | 56
-![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/769702.f.Prima_love_HD.png?style=content-station-logo-medium) | **Prima love** | 60
+![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/769702.f.Prima_love_HD.png?style=content-station-logo-medium) | **Prima LOVE SK HD** | 60
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/769676.f.Prima_MAX_HD.png?style=content-station-logo-medium) | **Prima MAX HD** | 58
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/8436.f.Prima_PLUS_HD.png?style=content-station-logo-medium) | **Prima SK HD** | 26
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5139.f.Prima_ZOOM_HD.png?style=content-station-logo-medium) | **Prima ZOOM HD** | 61
@@ -146,8 +139,6 @@
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/483_9_c_1cae97d83ed8c6dd05e6b5b6952b31fb.RTL_2_HUN_SK.png?style=content-station-logo-medium) | **RTL KETTO** | 456
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/RTL_2_GER_SK.png?style=content-station-logo-medium) | **RTL Zwei** | 504
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/RTV_Krea.f.png?style=content-station-logo-medium) | **RTV Krea** | 562
-![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/RTVS_Sport_HD.f.png?style=content-station-logo-medium) | **RTVS Sport HD** | 16
-![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/RTVS24_HD.f.png?style=content-station-logo-medium) | **RTVS 24 HD** | 11
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/483_110006_c_e051e3d4a1274f965874a5117218978c.SAT_1_SK.png?style=content-station-logo-medium) | **SAT 1** | 506
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/50040.f.SENZI_HD.png?style=content-station-logo-medium) | **SENZI HD** | 19
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/8671sd.f.Seznamcz_TV.png?style=content-station-logo-medium) | **Seznam.cz TV HD** | 54
@@ -161,11 +152,12 @@
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5163.f.Spektrum_home.png?style=content-station-logo-medium) | **Spektrum home HD** | 164
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/7212.f.Sport_1_HD.png?style=content-station-logo-medium) | **Sport 1 HD** | 202
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5165.f.Sport_2_HD.png?style=content-station-logo-medium) | **Sport 2 HD** | 203
-![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/Story_4_HU.f.Story_4_HU.png?style=content-station-logo-medium) | **Story 4** | 475
+![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/Story_4_HU.f.Story_4_HU.png?style=content-station-logo-medium) | **Story 4 HD** | 475
+![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/RTVS_Sport_HD.f.png?style=content-station-logo-medium) | **STVR Sport HD** | 16
+![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/RTVS24_HD.f.png?style=content-station-logo-medium) | **STVR 24 HD** | 11
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/483_110007_c_1445e329c18d9eaa68f816d1163d2f72.Super_RTL_SK.png?style=content-station-logo-medium) | **Super RTL** | 505
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/Super_TV2_HU.f.Super_TV2_HU.png?style=content-station-logo-medium) | **Super TV2** | 476
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5169.f.TA3.png?style=content-station-logo-medium) | **TA3 HD** | 13
-![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/9100.f.Telecafe.png?style=content-station-logo-medium) | **Telecafe** | 535
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5061.f.Discovery_TLC.png?style=content-station-logo-medium) | **TLC HD** | 165
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/TOP_TV_Topolniky.f.png?style=content-station-logo-medium) | **TOP TV Topolniky** | 576
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/7253.f.Travel_Channel_HD.png?style=content-station-logo-medium) | **Travel Channel HD** | 167
@@ -201,7 +193,6 @@
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/764622.f.Viasat_History_HD.png?style=content-station-logo-medium) | **Viasat History HD** | 169
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/770412.f.Viasat_Nature_HD.png?style=content-station-logo-medium) | **Viasat Nature HD** | 171
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/VOX_SK.png?style=content-station-logo-medium) | **VOX** | 507
-![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/5188.f.Vremja.png?style=content-station-logo-medium) | **Vremja** | 533
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/8406.f.WAU_SK.png?style=content-station-logo-medium) | **WAU HD** | 10
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/483_110002_c_e959874e6c55bdc3dab22b3adb5d40ea.N24_SK.png?style=content-station-logo-medium) | **WELT** | 501
 ![](https://staticqbr-sk-prod.prod.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/Zapadoslovenska_TV.f.png?style=content-station-logo-medium) | **Zapadoslovenska TV** | 557
