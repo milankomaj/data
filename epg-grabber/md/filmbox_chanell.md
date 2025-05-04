@@ -1,4 +1,4 @@
-![](logoUrl) | **name** | channelNumber
+logo  | **name** | channelNumber
 :---: | :---: | :---:
 ![](https://c.sledujfilmbox.cz/files/epg/tv/72.png) | **Filmbox** | 1
 ![](https://c.sledujfilmbox.cz/files/epg/tv/76.png) | **Filmbox Stars** | 4
