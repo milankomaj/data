@@ -4,14 +4,14 @@ const { test, expect } = require('@playwright/test');
 
 test('CZ', async ({ page }) => {
   await page.goto('https://livetv.skylink.cz');
-  await expect(page.getByText('Continue as Free User')).toBeVisible();
+  await expect(page.getByText('Prohlédnout')).toBeVisible();
   await expect(page).toHaveTitle(/Skylink/);
   // await page.screenshot({ path: `test-results/title.png` });
 
-  await page.getByText('Continue as Free User').click();
+  await page.getByText('Prohlédnout').click();
   // await page.screenshot({ path: `test-results/click.png` });
 
-  await expect(page.getByText('Live TV')).toBeVisible();
+  await expect(page.getByText('TV průvodce')).toBeVisible();
   // await expect(page.getByText('Now on TV')).toBeVisible();
   // await page.screenshot({ path: `test-results/visible.png` });
 
@@ -24,14 +24,14 @@ test('CZ', async ({ page }) => {
 
 test('SK', async ({ page }) => {
   await page.goto('https://livetv.skylink.sk');
-  await expect(page.getByText('Continue as Free User')).toBeVisible();
+  await expect(page.getByText('Pozrieť')).toBeVisible();
   await expect(page).toHaveTitle(/Skylink/);
   // await page.screenshot({ path: `test-results/title.png` });
 
-  await page.getByText('Continue as Free User').click();
+  await page.getByText('Pozrieť').click();
   // await page.screenshot({ path: `test-results/click.png` });
 
-  await expect(page.getByText('Live TV')).toBeVisible();
+  await expect(page.getByText('Teraz v TV')).toBeVisible();
   // await expect(page.getByText('Now on TV')).toBeVisible();
   // await page.screenshot({ path: `test-results/visible.png` });
 
