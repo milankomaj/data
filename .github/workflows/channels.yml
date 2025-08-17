@@ -21,7 +21,7 @@ jobs:
         working-directory: ./epg-grabber
     steps:
       - name: checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: localle
         uses: milankomaj/shell-x@v0.3

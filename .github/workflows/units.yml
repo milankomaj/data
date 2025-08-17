@@ -48,7 +48,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: localle
         uses: milankomaj/shell-x@v0.3
@@ -107,7 +107,7 @@ jobs:
 
     steps:
      # Artifacts download
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           sparse-checkout: |
            epg-grabber/scripts/combine-xml.sh
