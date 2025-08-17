@@ -113,7 +113,7 @@ jobs:
            epg-grabber/scripts/combine-xml.sh
           sparse-checkout-cone-mode: false
 
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v5
         id: download
         with:
          path: ${{ github.workspace }}/epg-grabber/guide/
