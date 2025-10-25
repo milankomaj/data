@@ -39,7 +39,7 @@ jobs:
        echo "${{ env.theme }}"
        echo "$(echo ${{ env.theme}})"
 
-    - uses: actions/upload-artifact@v4
+    - uses: actions/upload-artifact@v5
       if: always()
       with:
         name: playwright-${{ matrix.test-group }}
