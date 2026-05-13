@@ -54,10 +54,10 @@ jobs:
           chmod +x ./scripts/antiktv_list_curl.sh
           chmod +x ./scripts/filmbox_list_curl.sh
           chmod +x ./scripts/iprima_list_curl.sh
-          chmod +x ./scripts/skylink_balicky.sh
+          # chmod +x ./scripts/skylink_balicky.sh
           chmod +x ./scripts/programandroid_list_xq.sh
           chmod +x ./scripts/mujtvprogram_list_xq.sh
-          chmod +x ./scripts/r-chanells.sh
+          # chmod +x ./scripts/r-chanells.sh
           chmod +x ./scripts/csv2md.sh
           chmod +x ./scripts/align.sh
         shell: bash

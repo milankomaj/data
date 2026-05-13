@@ -33,6 +33,9 @@ jobs:
            - unit: unit2
            - unit: unit3
            - unit: unit4
+           - unit: unit5
+           - unit: unit6
+
     defaults:
       run:
         working-directory: ./epg-grabber
@@ -41,10 +44,14 @@ jobs:
       unit2_scale: ${{ steps.unit_outcome.outputs.unit2_sum_outcome}}
       unit3_scale: ${{ steps.unit_outcome.outputs.unit3_sum_outcome}}
       unit4_scale: ${{ steps.unit_outcome.outputs.unit4_sum_outcome}}
+      unit5_scale: ${{ steps.unit_outcome.outputs.unit5_sum_outcome}}
+      unit6_scale: ${{ steps.unit_outcome.outputs.unit6_sum_outcome}}
       unit1: ${{ steps.unit_outcome.outputs.unit1_outcome}}
       unit2: ${{ steps.unit_outcome.outputs.unit2_outcome}}
       unit3: ${{ steps.unit_outcome.outputs.unit3_outcome}}
       unit4: ${{ steps.unit_outcome.outputs.unit4_outcome}}
+      unit5: ${{ steps.unit_outcome.outputs.unit5_outcome}}
+      unit6: ${{ steps.unit_outcome.outputs.unit6_outcome}}
 
     steps:
       - name: Checkout
@@ -128,13 +135,15 @@ jobs:
          echo ${{ needs.grab.outputs.unit2 }}
          echo ${{ needs.grab.outputs.unit3 }}
          echo ${{ needs.grab.outputs.unit4 }}
+         echo ${{ needs.grab.outputs.unit5 }}
+         echo ${{ needs.grab.outputs.unit6 }}
          echo ${{steps.download.outputs.download-path}}
          tree -h ${{steps.download.outputs.download-path}}
          chmod +x ./scripts/combine-xml.sh
          ./scripts/combine-xml.sh
          tree -h ${{steps.download.outputs.download-path}}
          scale=$(sed -n '$=' ./guide/units.guide.xml)
-         sum=$(( ${{ needs.grab.outputs.unit1_scale }} + ${{ needs.grab.outputs.unit2_scale }} + ${{ needs.grab.outputs.unit3_scale }} + ${{ needs.grab.outputs.unit4_scale }} - 6 ))
+         sum=$(( ${{ needs.grab.outputs.unit1_scale }} + ${{ needs.grab.outputs.unit2_scale }} + ${{ needs.grab.outputs.unit3_scale }} + ${{ needs.grab.outputs.unit4_scale }} + ${{ needs.grab.outputs.unit5_scale }} + ${{ needs.grab.outputs.unit6_scale }} - 10 ))
          if [[ $sum -eq $scale ]]
          then
          echo "✅ Equal"
