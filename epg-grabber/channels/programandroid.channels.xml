@@ -16,7 +16,7 @@
     <channel lang="cz" xmltv_id="programandroid-125" site_id="125" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/axn_black.png">AXN Black</channel>
     <channel lang="cz" xmltv_id="programandroid-883" site_id="883" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/axn_hd.png">AXN HD</channel>
     <channel lang="cz" xmltv_id="programandroid-126" site_id="126" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/axn_white.png">AXN White</channel>
-    <channel lang="cz" xmltv_id="programandroid-1020" site_id="1020" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/barrandov_krimi.png">Krimi Barrandov</channel>
+    <channel lang="cz" xmltv_id="programandroid-1020" site_id="1020" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/barrandov_krimi.png">Barrandov Krimi</channel>
     <channel lang="cz" xmltv_id="programandroid-66" site_id="66" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/cinemax.png">Cinemax</channel>
     <channel lang="cz" xmltv_id="programandroid-80" site_id="80" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/cinemax2.png">Cinemax 2</channel>
     <channel lang="cz" xmltv_id="programandroid-832" site_id="832" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/ci.png">Crime and Investigation</channel>
@@ -44,7 +44,7 @@
     <channel lang="cz" xmltv_id="programandroid-713" site_id="713" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/cshorror.png">CS Horror</channel>
     <channel lang="cz" xmltv_id="programandroid-850" site_id="850" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/jtv.png">Jihočeská televize</channel>
     <channel lang="cz" xmltv_id="programandroid-137" site_id="137" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/jim-jam.png">Jim Jam</channel>
-    <channel lang="cz" xmltv_id="programandroid-1018" site_id="1018" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/kinobarrandov.png">Kino Barrandov</channel>
+    <channel lang="cz" xmltv_id="programandroid-1018" site_id="1018" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/kinobarrandov.png">Barrandov Kino</channel>
     <channel lang="cz" xmltv_id="programandroid-717" site_id="717" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/csmystery.png">CS Mystery</channel>
     <channel lang="cz" xmltv_id="programandroid-200" site_id="200" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/leo.png">Leo</channel>
     <channel lang="cz" xmltv_id="programandroid-57" site_id="57" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/Minimax.png">Minimax</channel>
@@ -63,7 +63,6 @@
     <channel lang="cz" xmltv_id="programandroid-736" site_id="736" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/ocko-gold.png">Óčko Star</channel>
     <channel lang="cz" xmltv_id="programandroid-251" site_id="251" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/oik.png">OIK TV</channel>
     <channel lang="cz" xmltv_id="programandroid-62" site_id="62" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/paprika.png">Paprika</channel>
-    <channel lang="cz" xmltv_id="programandroid-1123" site_id="1123" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/paramountnetwork.png">Paramount Network</channel>
     <channel lang="cz" xmltv_id="programandroid-1122" site_id="1122" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima_max.png">Prima MAX</channel>
     <channel lang="cz" xmltv_id="programandroid-1196" site_id="1196" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima_krimi.png">Prima Krimi</channel>
     <channel lang="cz" xmltv_id="programandroid-496" site_id="496" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/primalove.png">Prima LOVE</channel>
@@ -81,8 +80,8 @@
     <channel lang="cz" xmltv_id="programandroid-75" site_id="75" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/sport1.png">Sport1</channel>
     <channel lang="cz" xmltv_id="programandroid-221" site_id="221" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/sport2.png">Sport2</channel>
     <channel lang="cz" xmltv_id="programandroid-684" site_id="684" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/slagroriginal.png">Šlágr Originál</channel>
-    <channel lang="cz" xmltv_id="programandroid-712" site_id="712" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/nova_gold.png">Nova Gold</channel>
-    <channel lang="cz" xmltv_id="programandroid-207" site_id="207" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/fishingandhunting.png">The Fishing and Hunting</channel>
+    <channel lang="cz" xmltv_id="programandroid-712" site_id="712" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/nova_gold.png">Nova Krimi</channel>
+    <channel lang="cz" xmltv_id="programandroid-207" site_id="207" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/fishingandhunting.png">Fishing & Hunting</channel>
     <channel lang="cz" xmltv_id="programandroid-194" site_id="194" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/TIK.png">TIK</channel>
     <channel lang="cz" xmltv_id="programandroid-549" site_id="549" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/tlc.png">TLC</channel>
     <channel lang="cz" xmltv_id="programandroid-104" site_id="104" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/travelch.png">Travel Channel</channel>
@@ -98,7 +97,6 @@
     <channel lang="cz" xmltv_id="programandroid-1023" site_id="1023" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/joj_cinema.png">JOJ Cinema</channel>
     <channel lang="cz" xmltv_id="programandroid-1140" site_id="1140" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/o2tv_fotbal.png">O2TV Fotbal</channel>
     <channel lang="cz" xmltv_id="programandroid-223" site_id="223" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/id.png">ID</channel>
-    <channel lang="cz" xmltv_id="programandroid-83" site_id="83" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/FashionTV.png">FashionTV</channel>
     <channel lang="cz" xmltv_id="programandroid-1141" site_id="1141" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/joj_family.png">JOJ Family</channel>
     <channel lang="cz" xmltv_id="programandroid-1148" site_id="1148" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/mnau.png">Mňau TV</channel>
     <channel lang="cz" xmltv_id="programandroid-1149" site_id="1149" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/csfilm.png">CS Film</channel>
@@ -137,7 +135,7 @@
     <channel lang="cz" xmltv_id="programandroid-15238" site_id="15238" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/o2tv_sport4.png">O2TV Sport4</channel>
     <channel lang="cz" xmltv_id="programandroid-15239" site_id="15239" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/o2tv_sport2.png">O2TV Sport2</channel>
     <channel lang="cz" xmltv_id="programandroid-15408" site_id="15408" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/pspcz.png">Poslanecká sněmovna ČR</channel>
-    <channel lang="cz" xmltv_id="programandroid-15410" site_id="15410" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/utv.png">UTV</channel>
+    <channel lang="cz" xmltv_id="programandroid-15410" site_id="15410" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/utv.png">ÚTV</channel>
     <channel lang="cz" xmltv_id="programandroid-15412" site_id="15412" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/canalplussport.png">Canal+ Sport</channel>
     <channel lang="cz" xmltv_id="programandroid-15474" site_id="15474" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/noeplus.png">Noe+</channel>
     <channel lang="cz" xmltv_id="programandroid-15476" site_id="15476" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/canal_action.png">Canal+ Action</channel>
@@ -150,7 +148,6 @@
     <channel lang="cz" xmltv_id="programandroid-15537" site_id="15537" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/canalplussport2.png">Canal+ Sport 2</channel>
     <channel lang="cz" xmltv_id="programandroid-15549" site_id="15549" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/sporty.png">Sporty TV</channel>
     <channel lang="cz" xmltv_id="programandroid-15551" site_id="15551" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/warnertv.png">Warner TV</channel>
-    <channel lang="cz" xmltv_id="programandroid-15558" site_id="15558" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/oktv.png">OK TV</channel>
     <channel lang="cz" xmltv_id="programandroid-15560" site_id="15560" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/travelxp4k.png">Travelxp 4K</channel>
     <channel lang="cz" xmltv_id="programandroid-15564" site_id="15564" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/dvtvextra.png">DVTV Extra</channel>
     <channel lang="cz" xmltv_id="programandroid-15565" site_id="15565" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/bbcfirst.png">BBC First</channel>
@@ -177,6 +174,14 @@
     <channel lang="cz" xmltv_id="programandroid-15629" site_id="15629" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/oneplay_sport_md.png">Oneplay Sport MD8</channel>
     <channel lang="cz" xmltv_id="programandroid-15630" site_id="15630" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/oneplay_sport_md.png">Oneplay Sport MD9</channel>
     <channel lang="cz" xmltv_id="programandroid-15631" site_id="15631" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/tvprerov.png">Televize Přerov</channel>
+    <channel lang="cz" xmltv_id="programandroid-15640" site_id="15640" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/viasatruecrime.png">Viasat True Crime</channel>
+    <channel lang="cz" xmltv_id="programandroid-15645" site_id="15645" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/pspcz.png">Poslanecká sněmovna tiskovky</channel>
+    <channel lang="cz" xmltv_id="programandroid-15646" site_id="15646" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/starmaxfamily.png">Starmax Family</channel>
+    <channel lang="cz" xmltv_id="programandroid-15647" site_id="15647" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/starmaxczsk.png">Starmax CZ-SK</channel>
+    <channel lang="cz" xmltv_id="programandroid-15649" site_id="15649" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/kvifftv.png">KVIFF.TV</channel>
+    <channel lang="cz" xmltv_id="programandroid-15653" site_id="15653" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/romatv.png">ROMA TV</channel>
+    <channel lang="cz" xmltv_id="programandroid-15654" site_id="15654" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/joj_svetcz.png">JOJ Svět (cz)</channel>
+    <channel lang="cz" xmltv_id="programandroid-15663" site_id="15663" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/ballcasterz.png">Ballcasterz</channel>
     <channel lang="sk" xmltv_id="programandroid-687" site_id="687" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/arenasport.png">Arena Sport 1</channel>
     <channel lang="sk" xmltv_id="programandroid-800" site_id="800" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/arenasport2.png">Arena Sport 2</channel>
     <channel lang="sk" xmltv_id="programandroid-150" site_id="150" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/ducktv.png">duck.tv</channel>
@@ -200,7 +205,7 @@
     <channel lang="sk" xmltv_id="programandroid-241" site_id="241" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/tv8.png">TV OSEM</channel>
     <channel lang="sk" xmltv_id="programandroid-735" site_id="735" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/tvba.png">TV Bratislava</channel>
     <channel lang="sk" xmltv_id="programandroid-683" site_id="683" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/dajto.png">TV DAJTO</channel>
-    <channel lang="sk" xmltv_id="programandroid-718" site_id="718" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/wau.png">WAU</channel>
+    <channel lang="sk" xmltv_id="programandroid-718" site_id="718" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/wau.png">JOJ KRIMI</channel>
     <channel lang="sk" xmltv_id="programandroid-1143" site_id="1143" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/spartak.png">Spartak TV</channel>
     <channel lang="sk" xmltv_id="programandroid-1146" site_id="1146" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/lifetv.png">LifeTV</channel>
     <channel lang="sk" xmltv_id="programandroid-1162" site_id="1162" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima_plus.png">Prima SK</channel>
@@ -225,13 +230,13 @@
     <channel lang="sk" xmltv_id="programandroid-15587" site_id="15587" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/primalovesk.png">Prima LOVE SK</channel>
     <channel lang="sk" xmltv_id="programandroid-1253" site_id="1253" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/ruzinov.png">TV Ružinov</channel>
     <channel lang="sk" xmltv_id="programandroid-1315" site_id="1315" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/zemplin.png">Zemplín</channel>
-    <channel lang="sk" xmltv_id="programandroid-1324" site_id="1324" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/rtvs24.png">RTVS 24</channel>
+    <channel lang="sk" xmltv_id="programandroid-1324" site_id="1324" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/rtvs24.png">STVR 24</channel>
     <channel lang="sk" xmltv_id="programandroid-1326" site_id="1326" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/romana.png">Romana</channel>
     <channel lang="sk" xmltv_id="programandroid-1363" site_id="1363" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/hahatv.png">HaHa TV</channel>
     <channel lang="sk" xmltv_id="programandroid-1364" site_id="1364" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/tvvychod.png">Televízia Východ</channel>
     <channel lang="sk" xmltv_id="programandroid-1408" site_id="1408" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/rik.png">Rik TV</channel>
     <channel lang="sk" xmltv_id="programandroid-1472" site_id="1472" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/bib.png">Body in Balance (sk)</channel>
-    <channel lang="sk" xmltv_id="programandroid-1512" site_id="1512" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/rtvs_sport.png">RTVS Šport</channel>
+    <channel lang="sk" xmltv_id="programandroid-1512" site_id="1512" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/rtvs_sport.png">STVR Šport</channel>
     <channel lang="sk" xmltv_id="programandroid-1514" site_id="1514" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/arcadia.png">Arcadia</channel>
     <channel lang="sk" xmltv_id="programandroid-15321" site_id="15321" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/tvsen.png">TV SEN</channel>
     <channel lang="sk" xmltv_id="programandroid-15402" site_id="15402" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/markiza_krimi.png">Markíza KRIMI</channel>
@@ -246,9 +251,9 @@
     <channel lang="sk" xmltv_id="programandroid-15440" site_id="15440" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/turbotv.png">Turbo TV</channel>
     <channel lang="sk" xmltv_id="programandroid-15441" site_id="15441" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/joj_24.png">JOJ 24</channel>
     <channel lang="sk" xmltv_id="programandroid-15450" site_id="15450" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/hronka.png">TV Hronka</channel>
-    <channel lang="sk" xmltv_id="programandroid-15471" site_id="15471" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/skvele.png">Skvele TV</channel>
+    <channel lang="sk" xmltv_id="programandroid-15471" site_id="15471" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/skvele.png">Skvelé TV</channel>
     <channel lang="sk" xmltv_id="programandroid-15472" site_id="15472" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/park.png">Park TV</channel>
-    <channel lang="sk" xmltv_id="programandroid-15482" site_id="15482" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/spark.png">Spark TV</channel>
+    <channel lang="sk" xmltv_id="programandroid-15482" site_id="15482" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/spark.png">Kanal 1</channel>
     <channel lang="sk" xmltv_id="programandroid-15508" site_id="15508" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/tvdoktor.png">TV Doktor</channel>
     <channel lang="sk" xmltv_id="programandroid-15509" site_id="15509" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/joj_svet.png">JOJ Svet</channel>
     <channel lang="sk" xmltv_id="programandroid-15562" site_id="15562" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/prima_coolsk.png">Prima COOL SK</channel>
@@ -256,5 +261,9 @@
     <channel lang="sk" xmltv_id="programandroid-15611" site_id="15611" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/joj_sport2.png">JOJ Šport 2</channel>
     <channel lang="sk" xmltv_id="programandroid-15614" site_id="15614" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/dvtvextra.png">DVTV Extra SK</channel>
     <channel lang="sk" xmltv_id="programandroid-15633" site_id="15633" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/kezmarok.png">TV Kežmarok</channel>
+    <channel lang="sk" xmltv_id="programandroid-15644" site_id="15644" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/gttvmoto.png">GTTV</channel>
+    <channel lang="sk" xmltv_id="programandroid-15648" site_id="15648" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/primakrimisk.png">Prima KRIMI SK</channel>
+    <channel lang="sk" xmltv_id="programandroid-15651" site_id="15651" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/nrsr.png">TV NR SR</channel>
+    <channel lang="sk" xmltv_id="programandroid-15652" site_id="15652" logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/sirava.png">Šírava TV</channel>
   </channels>
 </site>
