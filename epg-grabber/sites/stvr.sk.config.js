@@ -61,7 +61,6 @@ function parseLength(item) {
 
 function parseTags(item) {
   const filteredIkonky = Object.fromEntries(Object.entries(item.quality).filter(([key, value]) => value !== null && (Object.keys(value).length != 0) && (String(key) != "string")));
-  console.table((filteredIkonky))
   const filteredIkonkyString = (Object.fromEntries(Object.entries(item.quality).filter(([key, value]) => value !== null && (Object.keys(value).length != 0) && (String(key) === "string")))).string;
   return { filteredIkonky, filteredIkonkyString }
 }

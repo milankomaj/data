@@ -3,8 +3,8 @@ module.exports = {
   site: 'ceskatelevize.cz',
   maxConnections: 5,
   request: {
-    timeout: 9000, //
-    delay: 3000, // 3 seconds
+    timeout: 20000, //
+    delay: 6000, // 3 seconds
     cache: {
       ttl: 60 * 60 * 1000 // 1 hour
     }

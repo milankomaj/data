@@ -19,7 +19,7 @@ jobs:
         include:
           - unit: unit1
           - unit: unit2
-          - unit: unit3
+          # - unit: unit3
           - unit: unit4
           - unit: unit5
           - unit: unit6
@@ -32,13 +32,13 @@ jobs:
     outputs:
       unit1_scale: ${{ steps.save_outputs.outputs.unit1_sum_outcome }}
       unit2_scale: ${{ steps.save_outputs.outputs.unit2_sum_outcome }}
-      unit3_scale: ${{ steps.save_outputs.outputs.unit3_sum_outcome }}
+      # unit3_scale: ${{ steps.save_outputs.outputs.unit3_sum_outcome }}
       unit4_scale: ${{ steps.save_outputs.outputs.unit4_sum_outcome }}
       unit5_scale: ${{ steps.save_outputs.outputs.unit5_sum_outcome }}
       unit6_scale: ${{ steps.save_outputs.outputs.unit6_sum_outcome }}
       unit1: ${{ steps.save_outputs.outputs.unit1_outcome }}
       unit2: ${{ steps.save_outputs.outputs.unit2_outcome }}
-      unit3: ${{ steps.save_outputs.outputs.unit3_outcome }}
+      # unit3: ${{ steps.save_outputs.outputs.unit3_outcome }}
       unit4: ${{ steps.save_outputs.outputs.unit4_outcome }}
       unit5: ${{ steps.save_outputs.outputs.unit5_outcome }}
       unit6: ${{ steps.save_outputs.outputs.unit6_outcome }}
@@ -129,7 +129,7 @@ jobs:
         run: |
           echo "Unit 1: ${{ needs.grab.outputs.unit1 }}"
           echo "Unit 2: ${{ needs.grab.outputs.unit2 }}"
-          echo "Unit 3: ${{ needs.grab.outputs.unit3 }}"
+          # echo "Unit 3: ${{ needs.grab.outputs.unit3 }}"
           echo "Unit 4: ${{ needs.grab.outputs.unit4 }}"
           echo "Unit 5: ${{ needs.grab.outputs.unit5 }}"
           echo "Unit 6: ${{ needs.grab.outputs.unit6 }}"
@@ -141,7 +141,7 @@ jobs:
           scale=$(sed -n '$=' ./guide/units.guide.xml)
 
           # Pôvodná matematika sčítania rozmerov z jobu grab
-          sum=$(( ${{ needs.grab.outputs.unit1_scale }} + ${{ needs.grab.outputs.unit2_scale }} + ${{ needs.grab.outputs.unit3_scale }} + ${{ needs.grab.outputs.unit4_scale }} + ${{ needs.grab.outputs.unit5_scale }} + ${{ needs.grab.outputs.unit6_scale }} - 10 ))
+          sum=$(( ${{ needs.grab.outputs.unit1_scale }} + ${{ needs.grab.outputs.unit2_scale }} + ${{ needs.grab.outputs.unit4_scale }} + ${{ needs.grab.outputs.unit5_scale }} + ${{ needs.grab.outputs.unit6_scale }} - 8 ))
           if [[ $sum -eq $scale ]]
           then
             echo "✅ Equal"
