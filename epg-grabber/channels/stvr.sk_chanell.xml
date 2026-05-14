@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site site="rtvs.sk">
+  <channels>
+    <channel lang="sk" xmltv_id="jednotka" site_id="1" logo="https://www.rtvs.sk/media/images/logo-jednotka.svg">Jednotka</channel>
+    <channel lang="sk" xmltv_id="dvojka" site_id="2" logo="https://www.rtvs.sk/media/images/logo-dvojka.svg">Dvojka</channel>
+    <channel lang="sk" xmltv_id="rtvs24" site_id="3" logo="https://www.rtvs.sk/media/images/logo-rtvs24-invers.svg">:24</channel>
+    <channel lang="sk" xmltv_id="sport" site_id="15" logo="https://www.rtvs.sk/media/images/logo-sport.svg">Šport</channel>
+  </channels>
+</site>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site site="ceskatelevize.cz">
+  <channels>
+    <channel lang="cz" xmltv_id="ct1" site_id="ct1" logo="https://ctfs.ceskatelevize.cz/static/channels/ct1.svg">ČT1</channel>
+    <channel lang="cz" xmltv_id="ct2" site_id="ct2" logo="https://ctfs.ceskatelevize.cz/static/channels/ct2.svg">ČT2</channel>
+    <channel lang="cz" xmltv_id="ct24" site_id="ct24" logo="https://ctfs.ceskatelevize.cz/static/channels/ct24.svg">ČT24</channel>
+    <channel lang="cz" xmltv_id="ct4" site_id="ct4" logo="https://ctfs.ceskatelevize.cz/static/channels/ct4.svg">ČT sport</channel>
+    <channel lang="cz" xmltv_id="ct5" site_id="ct5" logo="https://ctfs.ceskatelevize.cz/static/channels/ct5.svg">ČT :D</channel>
+    <channel lang="cz" xmltv_id="ct6" site_id="ct6" logo="https://ctfs.ceskatelevize.cz/static/channels/ct6.svg">ČT art</channel>
+  </channels>
+</site>

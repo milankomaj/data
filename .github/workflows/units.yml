@@ -1,23 +1,11 @@
 name: units-grabber
-run-name: ${{ github.workflow }} ✅ ${{ github.event_name}}
+run-name: ${{ github.workflow }} ✅ ${{ github.event_name }}
 on:
   workflow_call:
-      outputs:
-       units_outcome:
+    outputs:
+      units_outcome:
         description: "jobs.push.outputs.output_units"
         value: ${{ jobs.push.outputs.output_units }}
-       unit1_outcome:
-        description: "jobs.grab.outputs.unit1"
-        value: ${{ jobs.grab.outputs.unit1 }}
-       unit2_outcome:
-        description: "jobs.grab.outputs.unit2"
-        value: ${{ jobs.grab.outputs.unit2 }}
-       unit3_outcome:
-        description: "jobs.grab.outputs.unit3"
-        value: ${{ jobs.grab.outputs.unit3 }}
-       unit4_outcome:
-        description: "jobs.grab.outputs.unit4"
-        value: ${{ jobs.grab.outputs.unit4 }}
   workflow_dispatch:
 
 jobs:
@@ -26,33 +14,43 @@ jobs:
     timeout-minutes: 80
     strategy:
       fail-fast: false
-      max-parallel: 4
+      max-parallel: 6
       matrix:
         include:
-           - unit: unit1
-           - unit: unit2
-           - unit: unit3
-           - unit: unit4
+          - unit: unit1
+          - unit: unit2
+          # - unit: unit3
+          - unit: unit4
+          - unit: unit5
+          - unit: unit6
+
     defaults:
       run:
         working-directory: ./epg-grabber
+
+    # OPRAVA: Mapovanie výstupov z matice (využívame internal GitHub matrix syntax)
     outputs:
-      unit1_scale: ${{ steps.unit_outcome.outputs.unit1_sum_outcome}}
-      unit2_scale: ${{ steps.unit_outcome.outputs.unit2_sum_outcome}}
-      unit3_scale: ${{ steps.unit_outcome.outputs.unit3_sum_outcome}}
-      unit4_scale: ${{ steps.unit_outcome.outputs.unit4_sum_outcome}}
-      unit1: ${{ steps.unit_outcome.outputs.unit1_outcome}}
-      unit2: ${{ steps.unit_outcome.outputs.unit2_outcome}}
-      unit3: ${{ steps.unit_outcome.outputs.unit3_outcome}}
-      unit4: ${{ steps.unit_outcome.outputs.unit4_outcome}}
+      unit1_scale: ${{ steps.save_outputs.outputs.unit1_sum_outcome }}
+      unit2_scale: ${{ steps.save_outputs.outputs.unit2_sum_outcome }}
+      # unit3_scale: ${{ steps.save_outputs.outputs.unit3_sum_outcome }}
+      unit4_scale: ${{ steps.save_outputs.outputs.unit4_sum_outcome }}
+      unit5_scale: ${{ steps.save_outputs.outputs.unit5_sum_outcome }}
+      unit6_scale: ${{ steps.save_outputs.outputs.unit6_sum_outcome }}
+      unit1: ${{ steps.save_outputs.outputs.unit1_outcome }}
+      unit2: ${{ steps.save_outputs.outputs.unit2_outcome }}
+      # unit3: ${{ steps.save_outputs.outputs.unit3_outcome }}
+      unit4: ${{ steps.save_outputs.outputs.unit4_outcome }}
+      unit5: ${{ steps.save_outputs.outputs.unit5_outcome }}
+      unit6: ${{ steps.save_outputs.outputs.unit6_outcome }}
 
     steps:
       - name: Checkout
         uses: actions/checkout@v5
 
+      # OPRAVA: Opravená syntax podmienky (spojené do jedného výrazu)
       - name: localle
         uses: milankomaj/shell-x@v0.3
-        if: ${{ github.event_name == 'workflow_dispatch' }} || ${{ github.event_name == 'schedule' }}
+        if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'schedule' }}
         with:
           shell: bash
           locale: sk_SK.utf8
@@ -65,9 +63,8 @@ jobs:
       - name: Grab
         if: steps.NpmInstall.outcome == 'success'
         id: grab_unit
-        working-directory: ./epg-grabber
         run: |
-         npm run ${{ matrix.unit }}
+          npm run ${{ matrix.unit }}
 
       - name: outcome
         id: unit_outcome
@@ -77,13 +74,20 @@ jobs:
           scale=$(sed -n '$=' ./guide/${{ matrix.unit }}.guide.xml)
           if [[ "$scale" -ge "18" ]]
           then
-          echo "✅ : ${{ matrix.unit }} - $scale"
-          echo "${{ matrix.unit }}_sum_outcome=$scale" >> $GITHUB_OUTPUT
-          echo "${{ matrix.unit }}_outcome=${{ steps.grab_unit.outcome }}" >> $GITHUB_OUTPUT
+            echo "✅ : ${{ matrix.unit }} - $scale"
+            echo "scale=$scale" >> $GITHUB_OUTPUT
+            echo "grab_outcome=${{ steps.grab_unit.outcome }}" >> $GITHUB_OUTPUT
           else
-          echo "❌ : ${{ matrix.unit }} - $scale"
-          exit 1
+            echo "❌ : ${{ matrix.unit }} - $scale"
+            exit 1
           fi
+
+
+      - name: Save Outputs for Job
+        id: save_outputs
+        run: |
+          echo "${{ matrix.unit }}_sum_outcome=${{ steps.unit_outcome.outputs.scale }}" >> $GITHUB_OUTPUT
+          echo "${{ matrix.unit }}_outcome=${{ steps.unit_outcome.outputs.grab_outcome }}" >> $GITHUB_OUTPUT
 
       - uses: actions/upload-artifact@v4
         id: upload
@@ -92,21 +96,19 @@ jobs:
           name: units_${{ matrix.unit }}
           if-no-files-found: error
           path: |
-           ${{ github.workspace }}/epg-grabber/guide/${{ matrix.unit }}.guide.xml
+            ${{ github.workspace }}/epg-grabber/guide/${{ matrix.unit }}.guide.xml
           retention-days: 5
 
       - run: echo "${{ steps.upload.outputs.artifact-id }} - ${{ steps.upload.outputs.artifact-url }}"
-
 
   push:
     runs-on: ubuntu-latest
     if: ${{ success() }}
     needs: [grab]
     outputs:
-      output_units: ${{ steps.deploy.outputs.units_outcome}}
+      output_units: ${{ steps.deploy.outputs.units_outcome }}
 
     steps:
-     # Artifacts download
       - uses: actions/checkout@v5
         with:
           sparse-checkout: |
@@ -116,44 +118,46 @@ jobs:
       - uses: actions/download-artifact@v5
         id: download
         with:
-         path: ${{ github.workspace }}/epg-grabber/guide/
-         merge-multiple: true
-         pattern: units_*
+          path: ${{ github.workspace }}/epg-grabber/guide/
+          merge-multiple: true
+          pattern: units_*
 
       - name: 'download && path && combine'
         working-directory: ./epg-grabber
         id: combine
         run: |
-         echo ${{ needs.grab.outputs.unit1 }}
-         echo ${{ needs.grab.outputs.unit2 }}
-         echo ${{ needs.grab.outputs.unit3 }}
-         echo ${{ needs.grab.outputs.unit4 }}
-         echo ${{steps.download.outputs.download-path}}
-         tree -h ${{steps.download.outputs.download-path}}
-         chmod +x ./scripts/combine-xml.sh
-         ./scripts/combine-xml.sh
-         tree -h ${{steps.download.outputs.download-path}}
-         scale=$(sed -n '$=' ./guide/units.guide.xml)
-         sum=$(( ${{ needs.grab.outputs.unit1_scale }} + ${{ needs.grab.outputs.unit2_scale }} + ${{ needs.grab.outputs.unit3_scale }} + ${{ needs.grab.outputs.unit4_scale }} - 6 ))
-         if [[ $sum -eq $scale ]]
-         then
-         echo "✅ Equal"
-         else
-         echo "❌ Not equal"
-         exit 1
-         fi
+          echo "Unit 1: ${{ needs.grab.outputs.unit1 }}"
+          echo "Unit 2: ${{ needs.grab.outputs.unit2 }}"
+          # echo "Unit 3: ${{ needs.grab.outputs.unit3 }}"
+          echo "Unit 4: ${{ needs.grab.outputs.unit4 }}"
+          echo "Unit 5: ${{ needs.grab.outputs.unit5 }}"
+          echo "Unit 6: ${{ needs.grab.outputs.unit6 }}"
+          echo "Path: ${{ steps.download.outputs.download-path }}"
+          tree -h ${{ steps.download.outputs.download-path }}
+          chmod +x ./scripts/combine-xml.sh
+          ./scripts/combine-xml.sh
+          tree -h ${{ steps.download.outputs.download-path }}
+          scale=$(sed -n '$=' ./guide/units.guide.xml)
 
-      - name: Deploy
-        id: deploy
+          # Pôvodná matematika sčítania rozmerov z jobu grab
+          sum=$(( ${{ needs.grab.outputs.unit1_scale }} + ${{ needs.grab.outputs.unit2_scale }} + ${{ needs.grab.outputs.unit4_scale }} + ${{ needs.grab.outputs.unit5_scale }} + ${{ needs.grab.outputs.unit6_scale }} - 8 ))
+          if [[ $sum -eq $scale ]]
+          then
+            echo "✅ Equal"
+          else
+            echo "❌ Not equal (Očakávané: $sum, Skutočné: $scale)"
+            exit 1
+          fi
+
+
+      - uses: actions/upload-artifact@v4
+        id: units
         if: steps.combine.outcome == 'success'
-        run: |
-          echo "units_outcome=${{ steps.combine.outcome }}" >> $GITHUB_OUTPUT
-          git config --global user.email ${{ secrets.EMAIL }}
-          git config --global user.name ${{ secrets.NAME }}
-          git sparse-checkout disable
-          git config pull.rebase false
-          echo ${{ steps.combine.outcome }}
-          git add ${{steps.download.outputs.download-path}}/units.guide.xml
-          git commit -m "units-grabber - ${{ steps.combine.outcome }}"
-          git pull
-          git push -f
+        with:
+          name: units
+          if-no-files-found: error
+          path: |
+            ${{ github.workspace }}/epg-grabber/guide/units.guide.xml
+          retention-days: 5
+
+      - run: echo "${{ steps.units.outputs.artifact-id }} - ${{ steps.units.outputs.artifact-url }}"
