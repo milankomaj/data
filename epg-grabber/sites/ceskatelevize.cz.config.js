@@ -7,7 +7,14 @@ module.exports = {
     delay: 6000, // 3 seconds
     cache: {
       ttl: 60 * 60 * 1000 // 1 hour
-    }
+    },
+    headers: {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "Accept-Language": "sk,en-US;q=0.5",
+      "Upgrade-Insecure-Requests": "1",
+      "Sec-Fetch-Site": "cross-site"
+    },
   },
   url: function ({ date, channel }) {
     const day = date.format('DD.MM.YYYY')
