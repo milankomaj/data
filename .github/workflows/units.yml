@@ -82,8 +82,7 @@ jobs:
             exit 1
           fi
 
-      # OPRAVA: Tento pomocný krok beží pre každý riadok matice a zapíše výstup
-      # do globálneho stepu špecificky pod názvom danej jednotky.
+
       - name: Save Outputs for Job
         id: save_outputs
         run: |
