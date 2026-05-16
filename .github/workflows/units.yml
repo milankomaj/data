@@ -89,7 +89,7 @@ jobs:
           echo "${{ matrix.unit }}_sum_outcome=${{ steps.unit_outcome.outputs.scale }}" >> $GITHUB_OUTPUT
           echo "${{ matrix.unit }}_outcome=${{ steps.unit_outcome.outputs.grab_outcome }}" >> $GITHUB_OUTPUT
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         id: upload
         if: steps.grab_unit.outcome == 'success' && steps.unit_outcome.outcome == 'success'
         with:
@@ -151,7 +151,7 @@ jobs:
           fi
 
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         id: units
         if: steps.combine.outcome == 'success'
         with:
