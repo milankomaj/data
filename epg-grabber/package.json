@@ -21,7 +21,7 @@
     "dayjs": "^1.11.20",
     "epg-grabber": "^0.38.0",
     "epg-parser": "^0.5.0",
-    "iconv-lite": "^0.6.3",
+    "iconv-lite": "^0.7.2",
     "cheerio": "^1.2.0",
     "xml-js": "^1.6.11",
     "axios": "^1.16.1"
