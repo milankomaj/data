@@ -1,6 +1,6 @@
 // import { writeFile } from 'node:fs/promises';
-const core = require('@actions/core');
-const { test, expect, chromium } = require('@playwright/test');
+import * as core from '@actions/core';
+import { test, expect, chromium } from '@playwright/test';
 /*
 await page.on('console', msg => console.log(msg.text()));
 
