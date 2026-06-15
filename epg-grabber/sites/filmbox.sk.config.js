@@ -1,7 +1,7 @@
 const dayjs = require('dayjs')
 
 module.exports = {
-  site: 'sledujfilmbox.sk',
+  site: 'filmboxplus.eu',
   maxConnections: 5,
   request: {
     timeout: 9000, //
@@ -12,30 +12,43 @@ module.exports = {
   },
   url: function ({ date, channel }) {
     const day = date.format('YYYY-MM-DD')
-    return `https://www.sledujfilmbox.sk/epg/data/?date=${day}`
+    //console.log("👉 day:", day)
+    return `https://filmboxplus.eu/epg-json/schedule-grid?market=CZ&day=${day}`
   },
   async parser({ content, channel, date }) {
     let programs = []
-    let items = parseItems(content, channel)
+    let channel_items = parseItems(content, channel).filter(item => item.name.includes(channel.name));
+    //console.log("👉 channel_items", channel_items)
+
+    let channel_slots = channel_items[0].slots
+    //console.log("👉 channel_slots", (channel_slots))
+
+    let items = (channel_slots)
+
+
     if (!items.length) return programs
 
 
     for (let item of items) {
-
+      const detail = await loadProgramDetails(item, channel)
       programs.push({
-        title: item.nazev,
-        sub_title: (item.zeme ? item.zeme : []) + (parseYear(item) || []),
-        description: parseDescription(item) || [],
-        //description: parseLeng(item).dlouhypopis || parseLeng(item).kratkypopis || parseLeng(item).popisek,
-        category: item.typprg ? item.typprg : [],
-        actors: item.hraji ? item.hraji : [],
-        directors: item.rezie ? item.rezie : [],
-        date: item.rok ? item.rok : [],
-        start: dayjs(item.od).toJSON(),
-        stop: dayjs(item.do).toJSON(),
-        icon: item.obrazek ? item.obrazek : []
+        title: item.program.title,
+        sub_title: item.program.synopsisShort ? item.program.synopsisShort : [],
+        description: item.program.synopsisLong ? item.program.synopsisLong : [],
+        category: item.program.genres ? item.program.genres : [],
+        actors: item.program.cast ? item.program.cast : [],
+        directors: item.program.directors ? item.program.directors : [],
+        date: item.program.year ? item.program.year : [],
+        start: dayjs(item.startsAt).toJSON(),
+        stop: dayjs(item.endsAt).toJSON(),
+        icon: parseIcon(detail),
+        length: { units: 'minutes', value: Number(String(item.program.durationMinutes)) } || [],
+        country: item.program.countries ? item.program.countries : [],
+        season: Number(item.program.seasonNumber) || [],
+        episode: Number(item.program.episodeNumber) || [],
       })
     }
+    //console.log("👉 programs:", programs)
     return programs
   }
 }
@@ -43,22 +56,28 @@ module.exports = {
 
 function parseItems(content, channel) {
   const Jdata = JSON.parse(content).data
+  //console.log("Jdata 👉", Jdata)
   const channelId = channel.site_id
-  return Jdata[channelId].data
+  //console.log("channel.name 👉", String(channel.name))
+  // console.log("Jdata.channelId 👉",(Jdata.channels))
+  return Jdata.channels
 }
 
-function parseYear(item) {
-  if (!item.rok) return []
-  return [
-    " R:" + item.rok
-  ]
+function parseIcon(detail) {
+  if (!detail.data) return []
+  const data = detail.data
+  // console.log("data.channel 👉", data.imageUrl)
+  return data.imageUrl
 }
 
-function parseDescription(item) {
-  const popisek = String(item.popisek ? item.popisek : [])
-  const kratkypopis = String(item.kratkypopis ? item.kratkypopis : [])
-  const dlouhypopis = String(item.dlouhypopis ? item.dlouhypopis : [])
-  // console.log(" (item).length 👉", dlouhypopis.length, kratkypopis.length, popisek.length)
-  if (popisek.length > dlouhypopis.length) return popisek ? popisek : dlouhypopis
-  return dlouhypopis || kratkypopis || popisek
+
+async function loadProgramDetails(item, channel) {
+  if (!item.id) return {}
+  const url = `https://filmboxplus.eu/cz/wp-admin/admin-ajax.php?action=filmbox_program_card&slot_id=${item.id}`
+  const data = await axios
+    .get(url)
+    .then(r => r.data)
+    .catch(console.log)
+
+  return data || {}
 }
