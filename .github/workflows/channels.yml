@@ -33,7 +33,7 @@ jobs:
 
       - name: xq
         id: xq
-        run: |
+        run: | # apt-get install xq
           FILE=''
           REPO='sibprogrammer/xq'
           PLATFORM=$(uname -s | tr A-Z a-z)
