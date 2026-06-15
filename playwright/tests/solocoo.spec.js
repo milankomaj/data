@@ -1,5 +1,5 @@
 // import { writeFile } from 'node:fs/promises';
-import core from '@actions/core';
+import core from '@actions/core/lib/core.js';
 import { test, expect } from '@playwright/test';
 
 test('CZ', async ({ page }) => {
