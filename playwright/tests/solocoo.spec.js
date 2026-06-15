@@ -1,6 +1,6 @@
 // import { writeFile } from 'node:fs/promises';
-const core = require('@actions/core');
-const { test, expect } = require('@playwright/test');
+import core from '@actions/core';
+import { test, expect } from '@playwright/test';
 
 test('CZ', async ({ page }) => {
   await page.goto('https://livetv.skylink.cz');
