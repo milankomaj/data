@@ -7,8 +7,8 @@ logo  | **name** | channelNumber
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./CANAL%20Action_m.png) | **CANAL+ Action** | 5
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./CANAL%20Sport_m.png) | **CANAL+ Sport** | 6
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./CANAL%20Sport%202_m.png) | **CANAL+ Sport 2** | 7
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./FilmBox_m.png) | **FilmBox** | 8
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./FilmBox%20Stars_m.png) | **FilmBox Stars** | 9
+![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./FILMBOX%20One_m.png) | **FILMBOX+ One** | 8
+![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./FILMBOX%20Love%20%26%20Crime_m.png) | **FILMBOX+ Love & Crime** | 9
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./RTVS%2024%20HD_m.png) | **RTVS 24 HD** | 11
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./RTVS%20SPORT%20HD_m.png) | **RTVS SPORT HD** | 12
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./DOMA%20HD_m.png) | **DOMA HD** | 13
@@ -21,12 +21,12 @@ logo  | **name** | channelNumber
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./TA3%20HD_m.png) | **TA3 HD** | 20
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./TV%20Lux%20HD_m.png) | **TV Lux HD** | 21
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./Spektrum%20Home_m.png) | **Spektrum Home** | 22
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./Filmbox%20Extra%20HD_m.png) | **Filmbox Extra HD** | 23
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./Filmbox%20Premium%20HD_m.png) | **Filmbox Premium HD** | 24
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./FilmBox%20Family_m.png) | **FilmBox Family** | 25
+![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./FILMBOX%20Emotion_m.png) | **FILMBOX+ Emotion** | 23
+![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./FILMBOX%20Hits_m.png) | **FILMBOX+ Hits** | 24
+![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./FILMBOX%20Comedy_m.png) | **FILMBOX+ Comedy** | 25
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./JOJ%20Cinema%20HD_m.png) | **JOJ Cinema HD** | 26
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./CS%20Film_m.png) | **CS Film** | 27
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./Epic%20Drama%20HD_m.png) | **Epic Drama HD** | 28
+![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./Viasat%20Epic%20Drama%20HD_m.png) | **Viasat Epic Drama HD** | 28
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./Film%20SK_m.png) | **Film+ SK** | 29
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./Film%20Europe%20%20HD_m.png) | **Film Europe+  HD** | 30
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./AXN%20CZ_m.png) | **AXN CZ** | 31
@@ -157,7 +157,7 @@ logo  | **name** | channelNumber
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./%2818%29%20%20Penthouse%20Reality%20TV_m.png) | **(18+)  Penthouse Reality TV** | 309
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./%2818%29%20Man-X%20%2800-06%29_m.png) | **(18+) Man-X (00-06)** | 310
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./RTLZWEI_m.png) | **RTLZWEI** | 400
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./RTL%20Television_m.png) | **RTL Television** | 401
+![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./RTL%20Austria_m.png) | **RTL Austria** | 401
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./RTL%20Super_m.png) | **RTL Super** | 402
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./SAT.1_m.png) | **SAT.1** | 403
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./SAT.1%20Gold%20Osterreich_m.png) | **SAT.1 Gold Osterreich** | 404
@@ -197,7 +197,7 @@ logo  | **name** | channelNumber
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./R9%20Osterreich%20HD_m.png) | **R9 Osterreich HD** | 438
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./Regio%20TV_m.png) | **Regio TV** | 439
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./ARD-alpha_m.png) | **ARD-alpha** | 441
-![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./NITRO_m.png) | **NITRO** | 442
+![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./NITRO%20Austria_m.png) | **NITRO Austria** | 442
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./TLC%20Deutschland_m.png) | **TLC Deutschland** | 443
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./sixx_m.png) | **sixx** | 444
 ![](https://m7cz.solocoo.tv/m7cziphone/mmchan/channelicons/./TV1%20OOE_m.png) | **TV1 OOE** | 445
