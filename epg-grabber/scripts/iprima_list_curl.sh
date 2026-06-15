@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-echo -e "\033[31;1m filmbox chanells \033[0m"
+echo -e "\033[31;1m prima chanells \033[0m"
 curl -X POST \
   --no-progress-meter \
   --url "https://gateway-api.prod.iprima.cz/json-rpc/" \
