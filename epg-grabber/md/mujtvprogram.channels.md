@@ -54,7 +54,7 @@ logo  | **name** | channelNumber
 ![]() | **FashionBox HD** | 165
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=968f7dcf315da21c8d46c68cee0be070&p2=80) | **Fast&FunBox HD** | 116
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=1b22577d975f70df2b9b9c8c28584789&p2=80) | **FightBox HD** | 118
-![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=094c1197addd33a645d3d81668bc6fe9&p2=80) | **FilmBox Extra HD** | 205
+![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=094c1197addd33a645d3d81668bc6fe9&p2=80) | **FilmBox+ Emotion HD** | 205
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=90ff2af980995a625afa54398f16e93b&p2=80) | **FilmBox Family** | 208
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=ffa5c58c7c21beebcc26cdd54bff5f89&p2=80) | **FilmBox Plus** | 207
 ![](https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=9d64faa8b43d7f33d32c4c95e274d4a0&p2=80) | **FilmBox Premium** | 214

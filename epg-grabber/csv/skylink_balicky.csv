@@ -24,25 +24,24 @@ CS Horror,CS Mystery,ČT1 HD,Disney Channel
 CS Mystery,ČT1 HD,ČT2 HD,Doma HD
 ČT art HD,ČT2 HD,ČT24 HD,Dvojka HD
 ČT :D HD,ČT24 HD,Disney Channel,English Club TV
-ČT Sport HD,DAJTO HD,Dvojka HD,Epic Drama HD
-ČT1 HD,Disney Channel,English Club TV,EuroNews
-ČT2 HD,DocuBox,Epic Drama HD,FightBox
-ČT24 HD,Doma HD,EuroNews,Film+
-Disney Channel,Dorcel TV,FightBox,FilmBox
-DocuBox,Dorcel XXX,Film+,FilmBox Extra HD
-Dorcel TV,Dvojka HD,FilmBox Extra HD,FilmBox Stars
-Dorcel XXX,English Club TV,FilmBox HD,Film Europe HD
-Dvojka HD,Epic Drama HD,FilmBox Stars,Film Europe+ HD
-English Club TV,EuroNews,Film Europe HD,Fishing and Hunting
-Epic Drama HD,FightBox,Film Europe+ HD,France 24
+ČT Sport HD,DAJTO HD,Dvojka HD,EuroNews
+ČT1 HD,Disney Channel,English Club TV,FightBox
+ČT2 HD,DocuBox,EuroNews,Film+
+ČT24 HD,Doma HD,FightBox,FILMBOX+ Emotion
+Disney Channel,Dorcel TV,Film+,FILMBOX+ Love & Crime
+DocuBox,Dorcel XXX,FILMBOX+ Emotion,FILMBOX+ One
+Dorcel TV,Dvojka HD,FILMBOX+ Love & Crime,Film Europe HD
+Dorcel XXX,English Club TV,FILMBOX+ One,Film Europe+ HD
+Dvojka HD,EuroNews,Film Europe HD,Fishing and Hunting
+English Club TV,FightBox,Film Europe+ HD,France 24
 EuroNews,Film+,Fishing and Hunting,Gametoon HD
-FightBox,FilmBox,France 24,Golf Channel
-Film+,FilmBox Extra HD,Gametoon HD,History HD
-FilmBox Extra HD,FilmBox Family,Golf Channel,INPLUS
-FilmBox Family,FilmBox Premium HD,History HD,Jednotka HD
-FilmBox HD,FilmBox Stars,INPLUS,JimJam
-FilmBox Premium HD,Film Europe HD,Jednotka HD,JOJ Cinema HD
-FilmBox Stars,Film Europe+ HD,JimJam,JOJ HD
+FightBox,FILMBOX+ Comedy,France 24,Golf Channel
+Film+,FILMBOX+ Emotion,Gametoon HD,History HD
+FILMBOX+ Comedy,FILMBOX+ Hits,Golf Channel,INPLUS
+FILMBOX+ Emotion,FILMBOX+ Love & Crime,History HD,Jednotka HD
+FILMBOX+ Hits,FILMBOX+ One,INPLUS,JimJam
+FILMBOX+ Love & Crime,Film Europe HD,Jednotka HD,JOJ Cinema HD
+FILMBOX+ One,Film Europe+ HD,JimJam,JOJ HD
 Film Europe HD,Fishing and Hunting,JOJ Cinema HD,Jojko
 Film Europe+ HD,France 24,JOJ Family,JOJ Krimi
 Fishing and Hunting,Gametoon HD,JOJ Svět,JOJ Svet
@@ -97,18 +96,18 @@ Nova Sport 6,ÓČKO BLACK HD,Spektrum HD,Sport 1 HD
 Penthouse Gold,Penthouse Reality TV,STORY4,TA3 HD
 Penthouse Reality TV,Playboy TV Europe,Šláger Muzika,TV Lux HD
 Playboy TV Europe,Plus HD,Šláger Originál,TV8
-Premium,Premium,TA3 HD,Viasat Explore
-Prima COOL HD,Prima COOL HD SK,Televize Seznam,Viasat History HD
-Prima HD,Prima HD SK,TV Barrandov,Viasat Nature HD
-Prima KRIMI HD,Prima KRIMI HD SK,TV Lux HD,Viasat True Crime
-Prima LOVE,Prima LOVE HD SK,TV8,VIXEN HD
-Prima MAX HD,Rebel,Viasat Explore,360TuneBox HD
-Prima Show,Retro,Viasat History HD,
-Prima STAR,RTVS ŠPORT HD,Viasat Nature HD,
-Prima ZOOM HD,RTVS 24 HD,Viasat True Crime,
-Rebel,Senzi,VIXEN HD,
-Retro,Sky News International,360TuneBox HD,
-RTVS 24 HD,Spektrum HD,,
+Premium,Premium,TA3 HD,Viasat Epic Drama HD
+Prima COOL HD,Prima COOL HD SK,Televize Seznam,Viasat Explore
+Prima HD,Prima HD SK,TV Barrandov,Viasat History HD
+Prima KRIMI HD,Prima KRIMI HD SK,TV Lux HD,Viasat Nature HD
+Prima LOVE,Prima LOVE HD SK,TV8,Viasat True Crime
+Prima MAX HD,Rebel,Viasat Epic Drama HD,VIXEN HD
+Prima Show,Retro,Viasat Explore,360TuneBox HD
+Prima STAR,RTVS ŠPORT HD,Viasat History HD,
+Prima ZOOM HD,RTVS 24 HD,Viasat Nature HD,
+Rebel,Senzi,Viasat True Crime,
+Retro,Sky News International,VIXEN HD,
+RTVS 24 HD,Spektrum HD,360TuneBox HD,
 Senzi,Spektrum Home,,
 Sky News International,Sport 1 DE,,
 Spektrum HD,Sport 1 HD,,
@@ -120,11 +119,12 @@ STORY4,TA3 HD,,
 Šláger Muzika,TV Lux HD,,
 Šláger Originál,TV Paprika,,
 TA3 HD,TV8,,
-Televize Seznam,Viasat Explore,,
-TV Barrandov,Viasat History HD,,
-TV Lux HD,Viasat Nature HD,,
-TV Paprika,Viasat True Crime,,
-TV8,VIXEN HD,,
+Televize Seznam,Viasat Epic Drama HD,,
+TV Barrandov,Viasat Explore,,
+TV Lux HD,Viasat History HD,,
+TV Paprika,Viasat Nature HD,,
+TV8,Viasat True Crime,,
+Viasat Epic Drama HD,VIXEN HD,,
 Viasat Explore,360TuneBox HD,,
 Viasat History HD,,,
 Viasat Nature HD,,,

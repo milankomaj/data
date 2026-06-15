@@ -36,7 +36,7 @@ logo  | **name** | channelNumber
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/6f8a77da26a88ed1dc01c3bf0335831c.svg) | **Doma** | 11
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/06e9c17779fa6446a8741f7369c4e276.svg) | **Duck TV Plus** | 121
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/ebedc1453f7aa2820299843cf9fa5959.svg) | **Duck TV** | 120
-![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/dbcdc98ea8db55d1ac282a3361aa6ff2.svg) | **Dvojka** | 2
+![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/2d1d0586c663d0e25b2588c304c010fe.svg) | **Dvojka** | 2
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/e25b013f7698ca62a7fbd8f943b50f5a.svg) | **English Club TV** | 85
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/de2d073da38fb91246eba917c1c78c85.svg) | **Espreso TV** | 162
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/e5a6dc3a41bfc9899cc31e7d00ab0b86.svg) | **Euronews** | 165
@@ -45,12 +45,12 @@ logo  | **name** | channelNumber
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/b37a4372a4b1fcfe48625f6e79d7b803.svg) | **FashionBox** | 109
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/b3787cf05b2d7c45d85df9a4bd463ef1.svg) | **Fast and Funbox** | 110
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/d041441ede9d38de342dded720b81cd9.svg) | **FightBox** | 107
-![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/4560d8e1a2a94e0ff49d077e5bf28693.svg) | **Filmbox Arthouse** | 108
-![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/34790002afbeaec3aefb15eebe69059a.svg) | **FilmBox Extra** | 103
-![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/55de4cad03d4cf2bc5f250ecde34e710.svg) | **FilmBox Family** | 105
-![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/d03d8019b5d554bdda07411b1125eb37.svg) | **FilmBox Premium** | 104
-![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/dffd645341e06809a86df54882ea2a54.svg) | **FilmBox Stars** | 106
-![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/391528aa0c3f572dc22822ee4f3525a4.svg) | **FilmBox** | 102
+![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/a0c4ca881aa260e0dc1387f8357e065b.svg) | **FilmBox+ Comedy** | 105
+![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/55c2c4b3ac7161b8276ec10624703f3a.svg) | **FilmBox+ Emotion** | 103
+![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/6d0198d5d67f60a0d14d54be3c2d0d1e.svg) | **Filmbox+ Festival** | 108
+![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/56c7fb6f7d9239432a91737d3ec76d64.svg) | **FilmBox+ hits** | 104
+![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/58fa52e6fdbb5fe9622aa1a4a52429ba.svg) | **FilmBox+ Love & Crime** | 106
+![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/3a8703ed1c21c6de630ec761773b3288.svg) | **FilmBox+ One** | 102
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/2b999ab7d2f48e7f093f316704cd8e9c.svg) | **Film +** | 98
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/d64563947022edf4be13172dd289f166.svg) | **Fishing&Hunting** | 91
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/23298e5fe2550ce68c1d9b85f6990c69.svg) | **Folklorika** | 31
@@ -66,7 +66,7 @@ logo  | **name** | channelNumber
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/475fd95b51e068db7e81c8f77c93d5dc.svg) | **History Channel** | 77
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/04d055bb2543bcd043e6229549d4e5d1.svg) | **History 2** | 78
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/bd3bb1f3d23a076269b282f01d738020.svg) | **ID** | 71
-![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/b5999a971c61bce3f20e6dd45d070ffd.svg) | **Jednotka** | 1
+![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/f13c78708f39ca1636bbaf3a4ef2621f.svg) | **Jednotka** | 1
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/a98cbd6d7e123fa422d34ceb458dc2c7.svg) | **JimJam** | 118
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/fb2c6fd9262372f9ea9ce827111160f7.svg) | **JOJ Cinema +1** | 19
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/800244a29155204f4df7cf9e15f604ab.svg) | **JOJ Cinema** | 18
@@ -129,7 +129,7 @@ logo  | **name** | channelNumber
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/41e74714b12712232e3e167ca1896957.svg) | **STINGRAY iConcerts** | 185
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/837798f7f304319a84ef7ad33cea30b1.svg) | **Šláger Muzika** | 34
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/31783e22e974d5bbfc283d003dc0c1c9.svg) | **Šláger Originál** | 33
-![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/147bd98d103f68f076595a7a52677af1.svg) | **:Šport** | 4
+![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/4bf5398686cc1da9a2a689331db48262.svg) | **:Šport** | 4
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/a92a0127acea617b5931733cd6f39107.svg) | **TA3** | 20
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/4281a54d8760b93e6dd4a4a87334207a.svg) | **TLC** | 74
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/68d873953ac35046b66b4afa67ab86ff.svg) | **Travel Channel** | 73
@@ -146,5 +146,5 @@ logo  | **name** | channelNumber
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/33af6b8f81e29b18629c900899406b46.svg) | **TV Zemplín** | 141
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/ed0f19faa4a0aa0ff4404ee053f51f11.svg) | **TV8** | 153
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/0bf4080e907782384db773cfb2b372ca.svg) | **UA TV** | 161
-![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/379063b64e1f269a4f77e507842577aa.svg) | **:24** | 3
+![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/dc6340bba5bbda8ecd76aa382836457c.svg) | **:24** | 3
 ![](https://static.maxim.iptv.antik.sk/app/assets/upload/channels/99ae00120f0312e62e8ce3d2fb41d004.svg) | **360 TuneBox** | 112

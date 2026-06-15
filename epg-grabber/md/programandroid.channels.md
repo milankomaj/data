@@ -60,11 +60,11 @@ logo  | **name** | channelNumber
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/eurosport2.png) | **Eurosport 2** | 78|101|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/extasy.png) | **Extasy** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/extasy4k.png) | **Extasy 4K Platinum** | ||
-![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/filmboxhd.png) | **Filmbox Extra HD** | 28|79|
-![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/filmboxfamily.png) | **Filmbox Family** | 31|83|
-![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/filmbox-premium.png) | **Filmbox Premium** | 27|82|
-![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/filmboxstars.png) | **Filmbox Stars** | 30|81|
-![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/filmbox.png) | **Filmbox** | 29|80|
+![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/filmboxfamily.png) | **Filmbox+ comedy** | 31|83|
+![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/filmboxhd.png) | **Filmbox+ emotion** | 28|79|
+![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/filmbox-premium.png) | **Filmbox+ hits** | 27|82|
+![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/filmboxstars.png) | **Filmbox+ love&crime** | 30|81|
+![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/filmbox.png) | **Filmbox+ one** | 29|80|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/filmeuropeplus.png) | **Film Europe +** | ||
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/filmeurope.png) | **Film Europe** | 37|85|
 ![](https://www.sms.cz/kategorie/televize/bmp/loga/velka/film_plus.png) | **Film+** | 41|84|
