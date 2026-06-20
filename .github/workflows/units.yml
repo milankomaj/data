@@ -45,7 +45,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       # OPRAVA: Opravená syntax podmienky (spojené do jedného výrazu)
       - name: localle
@@ -110,7 +110,7 @@ jobs:
 
     steps:
      # Artifacts download
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           sparse-checkout: |
            epg-grabber/scripts/combine-xml.sh
