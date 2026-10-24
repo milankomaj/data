@@ -57,6 +57,7 @@ jobs:
           chmod +x ./scripts/skylink_balicky.sh
           chmod +x ./scripts/programandroid_list_xq.sh
           chmod +x ./scripts/mujtvprogram_list_xq.sh
+          chmod +x ./scripts/canalplus_list_curl.sh
           # chmod +x ./scripts/r-chanells.sh
           chmod +x ./scripts/csv2md.sh
           chmod +x ./scripts/align.sh
@@ -75,6 +76,7 @@ jobs:
           ./scripts/filmbox_list_curl.sh
           ./scripts/iprima_list_curl.sh
           ./scripts/skylink_balicky.sh
+          ./scripts/canalplus_list_curl.sh
           # ./scripts/r-chanells.sh
           ./scripts/csv2md.sh
           ./scripts/align.sh
